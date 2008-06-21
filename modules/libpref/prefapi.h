@@ -246,7 +246,8 @@ void PREF_ReaderCallback( void *closure,
                           PrefValue   value,
                           PrefType    type,
                           bool        isDefault,
-                          bool        isStickyDefault);
+                          bool        isStickyDefault,
+                          bool        isLocked);
 
 
 /*
