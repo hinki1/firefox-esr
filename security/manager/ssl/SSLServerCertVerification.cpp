@@ -534,7 +534,7 @@ CertErrorRunnable::CheckCertOverrides()
                                                mDefaultErrorCodeToReport);
   }
 
-  if (!strictTransportSecurityEnabled && !hasPinningInformation) {
+  if (!hasPinningInformation) {
     MOZ_LOG(gPIPNSSLog, LogLevel::Debug,
            ("[%p][%p] no HSTS or HPKP - overrides allowed\n",
             mFdForLogging, this));
