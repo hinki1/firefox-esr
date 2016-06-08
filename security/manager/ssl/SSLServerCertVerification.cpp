@@ -534,10 +534,7 @@ CertErrorRunnable::CheckCertOverrides()
                                                mDefaultErrorCodeToReport);
   }
 
-  if (!hasPinningInformation) {
-    MOZ_LOG(gPIPNSSLog, LogLevel::Debug,
-           ("[%p][%p] no HSTS or HPKP - overrides allowed\n",
-            mFdForLogging, this));
+  if (1) {
     nsCOMPtr<nsICertOverrideService> overrideService =
       do_GetService(NS_CERTOVERRIDE_CONTRACTID);
     // it is fine to continue without the nsICertOverrideService
