@@ -347,6 +347,9 @@ AtomicOperations::isLockfree(int32_t size)
 #  include "jit/none/AtomicOperations-ppc.h"
 #elif defined(__sh__)
 #  include "jit/none/AtomicOperations-ppc.h"
+# elif defined(__s390__)
+  // The sparc file is more or less generic and works on s390x.
+#  include "jit/none/AtomicOperations-sparc.h"
 # else
 #  include "jit/none/AtomicOperations-none.h" // These MOZ_CRASH() always
 # endif
