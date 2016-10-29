@@ -347,6 +347,8 @@ AtomicOperations::isLockfree(int32_t size)
 #  include "jit/none/AtomicOperations-feeling-lucky.h"
 # elif defined(__sh__)
 #  include "jit/none/AtomicOperations-feeling-lucky.h"
+# elif defined(__s390__)
+#  include "jit/none/AtomicOperations-feeling-lucky.h"
 # else
 #  include "jit/none/AtomicOperations-none.h" // These MOZ_CRASH() always
 # endif
