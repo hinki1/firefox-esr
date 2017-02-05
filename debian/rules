@@ -310,30 +310,6 @@ endif
 		TAR_CREATE_FLAGS="--exclude=.mkdir.done --hard-dereference -chf" \
 		SIGN_NSS=
 
-	# Fixup permissions
-	find debian/tmp/usr/share debian/tmp/usr/include -type f -print0 | xargs -0 chmod 644
-	chmod +x debian/tmp/usr/lib/$($(PRODUCT))-devel-$(GRE_VERSION)/sdk/bin/xpcshell
-
-	# Replace some installed files by symlinks
-	for d in lib bin; do \
-		cd "$(CURDIR)/debian/tmp/usr/lib/$($(PRODUCT))-devel-$(GRE_VERSION)/sdk/$$d"; \
-		for f in *; do \
-			if [ -f "$(CURDIR)/debian/tmp$(LIB_DIR)/$$f" ]; then \
-				rm -f $$f ; ln -s $(LIB_DIR)/$$f $$f; \
-			fi; \
-		done; \
-	done
-
-ifneq (,$(USE_SYSTEM_NSPR)$(USE_SYSTEM_NSS))
-	for f in $(if $(USE_SYSTEM_NSPR),/usr/include/nspr/*) $(if $(USE_SYSTEM_NSS),/usr/include/nss/*); do \
-		ln -s $$f debian/tmp/usr/include/$($(PRODUCT))-$(GRE_VERSION)/$$(basename $$f); \
-	done
-endif
-	for h in $$(grep -l -r EXPORTS build-$(PRODUCT)/media | grep Makefile$ | \
-		while read f; do $(MAKE) --no-print-directory -C $$(dirname $$f) echo-variable-EXPORTS echo-variable-EXPORTS_NAMESPACES; done); do \
-		rm -rf debian/tmp/usr/include/$($(PRODUCT))-$(GRE_VERSION)/$$h; \
-	done
-
 	-TZ=UTC unzip -d debian/tmp$(LIB_DIR)/browser debian/tmp$(LIB_DIR)/browser/omni.ja 'defaults/preferences/*'
 
 MPL-1.1: gfx/cairo/cairo/COPYING-MPL-1.1

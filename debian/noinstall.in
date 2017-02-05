@@ -4,5 +4,3 @@ usr/lib/@browser@/removed-files
 usr/lib/@browser@/@browser@-bin
 usr/lib/@browser@/browser/defaults/preferences/firefox-l10n.js
 usr/lib/@browser@/dictionaries
-usr/include/@browser@-@GRE_VERSION@/testing
-usr/lib/@browser@-devel-@GRE_VERSION@/sdk/bin/ply

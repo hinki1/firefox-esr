@@ -165,54 +165,6 @@ Description: Debugging symbols for Iceweasel - Transitional package
 %endif
 %endif
 
-Package: @browser@-dev
-Section: libdevel
-Architecture: any
-Depends: ${shlibs:Depends},
-         ${misc:Depends},
-         python-ply,
-%if USE_SYSTEM_NSS
-         libnss3-dev,
-%endif
-%if USE_SYSTEM_NSPR
-         libnspr4-dev,
-%endif
-         @browser@ (= ${binary:Version})
-Conflicts: xulrunner-dev,
-%if browser != firefox
-           firefox-dev
-%endif
-%if TRANSITION
-Breaks: iceweasel-dev (<< 45)
-Replaces: iceweasel-dev (<< 45)
-Provides: iceweasel-dev
-%endif
-Description: Development files for the Gecko engine library
- This library provides an  API for XUL applications and Gecko embedders.
- The Gecko engine is the core of the mozilla.org applications such as
- Firefox, Thunderbird or SeaMonkey.
- .
- Gecko features include XPCOM, networking, DOM editing and transaction
- support, XBL, XUL, SVG, XSLT, XML Extras (XMLHttpRequest and DOMParser),
- Web Services (SOAP), accessibility support, IPC services, gtkmozembed, etc.
- .
- Install this package if you wish to embed the Gecko engine in your
- program or want to develop XPCOM components.
- .
- This package also provides the Xulrunner Software Development Kit in the
- same form as the one you may find on mozilla.org in /usr/lib/xulrunner/sdk.
-Homepage: http://wiki.mozilla.org/XUL:Lib_XUL
-%if TRANSITION
-
-Package: iceweasel-dev
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: @browser@-dev, ${misc:Depends}
-Description: Development files for the Gecko engine library - Transitional package
- This is a transitional package, it can be safely removed.
-%endif
-
 Package: @browser@-l10n-all
 Architecture: all
 Section: metapackages
