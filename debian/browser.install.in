@@ -79,7 +79,7 @@ usr/lib/@browser@/browser/chrome.manifest
 
 usr/lib/@browser@/@ICU_DATA_FILE@
 
-usr/lib/@browser@/gmp-clearkey/0.1/clearkey.info
+usr/lib/@browser@/gmp-clearkey/0.1/manifest.json
 usr/lib/@browser@/gmp-clearkey/0.1/libclearkey.so
 
 %if CRASH_REPORTER
