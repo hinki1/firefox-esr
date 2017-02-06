@@ -19,9 +19,9 @@ PYTHON := python -B
 PRODUCT := browser
 include debian/upstream.mk
 
-SYSTEM_LIBS = zlib bz2 hunspell ffi libevent
+SYSTEM_LIBS = zlib bz2 ffi libevent
 ifeq (,$(filter wheezy jessie,$(BACKPORT)))
-SYSTEM_LIBS += nspr nss sqlite vpx
+SYSTEM_LIBS += hunspell nspr nss sqlite vpx
 endif
 # Until the required version of sqlite can be in Debian.
 SYSTEM_LIBS := $(filter-out sqlite, $(SYSTEM_LIBS))
