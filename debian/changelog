@@ -1,6 +1,31 @@
-firefox (53.0-1) UNRELEASED; urgency=medium
+firefox (53.0-1) unstable; urgency=medium
 
   * New upstream release.
+  * Fixes for mfsa2017-10, also known as:
+    CVE-2017-5433, CVE-2017-5435, CVE-2017-5436, CVE-2017-5459,
+    CVE-2017-5466, CVE-2017-5434, CVE-2017-5432, CVE-2017-5460,
+    CVE-2017-5438, CVE-2017-5439, CVE-2017-5440, CVE-2017-5441,
+    CVE-2017-5442, CVE-2017-5464, CVE-2017-5443, CVE-2017-5444,
+    CVE-2017-5446, CVE-2017-5447, CVE-2017-5465, CVE-2017-5448,
+    CVE-2017-5454, CVE-2017-5455, CVE-2017-5456, CVE-2017-5469,
+    CVE-2017-5445, CVE-2017-5449, CVE-2017-5451, CVE-2017-5467,
+    CVE-2017-5453, CVE-2017-5458, CVE-2017-5468, CVE-2017-5430,
+    CVE-2017-5429.
+
+  * debian/control*:
+    - Bump nss and hunspell build dependencies.
+  * debian/browser-dev*, debian/control*, debian/noinstall.in,
+    debian/rules: Remove the -dev packages, there is no SDK provided
+    for Firefox anymore.
+  * debian/browser.install.in: Install manifest.json instead of clearkey.info.
+  * debian/rules:
+    - No system hunspell for backports.
+    - Build against system nspr/nss, experimental has the right versions.
+  * debian/browser.mozconfig.in, debian/control*, debian/rules: Always enable
+    rust, and bump the rustc dependency. As of version 54, it is not possible
+    to disable rust code anymore. While this is still version 53, there is not
+    much to win by keeping --disable-rust builds on Debian architectures
+    without rustc for 6 more weeks.
 
  -- Mike Hommey <glandium@debian.org>  Wed, 19 Apr 2017 14:50:13 +0900
 
