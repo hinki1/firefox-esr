@@ -1333,7 +1333,7 @@ pref("dom.debug.propagate_gesture_events_through_content", false);
 // Geolocation preferences for the RELEASE and "later" Beta channels.
 // Some of these prefs are specified even though they are redundant; they are
 // here for clarity and end-user experiments.
-#ifndef EARLY_BETA_OR_EARLIER
+#if !defined(EARLY_BETA_OR_EARLIER) && defined(GOOGLE_API_KEY)
 pref("geo.wifi.uri", "https://www.googleapis.com/geolocation/v1/geolocate?key=%GOOGLE_API_KEY%");
 
 #ifdef XP_MACOSX
