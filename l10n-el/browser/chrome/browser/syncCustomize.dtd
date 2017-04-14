@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY syncCustomize.dialog.title       "Επιλογή Συγχρονισμού">
+<!ENTITY syncCustomize.dialog.title       "Επιλογή συγχρονισμού">
 <!ENTITY syncCustomize.acceptButton.label "Έναρξη">
 
 <!ENTITY syncCustomize.title              "Τι θα θέλατε να συγχρονίσετε;">
@@ -17,7 +17,7 @@
 <!ENTITY engine.bookmarks.accesskey       "δ">
 <!ENTITY engine.history.label             "Ιστορικό">
 <!ENTITY engine.history.accesskey         "κ">
-<!ENTITY engine.tabs.label                "Καρτέλες">
+<!ENTITY engine.tabs.label2               "Άνοιγμα καρτελών">
 <!ENTITY engine.tabs.accesskey            "Κ">
 <!ENTITY engine.passwords.label           "Κωδικοί πρόσβασης">
 <!ENTITY engine.passwords.accesskey       "ω">

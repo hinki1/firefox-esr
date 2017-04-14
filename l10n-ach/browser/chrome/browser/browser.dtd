@@ -113,7 +113,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllTabsCmd.accesskey "w">
 <!ENTITY toggleReaderMode.key "R">
 
-<!ENTITY fxaSignIn.label "Dony iye &syncBrand.shortName.label;">
+<!ENTITY fxaSignIn.label "Dony iyie &syncBrand.shortName.label;">
 <!ENTITY fxaSignedIn.tooltip "Yab ter me &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "Nwo kube bot &syncBrand.shortName.label;">
 <!ENTITY fxaUnverified.label "Mok akaunt mamegi">
@@ -165,7 +165,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
   -  Use the unicode ellipsis char, \u2026,
   -  or use "..." if \u2026 doesn't suit traditions in your locale. -->
 <!ENTITY findShareServices.label "Nong tic me nywak mapol…">
-<!ENTITY sharePageCmd.label "Nwyak pot buk man">
+<!ENTITY sharePageCmd.label "Nywak pot buk man">
 <!ENTITY sharePageCmd.commandkey "S">
 <!ENTITY sharePageCmd.accesskey "a">
 <!-- LOCALIZATION NOTE (shareLink.accesskey): must be different than the following share access keys -->
@@ -175,7 +175,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY shareImage.accesskey "w">
 <!ENTITY shareSelect.label "Nywak Yer">
 <!ENTITY shareSelect.accesskey "w">
-<!ENTITY shareVideo.label "Nwyak video man">
+<!ENTITY shareVideo.label "Nwyak vidio man">
 <!ENTITY shareVideo.accesskey "y">
 <!ENTITY feedsMenu2.label "Cone i pot buk man">
 <!ENTITY subscribeToPageMenupopup.label "Cone i pot buk man">
@@ -349,19 +349,21 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.viewSidebar.label "Nen gintic me gin mukato">
 <!ENTITY appMenuHelp.tooltip "Yab lakony me nying gin ayera">
 
-<!ENTITY appMenuRemoteTabs.label "Dirica matino ma kitimo marom">
+<!ENTITY appMenuRemoteTabs.label "Dirica matino ma kiribo">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "Dirica matino pe ayaba">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
+<!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "Cak ribo dirica matidi me neno nying dirica matino ki i nyonyo ni mukene.">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.noclients.label): This is shown
      when Sync is configured but this appears to be the only device attached to
      the account. We also show links to download Firefox for android/ios. -->
+<!ENTITY appMenuRemoteTabs.noclients.title "Dirica matino ma kiribo pud pe tye!">
 <!ENTITY appMenuRemoteTabs.noclients.subtitle "imito neno dirica matino ki nyonyo mukene?">
-<!ENTITY appMenuRemoteTabs.openprefs.label "Ter me timo marom">
+<!ENTITY appMenuRemoteTabs.openprefs.label "Ter me rib">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Dony iyie me neno nying dirica matino ki i nyonyo ni mukene.">
-<!ENTITY appMenuRemoteTabs.signin.label "Dony iyie me timo marom">
+<!ENTITY appMenuRemoteTabs.signin.label "Dony iyie me ribo">
 
 
 <!ENTITY customizeMenu.addToToolbar.label "Med bot gintic">
@@ -471,7 +473,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openFrameCmdInTab.accesskey  "d">
 <!ENTITY openFrameCmd.label           "Yab pem i dirica manyen">
 <!ENTITY openFrameCmd.accesskey       "d">
-<!ENTITY openLinkCmdInContainerTab.label "Yab lakub kin jami i Dirica me Lamak Jami Manyen">
+
 
 <!ENTITY showOnlyThisFrameCmd.label     "Nyut pem man keken">
 <!ENTITY showOnlyThisFrameCmd.accesskey "N">
@@ -499,7 +501,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewImageInfoCmd.accesskey   "e">
 <!ENTITY viewImageDescCmd.label       "Nen lok kome">
 <!ENTITY viewImageDescCmd.accesskey   "k">
-<!ENTITY viewVideoCmd.label           "Nen Video">
+<!ENTITY viewVideoCmd.label           "Nen Vidio">
 <!ENTITY viewVideoCmd.accesskey       "e">
 <!ENTITY viewBGImageCmd.label         "Nen cal me ngeye">
 <!ENTITY viewBGImageCmd.accesskey     "n">
@@ -525,15 +527,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY saveLinkCmd.accesskey        "e">
 <!ENTITY saveImageCmd.label           "Gwok cal calo…">
 <!ENTITY saveImageCmd.accesskey       "k">
-<!ENTITY saveVideoCmd.label           "Gwok video calo…">
+<!ENTITY saveVideoCmd.label           "Gwok vidio calo…">
 <!ENTITY saveVideoCmd.accesskey       "v">
 <!ENTITY saveAudioCmd.label           "Gwok dwon calo…">
 <!ENTITY saveAudioCmd.accesskey       "o">
 <!ENTITY emailImageCmd.label          "Cwal cal…">
 <!ENTITY emailImageCmd.accesskey      "l">
-<!ENTITY emailVideoCmd.label          "Cwal video…">
+<!ENTITY emailVideoCmd.label          "Cwal vidio…">
 <!ENTITY emailVideoCmd.accesskey      "l">
-<!ENTITY castVideoCmd.label           "Cwal video bot nyonyo">
+<!ENTITY castVideoCmd.label           "Cwal vidio bot nyonyo">
 <!ENTITY castVideoCmd.accesskey       "a">
 <!ENTITY emailAudioCmd.label          "Cwal dwon…">
 <!ENTITY emailAudioCmd.accesskey      "l">
@@ -547,7 +549,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY copyImageCmd.accesskey       "o">
 <!ENTITY copyImageContentsCmd.label   "Lok cal">
 <!ENTITY copyImageContentsCmd.accesskey  "k"> 
-<!ENTITY copyVideoURLCmd.label        "Lok kabedo me video">
+<!ENTITY copyVideoURLCmd.label        "Lok kabedo me vidio">
 <!ENTITY copyVideoURLCmd.accesskey    "o">
 <!ENTITY copyAudioURLCmd.label        "Lok kabedo me dwon">
 <!ENTITY copyAudioURLCmd.accesskey    "o">
@@ -698,7 +700,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Kigwoko potbuk man i kompiuta mamegi.">
 <!ENTITY identity.connectionVerified2 "Itye ki kube maber ki kakube man, rwode aye:">
 <!ENTITY identity.connectionInternal "Man potbuk me &brandShortName; matye ki ber bedo.">
-
+<!ENTITY identity.insecureLoginForms2 "Donyo iyie ma kiketo gi i potbuk man twero bedo ki goro.">
 <!-- Strings for connection state warnings. -->
 
 <!ENTITY identity.activeBlocked "&brandShortName; ogengo but potbuk man ma pe tye ki ber bedo.">
@@ -730,28 +732,34 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.permissions "Rukuca">
 <!ENTITY identity.permissionsEmpty "Pe imiyo ki kakube man kit twer madito mo keken.">
-
+<!ENTITY identity.permissionsReloadHint "Twero mite ni myero i nwo cano potbuk wek alokaloka otime.">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
 
 <!ENTITY tabsToolbar.label "Dirica matino me layeny">
 <!-- LOCALIZATION NOTE (syncTabsMenu3.label): This appears in the history menu -->
 
-<!ENTITY syncTabsMenu3.label     "Dirica matino ma kitimo marom">
+<!ENTITY syncTabsMenu3.label     "Dirica matino ma kiribo">
 
+<!ENTITY syncedTabs.sidebar.label              "Dirica matino ma kiribo">
 <!ENTITY syncedTabs.sidebar.noclients.label    "Dony iyie Firefox ki i nyonyo ni mukene me neno dirica matino gi kany.">
-<!ENTITY syncedTabs.sidebar.noclients.title    "Dirica matino ma kitimo marom pud petye!">
+<!ENTITY syncedTabs.sidebar.noclients.title    "Dirica matino ma kiribo pud pe tye!">
 <!ENTITY syncedTabs.sidebar.noclients.subtitle "Imito neno dirica matino ni ki i nyonyo mukene kany?">
 
 <!ENTITY syncedTabs.sidebar.notabs.label       "Dirica matino pe ayaba">
 <!ENTITY syncedTabs.sidebar.openprefs.label    "Yab ter me &syncBrand.shortName.label;">
 <!-- LOCALIZATION NOTE (syncedTabs.sidebar.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
+<!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "Cak ribo dirica matidi me neno nying dirica matino ki i nyonyo ni mukene.">
+<!-- LOCALIZATION NOTE (syncedTabs.context.open.accesskey,
+                        syncedTabs.context.openAllInTabs.accesskey):
+     These access keys are identical because their associated menu items are
+     mutually exclusive -->
 
 <!ENTITY syncedTabs.context.open.label                       "Yab">
 <!ENTITY syncedTabs.context.open.accesskey                   "Y">
-
-
+<!ENTITY syncedTabs.context.openInNewTab.label               "Yab i dirica matidi manyen">
+<!ENTITY syncedTabs.context.openInNewTab.accesskey           "a">
 <!ENTITY syncedTabs.context.openInNewWindow.label            "Yab i dirica manyen">
 <!ENTITY syncedTabs.context.openInNewWindow.accesskey        "m">
 <!ENTITY syncedTabs.context.openInNewPrivateWindow.label     "Yab i dirica manyen me mung">
@@ -761,16 +769,19 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.context.copy.label                       "Lok">
 <!ENTITY syncedTabs.context.copy.accesskey                   "L">
 
+<!ENTITY syncedTabs.context.openAllInTabs.label              "Yab weng i dirica matino">
+<!ENTITY syncedTabs.context.openAllInTabs.accesskey          "Y">
 
-<!ENTITY syncBrand.shortName.label    "Tim marom">
 
-<!ENTITY syncSignIn.label             "Dony iye &syncBrand.shortName.label;…">
+<!ENTITY syncBrand.shortName.label    "Ribo">
+
+<!ENTITY syncSignIn.label             "Dony iyie &syncBrand.shortName.label;…">
 <!ENTITY syncSignIn.accesskey         "Y">
-<!ENTITY syncSyncNowItem.label        "Tim marom Kombedi">
-<!ENTITY syncSyncNowItem.accesskey    "T">
+<!ENTITY syncSyncNowItem.label        "Rib Kombedi">
+<!ENTITY syncSyncNowItem.accesskey    "R">
 <!ENTITY syncReAuthItem.label         "Nwo kube bot &syncBrand.shortName.label;…">
 <!ENTITY syncReAuthItem.accesskey     "N">
-<!ENTITY syncToolbarButton.label      "Tim marom">
+<!ENTITY syncToolbarButton.label      "Ribo">
 
 <!ENTITY social.addons.label "Lor tic…">
 

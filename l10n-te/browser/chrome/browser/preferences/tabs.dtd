@@ -8,14 +8,14 @@
 <!ENTITY newWindowsAsTabs.label       "కొత్త విండోలను కొత్త ట్యాబులో తెరువు">
 <!ENTITY newWindowsAsTabs.accesskey   "t">
 
-<!ENTITY warnCloseMultipleTabs.label  "పలు ట్యాబులను మూసివేస్తున్నప్పుడు నన్ను హెచ్చరించు">
-<!ENTITY warnCloseMultipleTabs.accesskey  "m">
+<!ENTITY warnOnCloseMultipleTabs.label      "పలు ట్యాబులను మూసివేస్తున్నప్పుడు మిమ్మల్ని హెచ్చరించు">
+<!ENTITY warnOnCloseMultipleTabs.accesskey  "m">
 
-<!ENTITY warnOpenManyTabs.label       "ఎక్కువ ట్యాబులు తెరిచినప్పుడు &brandShortName; నెమ్మదిస్తుందనుకుంటే నన్ను హెచ్చరించు">
-<!ENTITY warnOpenManyTabs.accesskey   "d">
+<!ENTITY warnOnOpenManyTabs.label       "&brandShortName; నిదానింపు చేయగల బహుళ ట్యాబులను తెరుచునపుడు నిన్ను హెచ్చరించు">
+<!ENTITY warnOnOpenManyTabs.accesskey   "d">
 
-<!ENTITY switchToNewTabs.label        "నేను లింకును కొత్త ట్యాబులో తెరిచినప్పుడు, వెంటనే ఆ ట్యాబుకి మారు">
-<!ENTITY switchToNewTabs.accesskey    "h">
+<!ENTITY switchLinksToNewTabs.label        "మీరు కొత్త ట్యాబుళొ లింకుని తెరిచినప్పుడు, దానికి సత్వరమే మారు">
+<!ENTITY switchLinksToNewTabs.accesskey    "h">
 
 <!ENTITY showTabsInTaskbar.label          "ట్యాబు మునుజూపులను విండోస్ టాస్క్‌బారులో చూపించు">
 <!ENTITY showTabsInTaskbar.accesskey      "k">

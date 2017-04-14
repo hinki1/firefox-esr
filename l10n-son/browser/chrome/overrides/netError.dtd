@@ -112,10 +112,12 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.title "Jinekoyante">
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> ga goy nda dabaribayray saajaw kaŋ žen nd'a feera zanbayyan se. Zanbakaw ga hin ka tanba ka dii alhabar kaŋ war ga tammahã mma sutura.">
 <!ENTITY weakCryptoAdvanced.override "(Ši saajaw) Ceeci ka <span class='hostname'></span> nda saajaw žeena">
-<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
-     please leave them unchanged. -->
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
+                        certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
+     tags will be injected with actual values, please leave them unchanged. -->
 
-<!ENTITY certerror.wrongSystemTime "<p>Dobuyan saajante foo <span id='wrongSystemTime_URL'/> ši hin ka tee zam'a ga hima kaŋ war montoraa ga waati laalaa cebe.</p><p>War ordinateroo mma tammahã kaŋ <span id='wrongSystemTime_systemDate'/> no, waati kaŋ a ga hima ka tee <span id='wrongSystemTime_actualDate'/>. Ka layboo woo kaa, war han nda waati kayandiyaney barmay k'i tenjandi nda waati alhakiikantaa.</p>">
+<!ENTITY certerror.wrongSystemTime2 "<p> &brandShortName; mana hin ka dobu <span id='wrongSystemTime_URL'/> ga zama war ordinateroo montoraa ga waati laala cebe, nd'a ga dobuyan saajante ganji.</p> <p>War ordinateroo n ka kayandi <span id='wrongSystemTime_systemDate'/> ga, waati kaŋ a ga hima ka tee <span id='wrongSystemTime_actualDate'/>. Ka layboo woo kaa, war han nda waati kayandiyaney barmay k'i tenjandi nda waati boryaa.</p>">
+<!ENTITY certerror.wrongSystemTimeWithoutReference "<p>&brandShortName; mana hin ka dobu <span id='wrongSystemTimeWithoutReference_URL'/> ga zama war ordinateroo montoraa ga waati laala cebe, nd'a ga dobuyan saajante ganji.</p> <p>War ordinateroo n ka kayandi <span id='wrongSystemTimeWithoutReference_systemDate'/> ga. Ka layboo woo kaa, war han nda waati kayandiyaney barmay k'i tenjandi nda waati boryaa.</p>">
 
 <!ENTITY certerror.pagetitle1  "Manti ciyari saajante">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Nungoo woo ga goy nda HTTP Strict Transport Security (HSTS) ka tabatandi kaŋ &brandShortName; ka ciya saajante hinne tee a ga. Woo sabboo ra, boro ši hin ka hasaraw tonton tabatiyan-tiiraa woo se.">

@@ -1,0 +1,11 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY     window.title                  "Ayarlar - Site Verileri">
+<!ENTITY     settings.description          "Aşağıdaki web siteleri diskinizde veri depolamayı istedi. Hangi sitelerin site verilerini depolamasına izin vereceğinizi seçebilirsiniz. Varsayılan olarak site verileri geçici olarak depolanır ve kendiliğinden silinebilir.">
+<!ENTITY     hostCol.label                 "Site">
+<!ENTITY     statusCol.label               "Durum">
+<!ENTITY     usageCol.label                "Depolama">
+<!ENTITY     search.label                  "Arama:">
+<!ENTITY     search.accesskey              "A">

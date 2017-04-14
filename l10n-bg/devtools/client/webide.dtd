@@ -32,8 +32,6 @@
 <!ENTITY runtimeMenu_accesskey "д">
 <!ENTITY runtimeMenu_disconnect_label "Изключване">
 <!ENTITY runtimeMenu_disconnect_accesskey "и">
-<!ENTITY runtimeMenu_showPermissionTable_label "Таблица на правата">
-<!ENTITY runtimeMenu_showPermissionTable_accesskey "Т">
 <!ENTITY runtimeMenu_takeScreenshot_label "Снимка на екрана">
 <!ENTITY runtimeMenu_takeScreenshot_accesskey "е">
 <!ENTITY runtimeMenu_showDetails_label "Информация за средата за приложения">
@@ -57,7 +55,7 @@
 <!ENTITY viewMenu_resetzoom_accesskey "Н">
 
 <!ENTITY projectButton_label "Отваряне на приложение">
-<!ENTITY runtimeButton_label "Избиране на среда за приложение">
+<!ENTITY runtimeButton_label "Избиране на среда за приложения">
 
 <!-- We try to repicate Firefox' bindings: -->
 <!-- quit app -->
@@ -141,10 +139,6 @@
 <!ENTITY prefs_options_autosavefiles "Автоматично запазване на файловете">
 <!ENTITY prefs_options_autosavefiles_tooltip "Автоматично запазване на редактираните файлове преди изпълнение">
 
-<!-- Permissions Table -->
-<!ENTITY permissionstable_title "Таблица на правата">
-<!ENTITY permissionstable_name_header "Име">
-
 <!-- Runtime Details -->
 <!ENTITY runtimedetails_title "Информация за средата за приложения">
 <!ENTITY runtimedetails_adbIsRoot "ADB е администратор: ">
@@ -155,8 +149,8 @@
 <!ENTITY runtimedetails_privilegesWarning "(Устройството ще се рестартира. Изисква административен достъп.)">
 
 <!-- Device Preferences and Settings -->
-<!ENTITY device_typeboolean "Булева">
-<!ENTITY device_typenumber "Целочислена">
+<!ENTITY device_typeboolean "Булев">
+<!ENTITY device_typenumber "Целочислен">
 <!ENTITY device_typestring "Низ">
 <!ENTITY device_typeobject "Обект">
 <!ENTITY device_typenone "Избиране на вид">

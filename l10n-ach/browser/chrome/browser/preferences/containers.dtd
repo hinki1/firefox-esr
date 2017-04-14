@@ -2,15 +2,15 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY label.label          "Nying">
 
-
+<!ENTITY removeButton.label   "Kwany">
 <!-- &#171; is &laquo; however it's not defined in XML -->
 
 <!ENTITY window.width         "45em">
 
 <!ENTITY name.label           "Nying:">
 <!ENTITY name.accesskey       "N">
+
 
 
 <!ENTITY color.label          "Rangi:">

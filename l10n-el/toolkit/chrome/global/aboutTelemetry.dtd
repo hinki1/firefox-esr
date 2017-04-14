@@ -11,12 +11,33 @@
 
 
 
+<!ENTITY aboutTelemetry.pingDataSource "
+Πηγή δεδομένων ping:
+">
 
+<!ENTITY aboutTelemetry.showCurrentPingData "
+Δεδομένα τρέχοντος ping
+">
 
+<!ENTITY aboutTelemetry.showArchivedPingData "
+Αρχειοθετημένα δεδομένα ping
+">
 
+<!ENTITY aboutTelemetry.pingDataDisplay "
+Εμφάνιση δεδομένων ping:
+">
 
+<!ENTITY aboutTelemetry.structured "
+Δομημένο
+">
 
+<!ENTITY aboutTelemetry.raw "
+Ακατέργαστη JSON
+">
 
+<!ENTITY aboutTelemetry.showSubsessionData "
+Εμφάνιση δεδομένων υποσυνεδρίας
+">
 
 <!ENTITY aboutTelemetry.choosePing "
 Επιλογή ping:
@@ -56,6 +77,13 @@ Ping
 
 
 
+<!ENTITY aboutTelemetry.capturedStacksSection "
+  Κατειλημμένες Στοίβες
+">
+
+<!ENTITY aboutTelemetry.scalarsSection "
+  Μονόμετρα μεγέθη
+">
 
 <!ENTITY aboutTelemetry.keyedScalarsSection "
   Μονόμετρα μεγέθη με κλειδί
@@ -65,6 +93,13 @@ Ping
   Ιστογράμματα
 ">
 
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+  Ιστογράμματα με κλειδί
+">
+
+<!ENTITY aboutTelemetry.eventsSection "
+  Γεγονότα
+">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
   Απλές μετρήσεις

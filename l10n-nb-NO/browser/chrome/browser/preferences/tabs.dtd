@@ -8,14 +8,14 @@
 <!ENTITY newWindowsAsTabs.label       "Åpne nytt vindu som faner isteden">
 <!ENTITY newWindowsAsTabs.accesskey   "e">
 
-<!ENTITY warnCloseMultipleTabs.label  "Advar ved lukking av flere faner">
-<!ENTITY warnCloseMultipleTabs.accesskey  "A">
+<!ENTITY warnOnCloseMultipleTabs.label      "Advar ved lukking av flere faner">
+<!ENTITY warnOnCloseMultipleTabs.accesskey  "A">
 
-<!ENTITY warnOpenManyTabs.label       "Advar når åpning av mange faner samtidig kan gjøre &brandShortName; treg">
-<!ENTITY warnOpenManyTabs.accesskey   "d">
+<!ENTITY warnOnOpenManyTabs.label       "Advar når åpning av mange faner samtidig kan gjøre &brandShortName; treg">
+<!ENTITY warnOnOpenManyTabs.accesskey   "d">
 
-<!ENTITY switchToNewTabs.label        "Når jeg åpner en lenke i en ny fane, bytt til fanen med en gang">
-<!ENTITY switchToNewTabs.accesskey    "N">
+<!ENTITY switchLinksToNewTabs.label        "Når du åpner en lenke i en ny fane, bytt til fanen med en gang">
+<!ENTITY switchLinksToNewTabs.accesskey    "N">
 
 <!ENTITY showTabsInTaskbar.label          "Vis forhåndsvisning av faner i Windows-oppgavelinjen">
 <!ENTITY showTabsInTaskbar.accesskey      "s">

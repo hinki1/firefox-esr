@@ -70,7 +70,7 @@
 <!ENTITY cutCmd.label "Исеци">
 <!ENTITY cutCmd.key "X">
 <!ENTITY cutCmd.accesskey "с">
-<!ENTITY copyCmd.label "Умножи">
+<!ENTITY copyCmd.label "Ископирај">
 <!ENTITY copyCmd.key "C">
 <!ENTITY copyCmd.accesskey "о">
 <!ENTITY pasteCmd.label "Налепи">
@@ -218,7 +218,7 @@
 <!ENTITY statusLanguageText.tooltip "Језик провере правописа">
 <!ENTITY saveButton.tooltip "Сачувај ову поруку">
 <!ENTITY cutButton.tooltip              "Исеци">
-<!ENTITY copyButton.tooltip             "Умножи">
+<!ENTITY copyButton.tooltip             "Копирај">
 <!ENTITY pasteButton.tooltip            "Налепи">
 <!ENTITY printButton.tooltip "Одштампај ову поруку">
 
@@ -226,9 +226,9 @@
 <!--LOCALIZATION NOTE headersSpace.style is for aligning  the From:, To: and
     Subject: rows. It should be larger than the largest Header label  -->
 <!ENTITY headersSpace.style "width: 9em;">
-<!ENTITY fromAddr.label "Од:">
-<!ENTITY fromAddr.accesskey "д">
-<!ENTITY toAddr.label "За:">
+<!ENTITY fromAddr.label "Шаље:">
+<!ENTITY fromAddr.accesskey "а">
+<!ENTITY toAddr.label "Прима:">
 <!ENTITY ccAddr.label "Коп:">
 <!ENTITY bccAddr.label "сКоп:">
 <!ENTITY replyAddr.label "Одговор-за:">
@@ -269,7 +269,7 @@
 <!ENTITY undo.accesskey "О">
 <!ENTITY cut.label "Исеци">
 <!ENTITY cut.accesskey "ц">
-<!ENTITY copy.label "Умножи">
+<!ENTITY copy.label "Копирај">
 <!ENTITY copy.accesskey "У">
 <!ENTITY paste.label "Налепи">
 <!ENTITY paste.accesskey "Н">

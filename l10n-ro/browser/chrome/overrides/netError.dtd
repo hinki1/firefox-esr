@@ -112,10 +112,12 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.title "Avansat">
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> folosește tehnologie de securitate care este învechită și vulnerabilă la atac. Un atacator ar putea dezvălui cu ușurință informații pe care le credeai a fi în siguranță.">
 <!ENTITY weakCryptoAdvanced.override "(Nesigur) Încearcă încărcarea <span class='hostname'></span> folosind securitate învechită">
-<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
-     please leave them unchanged. -->
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
+                        certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
+     tags will be injected with actual values, please leave them unchanged. -->
 
-<!ENTITY certerror.wrongSystemTime "<p>Conectarea în siguranță la <span id='wrongSystemTime_URL'/> nu este posibilă deoarece ceasul tău pare că arată ora greșită.</p> <p>Calculatorul tău crede că este ora <span id='wrongSystemTime_systemDate'/>, dar ar trebui să fie <span id='wrongSystemTime_actualDate'/>. Pentru a repara această problemă, modifică data și ora sistemului pentru a fi conforme cu realitatea.</p>">
+<!ENTITY certerror.wrongSystemTime2 "<p> &brandShortName; nu s-a conectat la <span id='wrongSystemTime_URL'/> deoarece ceasul calculatorului tău pare că arată ora greșită, iar aceasta împiedică o conexiune securizată.</p> <p>Ceasul calculatorului tău este <span id='wrongSystemTime_systemDate'/>, dar ar trebui să fie <span id='wrongSystemTime_actualDate'/>. Pentru a rezolva această problemă ar trebui să schimbi data și ora de sistem pentru a se potrivi cu cele corecte.</p>">
+<!ENTITY certerror.wrongSystemTimeWithoutReference "<p>&brandShortName; nu s-a conectat la <span id='wrongSystemTimeWithoutReference_URL'/> deoarece ceasul calculatorului tău pare că arată ora greșită, iar aceasta previne o conexiune securizată.</p> <p>Ceasul calculatorului tău arată ora <span id='wrongSystemTimeWithoutReference_systemDate'/>. Pentru a rezolva această problemă ar trebui să schimbi data și ora de sistem pentru a se potrivi cu cele corecte.</p>">
 
 <!ENTITY certerror.pagetitle1  "Conexiune nesigură">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Acest site folosește HTTP Strict Transport Security (HSTS) pentru a specifica că &brandShortName; se poate conecta doar în mod securizat la el. Drept rezultat, nu este posibil să adaugi o excepție acestui certificat.">

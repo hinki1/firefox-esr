@@ -6,11 +6,11 @@
 
 <!ENTITY startupPage.label         "Quande &brandShortName; o s'arve:">
 <!ENTITY startupPage.accesskey     "Q">
-<!ENTITY startupHomePage.label     "Fanni vedde a mæ pagina prinçipâ">
+<!ENTITY startupUserHomePage.label "Fanni vedde a pagina iniçiâ">
 <!ENTITY startupBlankPage.label    "Fanni vedde 'na pagina gianca">
-<!ENTITY startupLastSession.label  "Fanni vedde i mæ barcoin e feuggi averti l'urtima vòtta">
+<!ENTITY startupPrevSession.label  "Fanni vedde i barcoin e feuggi averti l'urtima vòtta">
 
-<!ENTITY homepage.label            "Pagina prinçipâ:">
+<!ENTITY homepage.label            "Pagina Prinçipâ:">
 <!ENTITY homepage.accesskey        "P">
 <!ENTITY useCurrentPage.label      "Adeuvia a pagina corente">
 <!ENTITY useCurrentPage.accesskey  "c">
@@ -28,16 +28,18 @@
 <!ENTITY chooseFolderWin.accesskey    "Ç">
 <!ENTITY chooseFolderMac.label        "Çerni…">
 <!ENTITY chooseFolderMac.accesskey    "i">
-<!ENTITY alwaysAsk.label "Domandime de longo donde sarvâ i file">
-<!ENTITY alwaysAsk.accesskey "f">
-<!ENTITY alwaysCheckDefault2.label "Contròlla de longo se &brandShortName; o l'é o navegatô predefinio">
-<!ENTITY alwaysCheckDefault2.accesskey "t">
-<!ENTITY setAsMyDefaultBrowser2.label "Inpòsta comme navegatô predefinio">
-<!ENTITY setAsMyDefaultBrowser2.accesskey "o">
-<!ENTITY isDefault.label "&brandShortName; o l'é o navegatô predefinio">
-<!ENTITY isNotDefault.label "&brandShortName; o no l'é o navegatô predefinio">
-<!ENTITY separateProfileMode.label "Consenti l’ezegoçion de &brandShortName; e Firefox a-o mæximo tenpo">
-<!ENTITY useFirefoxSync.label "Conseggio: coscì ti devi adeuviâ di profî diversci. Ti peu adeuviâ Sync pe-a scincronizaçion di dæti.">
-<!ENTITY getStarted.label "Inandia Sync…">
-<!ENTITY e10sEnabled.label "Deuvia &brandShortName; in modalitæ moltiprocesso">
+<!ENTITY alwaysAskWhere.label         "Domanda de longo donde sarvâ i file">
+<!ENTITY alwaysAskWhere.accesskey     "D">
 
+<!ENTITY alwaysCheckDefault2.label        "Contròlla de longo se &brandShortName; o l'é o navegatô predefinio">
+<!ENTITY alwaysCheckDefault2.accesskey    "t">
+<!ENTITY setAsMyDefaultBrowser2.label     "Inpòsta comme navegatô predefinio">
+<!ENTITY setAsMyDefaultBrowser2.accesskey "o">
+<!ENTITY isDefault.label                  "&brandShortName; o l'é o navegatô predefinio">
+<!ENTITY isNotDefault.label               "&brandShortName; o no l'é o navegatô predefinio">
+
+<!ENTITY separateProfileMode.label        "Consenti l’ezegoçion de &brandShortName; e Firefox a-o mæximo tenpo">
+<!ENTITY useFirefoxSync.label             "Conseggio: coscì ti devi adeuviâ di profî diversci. Ti peu adeuviâ Sync pe-a scincronizaçion di dæti.">
+<!ENTITY getStarted.label                 "Inandia Sync…">
+
+<!ENTITY e10sEnabled.label                "Deuvia &brandShortName; in modalitæ moltiprocesso">

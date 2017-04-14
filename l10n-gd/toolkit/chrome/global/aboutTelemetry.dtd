@@ -52,6 +52,8 @@
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "  Snàithlean reòite">
 
+<!ENTITY aboutTelemetry.capturedStacksSection "  Stacan glacte">
+
 <!ENTITY aboutTelemetry.scalarsSection "  Scalars">
 
 <!ENTITY aboutTelemetry.keyedScalarsSection "  Keyed Scalars">
@@ -59,6 +61,8 @@
 <!ENTITY aboutTelemetry.histogramsSection "  Histograms">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "  Keyed Histograms">
+
+<!ENTITY aboutTelemetry.eventsSection "  Tachartasan">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "  Tomhaisean simplidh">
 

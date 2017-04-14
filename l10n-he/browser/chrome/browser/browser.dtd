@@ -394,7 +394,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.accesskey             "ח">
 <!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
 <!ENTITY urlbar.extension.label       "הרחבה:">
-<!ENTITY urlbar.switchToTab.label     "עבור ללשונית:">
+<!ENTITY urlbar.switchToTab.label     "מעבר ללשונית:">
 
 <!ENTITY urlbar.searchSuggestionsNotification.question "האם לשפר את חוויית החיפוש שלך בעזרת הצעות?">
 <!ENTITY urlbar.searchSuggestionsNotification.learnMore "מידע נוסף…">
@@ -568,14 +568,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 items are mutually exclusive. -->
 <!ENTITY mediaPlay.label             "ניגון">
 <!ENTITY mediaPlay.accesskey         "נ">
-<!ENTITY mediaPause.label            "השהה">
+<!ENTITY mediaPause.label            "השהיה">
 <!ENTITY mediaPause.accesskey        "ה">
 <!-- LOCALIZATION NOTE: The access keys for "Mute" and
 "Unmute" are the same because the two context-menu
 items are mutually exclusive. -->
 <!ENTITY mediaMute.label             "השתקה">
 <!ENTITY mediaMute.accesskey         "ש">
-<!ENTITY mediaUnmute.label           "בטל השתקה">
+<!ENTITY mediaUnmute.label           "ביטול השתקה">
 <!ENTITY mediaUnmute.accesskey       "ש">
 <!ENTITY mediaPlaybackRate2.label     "מהירות נגינה">
 <!ENTITY mediaPlaybackRate2.accesskey "נ">
@@ -599,11 +599,11 @@ fast. -->
 items are mutually exclusive. -->
 <!ENTITY mediaShowControls.label     "הצגת פקדים">
 <!ENTITY mediaShowControls.accesskey "פ">
-<!ENTITY mediaHideControls.label     "הסתר פקדים">
+<!ENTITY mediaHideControls.label     "הסתרת פקדים">
 <!ENTITY mediaHideControls.accesskey "פ">
 <!ENTITY videoFullScreen.label       "מסך מלא">
 <!ENTITY videoFullScreen.accesskey   "מ">
-<!ENTITY videoSaveImage.label        "שמור צילום בשם…">
+<!ENTITY videoSaveImage.label        "שמירת צילום בשם…">
 <!ENTITY videoSaveImage.accesskey    "צ">
 <!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
 "Hide Statistics" are the same because the two context-menu
@@ -756,6 +756,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "יש להפעיל סנכרון כדי לצפות ברשימת הלשוניות שלך מהתקנים אחרים.">
 
+<!-- LOCALIZATION NOTE (syncedTabs.context.open.accesskey,
+                        syncedTabs.context.openAllInTabs.accesskey):
+     These access keys are identical because their associated menu items are
+     mutually exclusive -->
 <!ENTITY syncedTabs.context.open.label                       "פתיחה">
 <!ENTITY syncedTabs.context.open.accesskey                   "פ">
 <!ENTITY syncedTabs.context.openInNewTab.label               "פתיחה בלשונית חדשה">
@@ -768,6 +772,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "ס">
 <!ENTITY syncedTabs.context.copy.label                       "העתקה">
 <!ENTITY syncedTabs.context.copy.accesskey                   "ע">
+
+<!ENTITY syncedTabs.context.openAllInTabs.label              "פתיחת הכל בלשוניות">
+<!ENTITY syncedTabs.context.openAllInTabs.accesskey          "פ">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">

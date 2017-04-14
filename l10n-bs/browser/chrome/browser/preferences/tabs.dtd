@@ -8,14 +8,14 @@
 <!ENTITY newWindowsAsTabs.label       "Otvaraj nove prozore u novim tabovima">
 <!ENTITY newWindowsAsTabs.accesskey   "t">
 
-<!ENTITY warnCloseMultipleTabs.label  "Upozori me kada zatvaram više tabova">
-<!ENTITY warnCloseMultipleTabs.accesskey  "m">
+<!ENTITY warnOnCloseMultipleTabs.label      "Upozoriti vas kada zatvarate više tabova">
+<!ENTITY warnOnCloseMultipleTabs.accesskey  "o">
 
-<!ENTITY warnOpenManyTabs.label       "Upozori me kada otvaranje više tabova može usporiti &brandShortName;">
-<!ENTITY warnOpenManyTabs.accesskey   "o">
+<!ENTITY warnOnOpenManyTabs.label       "Upozoriti vas kada otvaranje više tabova može usporiti &brandShortName;">
+<!ENTITY warnOnOpenManyTabs.accesskey   "d">
 
-<!ENTITY switchToNewTabs.label        "Kada otvorim link u novom tabu, odmah se prebaci na njega">
-<!ENTITY switchToNewTabs.accesskey    "s">
+<!ENTITY switchLinksToNewTabs.label        "Kada otvorite link u novom tabu, odmah se prebaciti na njega">
+<!ENTITY switchLinksToNewTabs.accesskey    "s">
 
 <!ENTITY showTabsInTaskbar.label          "Prikazuj pregled tabova u Windows taskbaru">
 <!ENTITY showTabsInTaskbar.accesskey      "k">

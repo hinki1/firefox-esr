@@ -25,7 +25,10 @@
 <!ENTITY fileNotFound.longDesc "<ul> <li>Periksa penggunaan huruf besar/kecil pada nama berkas atau kesalahan pengetikan lain.</li> <li>Periksa apakah berkas sudah dipindah, diganti namanya, atau dihapus.</li> </ul>">
 
 <!ENTITY fileAccessDenied.title "Akses terhadap berkas ditolak">
-<!ENTITY fileAccessDenied.longDesc "<ul> <li>Mungkin sudah dihapus, dipindahkan, atau hak akses yang ada mencegah akses terhadap berkas. </li> </ul>">
+<!ENTITY fileAccessDenied.longDesc "<ul>
+  <li>Berkas mungkin sudah dihapus, dipindahkan, atau hak akses yang ada mencegah akses terhadap berkas.</li>
+</ul>
+">
 
 <!ENTITY generic.title "Ups.">
 <!ENTITY generic.longDesc "<p>Untuk alasan tertentu &brandShortName; tidak dapat memuat laman ini.</p>">
@@ -42,7 +45,7 @@
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Dokumen Kedaluwarsa">
-<!ENTITY notCached.longDesc "<p>Dokumen yang diminta tidak tersedia pada tembolok &brandShortName;.</p><ul><li>Sebagai tindakan pencegahan, &brandShortName; tidak meminta ulang dokumen sensitif secara otomatis.</li><li>Klik Coba Lagi untuk meminta ulang dokumen dari situs web.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Dokumen yang diminta tidak tersedia pada tembolok &brandShortName;.</p><ul><li>Sebagai tindakan pencegahan keamanan, &brandShortName; tidak meminta ulang dokumen sensitif secara otomatis.</li><li>Klik Coba Lagi untuk meminta ulang dokumen dari situs web.</li></ul>">
 
 <!ENTITY netOffline.title "Mode luring">
 <!ENTITY netOffline.longDesc2 "<ul> <li>Tekan &quot;Coba Lagi&quot; untuk kembali ke mode daring dan memuat ulang lamannya.</li> </ul>">
@@ -113,9 +116,11 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> menggunakan teknologi keamanan yang ketinggalan zaman dan rentan penyerangan. Penyerang bisa mengungkapkan informasi yang Anda sangka aman.">
 <!ENTITY weakCryptoAdvanced.override "(Tidak aman) Coba muat <span class='hostname'></span> menggunakan keamanan yang ketinggalan zaman">
 
-<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
-     please leave them unchanged. -->
-<!ENTITY certerror.wrongSystemTime "<p>Sambungan aman ke <span id='wrongSystemTime_URL'/> tidak memungkinkan karena jam komputer Anda menunjukkan waktu yang salah.</p> <p>Komputer Anda menganggap waktu sekarang adalah <span id='wrongSystemTime_systemDate'/>, padahal seharusnya <span id='wrongSystemTime_actualDate'/>. Untuk memperbaiki masalah ini, ubah setelan tanggal dan jam komputer Anda untuk menunjukkan waktu yang benar.</p>">
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
+                        certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
+     tags will be injected with actual values, please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime2 "<p> &brandShortName; tidak tersambung ke <span id='wrongSystemTime_URL'/> karena waktu pada komputer Anda sepertinya menampilkan waktu yang salah, dan hal ini mencegah sambungan yang aman.</p> <p>Komputer Anda diatur ke <span id='wrongSystemTime_systemDate'/>, ketika seharusnya <span id='wrongSystemTime_actualDate'/>. Untuk memperbaiki masalah ini, ubahlah pengaturan tanggal dan waktu Anda untuk mencocokkan dengan waktu yang tepat.</p>">
+<!ENTITY certerror.wrongSystemTimeWithoutReference "<p>&brandShortName; tidak tersambung ke <span id='wrongSystemTimeWithoutReference_URL'/> karena waktu pada komputer Anda menunjukkan waktu yang salah dan hal ini mencegah sambungan yang aman.</p> <p>Komputer Anda diatur ke <span id='wrongSystemTimeWithoutReference_systemDate'/>. Untuk memperbaiki masalah ini, ubahlah pengaturan tanggal dan waktu Anda untuk mencocokkan dengan waktu yang tepat.</p>">
 
 <!ENTITY certerror.pagetitle1  "Sambungan Tidak Aman">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Situs ini menggunakan HTTP Strict Transport Security atau Keamanan Transportasi Ketat HTTP (HSTS) untuk menyatakan bahwa &brandShortName; hanya bisa tersambung secara aman. Sebagai hasilnya, tidaklah mungkin untuk menambahkan pengecualian bagi sertifikat ini.">
@@ -124,7 +129,7 @@ was trying to connect. -->
 <!ENTITY inadequateSecurityError.title "Sambungan Anda tidak aman">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
-<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> menggunakan teknologi keamanan yang sudah kedaluwarsa dan rentan diserang. Penyerang dapat dengan mudah mengorek informasi yang Anda anggap aman. Administrator situs web perlu memperbaiki peladen terlebih dahulu sebelum Anda dapat mengunjungi situsnya.</p><p>Kode galat: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> menggunakan teknologi keamanan yang sudah kedaluwarsa dan rentan diserang. Penyerang dapat dengan mudah mengungkapkan informasi yang Anda anggap aman. Administrator situs web perlu memperbaiki server terlebih dahulu sebelum Anda dapat mengunjungi situsnya.</p><p>Kode galat: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
 
 <!ENTITY prefReset.longDesc "Tampaknya setelan keamanan jaringan Anda yang mungkin menyebabkan ini. Anda ingin setelan baku dipulihkan?">
 <!ENTITY prefReset.label "Pulihkan setelan baku">

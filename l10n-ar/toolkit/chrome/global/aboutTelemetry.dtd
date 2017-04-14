@@ -6,29 +6,35 @@
 
 <!ENTITY aboutTelemetry.changeDataChoices "  غيّر">
 
-<!ENTITY aboutTelemetry.uploadEnabled "  رفع بيانات FHR <span>مفعّل</span>.">
+<!ENTITY aboutTelemetry.uploadEnabled "  رفع بيانات تقرير حالة فَيرفُكس <span>مفعّل</span>.">
 
-<!ENTITY aboutTelemetry.uploadDisabled "  رفع بيانات FHR <span>معطّل</span>.">
+<!ENTITY aboutTelemetry.uploadDisabled "  رفع بيانات تقرير حالة فَيرفُكس <span>معطّل</span>.">
 
 <!ENTITY aboutTelemetry.extendedRecordingEnabled "  تسجيل القياس عن بعد الموسع <span>مفعل</span>.">
 
 <!ENTITY aboutTelemetry.extendedRecordingDisabled "  تسجيل القياس عن بعد الموسع <span>معطل</span>.">
 
-<!ENTITY aboutTelemetry.pingDataSource "اختبار مصدر البيانات">
+<!ENTITY aboutTelemetry.pingDataSource "مصدر بيانات الطرْق:">
 
+<!ENTITY aboutTelemetry.showCurrentPingData "بيانات الطرْق الحالية:">
 
+<!ENTITY aboutTelemetry.showArchivedPingData "بيانات الطرْق المحفوظة:">
 
+<!ENTITY aboutTelemetry.pingDataDisplay "عرض بيانات الطرْق:">
 
+<!ENTITY aboutTelemetry.structured "منظّمة">
 
 <!ENTITY aboutTelemetry.raw "JSON خام">
 
+<!ENTITY aboutTelemetry.showSubsessionData "اعرض بيانات الإرسال">
 
-<!ENTITY aboutTelemetry.choosePing "اختر الاختبار">
+<!ENTITY aboutTelemetry.choosePing "اختر الطرْق:">
 
-<!ENTITY aboutTelemetry.showNewerPing "&lt;&lt; أحدث اختبار">
+<!ENTITY aboutTelemetry.showNewerPing "&lt;&lt; أحدث طرْق">
 
-<!ENTITY aboutTelemetry.showOlderPing "الاختبار الأقدم &gt;&gt;">
+<!ENTITY aboutTelemetry.showOlderPing "أقدم طرْق &gt;&gt;">
 
+<!ENTITY aboutTelemetry.rawPingData "بيانات الطرْق الخام…">
 
 <!ENTITY aboutTelemetry.archiveWeekHeader "أسبوع">
 
@@ -46,11 +52,17 @@
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "  تعليقات الخيوط">
 
+<!ENTITY aboutTelemetry.capturedStacksSection "  المكدسات المُلتقطة">
 
+<!ENTITY aboutTelemetry.scalarsSection "  الكميات القياسية">
+
+<!ENTITY aboutTelemetry.keyedScalarsSection "  الكميات القياسية المفتاحية">
 
 <!ENTITY aboutTelemetry.histogramsSection "  رسوم بيانية">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "  رسوم بيانية مفتاحية">
+
+<!ENTITY aboutTelemetry.eventsSection "  الأحداث">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "  قياسات بسيطة">
 
@@ -76,3 +88,4 @@
 
 <!ENTITY aboutTelemetry.payloadChoiceHeader "  الحمولة">
 
+<!ENTITY aboutTelemetry.rawPayload "  الحمولة الخام">

@@ -25,15 +25,15 @@
 ">
 
 <!ENTITY aboutTelemetry.pingDataSource "
-Zdroj dat pingování:
+Zdroj dat pro ping:
 ">
 
 <!ENTITY aboutTelemetry.showCurrentPingData "
-Současná data pingování
+Současná data pro ping
 ">
 
 <!ENTITY aboutTelemetry.showArchivedPingData "
-Archivovaná data pingování
+Archivovaná data pro ping
 ">
 
 <!ENTITY aboutTelemetry.pingDataDisplay "
@@ -96,6 +96,10 @@ Ping
   Zatuhnutí vláken
 ">
 
+<!ENTITY aboutTelemetry.capturedStacksSection "
+  Zachycené zásobníky
+">
+
 <!ENTITY aboutTelemetry.scalarsSection "
   Skaláry">
 
@@ -108,6 +112,9 @@ Ping
 <!ENTITY aboutTelemetry.keyedHistogramsSection "
   Histogramy s klíčem
 ">
+
+<!ENTITY aboutTelemetry.eventsSection "
+  Události">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "Jednoduchá měření">
 

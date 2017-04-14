@@ -155,11 +155,12 @@
 <!ENTITY overlay_share_bookmark_btn_label "Könyvjelzőzés">
 <!ENTITY overlay_share_bookmark_btn_label_already "Már könyvjelzőzve">
 <!ENTITY overlay_share_send_other "Küldés más eszközökre">
+
+<!ENTITY overlay_share_open_browser_btn_label "Megnyitás a &brandShortName;ban">
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
      to. -->
-
 <!ENTITY overlay_share_send_tab_btn_label "Küldés másik eszközre">
 <!ENTITY overlay_share_no_url "Nincs hivatkozás a megosztásban">
 <!ENTITY overlay_share_select_device "Válasszon eszközt">
@@ -386,6 +387,7 @@ size. -->
 <!ENTITY pref_history_search_suggestions "Keresési előzmények megjelenítése">
 <!ENTITY pref_import_options "Importálás beállításai">
 <!ENTITY pref_import_android_summary "Könyvjelzők és előzmények importálása a natív böngészőből">
+<!ENTITY pref_private_data_openTabs "Nyitott lapok">
 <!ENTITY pref_private_data_history2 "Böngészés előzményei">
 <!ENTITY pref_private_data_searchHistory "Keresés előzményei">
 <!ENTITY pref_private_data_formdata2 "Űrlapok előzményei">
@@ -535,6 +537,11 @@ size. -->
 
 <!ENTITY pref_tab_queue_title3 "Lapsor">
 <!ENTITY pref_tab_queue_summary4 "Mentsen hivatkozásokat a &brandShortName; következő megnyitásáig">
+<!-- Localization note (pref_compact_tabs): Label for setting that controls whether 1 wide column or
+     2 narrower (compact) columns are used for tabs in the tabs tray in portrait mode on phones. -->
+
+<!ENTITY pref_compact_tabs "Kompakt lapok">
+<!ENTITY pref_compact_tabs_summary2 "Lapok elrendezése két oszlopban fekvő módban">
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
      bookmarks, or reading list. -->
@@ -698,8 +705,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_downloading_select2 "Koppintson a frissítés alkalmazásához a letöltés után">
 <!ENTITY updater_downloading_retry2 "Koppintson az újraindításhoz">
 
-<!ENTITY updater_apply_title2 "Frissítés érhető el a &brandShortName;hoz">
-<!ENTITY updater_apply_select2 "Koppintson a frissítéshez">
+<!ENTITY updater_apply_title3 "Frissítés érhető el a &brandShortName;hoz">
+<!ENTITY updater_apply_select3 "Érintse meg a telepítéshez">
 <!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
      if the app requires a runtime permission to download updates. Currently, the updater only sees
      remotely advertised updates in the Nightly and Aurora channels. -->
@@ -829,7 +836,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_button "Hozzáadás a könyvjelzőkhöz">
 
 <!ENTITY activity_stream_topsites "Népszerű oldalak">
-<!ENTITY activity_stream_highlights "Fontosak">
+<!ENTITY activity_stream_highlights "Kiemelések">
 <!-- LOCALIZATION NOTE (activity_stream_highlight_label_bookmarked): This label is shown in the Activity
 Stream list for highlights sourced from th user's bookmarks. -->
 
@@ -843,3 +850,6 @@ is simply hidden from the Activity Stream panel. -->
 
 <!ENTITY activity_stream_dismiss "Bezárás">
 <!ENTITY activity_stream_delete_history "Előzményekből törlés">
+
+<!ENTITY activity_stream_welcome_title "Üdvözöljük a Kiemeléseknél">
+<!ENTITY activity_stream_welcome_content1 "A &brandShortName; kiemeléseket készít a weben felfedezett tartalmakról, így könnyedén visszatalálhat a remek cikkekhez, videókhoz, könyvjelzőkhöz és más oldalakhoz.">

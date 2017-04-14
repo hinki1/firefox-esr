@@ -52,6 +52,8 @@
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "  Sac'hadennoù neudennoù">
 
+<!ENTITY aboutTelemetry.capturedStacksSection "  Bernioù euvret">
+
 <!ENTITY aboutTelemetry.scalarsSection "  Skeuliadoù">
 
 <!ENTITY aboutTelemetry.keyedScalarsSection "  Skeuliadelloù alc'hwez">
@@ -59,6 +61,8 @@
 <!ENTITY aboutTelemetry.histogramsSection "  Tellunioù">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "  Tellunioù gant alc'hwezioù">
+
+<!ENTITY aboutTelemetry.eventsSection "  Darvoudoù">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "  Muzulioù eeun">
 

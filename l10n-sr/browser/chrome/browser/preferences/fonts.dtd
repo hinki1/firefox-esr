@@ -61,8 +61,8 @@
 <!ENTITY  useDefaultFontSerif.label               "Серифни">
 <!ENTITY  useDefaultFontSansSerif.label           "Без серифа">
 
-<!ENTITY  allowPagesToUse.label                   "Дозволи страницама да користе сопствене фонтове уместо оног који ја изаберем">
-<!ENTITY  allowPagesToUse.accesskey               "Д">
+<!ENTITY  allowPagesToUseOwn.label                "Дозволи страницама да изаберу сопствене фонтове, уместо дефинисаних">
+<!ENTITY  allowPagesToUseOwn.accesskey            "Д">
 
 <!ENTITY languages.customize.Fallback2.grouplabel "Кодирање текста за застарели садржај">
 <!ENTITY languages.customize.Fallback2.label      "Резервно кодирање текста:">

@@ -142,7 +142,7 @@
 <!-- Localization note (locale_system_default) : This string indicates that
      Firefox will use the locale currently selected in Android's settings
      to display browser chrome. -->
-<!ENTITY locale_system_default "ค่าปริยายของระบบ">
+<!ENTITY locale_system_default "ค่าเริ่มต้นของระบบ">
 
 <!-- Localization note (overlay_share_label) : This is the label that appears
      in Android's intent chooser when sending a link to Firefox to bookmark,
@@ -156,6 +156,7 @@
 <!ENTITY overlay_share_bookmark_btn_label_already "คั่นหน้าอยู่แล้ว">
 <!ENTITY overlay_share_send_other "ส่งไปยังอุปกรณ์อื่น ๆ">
 
+<!ENTITY overlay_share_open_browser_btn_label "เปิดใน &brandShortName;">
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
@@ -169,7 +170,7 @@
 <!ENTITY overlay_no_synced_devices "ไม่พบอุปกรณ์ที่เชื่อมต่อกับบัญชี Firefox">
 
 <!ENTITY pref_category_search3 "ค้นหา">
-<!ENTITY pref_category_search_summary2 "เพิ่ม, ตั้งค่าปริยาย, แสดงคำแนะนำ">
+<!ENTITY pref_category_search_summary2 "เพิ่ม, ตั้งค่าเริ่มต้น, แสดงคำแนะนำ">
 <!ENTITY pref_category_accessibility "การช่วยเข้าถึง">
 <!ENTITY pref_category_accessibility_summary2 "ขนาดตัวอักษร, ซูม, การรับค่าด้วยเสียง">
 <!ENTITY pref_category_privacy_short "ความเป็นส่วนตัว">
@@ -182,8 +183,8 @@
 <!ENTITY pref_category_installed_search_engines "เครื่องมือค้นหาที่ติดตั้งไว้">
 <!ENTITY pref_category_add_search_providers "เพิ่มผู้ให้บริการค้นหาเพิ่มเติม">
 <!ENTITY pref_category_search_restore_defaults "เรียกคืนเครื่องมือค้นหา">
-<!ENTITY pref_search_restore_defaults "เรียกคืนค่าปริยาย">
-<!ENTITY pref_search_restore_defaults_summary "เรียกคืนค่าปริยาย">
+<!ENTITY pref_search_restore_defaults "เรียกคืนค่าเริ่มต้น">
+<!ENTITY pref_search_restore_defaults_summary "เรียกคืนค่าเริ่มต้น">
 <!-- Localization note (pref_search_hint) : "TIP" as in "hint", "clue" etc. Displayed as an
      advisory message on the customise search providers settings page explaining how to add new
      search providers.
@@ -386,9 +387,10 @@ size. -->
 <!ENTITY pref_history_search_suggestions "แสดงประวัติการค้นหา">
 <!ENTITY pref_import_options "ตัวเลือกการนำเข้า">
 <!ENTITY pref_import_android_summary "นำเข้าที่คั่นหน้าและประวัติจากเบราว์เซอร์ในเครื่อง">
+<!ENTITY pref_private_data_openTabs "แท็บที่เปิด">
 <!ENTITY pref_private_data_history2 "ประวัติการท่องเว็บ">
 <!ENTITY pref_private_data_searchHistory "ประวัติการค้นหา">
-<!ENTITY pref_private_data_formdata2 "ประวัติการกรอกฟอร์ม">
+<!ENTITY pref_private_data_formdata2 "ประวัติแบบฟอร์ม">
 <!ENTITY pref_private_data_cookies2 "คุกกี้และการเข้าสู่ระบบที่ใช้งานอยู่">
 <!ENTITY pref_private_data_passwords2 "การเข้าสู่ระบบที่บันทึกไว้">
 <!ENTITY pref_private_data_cache "แคช">
@@ -397,14 +399,14 @@ size. -->
 <!ENTITY pref_private_data_downloadFiles2 "ดาวน์โหลด">
 <!ENTITY pref_private_data_syncedTabs "แท็บที่ซิงค์">
 
-<!ENTITY pref_default_browser "ทำให้เป็นเบราว์เซอร์ปริยาย">
+<!ENTITY pref_default_browser "ทำให้เป็นเบราว์เซอร์เริ่มต้น">
 <!ENTITY pref_default_browser_mozilla_support_tablet "เยี่ยมชมการสนับสนุนจาก Mozilla">
 <!ENTITY pref_about_firefox "เกี่ยวกับ &brandShortName;">
 <!ENTITY pref_vendor_faqs "คำถามที่พบบ่อย">
 <!ENTITY pref_vendor_feedback "เสนอข้อคิดเห็น">
 
-<!ENTITY pref_dialog_set_default "ตั้งเป็นค่าปริยาย">
-<!ENTITY pref_dialog_default "ค่าปริยาย">
+<!ENTITY pref_dialog_set_default "ตั้งเป็นค่าเริ่มต้น">
+<!ENTITY pref_dialog_default "ค่าเริ่มต้น">
 <!ENTITY pref_dialog_remove "เอาออก">
 
 <!ENTITY pref_search_last_toast "คุณไม่สามารถเอาออกหรือปิดใช้งานเครื่องมือค้นหาตัวสุดท้ายของคุณ">
@@ -535,6 +537,11 @@ size. -->
 
 <!ENTITY pref_tab_queue_title3 "คิวแท็บ">
 <!ENTITY pref_tab_queue_summary4 "บันทึกลิงก์จนกว่าครั้งถัดไปที่คุณเปิด &brandShortName;">
+
+<!-- Localization note (pref_compact_tabs): Label for setting that controls whether 1 wide column or
+     2 narrower (compact) columns are used for tabs in the tabs tray in portrait mode on phones. -->
+<!ENTITY pref_compact_tabs "แท็บขนาดกะทัดรัด">
+<!ENTITY pref_compact_tabs_summary2 "จัดเรียงแท็บเป็นสองคอลัมน์ในโหมดแนวตั้ง">
 
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
@@ -698,8 +705,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_downloading_select2 "สัมผัสเพื่อเรียกใช้การอัปเดตเมื่อดาวน์โหลดเสร็จ">
 <!ENTITY updater_downloading_retry2 "สัมผัสเพื่อลองใหม่">
 
-<!ENTITY updater_apply_title2 "มีการอัปเดตที่ใช้งานได้สำหรับ &brandShortName;">
-<!ENTITY updater_apply_select2 "สัมผัสเพื่ออัปเดต">
+<!ENTITY updater_apply_title3 "ดาวน์โหลดการอัปเดตสำหรับ &brandShortName; แล้ว">
+<!ENTITY updater_apply_select3 "สัมผัสเพื่อติดตั้ง">
 
 <!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
      if the app requires a runtime permission to download updates. Currently, the updater only sees
@@ -829,7 +836,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_button "เพิ่มไปยังที่คั่นหน้า">
 
 <!ENTITY activity_stream_topsites "ไซต์เด่น">
-<!ENTITY activity_stream_highlights "เด่น">
+<!ENTITY activity_stream_highlights "รายการเด่น">
 
 <!-- LOCALIZATION NOTE (activity_stream_highlight_label_bookmarked): This label is shown in the Activity
 Stream list for highlights sourced from th user's bookmarks. -->
@@ -843,3 +850,6 @@ and allows hiding a URL/page from highlights or topsites. The page remains in hi
 is simply hidden from the Activity Stream panel. -->
 <!ENTITY activity_stream_dismiss "ยกเลิก">
 <!ENTITY activity_stream_delete_history "ลบออกจากประวัติ">
+
+<!ENTITY activity_stream_welcome_title "ยินดีต้อนรับสู่รายการเด่นของคุณ">
+<!ENTITY activity_stream_welcome_content1 "&brandShortName; สร้างรายการเด่นของสิ่งที่คุณได้ค้นพบบนเว็บเพื่อให้คุณสามารถกลับมาชมบทความ, วิดีโอ, ที่คั่นหน้า และหน้าอื่น ๆ ที่ยอดเยี่ยมได้">

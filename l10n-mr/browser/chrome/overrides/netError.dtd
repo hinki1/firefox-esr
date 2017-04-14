@@ -16,7 +16,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "हा पत्ता प्रतिबंधित आहे">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "‌">
 
 <!ENTITY dnsNotFound.title "सर्व्हर आढळला नाही">
 <!ENTITY dnsNotFound.longDesc "<ul> <li>टाइपिंग त्रुटी जसे की <strong>www</strong>.example.com च्या व्यतिरिक्त <strong>ww</strong>.example.com</li> ला आळा घालण्यासाठी पत्ता तपासा <li>कुठलेही पृष्ठ दाखल करू न शकल्यास, आपल्या संगणकाचे नेटवर्क जोडणी तपासून पहा.</li> <li>संगणक किंवा नेटवर्क फायरवॉल किंवा प्रॉक्सी संरक्षित असल्यास, &brandShortName; ला वेब प्रवेश प्राप्त होईल याची खात्री करा.</li> </ul>">
@@ -30,7 +30,7 @@
 <!ENTITY generic.title "ओह.">
 <!ENTITY generic.longDesc "<p>&brandShortName; कुठल्यातरी कारणास्तव हे पृष्ठ दाखल करू शकत नाही.</p>">
 
-<!ENTITY captivePortal.title "नेटवर्कमध्ये लॉगईन करा">
+<!ENTITY captivePortal.title "नेटवर्कमध्ये लॉग इन करा">
 <!ENTITY captivePortal.longDesc "<p>ह्या नेटवर्कवर इंटरनेट वापरण्यासाठी आपणास लॉग-इन करावे लागू शकते.</p>">
 
 <!ENTITY openPortalLoginPage.label "लॉगईन पृष्ठ उघडा">
@@ -112,10 +112,12 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.title "प्रगत">
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> कालबाह्य आणि हल्ला संवेदनशील असलेले सुरक्षा तंत्रज्ञान वापरते. आपण समजत असलेली सुरक्षित माहिती आक्रमणकर्ता सहजरीत्या पाहू शकतो.">
 <!ENTITY weakCryptoAdvanced.override "(असुरक्षित) कालबाह्य सुरक्षा यंत्रणा वापरून <span class='hostname'></span> लोड करण्याचा प्रयत्न करा">
-<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
-     please leave them unchanged. -->
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
+                        certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
+     tags will be injected with actual values, please leave them unchanged. -->
 
-<!ENTITY certerror.wrongSystemTime "<p>आपले घड्याळ चुकीची वेळ दर्शवित आहे त्यामुळे <span id='wrongSystemTime_URL'/>ला सुरक्षित जोडणी करू शकत नाही.</p><p>आपल्या संगणकाच्या दृष्टीने <span id='wrongSystemTime_systemDate'/> तारीख आहे पण खरंतर ती<span id='wrongSystemTime_actualDate'/> पाहिजे. ही समस्या सोडविण्यासाठी तुमची दिनांक आणि वेळ ह्यांची सेटिंग अचूक वेळेप्रमाणे बदला.</p> ">
+<!ENTITY certerror.wrongSystemTime2 "<p> &brandShortName; <span id='wrongSystemTime_URL'/> ला जोडले गेले नाही कारण आपल्या संगणकाचे घड्य़ाळ चुकिची वेळ दर्शवत आहे असे दिसते आणि ही बाब सुरक्षित जोडणी करण्यासाठी अडथळा आणत आहे.</p> <p> आपला संगणक <span id='wrongSystemTime_systemDate'/> या वेळेवर आहे, जो की <span id='wrongSystemTime_actualDate'/> या वेळेवर असायला हवा होता. ही समस्या निवारण्यासाठी, आपली तारीख आणि वेळ बदलून बरोबर करा. </p>">
+<!ENTITY certerror.wrongSystemTimeWithoutReference "<p> &brandShortName;  <span id='wrongSystemTimeWithoutReference_URL'/> ला जोडले गेले नाही कारण आपल्या संगणकाचे घड्य़ाळ चुकिची वेळ दर्शवत आहे असे दिसते आणि ही बाब सुरक्षित जोडणी करण्यासाठी अडथळा आणत आहे.</p> <p> आपला संगणक <span id='wrongSystemTimeWithoutReference_URL'/> या वेळेवर आहे. ही समस्या निवारण्यासाठी, आपली तारीख आणि वेळ बदलून बरोबर करा. </p>">
 
 <!ENTITY certerror.pagetitle1  "असुरक्षित जोडणी">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "ही साईट HTTP वापरते कठोर वाहतूक सुरक्षा (HSTS) असे निर्देशित करते की &brandShortName;हिच्याशी फक्त सुरक्षितपणे जोडणी करू शकतो. परिणामी, या एका प्रमाणपत्रासाठी अपवाद समाविष्ट करणे  शक्य नाही.">

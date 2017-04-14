@@ -19,7 +19,7 @@
 <!ENTITY syncMy.label "Synchronizuj:">
 <!ENTITY engine.bookmarks.label "Zakładki">
 <!ENTITY engine.bookmarks.accesskey "Z">
-<!ENTITY engine.tabs.label "Karty">
+<!ENTITY engine.tabs.label2 "Karty">
 <!ENTITY engine.tabs.accesskey "K">
 <!ENTITY engine.history.label "Historia">
 <!ENTITY engine.history.accesskey "H">
@@ -36,7 +36,7 @@
 <!ENTITY changeSyncDeviceName.accesskey "n">
 <!ENTITY cancelChangeSyncDeviceName.label "Anuluj">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "A">
-<!ENTITY saveChangeSyncDeviceName.label "Zapisz">
+<!ENTITY saveChangeSyncDeviceName.label "Zachowaj">
 <!ENTITY saveChangeSyncDeviceName.accesskey "Z">
 <!ENTITY unlinkDevice.label           "Odłącz to urządzenie">
 

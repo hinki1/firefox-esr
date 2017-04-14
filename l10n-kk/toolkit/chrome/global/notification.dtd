@@ -4,8 +4,9 @@
 
 <!ENTITY closeNotification.tooltip "Хабарламаны жабу">
 
-<!ENTITY closeNotificationItem.label "Қазір емес">
-
 <!ENTITY checkForUpdates "Жаңартуларды тексеру…">
 
 <!ENTITY learnMore "Көбірек білу…">
+
+<!ENTITY defaultButton.label "ОК!">
+<!ENTITY defaultButton.accesskey "О">

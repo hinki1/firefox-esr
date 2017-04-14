@@ -8,14 +8,14 @@
 <!ENTITY newWindowsAsTabs.label       "Отваряне на новите прозорци в раздел">
 <!ENTITY newWindowsAsTabs.accesskey   "д">
 
-<!ENTITY warnCloseMultipleTabs.label  "Предупреждение при затваряне на няколко раздела">
-<!ENTITY warnCloseMultipleTabs.accesskey  "з">
+<!ENTITY warnOnCloseMultipleTabs.label      "Предупреждение при затваряне на няколко раздела">
+<!ENTITY warnOnCloseMultipleTabs.accesskey  "п">
 
-<!ENTITY warnOpenManyTabs.label       "Предупреждаване, когато отварянето на няколко раздела може да забави &brandShortName;">
-<!ENTITY warnOpenManyTabs.accesskey   "о">
+<!ENTITY warnOnOpenManyTabs.label       "Предупреждение, когато отварянето на няколко раздела може да забави &brandShortName;">
+<!ENTITY warnOnOpenManyTabs.accesskey   "а">
 
-<!ENTITY switchToNewTabs.label        "При отваряне на препратка в раздел, да се превключва към него">
-<!ENTITY switchToNewTabs.accesskey    "П">
+<!ENTITY switchLinksToNewTabs.label        "При отваряне на препратка в раздел, да се превключва към него">
+<!ENTITY switchLinksToNewTabs.accesskey    "н">
 
 <!ENTITY showTabsInTaskbar.label          "Преглед на разделите в лентата със задачите на Windows">
 <!ENTITY showTabsInTaskbar.accesskey      "с">

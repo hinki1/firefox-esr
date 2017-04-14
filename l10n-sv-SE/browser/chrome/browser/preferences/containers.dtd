@@ -2,9 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY label.label          "Namn">
 <!ENTITY addButton.label      "Lägg till ny behållare">
 <!ENTITY addButton.accesskey  "L">
+<!ENTITY preferencesButton.label "Inställningar">
+<!ENTITY removeButton.label   "Ta bort">
 <!-- &#171; is &laquo; however it's not defined in XML -->
 <!ENTITY backLink.label       "&#171; Gå tillbaka till sekretess">
 
@@ -13,6 +14,7 @@
 
 <!ENTITY name.label           "Namn:">
 <!ENTITY name.accesskey       "N">
+<!ENTITY name.placeholder     "Skriv ett behållarnamn">
 <!ENTITY icon.label           "Ikon:">
 <!ENTITY icon.accesskey       "I">
 <!ENTITY color.label          "Färg:">

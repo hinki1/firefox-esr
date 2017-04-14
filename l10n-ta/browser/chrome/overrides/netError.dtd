@@ -32,6 +32,7 @@
 
 
 
+<!ENTITY openPortalLoginPage.label "உள்நுழைவுப் பக்கத்தைத் திற">
 
 <!ENTITY malformedURI.title "இந்த முகவரி தவறானது">
 <!ENTITY malformedURI.longDesc "<ul> <li>இணைய முகவரி கீழ்காணுமாறு இருக்கும் <strong>http://www.example.com/</strong></li><li>நீங்க / பயன்படுத்தினீர்களா என பார்க்கவும் (i.e. <strong>/</strong>).</li> </ul>">
@@ -107,13 +108,15 @@ was trying to connect. -->
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
 <!ENTITY weakCryptoUsed.longDesc2 "மேம்பட்ட தகவல்: SSL_ERROR_NO_CYPHER_OVERLAP">
 <!ENTITY weakCryptoAdvanced.title "மேம்பட்டது">
-
+<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> காலாவதியான தாக்குதலுக்கு உள்ளாகக்கூடிய பாதுகாப்பு நுட்பத்தைப் பயன்படுத்துகிறது. நீங்கள் பாதுகாப்பாக இருப்பதாக நினைக்கும் தகவல்களைத் தாக்கர்கள் வெளிப்படுத்தலாம்.">
 <!ENTITY weakCryptoAdvanced.override "(பாதுகாப்பற்றதா) ஏற்ற முயற்சிக்கவும் <span class='hostname'></span> காலாவதியான பாதுகாப்பை பயன்படுத்துகிறது">
-<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
-     please leave them unchanged. -->
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
+                        certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
+     tags will be injected with actual values, please leave them unchanged. -->
+
 
 <!ENTITY certerror.pagetitle1  "பாதுகாப்பற்ற இணைப்பு">
-
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "இத்தளம் HTTP Strict Transport Security (HSTS) என்பதினை &brandShortName; அதனுடன் மட்டுமே பாதுகாப்பாக இணைக்கலாம் என்பதைக் குறிக்க பயன்படுத்துகிறது. இதன் விளைவாக, இந்தச் சான்றிதழுக்கு விதிவிலக்கு வழங்குவது சாத்தியமில்லை.">
 <!ENTITY certerror.copyToClipboard.label "உரையை ஒட்டுப்பலகைக்கு நகலெடு">
 
 <!ENTITY inadequateSecurityError.title "உங்கள் இணைப்பு பாதுகாப்பற்றது">

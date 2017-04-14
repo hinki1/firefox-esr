@@ -155,11 +155,12 @@
 <!ENTITY overlay_share_bookmark_btn_label "Marcador">
 <!ENTITY overlay_share_bookmark_btn_label_already "Já existe nos marcadores">
 <!ENTITY overlay_share_send_other "Enviar para outros dispositivos">
+
+<!ENTITY overlay_share_open_browser_btn_label "Abrir em &brandShortName;">
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
      to. -->
-
 <!ENTITY overlay_share_send_tab_btn_label "Enviar para outro dispositivo">
 <!ENTITY overlay_share_no_url "Não foi encontrada nenhuma ligação nesta partilha">
 <!ENTITY overlay_share_select_device "Selecione o dispositivo">
@@ -386,6 +387,7 @@ size. -->
 <!ENTITY pref_history_search_suggestions "Mostrar histórico de pesquisa">
 <!ENTITY pref_import_options "Opções de importação">
 <!ENTITY pref_import_android_summary "Importar marcadores e histórico do navegador nativo">
+<!ENTITY pref_private_data_openTabs "Separadores abertos">
 <!ENTITY pref_private_data_history2 "Histórico de navegação">
 <!ENTITY pref_private_data_searchHistory "Histórico de pesquisas">
 <!ENTITY pref_private_data_formdata2 "Histórico de formulários">
@@ -535,6 +537,11 @@ size. -->
 
 <!ENTITY pref_tab_queue_title3 "Fila de separadores">
 <!ENTITY pref_tab_queue_summary4 "Guardar ligações até à próxima vez que abrir o &brandShortName;">
+<!-- Localization note (pref_compact_tabs): Label for setting that controls whether 1 wide column or
+     2 narrower (compact) columns are used for tabs in the tabs tray in portrait mode on phones. -->
+
+<!ENTITY pref_compact_tabs "Separadores compactos">
+<!ENTITY pref_compact_tabs_summary2 "Arranjar separadores em duas colunas no modo de retrato">
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
      bookmarks, or reading list. -->
@@ -644,7 +651,7 @@ with that structure, consider a translation which ignores the preceding domain a
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_connection_secure "Ligação segura">
 <!ENTITY identity_connection_insecure "Ligação não-segura">
-<!ENTITY identity_connection_chromeui "Esta é uma página segura do &brandShortName;.">
+<!ENTITY identity_connection_chromeui "Esta é uma página segura do &brandShortName;">
 <!-- Mixed content notifications in site identity popup -->
 
 <!ENTITY mixed_content_blocked_all1 "O &brandShortName; bloqueou conteúdo não-seguro nesta página.">
@@ -698,8 +705,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_downloading_select2 "Toque para aplicar a atualização assim que for descarregada">
 <!ENTITY updater_downloading_retry2 "Toque para repetir">
 
-<!ENTITY updater_apply_title2 "Atualização disponível para o &brandShortName;">
-<!ENTITY updater_apply_select2 "Toque para atualizar">
+<!ENTITY updater_apply_title3 "Atualização descarregada para o &brandShortName;">
+<!ENTITY updater_apply_select3 "Toque para instalar">
 <!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
      if the app requires a runtime permission to download updates. Currently, the updater only sees
      remotely advertised updates in the Nightly and Aurora channels. -->
@@ -821,7 +828,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY promotion_add_to_homescreen "Adicionar ao ecrã inicial">
 
 <!ENTITY helper_first_offline_bookmark_title "Ler offline">
-<!ENTITY helper_first_offline_bookmark_message "Encontre os seus itens da Vista de leitura nos Marcadores, até offline">
+<!ENTITY helper_first_offline_bookmark_message "Encontre os seus itens da Vista de leitura nos Marcadores, até offline.">
 <!ENTITY helper_first_offline_bookmark_button "Ir para Marcadores">
 
 <!ENTITY helper_triple_readerview_open_title "Disponível offline">
@@ -843,3 +850,6 @@ is simply hidden from the Activity Stream panel. -->
 
 <!ENTITY activity_stream_dismiss "Dispensar">
 <!ENTITY activity_stream_delete_history "Apagar do histórico">
+
+<!ENTITY activity_stream_welcome_title "Bem-vindo aos seus destaques">
+<!ENTITY activity_stream_welcome_content1 "O &brandShortName; agora cria destaques de coisas que descobriu na web para que encontre o seu caminho de volta para ótimos artigos, vídeos, marcadores, e outras páginas.">

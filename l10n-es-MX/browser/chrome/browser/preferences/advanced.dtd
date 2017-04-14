@@ -9,11 +9,11 @@
 <!ENTITY accessibility.label             "Accesibilidad">
 
 <!ENTITY useCursorNavigation.label       "Usar siempre las teclas del cursor para navegar dentro de las páginas">
-<!ENTITY useCursorNavigation.accesskey   "n">
-<!ENTITY searchStartTyping.label         "Buscar texto mientras se escribe">
-<!ENTITY searchStartTyping.accesskey     "B">
-<!ENTITY blockAutoRefresh.label          "Advertir cuando un sitio web intente redireccionar o recargar la página">
-<!ENTITY blockAutoRefresh.accesskey      "A">
+<!ENTITY useCursorNavigation.accesskey   "c">
+<!ENTITY searchOnStartTyping.label       "Buscar el texto cuando empiezas a escribir">
+<!ENTITY searchOnStartTyping.accesskey   "x">
+<!ENTITY blockAutoReload.label           "Te avisa cuando los sitios web intentan redirigir o recargar la página">
+<!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "Mostrar el teclado táctil cuando sea necesario">
 <!ENTITY useOnScreenKeyboard.accesskey   "t">
 
@@ -25,8 +25,8 @@
 <!ENTITY useSmoothScrolling.accesskey    "s">
 <!ENTITY allowHWAccel.label              "Usa aceleración de hardware cuando esté disponible">
 <!ENTITY allowHWAccel.accesskey          "r">
-<!ENTITY checkSpelling.label             "Revisar mi ortografía mientras escribo">
-<!ENTITY checkSpelling.accesskey         "o">
+<!ENTITY checkUserSpelling.label         "Verificar la ortografía mientras escribes">
+<!ENTITY checkUserSpelling.accesskey     "t">
 
 <!ENTITY dataChoicesTab.label            "Elección de datos">
 
@@ -57,13 +57,21 @@
 
 <!ENTITY offlineStorage2.label           "Contenido web sin conexión y datos de usuario">
 
+<!--  Site Data section manages sites using Storage API and is under Network -->
+<!ENTITY siteData.label                  "Datos del sitio">
+<!ENTITY clearSiteData.label             "Eliminar todos los datos">
+<!ENTITY clearSiteData.accesskey         "I">
+<!ENTITY siteDataSettings.label          "Configuraciones…">
+<!ENTITY siteDataSettings.accesskey      "i">
+<!ENTITY siteDataLearnMoreLink.label     "Aprender más">
+
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
 
   &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
 -->
-<!ENTITY limitCacheSizeBefore.label      "Caché limitado a">
+<!ENTITY limitCacheSizeBefore.label      "Limitar caché a">
 <!ENTITY limitCacheSizeBefore.accesskey  "l">
 <!ENTITY limitCacheSizeAfter.label       "MB de espacio">
 <!ENTITY clearCacheNow.label             "Limpiar ahora">
@@ -75,11 +83,11 @@
 
 <!ENTITY updateTab.label                 "Actualizar">
 
-<!ENTITY updateApp.label                 "Actualizaciones de &brandShortName; :">
+<!ENTITY updateApplication.label         "&brandShortName; actualizaciones">
 <!ENTITY updateAuto1.label               "Instalar actualizaciones automáticamente (recomendado: mejora la seguridad)">
 <!ENTITY updateAuto1.accesskey           "a">
-<!ENTITY updateCheck.label               "Comprobar si hay actualizaciones, pero permitirme elegir si serán instaladas">
-<!ENTITY updateCheck.accesskey           "C">
+<!ENTITY updateCheckChoose.label         "Busca actualizaciones, pero te permite decidir si las quieres instalar o no">
+<!ENTITY updateCheckChoose.accesskey     "c">
 <!ENTITY updateManual.label              "No buscar actualizaciones (no recomendado: riesgo de seguridad)">
 <!ENTITY updateManual.accesskey          "N">
 
@@ -89,14 +97,14 @@
 <!ENTITY useService.label                "Utilizar un servicio en segundo plano para instalar las actualizaciones">
 <!ENTITY useService.accesskey            "s">
 
-<!ENTITY updateOthers.label              "Actualizar automáticamente:">
+<!ENTITY autoUpdateOthers.label          "Actualización automática">
 <!ENTITY enableSearchUpdate.label        "Motores de búsqueda">
 <!ENTITY enableSearchUpdate.accesskey    "e">
 
-<!ENTITY offlineNotify.label             "Avisarme si un sitio desea guardar datos para usarlos sin conexión">
-<!ENTITY offlineNotify.accesskey         "t">
-<!ENTITY offlineNotifyExceptions.label   "Excepciones…">
-<!ENTITY offlineNotifyExceptions.accesskey "x">
+<!ENTITY offlineStorageNotify.label               "Te avisa cuando los sitios web te piden almacenar datos para utilizarlos fuera de línea">
+<!ENTITY offlineStorageNotify.accesskey           "T">
+<!ENTITY offlineStorageNotifyExceptions.label     "Excepciones…">
+<!ENTITY offlineStorageNotifyExceptions.accesskey "x">
 
 <!ENTITY offlineAppsList2.label          "Los siguientes sitios web tienen permitido almacenar datos para usarlos sin conexión:">
 <!ENTITY offlineAppsList.height          "7em">
@@ -105,14 +113,14 @@
 <!ENTITY offlineAppRemove.confirm        "Eliminar datos del modo sin conexión">
 
 <!ENTITY certificateTab.label            "Certificados">
-<!ENTITY certSelection.label             "Solicitudes">
-<!ENTITY certSelection.description       "Cuando un servidor solicite mi certificado personal:">
-<!ENTITY certs.auto                      "Seleccionar uno automáticamente">
-<!ENTITY certs.auto.accesskey            "S">
-<!ENTITY certs.ask                       "Preguntarme siempre">
-<!ENTITY certs.ask.accesskey             "A">
-<!ENTITY enableOCSP.label                "Respuesta de la consulta OCSP los servidores confirman la validez actual de los certificados">
-<!ENTITY enableOCSP.accesskey            "Q">
+<!ENTITY certPersonal.label              "Peticiones">
+<!ENTITY certPersonal.description        "Cuando el servidor te pide tu certificado personal:">
+<!ENTITY selectCerts.auto                "Seleccionar uno automáticamente">
+<!ENTITY selectCerts.auto.accesskey      "S">
+<!ENTITY selectCerts.ask                 "Solicitar cada vez">
+<!ENTITY selectCerts.ask.accesskey       "A">
+<!ENTITY enableOCSP.label                "Consultar servidores de respuesta OCSP para confirmar la validez actual de los certificados">
+<!ENTITY enableOCSP.accesskey            "O">
 <!ENTITY viewCerts.label                 "Ver certificados">
 <!ENTITY viewCerts.accesskey             "C">
 <!ENTITY viewSecurityDevices.label       "Dispositivos de seguridad">

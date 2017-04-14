@@ -10,10 +10,8 @@
 
 <!ENTITY useCursorNavigation.label       "Səhifələrdə hərəkət edərkən yazi kursorundan istifadə et">
 <!ENTITY useCursorNavigation.accesskey   "S">
-<!ENTITY searchStartTyping.label         "Yazmağa başlayan kimi axtar">
-<!ENTITY searchStartTyping.accesskey     "z">
-<!ENTITY blockAutoRefresh.label          "Saytlar səhifəni yönləndirmək və ya yeniləmək istədikdə məni xəbərdar et">
-<!ENTITY blockAutoRefresh.accesskey      "b">
+<!ENTITY searchOnStartTyping.accesskey   "x">
+<!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "Lazım olduqda toxunmalı klaviaturanı göstər">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
@@ -25,8 +23,7 @@
 <!ENTITY useSmoothScrolling.accesskey    "c">
 <!ENTITY allowHWAccel.label              "Mümkün olduğu vaxt təchizat sürətlənməsindən istifadə et">
 <!ENTITY allowHWAccel.accesskey          "d">
-<!ENTITY checkSpelling.label             "Yazarkən hərf səhvlərini yoxla">
-<!ENTITY checkSpelling.accesskey         "k">
+<!ENTITY checkUserSpelling.accesskey     "t">
 
 <!ENTITY dataChoicesTab.label            "Məlumat seçimi">
 
@@ -57,6 +54,11 @@
 
 <!ENTITY offlineStorage2.label           "Oflayn Web Məzmunu və İstifadəçi Məlumatları">
 
+<!--  Site Data section manages sites using Storage API and is under Network -->
+<!ENTITY siteDataSettings.label          "Tənzimləmələr…">
+<!ENTITY siteDataSettings.accesskey      "i">
+<!ENTITY siteDataLearnMoreLink.label     "Ətraflı öyrən">
+
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
@@ -75,11 +77,11 @@
 
 <!ENTITY updateTab.label                 "Yenilə">
 
-<!ENTITY updateApp.label                 "&brandShortName; yeniləmələri:">
+<!ENTITY updateApplication.label         "&brandShortName; yeniləmələri">
 <!ENTITY updateAuto1.label               "Yeniləmələri avtomatik quraşdır (tövsiyyə edilir: gücləndirilmiş təhlükəsizlik)">
 <!ENTITY updateAuto1.accesskey           "o">
-<!ENTITY updateCheck.label               "Yeniləmələri yoxla, amma quraşdırmaq qərarını mən verim">
-<!ENTITY updateCheck.accesskey           "d">
+<!ENTITY updateCheckChoose.label         "Yeniləmələri yoxlasın, amma quraşdırmaq üçün sizdən soruşsun">
+<!ENTITY updateCheckChoose.accesskey     "C">
 <!ENTITY updateManual.label              "Yeniləmələri heç vaxt yoxlama (tövsiyyə edilmir: təhlükəsizlik riski)">
 <!ENTITY updateManual.accesskey          "h">
 
@@ -89,14 +91,14 @@
 <!ENTITY useService.label                "Yeniləmələri quraşdırmaq üçün arxa plan xidmətindən istifadə et">
 <!ENTITY useService.accesskey            "a">
 
-<!ENTITY updateOthers.label              "Avtomatik yenilə:">
+<!ENTITY autoUpdateOthers.label          "Avtomatik yenilə">
 <!ENTITY enableSearchUpdate.label        "Axtarış Mühərrikləri">
 <!ENTITY enableSearchUpdate.accesskey    "M">
 
-<!ENTITY offlineNotify.label             "Sayt oflayn istifadə üçün məlumat saxlamaq istədiyində mənə bildir">
-<!ENTITY offlineNotify.accesskey         "t">
-<!ENTITY offlineNotifyExceptions.label   "İstisnalar…">
-<!ENTITY offlineNotifyExceptions.accesskey "a">
+<!ENTITY offlineStorageNotify.label               "Sayt oflayn istifadə üçün məlumat saxlamaq istədiyində mənə bildir">
+<!ENTITY offlineStorageNotify.accesskey           "T">
+<!ENTITY offlineStorageNotifyExceptions.label     "İstisnalar…">
+<!ENTITY offlineStorageNotifyExceptions.accesskey "x">
 
 <!ENTITY offlineAppsList2.label          "Aşağıdakı saytlara oflayn istifadə üçün məlumat saxlamağa icazə verilib:">
 <!ENTITY offlineAppsList.height          "7em">
@@ -105,12 +107,12 @@
 <!ENTITY offlineAppRemove.confirm        "Oflayn məlumatlarını sil">
 
 <!ENTITY certificateTab.label            "Sertifikatlar">
-<!ENTITY certSelection.label             "Sorğular">
-<!ENTITY certSelection.description       "Server şəxsi sertifikat istəyəndə:">
-<!ENTITY certs.auto                      "Birini avtomatik seç">
-<!ENTITY certs.auto.accesskey            "S">
-<!ENTITY certs.ask                       "Hər dəfə soruş">
-<!ENTITY certs.ask.accesskey             "A">
+<!ENTITY certPersonal.label              "İstəklər">
+<!ENTITY certPersonal.description        "Server şəxsi sertifikatınızı istədikdə:">
+<!ENTITY selectCerts.auto                "Birini avtomatik seç">
+<!ENTITY selectCerts.auto.accesskey      "S">
+<!ENTITY selectCerts.ask                 "Hər dəfə soruş">
+<!ENTITY selectCerts.ask.accesskey       "A">
 <!ENTITY enableOCSP.label                "Sertifikatların keçərliliyini təsdiqləmək üçün OCSP cavabdehlik serverlərinə Sorğu göndər">
 <!ENTITY enableOCSP.accesskey            "S">
 <!ENTITY viewCerts.label                 "Sertifikatları göstər">

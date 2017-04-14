@@ -156,6 +156,7 @@
 <!ENTITY overlay_share_bookmark_btn_label_already "Вже закладено">
 <!ENTITY overlay_share_send_other "Відправити на інші пристрої">
 
+<!ENTITY overlay_share_open_browser_btn_label "Відкрити в &brandShortName;">
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
@@ -347,7 +348,7 @@
 <!ENTITY pref_clear_on_exit_dialog_title "Виберіть, які дані стирати">
 <!ENTITY pref_plugins "Плагіни">
 <!ENTITY pref_plugins_enabled "Увімкнено">
-<!ENTITY pref_plugins_tap_to_play2 "Торкнутися, щоб грати">
+<!ENTITY pref_plugins_tap_to_play2 "Торкнутися для відтворення">
 <!ENTITY pref_plugins_disabled "Вимкнено">
 <!ENTITY pref_text_size "Розмір тексту">
 <!ENTITY pref_restore_tabs "Відновлення вкладок">
@@ -386,14 +387,15 @@ size. -->
 <!ENTITY pref_history_search_suggestions "Показувати історію пошуку">
 <!ENTITY pref_import_options "Параметри імпорту">
 <!ENTITY pref_import_android_summary "Імпорт закладок та історії з вбудованого браузера">
+<!ENTITY pref_private_data_openTabs "Відкриті вкладки">
 <!ENTITY pref_private_data_history2 "Історія перегляду">
 <!ENTITY pref_private_data_searchHistory "Історія пошуку">
 <!ENTITY pref_private_data_formdata2 "Історія форм">
-<!ENTITY pref_private_data_cookies2 "Куки та активні сеанси">
+<!ENTITY pref_private_data_cookies2 "Куки й активні сеанси">
 <!ENTITY pref_private_data_passwords2 "Збережені логіни">
 <!ENTITY pref_private_data_cache "Кеш">
 <!ENTITY pref_private_data_offlineApps "Дані автономних веб-сайтів">
-<!ENTITY pref_private_data_siteSettings2 "Налаштування сайта">
+<!ENTITY pref_private_data_siteSettings2 "Налаштування сайтів">
 <!ENTITY pref_private_data_downloadFiles2 "Завантаження">
 <!ENTITY pref_private_data_syncedTabs "Синхронізовані вкладки">
 
@@ -495,14 +497,14 @@ size. -->
 <!ENTITY contextmenu_open_new_tab "Відкрити у новій вкладці">
 <!ENTITY contextmenu_open_private_tab "Відкрити в приватній вкладці">
 <!ENTITY contextmenu_remove "Вилучити">
-<!ENTITY contextmenu_add_to_launcher "Додати на домашню сторінку">
+<!ENTITY contextmenu_add_to_launcher "Додати на головний екран">
 <!ENTITY contextmenu_share "Поділитись">
 <!ENTITY contextmenu_pasteandgo "Вставити і перейти">
 <!ENTITY contextmenu_paste "Вставити">
 <!ENTITY contextmenu_copyurl "Копіювати адресу">
 <!ENTITY contextmenu_edit_bookmark "Редагувати">
 <!ENTITY contextmenu_subscribe "Підписатись на сторінку">
-<!ENTITY contextmenu_site_settings "Редагувати налаштування сайта">
+<!ENTITY contextmenu_site_settings "Змінити налаштування сайту">
 <!ENTITY contextmenu_top_sites_edit "Редагувати">
 <!ENTITY contextmenu_top_sites_pin "Прикріпити сайт">
 <!ENTITY contextmenu_top_sites_unpin "Відкріпити сайт">
@@ -536,6 +538,11 @@ size. -->
 <!ENTITY pref_tab_queue_title3 "Черга вкладок">
 <!ENTITY pref_tab_queue_summary4 "Зберігати посилання до наступного відкриття &brandShortName;">
 
+<!-- Localization note (pref_compact_tabs): Label for setting that controls whether 1 wide column or
+     2 narrower (compact) columns are used for tabs in the tabs tray in portrait mode on phones. -->
+<!ENTITY pref_compact_tabs "Компактні вкладки">
+<!ENTITY pref_compact_tabs_summary2 "Вкладки у два стовпчики в портретному режимі">
+
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
      bookmarks, or reading list. -->
@@ -548,9 +555,9 @@ size. -->
 
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
-<!ENTITY site_settings_title3       "Налаштування сайта">
+<!ENTITY site_settings_title3       "Налаштування сайту">
 <!ENTITY site_settings_cancel       "Скасувати">
-<!ENTITY site_settings_clear        "Стерти">
+<!ENTITY site_settings_clear        "Вилучити">
 
 <!-- Localization note : These strings are used as alternate text for accessibility.
      They are not visible in the UI. -->
@@ -701,8 +708,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_downloading_select2 "Торкніться, щоб застосувати оновлення по завершенні">
 <!ENTITY updater_downloading_retry2 "Торкніться, щоб повторити">
 
-<!ENTITY updater_apply_title2 "Доступне оновлення для &brandShortName;">
-<!ENTITY updater_apply_select2 "Торкніться, щоб оновити">
+<!ENTITY updater_apply_title3 "Завантажено оновлення для &brandShortName;">
+<!ENTITY updater_apply_select3 "Торкніться для встановлення">
 
 <!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
      if the app requires a runtime permission to download updates. Currently, the updater only sees
@@ -846,3 +853,6 @@ and allows hiding a URL/page from highlights or topsites. The page remains in hi
 is simply hidden from the Activity Stream panel. -->
 <!ENTITY activity_stream_dismiss "Сховати">
 <!ENTITY activity_stream_delete_history "Видалити з історії">
+
+<!ENTITY activity_stream_welcome_title "Вітаємо в Основному">
+<!ENTITY activity_stream_welcome_content1 "&brandShortName; тепер створює збірки основного, що ви переглядали в Інтернеті, щоб ви могли знову повернутися до чудових статей, відео, закладок, а також інших сторінок.">

@@ -112,10 +112,12 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.title "Napredno">
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span>koristi zastarjelu sigurnosnu tehnologiju koja je ranjiva na napade. Napadač bi lahko mogao otkriti podatke koje ste smatrali sigurnim.">
 <!ENTITY weakCryptoAdvanced.override "(Nije sigurno) Probaj učitati <span class='hostname'></span> koristeći zastarjelu zaštitu">
-<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
-     please leave them unchanged. -->
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
+                        certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
+     tags will be injected with actual values, please leave them unchanged. -->
 
-<!ENTITY certerror.wrongSystemTime "<p>Sigurna veza na <span id='wrongSystemTime_URL'/> nije moguća jer vaš sat izgleda pokazuje pogrešno vrijeme.</p> <p>Vaš računar misli da je <span id='wrongSystemTime_systemDate'/>, dok bi vrijeme trebalo biti <span id='wrongSystemTime_actualDate'/>. Kako biste ovo ispravili, promijenite datum i vrijeme vašeg računara da odgovara stvarnom vremenu.</p>">
+<!ENTITY certerror.wrongSystemTime2 "<p> &brandShortName; se nije povezao na <span id='wrongSystemTime_URL'/> jer sat vašeg računara pokazuje pogrešno vrijeme i to spriječava sigurno povezivanje.</p> <p>Vaš računar je podešen na <span id='wrongSystemTime_systemDate'/>, a trebao bi biti podešen na <span id='wrongSystemTime_actualDate'/>. Da riješite problem, podesite tačan datum i vrijeme vašeg računara.</p>">
+<!ENTITY certerror.wrongSystemTimeWithoutReference "<p> &brandShortName; se nije povezao na <span id='wrongSystemTimeWithoutReference_URL'/> jer sat vašeg računara pokazuje pogrešno vrijeme i to spriječava sigurno povezivanje.</p> <p>Vaš računar je podešen na <span id='wrongSystemTimeWithoutReference_systemDate'/>. Da riješite problem, podesite tačan datum i vrijeme vašeg računara.</p>">
 
 <!ENTITY certerror.pagetitle1  "Nesigurna veza">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Ova stranica koristi HTTP Strict Transport Security (HSTS) da bi uputila &brandShortName; da uspostavi sigurnu vezu. Rezultat toga je onemogućeno dodavanje izuzetka za ovaj certifikat.">

@@ -112,14 +112,16 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.title "Ma lamal">
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> tiyo ki diro me gwoko ber bedo ma dong kare okato woko ki goro. Ngat mo romo nyuto ngec ma i tamo ni kigwoko maber ni i yo ma yot.">
 <!ENTITY weakCryptoAdvanced.override "(Pe ki ber bedo) Tem cano <span class='hostname'></span> tiyo ki gwoko ber bedo ma kare ne okato woko">
-<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
-     please leave them unchanged. -->
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
+                        certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
+     tags will be injected with actual values, please leave them unchanged. -->
 
-<!ENTITY certerror.wrongSystemTime "<p>Kube ki ber bedo i <span id='wrongSystemTime_URL'/> pe lare pien nen calo cawa ni pe tye kakare.</p> <p>Kompuita ni tamo ni tye <span id='wrongSystemTime_systemDate'/>, kun myero obed <span id='wrongSystemTime_actualDate'/>. Me yubo peko man, lok ter me nino dwe ki cawa orwate ki ma tye kakare.</p>">
+<!ENTITY certerror.wrongSystemTime2 "<p> &brandShortName; pe okube ki <span id='wrongSystemTime_URL'/> pien nen calo cawa me komputa ni pe tye kakare kadong man tye kagengo kube ki ber bedo.</p> <p>Komputa ni kitero i <span id='wrongSystemTime_systemDate'/>, kun myero obed <span id='wrongSystemTime_actualDate'/>. Me yubo peko man, lok ter me nino dwe ki cawa mamegi orwate ki ma tye kakare.</p>">
+<!ENTITY certerror.wrongSystemTimeWithoutReference "<p>&brandShortName; pe okube ki <span id='wrongSystemTimeWithoutReference_URL'/> pien nen calo cawa me komputa ni pe tye kakare kadong man tye kagengo kube ki ber bedo.</p> <p>Komputa ni kitero i <span id='wrongSystemTimeWithoutReference_systemDate'/>. Me yubo peko man, lok ter me nino dwe ki cawa mamegi orwate ki ma tye kakare.</p>">
 
 <!ENTITY certerror.pagetitle1  "Kube ma pe ki ber bedo">
-
-
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Kakube man tiyo ki HTTP Strict Transport Security (HSTS) me cimo ni &brandShortName; mogo kube kwede ki ber bedo keken. Pi meno, pe twere me medo ma kiweko woko pi catibiket man.">
+<!ENTITY certerror.copyToClipboard.label "Lok coc i bao coc">
 
 <!ENTITY inadequateSecurityError.title "Kube ni pe tye ki ber bedo">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate

@@ -9,19 +9,6 @@
 <!ENTITY toggleToolbox.key  "I">
 <!ENTITY toggleToolboxF12.keycode          "VK_F12">
 <!ENTITY toggleToolboxF12.keytext          "F12">
-
-<!ENTITY toolboxCloseButton.tooltip    "Dún na hUirlisí Forbróra">
-<!-- LOCALIZATION NOTE (toolboxFramesButton): This is the label for
-  -  the iframes menu list that appears only when the document has some.
-  -  It allows you to switch the context of the whole toolbox. -->
-
-<!ENTITY toolboxFramesTooltip          "Roghnaigh iframe mar an cháipéis reatha">
-<!-- LOCALIZATION NOTE (toolboxNoAutoHideButton): This is the label for
-  -  the button to force the popups/panels to stay visible on blur.
-  -  This is only visible in the browser toolbox as it is meant for
-  -  addon developers and Firefox contributors. -->
-
-<!ENTITY toolboxNoAutoHideTooltip      "Díchumasaigh uathcheilt na bpreabfhuinneog">
 <!-- LOCALIZATION NOTE (browserToolboxErrorMessage): This is the label
   -  shown next to error details when the Browser Toolbox is unable to open. -->
 
@@ -44,7 +31,7 @@
   -  for the checkbox option to enable collapse attributes in the Inspector
   -  panel. -->
 
-<!ENTITY options.collapseAttrs.label "Teasc aitreabúid DOM">
+<!ENTITY options.collapseAttrs.label "Teasc aitreabúidí DOM">
 <!ENTITY options.collapseAttrs.tooltip "Teasc aitreabúid fhada sa scrúdaitheoir">
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.label): This is the label for a
   -  dropdown list that controls the default color unit used in the inspector.
@@ -182,6 +169,21 @@
 
 <!ENTITY options.stylesheetAutocompletion.label      "CSS a uathlíonadh">
 <!ENTITY options.stylesheetAutocompletion.tooltip    "Déan uathlíonadh beo d'airíonna, luachanna, agus roghnóirí CSS san Eagarthóir Stíle ">
+<!-- LOCALIZATION NOTE (options.screenshot.label): This is the label for the
+   -  heading of the group of Screenshot preferences in the options
+   -  panel. -->
+
+<!ENTITY options.screenshot.label            "Láimhseáil Seatanna den Scáileán">
+<!-- LOCALIZATION NOTE (options.screenshot.clipboard.label): This is the
+   - label for the checkbox that toggles screenshot to clipboard feature. -->
+
+<!ENTITY options.screenshot.clipboard.label      "Cóipeáil sa ghearrthaisce">
+<!ENTITY options.screenshot.clipboard.tooltip    "Sábhálfar seat den scáileán go díreach sa ghearrthaisce">
+<!-- LOCALIZATION NOTE (options.screenshot.audio.label): This is the
+   - label for the checkbox that toggles the camera shutter audio for screenshot tool -->
+
+<!ENTITY options.screenshot.audio.label      "Seinn fuaim an chomhla">
+<!ENTITY options.screenshot.audio.tooltip    "Cumasaíonn seo fuaim cheamara agus seat den scáileán á thógáil">
 <!-- LOCALIZATION NOTE (options.commonprefs): This is the label for the heading
       of all preferences that affect both the Web Console and the Network
       Monitor -->

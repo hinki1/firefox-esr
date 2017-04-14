@@ -52,6 +52,10 @@
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "  Trådheng">
 
+<!ENTITY aboutTelemetry.capturedStacksSection "
+  Fanga stakkar
+">
+
 <!ENTITY aboutTelemetry.scalarsSection "  Skalarar">
 
 <!ENTITY aboutTelemetry.keyedScalarsSection "  Keyed Scalars">
@@ -59,6 +63,10 @@
 <!ENTITY aboutTelemetry.histogramsSection "  Histogram">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "  Histogram etter nyklar">
+
+<!ENTITY aboutTelemetry.eventsSection "
+  Hendingar
+">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "  Enkle målingar">
 

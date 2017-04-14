@@ -57,6 +57,9 @@ Raw JSON
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "  Congelamentos de threads">
 
+<!ENTITY aboutTelemetry.capturedStacksSection "
+  Pilhas capturadas">
+
 <!ENTITY aboutTelemetry.scalarsSection "
   Escalares">
 
@@ -67,6 +70,9 @@ Raw JSON
 <!ENTITY aboutTelemetry.histogramsSection "  Histogramas">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "  Histogramas nomeados">
+
+<!ENTITY aboutTelemetry.eventsSection "
+  Eventos">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "  Medições simples">
 
