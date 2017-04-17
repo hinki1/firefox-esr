@@ -10634,7 +10634,7 @@ else
   echo "$ac_t""no" 1>&6
 fi
 
-	min_nss_version=3.28.3
+	min_nss_version=3.28.4
 	echo $ac_n "checking for NSS - version >= $min_nss_version""... $ac_c" 1>&6
 echo "configure:10640: checking for NSS - version >= $min_nss_version" >&5
 
