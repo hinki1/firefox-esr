@@ -196,6 +196,9 @@ stamps/prepare-configure:: stamps/dummy
 ifeq ($(SOURCE_TYPE),nightly)
 	$(MAKE) -f client.mk configure-files
 endif
+	# Force *configure timestamps to be newer than old-configure.in's,
+	# because we patch both.
+	touch old-configure configure
 
 stamps/configure-check-$(PRODUCT):: stamps/configure-$(PRODUCT)
 # Ensure --{with,enable}-system options properly set expected variables
