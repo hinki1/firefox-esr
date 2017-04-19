@@ -1,0 +1,55 @@
+From: Nicholas Nethercote <nnethercote@mozilla.com>
+Date: Mon, 16 May 2016 12:36:25 +1000
+Subject: Bug 1273020 - Add missing null checks in ApplicationAccessible.
+ r=surkov.
+
+---
+ accessible/generic/ApplicationAccessible.h | 24 +++++++++++++++---------
+ 1 file changed, 15 insertions(+), 9 deletions(-)
+
+diff --git a/accessible/generic/ApplicationAccessible.h b/accessible/generic/ApplicationAccessible.h
+index cee505134e7b..24e82368cec7 100644
+--- a/accessible/generic/ApplicationAccessible.h
++++ b/accessible/generic/ApplicationAccessible.h
+@@ -60,16 +60,20 @@ public:
+   // ApplicationAccessible
+   void AppName(nsAString& aName) const
+   {
+-    nsAutoCString cname;
+-    mAppInfo->GetName(cname);
+-    AppendUTF8toUTF16(cname, aName);
++    if (mAppInfo) {
++      nsAutoCString cname;
++      mAppInfo->GetName(cname);
++      AppendUTF8toUTF16(cname, aName);
++    }
+   }
+ 
+   void AppVersion(nsAString& aVersion) const
+   {
+-    nsAutoCString cversion;
+-    mAppInfo->GetVersion(cversion);
+-    AppendUTF8toUTF16(cversion, aVersion);
++    if (mAppInfo) {
++      nsAutoCString cversion;
++      mAppInfo->GetVersion(cversion);
++      AppendUTF8toUTF16(cversion, aVersion);
++    }
+   }
+ 
+   void PlatformName(nsAString& aName) const
+@@ -79,9 +83,11 @@ public:
+ 
+   void PlatformVersion(nsAString& aVersion) const
+   {
+-    nsAutoCString cversion;
+-    mAppInfo->GetPlatformVersion(cversion);
+-    AppendUTF8toUTF16(cversion, aVersion);
++    if (mAppInfo) {
++      nsAutoCString cversion;
++      mAppInfo->GetPlatformVersion(cversion);
++      AppendUTF8toUTF16(cversion, aVersion);
++    }
+   }
+ 
+ protected:
