@@ -1,3 +1,9 @@
+firefox (53.0.is.53.0-1) experimental; urgency=medium
+
+  * The "oops, uploaded to unstable instead of experimental" release.
+
+ -- Mike Hommey <glandium@debian.org>  Thu, 20 Apr 2017 05:25:25 +0900
+
 firefox (53.0-1) unstable; urgency=medium
 
   * New upstream release.
