@@ -6,11 +6,6 @@
 <!ENTITY toggleToolbox.key "I">
 <!ENTITY toggleToolboxF12.keycode "VK_F12">
 <!ENTITY toggleToolboxF12.keytext "F12">
-<!ENTITY toolboxCloseButton.tooltip "Zamknij narzędzia dla programistów">
-
-<!ENTITY toolboxFramesTooltip "Wskaż element iframe jako cel narzędzi">
-
-<!ENTITY toolboxNoAutoHideTooltip "Wyłącz automatyczne ukrywanie wyskakujących okien">
 
 <!ENTITY browserToolboxErrorMessage "Błąd otwierania narzędzi przeglądarki:">
 
@@ -58,6 +53,12 @@
 <!ENTITY options.stylesheetSourceMaps.tooltip "Pokazuj oryginalne źródła (np. pliki Saas) w edytorze stylów i inspektorze">
 <!ENTITY options.stylesheetAutocompletion.label "Automatyczne uzupełnianie CSS">
 <!ENTITY options.stylesheetAutocompletion.tooltip "Podczas pisania uzupełniaj automatycznie wartości, własności i selektory CSS w edytorze stylów">
+
+<!ENTITY options.screenshot.label "Zapisywanie obrazu strony">
+<!ENTITY options.screenshot.clipboard.label "Zachowywanie w schowku">
+<!ENTITY options.screenshot.clipboard.tooltip "Zachowywanie bezpośrednio w schowku zrobionych zrzutów stron">
+<!ENTITY options.screenshot.audio.label "Odgłos migawki">
+<!ENTITY options.screenshot.audio.tooltip "Odtwarzanie dźwięku podczas robienia zrzutu">
 
 <!ENTITY options.showPlatformData.label "Informacje platformy Gecko">
 <!ENTITY options.showPlatformData.tooltip "Po włączeniu tej opcji Profiler JavaScript będzie raportował symbole platformy Gecko">

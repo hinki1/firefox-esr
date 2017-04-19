@@ -6,30 +6,30 @@
 
 <!ENTITY startupPage.label         "هنگام شروع &brandShortName;:">
 <!ENTITY startupPage.accesskey     "ه">
-<!ENTITY startupHomePage.label     "نمایش صفحه خانگی">
+<!ENTITY startupUserHomePage.label "نمایش صفحه آغازه">
 <!ENTITY startupBlankPage.label    "نمایش یک صفحه خالی">
-<!ENTITY startupLastSession.label  "نمایش صفحات و زبانه‌های قبلی">
+<!ENTITY startupPrevSession.label  "نمایش صفحات و زبانه‌های از آخرین دفعه">
 
 <!ENTITY homepage.label            "صفحهٔ خانگی">
 <!ENTITY homepage.accesskey        "خ">
 <!ENTITY useCurrentPage.label      "استفاده از صفحۀ فعلی">
-<!ENTITY useCurrentPage.accesskey  "C">
+<!ENTITY useCurrentPage.accesskey  "ف">
 <!ENTITY useMultiple.label         "استفاده از صفحۀ فعلی">
 <!ENTITY chooseBookmark.label      "استفاده از نشانک…">
-<!ENTITY chooseBookmark.accesskey  "B">
+<!ENTITY chooseBookmark.accesskey  "ن">
 <!ENTITY restoreDefault.label      "بازگرداندن به پیش‌فرض‌">
-<!ENTITY restoreDefault.accesskey  "R">
+<!ENTITY restoreDefault.accesskey  "ب">
 
 <!ENTITY downloads.label     "بارگیری‌ها">
 
-<!ENTITY saveTo.label "ذخیرهٔ پرونده در">
-<!ENTITY saveTo.accesskey "v">
+<!ENTITY saveTo.label "ذخیره پرونده در">
+<!ENTITY saveTo.accesskey "ذ">
 <!ENTITY chooseFolderWin.label        "مرور…">
-<!ENTITY chooseFolderWin.accesskey    "o">
+<!ENTITY chooseFolderWin.accesskey    "م">
 <!ENTITY chooseFolderMac.label        "انتخاب…">
-<!ENTITY chooseFolderMac.accesskey    "e">
-<!ENTITY alwaysAsk.label "محل ذخیرهٔ هر پرونده سؤال شود">
-<!ENTITY alwaysAsk.accesskey "A">
+<!ENTITY chooseFolderMac.accesskey    "ا">
+<!ENTITY alwaysAskWhere.label         "همیشه در مورد محل ذخیره سازی سوال شود">
+<!ENTITY alwaysAskWhere.accesskey     "ه">
 
 <!ENTITY alwaysCheckDefault2.label        "همیشه بررسی شود که آیا &brandShortName; مرورگر پیش‌فرض شما است یا خیر">
 <!ENTITY alwaysCheckDefault2.accesskey    "ه">

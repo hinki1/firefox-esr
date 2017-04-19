@@ -4,8 +4,9 @@
 
 <!ENTITY closeNotification.tooltip "بستن این پیغام">
 
-<!ENTITY closeNotificationItem.label "اکنون نه">
-
 <!ENTITY checkForUpdates "بررسی برای بروزرسانی‌ها...">
 
 <!ENTITY learnMore "اطلاعات بیشتر...">
+
+<!ENTITY defaultButton.label "باشه!">
+<!ENTITY defaultButton.accesskey "ب">

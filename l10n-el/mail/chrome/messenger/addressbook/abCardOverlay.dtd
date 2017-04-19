@@ -36,9 +36,9 @@
 <!ENTITY NickName.label                 "Προσωνύμιο:">
 <!ENTITY NickName.accesskey             "μ">
 
-<!ENTITY PrimaryEmail.label             "Email:">
+<!ENTITY PrimaryEmail.label             "E-mail:">
 <!ENTITY PrimaryEmail.accesskey         "E">
-<!ENTITY SecondEmail.label              "Πρόσθετο Email:">
+<!ENTITY SecondEmail.label              "Επιπρόσθετο e-mail:">
 <!ENTITY SecondEmail.accesskey          "τ">
 <!ENTITY PreferMailFormat.label         "Προτιμάει να λαμβάνει μηνύματα σε μορφή:">
 <!ENTITY PreferMailFormat.accesskey     "φ">
@@ -123,7 +123,7 @@
 <!ENTITY Gtalk.label                    "Google Talk:">
 <!ENTITY Gtalk.accesskey                "G">
 <!ENTITY AIM.label                      "AIM:">
-<!ENTITY AIM.accesskey                  "r">
+<!ENTITY AIM2.accesskey                 "Μ">
 <!ENTITY Yahoo.label                    "Yahoo!:">
 <!ENTITY Yahoo.accesskey                "Y">
 <!ENTITY Skype.label                    "Skype:">
@@ -131,7 +131,7 @@
 <!ENTITY QQ.label                       "QQ:">
 <!ENTITY QQ.accesskey                   "Q">
 <!ENTITY MSN.label                      "MSN:">
-<!ENTITY MSN.accesskey                  "M">
+<!ENTITY MSN2.accesskey                 "Ν">
 <!ENTITY ICQ.label                      "ICQ:">
 <!ENTITY ICQ.accesskey                  "I">
 <!ENTITY XMPP.label                     "Αναγνωριστικό Jabber:">

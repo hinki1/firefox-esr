@@ -156,6 +156,7 @@
 <!ENTITY overlay_share_bookmark_btn_label_already "Съществуваща отметка">
 <!ENTITY overlay_share_send_other "Изпратете до друго устройство">
 
+<!ENTITY overlay_share_open_browser_btn_label "Отваряне с &brandShortName;">
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
@@ -169,7 +170,7 @@
 <!ENTITY overlay_no_synced_devices "Това устройство не е свързано с Firefox Account">
 
 <!ENTITY pref_category_search3 "Търсене">
-<!ENTITY pref_category_search_summary2 "Добавяне, избор на стандартна, показване на предложения">
+<!ENTITY pref_category_search_summary2 "Добавяне, настройка, предложения">
 <!ENTITY pref_category_accessibility "Достъпност">
 <!ENTITY pref_category_accessibility_summary2 "Размер на текста, мащабиране, гласово въвеждане">
 <!ENTITY pref_category_privacy_short "Поверителност">
@@ -212,7 +213,7 @@
 <!ENTITY pref_home_updates2 "Обновяване на съдържанието">
 <!ENTITY pref_home_updates_enabled "Включено">
 <!ENTITY pref_home_updates_wifi "Само през Wi-Fi">
-<!ENTITY pref_category_home_homepage "Начална страница">
+<!ENTITY pref_category_home_homepage "Начален екран">
 <!ENTITY home_homepage_title "Избиране на начална страница">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
@@ -252,10 +253,10 @@
 <!ENTITY pref_category_media "Медия">
 <!ENTITY pref_category_developer_tools "Развойни инструменти">
 
-<!ENTITY pref_tap_to_load_images_title2 "Показване на изображенията">
-<!ENTITY pref_tap_to_load_images_enabled "Винаги">
+<!ENTITY pref_tap_to_load_images_title2 "Показване на изображения">
+<!ENTITY pref_tap_to_load_images_enabled "Разрешено">
 <!ENTITY pref_tap_to_load_images_data "Само през Wi-Fi">
-<!ENTITY pref_tap_to_load_images_disabled2 "Блокиране">
+<!ENTITY pref_tap_to_load_images_disabled2 "Забранено">
 
 <!ENTITY pref_show_web_fonts "Показване на уебшрифтове">
 <!ENTITY pref_show_web_fonts_summary2 "Изтегляне на шрифтовете при отваряне на страницата">
@@ -358,7 +359,7 @@
 <!ENTITY pref_font_size_medium "Среден">
 <!ENTITY pref_font_size_large "Голям">
 <!ENTITY pref_font_size_xlarge "Много голям">
-<!ENTITY pref_font_size_set "Избиране">
+<!ENTITY pref_font_size_set "Задаване">
 <!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
 (or combination of characters) is used to decrease the preview font size; a larger version of the
 same character/combination is used to increase the preview font size. It should be a concise
@@ -386,6 +387,7 @@ size. -->
 <!ENTITY pref_history_search_suggestions "Показване на историята">
 <!ENTITY pref_import_options "Настройки за внасяне">
 <!ENTITY pref_import_android_summary "Внасяне на отметки и история от фабричния браузър">
+<!ENTITY pref_private_data_openTabs "Отворени раздели">
 <!ENTITY pref_private_data_history2 "История на сърфиране">
 <!ENTITY pref_private_data_searchHistory "История на търсения">
 <!ENTITY pref_private_data_formdata2 "История на формуляри">
@@ -401,10 +403,10 @@ size. -->
 <!ENTITY pref_default_browser_mozilla_support_tablet "Посетете Поддръжка на Mozilla">
 <!ENTITY pref_about_firefox "Относно &brandShortName;">
 <!ENTITY pref_vendor_faqs "Въпроси и отговори">
-<!ENTITY pref_vendor_feedback "Даване на обратна връзка">
+<!ENTITY pref_vendor_feedback "Обратна връзка">
 
-<!ENTITY pref_dialog_set_default "Избиране като стандартна">
-<!ENTITY pref_dialog_default "Стандартна">
+<!ENTITY pref_dialog_set_default "Избиране по подразбиране">
+<!ENTITY pref_dialog_default "По подразбиране">
 <!ENTITY pref_dialog_remove "Премахване">
 
 <!ENTITY pref_search_last_toast "Не може да премахнете или изключите последната търсеща машина.">
@@ -535,6 +537,11 @@ size. -->
 
 <!ENTITY pref_tab_queue_title3 "Опашка от раздели">
 <!ENTITY pref_tab_queue_summary4 "Запазване на препратки до следващото отваряне на &brandShortName;">
+
+<!-- Localization note (pref_compact_tabs): Label for setting that controls whether 1 wide column or
+     2 narrower (compact) columns are used for tabs in the tabs tray in portrait mode on phones. -->
+<!ENTITY pref_compact_tabs "Компактни раздели">
+<!ENTITY pref_compact_tabs_summary2 "Групиране на разделите в две колони при портретен режим">
 
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
@@ -701,8 +708,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_downloading_select2 "Докоснете за инсталиране след това">
 <!ENTITY updater_downloading_retry2 "Докоснете за нов опит">
 
-<!ENTITY updater_apply_title2 "Налично е обновяване на &brandShortName;">
-<!ENTITY updater_apply_select2 "Докоснете за прилагане">
+<!ENTITY updater_apply_title3 "Изтеглено е обновяване за &brandShortName;">
+<!ENTITY updater_apply_select3 "Докоснете за инсталиране">
 
 <!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
      if the app requires a runtime permission to download updates. Currently, the updater only sees
@@ -846,3 +853,6 @@ and allows hiding a URL/page from highlights or topsites. The page remains in hi
 is simply hidden from the Activity Stream panel. -->
 <!ENTITY activity_stream_dismiss "Прекратяване">
 <!ENTITY activity_stream_delete_history "Премахване от историята">
+
+<!ENTITY activity_stream_welcome_title "Добре дошли в Акценти">
+<!ENTITY activity_stream_welcome_content1 "&brandShortName; сега създава акценти от местата, които сте открили в мрежата, за да се намирате по-лесно страхотни статии, видео, отметки и други страници.">

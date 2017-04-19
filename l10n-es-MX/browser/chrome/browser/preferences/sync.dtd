@@ -18,14 +18,14 @@
 <!ENTITY manageAccount.accesskey      "n">
 <!ENTITY changePassword2.label        "Cambiar contraseña…">
 <!ENTITY myRecoveryKey.label          "Mi clave de recuperación">
-<!ENTITY resetSync2.label             "Reestablecer Sync…">
+<!ENTITY resetSync2.label             "Restablecer Sync…">
 
 <!ENTITY pairDevice.label             "Emparejar un dispositivo">
 
 <!ENTITY syncMy.label               "Sincronizar">
 <!ENTITY engine.bookmarks.label     "Marcadores">
 <!ENTITY engine.bookmarks.accesskey "M">
-<!ENTITY engine.tabs.label          "Pestañas">
+<!ENTITY engine.tabs.label2         "Abrir pestañas">
 <!ENTITY engine.tabs.accesskey      "t">
 <!ENTITY engine.history.label       "Historial">
 <!ENTITY engine.history.accesskey   "r">

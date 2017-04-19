@@ -27,7 +27,7 @@
 direction in which tabs are closed, i.e. locales that use RTL mode should say
 left instead of right. -->
 <!ENTITY  closeTabsToTheEnd.label            "Zavřít panely vpravo">
-<!ENTITY  closeTabsToTheEnd.accesskey        "t">
+<!ENTITY  closeTabsToTheEnd.accesskey        "n">
 <!ENTITY  closeOtherTabs.label               "Zavřít ostatní panely">
 <!ENTITY  closeOtherTabs.accesskey           "v">
 
@@ -229,7 +229,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.screenBlocked.tooltip            "Zakázali jste této stránce sdílení vaší obrazovky.">
 <!ENTITY urlbar.geolocationBlocked.tooltip       "Zakázali jste této stránce zjišťovat vaši polohu.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "Zakázali jste této stránce ukládat data do vašeho počítače.">
-<!ENTITY urlbar.webNotificationsBlocked.tooltip  "Zakázali jste této stránce zobrazovat upozornění.">
+<!ENTITY urlbar.webNotificationsBlocked.tooltip  "Zakázali jste této stránce zobrazovat oznámení.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Zobrazit historii">
 
@@ -701,7 +701,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionSecure "Zabezpečené připojení">
 <!ENTITY identity.connectionNotSecure "Připojení není zabezpečeno">
 <!ENTITY identity.connectionFile "Tato stránka je uložena ve vašem počítači.">
-<!ENTITY identity.connectionVerified2 "Jste zabezpečeně připojeni na tuto stránku, provozovanou:">
+<!ENTITY identity.connectionVerified2 "Spojení s tímto serverem je zabezpečené. Jeho provozovatelem je:">
 <!ENTITY identity.connectionInternal "Toto je zabezpečená stránka aplikace &brandShortName;.">
 <!ENTITY identity.insecureLoginForms2 "Přihlašovací údaje zadané na této stránce mohou být vyzrazeny.">
 
@@ -756,6 +756,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "Zapněte synchronizaci panelů pro zobrazení seznamu panelů z vašich ostatních zařízení.">
 
+<!-- LOCALIZATION NOTE (syncedTabs.context.open.accesskey,
+                        syncedTabs.context.openAllInTabs.accesskey):
+     These access keys are identical because their associated menu items are
+     mutually exclusive -->
 <!ENTITY syncedTabs.context.open.label                       "Otevřít">
 <!ENTITY syncedTabs.context.open.accesskey                   "O">
 <!ENTITY syncedTabs.context.openInNewTab.label               "Otevřít v novém panelu">
@@ -768,6 +772,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "P">
 <!ENTITY syncedTabs.context.copy.label                       "Kopírovat">
 <!ENTITY syncedTabs.context.copy.accesskey                   "K">
+
+<!ENTITY syncedTabs.context.openAllInTabs.label              "Otevřít vše v panelech">
+<!ENTITY syncedTabs.context.openAllInTabs.accesskey          "p">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">

@@ -429,6 +429,11 @@
 %define L10N_RECOMMENDS myspell-uk
 %include @PRODUCT@-l10n.control.in
 
+%define L10N_LANG ur
+%define L10N_LANGUAGE Urdu
+%undef L10N_RECOMMENDS
+%include @PRODUCT@-l10n.control.in
+
 %define L10N_LANG uz
 %define L10N_LANGUAGE Uzbek
 %undef L10N_RECOMMENDS

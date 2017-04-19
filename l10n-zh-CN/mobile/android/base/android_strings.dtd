@@ -156,6 +156,7 @@
 <!ENTITY overlay_share_bookmark_btn_label_already "已有此书签">
 <!ENTITY overlay_share_send_other "发送到其他设备">
 
+<!ENTITY overlay_share_open_browser_btn_label "在 &brandShortName; 中打开">
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
@@ -284,10 +285,10 @@
 
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "活动流">
-<!ENTITY pref_activity_stream_summary "历史信息与首页的一种变革新体验，愿您用它可以更方便地在 &brandShortName; 中找到想要的信息。">
+<!ENTITY pref_activity_stream_summary "将您的上网足迹可视化并重新构想首页设计，愿您能更方便地在 &brandShortName; 中找到想要的信息。">
 
 <!ENTITY tracking_protection_prompt_title "现在有了跟踪保护功能">
-<!ENTITY tracking_protection_prompt_text "主动拦截跟踪您的元素，让您不再需要担忧。">
+<!ENTITY tracking_protection_prompt_text "主动拦截跟踪您的元素，不再需要担心。">
 <!ENTITY tracking_protection_prompt_tip_text "在“隐私”设置中详细了解">
 <!ENTITY tracking_protection_prompt_action_button "明白了！">
 
@@ -386,6 +387,7 @@ size. -->
 <!ENTITY pref_history_search_suggestions "显示搜索记录">
 <!ENTITY pref_import_options "导入来自其他浏览器的信息">
 <!ENTITY pref_import_android_summary "从自带浏览器导入书签和历史记录">
+<!ENTITY pref_private_data_openTabs "打开的标签页">
 <!ENTITY pref_private_data_history2 "浏览历史">
 <!ENTITY pref_private_data_searchHistory "搜索历史记录">
 <!ENTITY pref_private_data_formdata2 "表单历史记录">
@@ -536,6 +538,11 @@ size. -->
 <!ENTITY pref_tab_queue_title3 "标签页队列">
 <!ENTITY pref_tab_queue_summary4 "保存链接，下次打开 &brandShortName; 时一并开启">
 
+<!-- Localization note (pref_compact_tabs): Label for setting that controls whether 1 wide column or
+     2 narrower (compact) columns are used for tabs in the tabs tray in portrait mode on phones. -->
+<!ENTITY pref_compact_tabs "紧凑标签页">
+<!ENTITY pref_compact_tabs_summary2 "纵向模式下标签页列为两排">
+
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
      bookmarks, or reading list. -->
@@ -619,7 +626,7 @@ size. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "不再隐藏选中的设备">
 
 <!ENTITY remote_tabs_panel_moved_title "我的标签页去哪了？">
-<!ENTITY remote_tabs_panel_moved_desc "我们已经从其他设备转移了您的标签页到您的首页上的一个面板，这让您可以轻松地在每次打开新标签页时访问它们。">
+<!ENTITY remote_tabs_panel_moved_desc "您其他设备上打开的标签页现在会在首页上的一个面板里显示，方便您在打开新标签页时查看。">
 <!ENTITY remote_tabs_panel_moved_link "带我去我的新面板吧。">
 
 <!ENTITY pin_site_dialog_hint "请输入搜索关键词">
@@ -698,8 +705,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_downloading_select2 "下载完毕后请触摸以应用更新">
 <!ENTITY updater_downloading_retry2 "点此立即重试">
 
-<!ENTITY updater_apply_title2 "&brandShortName; 更新已可安装">
-<!ENTITY updater_apply_select2 "点此立即更新">
+<!ENTITY updater_apply_title3 "应用已下载的 &brandShortName; 更新">
+<!ENTITY updater_apply_select3 "点按开始安装">
 
 <!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
      if the app requires a runtime permission to download updates. Currently, the updater only sees
@@ -829,7 +836,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_button "添加书签">
 
 <!ENTITY activity_stream_topsites "常用网站">
-<!ENTITY activity_stream_highlights "高亮">
+<!ENTITY activity_stream_highlights "集锦">
 
 <!-- LOCALIZATION NOTE (activity_stream_highlight_label_bookmarked): This label is shown in the Activity
 Stream list for highlights sourced from th user's bookmarks. -->
@@ -843,3 +850,6 @@ and allows hiding a URL/page from highlights or topsites. The page remains in hi
 is simply hidden from the Activity Stream panel. -->
 <!ENTITY activity_stream_dismiss "消除">
 <!ENTITY activity_stream_delete_history "删除历史记录">
+
+<!ENTITY activity_stream_welcome_title "欢迎访问您的集锦">
+<!ENTITY activity_stream_welcome_content1 "&brandShortName; 现在将您曾阅览的网上内容展现出来，以便您重新查阅有用的文章、视频、书签或其他页面。">

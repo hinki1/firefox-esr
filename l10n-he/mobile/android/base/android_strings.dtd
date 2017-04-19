@@ -2,9 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY firstrun_panel_title_welcome "ברוך בואך">
+<!ENTITY firstrun_panel_title_welcome "ברוכים הבאים">
 
-<!ENTITY firstrun_urlbar_message "ברוך בואך ל־&brandShortName;">
+<!ENTITY firstrun_urlbar_message "ברוכים הבאים אל &brandShortName;">
 <!ENTITY firstrun_urlbar_subtext "ניתן לאתר פריטים מהר יותר עם קיצורים להצעות חיפוש מועילות.">
 <!ENTITY firstrun_bookmarks_title "היסטוריה">
 <!ENTITY firstrun_bookmarks_message "המועדפים שלך, בראש ובראשונה">
@@ -48,11 +48,11 @@
 <!ENTITY  switch_to_tab "מעבר ללשונית">
 
 <!-- Localization note: Shown in a snackbar when tab is loaded from cache while device was offline. -->
-<!ENTITY  tab_offline_version "הגרסה הבלתי מקוונת מוצגת">
+<!ENTITY  tab_offline_version "מוצגת הגרסה הלא מקוונת">
 
 <!ENTITY  crash_reporter_title "מדווח הקריסות של &brandShortName;">
 <!ENTITY  crash_message2 "&brandShortName; נתקל בבעיה וקרס. הלשוניות שלך אמורות להיות רשומות לאחר הפעלה מחדש בדף הפתיחה של &brandShortName;.">
-<!ENTITY  crash_send_report_message3 "כדאי לספר ל־&vendorShortName; על קריסה זו כדי שניתן יהיה לתקן אותה">
+<!ENTITY  crash_send_report_message3 "שליחת דיווח ל־&vendorShortName; על קריסה זו כדי שניתן יהיה לתקן אותה">
 <!ENTITY  crash_include_url2 "לכלול את כתובת הדף בו הייתי">
 <!ENTITY  crash_sorry "אנו מצטערים">
 <!ENTITY  crash_comment "הוספת הערה (ההערות חשופות לקהל)">
@@ -156,6 +156,7 @@
 <!ENTITY overlay_share_bookmark_btn_label_already "כבר נוצרה סימניה">
 <!ENTITY overlay_share_send_other "שליחה להתקנים אחרים">
 
+<!ENTITY overlay_share_open_browser_btn_label "פתיחה ב־&brandShortName;">
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
@@ -194,7 +195,7 @@
 <!-- Localization note (pref_category_advanced_summary3): “data saver” in this
      context means consuming less data, e.g. by not loading images, not
      “storing data”. -->
-<!ENTITY pref_category_advanced_summary3 "שחזור לשוניות, חוסך בתעבורת נתונים, כלי פיתוח">
+<!ENTITY pref_category_advanced_summary3 "שחזור לשוניות, חסכון בתעבורת נתונים, כלי פיתוח">
 <!ENTITY pref_category_notifications "התרעות">
 <!ENTITY pref_category_notifications_summary "תכונות חדשות, עדכוני אתרים">
 <!ENTITY pref_content_notifications "עדכוני אתרים">
@@ -248,7 +249,7 @@
 <!-- Localization note (pref_category_data_saver): “data saver” in this
      context means consuming less data, e.g. by not loading images, not
      “storing data”. -->
-<!ENTITY pref_category_data_saver "חוסך בתעבורת נתונים">
+<!ENTITY pref_category_data_saver "חסכון בתעבורת נתונים">
 <!ENTITY pref_category_media "מדיה">
 <!ENTITY pref_category_developer_tools "כלי פיתוח">
 
@@ -386,6 +387,7 @@ size. -->
 <!ENTITY pref_history_search_suggestions "הצגת היסטורית חיפוש">
 <!ENTITY pref_import_options "אפשרויות יבוא">
 <!ENTITY pref_import_android_summary "יבוא סימניות והיסטוריה מהדפדפן המובנה">
+<!ENTITY pref_private_data_openTabs "לשוניות פתוחות">
 <!ENTITY pref_private_data_history2 "היסטוריית גלישה">
 <!ENTITY pref_private_data_searchHistory "היסטוריית חיפוש">
 <!ENTITY pref_private_data_formdata2 "היסטוריית טפסים">
@@ -535,6 +537,11 @@ size. -->
 
 <!ENTITY pref_tab_queue_title3 "תור לשוניות">
 <!ENTITY pref_tab_queue_summary4 "שמירת קישורים עד לפתיחה הבאה של &brandShortName;">
+
+<!-- Localization note (pref_compact_tabs): Label for setting that controls whether 1 wide column or
+     2 narrower (compact) columns are used for tabs in the tabs tray in portrait mode on phones. -->
+<!ENTITY pref_compact_tabs "לשוניות צפופות">
+<!ENTITY pref_compact_tabs_summary2 "סידור לשוניות בשתי עמודות במצב תצוגה לאורך">
 
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
@@ -701,8 +708,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_downloading_select2 "יש לגעת כדי להחיל את השינויים לאחר ההורדה">
 <!ENTITY updater_downloading_retry2 "נא לגעת כדי לנסות שוב">
 
-<!ENTITY updater_apply_title2 "עדכון זמין עבור &brandShortName;">
-<!ENTITY updater_apply_select2 "נא לגעת כדי לעדכן">
+<!ENTITY updater_apply_title3 "הורדת העדכון עבור &brandShortName; הושלמה">
+<!ENTITY updater_apply_select3 "יש להקיש להתקנה">
 
 <!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
      if the app requires a runtime permission to download updates. Currently, the updater only sees
@@ -823,7 +830,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY promotion_add_to_homescreen "הוספה למסך הבית">
 
-<!ENTITY helper_first_offline_bookmark_title "לקריאה בלתי מקוונת">
+<!ENTITY helper_first_offline_bookmark_title "לקריאה לא מקוונת">
 <!ENTITY helper_first_offline_bookmark_message "ניתן למצוא את פריטי תצוגת הקריאה שלך בין הסימניות, אפילו ללא חיבור לאינטרנט.">
 <!ENTITY helper_first_offline_bookmark_button "מעבר לסימניות">
 
@@ -836,13 +843,16 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!-- LOCALIZATION NOTE (activity_stream_highlight_label_bookmarked): This label is shown in the Activity
 Stream list for highlights sourced from th user's bookmarks. -->
-<!ENTITY activity_stream_highlight_label_bookmarked "נשמרו כסימניות">
+<!ENTITY activity_stream_highlight_label_bookmarked "נשמר בסימניות">
 <!-- LOCALIZATION NOTE (activity_stream_highlight_label_visited): This label is shown in the Activity
 Stream list for highlights sourced from th user's bookmarks. -->
-<!ENTITY activity_stream_highlight_label_visited "ביקרת בעבר">
+<!ENTITY activity_stream_highlight_label_visited "ביקורים קודמים">
 
 <!-- LOCALIZATION NOTE (activity_stream_dismiss): This label is shown in the Activity Stream context menu,
 and allows hiding a URL/page from highlights or topsites. The page remains in history/bookmarks, but
 is simply hidden from the Activity Stream panel. -->
 <!ENTITY activity_stream_dismiss "התעלמות">
 <!ENTITY activity_stream_delete_history "מחיקה מההיסטוריה">
+
+<!ENTITY activity_stream_welcome_title "ברוכים הבאים לכותרות שלכם">
+<!ENTITY activity_stream_welcome_content1 "&brandShortName; יוצר כעת כותרות של דברים שמצאתם ברשת כדי שניתן יהיה לחזור אל מאמרים חשובים, סרטוני וידאו, סימניות ודפים אחרים.">

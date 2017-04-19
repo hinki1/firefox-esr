@@ -1,0 +1,11 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY     window.title                  "Ajustes - Datos de sitio">
+<!ENTITY     settings.description          "Los siguientes sitios solicitaron almacenar datos del sitio en tu disco. Puedes especificar que sitios tienen permitidos almacenarlos. Por defecto los datos de sitio son temporales y pueden ser eliminados automáticamente.">
+<!ENTITY     hostCol.label                 "Sitio">
+<!ENTITY     statusCol.label               "Estado">
+<!ENTITY     usageCol.label                "Almacenamiento">
+<!ENTITY     search.label                  "Buscar:">
+<!ENTITY     search.accesskey              "S">

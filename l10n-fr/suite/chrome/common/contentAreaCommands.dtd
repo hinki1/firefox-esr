@@ -98,19 +98,6 @@
 <!ENTITY copyEmailCmd.accesskey       "e">
 <!ENTITY thisFrameMenu.label          "Ce cadre">
 <!ENTITY thisFrameMenu.accesskey      "C">
-<!ENTITY mediaPlaybackRate.label        "Vitesse de lecture">
-<!ENTITY mediaPlaybackRate.accesskey    "V">
-<!ENTITY mediaPlaybackRate050.label     "Vitesse lente (×0,5)">
-<!ENTITY mediaPlaybackRate050.accesskey "l">
-<!ENTITY mediaPlaybackRate100.label     "Vitesse normale">
-<!ENTITY mediaPlaybackRate100.accesskey "n">
-<!ENTITY mediaPlaybackRate150.label     "Vitesse rapide (×1,5)">
-<!ENTITY mediaPlaybackRate150.accesskey "r">
-<!ENTITY mediaPlaybackRate200.label     "Vitesse doublée">
-<!ENTITY mediaPlaybackRate200.accesskey "d">
-<!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
-"Hide Controls" are the same because the two context-menu
-items are mutually exclusive. -->
 <!ENTITY mediaPlay.label              "Lire">
 <!ENTITY mediaPlay.accesskey          "L">
 <!ENTITY mediaPause.label             "Pause">
@@ -119,6 +106,23 @@ items are mutually exclusive. -->
 <!ENTITY mediaMute.accesskey          "u">
 <!ENTITY mediaUnmute.label            "Audible">
 <!ENTITY mediaUnmute.accesskey        "A">
+<!ENTITY mediaPlaybackRate.label        "Vitesse de lecture">
+<!ENTITY mediaPlaybackRate.accesskey    "V">
+<!ENTITY mediaPlaybackRate050.label     "Vitesse lente (×0,5)">
+<!ENTITY mediaPlaybackRate050.accesskey "l">
+<!ENTITY mediaPlaybackRate100.label     "Vitesse normale">
+<!ENTITY mediaPlaybackRate100.accesskey "n">
+<!ENTITY mediaPlaybackRate125.label     "Vitesse rapide (×1,25)">
+<!ENTITY mediaPlaybackRate125.accesskey "i">
+<!ENTITY mediaPlaybackRate150.label     "Vitesse rapide (×1,5)">
+<!ENTITY mediaPlaybackRate150.accesskey "r">
+<!ENTITY mediaPlaybackRate200.label     "Vitesse doublée">
+<!ENTITY mediaPlaybackRate200.accesskey "d">
+<!ENTITY mediaLoop.label              "Lire en boucle">
+<!ENTITY mediaLoop.accesskey          "b">
+<!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
+"Hide Controls" are the same because the two context-menu
+items are mutually exclusive. -->
 <!ENTITY mediaShowControls.label      "Afficher les contrôles">
 <!ENTITY mediaShowControls.accesskey  "c">
 <!ENTITY mediaHideControls.label      "Masquer les contrôles">

@@ -25,7 +25,7 @@
 <!ENTITY syncMy.label               "Sincronizează">
 <!ENTITY engine.bookmarks.label     "Semne de carte">
 <!ENTITY engine.bookmarks.accesskey "m">
-<!ENTITY engine.tabs.label          "File">
+<!ENTITY engine.tabs.label2         "File deschise">
 <!ENTITY engine.tabs.accesskey      "T">
 <!ENTITY engine.history.label       "Istoric">
 <!ENTITY engine.history.accesskey   "r">

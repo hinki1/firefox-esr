@@ -4,8 +4,8 @@
 
 <!ENTITY  general.label                 "ทั่วไป">
 
-<!ENTITY  warnAddonInstall.label        "เตือนฉันเมื่อไซต์พยายามที่จะติดตั้งส่วนเสริม">
-<!ENTITY  warnAddonInstall.accesskey    "W">
+<!ENTITY  warnOnAddonInstall.label        "เตือนคุณเมื่อไซต์พยายามจะติดตั้งส่วนเสริม">
+<!ENTITY  warnOnAddonInstall.accesskey    "W">
 
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
@@ -17,8 +17,8 @@
 <!ENTITY  blockDownloads.label            "ปิดกั้นการดาวน์โหลดที่อันตราย">
 <!ENTITY  blockDownloads.accesskey        "อ">
 
-<!ENTITY  blockUncommonUnwanted.label     "เตือนฉันเกี่ยวกับซอฟต์แวร์ไม่พึงประสงค์และไม่ปกติ">
-<!ENTITY  blockUncommonUnwanted.accesskey "ส">
+<!ENTITY  blockUncommonAndUnwanted.label     "เตือนคุณเกี่ยวกับซอฟต์แวร์ไม่พึงประสงค์และไม่ปกติ">
+<!ENTITY  blockUncommonAndUnwanted.accesskey "C">
 
 <!ENTITY  addonExceptions.label         "ข้อยกเว้น…">
 <!ENTITY  addonExceptions.accesskey     "อ">

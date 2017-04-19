@@ -4,8 +4,7 @@
 
 <!ENTITY  general.label                 "பொதுவான">
 
-<!ENTITY  warnAddonInstall.label        "வலைத்தளங்கள் துணை நிரல்களை நிறுவ முயற்சிக்கும் போது என்னை எச்சரிக்கவும்">
-<!ENTITY  warnAddonInstall.accesskey    "வ">
+
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
   https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
@@ -31,4 +30,5 @@
 <!ENTITY  changeMasterPassword.label     "முதன்மை கடவுச்சொல்லை மாற்றவும்...">
 <!ENTITY  changeMasterPassword.accesskey "M">
 
-
+<!ENTITY  savedLogins.label              "சேமிக்கப்பட்ட புகுபதிகைகள்...">
+<!ENTITY  savedLogins.accesskey          "L">

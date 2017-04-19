@@ -92,6 +92,7 @@
 <!ENTITY overlay_share_bookmark_btn_label "Marcador">
 <!ENTITY overlay_share_bookmark_btn_label_already "Ya está en los marcadores">
 <!ENTITY overlay_share_send_other "Enviar a otros dispositivos">
+<!ENTITY overlay_share_open_browser_btn_label "Abrir en &brandShortName;">
 <!ENTITY overlay_share_send_tab_btn_label "Enviar a otro dispositivo">
 <!ENTITY overlay_share_no_url "No se ha encontrado enlace en esta compartición">
 <!ENTITY overlay_share_select_device "Seleccione dispositivo">
@@ -232,6 +233,7 @@
 <!ENTITY pref_history_search_suggestions "Mostrar historial de búsquedas">
 <!ENTITY pref_import_options "Opciones de importación">
 <!ENTITY pref_import_android_summary "Importar marcadores e historial del navegador nativo">
+<!ENTITY pref_private_data_openTabs "Abrir pestañas">
 <!ENTITY pref_private_data_history2 "Historial de navegación">
 <!ENTITY pref_private_data_searchHistory "Historial de búsquedas">
 <!ENTITY pref_private_data_formdata2 "Historial de formularios">
@@ -338,6 +340,8 @@
 <!ENTITY pref_scroll_title_bar_summary2 "Ocultar la barra de herramientas de &brandShortName; al bajar por una página">
 <!ENTITY pref_tab_queue_title3 "Pestañas en cola">
 <!ENTITY pref_tab_queue_summary4 "Guardarlos hasta que vuelva a abrir &brandShortName;">
+<!ENTITY pref_compact_tabs "Compactar pestañas">
+<!ENTITY pref_compact_tabs_summary2 "Organizar pestañas en dos columnas en la orientación vertical">
 <!ENTITY page_removed "Página eliminada">
 <!ENTITY bookmark_edit_title "Editar marcador">
 <!ENTITY bookmark_edit_name "Nombre">
@@ -426,8 +430,8 @@
 <!ENTITY updater_downloading_title_failed2 "La descarga falló">
 <!ENTITY updater_downloading_select2 "Pulse para aplicar una vez descargada">
 <!ENTITY updater_downloading_retry2 "Pulse para reintentar">
-<!ENTITY updater_apply_title2 "Actualización disponible para &brandShortName;">
-<!ENTITY updater_apply_select2 "Pulse para actualizar">
+<!ENTITY updater_apply_title3 "Actualización descargada para &brandShortName;">
+<!ENTITY updater_apply_select3 "Toque para instalar">
 <!ENTITY updater_permission_text "Para descargar archivos y actualizaciones, permita a &brandShortName; acceder al almacenamiento.">
 <!ENTITY updater_permission_allow "Permitir">
 <!ENTITY new_guest_session "Abrir sesión invitado">
@@ -486,3 +490,5 @@
 <!ENTITY activity_stream_highlight_label_visited "Visitado">
 <!ENTITY activity_stream_dismiss "Ocultar">
 <!ENTITY activity_stream_delete_history "Eliminar del historial">
+<!ENTITY activity_stream_welcome_title "Bienvenido a sus Destacados">
+<!ENTITY activity_stream_welcome_content1 "&brandShortName; ahora destaca cosas que ha descubierto en la web para que pueda encontrar más tarde esos magníficos artículos, vídeos, marcadores y otras páginas.">

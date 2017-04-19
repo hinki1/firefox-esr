@@ -28,7 +28,7 @@
 # link title for https://www.mozilla.org/en-US/firefox/central/
 
 
-#define getting_started துவங்குதல்
+#define getting_started தொடங்குதல்
 
 
 # LOCALIZATION NOTE (firefox_heading):
@@ -37,7 +37,7 @@
 # Firefox links folder name
 
 
-#define firefox_heading மோசில்லா பயர்பாக்ஸ்
+#define firefox_heading Mozilla Firefox
 
 
 # LOCALIZATION NOTE (firefox_help):
@@ -55,7 +55,7 @@
 # link title for https://www.mozilla.org/en-US/firefox/customize/
 
 
-#define firefox_customize firefox தனிப்பயனாக்கம்\u0020
+#define firefox_customize Firefox தனிப்பயனாக்கம்
 
 
 # LOCALIZATION NOTE (firefox_community):
@@ -64,7 +64,7 @@
 # link title for https://www.mozilla.org/en-US/contribute/
 
 
-#define firefox_community எங்களுடன் ஈடுபட
+#define firefox_community பங்குபெற
 
 
 # LOCALIZATION NOTE (firefox_about):
@@ -73,7 +73,7 @@
 # link title for https://www.mozilla.org/en-US/about/
 
 
-#define firefox_about எங்களை பற்றி
+#define firefox_about எங்களைப் பற்றி
 
 
 # LOCALIZATION NOTE (nightly_heading):
@@ -82,7 +82,7 @@
 # Firefox Nightly links folder name
 
 
-#define nightly_heading Firefox Nightly Resources
+#define nightly_heading Firefox Nightly வளங்கள்
 
 
 # LOCALIZATION NOTE (nightly_blog):
@@ -91,7 +91,7 @@
 # Nightly builds only, link title for https://blog.nightly.mozilla.org/
 
 
-#define nightly_blog Firefox Nightly blog
+#define nightly_blog Firefox Nightly வலைப்பூ
 
 
 # LOCALIZATION NOTE (bugzilla):
@@ -100,7 +100,7 @@
 # Nightly builds only, link title for https://bugzilla.mozilla.org/
 
 
-#define bugzilla Mozilla Bug Tracker
+#define bugzilla Mozilla பிழை தடமறிவான்
 
 
 # LOCALIZATION NOTE (mdn):
@@ -109,7 +109,7 @@
 # Nightly builds only, link title for https://developer.mozilla.org/
 
 
-#define mdn Mozilla Developer Network
+#define mdn Mozilla உருவாக்குநர் வலையம்
 
 
 # LOCALIZATION NOTE (nightly_tester_tools):
@@ -118,7 +118,7 @@
 # Nightly builds only, link title for https://addons.mozilla.org/en-US/firefox/addon/nightly-tester-tools/
 
 
-#define nightly_tester_tools Nightly Tester Tools
+#define nightly_tester_tools Nightly ஆய்வுக்கருவிகள்
 
 
 # LOCALIZATION NOTE (crashes):
@@ -127,7 +127,7 @@
 # Nightly builds only, link title for about:crashes
 
 
-#define crashes All your crashes
+#define crashes உங்கள் அனைத்து நொறுக்கல்கள்
 
 
 # LOCALIZATION NOTE (irc):
@@ -136,7 +136,7 @@
 # Nightly builds only, link title for ircs://irc.mozilla.org/nightly
 
 
-#define irc Discuss Nightly on IRC
+#define irc Nightly குறித்து IRC இல் விவாதிக்கவும்
 
 
 # LOCALIZATION NOTE (planet):

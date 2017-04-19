@@ -20,6 +20,8 @@
 <!ENTITY installAddonFromFile.accesskey       "K">
 <!ENTITY toolsMenu.tooltip                    "Gintic pi med-ikome weng">
 
+
+
 <!ENTITY cmd.back.tooltip                     "Dok cen pot buk acel">
 <!ENTITY cmd.forward.tooltip                  "Wot anyim ki pot buk acel">
 
@@ -205,7 +207,7 @@
 <!ENTITY addon.checkingForUpdates.label       "Roto pi ngec manyen…">
 <!ENTITY addon.releaseNotes.label             "Gony Coc:">
 <!ENTITY addon.loadingReleaseNotes.label      "Tye ka cano…">
-<!ENTITY addon.errorLoadingReleaseNotes.label "Kica, ento bal otime i kacano lagony coc.">
+<!ENTITY addon.errorLoadingReleaseNotes.label "Tim wa kica, ento bal otime i cano coc me cwalo woko.">
 
 <!ENTITY addon.createdBy.label                "Ki ">
 
@@ -244,4 +246,5 @@
 <!ENTITY disabledUnsigned.devInfo.linkToManual "ki cing">
 
 
+<!ENTITY pluginDeprecation.description "Gino mo orem? &brandShortName; pe dong cwako larwak mogo.">
 <!ENTITY pluginDeprecation.learnMore "Nong ngec mapol.">

@@ -27,8 +27,8 @@
 
 <!-- New Account Page 1: Basic Account Info -->
 <!ENTITY setup.newAccountDetailsPage.title.label "Подробности за сметката">
-<!ENTITY setup.emailAddress.label     "Мейл адрес">
-<!ENTITY setup.emailAddress.accesskey "М">
+<!ENTITY setup.emailAddress.label     "Адрес на ел. поща">
+<!ENTITY setup.emailAddress.accesskey "е">
 <!ENTITY setup.choosePassword.label      "Изберете парола">
 <!ENTITY setup.choosePassword.accesskey  "п">
 <!ENTITY setup.confirmPassword.label     "Потвърждаване на парола">
@@ -82,10 +82,10 @@
 <!ENTITY syncDeviceName.label       "Име на устройството:">
 <!ENTITY syncDeviceName.accesskey   "м">
 
-<!ENTITY syncMy.label               "Sync за моите">
+<!ENTITY syncMy.label               "Sync на моите">
 <!ENTITY engine.bookmarks.label     "Отметки">
 <!ENTITY engine.bookmarks.accesskey "О">
-<!ENTITY engine.tabs.label          "Раздели">
+<!ENTITY engine.tabs.label2         "Отворени раздели">
 <!ENTITY engine.tabs.accesskey      "Р">
 <!ENTITY engine.history.label       "История">
 <!ENTITY engine.history.accesskey   "И">

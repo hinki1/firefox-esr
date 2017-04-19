@@ -8,14 +8,14 @@
 <!ENTITY newWindowsAsTabs.label       "Vietoje naujų langų atverti naujas korteles">
 <!ENTITY newWindowsAsTabs.accesskey   "k">
 
-<!ENTITY warnCloseMultipleTabs.label  "Įspėti prieš užveriant langą, kuriame yra atvertų kortelių">
-<!ENTITY warnCloseMultipleTabs.accesskey  "ė">
+<!ENTITY warnOnCloseMultipleTabs.label      "Įspėti prieš užveriant daugiau kaip vieną kortelę">
+<!ENTITY warnOnCloseMultipleTabs.accesskey  "d">
 
-<!ENTITY warnOpenManyTabs.label       "Įspėti prieš atveriant keletą kortelių, jei jos gali sulėtinti „&brandShortName;“ darbą">
-<!ENTITY warnOpenManyTabs.accesskey   "s">
+<!ENTITY warnOnOpenManyTabs.label       "Įspėti prieš atveriant daug kortelių, kurios gali sulėtinti „&brandShortName;“ darbą">
+<!ENTITY warnOnOpenManyTabs.accesskey   "s">
 
-<!ENTITY switchToNewTabs.label        "Atveriant saitą naujoje kortelėje, įkelti ją į pirmąjį planą">
-<!ENTITY switchToNewTabs.accesskey    "v">
+<!ENTITY switchLinksToNewTabs.label        "Atveriant saitą naujoje kortelėje, įkelti ją į pirmąjį planą">
+<!ENTITY switchLinksToNewTabs.accesskey    "v">
 
 <!ENTITY showTabsInTaskbar.label          "Rodyti kortelių miniatiūras „Windows“ užduočių juostoje">
 <!ENTITY showTabsInTaskbar.accesskey      "m">

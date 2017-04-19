@@ -10,10 +10,10 @@
 
 <!ENTITY useCursorNavigation.label       "Vienmēr izmantot kursora taustiņus, lai pārvietotos pa lapām">
 <!ENTITY useCursorNavigation.accesskey   "k">
-<!ENTITY searchStartTyping.label         "Meklēt rakstīto tekstu, kolīdz es sāku rakstīt">
-<!ENTITY searchStartTyping.accesskey     "t">
-<!ENTITY blockAutoRefresh.label          "Brīdināt mani, ja mājas lapa mēģina pārlādēties vai pārsūtīt mani uz citu lapu">
-<!ENTITY blockAutoRefresh.accesskey      "B">
+<!ENTITY searchOnStartTyping.label       "Meklēt rakstīto tekstu, kolīdz es sāku rakstīt">
+<!ENTITY searchOnStartTyping.accesskey   "m">
+<!ENTITY blockAutoReload.label           "Brīdināt mani, ja mājas lapa mēģina pārlādēties vai pārsūtīt mani uz citu lapu">
+<!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "Parādīt pieskārienu klaviatūru, kad nepieciešams">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
@@ -25,8 +25,8 @@
 <!ENTITY useSmoothScrolling.accesskey    "l">
 <!ENTITY allowHWAccel.label              "Ja pieejams, izmantot aparatūras paātrinājumu">
 <!ENTITY allowHWAccel.accesskey          "j">
-<!ENTITY checkSpelling.label             "Rakstot pārbaudīt pareizrakstību">
-<!ENTITY checkSpelling.accesskey         "R">
+<!ENTITY checkUserSpelling.label         "Rakstot pārbaudīt pareizrakstību">
+<!ENTITY checkUserSpelling.accesskey     "t">
 
 <!ENTITY dataChoicesTab.label            "Datu izvēle">
 
@@ -57,6 +57,14 @@
 
 <!ENTITY offlineStorage2.label           "Nesaistes tīmekļa saturs un lietotāja dati">
 
+<!--  Site Data section manages sites using Storage API and is under Network -->
+<!ENTITY siteData.label                  "Lapas dati">
+<!ENTITY clearSiteData.label             "Izdzēst visus datus">
+<!ENTITY clearSiteData.accesskey         "v">
+<!ENTITY siteDataSettings.label          "Iestatījumi...">
+<!ENTITY siteDataSettings.accesskey      "i">
+<!ENTITY siteDataLearnMoreLink.label     "Uzzināt vairāk">
+
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
@@ -75,11 +83,11 @@
 
 <!ENTITY updateTab.label                 "Atjaunināt">
 
-<!ENTITY updateApp.label                 "&brandShortName; atjauninājumi:">
+<!ENTITY updateApplication.label         "&brandShortName; atjauninājumi">
 <!ENTITY updateAuto1.label               "Instalēt atjauninājumus automātiski (ieteicams: uzlabo drošību)">
 <!ENTITY updateAuto1.accesskey           "a">
-<!ENTITY updateCheck.label               "Pārbaudīt atjauninājumu pieejamību, bet ļaut man izvēlēties vai instalēt tos">
-<!ENTITY updateCheck.accesskey           "u">
+<!ENTITY updateCheckChoose.label         "Pārbaudīt atjauninājumu pieejamību, bet ļaut man izvēlēties vai instalēt tos">
+<!ENTITY updateCheckChoose.accesskey     "P">
 <!ENTITY updateManual.label              "Nepārbaudīt atjauninājumu pieejamību (nav ieteicams: drošības risks)">
 <!ENTITY updateManual.accesskey          "N">
 
@@ -89,14 +97,14 @@
 <!ENTITY useService.label                "Instalēt atjauninājumus fonā">
 <!ENTITY useService.accesskey            "f">
 
-<!ENTITY updateOthers.label              "Automātiski atjaunināt:">
+<!ENTITY autoUpdateOthers.label          "Atjaunināt automātiski">
 <!ENTITY enableSearchUpdate.label        "Meklētājus">
 <!ENTITY enableSearchUpdate.accesskey    "l">
 
-<!ENTITY offlineNotify.label             "Ziņot man, kad mājas lapa grib saglabāt datus izmantošanai nesaistē">
-<!ENTITY offlineNotify.accesskey         "t">
-<!ENTITY offlineNotifyExceptions.label   "Izņēmumi...">
-<!ENTITY offlineNotifyExceptions.accesskey "m">
+<!ENTITY offlineStorageNotify.label               "Ziņot man, kad mājas lapa grib saglabāt datus izmantošanai nesaistē">
+<!ENTITY offlineStorageNotify.accesskey           "Z">
+<!ENTITY offlineStorageNotifyExceptions.label     "Izņēmumi...">
+<!ENTITY offlineStorageNotifyExceptions.accesskey "z">
 
 <!ENTITY offlineAppsList2.label          "Šīm mājas lapām ir atļauts glabāt datus izmantošanai nesaistē:">
 <!ENTITY offlineAppsList.height          "7em">
@@ -105,12 +113,12 @@
 <!ENTITY offlineAppRemove.confirm        "Aizvākt nesaistes datus">
 
 <!ENTITY certificateTab.label            "Sertifikāti">
-<!ENTITY certSelection.label             "Pieprasījumi">
-<!ENTITY certSelection.description       "Kad serveris pieprasa manu personīgo sertifikātu:">
-<!ENTITY certs.auto                      "Izvēlēties automātiski">
-<!ENTITY certs.auto.accesskey            "l">
-<!ENTITY certs.ask                       "Katru reizi jautāt man">
-<!ENTITY certs.ask.accesskey             "i">
+<!ENTITY certPersonal.label              "Pieprasījumi">
+<!ENTITY certPersonal.description        "Kad serveris pieprasa manu personīgo sertifikātu:">
+<!ENTITY selectCerts.auto                "Izvēlēties automātiski">
+<!ENTITY selectCerts.auto.accesskey      "V">
+<!ENTITY selectCerts.ask                 "Katru reizi jautāt man">
+<!ENTITY selectCerts.ask.accesskey       "J">
 <!ENTITY enableOCSP.label                "Vaicāt OCSP atbildes serveriem, lai pārbaudītu pašreizējo sertifikātu derīgumu">
 <!ENTITY enableOCSP.accesskey            "V">
 <!ENTITY viewCerts.label                 "Aplūkot sertifikātus">

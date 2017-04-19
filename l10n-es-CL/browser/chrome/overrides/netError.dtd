@@ -156,9 +156,11 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> usa tecnología de seguridad que está obsoleta y vulnerable a ataques. Un atacante puede fácilmente revelar información que se pensaba estaba segura.">
 <!ENTITY weakCryptoAdvanced.override "(Inseguro) Intentar cargar <span class='hostname'></span> usando seguridad obsoleta">
 
-<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
-     please leave them unchanged. -->
-<!ENTITY certerror.wrongSystemTime "<p>Una conexión segura a <span id='wrongSystemTime_URL'/> no es posible por que tu reloj tiene mala la hora.</p> <p>Tu computador cree que son las <span id='wrongSystemTime_systemDate'/>, cuando debieran ser las <span id='wrongSystemTime_actualDate'/>. Para arreglar este problema, ajusta tu hora y fecha a las actuales.</p>">
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
+                        certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
+     tags will be injected with actual values, please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime2 "<p> &brandShortName; no se conectó a <span id='wrongSystemTime_URL'/> porque al parecer el reloj de tu computador no muestra la hora correcta y esto no permite una conexión segura.</p> <p>Tu computador está ajustado a las <span id='wrongSystemTime_systemDate'/>, cuando debiera estarlo a las <span id='wrongSystemTime_actualDate'/>. Para arreglar este problema, cambia tus ajustes de fecha y hora para que reflejen la realidad.</p>">
+<!ENTITY certerror.wrongSystemTimeWithoutReference "<p> &brandShortName; no se conectó a <span id='wrongSystemTimeWithoutReference_URL'/> porque al parecer el reloj de tu computador no muestra la hora correcta y esto no permite una conexión segura.</p> <p>Tu computador está ajustado a las <span id='wrongSystemTimeWithoutReference_systemDate'/>. Para arreglar este problema, cambia tus ajustes de fecha y hora para que reflejen la realidad.</p>">
 
 <!ENTITY certerror.pagetitle1  "Conexión insegura">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Este sitio usa HTTP Strict Transport Security (HSTS) para especificar que &brandShortName; solo se conecte a él de forma segura. Como resultado, no es posible añadir una excepción para este certificado.">

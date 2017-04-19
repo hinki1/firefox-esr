@@ -5,31 +5,37 @@
 <!ENTITY firstrun_panel_title_welcome "Chào mừng">
 
 <!ENTITY firstrun_urlbar_message "Chào mừng đến với &brandShortName;">
+<!ENTITY firstrun_urlbar_subtext "Tìm kiếm mọi thứ nhanh hơn với các gợi ý tìm kiếm.">
+<!ENTITY firstrun_bookmarks_title "Lược sử">
 
-
-
-
-
-
+<!ENTITY firstrun_bookmarks_subtext "Lấy kết quả từ trang đánh dấu và lược sử của bạn khi bạn tìm kiếm.">
+<!ENTITY firstrun_data_title "Dữ liệu">
+<!ENTITY firstrun_data_message "Dữ liệu ít hơn, tiết kiệm nhiều hơn">
 
 <!ENTITY firstrun_sync_title "Đồng bộ">
-
-
+<!ENTITY firstrun_sync_message "&brandShortName;, luôn luôn ở bên bạn">
+<!ENTITY firstrun_sync_subtext "Đồng bộ thẻ, mật khẩu, và các thành phần khác để bạn có thể dùng chúng ở bất cứ đâu.">
 
 
 <!ENTITY  onboard_start_button_browser "Bắt đầu duyệt web">
+<!ENTITY firstrun_button_notnow "Không phải lúc này">
+<!ENTITY firstrun_button_next "Tiếp">
 
-
-
+<!ENTITY firstrun_tabqueue_title "Liên kết">
 <!-- Localization note (firstrun_tabqueue_message): 'Tab queue' is a feature that allows users to queue up or save links from outside of Firefox (without switching apps) - these links will be loaded in Firefox the next time Firefox is opened. -->
+<!ENTITY firstrun_tabqueue_message_off "Bật hàng đợi thẻ">
 
 
+<!ENTITY firstrun_tabqueue_message_on "Thành công!">
 
 
+<!ENTITY firstrun_readerview_title "Bài viết">
 <!-- Localization note (firstrun_readerview_message): This is a casual way of describing getting rid of unnecessary things, and is referring to simplifying websites so only the article text and images are visible, removing unnecessary headers or ads. -->
 
 <!-- Localization note (firstrun_devices_title): This is a casual way of addressing the user, somewhat referring to their online identity (which would include other devices, Firefox usage, accounts, etc). -->
 
+<!ENTITY firstrun_account_title "Bạn">
+<!ENTITY firstrun_account_message "Có &brandShortName; trên thiết bị khác?">
 
 <!ENTITY  onboard_start_restricted1 "Giữ an toàn và kiểm soát với phiên bản đơn giản hoá này của &brandShortName;.">
 <!-- Localization note: These are used as the titles of different pages on the home screen.
@@ -56,6 +62,7 @@
 
 <!ENTITY url_bar_default_text2 "Tìm kiếm hoặc nhập địa chỉ">
 
+<!ENTITY bookmark "Trang đánh dấu">
 <!ENTITY bookmark_remove "Xóa trang đánh dấu">
 <!ENTITY bookmark_added "Trang đánh dấu đã được thêm">
 <!-- Localization note (bookmark_already_added) : This string is
@@ -65,37 +72,42 @@
 <!ENTITY bookmark_removed "Trang đánh dấu đã được xóa">
 <!ENTITY bookmark_updated "Trang đánh dấu đã được cập nhật">
 <!ENTITY bookmark_options "Tùy chọn">
-
+<!ENTITY screenshot_added_to_bookmarks "Ảnh chụp màn hình đã được thêm vào trang đánh dấu">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
      and is labeled by this String. -->
-
+<!ENTITY screenshot_folder_label_in_bookmarks "Ảnh chụp màn hình">
+<!ENTITY readinglist_smartfolder_label_in_bookmarks "Danh sách đọc">
 <!-- Localization note (bookmark_folder_items): The variable is replaced by the number of items
      in the folder. -->
+
+<!ENTITY bookmark_folder_items "&formatD; thẻ">
 
 
 <!-- Localization note (reader_switch_to_bookmarks) : This
      string is used as an action in a snackbar - it lets you
      "switch" to the bookmarks (saved items) panel. -->
+<!ENTITY reader_switch_to_bookmarks "Chuyển">
 
 <!ENTITY history_today_section "Hôm nay">
 <!ENTITY history_yesterday_section "Hôm qua">
-
-
+<!ENTITY history_week_section3 "7 ngày qua">
+<!ENTITY history_older_section3 "Cũ hơn 6 tháng">
 
 <!ENTITY search "Tìm kiếm">
 <!ENTITY reload "Tải lại">
 <!ENTITY forward "Tiến">
 <!ENTITY menu "Trình đơn">
 <!ENTITY back "Lùi">
-
+<!ENTITY stop "Dừng">
 <!ENTITY site_security "Bảo mật trang">
-
+<!ENTITY edit_mode_cancel "Hủy bỏ">
 
 <!ENTITY close_tab "Đóng Thẻ">
-
+<!ENTITY one_tab "1 thẻ">
 <!-- Localization note (num_tabs2) : Number of tabs is always more than one.
      We can't use android plural forms, sadly. See bug #753859. -->
+<!ENTITY num_tabs2 "&formatD; thẻ">
 <!ENTITY new_tab_opened "Thẻ mới đã được mở">
 <!ENTITY new_private_tab_opened "Thẻ riêng tư mới đã được mở">
 <!-- Localization note (switch_button_message): This string should be as short
@@ -109,14 +121,17 @@
      &formatS; will be replaced with the title of the tab, as received from the
      web page. When audio is not playing in a tab, &formatS; will be used as
      the content description. -->
+<!ENTITY tab_title_prefix_is_playing_audio "Phát âm thanh – &formatS;">
 
 <!ENTITY settings "Thiết lập">
+<!ENTITY settings_title "Thiết lập">
 
-
-
+<!ENTITY pref_category_general_summary3 "Trang chủ, ngôn ngữ, hàng đợi thẻ">
 <!-- Localization note (pref_category_language) : This is the preferences
      section in which the user picks the locale in which to display Firefox
      UI. The locale includes both language and region concepts. -->
+
+<!ENTITY pref_category_language "Ngôn ngữ">
 <!ENTITY pref_category_language_summary "Thay đổi ngôn ngữ của trình duyệt">
 <!ENTITY pref_browser_locale "Ngôn ngữ trình duyệt">
 <!-- Localization note (locale_system_default) : This string indicates that
@@ -132,13 +147,16 @@
 <!-- Localization note (overlay_share_bookmark_btn_label) : This string is
      used in the share overlay menu to select an action. It is the verb
      "to bookmark", not the noun "a bookmark". -->
+
+<!ENTITY overlay_share_bookmark_btn_label "Trang đánh dấu">
 <!ENTITY overlay_share_bookmark_btn_label_already "Đã được đánh dấu">
 <!ENTITY overlay_share_send_other "Gửi sang thiết bị khác">
+
+<!ENTITY overlay_share_open_browser_btn_label "Mở &brandShortName;">
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
      to. -->
-
 <!ENTITY overlay_share_send_tab_btn_label "Gửi sang thiết bị khác">
 <!ENTITY overlay_share_no_url "Không phát hiện liên kết trong chia sẻ này">
 <!ENTITY overlay_share_select_device "Chọn thiết bị">
@@ -147,15 +165,16 @@
      are found. -->
 <!ENTITY overlay_no_synced_devices "Không phát hiện thiết bị được kết nối tài khoản Firefox">
 
-
-
-
+<!ENTITY pref_category_search3 "Tìm kiếm">
+<!ENTITY pref_category_search_summary2 "Thêm, đặt mặc định, hiển thị gợi ý">
+<!ENTITY pref_category_accessibility "Khả năng truy cập">
+<!ENTITY pref_category_accessibility_summary2 "Cỡ chữ, thu phóng, ngõ vào thoại">
 <!ENTITY pref_category_privacy_short "Riêng tư">
+<!ENTITY pref_category_privacy_summary4 "Theo dõi, đăng nhập, lựa chọn dữ liệu">
 
-
-
+<!ENTITY pref_category_vendor_summary2 "Liên quan tới &brandShortName;, câu hỏi thường gặp, phản hồi">
 <!ENTITY pref_category_datareporting "Lựa chọn dữ liệu">
-
+<!ENTITY pref_category_logins "Đăng nhập">
 <!ENTITY pref_learn_more "Tìm hiểu thêm">
 <!ENTITY pref_category_installed_search_engines "Công cụ tìm kiếm đã được cài đặt">
 <!ENTITY pref_category_add_search_providers "Thêm nhiều công cụ tìm kiếm">
@@ -167,7 +186,7 @@
      search providers.
      The &formatI; in the string will be replaced by a small image of the icon described, and can be moved to wherever
      it is applicable. -->
-
+<!ENTITY pref_category_advanced "Nâng cao">
 <!-- Localization note (pref_category_advanced_summary3): “data saver” in this
      context means consuming less data, e.g. by not loading images, not
      “storing data”. -->
@@ -330,6 +349,7 @@ size. -->
 
 
 
+
 <!ENTITY pref_private_data_cache "Bộ nhớ đệm">
 <!ENTITY pref_private_data_offlineApps "Dữ liệu trang web ngoại tuyến">
 
@@ -449,6 +469,9 @@ size. -->
      whether or not the dynamic toolbar is enabled. -->
 
 
+
+<!-- Localization note (pref_compact_tabs): Label for setting that controls whether 1 wide column or
+     2 narrower (compact) columns are used for tabs in the tabs tray in portrait mode on phones. -->
 
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
@@ -673,4 +696,6 @@ Stream list for highlights sourced from th user's bookmarks. -->
 <!-- LOCALIZATION NOTE (activity_stream_dismiss): This label is shown in the Activity Stream context menu,
 and allows hiding a URL/page from highlights or topsites. The page remains in history/bookmarks, but
 is simply hidden from the Activity Stream panel. -->
+
+
 

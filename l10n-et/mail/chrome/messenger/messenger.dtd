@@ -349,7 +349,7 @@
 <!ENTITY replyToAllMsgCmd.label "Vasta kõigile">
 <!ENTITY replyToAllMsgCmd.accesskey "k">
 <!ENTITY replyToAllMsgCmd.key "r">
-<!ENTITY replyToListMsgCmd.label "Vasta listile">
+<!ENTITY replyToListMsgCmd.label "Vasta listi">
 <!ENTITY replyToListMsgCmd.accesskey "l">
 <!ENTITY replyToListMsgCmd.key "l">
 <!ENTITY forwardMsgCmd.label "Edasta">
@@ -476,7 +476,7 @@
 <!ENTITY filtersApply.accesskey "R">
 <!ENTITY filtersApplyToSelection.label "Rakenda filtreid valitud kirjadele">
 <!ENTITY filtersApplyToSelection.accesskey "f">
-<!ENTITY filtersApplyToMessage.label "Rakenda filtreid valitud kirjal">
+<!ENTITY filtersApplyToMessage.label "Rakenda filtreid valitud kirjale">
 <!ENTITY filtersApplyToMessage.accesskey "l">
 <!ENTITY runJunkControls.label "Rakenda kaustale rämpspostifiltrit">
 <!ENTITY runJunkControls.accesskey "a">
@@ -495,16 +495,29 @@
 <!ENTITY accountManagerCmdUnix2.accesskey "K">
 
 <!-- Developer Tools Submenu -->
+<!ENTITY devtoolsMenu.label "Arendaja tööriistad">
+<!ENTITY devtoolsMenu.accesskey "j">
+<!ENTITY devToolboxCmd.label "Developer Toolbox">
+<!ENTITY devToolboxCmd.accesskey "T">
+<!ENTITY devToolboxCmd.commandkey "i">
+<!ENTITY addonDebugCmd.label "Add-on Debugger">
+<!ENTITY addonDebugCmd.accesskey "A">
+<!ENTITY tabsDebugCmd.label "Content Frame Debugger">
+<!ENTITY tabsDebugCmd.accesskey "C">
 <!ENTITY errorConsoleCmd.label "Vigade konsool">
 <!ENTITY errorConsoleCmd.accesskey "i">
 <!ENTITY errorConsoleCmd.commandkey "j">
+<!ENTITY scratchpadCmd.label "Scratchpad">
+<!ENTITY scratchpadCmd.accesskey "S">
 
 <!--LOCALIZATION NOTE (scratchpadCmd.keycode):
     This should be a key code constant as per
     https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode#Constants_for_keyCode_value
     (but without the DOM_ prefix) -->
+<!ENTITY scratchpadCmd.keycode "VK_F4">
 <!--LOCALIZATION NOTE (scratchpadCmd.keytext):
     This should be the text printed on the key defined in the previous string. -->
+<!ENTITY scratchpadCmd.keytext "F4">
 
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton1.label "Tõmba kirjad">
@@ -627,7 +640,7 @@
 <!ENTITY folderContextOpenNewTab.accesskey "k">
 <!ENTITY folderContextNew.label "Uus alamkaust...">
 <!ENTITY folderContextNew.accesskey "U">
-<!ENTITY folderContextRename.label "Nimeta ümber">
+<!ENTITY folderContextRename.label "Muuda nime">
 <!ENTITY folderContextRename.accesskey "N">
 <!ENTITY folderContextRemove.label "Kustuta">
 <!ENTITY folderContextRemove.accesskey "K">

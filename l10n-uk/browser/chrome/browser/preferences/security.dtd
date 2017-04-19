@@ -4,8 +4,8 @@
 
 <!ENTITY  general.label                 "Загальні">
 
-<!ENTITY  warnAddonInstall.label        "Попереджати при спробі сайтів встановити додаток">
-<!ENTITY  warnAddonInstall.accesskey    "п">
+<!ENTITY  warnOnAddonInstall.label        "Попереджати при спробі сайтів встановити додаток">
+<!ENTITY  warnOnAddonInstall.accesskey    "П">
 
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
@@ -17,8 +17,8 @@
 <!ENTITY  blockDownloads.label            "Блокувати небезпечні завантаження">
 <!ENTITY  blockDownloads.accesskey        "з">
 
-<!ENTITY  blockUncommonUnwanted.label     "Попереджати про небажане і незвичне програмне забезпечення">
-<!ENTITY  blockUncommonUnwanted.accesskey "ж">
+<!ENTITY  blockUncommonAndUnwanted.label     "Попереджати про небажане і незвичне програмне забезпечення">
+<!ENTITY  blockUncommonAndUnwanted.accesskey "ж">
 
 <!ENTITY  addonExceptions.label         "Винятки…">
 <!ENTITY  addonExceptions.accesskey     "В">

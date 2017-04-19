@@ -61,15 +61,15 @@
 <!ENTITY  useDefaultFontSerif.label               "มีเชิง">
 <!ENTITY  useDefaultFontSansSerif.label           "ไม่มีเชิง">
 
-<!ENTITY  allowPagesToUse.label                   "อนุญาตให้เอกสารใช้แบบอักษรของตัวเองได้ แทนที่จะใช้ตามที่เลือกไว้ด้านบน">
-<!ENTITY  allowPagesToUse.accesskey               "อ">
+<!ENTITY  allowPagesToUseOwn.label                "อนุญาตให้หน้าเลือกใช้แบบอักษรของตัวเอง แทนที่จะเป็นที่คุณเลือกไว้ด้านบน">
+<!ENTITY  allowPagesToUseOwn.accesskey            "A">
 
 <!ENTITY languages.customize.Fallback2.grouplabel "รหัสอักขระสำหรับเนื้อหาเก่า">
 <!ENTITY languages.customize.Fallback2.label      "รหัสอักขระตัวทางเลือก:">
 <!ENTITY languages.customize.Fallback2.accesskey  "ร">
 <!ENTITY languages.customize.Fallback2.desc       "รหัสอักขระนี้ถูกใช้สำหรับเนื้อหาเก่าที่ขัดข้องจากการกำหนดอักขระ">
 
-<!ENTITY languages.customize.Fallback.auto        "ค่าปริยายสำหรับภาษาถิ่นปัจจุบัน">
+<!ENTITY languages.customize.Fallback.auto        "ค่าเริ่มต้นสำหรับภาษาถิ่นปัจจุบัน">
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.arabic):
      Translate "Arabic" as an adjective for an encoding, not as the name of the language. -->
 <!ENTITY languages.customize.Fallback.arabic      "อาหรับ">

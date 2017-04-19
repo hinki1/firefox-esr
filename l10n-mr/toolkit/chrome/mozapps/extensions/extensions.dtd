@@ -20,6 +20,9 @@
 <!ENTITY installAddonFromFile.accesskey       "I">
 <!ENTITY toolsMenu.tooltip                    "सर्व ॲड-ऑन्स् करीता साधने">
 
+<!ENTITY getThemes.description                "आपला ब्राउझर वैयक्तिकृत करू पाहत आहात का?">
+<!ENTITY getThemes.learnMore                  "हजारो थीम्स मधुन निवडा">
+
 <!ENTITY cmd.back.tooltip                     "एक पृष्ठ मागे जा">
 <!ENTITY cmd.forward.tooltip                  "एक पृष्ठ पुढे जा">
 
@@ -79,7 +82,7 @@
 <!ENTITY cmd.findUpdates.accesskey            "F">
 <!ENTITY cmd.preferencesWin.label             "पर्याय">
 <!ENTITY cmd.preferencesWin.accesskey         "O">
-<!ENTITY cmd.preferencesUnix.label            "पसंती">
+<!ENTITY cmd.preferencesUnix.label            "प्राधान्यक्रम">
 <!ENTITY cmd.preferencesUnix.accesskey        "P">
 <!ENTITY cmd.about.label                      "विषयी">
 <!ENTITY cmd.about.accesskey                  "A">
@@ -105,8 +108,8 @@
 <!ENTITY cmd.uninstallAddon.accesskey         "R">
 <!ENTITY cmd.showPreferencesWin.label         "पर्याय">
 <!ENTITY cmd.showPreferencesWin.tooltip       "या ॲड-ऑनचे पर्याय बदला">
-<!ENTITY cmd.showPreferencesUnix.label        "पसंती">
-<!ENTITY cmd.showPreferencesUnix.tooltip      "या ॲड-ऑनची पसंती बदला">
+<!ENTITY cmd.showPreferencesUnix.label        "प्राधान्यक्रम">
+<!ENTITY cmd.showPreferencesUnix.tooltip      "या ॲड-ऑनचा प्राधान्यक्रम बदला">
 <!ENTITY cmd.contribute.label                 "योगदान करा">
 <!ENTITY cmd.contribute.accesskey             "C">
 <!ENTITY cmd.contribute.tooltip               "या ॲड-ऑनच्या विकासकरीता योगदान करा">
@@ -149,9 +152,9 @@
 <!ENTITY detail.showPreferencesWin.label      "पर्याय">
 <!ENTITY detail.showPreferencesWin.accesskey  "O">
 <!ENTITY detail.showPreferencesWin.tooltip    "या ॲड-ऑनचे पर्याय बदला">
-<!ENTITY detail.showPreferencesUnix.label     "पसंती">
+<!ENTITY detail.showPreferencesUnix.label     "प्राधान्यक्रम">
 <!ENTITY detail.showPreferencesUnix.accesskey "P">
-<!ENTITY detail.showPreferencesUnix.tooltip   "या ॲड-ऑनची पसंती बदला">
+<!ENTITY detail.showPreferencesUnix.tooltip   "या ॲड-ऑनचा प्राधान्यक्रम बदला">
 <!-- ratings -->
 
 

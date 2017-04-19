@@ -25,7 +25,7 @@
 <!ENTITY syncMy.label               "Szinkronizálandó">
 <!ENTITY engine.bookmarks.label     "Könyvjelzők">
 <!ENTITY engine.bookmarks.accesskey "K">
-<!ENTITY engine.tabs.label          "Lapok">
+<!ENTITY engine.tabs.label2         "Nyitott lapok">
 <!ENTITY engine.tabs.accesskey      "L">
 <!ENTITY engine.history.label       "Előzmények">
 <!ENTITY engine.history.accesskey   "E">

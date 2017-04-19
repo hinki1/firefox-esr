@@ -4,7 +4,7 @@
 
 <!ENTITY window.width                       "42em">
 
-<!ENTITY     cookiesonsystem.label          "Следните бисквитки са съхранени в компютъра:">
+<!ENTITY     cookiesonsystem.label          "Следните бисквитки са запазени на компютъра ви:">
 <!ENTITY     cookiename.label               "Име на бисквитка">
 <!ENTITY     cookiedomain.label             "Сайт"> 
 <!-- LOCALIZATION NOTE (button.removeSelectedCookies.accesskey):
@@ -28,8 +28,8 @@
 <!ENTITY     focusSearch1.key               "f">
 <!ENTITY     focusSearch2.key               "k">
 
-<!ENTITY     filter.label                   "Търсене:">
-<!ENTITY     filter.accesskey               "Т">
+<!ENTITY     searchFilter.label             "Търсене">
+<!ENTITY     searchFilter.accesskey         "Т">
 
 <!ENTITY     button.close.label             "Затваряне">
 <!ENTITY     button.close.accesskey         "З">

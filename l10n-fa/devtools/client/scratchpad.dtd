@@ -22,7 +22,7 @@
 <!ENTITY fileMenu.accesskey           "پ">
 
 <!ENTITY newWindowCmd.label           "پنجرهٔ جدید">
-<!ENTITY newWindowCmd.accesskey       "ج">
+<!ENTITY newWindowCmd.accesskey       "پ">
 
 
 <!ENTITY openFileCmd.label            "بازکردن پرونده…">
@@ -71,8 +71,8 @@
 <!ENTITY editMenu.label               "ویرایش">
 <!ENTITY editMenu.accesskey           "و">
 
-<!ENTITY run.label                    "اجرا کردن">
-<!ENTITY run.accesskey                "R">
+<!ENTITY run.label                    "اجرا‌">
+<!ENTITY run.accesskey                "ا">
 <!ENTITY run.key                      "r">
 
 <!ENTITY inspect.label                "وارسی">
@@ -85,7 +85,7 @@
 
 <!ENTITY pprint.label                 "چاپ زیبا">
 <!ENTITY pprint.key                   "p">
-<!ENTITY pprint.accesskey             "P">
+<!ENTITY pprint.accesskey             "چ">
 <!-- LOCALIZATION NOTE (environmentMenu.label, accesskey): This menu item was
   -  renamed from "Context" to avoid confusion with the right-click context
   -  menu in the text area. It refers to the JavaScript Environment (or context)
@@ -124,7 +124,7 @@
 
 
 <!ENTITY resetContext2.label          "بازنشاندن متغیرها">
-<!ENTITY resetContext2.accesskey      "t">
+<!ENTITY resetContext2.accesskey      "ب">
 
 <!ENTITY reloadAndRun.label           "بازاوری و اجرا">
 <!ENTITY reloadAndRun.accesskey       "ب">

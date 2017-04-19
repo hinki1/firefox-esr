@@ -6,9 +6,9 @@
 
 <!ENTITY startupPage.label         "เมื่อ &brandShortName; เริ่ม:">
 <!ENTITY startupPage.accesskey     "s">
-<!ENTITY startupHomePage.label     "แสดงหน้าแรกของฉัน">
+<!ENTITY startupUserHomePage.label "แสดงหน้าแรกของคุณ">
 <!ENTITY startupBlankPage.label    "แสดงหน้าว่าง">
-<!ENTITY startupLastSession.label  "แสดงหน้าต่างและแท็บของฉันจากครั้งก่อน">
+<!ENTITY startupPrevSession.label  "แสดงหน้าต่างและแท็บของคุณจากครั้งล่าสุด">
 
 <!ENTITY homepage.label            "หน้าแรก:">
 <!ENTITY homepage.accesskey        "น">
@@ -17,7 +17,7 @@
 <!ENTITY useMultiple.label         "ใช้หน้าปัจจุบัน">
 <!ENTITY chooseBookmark.label      "ใช้ที่คั่นหน้า…">
 <!ENTITY chooseBookmark.accesskey  "ท">
-<!ENTITY restoreDefault.label      "เรียกคืนค่าปริยาย">
+<!ENTITY restoreDefault.label      "เรียกคืนค่าเริ่มต้น">
 <!ENTITY restoreDefault.accesskey  "เ">
 
 <!ENTITY downloads.label     "ดาวน์โหลด">
@@ -28,15 +28,15 @@
 <!ENTITY chooseFolderWin.accesskey    "ร">
 <!ENTITY chooseFolderMac.label        "เลือก…">
 <!ENTITY chooseFolderMac.accesskey    "ล">
-<!ENTITY alwaysAsk.label "ถามฉันเสมอว่าจะบันทึกไฟล์ที่ไหน">
-<!ENTITY alwaysAsk.accesskey "ถ">
+<!ENTITY alwaysAskWhere.label         "ถามคุณเสมอว่าจะบันทึกไฟล์ที่ไหน">
+<!ENTITY alwaysAskWhere.accesskey     "A">
 
-<!ENTITY alwaysCheckDefault2.label        "ตรวจสอบเสมอว่า &brandShortName; เป็นเบราว์เซอร์ปริยายของคุณหรือไม่">
+<!ENTITY alwaysCheckDefault2.label        "ตรวจสอบเสมอว่า &brandShortName; เป็นเบราว์เซอร์เริ่มต้นของคุณหรือไม่">
 <!ENTITY alwaysCheckDefault2.accesskey    "จ">
-<!ENTITY setAsMyDefaultBrowser2.label     "ทำให้เป็นค่าปริยาย">
+<!ENTITY setAsMyDefaultBrowser2.label     "ทำให้เป็นค่าเริ่มต้น">
 <!ENTITY setAsMyDefaultBrowser2.accesskey "ค">
-<!ENTITY isDefault.label                  "&brandShortName; เป็นเบราว์เซอร์ปริยายของคุณในขณะนี้">
-<!ENTITY isNotDefault.label               "&brandShortName; ไม่ได้เป็นเบราว์เซอร์ปริยายของคุณ">
+<!ENTITY isDefault.label                  "&brandShortName; เป็นเบราว์เซอร์เริ่มต้นของคุณในขณะนี้">
+<!ENTITY isNotDefault.label               "&brandShortName; ไม่ได้เป็นเบราว์เซอร์เริ่มต้นของคุณ">
 
 <!ENTITY separateProfileMode.label        "อนุญาตให้ &brandShortName; และ Firefox ทำงานพร้อมกัน">
 <!ENTITY useFirefoxSync.label             "เคล็ดลับ: สิ่งนี้ใช้โพรไฟล์แยก ใช้ Sync เพื่อแบ่งปันข้อมูลระหว่างกัน">

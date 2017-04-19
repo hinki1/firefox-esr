@@ -6,9 +6,9 @@
 
 <!ENTITY startupPage.label         "Ka &brandShortName; ocake:">
 <!ENTITY startupPage.accesskey     "o">
-<!ENTITY startupHomePage.label     "Nyut pot buk me gang mamega">
+<!ENTITY startupUserHomePage.label "Nyut pot buk mamegi me gang">
 <!ENTITY startupBlankPage.label    "Nyut pot buk ma tye nono">
-<!ENTITY startupLastSession.label  "Nyut dirica kacel ki dirca matino mamega ma ceng ca">
+<!ENTITY startupPrevSession.label  "Nyut dirica ki dirca matino mamegi ma ceng ca">
 
 <!ENTITY homepage.label            "Pot buk me gang:">
 <!ENTITY homepage.accesskey        "u">
@@ -28,8 +28,8 @@
 <!ENTITY chooseFolderWin.accesskey    "e">
 <!ENTITY chooseFolderMac.label        "Yer…">
 <!ENTITY chooseFolderMac.accesskey    "r">
-<!ENTITY alwaysAsk.label "Jwi penya kwene me gwoko pwail">
-<!ENTITY alwaysAsk.accesskey "J">
+
+
 
 <!ENTITY alwaysCheckDefault2.label        "Jwijwi rot kace &brandShortName; tye layeny mamegi makwongo">
 <!ENTITY alwaysCheckDefault2.accesskey    "j">
@@ -39,7 +39,7 @@
 <!ENTITY isNotDefault.label               "&brandShortName; pe tye layeny mamegi makwongo">
 
 <!ENTITY separateProfileMode.label        "Ye &brandShortName; ki Firefox me tic lawang acel">
-<!ENTITY useFirefoxSync.label             "Ngec: Man tiyo ki profile ma patpat. Tii ki marom me nywako tic ikin gi.">
-<!ENTITY getStarted.label                 "Cak tic ki marom…">
+<!ENTITY useFirefoxSync.label             "Ngec: Man tiyo ki propwail ma patpat. Tii ki Ribo me nywako data ikin gi.">
+<!ENTITY getStarted.label                 "Cak tic ki Ribo…">
 
 <!ENTITY e10sEnabled.label                "Cak tic mapol &brandShortName;">

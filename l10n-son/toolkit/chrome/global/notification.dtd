@@ -4,8 +4,9 @@
 
 <!ENTITY closeNotification.tooltip "Alhabaryaa woo daabu">
 
-<!ENTITY closeNotificationItem.label "Manti sohõ">
-
 <!ENTITY checkForUpdates "Taagandirey ceeci…">
 
 <!ENTITY learnMore "Bay ka tonton…">
+
+<!ENTITY defaultButton.label "Ayyo!">
+<!ENTITY defaultButton.accesskey "o">

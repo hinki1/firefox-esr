@@ -163,9 +163,11 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> uzas sekurecan teĥnologion, kiu estas kaduka kaj sendefenda. Atakanto povas facile elmeti informojn, kiujn vi opiniis sekuraj.">
 <!ENTITY weakCryptoAdvanced.override "(Ne sekura) Klopodi ŝargi <span class='hostname'></span> kun kaduka sekureco">
 
-<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
-     please leave them unchanged. -->
-<!ENTITY certerror.wrongSystemTime "<p>Ne eblas sekure konektiĝi al <span id='wrongSystemTime_URL'/> ĉar via horloĝo estas ŝajne malĝusta.</p> <p>Via komputilo pensas ke nun estas <span id='wrongSystemTime_systemDate'/>, sed la dato devus esti <span id='wrongSystemTime_actualDate'/>. Por solvi tiun ĉi problemon, ŝanĝu la daton kaj horon tiel ke ili kongruas kun la ĝustaj dato kaj horo.</p>">
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
+                        certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
+     tags will be injected with actual values, please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime2 "<p> &brandShortName; ne povis konektiĝi al <span id='wrongSystemTime_URL'/> ĉar la horloĝo de via komputilo ŝajne montras malĝustan daton aŭ horon, kaj tio malebligas sekuran konekton.</p> <p>Via komputilo montras nun <span id='wrongSystemTime_systemDate'/>, sed ĝi devus montri <span id='wrongSystemTime_actualDate'/>. Por solvi tiun ĉi problemon, ŝanĝu la agordojn de dato kaj horo por ke ili kongruu kun la ĝusta dato kaj horo.</p>">
+<!ENTITY certerror.wrongSystemTimeWithoutReference "<p>&brandShortName; ne povis konektiĝi al <span id='wrongSystemTimeWithoutReference_URL'/> ĉar la horloĝo de via komputilo ŝajne montras malĝustan daton aŭ horon, kaj tio malebligas sekuran konekton.</p> <p>Via komputilo montras nun <span id='wrongSystemTimeWithoutReference_systemDate'/>. Por solvi tiun ĉi problemon, ŝanĝu la agordojn de dato kaj horo por ke ili kongruu kun la ĝusta dato kaj horo.</p>">
 
 <!ENTITY certerror.pagetitle1  "Nesekura konekto">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Tiu ĉi retejo uzas Striktan Transportan Sekurecan HTTP (HSTS) por indiki ke &brandShortName; nur konektu al ĝi sekure. Pro tio, ne eblas aldoni escepton por tiu ĉi atestilo.">

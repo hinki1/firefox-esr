@@ -25,7 +25,7 @@
 <!ENTITY syncMy.label               "Speguli miajn">
 <!ENTITY engine.bookmarks.label     "legosignojn">
 <!ENTITY engine.bookmarks.accesskey "l">
-<!ENTITY engine.tabs.label          "langetojn">
+<!ENTITY engine.tabs.label2         "malfermitajn langetojn">
 <!ENTITY engine.tabs.accesskey      "g">
 <!ENTITY engine.history.label       "historion">
 <!ENTITY engine.history.accesskey   "h">

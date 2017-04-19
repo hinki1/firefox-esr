@@ -19,9 +19,11 @@
 
      For example, in English, a long string would be:
 
-     59 minutes, 59 seconds remaining - 1022 of 1023 KB
+     59m 59s left - 1022 of 1023 KB (120.5 KB/sec)
 
-     That's 50 characters, so we set the width at 50ch.
+     Since Downloads Panel is redesigned to show the detail string including
+     the hovering case for an item or an action button.
+     Bug 1328519 is for discussing the detail rule of `downloadDetails.width`.
      -->
 <!ENTITY downloadDetails.width            "50ch">
 
@@ -30,11 +32,11 @@
      which is displayed at the bottom of the Downloads Panel if the
      number of downloads exceeds the limit that the panel can display.
 
-     A good rule of thumb here is to look at the otherDownloads2 string
+     A good rule of thumb here is to look at the otherDownloads3 string
      in downloads.properties, and make a reasonable estimate of its
      maximum length. For English, this seems like a reasonable limit:
 
-     + 999 other downloads
+     999 files downloading
 
      that's 21 characters, so we set the minimum width to 21ch.
      -->
@@ -45,7 +47,6 @@
 <!ENTITY cmd.resume.label                 "ทำต่อ">
 <!ENTITY cmd.resume.accesskey             "ท">
 <!ENTITY cmd.cancel.label                 "ยกเลิก">
-<!ENTITY cmd.cancel.accesskey             "ย">
 <!-- LOCALIZATION NOTE (cmd.show.label, cmd.show.accesskey, cmd.showMac.label,
      cmd.showMac.accesskey):
      The show and showMac commands are never shown together, thus they can share
@@ -65,7 +66,7 @@
 <!ENTITY cmd.clearList2.label             "ล้างแผงแสดงตัวอย่าง">
 <!ENTITY cmd.clearList2.accesskey         "a">
 <!ENTITY cmd.clearDownloads.label         "ล้างการดาวน์โหลด">
-<!ENTITY cmd.clearDownloads.accesskey     "ด">
+<!ENTITY cmd.clearDownloads.accesskey     "D">
 <!-- LOCALIZATION NOTE (cmd.unblock2.label):
      This command is shown in the context menu when downloads are blocked.
      -->
@@ -107,7 +108,7 @@
      the panel at all.
      -->
 <!ENTITY downloadsHistory.label           "แสดงการดาวน์โหลดทั้งหมด">
-<!ENTITY downloadsHistory.accesskey       "แ">
+<!ENTITY downloadsHistory.accesskey       "S">
 
 <!ENTITY openDownloadsFolder.label       "เปิดโฟลเดอร์ดาวน์โหลด">
 
@@ -123,7 +124,7 @@
 <!-- LOCALIZATION NOTE (downloadsPanelEmpty.label):
      This string is shown when there are no items in the Downloads Panel.
      -->
-<!ENTITY downloadsPanelEmpty.label        "ไม่มีการดาวน์โหลดสำหรับวาระนี้">
+<!ENTITY downloadsPanelEmpty.label        "ไม่มีการดาวน์โหลดในวาระนี้">
 
 <!-- LOCALIZATION NOTE (downloadsListNoMatch.label):
      This string is shown when some search terms are specified, but there are no

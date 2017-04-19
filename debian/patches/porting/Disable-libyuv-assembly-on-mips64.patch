@@ -7,10 +7,10 @@ Subject: Disable libyuv assembly on mips64
  1 file changed, 3 insertions(+)
 
 diff --git a/build/gyp.mozbuild b/build/gyp.mozbuild
-index ff04f6aac1ff..4bbeff3585b1 100644
+index a7066373dbf6..20470c5429ed 100644
 --- a/build/gyp.mozbuild
 +++ b/build/gyp.mozbuild
-@@ -132,5 +132,8 @@ if CONFIG['INTEL_ARCHITECTURE']:
+@@ -108,6 +108,9 @@ if CONFIG['INTEL_ARCHITECTURE']:
      if not CONFIG['HAVE_TOOLCHAIN_SUPPORT_MSSSE3'] or not CONFIG['HAVE_TOOLCHAIN_SUPPORT_MSSE4_1']:
          gyp_vars['yuv_disable_asm'] = 1
  
@@ -19,3 +19,4 @@ index ff04f6aac1ff..4bbeff3585b1 100644
 +
  if CONFIG['MACOS_SDK_DIR']:
      gyp_vars['mac_sdk_path'] = CONFIG['MACOS_SDK_DIR']
+ 

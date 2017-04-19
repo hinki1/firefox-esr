@@ -6,12 +6,12 @@
 <!ENTITY  window.width                    "38em">
 <!ENTITY  window.macWidth                 "41em">
 
-<!ENTITY  overridePageColors.label        "Pārrakstīt lapas noteiktās krāsas ar manām izvēlētajām:">
-<!ENTITY  overridePageColors.accesskey    "o">
+<!ENTITY  overrideDefaultPageColors.label        "Pārrakstīt lapas noteiktās krāsas ar manām izvēlētajām:">
+<!ENTITY  overrideDefaultPageColors.accesskey    "O">
 
-<!ENTITY  overridePageColors.always.label "Vienmēr">
-<!ENTITY  overridePageColors.auto.label   "Tikai ar augsta kontrasta tēmām">
-<!ENTITY  overridePageColors.never.label  "Nekad">
+<!ENTITY  overrideDefaultPageColors.always.label "Vienmēr">
+<!ENTITY  overrideDefaultPageColors.auto.label   "Tikai ar augsta kontrasta tēmām">
+<!ENTITY  overrideDefaultPageColors.never.label  "Nekad">
 
 <!ENTITY  color                           "Teksts un fons">
 <!ENTITY  textColor.label                 "Teksts:">

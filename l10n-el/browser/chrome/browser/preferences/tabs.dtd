@@ -8,14 +8,14 @@
 <!ENTITY newWindowsAsTabs.label       "Άνοιγμα νέων παραθύρων σε νέα καρτέλα">
 <!ENTITY newWindowsAsTabs.accesskey   "τ">
 
-<!ENTITY warnCloseMultipleTabs.label  "Προειδοποίηση πριν το κλείσιμο πολλαπλών καρτελών">
-<!ENTITY warnCloseMultipleTabs.accesskey  "δ">
+<!ENTITY warnOnCloseMultipleTabs.label      "Προειδοποίηση κατά το κλείσιμο πολλαπλών καρτελών">
+<!ENTITY warnOnCloseMultipleTabs.accesskey  "π">
 
-<!ENTITY warnOpenManyTabs.label       "Προειδοποίηση όταν το άνοιγμα πολλαπλών καρτελών ενδέχεται να επιβραδύνει το &brandShortName;">
-<!ENTITY warnOpenManyTabs.accesskey   "ο">
+<!ENTITY warnOnOpenManyTabs.label       "Προειδοποίηση όταν το άνοιγμα πολλαπλών καρτελών ενδέχεται να επιβραδύνει το &brandShortName;">
+<!ENTITY warnOnOpenManyTabs.accesskey   "β">
 
-<!ENTITY switchToNewTabs.label        "Άμεση εναλλαγή στη νέα καρτέλα όταν ανοιγεί ένας σύνδεσμος">
-<!ENTITY switchToNewTabs.accesskey    "σ">
+<!ENTITY switchLinksToNewTabs.label        "Κατά το άνοιγμα ενός συνδέσμου σε νέα καρτέλα, άμεση εναλλαγή σε αυτή">
+<!ENTITY switchLinksToNewTabs.accesskey    "η">
 
 <!ENTITY showTabsInTaskbar.label          "Προβολή προεπισκόπησης καρτελών στη γραμμή εργασιών των Windows">
 <!ENTITY showTabsInTaskbar.accesskey      "ε">

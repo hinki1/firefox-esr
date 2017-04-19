@@ -1,7 +1,6 @@
 fixes/Allow-.js-preference-files-to-set-locked-prefs-with-.patch
 porting/Add-xptcall-support-for-SH4-processors.patch
 porting/NSS-Fix-FTBFS-on-Hurd-because-of-MAXPATHLEN.patch
-porting/NSS-GNU-kFreeBSD-support.patch
 porting/Make-powerpc-not-use-static-page-sizes-in-mozjemallo.patch
 porting/Disable-libyuv-assembly-on-mips64.patch
 porting/Fix-CPU_ARCH-test-for-libjpeg-on-mips.patch
@@ -19,10 +18,8 @@ debian-hacks/Don-t-error-out-when-run-time-libsqlite-is-older-tha.patch
 debian-hacks/Add-a-2-minutes-timeout-on-xpcshell-tests.patch
 debian-hacks/Add-debian-extra-stuff-to-upstream-build-system-dire.patch
 debian-hacks/Make-upstream-build-system-create-debian-installer-M.patch
-debian-hacks/Work-around-binutils-assertion-on-mips.patch
 debian-hacks/Don-t-build-image-gtests.patch
 debian-hacks/Allow-to-override-ICU_DATA_FILE-from-the-environment.patch
-debian-hacks/Force-use-the-i686-rust-target.patch
 debian-hacks/Set-program-name-from-the-remoting-name.patch
 debian-hacks/Build-against-system-libjsoncpp.patch
 debian-hacks/Use-the-Mozilla-Location-Service-key-when-the-Google.patch

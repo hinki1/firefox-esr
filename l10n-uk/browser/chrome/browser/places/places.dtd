@@ -41,22 +41,18 @@
 <!ENTITY cmd.restoreFromFile.label      "Вибрати файл…">
 <!ENTITY cmd.restoreFromFile.accesskey  "ф">
 
-<!ENTITY cmd.bookmarkLink.label         "Закласти цю сторінку…">
-<!ENTITY cmd.bookmarkLink.accesskey     "З">
-<!ENTITY cmd.delete.label               "Видалити цю сторінку">
-<!ENTITY cmd.delete.accesskey           "У">
 <!ENTITY cmd.deleteDomainData.label     "Забути про цей сайт">
 <!ENTITY cmd.deleteDomainData.accesskey "З">
 
 <!ENTITY cmd.open.label                  "Відкрити">
 <!ENTITY cmd.open.accesskey              "В">
-<!ENTITY cmd.open_window.label           "Відкрити у новому вікні">
+<!ENTITY cmd.open_window.label           "Відкрити в новому вікні">
 <!ENTITY cmd.open_window.accesskey       "н">
 <!ENTITY cmd.open_private_window.label     "Відкрити в новому приватному вікні">
 <!ENTITY cmd.open_private_window.accesskey "п">
-<!ENTITY cmd.open_tab.label              "Відкрити у новій вкладці">
+<!ENTITY cmd.open_tab.label              "Відкрити в новій вкладці">
 <!ENTITY cmd.open_tab.accesskey          "ц">
-<!ENTITY cmd.open_all_in_tabs.label      "Відкрити у вкладках всі">
+<!ENTITY cmd.open_all_in_tabs.label      "Відкрити все у вкладках">
 <!ENTITY cmd.open_all_in_tabs.accesskey  "і">
 
 <!ENTITY cmd.properties.label      "Властивості">

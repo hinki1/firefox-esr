@@ -4,15 +4,15 @@
 
 <!ENTITY  general.label                 "Lumuku">
 
-<!ENTITY  warnAddonInstall.label        "Miya ngec kace kakube tye ka temo me keto med-ikome">
-<!ENTITY  warnAddonInstall.accesskey    "M">
+
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
   https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
 -->
 
 
-
+<!ENTITY  blockDownloads.label            "Geng gam maraco">
+<!ENTITY  blockDownloads.accesskey        "a">
 
 
 
@@ -20,10 +20,10 @@
 <!ENTITY  addonExceptions.accesskey     "M">
 
 
-<!ENTITY  logins.label                  "Dony iyie">
+<!ENTITY  logins.label                  "Donyo iyie">
 
-<!ENTITY  rememberLogins.label          "Po ikom donyo pi kakube">
-<!ENTITY  rememberLogins.accesskey      "P">
+<!ENTITY  rememberLogins.label          "Po ikom donyo iyie pi kakube">
+<!ENTITY  rememberLogins.accesskey      "o">
 <!ENTITY  passwordExceptions.label      "Ma kiweko woko…">
 <!ENTITY  passwordExceptions.accesskey  "a">
 
@@ -32,5 +32,5 @@
 <!ENTITY  changeMasterPassword.label     "Lok mung me donyo madit…">
 <!ENTITY  changeMasterPassword.accesskey "m">
 
-<!ENTITY  savedLogins.label              "Dony iye ma kigwoko…">
+<!ENTITY  savedLogins.label              "Donyo iyie ma kigwoko…">
 <!ENTITY  savedLogins.accesskey          "D">

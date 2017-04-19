@@ -8,15 +8,15 @@
 <!ENTITY newWindowsAsTabs.label       "Avaa uudet ikkunat uusiin välilehtiin">
 <!ENTITY newWindowsAsTabs.accesskey   "A">
 
-<!ENTITY warnCloseMultipleTabs.label  "Varoita, kun yritän sulkea useita välilehtiä samanaikaisesti">
-<!ENTITY warnCloseMultipleTabs.accesskey  "V">
+<!ENTITY warnOnCloseMultipleTabs.label      "Varoita, kun olen sulkemassa useita välilehtiä">
+<!ENTITY warnOnCloseMultipleTabs.accesskey  "V">
 
-<!ENTITY warnOpenManyTabs.label       "Varoita, kun usean välilehden avaaminen voi hidastaa &brandShortName;in toimintaa">
-<!ENTITY warnOpenManyTabs.accesskey   "r">
+<!ENTITY warnOnOpenManyTabs.label       "Varoita, kun useiden välilehtien avaaminen voi hidastaa &brandShortName;ia">
+<!ENTITY warnOnOpenManyTabs.accesskey   "r">
 
-<!ENTITY switchToNewTabs.label        "Valitse linkistä avattu välilehti">
-<!ENTITY switchToNewTabs.accesskey    "i">
+<!ENTITY switchLinksToNewTabs.label        "Vaihda linkistä avattuun välilehteen heti">
+<!ENTITY switchLinksToNewTabs.accesskey    "h">
 
 <!ENTITY showTabsInTaskbar.label          "Näytä esikatselut välilehdistä Windowsin tehtäväpalkissa">
-<!ENTITY showTabsInTaskbar.accesskey      "N">
+<!ENTITY showTabsInTaskbar.accesskey      "y">
 <!ENTITY tabsGroup.label          "Välilehdet">

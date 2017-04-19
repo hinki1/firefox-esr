@@ -115,6 +115,7 @@
 <!ENTITY overlay_share_bookmark_btn_label_already "Zakładka już istnieje">
 <!ENTITY overlay_share_send_other "Przekaż do innych urządzeń">
 
+<!ENTITY overlay_share_open_browser_btn_label "Otwórz w przeglądarce &brandShortName;">
 <!ENTITY overlay_share_send_tab_btn_label "Przekaż do innego urządzenia">
 <!ENTITY overlay_share_no_url "Nie znaleziono odnośnika do udostępnienia">
 <!ENTITY overlay_share_select_device "Wybierz urządzenie">
@@ -277,6 +278,7 @@
 <!ENTITY pref_history_search_suggestions "Historia wyszukiwania">
 <!ENTITY pref_import_options "Opcje importowania">
 <!ENTITY pref_import_android_summary "Importowanie zakładek i historii z domyślnej przeglądarki systemu Android">
+<!ENTITY pref_private_data_openTabs "Otwarte karty">
 <!ENTITY pref_private_data_history2 "Historia przeglądania">
 <!ENTITY pref_private_data_searchHistory "Historia wyszukiwania">
 <!ENTITY pref_private_data_formdata2 "Historia formularzy">
@@ -393,6 +395,9 @@
 
 <!ENTITY pref_tab_queue_title3 "Kolejka kart">
 <!ENTITY pref_tab_queue_summary4 "Zachowywanie odnośników do następnego otwarcia przeglądarki &brandShortName;">
+
+<!ENTITY pref_compact_tabs "Zwarte karty">
+<!ENTITY pref_compact_tabs_summary2 "Dwie kolumny kart w trybie pionowym">
 
 <!ENTITY page_removed "Usunięto stronę">
 
@@ -515,8 +520,8 @@
 <!ENTITY updater_downloading_select2 "Dotknij, aby zainstalować po pobraniu">
 <!ENTITY updater_downloading_retry2 "Dotknij, aby spróbować ponownie">
 
-<!ENTITY updater_apply_title2 "&brandShortName;: dostępna jest aktualizacja">
-<!ENTITY updater_apply_select2 "Dotknij, aby zaktualizować">
+<!ENTITY updater_apply_title3 "&brandShortName;: pobrano aktualizację">
+<!ENTITY updater_apply_select3 "Dotknij, aby zainstalować">
 
 <!ENTITY updater_permission_text "Należy zezwolić aplikacji &brandShortName; na dostęp do dysku, aby móc pobierać pliki i aktualizacje.">
 <!ENTITY updater_permission_allow "Zezwól">
@@ -595,3 +600,6 @@
 
 <!ENTITY activity_stream_dismiss "Odrzuć">
 <!ENTITY activity_stream_delete_history "Usuń z historii">
+
+<!ENTITY activity_stream_welcome_title "Witaj na liście wyróżnień">
+<!ENTITY activity_stream_welcome_content1 "&brandShortName; zawiera teraz listę rzeczy odkrytych w Internecie, aby zawsze można było wrócić do ciekawych artykułów, filmów, zakładek i innych stron.">

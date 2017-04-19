@@ -74,7 +74,7 @@
 <!ENTITY unknownSocketType.title "Сервердің жауабы күтпеген түрде">
 <!ENTITY unknownSocketType.longDesc "<ul> <li>Жүйеңізде Personal Security Manager орнатылғанын тексеріңіз.</li> <li>Бұл мәселе қалыпты емес бапталған сервер себебінен болуы мүмкін.</li> </ul>">
 
-<!ENTITY nssFailure2.title "Қорғалған байланысты орнату сәтсіз">
+<!ENTITY nssFailure2.title "Қорғалған байланысты орнату сәтсіз аяқталды">
 <!ENTITY nssFailure2.longDesc2 "<ul> <li>Сіз сұраған парақ көрсетілмейді, өйткені алынған мәліметтерді тексеру мүмкін емес.</li> <li>Сайттың иесімен осы мәселе жөнінде хабарласыңыз.</li> </ul>">
 
 <!ENTITY certerror.longpagetitle1 "Сіздің байланысыңыз қауіпсіз емес">
@@ -112,10 +112,12 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.title "Кеңейтілген">
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> ескірген және шабуылдарға тұрақсыз қауіпсіздік технологиясын қолдануда. Шабуылшы сіз қауіпсіз деп ойлап тұрған ақпаратты оңай ала алады.">
 <!ENTITY weakCryptoAdvanced.override "(Қауіпсіз емес) <span class='hostname'></span> ескірген қауіпсіздікті қолданып, жүктеу талабы">
-<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
-     please leave them unchanged. -->
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
+                        certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
+     tags will be injected with actual values, please leave them unchanged. -->
 
-<!ENTITY certerror.wrongSystemTime "<p><span id='wrongSystemTime_URL'/> сайтына қауіпсіз байланысу мүмкін емес, өйткені сіздің сағатыңыз қате уақытты көрсетіп тұрған сияқты.</p> <p>Сіздің компьютеріңіздің уақыты <span id='wrongSystemTime_systemDate'/>, ал, нақты уақыт <span id='wrongSystemTime_actualDate'/>. Осы мәселені түзету үшін, компьютеріңіздің күн/уақыт баптауын дұрыстаңыз.</p>">
+<!ENTITY certerror.wrongSystemTime2 "<p> &brandShortName; <span id='wrongSystemTime_URL'/> сайтына байланыспады, өйткені сіздің компьютеріңіздің сағаты қате уақытты көрсетіп тұрған сияқты, оның нәтижесінде қауіпсіз байланысты орнату мүмкін емес.</p> <p>Компьютеріңіздің уақыты <span id='wrongSystemTime_systemDate'/> болып, нақты уақыты <span id='wrongSystemTime_actualDate'/> болуы тиіс. Бұл мәселені шешу үшін, нақты уақытқа сай келетін компьютеріңізде күн және уақытты орнатыңыз.</p>">
+<!ENTITY certerror.wrongSystemTimeWithoutReference "<p> &brandShortName; <span id='wrongSystemTimeWithoutReference_URL'/> сайтына байланыспады, өйткені сіздің компьютеріңіздің сағаты қате уақытты көрсетіп тұрған сияқты, оның нәтижесінде қауіпсіз байланысты орнату мүмкін емес.</p> <p>Компьютеріңіздің уақыты <span id='wrongSystemTimeWithoutReference_systemDate'/>. Бұл мәселені шешу үшін, нақты уақытқа сай келетін компьютеріңізде күн және уақытты орнатыңыз.</p>">
 
 <!ENTITY certerror.pagetitle1  "Қауіпсіз емес байланыс">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Бұл сайт &brandShortName; оған тек қауіпсіз түрде қосылу алатынын көрсету үшін HTTP Strict Transport Security (HSTS) қолданады. Нәтижесінде, бұл сертификатты ережеден тыс қосу мүмкін емес.">

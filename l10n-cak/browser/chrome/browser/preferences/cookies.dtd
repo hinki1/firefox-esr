@@ -28,8 +28,8 @@
 <!ENTITY     focusSearch1.key               "p">
 <!ENTITY     focusSearch2.key               "k">
 
-<!ENTITY     filter.label                   "Tikanöx:">
-<!ENTITY     filter.accesskey               "k">
+<!ENTITY     searchFilter.label             "Tikanöx:">
+<!ENTITY     searchFilter.accesskey         "k">
 
 <!ENTITY     button.close.label             "Titz'apïx">
 <!ENTITY     button.close.accesskey         "T">

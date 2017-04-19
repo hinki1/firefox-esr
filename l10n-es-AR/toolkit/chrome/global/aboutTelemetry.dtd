@@ -100,6 +100,10 @@ Ping
   Colgadas del hilo
 ">
 
+<!ENTITY aboutTelemetry.capturedStacksSection "
+  
+  Pilas capturadas">
+
 <!ENTITY aboutTelemetry.scalarsSection "
  Escalares">
 
@@ -113,6 +117,10 @@ Ping
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "
   Histogramas con clave
+">
+
+<!ENTITY aboutTelemetry.eventsSection "
+  Eventos
 ">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "

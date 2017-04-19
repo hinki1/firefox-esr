@@ -17,7 +17,7 @@
 <!ENTITY engine.bookmarks.accesskey       "l">
 <!ENTITY engine.history.label             "historion">
 <!ENTITY engine.history.accesskey         "h">
-<!ENTITY engine.tabs.label                "langetojn">
+<!ENTITY engine.tabs.label2               "malfermitajn langetojn">
 <!ENTITY engine.tabs.accesskey            "g">
 <!ENTITY engine.passwords.label           "pasvortojn">
 <!ENTITY engine.passwords.accesskey       "v">

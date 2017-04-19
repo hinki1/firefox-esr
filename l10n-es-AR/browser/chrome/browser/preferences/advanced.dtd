@@ -10,10 +10,10 @@
 
 <!ENTITY useCursorNavigation.label       "Siempre usar las teclas del cursor para navegar entre páginas">
 <!ENTITY useCursorNavigation.accesskey   "c">
-<!ENTITY searchStartTyping.label         "Buscar en el texto cuando comience a tipear">
-<!ENTITY searchStartTyping.accesskey     "x">
-<!ENTITY blockAutoRefresh.label          "Alertarme cuando un sitio web intente redireccionar o recargar la página">
-<!ENTITY blockAutoRefresh.accesskey      "u">
+<!ENTITY searchOnStartTyping.label       "Buscar texto al empezar a escribir">
+<!ENTITY searchOnStartTyping.accesskey   "x">
+<!ENTITY blockAutoReload.label           "Avisarme cuando sitios web traten de redirigir o recargar la página">
+<!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "Mostrar un teclado táctil cuando sea necesario">
 <!ENTITY useOnScreenKeyboard.accesskey   "M">
 
@@ -25,8 +25,8 @@
 <!ENTITY useSmoothScrolling.accesskey    "s">
 <!ENTITY allowHWAccel.label              "Usar aceleración por hardware cuando esté disponible">
 <!ENTITY allowHWAccel.accesskey          "h">
-<!ENTITY checkSpelling.label             "Verificar mi ortografía al escribir">
-<!ENTITY checkSpelling.accesskey         "t">
+<!ENTITY checkUserSpelling.label         "Verificar ortografía al escribir">
+<!ENTITY checkUserSpelling.accesskey     "t">
 
 <!ENTITY dataChoicesTab.label            "Elección de datos">
 
@@ -57,6 +57,14 @@
 
 <!ENTITY offlineStorage2.label           "Contenido web y datos de usuario sin conexión">
 
+<!--  Site Data section manages sites using Storage API and is under Network -->
+<!ENTITY siteData.label                  "Datos del sitio">
+<!ENTITY clearSiteData.label             "Limpiar todos los datos">
+<!ENTITY clearSiteData.accesskey         "L">
+<!ENTITY siteDataSettings.label          "Configuración…">
+<!ENTITY siteDataSettings.accesskey      "C">
+<!ENTITY siteDataLearnMoreLink.label     "Conocer más">
+
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
@@ -75,11 +83,11 @@
 
 <!ENTITY updateTab.label                 "Actualizaciones">
 
-<!ENTITY updateApp.label                 "Actualizaciones de &brandShortName;:">
+<!ENTITY updateApplication.label         "Actualizaciones de &brandShortName;">
 <!ENTITY updateAuto1.label               "Instalar actualizaciones automáticamente (recomendado: seguridad mejorada)">
 <!ENTITY updateAuto1.accesskey           "a">
-<!ENTITY updateCheck.label               "Buscar actualizaciones, pero dejarme elegir si deseo instalarlas">
-<!ENTITY updateCheck.accesskey           "c">
+<!ENTITY updateCheckChoose.label         "Buscar actualizaciones, pero dejarme elegir si deseo instalarlas">
+<!ENTITY updateCheckChoose.accesskey     "c">
 <!ENTITY updateManual.label              "Nunca buscar actualizaciones (no recomendado: riesgos de seguridad)">
 <!ENTITY updateManual.accesskey          "N">
 
@@ -89,14 +97,14 @@
 <!ENTITY useService.label                "Usar un servicio en segundo plano para instalar actualizaciones">
 <!ENTITY useService.accesskey            "U">
 
-<!ENTITY updateOthers.label              "Actualizar automáticamente:">
+<!ENTITY autoUpdateOthers.label          "Actualizar automáticamente">
 <!ENTITY enableSearchUpdate.label        "Motores de búsqueda">
 <!ENTITY enableSearchUpdate.accesskey    "M">
 
-<!ENTITY offlineNotify.label             "Informarme cuando un sitio pida guardar datos para usar sin conexión">
-<!ENTITY offlineNotify.accesskey         "t">
-<!ENTITY offlineNotifyExceptions.label   "Excepciones…">
-<!ENTITY offlineNotifyExceptions.accesskey "x">
+<!ENTITY offlineStorageNotify.label               "Avisarme cuando un sitio pida guardar datos para usar sin conexión">
+<!ENTITY offlineStorageNotify.accesskey           "t">
+<!ENTITY offlineStorageNotifyExceptions.label     "Excepciones…">
+<!ENTITY offlineStorageNotifyExceptions.accesskey "x">
 
 <!ENTITY offlineAppsList2.label          "Los siguientes sitios tienen permitido guardar datos para uso sin conexión:">
 <!ENTITY offlineAppsList.height          "7em">
@@ -105,12 +113,12 @@
 <!ENTITY offlineAppRemove.confirm        "Eliminar datos sin conexión">
 
 <!ENTITY certificateTab.label            "Certificados">
-<!ENTITY certSelection.label             "Pedidos">
-<!ENTITY certSelection.description       "Cuando un servidor requiera mi certificado personal:">
-<!ENTITY certs.auto                      "Seleccionar uno automáticamente">
-<!ENTITY certs.auto.accesskey            "l">
-<!ENTITY certs.ask                       "Preguntarme cada vez">
-<!ENTITY certs.ask.accesskey             "P">
+<!ENTITY certPersonal.label              "Pedidos">
+<!ENTITY certPersonal.description        "Cuando un servidor solicite mi certificado personal:">
+<!ENTITY selectCerts.auto                "Seleccionar uno automáticamente">
+<!ENTITY selectCerts.auto.accesskey      "S">
+<!ENTITY selectCerts.ask                 "Preguntarme cada vez">
+<!ENTITY selectCerts.ask.accesskey       "a">
 <!ENTITY enableOCSP.label                "Solicitar a los servidores respondedores de OCSP que confirmen la validez actual de los certificados">
 <!ENTITY enableOCSP.accesskey            "O">
 <!ENTITY viewCerts.label                 "Ver Certificados">

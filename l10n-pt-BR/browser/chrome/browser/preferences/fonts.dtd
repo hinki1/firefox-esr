@@ -61,8 +61,8 @@
 <!ENTITY  useDefaultFontSerif.label               "Com serifa">
 <!ENTITY  useDefaultFontSansSerif.label           "Sem serifa">
 
-<!ENTITY  allowPagesToUse.label                   "Páginas podem usar suas próprias fontes">
-<!ENTITY  allowPagesToUse.accesskey               "n">
+<!ENTITY  allowPagesToUseOwn.label                "Permitir que páginas escolham suas próprias fontes, ao invés de suas seleções acima">
+<!ENTITY  allowPagesToUseOwn.accesskey            "P">
 
 <!ENTITY languages.customize.Fallback2.grouplabel "Codificação de texto para conteúdo legado">
 <!ENTITY languages.customize.Fallback2.label      "Codificação de texto secundária:">

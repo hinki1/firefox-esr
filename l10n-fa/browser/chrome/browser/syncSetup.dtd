@@ -30,7 +30,7 @@
 <!ENTITY setup.emailAddress.label     "نشانی پست الکترونیکی">
 <!ENTITY setup.emailAddress.accesskey "ن">
 <!ENTITY setup.choosePassword.label      "یک گذرواژه انتخاب نمایید">
-<!ENTITY setup.choosePassword.accesskey  "P">
+<!ENTITY setup.choosePassword.accesskey  "ی">
 <!ENTITY setup.confirmPassword.label     "تأیید گذرواژه">
 <!ENTITY setup.confirmPassword.accesskey "ت">
 <!-- LOCALIZATION NOTE: tosAgree1, tosLink, tosAgree2, ppLink, tosAgree3 are
@@ -48,7 +48,7 @@
 <!ENTITY setup.newRecoveryKeyPage.title.label "&brandShortName; به حریم خصوصی شما اهمیت میدهد">
 <!ENTITY setup.newRecoveryKeyPage.description.label "برای حفظ اطمینان از محفوظ ماندن اطلاعات خصوصی شما، تمام این اطلاعات پیش از ارسال به صورت رمز درمی‌آید. کلید لازم برای رمزگشایی از اطلاعات شما ارسال نخواهد گردید.">
 <!ENTITY recoveryKeyEntry.label        "کلید بازیابی شما">
-<!ENTITY recoveryKeyEntry.accesskey    "K">
+<!ENTITY recoveryKeyEntry.accesskey    "ک">
 <!ENTITY syncGenerateNewKey.label  "ایجاد کلید جدید">
 <!ENTITY recoveryKeyBackup.description "شما برای دسترسی به &syncBrand.fullName.label; در دستگاه‌های دیگر، به کلید بازیابی خود نیاز دارید. لطفا یک نسخۀ پشتیبان تهیۀ کنید. ما نمیتوانیم در بازیافت کلید بازیابی شما کمکی بکنیم.">
 
@@ -80,13 +80,13 @@
 
 <!ENTITY setup.optionsPage.title      "گزینه‌های هم‌گام‌سازی">
 <!ENTITY syncDeviceName.label       "نام دستگاه">
-<!ENTITY syncDeviceName.accesskey   "c">
+<!ENTITY syncDeviceName.accesskey   "د">
 
 <!ENTITY syncMy.label               "موارد هم‌گام‌سازی:">
 <!ENTITY engine.bookmarks.label     "نشانک‌ها">
 <!ENTITY engine.bookmarks.accesskey "ن">
-<!ENTITY engine.tabs.label          "زبانه‌ها">
-<!ENTITY engine.tabs.accesskey      "ز">
+<!ENTITY engine.tabs.label2         "زبانه‌های باز">
+<!ENTITY engine.tabs.accesskey      "T">
 <!ENTITY engine.history.label       "تاریخچه">
 <!ENTITY engine.history.accesskey   "ت">
 <!ENTITY engine.passwords.label     "گذرواژه‌ها">

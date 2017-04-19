@@ -8,14 +8,14 @@
 <!ENTITY newWindowsAsTabs.label       "Nowe wokna w nowem rejtarku wócyniś">
 <!ENTITY newWindowsAsTabs.accesskey   "N">
 
-<!ENTITY warnCloseMultipleTabs.label  "Warnowaś, gaž někotare rejtarki se zacynjaju">
-<!ENTITY warnCloseMultipleTabs.accesskey  "W">
+<!ENTITY warnOnCloseMultipleTabs.label      "Warnowaś, gaž někotare rejtarki se zacynjaju">
+<!ENTITY warnOnCloseMultipleTabs.accesskey  "W">
 
-<!ENTITY warnOpenManyTabs.label       "Warnowaś, gaby wócynjanje někotarych rejtarkow mógło &brandShortName; spomałšyś">
-<!ENTITY warnOpenManyTabs.accesskey   "k">
+<!ENTITY warnOnOpenManyTabs.label       "Warnowaś, gaby wócynjanje někotarych rejtarkow mógło &brandShortName; spomałšyś">
+<!ENTITY warnOnOpenManyTabs.accesskey   "k">
 
-<!ENTITY switchToNewTabs.label        "Ned na wótkaz pśešaltowaś, kótaryž jo se w nowem rejtarku wócynił">
-<!ENTITY switchToNewTabs.accesskey    "t">
+<!ENTITY switchLinksToNewTabs.label        "Ned na wótkaz pśešaltowaś, kótaryž jo se w nowem rejtarku wócynił">
+<!ENTITY switchLinksToNewTabs.accesskey    "t">
 
 <!ENTITY showTabsInTaskbar.label          "Rejtarkowe pśeglědy we Windowsowej nadawkowej rědce pokazaś">
 <!ENTITY showTabsInTaskbar.accesskey      "R">

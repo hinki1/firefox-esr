@@ -28,8 +28,8 @@
 <!ENTITY     focusSearch1.key               "f">
 <!ENTITY     focusSearch2.key               "k">
 
-<!ENTITY     filter.label                   "Пошук:">
-<!ENTITY     filter.accesskey               "о">
+<!ENTITY     searchFilter.label             "Пошук">
+<!ENTITY     searchFilter.accesskey         "П">
 
 <!ENTITY     button.close.label             "Закрити">
 <!ENTITY     button.close.accesskey         "а">

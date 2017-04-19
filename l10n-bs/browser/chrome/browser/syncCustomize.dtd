@@ -17,7 +17,7 @@
 <!ENTITY engine.bookmarks.accesskey       "Z">
 <!ENTITY engine.history.label             "Historiju">
 <!ENTITY engine.history.accesskey         "r">
-<!ENTITY engine.tabs.label                "Tabove">
+<!ENTITY engine.tabs.label2               "Otvori tabove">
 <!ENTITY engine.tabs.accesskey            "T">
 <!ENTITY engine.passwords.label           "Lozinke">
 <!ENTITY engine.passwords.accesskey       "L">

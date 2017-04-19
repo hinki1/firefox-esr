@@ -4,8 +4,8 @@
 
 <!ENTITY  general.label                 "Основни">
 
-<!ENTITY  warnAddonInstall.label        "Предупреждение при опит на страница да инсталира добавки">
-<!ENTITY  warnAddonInstall.accesskey    "П">
+<!ENTITY  warnOnAddonInstall.label        "Предупреждаване при опит на страница да инсталира добавки">
+<!ENTITY  warnOnAddonInstall.accesskey    "П">
 
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
@@ -17,8 +17,8 @@
 <!ENTITY  blockDownloads.label            "Блокиране на опасни изтегляния">
 <!ENTITY  blockDownloads.accesskey        "т">
 
-<!ENTITY  blockUncommonUnwanted.label     "Предупреждение при нежелан или рядко срещан софтуер">
-<!ENTITY  blockUncommonUnwanted.accesskey "н">
+<!ENTITY  blockUncommonAndUnwanted.label     "Предупреждаване при нежелан или рядко срещан софтуер">
+<!ENTITY  blockUncommonAndUnwanted.accesskey "н">
 
 <!ENTITY  addonExceptions.label         "Изключения…">
 <!ENTITY  addonExceptions.accesskey     "И">
@@ -26,7 +26,7 @@
 
 <!ENTITY  logins.label                  "Регистрации">
 
-<!ENTITY  rememberLogins.label          "Запомняне на регистрациите в сайтовете">
+<!ENTITY  rememberLogins.label          "Запомняне на регистрации в сайтовете">
 <!ENTITY  rememberLogins.accesskey      "З">
 <!ENTITY  passwordExceptions.label      "Изключения…">
 <!ENTITY  passwordExceptions.accesskey  "к">

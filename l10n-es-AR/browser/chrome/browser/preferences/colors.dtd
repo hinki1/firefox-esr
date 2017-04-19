@@ -6,13 +6,12 @@
 <!ENTITY  window.width                    "41em">
 <!ENTITY  window.macWidth                 "43em">
 
+<!ENTITY  overrideDefaultPageColors.label        "Reemplazar los colores especificados por la página con los seleccionados debajo:">
+<!ENTITY  overrideDefaultPageColors.accesskey    "o">
 
-<!ENTITY  overridePageColors.label        "Reemplazar los colores especificados por la página con mis selecciones:">
-<!ENTITY  overridePageColors.accesskey    "o">
-
-<!ENTITY  overridePageColors.always.label "Siempre">
-<!ENTITY  overridePageColors.auto.label   "Solamente con temas de alto contraste">
-<!ENTITY  overridePageColors.never.label  "Nunca">
+<!ENTITY  overrideDefaultPageColors.always.label "Siempre">
+<!ENTITY  overrideDefaultPageColors.auto.label   "Solamente con temas de alto contraste">
+<!ENTITY  overrideDefaultPageColors.never.label  "Nunca">
 
 <!ENTITY  color                           "Texto y fondo">
 <!ENTITY  textColor.label                 "Texto:">

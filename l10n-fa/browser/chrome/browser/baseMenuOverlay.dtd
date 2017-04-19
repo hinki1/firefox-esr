@@ -15,30 +15,30 @@
 <!ENTITY helpMenuWin.label        "راهنما"> 
 <!ENTITY helpMenuWin.accesskey    "ر">
 <!ENTITY aboutProduct2.label      "دربارهٔ &brandShorterName;">
-<!ENTITY aboutProduct2.accesskey  "د">
+<!ENTITY aboutProduct2.accesskey  "A">
 <!ENTITY productHelp2.label       "راهنمای &brandShorterName;">
-<!ENTITY productHelp2.accesskey   "ا">
+<!ENTITY productHelp2.accesskey   "H">
 <!ENTITY helpMac.commandkey       "؟">
 
 <!ENTITY helpKeyboardShortcuts.label     "میانبرهای صفحه کلید">
-<!ENTITY helpKeyboardShortcuts.accesskey "K">
+<!ENTITY helpKeyboardShortcuts.accesskey "م">
 
 <!ENTITY helpSafeMode.label       "راه‌اندازی مجدد به همراه غیرفعال کردن افزودنی‌ها…">
-<!ENTITY helpSafeMode.accesskey   "م">
+<!ENTITY helpSafeMode.accesskey   "ر">
 <!ENTITY helpSafeMode.stop.label       "راه‌اندازی مجدد به همراه غیرفعال کردن افزودنی‌ها">
-<!ENTITY helpSafeMode.stop.accesskey   "م">
+<!ENTITY helpSafeMode.stop.accesskey   "ر">
 
 <!ENTITY healthReport2.label      "گزارش سلامتی &brandShorterName;">
-<!ENTITY healthReport2.accesskey  "ا">
+<!ENTITY healthReport2.accesskey  "e">
 
 <!ENTITY helpTroubleshootingInfo.label      "اطلاعات رفع اشکال">
-<!ENTITY helpTroubleshootingInfo.accesskey  "ش">
+<!ENTITY helpTroubleshootingInfo.accesskey  "ر">
 
 <!ENTITY helpFeedbackPage.label      "ارسال نظر…">
-<!ENTITY helpFeedbackPage.accesskey  "س">
+<!ENTITY helpFeedbackPage.accesskey  "ا">
 
 <!ENTITY helpShowTour2.label            "تور معرفی &brandShorterName;">
-<!ENTITY helpShowTour2.accesskey        "و">
+<!ENTITY helpShowTour2.accesskey        "o">
 
 <!ENTITY preferencesCmdMac.label        "ترجیحات…">
 <!ENTITY preferencesCmdMac.commandkey   "،">

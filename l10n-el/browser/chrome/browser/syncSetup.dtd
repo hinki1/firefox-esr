@@ -37,7 +37,7 @@
 <!-- LOCALIZATION NOTE: tosAgree1, tosLink, tosAgree2, ppLink, tosAgree3 are
      joined with implicit white space, so spaces in the strings aren't necessary -->
 <!ENTITY setup.tosAgree1.label      "Συμφωνώ με">
-<!ENTITY setup.tosAgree1.accesskey  "τους">
+<!ENTITY setup.tosAgree1.accesskey  "σ">
 <!ENTITY setup.tosLink.label        "Όρους Υπηρεσίας">
 <!ENTITY setup.tosAgree2.label      "και την">
 <!ENTITY setup.ppLink.label         "Πολιτική απορρήτου">
@@ -85,7 +85,7 @@
 <!ENTITY syncMy.label               "Συγχρονισμός">
 <!ENTITY engine.bookmarks.label     "Σελιδοδεικτών">
 <!ENTITY engine.bookmarks.accesskey "λ">
-<!ENTITY engine.tabs.label          "Καρτελών">
+<!ENTITY engine.tabs.label2         "Άνοιγμα καρτελών">
 <!ENTITY engine.tabs.accesskey      "τ">
 <!ENTITY engine.history.label       "Ιστορικού">
 <!ENTITY engine.history.accesskey   "ρ">

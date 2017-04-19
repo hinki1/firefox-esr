@@ -63,7 +63,7 @@
 <!ENTITY  crash_close_label "Жабу">
 <!ENTITY  crash_restart_label "&brandShortName; қайта іске қосу">
 
-<!ENTITY url_bar_default_text2 "Іздеу үшін сұранымды немесе адресті енгізіңіз">
+<!ENTITY url_bar_default_text2 "Іздеу немесе адрес">
 
 <!ENTITY bookmark "Бетбелгі">
 <!ENTITY bookmark_remove "Бетбелгіні өшіру">
@@ -155,11 +155,12 @@
 <!ENTITY overlay_share_bookmark_btn_label "Бетбелгі">
 <!ENTITY overlay_share_bookmark_btn_label_already "Бетбелгілерде бар болып тұр">
 <!ENTITY overlay_share_send_other "Басқа құрылғыларға жіберу">
+
+<!ENTITY overlay_share_open_browser_btn_label "&brandShortName; ішінде ашу">
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
      to. -->
-
 <!ENTITY overlay_share_send_tab_btn_label "Басқа құрылғыға жіберу ">
 <!ENTITY overlay_share_no_url "Бұл бөлісуде сілтемелер табылмады">
 <!ENTITY overlay_share_select_device "Құрылғыны таңдау">
@@ -284,7 +285,7 @@
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "Белсенділік ағыны">
-<!ENTITY pref_activity_stream_summary "&brandShortName; ішінен не табуға қалауларыңызды көрсете алатын визуалды тариз таспасы және қайта жасалған үй парағы.">
+<!ENTITY pref_activity_stream_summary "&brandShortName; ішінен не табуға қалауларыңызды көрсете алатын визуалды тарих таспасы және қайта жасалған үй парағы.">
 
 <!ENTITY tracking_protection_prompt_title "Енді бақылаудан қорғанысы бар">
 <!ENTITY tracking_protection_prompt_text "Бақылайтын элементтерді белсенді түрде блоктайды.">
@@ -386,6 +387,7 @@ size. -->
 <!ENTITY pref_history_search_suggestions "Іздеулер тарихын көрсету">
 <!ENTITY pref_import_options "Импорт опциялары">
 <!ENTITY pref_import_android_summary "Жүйелік браузерден бетбелгілер және шолу тарихын импорттау">
+<!ENTITY pref_private_data_openTabs "Ашық беттер">
 <!ENTITY pref_private_data_history2 "Шолу тарихы">
 <!ENTITY pref_private_data_searchHistory "Іздеулер тарихы">
 <!ENTITY pref_private_data_formdata2 "Формалар тарихы">
@@ -499,7 +501,7 @@ size. -->
 <!ENTITY contextmenu_share "Бөлісу">
 <!ENTITY contextmenu_pasteandgo "Кірістіру және өту">
 <!ENTITY contextmenu_paste "Кірістіру">
-<!ENTITY contextmenu_copyurl "Адресін көшіру">
+<!ENTITY contextmenu_copyurl "Адресін көшіріп алу">
 <!ENTITY contextmenu_edit_bookmark "Түзету">
 <!ENTITY contextmenu_subscribe "Бетке жазылу">
 <!ENTITY contextmenu_site_settings "Сайт баптауларын түзету">
@@ -535,6 +537,11 @@ size. -->
 
 <!ENTITY pref_tab_queue_title3 "Беттер кезегі">
 <!ENTITY pref_tab_queue_summary4 "Сілтемелерді &brandShortName; келесі рет ашқаныңызға дейін сақтаңыз">
+<!-- Localization note (pref_compact_tabs): Label for setting that controls whether 1 wide column or
+     2 narrower (compact) columns are used for tabs in the tabs tray in portrait mode on phones. -->
+
+<!ENTITY pref_compact_tabs "Ықшам беттер">
+<!ENTITY pref_compact_tabs_summary2 "Тік режимде беттерді екі бағанға реттеу">
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
      bookmarks, or reading list. -->
@@ -596,7 +603,7 @@ size. -->
 <!ENTITY home_most_recent_empty "Сіздің соңғы ашылған веб сайттарыңыз осында болады.">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
-<!ENTITY home_most_recent_emptyhint2 "Назарыңызға: &formatS1;Жаңа жекелік бет&formatS2; мүмкіндігін қолдану таризыңызды сақтамайды.">
+<!ENTITY home_most_recent_emptyhint2 "Назарыңызға: &formatS1;Жаңа жекелік бет&formatS2; мүмкіндігін қолдану тарихыңызды сақтамайды.">
 <!-- Localization note (home_default_empty): This string is used as the default text when there
      is no data to show in an about:home panel that was created by an add-on. -->
 
@@ -698,8 +705,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_downloading_select2 "Жүктеп алынғаннан кейін жаңартуды іске асыру үшін шертіңіз">
 <!ENTITY updater_downloading_retry2 "Қайталау үшін шертіңіз">
 
-<!ENTITY updater_apply_title2 "&brandShortName; жаңартуы қолжетерлік">
-<!ENTITY updater_apply_select2 "Жаңарту үшін шертіңіз">
+<!ENTITY updater_apply_title3 "&brandShortName; жаңартуы жүктеліп алынды">
+<!ENTITY updater_apply_select3 "Орнату үшін шертіңіз">
 <!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
      if the app requires a runtime permission to download updates. Currently, the updater only sees
      remotely advertised updates in the Nightly and Aurora channels. -->
@@ -843,3 +850,6 @@ is simply hidden from the Activity Stream panel. -->
 
 <!ENTITY activity_stream_dismiss "Тайдыру">
 <!ENTITY activity_stream_delete_history "Тарихтан өшіру">
+
+<!ENTITY activity_stream_welcome_title "Басты сайттарға қош келдіңіз">
+<!ENTITY activity_stream_welcome_content1 "&brandShortName; енді сіз интернеттен тапқан нәрселердің ең қызықтыларын көрсетеді, оның көмегімен сіз пайдалы мақалалар, видеолар, бетбелгілер және т.б. парақтарға орала аласыз.">

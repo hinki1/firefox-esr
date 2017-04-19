@@ -42,7 +42,7 @@
 
 <!-- Localization note: These are used as the titles of different pages on the home screen.
      They are automatically converted to all caps by the Android platform. -->
-<!ENTITY  bookmarks_title "Bookmark">
+<!ENTITY  bookmarks_title "Markah">
 <!ENTITY  history_title "Riwayat">
 
 <!ENTITY  switch_to_tab "Pindah ke tab">
@@ -156,6 +156,7 @@
 <!ENTITY overlay_share_bookmark_btn_label_already "Sudah dimarkahi">
 <!ENTITY overlay_share_send_other "Kirim ke perangkat lainnya">
 
+<!ENTITY overlay_share_open_browser_btn_label "Buka di &brandShortName;">
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
@@ -173,11 +174,11 @@
 <!ENTITY pref_category_accessibility "Aksesibilitas">
 <!ENTITY pref_category_accessibility_summary2 "Ukuran teks, perbesaran, input suara">
 <!ENTITY pref_category_privacy_short "Privasi">
-<!ENTITY pref_category_privacy_summary4 "Pelacakan, log-masuk, pilihan data">
+<!ENTITY pref_category_privacy_summary4 "Pelacakan, info masuk, pilihan data">
 <!ENTITY pref_category_vendor2 "&vendorShortName; &brandShortName;">
 <!ENTITY pref_category_vendor_summary2 "Tentang &brandShortName;, tanya jawab, saran">
 <!ENTITY pref_category_datareporting "Pilihan data">
-<!ENTITY pref_category_logins "Log-masuk">
+<!ENTITY pref_category_logins "Info Masuk">
 <!ENTITY pref_learn_more "Pelajari lebih lanjut">
 <!ENTITY pref_category_installed_search_engines "Mesin pencari terpasang">
 <!ENTITY pref_category_add_search_providers "Tambahkan penyedia pencarian lainnya">
@@ -284,6 +285,7 @@
 
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Aliran Aktivitas">
+<!ENTITY pref_activity_stream_summary "Sebuah umpan balik riwayat visual yang kaya serta beranda yang dikonsep ulang untuk mempermudah Anda menemukan apa yang ingin dicari di &brandShortName;.">
 
 <!ENTITY tracking_protection_prompt_title "Kini dengan Perlindungan Pelacakan">
 <!ENTITY tracking_protection_prompt_text "Secara aktif memblokir elemen pelacakan sehingga Anda tidak perlu khawatir.">
@@ -385,6 +387,7 @@ size. -->
 <!ENTITY pref_history_search_suggestions "Tampilkan riwayat pencarian">
 <!ENTITY pref_import_options "Opsi input">
 <!ENTITY pref_import_android_summary "Impor markah dan riwayat dari peramban sistem">
+<!ENTITY pref_private_data_openTabs "Buka tab">
 <!ENTITY pref_private_data_history2 "Riwayat penjelajahan">
 <!ENTITY pref_private_data_searchHistory "Riwayat pencarian">
 <!ENTITY pref_private_data_formdata2 "Riwayat formulir">
@@ -525,6 +528,7 @@ size. -->
 <!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
      whether or not the magnifying glass is disabled. -->
 <!ENTITY pref_magnifying_glass_enabled "Perbesar area kecil">
+<!ENTITY pref_magnifying_glass_enabled_summary2 "Memperbesar tautan dan bidang formulir ketika sekelilingnya disentuh">
 
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
@@ -533,6 +537,11 @@ size. -->
 
 <!ENTITY pref_tab_queue_title3 "Antrian tab">
 <!ENTITY pref_tab_queue_summary4 "Simpan tautan hingga nanti Anda membuka &brandShortName;">
+
+<!-- Localization note (pref_compact_tabs): Label for setting that controls whether 1 wide column or
+     2 narrower (compact) columns are used for tabs in the tabs tray in portrait mode on phones. -->
+<!ENTITY pref_compact_tabs "Ringkaskan tab">
+<!ENTITY pref_compact_tabs_summary2 "Atur tab menjadi dua kolom dalam mode tegak">
 
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
@@ -577,14 +586,20 @@ size. -->
      with the page title defined in aboutHome.dtd -->
 <!ENTITY home_title "Beranda &brandShortName;">
 <!ENTITY home_history_title "Riwayat">
+<!ENTITY home_synced_devices_smartfolder "Perangkat tersinkron">
+<!ENTITY home_synced_devices_number "&formatD; perangkat">
 <!-- Localization note (home_synced_devices_one_device): This is the singular version of home_synced_devices_number, referring to the number of devices a user has synced. -->
+<!ENTITY home_synced_devices_one "1 perangkat">
 <!ENTITY home_history_back_to2 "Kembali ke Riwayat lengkap">
 <!ENTITY home_clear_history_button "Bersihkan riwayat penjelajahan">
 <!ENTITY home_clear_history_confirm "Yakin ingin membersihkan riwayat Anda?">
 <!ENTITY home_bookmarks_empty "Markah yang disimpan akan tampil di sini.">
 <!ENTITY home_closed_tabs_title2 "Baru saja ditutup">
 <!ENTITY home_last_tabs_empty "Tab terakhir yang dibuka akan tampil di sini.">
+<!ENTITY home_restore_all "Pulihkan semua">
+<!ENTITY home_closed_tabs_number "&formatD; tab">
 <!-- Localization note (home_closed_tabs_one): This is the singular version of home_closed_tabs_number, referring to the number of recently closed tabs available. -->
+<!ENTITY home_closed_tabs_one "1 tab">
 <!ENTITY home_most_recent_empty "Situs yang sering dikunjungi terakhir akan tampil di sini.">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
@@ -690,8 +705,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_downloading_select2 "Sentuh untuk menerapkan pembaruan setelah selesai diunduh">
 <!ENTITY updater_downloading_retry2 "Sentuh untuk mencoba lagi">
 
-<!ENTITY updater_apply_title2 "Versi baru tersedia di &brandShortName;">
-<!ENTITY updater_apply_select2 "Sentuh untuk memperbarui">
+<!ENTITY updater_apply_title3 "Pembaruan diunduh untuk &brandShortName;">
+<!ENTITY updater_apply_select3 "Sentuh untuk memasang">
 
 <!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
      if the app requires a runtime permission to download updates. Currently, the updater only sees
@@ -813,7 +828,12 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY promotion_add_to_homescreen "Tambahkan ke layar beranda">
 
 <!ENTITY helper_first_offline_bookmark_title "Baca luring">
+<!ENTITY helper_first_offline_bookmark_message "Cari item Tampilan Baca Anda dalam Markah, meskipun sedang luring.">
+<!ENTITY helper_first_offline_bookmark_button "Ke Markah">
 
+<!ENTITY helper_triple_readerview_open_title "Tersedia luring">
+<!ENTITY helper_triple_readerview_open_message "Markahi Tampilan Baca item untuk membacanya secara luring.">
+<!ENTITY helper_triple_readerview_open_button "Tambahkan ke Markah">
 
 <!ENTITY activity_stream_topsites "Situs Teratas">
 <!ENTITY activity_stream_highlights "Sorotan">
@@ -830,3 +850,6 @@ and allows hiding a URL/page from highlights or topsites. The page remains in hi
 is simply hidden from the Activity Stream panel. -->
 <!ENTITY activity_stream_dismiss "Tutup">
 <!ENTITY activity_stream_delete_history "Hapus dari Riwayat">
+
+<!ENTITY activity_stream_welcome_title "Selamat datang di Sorotan">
+<!ENTITY activity_stream_welcome_content1 "&brandShortName; sekarang membuat sorotan dari hal-hal yang Anda temukan di web sehingga Anda dapat menemukan kembali artikel, video, markah, dan halaman lainnya.">

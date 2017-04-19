@@ -8,14 +8,14 @@
 <!ENTITY newWindowsAsTabs.label       "Dritaret e reja hapi më mirë si skedë të re">
 <!ENTITY newWindowsAsTabs.accesskey   "D">
 
-<!ENTITY warnCloseMultipleTabs.label  "Sinjalizomë kur mbyll shumë skeda">
-<!ENTITY warnCloseMultipleTabs.accesskey  "b">
+<!ENTITY warnOnCloseMultipleTabs.label      "Sinjalizo kur mbyllen disa skeda njëherësh">
+<!ENTITY warnOnCloseMultipleTabs.accesskey  "b">
 
-<!ENTITY warnOpenManyTabs.label       "Sinjalizomë kur hapja e shumë skedave do të mund të ngadalësonte &brandShortName;-in">
-<!ENTITY warnOpenManyTabs.accesskey   "h">
+<!ENTITY warnOnOpenManyTabs.label       "Sinjalizo kur hapja e shumë skedave njëherësh do të mund të ngadalësonte &brandShortName;-in">
+<!ENTITY warnOnOpenManyTabs.accesskey   "h">
 
-<!ENTITY switchToNewTabs.label        "Kur një lidhje e hap si skedë të re, kalo menjëherë te ajo">
-<!ENTITY switchToNewTabs.accesskey    "K">
+<!ENTITY switchLinksToNewTabs.label        "Kur një lidhje hapet si një skedë të re, kalo në të menjëherë">
+<!ENTITY switchLinksToNewTabs.accesskey    "K">
 
 <!ENTITY showTabsInTaskbar.label          "Shfaq paraparje skedash te &quot;Windows taskbar&quot;">
 <!ENTITY showTabsInTaskbar.accesskey      "a">

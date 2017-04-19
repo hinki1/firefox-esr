@@ -478,7 +478,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openFrameCmd.label           "Wobłuk w nowym woknje wočinić">
 <!ENTITY openFrameCmd.accesskey       "u">
 <!ENTITY openLinkCmdInContainerTab.label "Wotkaz w nowym kontejnerowym rajtarku wočinić">
-<!ENTITY openLinkCmdInContainerTab.accesskey "z">
+<!ENTITY openLinkCmdInContainerTab.accesskey "o">
 <!ENTITY showOnlyThisFrameCmd.label     "Jenož w tutym wobłuku pokazać">
 <!ENTITY showOnlyThisFrameCmd.accesskey "J">
 <!ENTITY reloadCmd.commandkey         "r">
@@ -756,6 +756,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- LOCALIZATION NOTE (syncedTabs.sidebar.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "Synchronizowanje rajtarkow zapinać, zo by so lisćina rajtarkow z wašich druhich gratow pokazała.">
+<!-- LOCALIZATION NOTE (syncedTabs.context.open.accesskey,
+                        syncedTabs.context.openAllInTabs.accesskey):
+     These access keys are identical because their associated menu items are
+     mutually exclusive -->
 
 <!ENTITY syncedTabs.context.open.label                       "Wočinić">
 <!ENTITY syncedTabs.context.open.accesskey                   "W">
@@ -769,6 +773,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "z">
 <!ENTITY syncedTabs.context.copy.label                       "Kopěrować">
 <!ENTITY syncedTabs.context.copy.accesskey                   "K">
+
+<!ENTITY syncedTabs.context.openAllInTabs.label              "Wšě w rajtarkach wočinić">
+<!ENTITY syncedTabs.context.openAllInTabs.accesskey          "W">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">

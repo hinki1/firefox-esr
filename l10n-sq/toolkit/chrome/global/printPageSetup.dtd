@@ -14,7 +14,7 @@
 <!ENTITY hfDateAndTime "Datë/Kohë">
 <!ENTITY hfLeft.label "Majtas:">
 <!ENTITY hfPage "Faqe #">
-<!ENTITY hfPageAndTotal "Faqe # nga #">
+<!ENTITY hfPageAndTotal "Faqja # nga #">
 <!ENTITY hfRight.label "Djathtas:">
 <!ENTITY hfTitle "Titull">
 <!ENTITY hfURL "URL">
@@ -38,7 +38,7 @@
 <!ENTITY portrait.accesskey  "P">
 <!ENTITY printBG.label "Sfond Shtypjeje (ngjyra &amp; figura)">
 <!ENTITY printBG.accesskey   "S">
-<!ENTITY printSetup.title "Rregullim Faqeje">
+<!ENTITY printSetup.title "Rregullime Faqeje">
 <!ENTITY scale.label "Shkallë:">
 <!ENTITY scale.accesskey     "S">
 <!ENTITY scalePercent "&#037;">

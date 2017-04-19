@@ -156,6 +156,7 @@
 <!ENTITY overlay_share_bookmark_btn_label_already "Již přidána">
 <!ENTITY overlay_share_send_other "Odeslat do jiného zařízení">
 
+<!ENTITY overlay_share_open_browser_btn_label "Otevřít v aplikaci &brandShortName;">
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
@@ -195,7 +196,7 @@
      context means consuming less data, e.g. by not loading images, not
      “storing data”. -->
 <!ENTITY pref_category_advanced_summary3 "Obnova panelů, spořič dat, nástroje vývojáře">
-<!ENTITY pref_category_notifications "Upozornění">
+<!ENTITY pref_category_notifications "Oznámení">
 <!ENTITY pref_category_notifications_summary "Nové funkce, aktualizace webových stránek">
 <!ENTITY pref_content_notifications "Aktualizace webových stránek">
 <!ENTITY pref_content_notifications_summary2 "Objevte nový obsah z podporovaných serverů">
@@ -235,7 +236,7 @@
 <!ENTITY pref_header_search "Vyhledávání">
 <!ENTITY pref_header_privacy_short "Soukromí">
 <!ENTITY pref_header_accessibility "Přístupnost">
-<!ENTITY pref_header_notifications "Upozornění">
+<!ENTITY pref_header_notifications "Oznámení">
 <!ENTITY pref_header_advanced "Rozšířené">
 <!ENTITY pref_header_help "Nápověda">
 <!ENTITY pref_header_vendor "&vendorShortName;">
@@ -386,6 +387,7 @@ size. -->
 <!ENTITY pref_history_search_suggestions "Zobrazit historii vyhledávání">
 <!ENTITY pref_import_options "Možnosti importu">
 <!ENTITY pref_import_android_summary "Import záložek a historie z prohlížeče v systému">
+<!ENTITY pref_private_data_openTabs "Otevřené panely">
 <!ENTITY pref_private_data_history2 "Historie prohlížení">
 <!ENTITY pref_private_data_searchHistory "Historie vyhledávání">
 <!ENTITY pref_private_data_formdata2 "Historie formulářů">
@@ -464,7 +466,7 @@ size. -->
 <!ENTITY share_image_failed "Obrázek se nepodařilo sdílet">
 <!ENTITY save_as_pdf "Uložit jako PDF">
 <!ENTITY print "Tisk">
-<!ENTITY find_in_page "Najít ve stránce">
+<!ENTITY find_in_page "Najít na stránce">
 <!ENTITY desktop_mode "Desktopová verze">
 <!ENTITY page "Stránka">
 <!ENTITY tools "Nástroje">
@@ -480,7 +482,7 @@ size. -->
 
 <!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
      as alternate text for accessibility. They are not visible in the UI. -->
-<!ENTITY find_text "Najít ve stránce">
+<!ENTITY find_text "Najít na stránce">
 <!ENTITY find_prev "Předchozí">
 <!ENTITY find_next "Další">
 <!ENTITY find_close "Zavřít">
@@ -535,6 +537,11 @@ size. -->
 
 <!ENTITY pref_tab_queue_title3 "Fronta karet">
 <!ENTITY pref_tab_queue_summary4 "Uložte si odkazy do příštího otevření aplikace &brandShortName;">
+
+<!-- Localization note (pref_compact_tabs): Label for setting that controls whether 1 wide column or
+     2 narrower (compact) columns are used for tabs in the tabs tray in portrait mode on phones. -->
+<!ENTITY pref_compact_tabs "Kompaktní panely">
+<!ENTITY pref_compact_tabs_summary2 "Uspořádat panely do dvou sloupců při zobrazení na výšku">
 
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
@@ -698,8 +705,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_downloading_select2 "Klepněte pro instalaci aktualizace po stažení">
 <!ENTITY updater_downloading_retry2 "Klepněte pro opakování stažení">
 
-<!ENTITY updater_apply_title2 "Dostupná aktualizace aplikace &brandShortName;">
-<!ENTITY updater_apply_select2 "Klepněte pro instalaci aktualizace">
+<!ENTITY updater_apply_title3 "Aktualizace pro aplikaci &brandShortName; byla stažena">
+<!ENTITY updater_apply_select3 "Dotkněte se pro instalaci">
 
 <!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
      if the app requires a runtime permission to download updates. Currently, the updater only sees
@@ -843,3 +850,6 @@ and allows hiding a URL/page from highlights or topsites. The page remains in hi
 is simply hidden from the Activity Stream panel. -->
 <!ENTITY activity_stream_dismiss "Odmítnout">
 <!ENTITY activity_stream_delete_history "Smazat z historie">
+
+<!ENTITY activity_stream_welcome_title "Vítejte ve vašich Vybraných">
+<!ENTITY activity_stream_welcome_content1 "Aplikace &brandShortName; nyní vytváří výběr věcí, které jste na webu objevili, takže snadno naleznete cestu zpět ke skvělým článkům, videím, záložkám a ostatním stránkám.">

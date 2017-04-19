@@ -36,7 +36,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
-<!ENTITY textEnlarge.commandkey3 "_">
+<!ENTITY textEnlarge.commandkey3 "">
 <!ENTITY textReduce.commandkey "-">
 <!ENTITY textReduce.commandkey2 "">
 <!ENTITY textReset.commandkey "0">
@@ -44,7 +44,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY goToLineCmd.label "ไปยังบรรทัดที่…">
 <!ENTITY goToLineCmd.accesskey "ป">
-<!ENTITY goToLineCmd.commandkey "1">
+<!ENTITY goToLineCmd.commandkey "l">
 
 <!ENTITY viewMenu.label           "มุมมอง">
 <!ENTITY viewMenu.accesskey       "ม">
@@ -62,7 +62,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReduce.label "ลด">
 <!ENTITY menu_textReduce.accesskey "ล">
 <!ENTITY menu_textReset.label "ปกติ">
-<!ENTITY menu_textReset.accesskey "ป">
+<!ENTITY menu_textReset.accesskey "N">
 
 <!ENTITY findOnCmd.label     "ค้นหาในหน้านี้…">
 <!ENTITY findOnCmd.accesskey "ค">
@@ -80,7 +80,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 
-<!ENTITY copyLinkCmd.label "คัดลอกที่ตั้งลิงก์">
+<!ENTITY copyLinkCmd.label "คัดลอกตำแหน่งที่ตั้งลิงก์">
 <!ENTITY copyLinkCmd.accesskey "ค">
 <!ENTITY copyEmailCmd.label "คัดลอกที่อยู่อีเมล">
 <!ENTITY copyEmailCmd.accesskey "อ">

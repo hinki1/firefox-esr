@@ -4,8 +4,9 @@
 
 <!ENTITY closeNotification.tooltip "Zatvori ovu poruku">
 
-<!ENTITY closeNotificationItem.label "Ne sada">
-
 <!ENTITY checkForUpdates "Provjeri za update…">
 
 <!ENTITY learnMore "Saznajte više…">
+
+<!ENTITY defaultButton.label "OK!">
+<!ENTITY defaultButton.accesskey "O">

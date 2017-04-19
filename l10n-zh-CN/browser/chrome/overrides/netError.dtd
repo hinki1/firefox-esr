@@ -59,8 +59,9 @@
 <!ENTITY notCached.longDesc "<p>请求的文档已无法在 &brandShortName; 的缓存中找到。</p><ul><li>出于安全考虑，&brandShortName; 不会自动重新获取敏感文档。</li><li>请点击重试来重新请求从网站获取该文档。</li></ul>">
 
 <!ENTITY netOffline.title "脱机模式">
-<!ENTITY netOffline.longDesc2 "<ul> 
-<li>按“重试”切换到在线模式并重新加载此页面。</li> 
+<!ENTITY netOffline.longDesc2 "<ul>
+  
+  <li>请按“重试”切换到在线模式并重新载入此页面。</li>
 </ul>">
 
 <!ENTITY contentEncodingError.title "内容编码错误">
@@ -113,8 +114,8 @@ was trying to connect. -->
 <li>如果您的计算机或网络受到防火墙或者代理服务器的保护，请确认 &brandShortName; 已被授权访问网络。</li> 
 </ul>">
 
-<!ENTITY cspBlocked.title "依照内容安全策略而拦截">
-<!ENTITY cspBlocked.longDesc "<p>&brandShortName; 阻止了这个页面的以该方式载入，因为这个页面含有的内容安全政策不允许这样做。</p>">
+<!ENTITY cspBlocked.title "已按内容安全策略拦截">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; 已按该页面包含的内容安全策略阻止该页面以该种方式加载。</p>">
 
 <!ENTITY corruptedContentErrorv2.title "损坏内容错误">
 <!ENTITY corruptedContentErrorv2.longDesc "<p>您尝试查看的页面无法显示，因为检测到传输的数据含有错误。</p><ul><li>请联系此网站的管理员并告知此问题。</li></ul>">
@@ -141,12 +142,14 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> 使用了过时的安全技术，较容易遭受攻击。攻击者可以容易地获取您认为是安全的信息。">
 <!ENTITY weakCryptoAdvanced.override "尝试使用过时的安全性设置载入此页面 <span class='hostname'></span>（不安全）">
 
-<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
-     please leave them unchanged. -->
-<!ENTITY certerror.wrongSystemTime "<p>一个到 <span id='wrongSystemTime_URL'/> 的安全连接无法完成，因为您的计算机时钟好像使用了错误的时间。</p> <p>您的计算机认为现在是 <span id='wrongSystemTime_systemDate'/>，但它或许应该是 <span id='wrongSystemTime_actualDate'/>。请更正您的日期和时间设置以修复此问题。</p>">
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
+                        certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
+     tags will be injected with actual values, please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime2 "<p> &brandShortName; 没有连接到 <span id='wrongSystemTime_URL'/>，因为您的计算机的时钟时间似乎不正确，从而阻止了安全连接。</p> <p>您的计算机时间已设定为 <span id='wrongSystemTime_systemDate'/>，而它应该为 <span id='wrongSystemTime_actualDate'/>。为解决此问题，请更正您的日期和时间设置到正确的时间。</p>">
+<!ENTITY certerror.wrongSystemTimeWithoutReference "<p>&brandShortName; 没有连接到 <span id='wrongSystemTimeWithoutReference_URL'/>，因为您的计算机的时钟时间似乎不正确，从而阻止了安全连接。</p> <p>您的计算机时间目前设定为 <span id='wrongSystemTimeWithoutReference_systemDate'/>。为解决此问题，请更正您的日期和时间设置到正确的时间。</p>">
 
 <!ENTITY certerror.pagetitle1  "不安全的连接">
-<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "此网站使用了 HTTP 严格传输安全（HSTS）要求 &brandShortName; 只进行安全连接。正因如此，您不能为此证书添加一个例外。">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "此网站使用了 HTTP 严格传输安全（HSTS），要求 &brandShortName; 只进行安全连接。正因如此，您不能为此证书添加一个例外。">
 <!ENTITY certerror.copyToClipboard.label "复制文本到剪贴板">
 
 <!ENTITY inadequateSecurityError.title "您的连接不安全">
