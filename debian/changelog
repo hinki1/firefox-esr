@@ -1,3 +1,9 @@
+firefox (53.0.is.52.0.2-1) unstable; urgency=medium
+
+  * The "oops, I uploaded 53 to unstable instead of experimental" release.
+
+ -- Mike Hommey <glandium@debian.org>  Thu, 20 Apr 2017 05:37:46 +0900
+
 firefox (52.0.2-2) unstable; urgency=medium
 
   * Fixes for mfsa2017-12, also known as:
