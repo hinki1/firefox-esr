@@ -33,8 +33,8 @@ endef
 $(foreach lib,$(sort $(call uc,$(SYSTEM_LIBS))),$(eval $(call system_lib,$(lib))))
 
 ifeq ($(BACKPORT),wheezy)
-CC := gcc-4.7
-CXX := g++-4.7
+CC := /usr/lib/gcc-mozilla/bin/gcc
+CXX := /usr/lib/gcc-mozilla/bin/g++
 endif
 
 OFFICIAL_BRANDING := browser/branding/official
