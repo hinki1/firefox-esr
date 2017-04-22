@@ -260,7 +260,7 @@ endif
 
 override_dh_auto_clean::
 	rm -f MPL
-	rm -f $(GENERATED_FILES)
+	rm -f $(filter-out debian/control,$(GENERATED_FILES))
 ifeq ($(SOURCE_TYPE),nightly)
 	rm -f configure js/src/configure
 endif
