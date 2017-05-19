@@ -283,12 +283,6 @@ endif
 
 override_dh_auto_install: stamps/install-$(PRODUCT)
 
-ifndef USE_SYSTEM_NSPR
-NSPR_VERSION = $(shell awk -F' *= *' '/MOD_[A-Z]*_VERSION/ {v[$$1] = $$2} END {print v["MOD_MAJOR_VERSION"] "." v["MOD_MINOR_VERSION"] "." v["MOD_PATCH_VERSION"]}' build-$(PRODUCT)/nsprpub/config/autoconf.mk)
-debian/mozilla-nspr.pc: VARS += NSPR_VERSION
-debian/mozilla-nspr.pc: stamps/build-$(PRODUCT)
-endif
-
 stamps/install-$(PRODUCT):: build-$(PRODUCT)/debian/installer/package-manifest
 ifneq (,$(filter mips,$(DEB_BUILD_ARCH)))
 	sed -i '/"javascript.options.\(baselinejit\|ion\)"/s/true/false/' build-$(PRODUCT)/dist/bin/greprefs.js
