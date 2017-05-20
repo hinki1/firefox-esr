@@ -91,3 +91,4 @@ usr/lib/@browser@/browser/crashreporter-override.ini
 %endif
 
 usr/lib/@browser@/fonts/EmojiOneMozilla.ttf
+usr/lib/@browser@/pingsender
