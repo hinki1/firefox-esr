@@ -36,7 +36,7 @@
 <!ENTITY healthReportLearnMore.label     "Իմանալ ավելին">
 
 <!ENTITY telemetryDesc.label             "Կիսվում է արագագործության, օգտագործման, սարքակազմի և ձեր դիտարկիչի կարգավորումներով &vendorShortName;-ի հետ՝ &brandShortName;-ը էլ ավելի լավարկելու համար">
-<!ENTITY enableTelemetryData.label       "Տարածեք այլ տվյալներ (օր.՝ Telemetry)">
+<!ENTITY enableTelemetryData.label       "Տարածեք լրացուցիչ տվյալներ (օր.՝ Telemetry)">
 <!ENTITY enableTelemetryData.accesskey   "T">
 <!ENTITY telemetryLearnMore.label        "Իմանալ ավելին">
 
@@ -63,7 +63,7 @@
 <!ENTITY clearSiteData.accesskey         "ա">
 <!ENTITY siteDataSettings.label          "Կարգավորումներ...">
 <!ENTITY siteDataSettings.accesskey      "վ">
-
+<!ENTITY siteDataLearnMoreLink.label     "Իմանալ ավելին">
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
@@ -86,8 +86,8 @@
 <!ENTITY updateApplication.label         "&brandShortName;-ի թարմացումներ">
 <!ENTITY updateAuto1.label               "Թարմացումների ինքնավար տեղադրում (խորհուրդ է տրվում. լավարկում է անվտանգությունը)">
 <!ENTITY updateAuto1.accesskey           "Թ">
-
-
+<!ENTITY updateCheckChoose.label         "Ստուգել թարմացումները, բայց ընտրել, թե որը տեղադրել">
+<!ENTITY updateCheckChoose.accesskey     "Ս">
 <!ENTITY updateManual.label              "Երբեք չստուգել թարմացումները (խուրհուրդ չի տրվում. անվտանգության վտանգ)">
 <!ENTITY updateManual.accesskey          "Ե">
 
@@ -117,7 +117,7 @@
 <!ENTITY certPersonal.description        "Երբ սպասարկիչը հարցնում է ձեր անձնական վկայագիրը`">
 <!ENTITY selectCerts.auto                "Ընտրել ինքնաշխատ">
 <!ENTITY selectCerts.auto.accesskey      "S">
-
+<!ENTITY selectCerts.ask                 "Ամեն անգամ հարցնել">
 <!ENTITY selectCerts.ask.accesskey       "A">
 <!ENTITY enableOCSP.label                "Հարցում OCSP պատասխանիչի սպասարկիչին՝ հաստատելու հավաստագրի իսկությունը">
 <!ENTITY enableOCSP.accesskey            "Հ">

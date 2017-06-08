@@ -184,6 +184,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllBookmarks2.label "Барлық бетбелгілерді көрсету">
 <!ENTITY recentBookmarks.label "Соңынан қосылғандар">
 <!ENTITY otherBookmarksCmd.label "Басқа бетбелгілер">
+<!ENTITY mobileBookmarksCmd.label "Мобильді бетбелгілер">
 <!ENTITY bookmarksToolbarChevron.tooltip "Көбірек бетбелгілерді көрсету">
 <!ENTITY showRecentlyBookmarked.label     "Соңынан қосылғандарды көрсету">
 <!ENTITY showRecentlyBookmarked.accesskey "т">
@@ -245,6 +246,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenuButton.label          "Бетбелгілер">
 <!ENTITY bookmarksMenuButton.other.label "Басқа бетбелгілер">
+<!ENTITY bookmarksMenuButton.mobile.label "Мобильді бетбелгілер">
 <!ENTITY viewBookmarksSidebar2.label        "Бүйір панелін қарау">
 <!ENTITY viewBookmarksToolbar.label         "Бетбелгілер панелін қарау">
 
@@ -356,6 +358,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "Ашық беттер жоқ">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showMore.label, appMenuRemoteTabs.showMore.tooltip):
+     This is shown after the tabs list if we can display more tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showMore.label "Көбірек көрсету">
+<!ENTITY appMenuRemoteTabs.showMore.tooltip "Бұл құрылғыдан көбірек беттерді көрсету">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showAll.label, appMenuRemoteTabs.showAll.tooltip):
+     This is shown after the tabs list if we can all the remaining tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showAll.label "Барлығын көрсету">
+<!ENTITY appMenuRemoteTabs.showAll.tooltip "Бұл құрылғыдан барлық беттерді көрсету">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "Басқа құрылғыларыңыздан беттер тізімдерін көру үшін беттерді синхрондауды іске қосыңыз.">
@@ -484,7 +494,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY reloadCmd.commandkey         "r">
 <!ENTITY reloadFrameCmd.label         "Фреймді жаңарту">
 <!ENTITY reloadFrameCmd.accesskey     "ж">
-<!ENTITY viewPartialSourceForSelectionCmd.label "Ерекшеленген фрагменттің бастапқы коды">
+<!ENTITY viewPartialSourceForSelectionCmd.label "Ерекшеленгеннің бастапқы коды">
 <!ENTITY viewPartialSourceForMathMLCmd.label    "MathML бастапқы коды">
 <!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both 
          viewPartialSourceForSelectionCmd.label and viewPartialSourceForMathMLCmd.label -->
@@ -499,15 +509,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewFrameInfoCmd.accesskey   "Ф">
 <!ENTITY reloadImageCmd.label         "Суретті қайта жүктеу">
 <!ENTITY reloadImageCmd.accesskey     "С">
-<!ENTITY viewImageCmd.label           "Суретті көру">
-<!ENTITY viewImageCmd.accesskey       "к">
+<!ENTITY viewImageCmd.label           "Суретті қарау">
+<!ENTITY viewImageCmd.accesskey       "а">
 <!ENTITY viewImageInfoCmd.label       "Сурет ақпаратын қарау">
 <!ENTITY viewImageInfoCmd.accesskey   "С">
 <!ENTITY viewImageDescCmd.label       "Анықтамасын қарау">
 <!ENTITY viewImageDescCmd.accesskey   "н">
 <!ENTITY viewVideoCmd.label           "Видео қарау">
 <!ENTITY viewVideoCmd.accesskey       "В">
-<!ENTITY viewBGImageCmd.label         "Фон суретін көру">
+<!ENTITY viewBGImageCmd.label         "Фон суретін қарау">
 <!ENTITY viewBGImageCmd.accesskey     "н">
 <!ENTITY setDesktopBackgroundCmd.label      "Жұмыс үстелінің суреті болып орналастыру…">
 <!ENTITY setDesktopBackgroundCmd.accesskey  "с">
@@ -755,7 +765,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.sidebar.openprefs.label    "&syncBrand.shortName.label; баптауларын ашу">
 <!-- LOCALIZATION NOTE (syncedTabs.sidebar.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
-<!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "Басқа құрылғыларыңыздан беттер тізімдерін көру үшін беттерді синхрондауды іске қосыңыз.">
+<!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "Басқа құрылғыларыңыздан беттер тізімдерін қарау үшін беттерді синхрондауды іске қосыңыз.">
 <!-- LOCALIZATION NOTE (syncedTabs.context.open.accesskey,
                         syncedTabs.context.openAllInTabs.accesskey):
      These access keys are identical because their associated menu items are

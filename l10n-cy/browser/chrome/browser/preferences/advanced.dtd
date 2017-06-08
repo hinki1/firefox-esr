@@ -36,7 +36,7 @@
 <!ENTITY healthReportLearnMore.label     "Dysgu Rhagor">
 
 <!ENTITY telemetryDesc.label             "Mae'n rhannu data perfformiad, defnydd, caledwedd a chyfaddasu eich porwr gyda &vendorShortName; er mwyn gwella &brandShortName;">
-<!ENTITY enableTelemetryData.label       "Rhannu data ychwanegol (h.y., Telemetreg)">
+<!ENTITY enableTelemetryData.label       "Rhannu Data Ychwanegol (h.y., Telemetreg)">
 <!ENTITY enableTelemetryData.accesskey   "T">
 <!ENTITY telemetryLearnMore.label        "Dysgu Rhagor">
 
@@ -97,7 +97,7 @@
 <!ENTITY useService.label                "Defnyddio gwasanaethau cefndirol i osod diweddariadau">
 <!ENTITY useService.accesskey            "c">
 
-<!ENTITY autoUpdateOthers.label          "Diweddaru'n awtomatig">
+<!ENTITY autoUpdateOthers.label          "Diweddaru'n Awtomatig">
 <!ENTITY enableSearchUpdate.label        "Peiriannau Chwilio">
 <!ENTITY enableSearchUpdate.accesskey    "P">
 

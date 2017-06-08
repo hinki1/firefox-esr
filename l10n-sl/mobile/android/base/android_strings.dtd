@@ -24,7 +24,7 @@
 <!ENTITY firstrun_tabqueue_title "Povezave">
 <!-- Localization note (firstrun_tabqueue_message): 'Tab queue' is a feature that allows users to queue up or save links from outside of Firefox (without switching apps) - these links will be loaded in Firefox the next time Firefox is opened. -->
 <!ENTITY firstrun_tabqueue_message_off "Vključi čakalno vrsto zavihkov">
-<!ENTITY firstrun_tabqueue_subtext_off "Shrani povezave za poznejšo rabo v &brandShortName;, kadar jih tapnete v drugih aplikacijah.">
+<!ENTITY firstrun_tabqueue_subtext_off "Shranite povezave za poznejšo rabo v &brandShortName;, kadar jih tapnete v drugih aplikacijah.">
 
 <!ENTITY firstrun_tabqueue_message_on "Uspelo je!">
 <!ENTITY firstrun_tabqueue_subtext_on "To možnost lahko kadarkoli izključite v &settings; - &pref_category_general;.">
@@ -387,6 +387,8 @@ size. -->
 <!ENTITY pref_history_search_suggestions "Prikaži zgodovino iskanj">
 <!ENTITY pref_import_options "Uvozi možnosti">
 <!ENTITY pref_import_android_summary "Uvozite zaznamke in zgodovino iz privzeto nameščenega brskalnika">
+<!-- Localization note (pref_private_data_openTabs): Open tabs is an option in
+     the Clear Private Data  dialog and refers to currently open tabs. -->
 <!ENTITY pref_private_data_openTabs "Odpri zavihke">
 <!ENTITY pref_private_data_history2 "Zgodovina brskanja">
 <!ENTITY pref_private_data_searchHistory "Zgodovina iskanja">
@@ -518,10 +520,8 @@ size. -->
 <!ENTITY doorhanger_login_edit_username_hint "Uporabniško ime">
 <!ENTITY doorhanger_login_edit_password_hint "Geslo">
 <!ENTITY doorhanger_login_edit_toggle "Prikaži geslo">
-<!ENTITY doorhanger_login_edit_toast_error "Shranjevanje prijave ni uspelo">
 <!ENTITY doorhanger_login_select_message "Kopiram geslo iz &formatS;?">
 <!ENTITY doorhanger_login_select_toast_copy "Geslo kopirano v odložišče">
-<!ENTITY doorhanger_login_select_toast_copy_error "Ni bilo mogoče kopirati gesla">
 <!ENTITY doorhanger_login_select_action_text "Izberite drugo prijavo">
 <!ENTITY doorhanger_login_select_title "Kopiraj geslo iz">
 

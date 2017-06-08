@@ -31,9 +31,9 @@
 <!ENTITY generic.longDesc "<p>&brandShortName;(e)k ezin du orria kargatu.</p>">
 
 <!ENTITY captivePortal.title "Hasi saioa sarean">
-<!ENTITY captivePortal.longDesc "<p>Internet erabiltzeko saioa hastea eska diezazuke sare honek.</p>">
+<!ENTITY captivePortal.longDesc2 "<p>Internetera sartu ahal izateko saioa hasi behar duzu sare honetan.</p>">
 
-<!ENTITY openPortalLoginPage.label "Ireki saio-hasiera orria">
+<!ENTITY openPortalLoginPage.label2 "Ireki sarearen saio-hasiera orria">
 
 <!ENTITY malformedURI.title "Helbidea ez da baliozkoa">
 <!ENTITY malformedURI.longDesc "<ul> <li>Web helbideak normalean <strong>http://www.adibidea.eus/</strong> formatukoak dira</li> <li>Ziurtatu aurrerako barrak erabiltzen dituzula (<strong>/</strong>).</li> </ul>">
@@ -48,10 +48,10 @@
 <!ENTITY netOffline.longDesc2 "<ul> <li>Sakatu &quot;Saiatu berriro&quot; linean jarri eta orria berritzeko.</li> </ul>">
 
 <!ENTITY contentEncodingError.title "Edukien kodeketa-errorea">
-<!ENTITY contentEncodingError.longDesc "<ul> <li>Jar zaitez harremanetan webgunearen jabeekin arazo honen berri emateko.</li> </ul>">
+<!ENTITY contentEncodingError.longDesc "<ul> <li>Jarri harremanetan webgunearen jabeekin arazo honen berri emateko.</li> </ul>">
 
 <!ENTITY unsafeContentType.title "Fitxategi mota EZ-segurua">
-<!ENTITY unsafeContentType.longDesc "<ul> <li>Jar zaitez harremanetan webgunearen jabeekin arazo honen berri emateko.</li> </ul>">
+<!ENTITY unsafeContentType.longDesc "<ul> <li>Jarri harremanetan webgunearen jabeekin arazo honen berri emateko.</li> </ul>">
 
 <!ENTITY netReset.title "Konexioa berrezarri egin da">
 <!ENTITY netReset.longDesc "&sharedLongDesc;">
@@ -104,14 +104,6 @@ was trying to connect. -->
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc2) - Do not translate
      "SSL_ERROR_UNSUPPORTED_VERSION". -->
 <!ENTITY sslv3Used.longDesc2 "Informazio aurreratua: SSL_ERROR_UNSUPPORTED_VERSION">
-
-<!ENTITY weakCryptoUsed.title "Zure konexioa ez da segurua">
-<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
-     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
-<!ENTITY weakCryptoUsed.longDesc2 "Informazio aurreratua: SSL_ERROR_NO_CYPHER_OVERLAP">
-<!ENTITY weakCryptoAdvanced.title "Aurreratua">
-<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> ostalariak zaharkituta dagoen eta erasoen aurrean babesik ez duen segurtasun-teknologia erabiltzen du. Segurua zela uste zenuen informazioa erraz agerraraz lezake erasotzaile batek.">
-<!ENTITY weakCryptoAdvanced.override "(Ez segurua) Saiatu <span class='hostname'></span> kargatzen segurtasun zaharkitua erabiliz">
 <!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
                         certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
      tags will be injected with actual values, please leave them unchanged. -->

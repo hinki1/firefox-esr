@@ -49,7 +49,7 @@
 <!ENTITY fxaccount_getting_started_welcome_to_sync "Ki joli i &syncBrand.shortName.label;">
 <!ENTITY fxaccount_getting_started_description2 "Dony iyie wek i rib dirica matino, alama buk, donyo iyie ki mukene mamegi.">
 <!ENTITY fxaccount_getting_started_get_started "Caki">
-<!ENTITY fxaccount_getting_started_old_firefox "Itye ka tic ki &syncBrand.shortName.label; ma otii?">
+<!ENTITY fxaccount_getting_started_old_firefox "Itye ka tic ki kit me &syncBrand.shortName.label; ma con?">
 
 <!ENTITY fxaccount_status_signed_in_as "I donyo iyie calo">
 <!ENTITY fxaccount_status_manage_account "Lo akaunt">
@@ -80,11 +80,14 @@
 <!ENTITY fxaccount_status_more "Mapol&ellipsis;">
 <!ENTITY fxaccount_remove_account "Kwany kube ki i&ellipsis;">
 
-<!ENTITY fxaccount_remove_account_dialog_title "Kwany Akaunt me Firefox?">
-<!ENTITY fxaccount_remove_account_dialog_message "&brandShortName; bigiko tic marom ki akaunt mamegi, ento pe bikwanyo data ni mo keken me yeny ma i nyonyo man.">
+<!ENTITY fxaccount_remove_account_dialog_title2 "Juk kube ki Ribo?">
+<!ENTITY fxaccount_remove_account_dialog_message2 "Tic mamegi me yeny bi dong i nyonyo man, ento pe dong bi ribe ki akaunt mamegi.">
 <!-- Localization note: format string below will be replaced
      with the Firefox Account's email address. -->
-<!ENTITY fxaccount_remove_account_toast "Akaunt me Firefox &formatS; kikwanyo woko.">
+<!ENTITY fxaccount_remove_account_toast2 "Akaunt me Firefox &formatS; kijuko kube ne woko.">
+<!-- Localization note (fxaccount_remove_account_dialog_action_confirm): This is the label for the
+ confirm button in the dialog that shows up when disconnecting from sync. -->
+<!ENTITY fxaccount_remove_account_dialog_action_confirm "Juk kube">
 
 <!ENTITY fxaccount_enable_debug_mode "Cak kit me nongo bal">
 <!-- Localization note: this is the name shown by the Android system

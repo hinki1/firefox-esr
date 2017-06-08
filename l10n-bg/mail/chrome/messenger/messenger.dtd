@@ -165,6 +165,7 @@
 <!ENTITY compactVersion.label "Компактен изглед">
 <!ENTITY compactVersion.accesskey "К">
 <!ENTITY folderPaneBar.label "Лента с инструменти за папки">
+<!ENTITY folderPaneBar.accesskey "л">
 <!ENTITY folderModeSelector.label "Изгледи на папки">
 
 <!-- Sort Menu -->
@@ -343,7 +344,7 @@
 <!ENTITY replyMsgCmd.key "r">
 <!ENTITY replySenderCmd.label "Отговор само до подателя">
 <!ENTITY replySenderCmd.accesskey "с">
-<!ENTITY replyNewsgroupCmd2.label "Отговор в новинарската група">
+<!ENTITY replyNewsgroupCmd2.label "Отговор до дискусионна група">
 <!ENTITY replyNewsgroupCmd2.accesskey "О">
 <!ENTITY replyToAllMsgCmd.label "Отговор до всички">
 <!ENTITY replyToAllMsgCmd.accesskey "в">
@@ -359,7 +360,7 @@
 <!ENTITY forwardAsInline.label "Вложено">
 <!ENTITY forwardAsInline.accesskey "В">
 <!ENTITY forwardAsAttachmentCmd.label "Прикачен файл">
-<!ENTITY forwardAsAttachmentCmd.accesskey "у">
+<!ENTITY forwardAsAttachmentCmd.accesskey "ф">
 <!ENTITY editAsNewMsgCmd.label "Редактиране като ново">
 <!ENTITY editAsNewMsgCmd.accesskey "н">
 <!ENTITY editAsNewMsgCmd.key "e">
@@ -433,7 +434,7 @@
 <!ENTITY openConversationCmd.accesskey "д">
 <!ENTITY openConversationCmd.key "o">
 <!ENTITY openAttachmentListCmd.label "Прикачени файлове">
-<!ENTITY openAttachmentListCmd.accesskey "т">
+<!ENTITY openAttachmentListCmd.accesskey "ф">
 <!ENTITY openFeedMessage1.label "При отваряне на съобщения от емисия">
 <!ENTITY openFeedMessage1.accesskey "о">
 <!ENTITY openFeedWebPage.label "Отваряне като уеб страница">
@@ -633,6 +634,9 @@
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label "Изтегляне на писма">
 <!ENTITY folderContextGetMessages.accesskey "И">
+<!ENTITY folderContextPauseAllUpdates.label "Спиране на всякакво обновяване">
+<!ENTITY folderContextPauseUpdates.label "Спиране на обновяване">
+<!ENTITY folderContextPauseUpdates.accesskey "о">
 <!ENTITY folderContextOpenInNewWindow.label "Отваряне в нов прозорец">
 <!ENTITY folderContextOpenInNewWindow.accesskey "О">
 <!ENTITY folderContextOpenNewTab.label "Отваряне в раздел">
@@ -749,7 +753,7 @@
 <!ENTITY contextArchive.accesskey "х">
 <!ENTITY contextReplySender.label "Отговор само до подателя">
 <!ENTITY contextReplySender.accesskey "с">
-<!ENTITY contextReplyNewsgroup2.label "Отговор до новинарска група">
+<!ENTITY contextReplyNewsgroup2.label "Отговор до дискусионна група">
 <!ENTITY contextReplyNewsgroup2.accesskey "О">
 <!ENTITY contextReplyAll.label "Отговор до всички">
 <!ENTITY contextReplyAll.accesskey "в">
@@ -762,7 +766,7 @@
 <!ENTITY contextForwardAsInline.label "Вложено">
 <!ENTITY contextForwardAsInline.accesskey "В">
 <!ENTITY contextForwardAsAttachmentItem.label "Прикачен файл">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "у">
+<!ENTITY contextForwardAsAttachmentItem.accesskey "ф">
 <!ENTITY contextMultiForwardAsAttachment.label "Препращане като прикачени файлове">
 <!ENTITY contextMultiForwardAsAttachment.accesskey "т">
 <!ENTITY contextMoveMsgMenu.label "Преместване в">
@@ -843,7 +847,7 @@
 <!ENTITY contextMute.label "Заглушаване">
 <!ENTITY contextMute.accesskey "З">
 <!ENTITY contextUnmute.label "Със звук">
-<!ENTITY contextUnmute.accesskey "О">
+<!ENTITY contextUnmute.accesskey "з">
 
 <!-- Quick Search Bar -->
 <!-- LOCALIZATION NOTE (quickSearchCmd.key):
@@ -931,7 +935,7 @@
 <!ENTITY minimizeWindow.label "Минимизиране">
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY bringAllToFront.label "Извеждане всичко на преден план">
-<!ENTITY zoomWindow.label "Лупа">
+<!ENTITY zoomWindow.label "Мащабиране">
 
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label       "Настройки">

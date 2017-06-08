@@ -182,12 +182,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Підписатися на цю сторінку…">
 <!ENTITY addCurPagesCmd.label "Закласти всі вкладки…">
 <!ENTITY showAllBookmarks2.label "Показати всі закладки">
-<!ENTITY recentBookmarks.label "Недавно закладені">
+<!ENTITY recentBookmarks.label "Останні закладки">
 <!ENTITY otherBookmarksCmd.label "Інші закладки">
+<!ENTITY mobileBookmarksCmd.label "Мобільні закладки">
 <!ENTITY bookmarksToolbarChevron.tooltip "Показати інші закладки">
-<!ENTITY showRecentlyBookmarked.label     "Показати недавно закладені">
+<!ENTITY showRecentlyBookmarked.label     "Показати останні закладки">
 <!ENTITY showRecentlyBookmarked.accesskey "о">
-<!ENTITY hideRecentlyBookmarked.label     "Приховати недавно закладені">
+<!ENTITY hideRecentlyBookmarked.label     "Приховати останні закладки">
 <!ENTITY hideRecentlyBookmarked.accesskey "х">
 
 <!ENTITY backCmd.label                "Назад">
@@ -245,6 +246,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenuButton.label          "Закладки">
 <!ENTITY bookmarksMenuButton.other.label "Інші закладки">
+<!ENTITY bookmarksMenuButton.mobile.label "Мобільні закладки">
 <!ENTITY viewBookmarksSidebar2.label        "Показати панель закладок">
 <!ENTITY viewBookmarksToolbar.label         "Показати панель закладок">
 
@@ -356,6 +358,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "Немає відкритих вкладок">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showMore.label, appMenuRemoteTabs.showMore.tooltip):
+     This is shown after the tabs list if we can display more tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showMore.label "Показати більше">
+<!ENTITY appMenuRemoteTabs.showMore.tooltip "Показати більше вкладок з цього пристрою">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showAll.label, appMenuRemoteTabs.showAll.tooltip):
+     This is shown after the tabs list if we can all the remaining tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showAll.label "Показати всі">
+<!ENTITY appMenuRemoteTabs.showAll.tooltip "Показати всі вкладки з цього пристрою">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "Увімкнути синхронізацію вкладок для можливості перегляду вашого списку вкладок з інших пристроїв.">
@@ -686,7 +696,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY findOnCmd.label     "Знайти на цій сторінці…">
 <!ENTITY findOnCmd.accesskey "ц">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Знайти наступне">
+<!ENTITY findAgainCmd.label  "Знайти знову">
 <!ENTITY findAgainCmd.accesskey "т">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
@@ -703,7 +713,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Ця сторінка збережена на вашому комп'ютері.">
 <!ENTITY identity.connectionVerified2 "Ви безпечно підключились до цього сайту, власником якого є:">
 <!ENTITY identity.connectionInternal "Це захищена сторінка &brandShortName;.">
-<!ENTITY identity.insecureLoginForms2 "Логіни введені на цій сторінці можуть бути скомпрометовані.">
+<!ENTITY identity.insecureLoginForms2 "Паролі, введені на цій сторінці, можуть бути скомпрометовані.">
 
 <!-- Strings for connection state warnings. -->
 <!ENTITY identity.activeBlocked "&brandShortName; заблокував небезпечні частини цієї сторінки.">
@@ -713,7 +723,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!-- Strings for connection state warnings in the subview. -->
 <!ENTITY identity.description.insecure "Ваше з'єднання з цим сайтом не є приватним. Інформація, яку ви відправляєте може бути переглянута іншими (наприклад, паролі, повідомлення, дані кредитних карт та ін.).">
-<!ENTITY identity.description.insecureLoginForms "Інформація входу, яку ви вводите на цій сторінці не захищена і може бути скомпрометована.">
+<!ENTITY identity.description.insecureLoginForms "Введені на цій сторінці дані входу не захищені і можуть бути перехоплені.">
 <!ENTITY identity.description.weakCipher "Ваше з'єднання з цим веб-сайтом використовує слабке шифрування і не є приватним.">
 <!ENTITY identity.description.weakCipher2 "Інші люди можуть переглядати вашу інформацію чи змінювати поведінку веб-сайту.">
 <!ENTITY identity.description.activeBlocked "&brandShortName; заблокував небезпечні частини цієї сторінки.">

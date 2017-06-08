@@ -80,11 +80,14 @@
 <!ENTITY fxaccount_status_more "Tonton&ellipsis;">
 <!ENTITY fxaccount_remove_account "Disconnect&ellipsis;">
 
-<!ENTITY fxaccount_remove_account_dialog_title "Firefox kontoo kaa wala?">
-<!ENTITY fxaccount_remove_account_dialog_message "&brandShortName; ga fenda ka war kontoo hangandi, amma a ši ceecikaa bayhaya kul tuusu k\u0027a kaa jinaa ga.">
+<!ENTITY fxaccount_remove_account_dialog_title2 "Ciyaroo dunbu Sync ga?">
+<!ENTITY fxaccount_remove_account_dialog_message2 "War ceeciyan bayhayey ga cindi jinaa woo ga, amm\u0027a ši hangandi war kontoo bande koyne.">
 <!-- Localization note: format string below will be replaced
      with the Firefox Account's email address. -->
-<!ENTITY fxaccount_remove_account_toast "Firefox kontu &formatS; hun">
+<!ENTITY fxaccount_remove_account_toast2 "Firefox kontu &formatS; šii ciyari ra koyne.">
+<!-- Localization note (fxaccount_remove_account_dialog_action_confirm): This is the label for the
+ confirm button in the dialog that shows up when disconnecting from sync. -->
+<!ENTITY fxaccount_remove_account_dialog_action_confirm "Ciyaroo dunbu">
 
 <!ENTITY fxaccount_enable_debug_mode "Hanseyan alhaali tunandi">
 <!-- Localization note: this is the name shown by the Android system

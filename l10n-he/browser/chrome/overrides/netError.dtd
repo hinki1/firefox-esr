@@ -43,11 +43,11 @@
 <!ENTITY generic.longDesc "<p>&brandShortName; אינו יכול לטעון דף זה מסיבה לא ידועה.</p>">
 
 <!ENTITY captivePortal.title "כניסה לרשת">
-<!ENTITY captivePortal.longDesc "
-<p>יתכן שיהיה עליך לבצע כניסה כדי להתחבר לאינטרנט.</p>
+<!ENTITY captivePortal.longDesc2 "
+<p>עליך להתחבר לרשת זו כדי לגלוש באינטרנט.</p>
 ">
 
-<!ENTITY openPortalLoginPage.label "פתיחת עמוד הכניסה">
+<!ENTITY openPortalLoginPage.label2 "פתיחת דף התחברות לרשת">
 
 <!ENTITY malformedURI.title "כתובת לא חוקית">
 <!ENTITY malformedURI.longDesc "
@@ -131,7 +131,7 @@
 </ul>
 ">
 
-<!ENTITY certerror.longpagetitle1 "החיבור שלך אינו בטוח">
+<!ENTITY certerror.longpagetitle1 "החיבור שלך אינו מאובטח">
 <!-- Localization note (certerror.introPara) - The text content of the span tag
 will be replaced at runtime with the name of the server to which the user
 was trying to connect. -->
@@ -152,7 +152,7 @@ was trying to connect. -->
 
 <!ENTITY securityOverride.exceptionButtonLabel "הוספת חריגה…">
 
-<!ENTITY errorReporting.automatic2 "דיווח על תקלות מסוג זה מסייע ל־Mozilla לזהות ולחסום אתרים מסוכנים">
+<!ENTITY errorReporting.automatic2 "דיווח על תקלות מסוג זה כדי לסייע ל־Mozilla לזהות ולחסום אתרים מסוכנים">
 <!ENTITY errorReporting.learnMore "מידע נוסף…">
 
 <!ENTITY remoteXUL.title "XUL מרוחק">
@@ -162,14 +162,6 @@ was trying to connect. -->
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc2) - Do not translate
      "SSL_ERROR_UNSUPPORTED_VERSION". -->
 <!ENTITY sslv3Used.longDesc2 "מידע מתקדם: SSL_ERROR_UNSUPPORTED_VERSION">
-
-<!ENTITY weakCryptoUsed.title "החיבור שלך אינו בטוח">
-<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
-     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
-<!ENTITY weakCryptoUsed.longDesc2 "מידע מתקדם: SSL_ERROR_NO_CYPHER_OVERLAP">
-<!ENTITY weakCryptoAdvanced.title "מתקדם">
-<!ENTITY weakCryptoAdvanced.longDesc "האתר בכתובת <span class='hostname'></span> משתמש בטכנולוגית אבטחה שאינה עדכנית וחשופה להתקפות. תוקף יכול בקלות לחשוף מידע שלכאורה אמור היה להיות מוגן.">
-<!ENTITY weakCryptoAdvanced.override "(לא בטוח) לנסות לטעון את <span class='hostname'></span> עם אבטחה לא עדכנית">
 
 <!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
                         certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
@@ -182,7 +174,7 @@ Strict Transport Security (HSTS) כדי לציין ש־&brandShortName; יוכל
 באופן מאובטח בלבד. כתוצאה מכך, לא ניתן להוסיף חריגה עבור אישור זה.">
 <!ENTITY certerror.copyToClipboard.label "העתקת טקסט ללוח">
 
-<!ENTITY inadequateSecurityError.title "החיבור שלך אינו בטוח">
+<!ENTITY inadequateSecurityError.title "החיבור שלך אינו מאובטח">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
 <!ENTITY inadequateSecurityError.longDesc "<p>האתר בכתובת <span class='hostname'></span> משתמש בטכנולוגית אבטחה שאינה עדכנית וחשופה להתקפות. תוקף יכול בקלות לחשוף מידע שלכאורה אמור היה להיות מוגן. על מנהל האתר לתקן את השרת לפני שיהיה ניתן לבקר באתר זה.</p><p>קוד שגיאה: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

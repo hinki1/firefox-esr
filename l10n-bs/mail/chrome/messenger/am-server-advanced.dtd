@@ -1,8 +1,11 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- LOCALIZATION NOTE (serverDirectory.label): Do not translate "IMAP" -->
 
+<!ENTITY serverAdvanced.label "Napredne postavke računa">
+<!-- LOCALIZATION NOTE (serverDirectory.label): Do not translate "IMAP" -->
+<!ENTITY serverDirectory.label "IMAP server direktorij:">
+<!ENTITY serverDirectory.accesskey "d">
 
 
 
@@ -12,10 +15,10 @@
 <!-- LOCALIZATION NOTE (namespaceDesc.label): Do not translate "IMAP" -->
 
 
-
-
-
-
+<!ENTITY publicNamespace.label "Javni (podijeljeni):">
+<!ENTITY publicNamespace.accesskey "J">
+<!ENTITY otherUsersNamespace.label "Ostali korisnici:">
+<!ENTITY otherUsersNamespace.accesskey "O">
 
 
 

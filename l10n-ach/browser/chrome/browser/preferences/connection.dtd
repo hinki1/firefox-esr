@@ -32,7 +32,7 @@
 <!ENTITY  socks4.accesskey              "K">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "v">
-
+<!ENTITY  socksRemoteDNS.label2         "DNS me proxy ka itye katic ki SOCKS v5">
 <!ENTITY  socksRemoteDNS.accesskey      "d">
 <!ENTITY  port.label                    "Bur:">
 <!ENTITY  HTTPport.accesskey            "P">
@@ -44,6 +44,6 @@
 <!ENTITY  noproxyExplain.label          "Labolle: .mozilla.org, .net.nz, 192.168.1.0/24">
 <!ENTITY  shareproxy.label              "Tii ki proxy me lapok tic man pi cik me kube weng">
 <!ENTITY  shareproxy.accesskey          "i">
-<!ENTITY  autologinproxy.label          "Pe i tub pi roto ada kace kigwoko mung me donyo">
+<!ENTITY  autologinproxy.label          "Pe i peny pi roto ada kace kigwoko mung me donyo">
 <!ENTITY  autologinproxy.accesskey      "d">
-<!ENTITY  autologinproxy.tooltip        "Gin ayera man roto ada ni bot proxy laling kace i gwoko lok komi pi gi. Ki bi tubi kace roto ada opoto woko.">
+<!ENTITY  autologinproxy.tooltip        "Gin ayera man roto ada ni bot proxy laling kace i gwoko lok komi pi gi. Ki bi penyi kace roto ada opoto woko.">

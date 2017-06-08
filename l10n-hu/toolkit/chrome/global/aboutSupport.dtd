@@ -61,6 +61,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Több folyamatú ablakok">
 
+<!ENTITY aboutSupport.appBasicsKeyGoogle "Google kulcs">
+<!ENTITY aboutSupport.appBasicsKeyMozilla "Mozilla helymeghatározási szolgáltatás kulcs">
+
 <!ENTITY aboutSupport.appBasicsSafeMode "Csökkentett mód">
 
 <!ENTITY aboutSupport.showDir.label "Könyvtár megnyitása">
@@ -106,6 +109,14 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Nyers adatok másolása a vágólapra">
 
 <!ENTITY aboutSupport.sandboxTitle "Sandbox">
+<!ENTITY aboutSupport.sandboxSyscallLogTitle "Elutasított rendszerhívások">
+<!ENTITY aboutSupport.sandboxSyscallIndex "#">
+<!ENTITY aboutSupport.sandboxSyscallAge "másodperce">
+<!ENTITY aboutSupport.sandboxSyscallPID "PID">
+<!ENTITY aboutSupport.sandboxSyscallTID "TID">
+<!ENTITY aboutSupport.sandboxSyscallProcType "Folyamattípus">
+<!ENTITY aboutSupport.sandboxSyscallNumber "Rendszerhívás">
+<!ENTITY aboutSupport.sandboxSyscallArgs "Argumentumok">
 
 <!ENTITY aboutSupport.safeModeTitle "Biztonságos mód kipróbálása">
 <!ENTITY aboutSupport.restartInSafeMode.label "Újraindítás letiltott kiegészítőkkel…">

@@ -3,9 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY itemGeneral.label                   "Жалпы">
-
+<!ENTITY itemAutoComplete.label              "Адрестеу">
 <!ENTITY itemSpellCheck.label                "Емлені тексеру">
 
+<!ENTITY dialogCompose.title                 "Құрастыру">
 
 
 
@@ -40,7 +41,7 @@
 <!ENTITY autoSaveEnd.label                    "минут">
 
 
-
+<!ENTITY addressingTitle.label                 "Адресті автотолықтыру">
 
 
 

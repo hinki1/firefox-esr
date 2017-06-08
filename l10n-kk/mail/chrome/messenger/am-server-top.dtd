@@ -5,12 +5,12 @@
 
 
 <!ENTITY messageStorage.label "Хабарламалар қоймасы">
-
-
-
-
-
-<!ENTITY userName.label "Па&amp;йдаланушы аты:">
+<!ENTITY securitySettings.label "Қауіпсіздік баптаулары">
+<!ENTITY serverSettings.label "Сервер баптаулары">
+<!ENTITY serverType.label "Сервер түрі:">
+<!ENTITY serverName.label "Сервердің атауы:">
+<!ENTITY serverName.accesskey "С">
+<!ENTITY userName.label "Пайдаланушы аты:">
 <!ENTITY userName.accesskey "а">
 <!ENTITY port.label "Порт:">
 <!ENTITY port.accesskey "П">
@@ -20,37 +20,38 @@
                 biffStart.label "every"
                 biffEnd.label   "minutes for new messages Check"
 -->
-
+<!ENTITY biffStart.label "Жаңа хабарламаларға тексеру уақыт аралығы ">
+<!ENTITY biffStart.accesskey "а">
 <!ENTITY biffEnd.label "минут">
 
 
 
 
 <!ENTITY connectionSecurityType-0.label "Ешнәрсе">
-
+<!ENTITY connectionSecurityType-1.label "STARTTLS, қолжетерлік болса">
 <!ENTITY connectionSecurityType-2.label "STARTTLS">
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
+<!ENTITY authMethod.label "Аутентификация тәсілі:">
+<!ENTITY authMethod.accesskey "и">
+<!ENTITY leaveOnServer.label "Хабарламаларды серверде қалдыру">
+<!ENTITY leaveOnServer.accesskey "л">
+
+
+
+
+<!ENTITY daysEnd.label "күн">
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!ENTITY deleteMessagePrefix.label "Мен хабарламаны өшірген кезде:">
+<!ENTITY modelMoveToTrash.label "Оны бұл бумаға жылжыту:">
+<!ENTITY modelMoveToTrash.accesskey "ы">
+<!ENTITY modelMarkDeleted.label "Тек өшірілген ретінде белгілеу">
+<!ENTITY modelMarkDeleted.accesskey "г">
+<!ENTITY modelDeleteImmediately.label "Оны лезде өшіру">
+<!ENTITY modelDeleteImmediately.accesskey "д">
 <!-- LOCALIZATION NOTE (expungeOnExit.label) : do not translate two of "&quot;" in below line -->
 
 
@@ -73,9 +74,9 @@
 
 <!ENTITY advancedButton.label "Қосымша…">
 <!ENTITY advancedButton.accesskey "о">
-
-
-
+<!ENTITY serverDefaultCharset2.label "Мәтіннің бастапқы кодталуы:">
+<!ENTITY localPath.label "Жергілікті бума:">
+<!ENTITY localFolderPicker.label "Жергілікті буманы таңдау">
 <!ENTITY browseFolder.label "Қарап шығу…">
 <!ENTITY browseFolder.accesskey "ш">
 <!ENTITY browseNewsrc.label "Қарап шығу…">

@@ -150,12 +150,12 @@
  Примітка: Увімкнено повільний режим зневадження SQL. Внизу можуть бути показані повні рядки SQL, але в телеметрію вони відправлені не будуть.
 ">
 
-<!ENTITY aboutTelemetry.fetchSymbols "
-  Отримати імена функцій для стеків зависання 
+<!ENTITY aboutTelemetry.fetchStackSymbols "
+  Отримати імена функцій для стеків
 ">
 
-<!ENTITY aboutTelemetry.hideSymbols "
-  Показати необроблені данні із зависань
+<!ENTITY aboutTelemetry.hideStackSymbols "
+  Показати необроблені дані стеку
 ">
 
 <!ENTITY aboutTelemetry.filterText "

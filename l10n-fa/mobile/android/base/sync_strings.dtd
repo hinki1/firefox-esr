@@ -11,8 +11,8 @@
 <!ENTITY sync.title.connect.label "وصل شدن به &syncBrand.shortName.label;">
 <!-- J-PAKE Key Screen -->
 
-<!ENTITY sync.subtitle.connect.label "برای فعال کردن دستگاه جدید خود “Set up &syncBrand.shortName.label;” را در دستگاه خود انتخاب کنید.">
-<!ENTITY sync.subtitle.pair.label "برای فعال‌سازی، «همگام‌سازی یک دستگاه» در دستگاه دیگر را انتخاب کنید.">
+<!ENTITY sync.subtitle.connect.label "برای فعال کردن دستگاه جدید خود “برپاسازی &syncBrand.shortName.label;” را در دستگاه خود انتخاب کنید.">
+<!ENTITY sync.subtitle.pair.label "برای فعال‌سازی، گزینه «همگام‌سازی یک دستگاه» را در دستگاه دیگر را انتخاب کنید.">
 <!ENTITY sync.pin.default.label "...\n...\n...\n">
 <!ENTITY sync.link.nodevice.label "هم‌اکنون دستگاه همراهم نیست...">
 <!-- Configure Engines -->
@@ -80,11 +80,14 @@
 <!ENTITY fxaccount_status_more "بیشتر&ellipsis;">
 <!ENTITY fxaccount_remove_account "قطع اتصال&ellipsis;">
 
-<!ENTITY fxaccount_remove_account_dialog_title "حساب فایرفاکس حذف شود؟">
-<!ENTITY fxaccount_remove_account_dialog_message "&brandShortName; همگام‌سازی با حساب شما را متوقف می‌کند، اما هیچ‌کدام از اطلاعات مرور شما را از روی این دستگاه حذف نمی‌کند.">
+<!ENTITY fxaccount_remove_account_dialog_title2 "قطع ارتباط از همگام‌سازی؟">
+<!ENTITY fxaccount_remove_account_dialog_message2 "اطلاعات مرور شما بر روی این رایانه باقی خواهد ماند، اما دیگر با حساب شما همگام نخواهد شد.">
 <!-- Localization note: format string below will be replaced
      with the Firefox Account's email address. -->
-<!ENTITY fxaccount_remove_account_toast "حساب فایرفاکس &formatS; حذف شد">
+<!ENTITY fxaccount_remove_account_toast2 "ارتباط با حساب فایرفاکس &formatS; قطع شد.">
+<!-- Localization note (fxaccount_remove_account_dialog_action_confirm): This is the label for the
+ confirm button in the dialog that shows up when disconnecting from sync. -->
+<!ENTITY fxaccount_remove_account_dialog_action_confirm "قطع اتصال">
 
 <!ENTITY fxaccount_enable_debug_mode "فعال‌سازی حالت اشکال‌زدایی">
 <!-- Localization note: this is the name shown by the Android system

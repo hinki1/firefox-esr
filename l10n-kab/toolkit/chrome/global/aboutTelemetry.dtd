@@ -80,9 +80,9 @@
 
 <!ENTITY aboutTelemetry.fullSqlWarning "  Tazmilt: Aseɣti n tuttriwin SQL ẓẓayen yermed. Tuttriwin SQL yemden zemrent ad d-waseknent daw-a, acukan ur zmirent ara ad ttwaznent s tilisɣelt.">
 
-<!ENTITY aboutTelemetry.fetchSymbols "  Awi-d ismawen n twuriwin i tnebdanin n usewḥel">
+<!ENTITY aboutTelemetry.fetchStackSymbols "  Awi-d ismawen n twuriwin i tnebdanin">
 
-<!ENTITY aboutTelemetry.hideSymbols "  Sken isefka irewwayen n isewḥal">
+<!ENTITY aboutTelemetry.hideStackSymbols "  Sken-d isefka n ukufi ">
 
 <!ENTITY aboutTelemetry.filterText "  Zizdeg (izriren n isekkilen neɣ tinfaliyin tiluganin)">
 

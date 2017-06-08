@@ -97,7 +97,7 @@
 <!ENTITY useService.label                "Cleachd seirbheis a stàlaicheas na h-ùrachaidhean sa chùlaibh">
 <!ENTITY useService.accesskey            "C">
 
-<!ENTITY autoUpdateOthers.label          "Ùraich gu fèin-obrachail:">
+<!ENTITY autoUpdateOthers.label          "Ùraich gu fèin-obrachail">
 <!ENTITY enableSearchUpdate.label        "Einnseanan-luirg">
 <!ENTITY enableSearchUpdate.accesskey    "E">
 

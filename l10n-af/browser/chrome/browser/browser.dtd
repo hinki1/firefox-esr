@@ -184,6 +184,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllBookmarks2.label "Wys alle boekmerke">
 <!ENTITY recentBookmarks.label "Onlangs geboekmerk">
 <!ENTITY otherBookmarksCmd.label "Ander boekmerke">
+
 <!ENTITY bookmarksToolbarChevron.tooltip "Wys meer boekmerke">
 <!ENTITY showRecentlyBookmarked.label     "Wys onlangs geboekmerk">
 <!ENTITY showRecentlyBookmarked.accesskey "b">
@@ -245,6 +246,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenuButton.label          "Boekmerke">
 <!ENTITY bookmarksMenuButton.other.label "Ander boekmerke">
+
 <!ENTITY viewBookmarksSidebar2.label        "Wys boekmerkkantbalk">
 <!ENTITY viewBookmarksToolbar.label         "Vertoon boekmerknutsbalk">
 
@@ -356,6 +358,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "Geen oop oortjies nie">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showMore.label, appMenuRemoteTabs.showMore.tooltip):
+     This is shown after the tabs list if we can display more tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showMore.label "Wys meer">
+<!ENTITY appMenuRemoteTabs.showMore.tooltip "Wys meer oortjies van dié toestel">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showAll.label, appMenuRemoteTabs.showAll.tooltip):
+     This is shown after the tabs list if we can all the remaining tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showAll.label "Wys almal">
+<!ENTITY appMenuRemoteTabs.showAll.tooltip "Wys alle oortjies van dié toestel">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "Skakel oortjiesinkronisering aan om 'n lys oortjies op ander toestelle te sien.">
@@ -667,14 +677,14 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageStylePersistentOnly.label "Basiese bladsystyl">
 <!ENTITY pageStylePersistentOnly.accesskey "B">
 
-<!ENTITY pageReportIcon.tooltip            "Wysig opspringerblokkering-opstelling vir hierdie webwerf">
+<!ENTITY pageReportIcon.tooltip            "Wysig instellings vir opspringerblokkering op hierdie webwerf">
 
 <!ENTITY allowPopups.accesskey "p">
 <!-- On Windows we use the term "Options" to describe settings, but
      on Linux and Mac OS X we use "Preferences" - carry that distinction
      over into this string, which is used in the "popup blocked" info bar . -->
-<!ENTITY editPopupSettingsUnix.label "Redigeer opspringerblokkering-voorkeure…">
-<!ENTITY editPopupSettings.label "Redigeer opspringerblokkering-opsies…">
+<!ENTITY editPopupSettingsUnix.label "Redigeer voorkeure vir opspringerblokkering…">
+<!ENTITY editPopupSettings.label "Redigeer opsies vir opspringerblokkering…">
 <!ENTITY editPopupSettings.accesskey "e">
 <!ENTITY dontShowMessage.accesskey "D">
 

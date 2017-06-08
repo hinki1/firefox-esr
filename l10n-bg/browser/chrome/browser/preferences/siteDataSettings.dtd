@@ -7,5 +7,14 @@
 <!ENTITY     hostCol.label                 "Сайт">
 <!ENTITY     statusCol.label               "Състояние">
 <!ENTITY     usageCol.label                "Хранилище">
-<!ENTITY     search.label                  "Търсене:">
-<!ENTITY     search.accesskey              "Т">
+<!ENTITY     searchPlaceHolder             "Търсене">
+<!ENTITY     searchPlaceHolder.accesskey   "т">
+<!ENTITY     removeSelected.label          "Премахване на избраните">
+<!ENTITY     removeSelected.accesskey      "и">
+<!ENTITY     save.label                    "Запазване">
+<!ENTITY     save.accesskey                "з">
+<!ENTITY     cancel.label                  "Отказ">
+<!ENTITY     cancel.accesskey              "з">
+<!ENTITY     removingDialog.title          "Премахване на данните за сайта">
+<!ENTITY     removingDialog.description    "С премахване на данните на сайта ще бъдат премахнати и бисквитките. По такъв начин ще бъдат премахнати данните за работа извън мрежа, както и може да се наложи да се впишете отново в този сайт. Наистина ли желаете да направите тези промени?">
+<!ENTITY     siteTree.label                "Следните бисквитки от сайта ще бъдат премахнати:">

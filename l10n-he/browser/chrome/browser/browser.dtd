@@ -48,7 +48,7 @@ can reach it easily. -->
 <!ENTITY  sendLinkToDevice.accesskey         "ה">
 <!ENTITY  moveToNewWindow.label              "העברה לחלון חדש">
 <!ENTITY  moveToNewWindow.accesskey          "ה">
-<!ENTITY  bookmarkAllTabs.label              "צור סימנייה לכל הלשוניות…">
+<!ENTITY  bookmarkAllTabs.label              "יצירת סימנייה לכל הלשוניות…">
 <!ENTITY  bookmarkAllTabs.accesskey          "צ">
 <!ENTITY  undoCloseTab.label                 "ביטול סגירת לשונית">
 <!ENTITY  undoCloseTab.accesskey             "ב">
@@ -109,7 +109,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenCmd.label "מסך מלא">
 <!ENTITY fullScreenCmd.accesskey "ס">
 <!ENTITY fullScreenCmd.macCommandKey "f">
-<!ENTITY showAllTabsCmd.label "הצג את כל הלשוניות">
+<!ENTITY showAllTabsCmd.label "הצגת כל הלשוניות">
 <!ENTITY showAllTabsCmd.accesskey "כ">
 <!ENTITY toggleReaderMode.key "R">
 
@@ -122,7 +122,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenMinimize.tooltip "מזער">
 <!ENTITY fullScreenRestore.tooltip "שחזר">
 <!ENTITY fullScreenClose.tooltip "סגור">
-<!ENTITY fullScreenAutohide.label "הסתר סרגלים">
+<!ENTITY fullScreenAutohide.label "הסתרת סרגלים">
 <!ENTITY fullScreenAutohide.accesskey "ה">
 <!ENTITY fullScreenExit.label "צא ממצב מסך מלא">
 <!ENTITY fullScreenExit.accesskey "צ">
@@ -158,7 +158,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenu.label "סימניות">
 <!ENTITY bookmarksMenu.accesskey "ס">
-<!ENTITY bookmarkThisPageCmd.label "צור סימנייה לדף זה">
+<!ENTITY bookmarkThisPageCmd.label "יצירת סימנייה לדף זה">
 <!ENTITY editThisBookmarkCmd.label "עריכת סימנייה זו">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
 <!-- LOCALIZATION NOTE (findShareServices.label):
@@ -184,6 +184,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllBookmarks2.label "הצגת כל הסימניות">
 <!ENTITY recentBookmarks.label "סימניות שנוספו לאחרונה">
 <!ENTITY otherBookmarksCmd.label "סימניות אחרות">
+<!ENTITY mobileBookmarksCmd.label "סימניות מהנייד">
 <!ENTITY bookmarksToolbarChevron.tooltip "הצגת סימניות נוספות">
 <!ENTITY showRecentlyBookmarked.label     "הצגת סימניות שנוספו לאחרונה">
 <!ENTITY showRecentlyBookmarked.accesskey "צ">
@@ -245,6 +246,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenuButton.label          "סימניות">
 <!ENTITY bookmarksMenuButton.other.label "סימניות אחרות">
+<!ENTITY bookmarksMenuButton.mobile.label "סימניות מהנייד">
 <!ENTITY viewBookmarksSidebar2.label        "הצגת סרגל הצד">
 <!ENTITY viewBookmarksToolbar.label         "הצגת סרגל הכלים">
 
@@ -356,6 +358,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "אין לשוניות פתוחות">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showMore.label, appMenuRemoteTabs.showMore.tooltip):
+     This is shown after the tabs list if we can display more tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showMore.label "הצגת לשוניות נוספות">
+<!ENTITY appMenuRemoteTabs.showMore.tooltip "הצגת לשוניות נוספות מהתקן זה">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showAll.label, appMenuRemoteTabs.showAll.tooltip):
+     This is shown after the tabs list if we can all the remaining tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showAll.label "הצגת הכל">
+<!ENTITY appMenuRemoteTabs.showAll.tooltip "הצגת כל הלשוניות מהתקן זה">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "ניתן להפעיל את סנכרון הלשוניות כדי לצפות ברשימת הלשוניות משאר ההתקנים שלך.">
@@ -610,7 +620,7 @@ items are mutually exclusive. -->
 items are mutually exclusive. -->
 <!ENTITY videoShowStats.label        "הצגת סטטיסטיקה">
 <!ENTITY videoShowStats.accesskey    "צ">
-<!ENTITY videoHideStats.label        "הסתר סטטיסטיקות">
+<!ENTITY videoHideStats.label        "הסתרת סטטיסטיקות">
 <!ENTITY videoHideStats.accesskey    "ס">
 
 <!-- LOCALIZATION NOTE :
@@ -768,7 +778,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.context.openInNewWindow.accesskey        "ח">
 <!ENTITY syncedTabs.context.openInNewPrivateWindow.label     "פתיחה בחלון פרטי חדש">
 <!ENTITY syncedTabs.context.openInNewPrivateWindow.accesskey "ר">
-<!ENTITY syncedTabs.context.bookmarkSingleTab.label          "צור סימנייה ללשונית זו…">
+<!ENTITY syncedTabs.context.bookmarkSingleTab.label          "יצירת סימנייה ללשונית זו…">
 <!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "ס">
 <!ENTITY syncedTabs.context.copy.label                       "העתקה">
 <!ENTITY syncedTabs.context.copy.accesskey                   "ע">

@@ -8,13 +8,13 @@
 
 <!ENTITY accessibility.label             "Tilgjenge">
 
-<!ENTITY useCursorNavigation.label       "Alltid bruk piltastane for å navigera innanfor nettsider">
+<!ENTITY useCursorNavigation.label       "Bruk alltid piltastane for å navigere innanfor nettsider">
 <!ENTITY useCursorNavigation.accesskey   "A">
-<!ENTITY searchOnStartTyping.label       "Søk etter tekst når eg byrjar å skriva">
+<!ENTITY searchOnStartTyping.label       "Søk etter tekst når eg byrjar å skrive">
 <!ENTITY searchOnStartTyping.accesskey   "k">
-<!ENTITY blockAutoReload.label           "Åtvar meg når nettsider freistar å omdirigera eller lasta sida på nytt">
+<!ENTITY blockAutoReload.label           "Åtvar meg når nettsider prøver å omdirigere eller laste sida på nytt">
 <!ENTITY blockAutoReload.accesskey       "Å">
-<!ENTITY useOnScreenKeyboard.label       "Vis eit touch-tastatur når naudsynt">
+<!ENTITY useOnScreenKeyboard.label       "Vis eit touch-tastatur når nødvendig">
 <!ENTITY useOnScreenKeyboard.accesskey   "t">
 
 <!ENTITY browsing.label                  "Nettlesing">
@@ -31,17 +31,17 @@
 <!ENTITY dataChoicesTab.label            "Datainnstillingar">
 
 <!ENTITY healthReportDesc.label          "Hjelper deg å forstå nettlesarytinga, og deler data med &vendorShortName; om helsa til nettlesaren din">
-<!ENTITY enableHealthReport.label        "Slå på &brandShortName; Helserapport">
+<!ENTITY enableHealthReport.label        "Slå på &brandShortName; helserapport">
 <!ENTITY enableHealthReport.accesskey    "S">
 <!ENTITY healthReportLearnMore.label     "Les meir">
 
-<!ENTITY telemetryDesc.label             "Deler data om yting, bruksmønster, maskinvare og utvidingar med &vendorShortName;, for å hjelpa oss å gjera &brandShortName; betre">
+<!ENTITY telemetryDesc.label             "Deler data om yting, bruksmønster, maskinvare og utvidingar med &vendorShortName;, for å hjelpe oss med å gjere &brandShortName; betre">
 <!ENTITY enableTelemetryData.label       "Del ekstra data (t.d. telemetri)">
 <!ENTITY enableTelemetryData.accesskey   "l">
 <!ENTITY telemetryLearnMore.label        "Les meir">
 
-<!ENTITY crashReporterDesc2.label         "Krasjrapportar hjelper &vendorShortName; med å løysa problem og gjera nettlesaren meir stabil og sikker">
-<!ENTITY alwaysSubmitCrashReports.label   "Tillat &brandShortName; å senda etterslepne krasjrapportar på dine vegne">
+<!ENTITY crashReporterDesc2.label         "Krasjrapportar hjelper &vendorShortName; med å løyse problem og gjere nettlesaren meir stabil og sikker">
+<!ENTITY alwaysSubmitCrashReports.label   "Tillat &brandShortName; å sende etterslepne krasjrapportar på dine vegne">
 <!ENTITY alwaysSubmitCrashReports.accesskey "e">
 <!ENTITY crashReporterLearnMore.label     "Les meir">
 
@@ -86,7 +86,7 @@
 <!ENTITY updateApplication.label         "&brandShortName;-oppdateringar">
 <!ENTITY updateAuto1.label               "Automatisk installer oppdateringar (tilrådd: betre tryggleik)">
 <!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateCheckChoose.label         "Sjå etter oppdateringar, men la meg velja når eg vil installera dei">
+<!ENTITY updateCheckChoose.label         "Sjå etter oppdateringar, men la meg velje når eg vil installere dei">
 <!ENTITY updateCheckChoose.accesskey     "S">
 <!ENTITY updateManual.label              "Aldri sjå etter oppdateringar (ikkje tilrådd: tryggingsrisiko)">
 <!ENTITY updateManual.accesskey          "d">
@@ -94,21 +94,21 @@
 <!ENTITY updateHistory.label             "Vis oppdateringshistorikk">
 <!ENTITY updateHistory.accesskey         "V">
 
-<!ENTITY useService.label                "Bruk ei bakgrunnsteneste for å installera oppdateringar">
+<!ENTITY useService.label                "Bruk ei bakgrunnsteneste for å installere oppdateringar">
 <!ENTITY useService.accesskey            "B">
 
 <!ENTITY autoUpdateOthers.label          "Automatisk oppdatering">
-<!ENTITY enableSearchUpdate.label        "Søkjemotorar">
+<!ENTITY enableSearchUpdate.label        "Søkemotorar">
 <!ENTITY enableSearchUpdate.accesskey    "m">
 
-<!ENTITY offlineStorageNotify.label               "Fortel meg når ein nettstad ber om å lagra data for fråkopla bruk">
+<!ENTITY offlineStorageNotify.label               "Fortel meg når ein nettstad ber om å lagre data for fråkopla bruk">
 <!ENTITY offlineStorageNotify.accesskey           "F">
 <!ENTITY offlineStorageNotifyExceptions.label     "Unntak…">
 <!ENTITY offlineStorageNotifyExceptions.accesskey "U">
 
-<!ENTITY offlineAppsList2.label          "Følgjande nettstad har løyve til å lagra data for fråkopla bruk:">
+<!ENTITY offlineAppsList2.label          "Følgjande nettstad har løyve til å lagre data for fråkopla bruk:">
 <!ENTITY offlineAppsList.height          "7em">
-<!ENTITY offlineAppsListRemove.label     "Slett …">
+<!ENTITY offlineAppsListRemove.label     "Slett…">
 <!ENTITY offlineAppsListRemove.accesskey "S">
 <!ENTITY offlineAppRemove.confirm        "Slett fråkopla-data">
 
@@ -119,9 +119,9 @@
 <!ENTITY selectCerts.auto.accesskey      "s">
 <!ENTITY selectCerts.ask                 "Spør kvar gong">
 <!ENTITY selectCerts.ask.accesskey       "S">
-<!ENTITY enableOCSP.label                "Spør OCSP-tenarar om å stadfesta gyldigheita til sertifikat">
+<!ENTITY enableOCSP.label                "Spør OCSP-tenarar om å stadfeste gyldigheita til sertifikat">
 <!ENTITY enableOCSP.accesskey            "O">
 <!ENTITY viewCerts.label                 "Vis sertifikat">
 <!ENTITY viewCerts.accesskey             "V">
-<!ENTITY viewSecurityDevices.label       "Tryggingseiningar">
-<!ENTITY viewSecurityDevices.accesskey   "i">
+<!ENTITY viewSecurityDevices.label       "Sikkerheitseiningar">
+<!ENTITY viewSecurityDevices.accesskey   "k">

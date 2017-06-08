@@ -26,10 +26,12 @@
 <!ENTITY fileRevert.accesskey "т">
 <!-- Edit menu items -->
 
+<!ENTITY publishSettings.label "Сайт баптауларын жариялау…">
+<!ENTITY publishSettings.accesskey "р">
 <!-- Toolbar buttons/items -->
 
 <!ENTITY newToolbarCmd.label "Жаңа">
-
+<!ENTITY newToolbarCmd.tooltip "Жаңа құрастырушы панелін жасау">
 <!ENTITY openToolbarCmd.label "Ашу">
 <!ENTITY openToolbarCmd.tooltip "Жергілікті файлды ашу">
 <!ENTITY saveToolbarCmd.tooltip "Файлды жергілікті орналасуға сақтау">

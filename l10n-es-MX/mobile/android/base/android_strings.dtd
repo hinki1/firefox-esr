@@ -290,7 +290,7 @@
 <!ENTITY tracking_protection_prompt_title "Ahora con protección de rastreo">
 <!ENTITY tracking_protection_prompt_text "Activamente bloqueando elementos de rastreo, así que no tienes de que preocuparte.">
 <!ENTITY tracking_protection_prompt_tip_text "Visita la configuración de privacidad para saber más">
-<!ENTITY tracking_protection_prompt_action_button "¡Lo tengo!">
+<!ENTITY tracking_protection_prompt_action_button "¡Entendido!">
 
 <!ENTITY tab_queue_toast_message3 "Pestaña guardada en &brandShortName;">
 <!ENTITY tab_queue_toast_action "Abrir ahora">
@@ -387,6 +387,8 @@ size. -->
 <!ENTITY pref_history_search_suggestions "Mostrar historial de búsqueda">
 <!ENTITY pref_import_options "Importar opciones">
 <!ENTITY pref_import_android_summary "Importar marcadores e historial desde el navegador nativo">
+<!-- Localization note (pref_private_data_openTabs): Open tabs is an option in
+     the Clear Private Data  dialog and refers to currently open tabs. -->
 <!ENTITY pref_private_data_openTabs "Abrir pestañas">
 <!ENTITY pref_private_data_history2 "Historial de navegación">
 <!ENTITY pref_private_data_searchHistory "Historial de búsqueda">
@@ -518,10 +520,8 @@ size. -->
 <!ENTITY doorhanger_login_edit_username_hint "Nombre de usuario">
 <!ENTITY doorhanger_login_edit_password_hint "Contraseña">
 <!ENTITY doorhanger_login_edit_toggle "Mostrar contraseña">
-<!ENTITY doorhanger_login_edit_toast_error "Falló al guardar el inicio de sesión">
 <!ENTITY doorhanger_login_select_message "¿Copiar contraseña desde &formatS;?">
 <!ENTITY doorhanger_login_select_toast_copy "Contraseña copiada al portapapeles">
-<!ENTITY doorhanger_login_select_toast_copy_error "No se pudo copiar la contraseña">
 <!ENTITY doorhanger_login_select_action_text "Seleccionar otro inicio de sesión">
 <!ENTITY doorhanger_login_select_title "Copiar contraseña desde">
 
@@ -535,7 +535,7 @@ size. -->
 <!ENTITY pref_scroll_title_bar2 "Navegación en pantalla completa">
 <!ENTITY pref_scroll_title_bar_summary2 "Ocultar la barra de herramientas de &brandShortName; cuando estés bajando por la página">
 
-<!ENTITY pref_tab_queue_title3 "Pestaña en cola">
+<!ENTITY pref_tab_queue_title3 "Cola de pestañas">
 <!ENTITY pref_tab_queue_summary4 "Guardar enlaces hasta que vuelvas a abrir &brandShortName;">
 
 <!-- Localization note (pref_compact_tabs): Label for setting that controls whether 1 wide column or
@@ -577,7 +577,7 @@ size. -->
 <!ENTITY button_clear "Limpiar">
 <!ENTITY button_copy "Copiar">
 
-<!ENTITY home_top_sites_title "Sitios preferidos">
+<!ENTITY home_top_sites_title "Sitios populares">
 <!-- Localization note (home_top_sites_add): This string is used as placeholder
      text underneath empty thumbnails in the Top Sites page on about:home. -->
 <!ENTITY home_top_sites_add "Agregar un sitio">
@@ -835,7 +835,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_message "Marca elementos de tu vista de lectura para leerlos sin conexión.">
 <!ENTITY helper_triple_readerview_open_button "Agregar a marcadores">
 
-<!ENTITY activity_stream_topsites "Sitios preferidos">
+<!ENTITY activity_stream_topsites "Sitios populares">
 <!ENTITY activity_stream_highlights "Destacados">
 
 <!-- LOCALIZATION NOTE (activity_stream_highlight_label_bookmarked): This label is shown in the Activity

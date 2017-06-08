@@ -18,7 +18,7 @@
 <!ENTITY newListCmd.accesskey                           "щ">
 <!ENTITY newAddressBookCmd.label                        "Адресник…">
 <!ENTITY newAddressBookCmd.accesskey                    "А">
-<!ENTITY newLDAPDirectoryCmd.label                      "LDAP Директория…">
+<!ENTITY newLDAPDirectoryCmd.label                      "Директория в LDAP…">
 <!ENTITY newLDAPDirectoryCmd.accesskey                  "Д">
 <!ENTITY newMessageCmd.label                            "Писмо">
 <!ENTITY newMessageCmd.key                              "M">
@@ -79,6 +79,12 @@
 <!ENTITY propertiesMenu.label                           "Свойства">
 <!ENTITY propertiesMenu.accesskey                       "в">
 <!ENTITY propertiesCmd.key                              "i">
+<!ENTITY abPropertiesMenu.label                         "Свойства на адресника">
+<!ENTITY abPropertiesMenu.accesskey                     "в">
+<!ENTITY contactPropertiesMenu.label                    "Свойства на контакта">
+<!ENTITY contactPropertiesMenu.accesskey                "в">
+<!ENTITY mailingListPropertiesMenu.label                "Свойства на пощенския списък">
+<!ENTITY mailingListPropertiesMenu.accesskey            "в">
 
 <!-- View Menu -->
 <!ENTITY viewMenu.label                                 "Изглед">
@@ -131,9 +137,20 @@ because displayed names don't have the comma in between. -->
 
 <!-- Address Book Toolbar and Context Menus -->
 <!ENTITY newContactButton.label                         "Нова визитка">
-<!ENTITY newContactButton.accesskey                     "в">
+<!ENTITY newContactButton.accesskey                     "т">
 <!ENTITY newlistButton.label                            "Нов списък">
 <!ENTITY newlistButton.accesskey                        "Н">
+<!ENTITY showAsDefault.label                            "Отваряне по подразбиране">
+<!ENTITY showAsDefault.accesskey                        "о">
+<!ENTITY editPropertiesButton.label                     "Редактиране">
+<!ENTITY propertiesContext.label                        "Свойства">
+<!ENTITY propertiesContext.accesskey                    "в">
+<!ENTITY abPropertiesContext.label                      "Свойства">
+<!ENTITY abPropertiesContext.accesskey                  "в">
+<!ENTITY editContactContext.label                       "Редактиране на контакт">
+<!ENTITY editContactContext.accesskey                   "р">
+<!ENTITY editMailingListContext.label                   "Редактиране на списък">
+<!ENTITY editMailingListContext.accesskey               "р">
 <!ENTITY newmsgButton.label                             "Писане на писмо">
 <!ENTITY newmsgButton.accesskey                         "П">
 <!ENTITY newIM.label                                    "Бързо съобщение">
@@ -146,6 +163,10 @@ because displayed names don't have the comma in between. -->
 <!-- Address Book Toolbar Tooltips -->
 <!ENTITY newContactButton.tooltip                       "Създава нова визитка в адресника">
 <!ENTITY newlistButton.tooltip                          "Създава нов списък">
+<!ENTITY editPropertiesButton.tooltip                   "Редактиране на избрания елемент">
+<!ENTITY editAbPropertiesButton.tooltip                 "Редактиране на избрания адресник">
+<!ENTITY editContactPropertiesButton.tooltip            "Редактиране на избрания контакт">
+<!ENTITY editMailingListPropertiesButton.tooltip        "Редактиране на избрания пощенски списък">
 <!ENTITY newmsgButton.tooltip                           "Изпращане на писмо">
 <!ENTITY newIM.tooltip                                  "Изпращане на бързо съобщение или покана за разговор">
 <!ENTITY deleteButton2.tooltip                          "Изтриване на избраната позиция">
@@ -167,7 +188,7 @@ because displayed names don't have the comma in between. -->
 <!ENTITY GeneratedName.accesskey                        "И">
 <!ENTITY PrimaryEmail.label                             "Е-поща">
 <!ENTITY PrimaryEmail.accesskey                         "Е">
-<!ENTITY ChatName.label                                 "Име на разговор">
+<!ENTITY ChatName.label                                 "Име за разговор">
 <!ENTITY ChatName.accesskey                             "И">
 <!ENTITY Company.label                                  "Организация">
 <!ENTITY Company.accesskey                              "г">
@@ -177,8 +198,8 @@ because displayed names don't have the comma in between. -->
 <!ENTITY SecondEmail.accesskey                          "Д">
 <!ENTITY Department.label                               "Отдел">
 <!ENTITY Department.accesskey                           "О">
-<!ENTITY JobTitle.label                                 "Заглавие">
-<!ENTITY JobTitle.accesskey                             "З">
+<!ENTITY JobTitle.label                                 "Длъжност">
+<!ENTITY JobTitle.accesskey                             "д">
 <!ENTITY CellularNumber.label                           "Мобилен телефон">
 <!ENTITY CellularNumber.accesskey                       "М">
 <!ENTITY PagerNumber.label                              "Пейджър">
@@ -219,4 +240,4 @@ because displayed names don't have the comma in between. -->
 <!ENTITY minimizeWindow.label                           "Минимизиране">
 <!ENTITY minimizeWindow.key                             "m">
 <!ENTITY bringAllToFront.label                          "Извежда всичко на преден план">
-<!ENTITY zoomWindow.label                               "Лупа">
+<!ENTITY zoomWindow.label                               "Мащабиране">

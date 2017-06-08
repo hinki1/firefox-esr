@@ -3,7 +3,7 @@
    - You can obtain one at http://mozilla.org/MPL/2.0/.  -->
 
 <!ENTITY downloads.title "Download">
-<!ENTITY downloadDetails.width "65ch">
+<!ENTITY downloadDetails.width "56ch">
 <!ENTITY downloadsSummary.minWidth2 "26ch">
 <!ENTITY cmd.pause.label "Pausa">
 <!ENTITY cmd.pause.accesskey "P">
@@ -30,6 +30,10 @@
 <!ENTITY cmd.removeFile.label "Elimina file">
 <!ENTITY cmd.chooseUnblock.label "Elimina file o consenti download">
 <!ENTITY cmd.chooseOpen.label "Apri o elimina file">
+<!ENTITY showMoreInformation.label "Visualizza ulteriori informazioni">
+<!ENTITY openFile.label "Apri file">
+<!ENTITY retryDownload.label "Riprova download">
+<!ENTITY cancelDownload.label "Annulla download">
 <!ENTITY blocked.label "BLOCCATO">
 <!ENTITY learnMore.label "Ulteriori informazioni">
 <!ENTITY downloadsHistory.label "Visualizza tutti i download">

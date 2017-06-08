@@ -6,7 +6,6 @@
 
 <!ENTITY aboutAccountsConfig.description "Komenci seancon por speguli viajn langetojn, legosignojn kaj aliajn aferojn.">
 <!ENTITY aboutAccountsConfig.startButton.label "Unuaj paŝoj">
-<!ENTITY aboutAccountsConfig.useOldSync.label "Ĉu vi uzas malnovan version de Speguli?">
 <!ENTITY aboutAccountsConfig.syncPreferences.label "Preferoj de Speguli">
 <!ENTITY aboutAccounts.noConnection.title "Neniu konekto">
 <!ENTITY aboutAccounts.noConnection.description "Vi devas esti konektita al la reto por komenci seanco.">

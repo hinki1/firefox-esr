@@ -44,11 +44,11 @@ certiĝu ke &brandShortName; rajtas aliri la TTT-n.</li> </ul>">
 <!ENTITY generic.longDesc "<p>Pro iu kialo &brandShortName; ne povas ŝargi tiun ĉi paĝon.</p>">
 
 <!ENTITY captivePortal.title "Komenci seancon en tiu ĉi reto">
-<!ENTITY captivePortal.longDesc "
-<p>This network may require you to login to access the internet.</p>
+<!ENTITY captivePortal.longDesc2 "
+<p>Vi devas komenci seancon en tiu ĉi reto antaŭ ol vi povos aliri la Interreton.</p>
 ">
 
-<!ENTITY openPortalLoginPage.label "Malfermi paĝon por komenci seancon">
+<!ENTITY openPortalLoginPage.label2 "Malfermi paĝon por komenci seancon en la reto">
 
 <!ENTITY malformedURI.title "Tiu ĉi adreso ne estas valida">
 <!ENTITY malformedURI.longDesc "<ul> 
@@ -155,19 +155,9 @@ was trying to connect. -->
      "SSL_ERROR_UNSUPPORTED_VERSION". -->
 <!ENTITY sslv3Used.longDesc2 "Spertula informo: SSL_ERROR_UNSUPPORTED_VERSION">
 
-<!ENTITY weakCryptoUsed.title "Via konekto ne estas sekura">
-<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
-     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
-<!ENTITY weakCryptoUsed.longDesc2 "Spertula informo: SSL_ERROR_NO_CYPHER_OVERLAP">
-<!ENTITY weakCryptoAdvanced.title "Spertula">
-<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> uzas sekurecan teĥnologion, kiu estas kaduka kaj sendefenda. Atakanto povas facile elmeti informojn, kiujn vi opiniis sekuraj.">
-<!ENTITY weakCryptoAdvanced.override "(Ne sekura) Klopodi ŝargi <span class='hostname'></span> kun kaduka sekureco">
-
 <!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
                         certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
      tags will be injected with actual values, please leave them unchanged. -->
-<!ENTITY certerror.wrongSystemTime2 "<p> &brandShortName; ne povis konektiĝi al <span id='wrongSystemTime_URL'/> ĉar la horloĝo de via komputilo ŝajne montras malĝustan daton aŭ horon, kaj tio malebligas sekuran konekton.</p> <p>Via komputilo montras nun <span id='wrongSystemTime_systemDate'/>, sed ĝi devus montri <span id='wrongSystemTime_actualDate'/>. Por solvi tiun ĉi problemon, ŝanĝu la agordojn de dato kaj horo por ke ili kongruu kun la ĝusta dato kaj horo.</p>">
-<!ENTITY certerror.wrongSystemTimeWithoutReference "<p>&brandShortName; ne povis konektiĝi al <span id='wrongSystemTimeWithoutReference_URL'/> ĉar la horloĝo de via komputilo ŝajne montras malĝustan daton aŭ horon, kaj tio malebligas sekuran konekton.</p> <p>Via komputilo montras nun <span id='wrongSystemTimeWithoutReference_systemDate'/>. Por solvi tiun ĉi problemon, ŝanĝu la agordojn de dato kaj horo por ke ili kongruu kun la ĝusta dato kaj horo.</p>">
 
 <!ENTITY certerror.pagetitle1  "Nesekura konekto">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Tiu ĉi retejo uzas Striktan Transportan Sekurecan HTTP (HSTS) por indiki ke &brandShortName; nur konektu al ĝi sekure. Pro tio, ne eblas aldoni escepton por tiu ĉi atestilo.">

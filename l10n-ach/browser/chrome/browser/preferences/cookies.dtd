@@ -6,14 +6,7 @@
 
 <!ENTITY     cookiesonsystem.label          "Angija magi kikano i komputa ni:">
 <!ENTITY     cookiename.label               "Nying cookie">
-<!ENTITY     cookiedomain.label             "Kakube"> 
-<!-- LOCALIZATION NOTE (button.removeSelectedCookies.accesskey):
-  The label associated with this accesskey can be found in 
-  preferences.properties as removeSelectedCookies.
--->
-<!ENTITY     button.removeSelectedCookies.accesskey "R">
-<!ENTITY     button.removeAllCookies.label "Kwany Weng">
-<!ENTITY     button.removeAllCookies.accesskey "W">
+<!ENTITY     cookiedomain.label             "Kakube">
 
 <!ENTITY     props.name.label               "Nying:">
 <!ENTITY     props.value.label              "Gin manonge iye:">
@@ -21,7 +14,7 @@
 <!ENTITY     props.path.label               "Yo:">
 <!ENTITY     props.secure.label             "Cwal Pi:">
 <!ENTITY     props.expires.label            "Kare ne okato woko:">
-
+<!ENTITY     props.container.label          "Lamak Jami:">
 
 <!ENTITY     window.title                   "Angija">
 <!ENTITY     windowClose.key                "w">
