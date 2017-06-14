@@ -1,3 +1,23 @@
+firefox-esr (52.2.0esr-1~deb9u1) stretch-security; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2017-16, also known as:
+    CVE-2017-5472, CVE-2017-7749, CVE-2017-7750, CVE-2017-7751,
+    CVE-2017-7752, CVE-2017-7754, CVE-2017-7756, CVE-2017-7757,
+    CVE-2017-7778, CVE-2017-7758, CVE-2017-7764, CVE-2017-5470.
+
+  * debian/rules, debian/control.in: Switch to GCC 4.8 on wheezy.
+  * debian/rules: Don't remove debian/control on clean. Thanks to
+    Emilio Pozuelo Monfort for those two changes for wheezy LTS support.
+  * debian/control.in: Bump nss build dependency.
+  * debian/control.in, debian/rules, debian/symbols.mk, debian/upstream.mk:
+    Rename the BACKPORT variable to DIST, and set it to "stretch" for
+    unstable/testing targetted builds.
+  * debian/rules: Normalize the system libraries used depending on the Debian
+    version.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 14 Jun 2017 07:53:34 +0900
+
 firefox-esr (52.1.0esr-1) experimental; urgency=medium
 
   * New upstream release.
