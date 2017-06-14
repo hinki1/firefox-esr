@@ -7,15 +7,15 @@ usr/lib/@browser@/plugin-container
 
 usr/lib/@browser@/omni.ja
 
-%if !USE_SYSTEM_SQLITE
+%ifndef USE_SYSTEM_SQLITE
 usr/lib/@browser@/libmozsqlite3.so
 %endif
-%if !USE_SYSTEM_NSPR
+%ifndef USE_SYSTEM_NSPR
 usr/lib/@browser@/libnspr4.so
 usr/lib/@browser@/libplc4.so
 usr/lib/@browser@/libplds4.so
 %endif
-%if !USE_SYSTEM_NSS
+%ifndef USE_SYSTEM_NSS
 usr/lib/@browser@/libfreeblpriv3.chk
 usr/lib/@browser@/libfreeblpriv3.so
 usr/lib/@browser@/libnss3.so

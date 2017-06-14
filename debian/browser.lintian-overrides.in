@@ -7,11 +7,11 @@
 @browser@: embedded-library usr/lib/@browser@/libxul.so: srtp
 # This is a stripped down libavutil
 @browser@: embedded-library usr/lib/@browser@/libmozavutil.so: libavutil
-%if !USE_SYSTEM_NSS
+%ifndef USE_SYSTEM_NSS
 # Debian doesn't have the right version.
 @browser@: embedded-library usr/lib/@browser@/libnss3.so: nss
 %endif
-%if !USE_SYSTEM_NSPR
+%ifndef USE_SYSTEM_NSPR
 # Debian doesn't have the right version.
 @browser@: embedded-library usr/lib/@browser@/libnspr4.so: nspr
 %endif
