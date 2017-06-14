@@ -83,7 +83,7 @@
 
 <!ENTITY updateTab.label                 "Update">
 
-<!ENTITY updateApplication.label         "&brandShortName; nadogradnje:">
+<!ENTITY updateApplication.label         "&brandShortName; nadogradnje">
 <!ENTITY updateAuto1.label               "Automatski instaliraj nadogradnje (preporučeno: unaprijeđena sigurnost)">
 <!ENTITY updateAuto1.accesskey           "A">
 <!ENTITY updateCheckChoose.label         "Provjeri za nadogradnju, ali me prvo pitaj da li želim instalirati">
@@ -97,7 +97,7 @@
 <!ENTITY useService.label                "Koristi pozadinski servis za instalaciju update-a">
 <!ENTITY useService.accesskey            "b">
 
-<!ENTITY autoUpdateOthers.label          "Automatski nadogradi:">
+<!ENTITY autoUpdateOthers.label          "Automatski nadogradi">
 <!ENTITY enableSearchUpdate.label        "Pretraživače">
 <!ENTITY enableSearchUpdate.accesskey    "č">
 

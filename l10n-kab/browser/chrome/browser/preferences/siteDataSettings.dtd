@@ -7,5 +7,14 @@
 <!ENTITY     hostCol.label                 "Asmel">
 <!ENTITY     statusCol.label               "addad">
 <!ENTITY     usageCol.label                "Aklas">
-<!ENTITY     search.label                  "Nadi:">
-<!ENTITY     search.accesskey              "N">
+<!ENTITY     searchPlaceHolder             "Nadi:">
+<!ENTITY     searchPlaceHolder.accesskey   "S">
+<!ENTITY     removeSelected.label          "Kkes tafrant">
+<!ENTITY     removeSelected.accesskey      "K">
+<!ENTITY     save.label                    "Sekles asnifel">
+<!ENTITY     save.accesskey                "S">
+<!ENTITY     cancel.label                  "Sefsex">
+<!ENTITY     cancel.accesskey              "S">
+<!ENTITY     removingDialog.title          "Tuksa n isefka n usmel">
+<!ENTITY     removingDialog.description    "Tukksa n isefka n usmel ad yekkes inagan n tuqqna. Ayagi yezmer ak-isuffeɣ seg ismal web udiq ad yekkes agbur n usmel web deg uskar n war tuqqna. Tebɣiḍ ad tekkseḍ asnifel-agi?">
+<!ENTITY     siteTree.label                "Inagan n usmel web-agi ad ttwakksen:">

@@ -20,10 +20,10 @@ sentence. -->
 <!ENTITY  andSetStatusToAway.label      "in mojo odsotnost objavi s sporočilom stanja:">
 <!ENTITY  andSetStatusToAway.accesskey  "o">
 
-<!ENTITY  sendTyping.label              "Med pogovori pošlji obvestila o tipkanju">
+<!ENTITY  sendTyping.label              "Med pogovori pošiljaj obvestila o tipkanju">
 <!ENTITY  sendTyping.accesskey          "M">
 
-<!ENTITY  chatNotifications.label             "Kadar prispejo sporočila namenjena meni:">
+<!ENTITY  chatNotifications.label             "Kadar prispejo sporočila, namenjena meni:">
 <!ENTITY  desktopChatNotifications.label      "prikaži obvestilo:">
 <!ENTITY  desktopChatNotifications.accesskey  "a">
 <!ENTITY  completeNotification.label          "s pošiljateljevim imenom in predogledom sporočila">

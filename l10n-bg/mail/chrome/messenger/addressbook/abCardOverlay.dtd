@@ -82,10 +82,10 @@
 <!ENTITY Age.placeholder                "Възраст">
 <!ENTITY YearsOld.label                 "">
 
-<!ENTITY Work.tab                       "Служебен">
+<!ENTITY Work.tab                       "Служебни">
 <!ENTITY Work.accesskey                 "С">
-<!ENTITY JobTitle.label                 "Заглавие:">
-<!ENTITY JobTitle.accesskey             "а">
+<!ENTITY JobTitle.label                 "Длъжност:">
+<!ENTITY JobTitle.accesskey             "д">
 <!ENTITY Department.label               "Отдел:">
 <!ENTITY Department.accesskey           "т">
 <!ENTITY Company.label                  "Организация:">
@@ -96,13 +96,13 @@
 <!ENTITY WorkAddress2.accesskey         "">
 <!ENTITY WorkCity.label                 "Град:">
 <!ENTITY WorkCity.accesskey             "д">
-<!ENTITY WorkState.label                "Област/Община:">
+<!ENTITY WorkState.label                "Област / Община:">
 <!ENTITY WorkState.accesskey            "О">
-<!ENTITY WorkZipCode.label              "ZIP/Пощенски код:">
+<!ENTITY WorkZipCode.label              "Пощенски код:">
 <!ENTITY WorkZipCode.accesskey          "щ">
 <!ENTITY WorkCountry.label              "Държава:">
 <!ENTITY WorkCountry.accesskey          "ж">
-<!ENTITY WorkWebPage.label              "Уеб страница:">
+<!ENTITY WorkWebPage.label              "Уебстраница:">
 <!ENTITY WorkWebPage.accesskey          "У">
 
 <!ENTITY Other.tab                      "Други">
@@ -118,11 +118,12 @@
 <!ENTITY Notes.label                    "Бележки:">
 <!ENTITY Notes.accesskey                "Б">
 
-<!ENTITY Chat.tab                       "Разговор">
+<!ENTITY Chat.tab                       "Разговори">
 <!ENTITY Chat.accesskey                 "Р">
 <!ENTITY Gtalk.label                    "Google Talk:">
 <!ENTITY Gtalk.accesskey                "G">
 <!ENTITY AIM.label                      "AIM:">
+<!ENTITY AIM2.accesskey                 "M">
 <!ENTITY Yahoo.label                    "Yahoo!:">
 <!ENTITY Yahoo.accesskey                "Y">
 <!ENTITY Skype.label                    "Skype:">
@@ -130,11 +131,12 @@
 <!ENTITY QQ.label                       "QQ:">
 <!ENTITY QQ.accesskey                   "Q">
 <!ENTITY MSN.label                      "MSN:">
+<!ENTITY MSN2.accesskey                 "N">
 <!ENTITY ICQ.label                      "ICQ:">
 <!ENTITY ICQ.accesskey                  "I">
 <!ENTITY XMPP.label                     "Jabber ID:">
 <!ENTITY XMPP.accesskey                 "J">
-<!ENTITY IRC.label                      "IRC псевдоним:">
+<!ENTITY IRC.label                      "Псевдоним в IRC:">
 <!ENTITY IRC.accesskey                  "R">
 
 <!ENTITY Photo.tab                      "Снимка">

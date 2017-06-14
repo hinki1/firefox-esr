@@ -61,6 +61,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Margþráða gluggi">
 
+<!ENTITY aboutSupport.appBasicsKeyGoogle "Google lykill">
+<!ENTITY aboutSupport.appBasicsKeyMozilla "Mozilla Location Service lykill">
+
 <!ENTITY aboutSupport.appBasicsSafeMode "Öryggishamur">
 
 <!ENTITY aboutSupport.showDir.label "Opna möppu">
@@ -106,6 +109,14 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Afrita hrá gögn á klemmuspjald">
 
 <!ENTITY aboutSupport.sandboxTitle "Sandbox">
+<!ENTITY aboutSupport.sandboxSyscallLogTitle "Hunsuð kerfisköll">
+<!ENTITY aboutSupport.sandboxSyscallIndex "#">
+<!ENTITY aboutSupport.sandboxSyscallAge "Fyrir nokkrum sekúndum">
+<!ENTITY aboutSupport.sandboxSyscallPID "PID">
+<!ENTITY aboutSupport.sandboxSyscallTID "TID">
+<!ENTITY aboutSupport.sandboxSyscallProcType "Tegund ferlis">
+<!ENTITY aboutSupport.sandboxSyscallNumber "Syscall">
+<!ENTITY aboutSupport.sandboxSyscallArgs "Breytur">
 
 <!ENTITY aboutSupport.safeModeTitle "Prófaðu öryggisham">
 <!ENTITY aboutSupport.restartInSafeMode.label "Endurræsa með viðbætur óvirkar…">

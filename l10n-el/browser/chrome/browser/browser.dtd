@@ -184,6 +184,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllBookmarks2.label "Προβολή όλων των σελιδοδεικτών">
 <!ENTITY recentBookmarks.label "Πρόσφατοι σελιδοδείκτες">
 <!ENTITY otherBookmarksCmd.label "Άλλοι σελιδοδείκτες">
+<!ENTITY mobileBookmarksCmd.label "Σελιδοδείκτες κινητού">
 <!ENTITY bookmarksToolbarChevron.tooltip "Προβολή περισσότερων σελιδοδεικτών">
 <!ENTITY showRecentlyBookmarked.label     "Προβολή πρόσφατων σελιδοδεικτών">
 <!ENTITY showRecentlyBookmarked.accesskey "φ">
@@ -245,6 +246,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenuButton.label          "Σελιδοδείκτες">
 <!ENTITY bookmarksMenuButton.other.label "Άλλοι σελιδοδείκτες">
+<!ENTITY bookmarksMenuButton.mobile.label "Σελιδοδείκτες κινητού">
 <!ENTITY viewBookmarksSidebar2.label        "Προβολή πλευρικής στήλης σελιδοδεικτών">
 <!ENTITY viewBookmarksToolbar.label         "Προβολή εργαλειοθήκης σελιδοδεικτών">
 
@@ -342,7 +344,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllHistoryCmd.commandkey "H">
 
 <!ENTITY appMenuCustomize.label "Προσαρμογή">
-<!ENTITY appMenuCustomize.tooltip "Προσαρμογή του μενού και των εργαλειοθηκών">
+<!ENTITY appMenuCustomize.tooltip "Προσαρμογή του μενού και των γραμμών εργαλείων">
 <!ENTITY appMenuCustomizeExit.label "Έξοδος">
 <!ENTITY appMenuCustomizeExit.tooltip "Ολοκλήρωση προσαρμογής">
 <!ENTITY appMenuHistory.label "Ιστορικό">
@@ -356,6 +358,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "Δεν υπάρχουν ανοικτές καρτέλες">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showMore.label, appMenuRemoteTabs.showMore.tooltip):
+     This is shown after the tabs list if we can display more tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showMore.label "Εμφάνιση περισσότερων">
+<!ENTITY appMenuRemoteTabs.showMore.tooltip "Εμφάνιση περισσότερων καρτελών από αυτή τη συσκευή">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showAll.label, appMenuRemoteTabs.showAll.tooltip):
+     This is shown after the tabs list if we can all the remaining tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showAll.label "Εμφάνιση όλων">
+<!ENTITY appMenuRemoteTabs.showAll.tooltip "Εμφάνιση όλων των καρτελών από αυτή τη συσκευή">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "Ενεργοποιήστε τον συγχρονισμό καρτελών για να δείτε μια λίστα από καρτέλες από τις άλλες σας συσκευές.">
@@ -644,12 +654,12 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY quitApplicationCmdWin2.label       "Έξοδος">
 <!ENTITY quitApplicationCmdWin2.accesskey   "ξ">
-<!ENTITY quitApplicationCmdWin2.tooltip     "Έξοδος από τον &brandShorterName;">
+<!ENTITY quitApplicationCmdWin2.tooltip     "Έξοδος από το &brandShorterName;">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 <!ENTITY quitApplicationCmd.label       "Έξοδος"> 
 <!ENTITY quitApplicationCmd.accesskey   "ξ">
-<!ENTITY quitApplicationCmdMac2.label   "Έξοδος από τον &brandShorterName;">
+<!ENTITY quitApplicationCmdMac2.label   "Έξοδος από το &brandShorterName;">
 <!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
 <!ENTITY quitApplicationCmdUnix.key     "Q">
 
@@ -799,7 +809,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "Θέλετε περισσότερα εργαλεία;">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Επιλέξτε ανάμεσα από χιλιάδες πρόσθετα">
 <!ENTITY customizeMode.restoreDefaults "Επαναφορά προεπιλογών">
-<!ENTITY customizeMode.toolbars "Εμφάνιση / Απόκρυψη εργαλειοθηκών">
+<!ENTITY customizeMode.toolbars "Εμφάνιση/Απόκρυψη γραμμών εργαλείων">
 <!ENTITY customizeMode.titlebar "Γραμμή τίτλου">
 <!ENTITY customizeMode.lwthemes "Θέματα">
 <!ENTITY customizeMode.lwthemes.myThemes "Τα θέματά μου">

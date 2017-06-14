@@ -184,6 +184,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllBookmarks2.label "Alle blêdwizers toane">
 <!ENTITY recentBookmarks.label "Resint oanmakke blêdwizers">
 <!ENTITY otherBookmarksCmd.label "Oare blêdwizers">
+<!ENTITY mobileBookmarksCmd.label "Mobyl-blêdwizers">
 <!ENTITY bookmarksToolbarChevron.tooltip "Mear blêdwizers toane">
 <!ENTITY showRecentlyBookmarked.label     "Resint oanmakke blêdwizers toane">
 <!ENTITY showRecentlyBookmarked.accesskey "t">
@@ -245,6 +246,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenuButton.label          "Blêdwizers">
 <!ENTITY bookmarksMenuButton.other.label "Oare blêdwizers">
+<!ENTITY bookmarksMenuButton.mobile.label "Mobyl-blêdwizers">
 <!ENTITY viewBookmarksSidebar2.label        "Blêdwizersydbalke werjaan">
 <!ENTITY viewBookmarksToolbar.label         "Blêdwizerarkbalke werjaan">
 
@@ -356,6 +358,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "Gjin iepen ljepblêden">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showMore.label, appMenuRemoteTabs.showMore.tooltip):
+     This is shown after the tabs list if we can display more tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showMore.label "Mear toane">
+<!ENTITY appMenuRemoteTabs.showMore.tooltip "Mear ljepblêden fan dit apparaat toane">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showAll.label, appMenuRemoteTabs.showAll.tooltip):
+     This is shown after the tabs list if we can all the remaining tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showAll.label "Alle toane">
+<!ENTITY appMenuRemoteTabs.showAll.tooltip "Alle ljepblêden fan dit apparaat toane">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "Set ljepblêdsyngronisaasje oan om in list fan ljepblêden fan jo oare apparaten wer te jaan.">
@@ -835,7 +845,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY trackingContentBlocked.message "Folgjen">
 <!ENTITY trackingContentBlocked.moreinfo "Parten fan de side dy't jo online aktiviteiten folgje binne blokkearre.">
-<!ENTITY trackingContentBlocked.learnMore "Lês mear">
+<!ENTITY trackingContentBlocked.learnMore "Mear ynfo">
 <!ENTITY trackingContentBlocked.options "Opsjes">
 <!ENTITY trackingContentBlocked.unblock2.label "Beskerming foar dizze website útskeakelje">
 <!ENTITY trackingContentBlocked.unblock2.accesskey "s">
@@ -884,7 +894,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY panicButton.view.forgetButton            "Ferjit!">
 
 <!ENTITY panicButton.thankyou.msg1                "Jo resinte skiednis is wiskje.">
-<!ENTITY panicButton.thankyou.msg2                "Feilich browse!">
+<!ENTITY panicButton.thankyou.msg2                "Feilich sneupje!">
 <!ENTITY panicButton.thankyou.buttonlabel         "Tankewol!">
 
 <!ENTITY emeLearnMoreContextMenu.label            "Mear ynfo oer DRM…">

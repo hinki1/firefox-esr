@@ -8,7 +8,7 @@
 
 <!ENTITY accessibility.label             "Toegankelijkheid">
 
-<!ENTITY useCursorNavigation.label       "Altijd de pijltoetsen gebruiken om te navigeren binnen pagina’s">
+<!ENTITY useCursorNavigation.label       "Altijd de pijltoetsen gebruiken om binnen pagina’s te navigeren">
 <!ENTITY useCursorNavigation.accesskey   "o">
 <!ENTITY searchOnStartTyping.label       "Naar tekst zoeken wanneer u begint met typen">
 <!ENTITY searchOnStartTyping.accesskey   "t">
@@ -62,7 +62,7 @@
 <!ENTITY clearSiteData.label             "Alle gegevens wissen">
 <!ENTITY clearSiteData.accesskey         "l">
 <!ENTITY siteDataSettings.label          "Instellingen…">
-<!ENTITY siteDataSettings.accesskey      "I">
+<!ENTITY siteDataSettings.accesskey      "s">
 <!ENTITY siteDataLearnMoreLink.label     "Meer info">
 
 <!-- LOCALIZATION NOTE:

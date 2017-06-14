@@ -49,7 +49,7 @@
 <!ENTITY fxaccount_getting_started_welcome_to_sync 'Bienvenido a &syncBrand.shortName.label;'>
 <!ENTITY fxaccount_getting_started_description2 'Inicia sesión para sincronizar tus pestañas, marcadores, contraseñas y más.'>
 <!ENTITY fxaccount_getting_started_get_started 'Iniciar'>
-<!ENTITY fxaccount_getting_started_old_firefox '¿Usando un versión antigua de &syncBrand.shortName.label;?'>
+<!ENTITY fxaccount_getting_started_old_firefox '¿Usas una versión antigua de &syncBrand.shortName.label;?'>
 
 <!ENTITY fxaccount_status_signed_in_as 'Conectado como'>
 <!ENTITY fxaccount_status_manage_account 'Administrar cuenta'>
@@ -80,11 +80,14 @@
 <!ENTITY fxaccount_status_more 'Más&ellipsis;'>
 <!ENTITY fxaccount_remove_account 'Desconectar&ellipsis;'>
 
-<!ENTITY fxaccount_remove_account_dialog_title '¿Eliminar cuenta de Firefox?'>
-<!ENTITY fxaccount_remove_account_dialog_message '&brandShortName; dejará de sincronizar tu cuenta, pero no eliminará ningún dato de búsqueda en el dispositivo.'>
+<!ENTITY fxaccount_remove_account_dialog_title2 '¿Desconectar de Sync?'>
+<!ENTITY fxaccount_remove_account_dialog_message2 'Tus datos de navegación se mantendrán en este dispositivo, pero ya no se sincronizarán más con tu cuenta.'>
 <!-- Localization note: format string below will be replaced
      with the Firefox Account's email address. -->
-<!ENTITY fxaccount_remove_account_toast 'Cuenta de Firefox &formatS; eliminada.'>
+<!ENTITY fxaccount_remove_account_toast2 'Cuenta de Firefox &formatS; desconectada.'>
+<!-- Localization note (fxaccount_remove_account_dialog_action_confirm): This is the label for the
+ confirm button in the dialog that shows up when disconnecting from sync. -->
+<!ENTITY fxaccount_remove_account_dialog_action_confirm 'Desconectar'>
 
 <!ENTITY fxaccount_enable_debug_mode 'Habilitar Modo de Depuración'>
 

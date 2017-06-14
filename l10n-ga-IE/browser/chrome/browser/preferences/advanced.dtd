@@ -36,7 +36,7 @@
 <!ENTITY healthReportLearnMore.label     "Tuilleadh Eolais">
 
 <!ENTITY telemetryDesc.label             "Seolann sé faisnéis maidir le feidhmíocht, úsáid, crua-earraí, agus saincheapadh an bhrabhsálaí chuig &vendorShortName; chun cabhrú linn feabhas a chur ar &brandShortName;.">
-<!ENTITY enableTelemetryData.label       "Comhroinn sonraí breise (.i. Telemetry)">
+<!ENTITY enableTelemetryData.label       "Comhroinn Sonraí Breise (.i., Telemetry)">
 <!ENTITY enableTelemetryData.accesskey   "T">
 <!ENTITY telemetryLearnMore.label        "Tuilleadh Eolais">
 

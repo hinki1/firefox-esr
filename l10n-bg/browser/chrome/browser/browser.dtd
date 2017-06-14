@@ -169,7 +169,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY sharePageCmd.commandkey "S">
 <!ENTITY sharePageCmd.accesskey "С">
 <!-- LOCALIZATION NOTE (shareLink.accesskey): must be different than the following share access keys -->
-<!ENTITY shareLink.label "Споделяне на връзка">
+<!ENTITY shareLink.label "Споделяне на препратката">
 <!ENTITY shareLink.accesskey "С">
 <!ENTITY shareImage.label "Споделяне на изображение">
 <!ENTITY shareImage.accesskey "С">
@@ -184,6 +184,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllBookmarks2.label "Показване на всички отметки">
 <!ENTITY recentBookmarks.label "Последни отметки">
 <!ENTITY otherBookmarksCmd.label "Други отметки">
+<!ENTITY mobileBookmarksCmd.label "Мобилни отметки">
 <!ENTITY bookmarksToolbarChevron.tooltip "Показване на повече отметки">
 <!ENTITY showRecentlyBookmarked.label     "Показване на последните отметки">
 <!ENTITY showRecentlyBookmarked.accesskey "П">
@@ -245,6 +246,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenuButton.label          "Отметки">
 <!ENTITY bookmarksMenuButton.other.label "Други отметки">
+<!ENTITY bookmarksMenuButton.mobile.label "Мобилни отметки">
 <!ENTITY viewBookmarksSidebar2.label        "Показване на страничната лента с отметки">
 <!ENTITY viewBookmarksToolbar.label         "Показване на лентата с отметки">
 
@@ -336,7 +338,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY historyUndoMenu.label "Последно затворени раздели">
 <!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
 <!ENTITY historyUndoWindowMenu.label "Последно затворени прозорци">
-<!ENTITY historyRestoreLastSession.label "Възстановяване на предишната сесия">
+<!ENTITY historyRestoreLastSession.label "Възстановяване на предишна сесия">
 
 <!ENTITY showAllHistoryCmd2.label "Цялата история">
 <!ENTITY showAllHistoryCmd.commandkey "H">
@@ -356,6 +358,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "Няма отворени раздели">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showMore.label, appMenuRemoteTabs.showMore.tooltip):
+     This is shown after the tabs list if we can display more tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showMore.label "Повече">
+<!ENTITY appMenuRemoteTabs.showMore.tooltip "Повече раздели от други устройства">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showAll.label, appMenuRemoteTabs.showAll.tooltip):
+     This is shown after the tabs list if we can all the remaining tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showAll.label "Показване на всички">
+<!ENTITY appMenuRemoteTabs.showAll.tooltip "Всички раздели от други устройства">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "Включете синхронизирането на раздели, за да видите списък с раздели от други ваши устройства.">
@@ -471,8 +481,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openLinkCmd.accesskey        "п">
 <!ENTITY openLinkInPrivateWindowCmd.label "Отваряне в поверителен прозорец">
 <!ENTITY openLinkInPrivateWindowCmd.accesskey "в">
-<!ENTITY openLinkCmdInCurrent.label     "Отваряне на връзката">
-<!ENTITY openLinkCmdInCurrent.accesskey "ъ">
+<!ENTITY openLinkCmdInCurrent.label     "Отваряне на препратката">
+<!ENTITY openLinkCmdInCurrent.accesskey "п">
 <!ENTITY openFrameCmdInTab.label      "Отваряне в раздел">
 <!ENTITY openFrameCmdInTab.accesskey  "д">
 <!ENTITY openFrameCmd.label           "Отваряне в прозорец">
@@ -527,8 +537,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY saveFrameCmd.accesskey       "р">
 <!ENTITY printFrameCmd.label          "Отпечатване на рамката…">
 <!ENTITY printFrameCmd.accesskey      "п">
-<!ENTITY saveLinkCmd.label            "Запазване на връзката като…">
-<!ENTITY saveLinkCmd.accesskey        "в">
+<!ENTITY saveLinkCmd.label            "Запазване на препратката като…">
+<!ENTITY saveLinkCmd.accesskey        "к">
 <!ENTITY saveImageCmd.label           "Запазване на изображението като…">
 <!ENTITY saveImageCmd.accesskey       "ж">
 <!ENTITY saveVideoCmd.label           "Запазване на видеото като…">
@@ -576,7 +586,7 @@ items are mutually exclusive. -->
 <!ENTITY mediaMute.label             "Без звук">
 <!ENTITY mediaMute.accesskey         "з">
 <!ENTITY mediaUnmute.label           "Със звук">
-<!ENTITY mediaUnmute.accesskey       "З">
+<!ENTITY mediaUnmute.accesskey       "з">
 <!ENTITY mediaPlaybackRate2.label     "Скорост на възпроизвеждане">
 <!ENTITY mediaPlaybackRate2.accesskey "о">
 <!ENTITY mediaPlaybackRate050x2.label "Бавна (0.5×)">
@@ -703,7 +713,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Страницата е запазена в компютъра.">
 <!ENTITY identity.connectionVerified2 "Защитена връзка към този сайт, управляван от:">
 <!ENTITY identity.connectionInternal "Това е защитена страница на &brandShortName;.">
-<!ENTITY identity.insecureLoginForms2 "Данните за вход на тази страница може да са компрометирани.">
+<!ENTITY identity.insecureLoginForms2 "Въведените на страницата данни за вход може да бъдат компрометирани.">
 
 <!-- Strings for connection state warnings. -->
 <!ENTITY identity.activeBlocked "&brandShortName; блокира части от страницата, които не са шифрирани.">

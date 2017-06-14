@@ -61,6 +61,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprozesu leihoak">
 
+<!ENTITY aboutSupport.appBasicsKeyGoogle "Google gakoa">
+<!ENTITY aboutSupport.appBasicsKeyMozilla "Mozilla Location Service gakoa">
+
 <!ENTITY aboutSupport.appBasicsSafeMode "Modu segurua">
 
 <!ENTITY aboutSupport.showDir.label "Ireki direktorioa">
@@ -106,6 +109,14 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Kopiatu datu gordinak arbelean">
 
 <!ENTITY aboutSupport.sandboxTitle "Isolamendua">
+<!ENTITY aboutSupport.sandboxSyscallLogTitle "Baztertutako sistema-deiak">
+<!ENTITY aboutSupport.sandboxSyscallIndex "#">
+<!ENTITY aboutSupport.sandboxSyscallAge "Duela zenbat segundo">
+<!ENTITY aboutSupport.sandboxSyscallPID "PID">
+<!ENTITY aboutSupport.sandboxSyscallTID "TID">
+<!ENTITY aboutSupport.sandboxSyscallProcType "Prozesu mota">
+<!ENTITY aboutSupport.sandboxSyscallNumber "Sistema-deia">
+<!ENTITY aboutSupport.sandboxSyscallArgs "Argumentuak">
 
 <!ENTITY aboutSupport.safeModeTitle "Probatu modu segurua">
 <!ENTITY aboutSupport.restartInSafeMode.label "Berrabiarazi gehigarriak desgaituta…">

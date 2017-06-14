@@ -2,23 +2,25 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
-
-
-
-
-
-
+<!ENTITY doNotDownloadPop3Movemail.label "Диск орнын үнемдеу үшін, келесіні жүктемеу:">
+<!ENTITY doNotDownloadNntp.label "Диск орнын үнемдеу үшін, желіден тыс режимі үшін келесіні жүктемеу:">
+<!ENTITY doNotDownloadImap.label "Диск орнын үнемдеу мақсатында, серверден хабарламаларды жүктеп алу және желіден тыс режимі үшін жергілікті көшірмелерді ұстау мерзімі немесе өлшемі бойынша шектеуге болады.">
+<!ENTITY allFoldersOffline.label "Бұл компьютерде бұл тіркелгі үшін хабарламаларды сақтау">
+<!ENTITY allFoldersOffline.accesskey "л">
+<!ENTITY offlineNotDownload.label "Келесіден үлкенірек хабарламалар">
+<!ENTITY offlineNotDownload.accesskey "м">
+<!ENTITY autosyncNotDownload.label "Келесіден үлкен хабарламаларды жүктемеу:">
+<!ENTITY autosyncNotDownload.accesskey "м">
 <!ENTITY kb.label "КБ">
-
+<!ENTITY daysOld.label "күннен ескі">
 <!ENTITY message.label "хабарлама">
 
 
 
 
-
-
-
+<!ENTITY retentionCleanup.label "Диск орнын босату үшін, ескі хабарламаларды толығымен өшіруге болады.">
+<!ENTITY retentionCleanupImap.label "Диск орнын босату үшін, ескі хабарламаларды толығымен өшіруге болады, соның ішінде жергілікті көшірмелер және қашықтағы сервердегі түпнұсқалар.">
+<!ENTITY retentionCleanupPop.label "Диск орнын босату үшін, ескі хабарламаларды толығымен өшіруге болады, соның ішінде қашықтағы сервердегі түпнұсқалар.">
 
 
 
@@ -45,8 +47,8 @@
 
 
 <!ENTITY ageAutosyncMiddle.label         "">
-
-
+<!ENTITY dayAgeInterval.label            "Күн">
+<!ENTITY weekAgeInterval.label           "Апта">
 <!ENTITY monthAgeInterval.label          "Айлар">
 <!ENTITY yearAgeInterval.label           "Жылдар">
 <!ENTITY ageAutosyncAfter.label          "">

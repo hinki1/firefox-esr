@@ -387,6 +387,8 @@ size. -->
 <!ENTITY pref_history_search_suggestions "Seall eachdraidh nan lorg">
 <!ENTITY pref_import_options "Roghainnean ion-phortaidh">
 <!ENTITY pref_import_android_summary "Ion-phortaich comharran-lìn is an eachdraidh on bhrabhsair tùsail aig an uidheam">
+<!-- Localization note (pref_private_data_openTabs): Open tabs is an option in
+     the Clear Private Data  dialog and refers to currently open tabs. -->
 <!ENTITY pref_private_data_openTabs "Fosgail na tabaichean">
 <!ENTITY pref_private_data_history2 "An eachdraidh brabhsaidh">
 <!ENTITY pref_private_data_searchHistory "Eachdraidh nan lorg">
@@ -395,7 +397,7 @@ size. -->
 <!ENTITY pref_private_data_passwords2 "Clàraidhean a-steach sàbhailte">
 <!ENTITY pref_private_data_cache "An tasgadan">
 <!ENTITY pref_private_data_offlineApps "Dàta làraichean-lin far loidhne">
-<!ENTITY pref_private_data_siteSettings2 "Roghainnean na làraich">
+<!ENTITY pref_private_data_siteSettings2 "Roghainnean nan làrach">
 <!ENTITY pref_private_data_downloadFiles2 "Luchdaidhean a-nuas">
 <!ENTITY pref_private_data_syncedTabs "Tabaichean sioncronaichte">
 
@@ -499,7 +501,7 @@ size. -->
 <!ENTITY contextmenu_remove "Thoir air falbh">
 <!ENTITY contextmenu_add_to_launcher "Cuir ris an sgrìn mhòr">
 <!ENTITY contextmenu_share "Co-roinn">
-<!ENTITY contextmenu_pasteandgo "Cuir ann ┐ falbh">
+<!ENTITY contextmenu_pasteandgo "Cuir ann ⁊ rach ann">
 <!ENTITY contextmenu_paste "Cuir ann">
 <!ENTITY contextmenu_copyurl "Dèan lethbhreac dhen t-seòladh">
 <!ENTITY contextmenu_edit_bookmark "Deasaich">
@@ -518,10 +520,8 @@ size. -->
 <!ENTITY doorhanger_login_edit_username_hint "Ainm-cleachdaiche">
 <!ENTITY doorhanger_login_edit_password_hint "Facal-faire">
 <!ENTITY doorhanger_login_edit_toggle "Seall am facal-faire">
-<!ENTITY doorhanger_login_edit_toast_error "Dh\u0027fhàillig an clàradh a-steach">
 <!ENTITY doorhanger_login_select_message "A bheil thu airson lethbhreac a dhèanamh dhen fhacal-fhaire o &formatS;?">
 <!ENTITY doorhanger_login_select_toast_copy "Chaidh lethbhreac an fhacail-fhaire a chur air an stòr-bhòrd">
-<!ENTITY doorhanger_login_select_toast_copy_error "Cha b’ urrainn dhuinn lethbhreac a dhèanamh dhen fhacal-fhaire">
 <!ENTITY doorhanger_login_select_action_text "Tagh clàradh a-steach eile">
 <!ENTITY doorhanger_login_select_title "Dèan lethbhreac dhen fhacal-fhaire o">
 <!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls

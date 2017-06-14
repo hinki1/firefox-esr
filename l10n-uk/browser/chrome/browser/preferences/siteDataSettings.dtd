@@ -7,5 +7,14 @@
 <!ENTITY     hostCol.label                 "Сайт">
 <!ENTITY     statusCol.label               "Стан">
 <!ENTITY     usageCol.label                "Сховище">
-<!ENTITY     search.label                  "Пошук:">
-<!ENTITY     search.accesskey              "П">
+<!ENTITY     searchPlaceHolder             "Пошук">
+<!ENTITY     searchPlaceHolder.accesskey   "П">
+<!ENTITY     removeSelected.label          "Видалити вибрані">
+<!ENTITY     removeSelected.accesskey      "В">
+<!ENTITY     save.label                    "Зберегти зміни">
+<!ENTITY     save.accesskey                "З">
+<!ENTITY     cancel.label                  "Скасувати">
+<!ENTITY     cancel.accesskey              "С">
+<!ENTITY     removingDialog.title          "Видалення даних сайтів">
+<!ENTITY     removingDialog.description    "При видаленні даних сайтів також будуть видалені куки. Це може призвести до виходу з веб-сайтів і видалення автономного веб-вмісту. Ви справді хочете зробити ці зміни?">
+<!ENTITY     siteTree.label                "Будуть видалені наступні куки веб-сайтів:">

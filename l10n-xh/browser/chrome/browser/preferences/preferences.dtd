@@ -15,13 +15,13 @@
 
 <!ENTITY  paneGeneral.title       "Jikelele">
 <!ENTITY  paneTabs.title          "Iithebhu">
-<!ENTITY  paneSearch.title        "Khangela…">
+<!ENTITY  paneSearch.title        "Khangela">
 <!ENTITY  paneContent.title       "Isiqulatho">
-<!ENTITY  paneApplications.title  "Iinkqubo">
+<!ENTITY  paneApplications.title  "Ii-aplikheyishini">
 <!ENTITY  panePrivacy.title       "Okwabucala">
 <!ENTITY  paneContainers.title    "Iithebhu Zekhonteyina">
 <!ENTITY  paneSecurity.title      "Ukhuseleko">
-<!ENTITY  paneAdvanced.title      "Kwinqanaba eseliphambili">
+<!ENTITY  paneAdvanced.title      "Kwinqanaba eseliPhambili">
 <!-- LOCALIZATION NOTE (paneSync.title): This should match syncBrand.shortName.label in ../syncBrand.dtd -->
 
 <!ENTITY  paneSync.title          "Ungqamaniso">

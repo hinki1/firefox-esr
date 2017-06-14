@@ -40,15 +40,15 @@
 <p>Per qualche motivo &brandShortName; non è in grado di caricare questa pagina.</p>
 ">
 <!ENTITY captivePortal.title "Accedi alla rete">
-<!ENTITY captivePortal.longDesc "
-<p>Potrebbe essere necessario accedere alla rete per navigare in Internet.</p>
+<!ENTITY captivePortal.longDesc2 "
+<p>È necessario accedere alla rete per navigare in Internet.</p>
 ">
-<!ENTITY openPortalLoginPage.label "Apri la pagina di accesso">
+<!ENTITY openPortalLoginPage.label2 "Apri la pagina di accesso alla rete">
 <!ENTITY malformedURI.title "L’indirizzo non è valido">
 <!ENTITY malformedURI.longDesc "
 <ul>
   <li>Gli indirizzi internet normalmente si scrivono nella forma <strong>http://www.example.com/</strong></li>
-  <li>Verificare se si stanno utilizzando le barre corrette (ad esempio <strong>/</strong>).</li>
+  <li>Verificare di aver utilizzato le barre corrette <strong>/</strong>.</li>
 </ul>
 ">
 <!ENTITY netInterrupt.title "La connessione è stata interrotta">
@@ -115,7 +115,7 @@
 <!ENTITY certerror.introPara "Il gestore di <span class='hostname'/> ha configurato il sito in modo non corretto. Per evitare potenziali furti di informazioni &brandShortName; ha interrotto la connessione.">
 <!ENTITY sharedLongDesc "
 <ul>
-  <li>Il sito potrebbe non essere disponibile o sovraccarico. Riprovare fra qualche momento.</li>
+  <li>Il sito potrebbe essere non disponibile o sovraccarico. Riprovare fra qualche istante.</li>
   <li>Se non è possibile caricare alcuna pagina, controllare la connessione di rete del computer.</li>
   <li>Se il computer o la rete sono protetti da un firewall o un proxy, assicurarsi che &brandShortName; abbia i permessi per accedere al web.</li>
 </ul>
@@ -131,11 +131,6 @@
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Contattare l’amministratore del sito web e segnalare il problema.</li></ul></p>">
 <!ENTITY sslv3Used.title "Impossibile stabilire una connessione sicura">
 <!ENTITY sslv3Used.longDesc2 "Informazioni avanzate: SSL_ERROR_UNSUPPORTED_VERSION">
-<!ENTITY weakCryptoUsed.title "Questa connessione non è sicura">
-<!ENTITY weakCryptoUsed.longDesc2 "Informazioni avanzate: SSL_ERROR_NO_CYPHER_OVERLAP">
-<!ENTITY weakCryptoAdvanced.title "Avanzate">
-<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> utilizza protocolli di sicurezza obsoleti e vulnerabili. Questo potrebbe consentire a malintenzionati di intercettare e leggere informazioni che l’utente considera sicure.">
-<!ENTITY weakCryptoAdvanced.override "(Non sicuro) Prova a caricare <span class='hostname'></span> utilizzando protocolli di sicurezza obsoleti">
 <!ENTITY certerror.wrongSystemTime2 "<p>Non è possibile connettersi a <span id='wrongSystemTime_URL'/> in quanto l’orologio del sistema sembra impostato su un valore errato e questo impedisce di stabilire una connessione sicura.</p> <p>L’ora impostata nel computer è <span id='wrongSystemTime_systemDate'/>, mentre dovrebbe essere <span id='wrongSystemTime_actualDate'/>. Per risolvere il problema impostare correttamente la data e l’ora del computer.</p>">
 <!ENTITY certerror.wrongSystemTimeWithoutReference "<p>Non è possibile connettersi a <span id='wrongSystemTimeWithoutReference_URL'/> in quanto l’orologio del sistema sembra impostato su un valore errato e questo impedisce di stabilire una connessione sicura.</p> <p>L’ora impostata nel computer è <span id='wrongSystemTimeWithoutReference_systemDate'/>. Per risolvere il problema impostare correttamente la data e l’ora del computer.</p>">
 <!ENTITY certerror.pagetitle1 "Connessione non sicura">

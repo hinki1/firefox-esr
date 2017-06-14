@@ -387,6 +387,8 @@ size. -->
 <!ENTITY pref_history_search_suggestions "Montri serĉan historion">
 <!ENTITY pref_import_options "Elekteboj de importo">
 <!ENTITY pref_import_android_summary "Importi legosignojn kaj historion el la nativa retumilo">
+<!-- Localization note (pref_private_data_openTabs): Open tabs is an option in
+     the Clear Private Data  dialog and refers to currently open tabs. -->
 <!ENTITY pref_private_data_openTabs "Malfermitaj langetoj">
 <!ENTITY pref_private_data_history2 "Historio de retumado">
 <!ENTITY pref_private_data_searchHistory "Historio de serĉoj">
@@ -518,10 +520,8 @@ size. -->
 <!ENTITY doorhanger_login_edit_username_hint "Uzantonomo">
 <!ENTITY doorhanger_login_edit_password_hint "Pasvorto">
 <!ENTITY doorhanger_login_edit_toggle "Montri pasvorton">
-<!ENTITY doorhanger_login_edit_toast_error "Malsukcesa konservado de seanco">
 <!ENTITY doorhanger_login_select_message "Ĉu kopii pasvorton de &formatS;?">
 <!ENTITY doorhanger_login_select_toast_copy "Pasvorto kopiita al la tondujo">
-<!ENTITY doorhanger_login_select_toast_copy_error "Ne eblis kopii pasvorton">
 <!ENTITY doorhanger_login_select_action_text "Elekti alian akreditilon">
 <!ENTITY doorhanger_login_select_title "Kopii pasvorton de">
 

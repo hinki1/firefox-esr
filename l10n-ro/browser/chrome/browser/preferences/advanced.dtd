@@ -12,7 +12,7 @@
 <!ENTITY useCursorNavigation.accesskey   "F">
 <!ENTITY searchOnStartTyping.label       "Caută textul când încep să tastez">
 <!ENTITY searchOnStartTyping.accesskey   "x">
-<!ENTITY blockAutoReload.label           "Te avertizează când site-urile web încearcă să redirecteze sau să reîncarce pagina">
+<!ENTITY blockAutoReload.label           "Avertizează când site-urile web încearcă să redirecteze sau să reîncarce pagina">
 <!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "Arată o tastatură tactilă când este necesar">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
@@ -53,7 +53,7 @@
 <!ENTITY connectionSettings.label        "Setări…">
 <!ENTITY connectionSettings.accesskey    "e">
 
-<!ENTITY httpCache.label                 "Conținut web păstrat temporar">
+<!ENTITY httpCache.label                 "Conținut web în cache">
 
 <!ENTITY offlineStorage2.label           "Conținut web offline și datele utilizatorului">
 <!--  Site Data section manages sites using Storage API and is under Network -->
@@ -97,7 +97,6 @@
 <!ENTITY useService.label                "Folosește serviciul care rulează în fundal pentru a instala actualizări">
 <!ENTITY useService.accesskey            "d">
 
-<!ENTITY autoUpdateOthers.label          "Actualizează automat">
 <!ENTITY enableSearchUpdate.label        "Motoare de căutare">
 <!ENTITY enableSearchUpdate.accesskey    "M">
 

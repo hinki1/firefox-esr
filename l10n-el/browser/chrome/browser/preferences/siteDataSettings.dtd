@@ -6,6 +6,15 @@
 <!ENTITY     settings.description          "Οι παρακάτω ιστοτόποι ζήτησαν την αποθήκευση δεδομένων στο δίσκο σας. Μπορείτε να καθορίσετε ποιοι ιστοτόποι θα επιτρέπεται να αποθηκεύουν δεδομένα. Εξ' ορισμού τα δεδομένα των ιστοτόπων είναι προσωρινά και διαγράφονται αυτόματα.">
 <!ENTITY     hostCol.label                 "Ιστοτόπος">
 <!ENTITY     statusCol.label               "Κατάσταση">
-<!ENTITY     usageCol.label                "Αποθήκη">
-<!ENTITY     search.label                  "Αναζήτηση:">
-<!ENTITY     search.accesskey              "Α">
+<!ENTITY     usageCol.label                "Αποθήκευση">
+<!ENTITY     searchPlaceHolder             "Αναζήτηση">
+<!ENTITY     searchPlaceHolder.accesskey   "Α">
+<!ENTITY     removeSelected.label          "Αφαίρεση επιλεγμένων">
+<!ENTITY     removeSelected.accesskey      "α">
+<!ENTITY     save.label                    "Αποθήκευση αλλαγών">
+<!ENTITY     save.accesskey                "λ">
+<!ENTITY     cancel.label                  "Ακύρωση">
+<!ENTITY     cancel.accesskey              "Α">
+<!ENTITY     removingDialog.title          "Αφαίρεση δεδομένων ιστοσελίδας">
+<!ENTITY     removingDialog.description    "Η διαγραφή των δεδομένων ιστοσελίδων θα διαγράψει και τα cookies. Αυτό ενδέχεται να σάς αποσυνδέσει από ιστοσελίδες και να αφαιρέσει το διαδικτυακό περιεχόμενο εκτός σύνδεσης. Θέλετε σίγουρα να εφαρμόσετε τις αλλαγές;">
+<!ENTITY     siteTree.label                "Θα αφαιρεθούν τα ακόλουθα cookies ιστοσελίδων:">

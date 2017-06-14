@@ -14,8 +14,8 @@
 <!ENTITY searchOnStartTyping.accesskey   "c">
 <!ENTITY blockAutoReload.label           "Miya ngec kace kakube tye katemo me cwalo onyo cano pot buk">
 <!ENTITY blockAutoReload.accesskey       "k">
-
-
+<!ENTITY useOnScreenKeyboard.label       "Nyut kadiyo coc ma ki gudo aguda ka mite">
+<!ENTITY useOnScreenKeyboard.accesskey   "k">
 
 <!ENTITY browsing.label                  "Yenyo">
 
@@ -58,7 +58,9 @@
 <!ENTITY offlineStorage2.label           "Gin manonge iye me kakube ma pe iwiyamo kacel ki tic pa ngat matiyo kwede">
 <!--  Site Data section manages sites using Storage API and is under Network -->
 
-
+<!ENTITY siteData.label                  "Data me kakube">
+<!ENTITY clearSiteData.label             "Jwa data weng">
+<!ENTITY clearSiteData.accesskey         "a">
 <!ENTITY siteDataSettings.label          "Ter…">
 <!ENTITY siteDataSettings.accesskey      "e">
 <!ENTITY siteDataLearnMoreLink.label     "Nong ngec mapol">
@@ -81,7 +83,7 @@
 
 <!ENTITY updateTab.label                 "Ngec manyen">
 
-<!ENTITY updateApplication.label         "ngec manyen me &brandShortName;">
+<!ENTITY updateApplication.label         "Ngec manyen me &brandShortName;">
 <!ENTITY updateAuto1.label               "Ket ngec manyen pire kene (kicwako: ber bedo i rwom mamalo)">
 <!ENTITY updateAuto1.accesskey           "n">
 <!ENTITY updateCheckChoose.label         "Rot pi ngec manyen, ento weko iyero kace imito keto gi">
@@ -99,7 +101,8 @@
 <!ENTITY enableSearchUpdate.label        "Gin me Yeny">
 <!ENTITY enableSearchUpdate.accesskey    "i">
 
-
+<!ENTITY offlineStorageNotify.label               "Miyi ngec kace kakube penyo me kano tic pi tic kwede ma nongo pe okube iwi yamo">
+<!ENTITY offlineStorageNotify.accesskey           "M">
 <!ENTITY offlineStorageNotifyExceptions.label     "Ma kiweko woko…">
 <!ENTITY offlineStorageNotifyExceptions.accesskey "i">
 

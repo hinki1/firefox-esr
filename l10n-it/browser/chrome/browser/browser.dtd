@@ -128,6 +128,7 @@
 <!ENTITY showAllBookmarks2.label "Visualizza tutti i segnalibri">
 <!ENTITY recentBookmarks.label "Aggiunti di recente">
 <!ENTITY otherBookmarksCmd.label "Altri segnalibri">
+<!ENTITY mobileBookmarksCmd.label "Segnalibri mobile">
 <!ENTITY bookmarksToolbarChevron.tooltip "Visualizza altri segnalibri">
 <!ENTITY showRecentlyBookmarked.label "Visualizza segnalibri recenti">
 <!ENTITY showRecentlyBookmarked.accesskey "b">
@@ -176,6 +177,7 @@
 <!ENTITY bookmarksCmd.commandkey "b">
 <!ENTITY bookmarksMenuButton.label "Segnalibri">
 <!ENTITY bookmarksMenuButton.other.label "Altri segnalibri">
+<!ENTITY bookmarksMenuButton.mobile.label "Segnalibri mobile">
 <!ENTITY viewBookmarksSidebar2.label "Visualizza barra laterale segnalibri">
 <!ENTITY viewBookmarksToolbar.label "Visualizza Barra dei segnalibri">
 <!ENTITY containersMenu.label "Contenitori">
@@ -264,6 +266,10 @@
 <!ENTITY appMenuHelp.tooltip "Apri la guida">
 <!ENTITY appMenuRemoteTabs.label "Schede sincronizzate">
 <!ENTITY appMenuRemoteTabs.notabs.label "Nessuna scheda aperta">
+<!ENTITY appMenuRemoteTabs.showMore.label "Visualizza altre">
+<!ENTITY appMenuRemoteTabs.showMore.tooltip "Visualizza altre schede da questo dispositivo">
+<!ENTITY appMenuRemoteTabs.showAll.label "Visualizza tutte">
+<!ENTITY appMenuRemoteTabs.showAll.tooltip "Visualizza tutte le schede da questo dispositivo">
 <!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "Attiva la sincronizzazione delle schede per visualizzare le schede disponibili negli altri dispositivi.">
 <!ENTITY appMenuRemoteTabs.noclients.title "Nessuna scheda sincronizzata (per ora)">
 <!ENTITY appMenuRemoteTabs.noclients.subtitle "Come fare per visualizzare in questa sezione le schede da altri dispositivi?">

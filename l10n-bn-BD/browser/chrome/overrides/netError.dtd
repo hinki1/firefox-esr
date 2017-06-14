@@ -8,7 +8,7 @@
 <!ENTITY loadError.label "পৃষ্ঠা লোড করতে সমস্যা">
 <!ENTITY retry.label "পুনরায় চেষ্টা করুন">
 <!ENTITY returnToPreviousPage.label "পিছনে ফিরে যাও">
-<!ENTITY advanced.label "উন্নততর ">
+<!ENTITY advanced.label "উন্নততর">
 <!-- Specific error messages -->
 
 
@@ -31,9 +31,9 @@
 <!ENTITY generic.longDesc "<p>কোনো কারণে &brandShortName; এই পৃষ্ঠাটি লোড করতে পারছে না।</p>">
 
 <!ENTITY captivePortal.title "নেটওয়ার্কে লগইন করুন">
+<!ENTITY captivePortal.longDesc2 "<p>ইন্টারনেট প্রবেশ করতে হলে, আপনাকে এই নেটওয়ার্কে অবশ্যই লগইন করতে হবে।</p>">
 
-
-<!ENTITY openPortalLoginPage.label "লগইন পাতা খুলুন">
+<!ENTITY openPortalLoginPage.label2 "নেটওয়ার্ক লগইন পৃষ্ঠা খুলুন">
 
 <!ENTITY malformedURI.title "ঠিকানাটি কার্যকর নয়">
 <!ENTITY malformedURI.longDesc "<ul> <li>ওয়েব ঠিকানা সাধারণত এভাবে লেখা হয় - <strong>http://www.example.com/</strong></li> <li>আপনি ফরওয়ার্ড স্ল্যাশ (<strong>/</strong>) ব্যবহার করেছেন কিনা তা পরীক্ষা করুন।</li> </ul>">
@@ -104,18 +104,12 @@ was trying to connect. -->
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc2) - Do not translate
      "SSL_ERROR_UNSUPPORTED_VERSION". -->
 <!ENTITY sslv3Used.longDesc2 "বিস্তারিত তথ্য: SSL_ERROR_UNSUPPORTED_VERSION">
-
-<!ENTITY weakCryptoUsed.title "আপনার সংযোগ নিরাপদ নয়">
-<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
-     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
-<!ENTITY weakCryptoUsed.longDesc2 "উচ্চপর্যায়ের তথ্য: SSL_ERROR_NO_CYPHER_OVERLAP">
-<!ENTITY weakCryptoAdvanced.title "উন্নততর">
-<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> একটি নিরাপত্তা ব্যবস্থা ব্যবহার করে যা সেকেলে এবং অরক্ষিত। একজন আক্রমণকারী সহজেই সেই তথ্যগুলো ফাঁস করে দিতে পারে যা আপনি নিরাপদ মনে করতেন।">
-<!ENTITY weakCryptoAdvanced.override "(নিরাপদ নয়) পুরনো নিরাপত্তা ব্যবস্থা ব্যবহার করেই <span class='hostname'></span> লোড করার চেষ্টা করুন">
 <!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
                         certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
      tags will be injected with actual values, please leave them unchanged. -->
 
+<!ENTITY certerror.wrongSystemTime2 "<p> &brandShortName; আপনার <span id='wrongSystemTime_URL'/> সাথে সংযোগ স্থাপন করেনি। কারণ আপনার কম্পিউটারের ঘড়ি ভুল সময় প্রদর্শন করছে, যা নিরাপদ সংযোগ স্থাপনের অন্তরায়।</p><p>আপনার কম্পিউটার<span id='wrongSystemTime_systemDate'/> সেট করা রয়েছে, অথচ এটি <span id='wrongSystemTime_actualDate'/> সেট থাকার কথা। এই সমস্যা দূর করতে, আপনার তারিখ ও সময়ের সেটিংস সঠিক করুন।</p>">
+<!ENTITY certerror.wrongSystemTimeWithoutReference "<p> &brandShortName; আপনার <span id='wrongSystemTimeWithoutReference_URL'/> সাথে সংযোগ স্থাপন করেনি। কারণ আপনার কম্পিউটারের ঘড়ি ভুল সময় প্রদর্শন করছে, যা নিরাপদ সংযোগ স্থাপনের অন্তরায়।</p><p>আপনার কম্পিউটার <span id='wrongSystemTimeWithoutReference_systemDate'/> সেট করা রয়েছে। এই সমস্যা দূর করতে, আপনার তারিখ ও সময়ের সেটিংস সঠিক করুন।</p>">
 
 <!ENTITY certerror.pagetitle1  "অনিরাপদ সংযোগ">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "সাইটটি HTTP ব্যবহার করে পরিবহনে সর্বোচ্চ নিরাপত্তা (HSTS) নিশ্চিত করে যে &brandShortName; এর সাথে শুধুমাত্র সুরক্ষিত সংযোগ করবে। যার ফলে, এই সার্টিফিকেট এর জন্যে একটি ব্যতিক্রম যোগ করা যাবেনা।">

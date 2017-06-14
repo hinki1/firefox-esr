@@ -7,5 +7,14 @@
 <!ENTITY     hostCol.label                 "Scito">
 <!ENTITY     statusCol.label               "Stato">
 <!ENTITY     usageCol.label                "Memöia">
-<!ENTITY     search.label                  "Çerca:">
-<!ENTITY     search.accesskey              "c">
+<!ENTITY     searchPlaceHolder             "Çerca">
+<!ENTITY     searchPlaceHolder.accesskey   "e">
+<!ENTITY     removeSelected.label          "Scancella seleçionæ">
+<!ENTITY     removeSelected.accesskey      "r">
+<!ENTITY     save.label                    "Sarva cangiamenti">
+<!ENTITY     save.accesskey                "a">
+<!ENTITY     cancel.label                  "Anulla">
+<!ENTITY     cancel.accesskey              "A">
+<!ENTITY     removingDialog.title          "Scancella dæti do scito">
+<!ENTITY     removingDialog.description    "Scancelando i dæti do scito ti leviæ pure i cookie. Questo o te porieva fâ sciortî da i sciti e scancelâ o contegnuo feua linia. T'ê seguo de fâ sti cangiamenti?">
+<!ENTITY     siteTree.label                "I segoenti cookie saian scancelæ:">

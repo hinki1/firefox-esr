@@ -169,7 +169,7 @@
      are found. -->
 <!ENTITY overlay_no_synced_devices "Não foram encontrados dispositivos associados à Conta Firefox">
 
-<!ENTITY pref_category_search3 "Pesquisar">
+<!ENTITY pref_category_search3 "Pesquisa">
 <!ENTITY pref_category_search_summary2 "Adicionar, definir predefinição, mostrar sugestões">
 <!ENTITY pref_category_accessibility "Acessibilidade">
 <!ENTITY pref_category_accessibility_summary2 "Tamanho do texto, zoom, introdução por voz">
@@ -233,7 +233,7 @@
 <!-- Localization note: These are shown in the left sidebar on tablets -->
 
 <!ENTITY pref_header_general "Geral">
-<!ENTITY pref_header_search "Pesquisar">
+<!ENTITY pref_header_search "Pesquisa">
 <!ENTITY pref_header_privacy_short "Privacidade">
 <!ENTITY pref_header_accessibility "Acessibilidade">
 <!ENTITY pref_header_notifications "Notificações">
@@ -369,7 +369,7 @@ size. -->
 <!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
     demonstrate the font size setting.  It is meant to be whimsical and fun. -->
 
-<!ENTITY pref_font_size_preview_text "A raposa ultrapassa as suas expetativas com mais velocidade, maior flexibilidade e mais segurança. Como não temos fins lucrativos, nós estamos livres para inovar em seu nome sem qualquer pressão ou compromisso. Isto significa uma melhor experiência para si e um futuro brilhante para a Web.">
+<!ENTITY pref_font_size_preview_text "A rápida raposa laranja salta por cima das suas expetativas com mais velocidade, maior flexibilidade e mais segurança. Como não temos fins lucrativos, somos livres para inovar em seu nome sem qualquer pressão ou compromisso. Isto significa uma melhor experiência para si e um futuro brilhante para a Web.">
 
 <!ENTITY pref_media_autoplay_enabled "Permitir reprodução automática">
 <!ENTITY pref_media_autoplay_enabled_summary "Define se os websites podem reproduzir automaticamente vídeos e outros tipos de conteúdos multimédia">
@@ -387,6 +387,8 @@ size. -->
 <!ENTITY pref_history_search_suggestions "Mostrar histórico de pesquisa">
 <!ENTITY pref_import_options "Opções de importação">
 <!ENTITY pref_import_android_summary "Importar marcadores e histórico do navegador nativo">
+<!-- Localization note (pref_private_data_openTabs): Open tabs is an option in
+     the Clear Private Data  dialog and refers to currently open tabs. -->
 <!ENTITY pref_private_data_openTabs "Separadores abertos">
 <!ENTITY pref_private_data_history2 "Histórico de navegação">
 <!ENTITY pref_private_data_searchHistory "Histórico de pesquisas">
@@ -518,10 +520,8 @@ size. -->
 <!ENTITY doorhanger_login_edit_username_hint "Nome de utilizador">
 <!ENTITY doorhanger_login_edit_password_hint "Palavra-passe">
 <!ENTITY doorhanger_login_edit_toggle "Mostrar palavra-passe">
-<!ENTITY doorhanger_login_edit_toast_error "Não foi possível guardar a credencial">
 <!ENTITY doorhanger_login_select_message "Copiar palavra-passe de &formatS;?">
 <!ENTITY doorhanger_login_select_toast_copy "Palavra-passe copiada para a área de transferência">
-<!ENTITY doorhanger_login_select_toast_copy_error "Não foi possível copiar a palavra-passe">
 <!ENTITY doorhanger_login_select_action_text "Selecione outra credencial">
 <!ENTITY doorhanger_login_select_title "Copiar palavra-passe de">
 <!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
@@ -650,11 +650,11 @@ substitution variables.  If it is difficult to translate the sense of the string
 with that structure, consider a translation which ignores the preceding domain and
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_connection_secure "Ligação segura">
-<!ENTITY identity_connection_insecure "Ligação não-segura">
+<!ENTITY identity_connection_insecure "Ligação insegura">
 <!ENTITY identity_connection_chromeui "Esta é uma página segura do &brandShortName;">
 <!-- Mixed content notifications in site identity popup -->
 
-<!ENTITY mixed_content_blocked_all1 "O &brandShortName; bloqueou conteúdo não-seguro nesta página.">
+<!ENTITY mixed_content_blocked_all1 "O &brandShortName; bloqueou conteúdo inseguro nesta página.">
 <!ENTITY mixed_content_blocked_some1 "O &brandShortName; bloqueou algum do conteúdo inseguro nesta página.">
 <!ENTITY mixed_content_display_loaded1 "Partes desta página não são seguras (por exemplo, imagens).">
 <!ENTITY mixed_content_protection_disabled1 "Desativou a proteção para conteúdo inseguro.">
@@ -664,7 +664,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY doorhanger_tracking_state_enabled "Ativada">
 <!ENTITY doorhanger_tracking_state_disabled "Desativado">
 <!ENTITY doorhanger_tracking_message_enabled1 "As tentativas de monitorizar o seu comportamento online foram bloqueadas.">
-<!ENTITY doorhanger_tracking_message_disabled2 "Esta página contem elementos que podem monitorizar a sua navegação.">
+<!ENTITY doorhanger_tracking_message_disabled2 "Esta página incluí elementos que podem monitorizar a sua navegação.">
 <!-- Common mixed and tracking content strings in site identity popup -->
 
 <!ENTITY learn_more "Saber mais">
@@ -747,7 +747,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      They are never shown to users -->
 
 <!ENTITY actionbar_menu "Menu">
-<!ENTITY actionbar_done "OK">
+<!ENTITY actionbar_done "Feito">
 <!-- Voice search in the awesome bar -->
 
 <!ENTITY voicesearch_prompt "Fale agora">

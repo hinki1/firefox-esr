@@ -184,6 +184,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllBookmarks2.label "Sken akk ticraḍ n isebtar">
 <!ENTITY recentBookmarks.label "Wid ittwacerḍen melmi kan">
 <!ENTITY otherBookmarksCmd.label "Ticrad nniḍen">
+<!ENTITY mobileBookmarksCmd.label "Ticraḍ n isebtar n uziraz">
 <!ENTITY bookmarksToolbarChevron.tooltip "Sken ugar n ticraḍ n isebtar">
 <!ENTITY showRecentlyBookmarked.label     "Wali tid ittwacerḍen melmi kan">
 <!ENTITY showRecentlyBookmarked.accesskey "W">
@@ -245,6 +246,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenuButton.label          "Ticraḍ n isebtar">
 <!ENTITY bookmarksMenuButton.other.label "Ticrad nniḍen">
+<!ENTITY bookmarksMenuButton.mobile.label "Ticraḍ n isebtar n uziraz">
 <!ENTITY viewBookmarksSidebar2.label        "Sken agalis n ticraḍ n usebter">
 <!ENTITY viewBookmarksToolbar.label         "Skena afeggag  udmawan">
 
@@ -356,6 +358,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "Ulac iccaren yeldin">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showMore.label, appMenuRemoteTabs.showMore.tooltip):
+     This is shown after the tabs list if we can display more tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showMore.label "Sken ugar">
+<!ENTITY appMenuRemoteTabs.showMore.tooltip "Sken ugar n yiccaren seg ibek-agi">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showAll.label, appMenuRemoteTabs.showAll.tooltip):
+     This is shown after the tabs list if we can all the remaining tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showAll.label "Sken akk">
+<!ENTITY appMenuRemoteTabs.showAll.tooltip "Sken akk iccaren seg ibenk-agi">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "Rmed amtawi n yiccer akken ad-sekneḍ tabdart n yiccaren seg ibenkan-inek nniḍen">
@@ -720,7 +730,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.description.activeBlocked "&brandShortName; isewḥel kra n yeḥricen n usebter-agi ur nelli ara d iɣelsanen.">
 <!ENTITY identity.description.passiveLoaded "Zemren wiyaḍ ad walin talɣut tebḍiḍ d usmel-agi acku tuqqna yinek mačči d tusligt.">
 <!ENTITY identity.description.passiveLoaded2 "Asmel-agi isεa agbur araɣelsan (am tugniwin)">
-<!ENTITY identity.description.passiveLoaded3 "Ɣas akken &brandShortName; isewḥel kra n ugbur, mazal yalan kra n ugbur ur nelli d aɣelsan ɣef usebter (am tugniwin).">
+<!ENTITY identity.description.passiveLoaded3 "Γas akken &brandShortName; isewḥel kra n ugbur, mazal yalan kra n ugbur ur nelli d aɣelsan ɣef usebter (am tugniwin).">
 <!ENTITY identity.description.activeLoaded "Asmel-agi isεa agbur araɣelsan (am iskripten) u tuqqna yinek ɣur-s mačči d tusligt.">
 <!ENTITY identity.description.activeLoaded2 "Zemren wiyaḍ ad walin talɣut tebḍiḍ d usmel-agi (am awalen uffiren, iznan, art.). ">
 

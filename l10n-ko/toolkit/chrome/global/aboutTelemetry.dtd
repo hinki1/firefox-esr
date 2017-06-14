@@ -155,12 +155,12 @@
   주의E: 느린 SQL 디버깅이 시작합니다. 전체 SQL 문자열이 표시되나 데이터 측정에는 포함되지 않습니다.
 ">
 
-<!ENTITY aboutTelemetry.fetchSymbols "
-  중단 시 함수 명 가져오기
+<!ENTITY aboutTelemetry.fetchStackSymbols "
+  스택에 대한 함수 이름 가져오기
 ">
 
-<!ENTITY aboutTelemetry.hideSymbols "
-  중단 시 기초 자료 보이기
+<!ENTITY aboutTelemetry.hideStackSymbols "
+  원본 스택 데이터 보기
 ">
 
 <!ENTITY aboutTelemetry.filterText "

@@ -314,6 +314,11 @@
 %undef L10N_RECOMMENDS
 %include @PRODUCT@-l10n.control.in
 
+%define L10N_LANG my
+%define L10N_LANGUAGE Burmese
+%undef L10N_RECOMMENDS
+%include @PRODUCT@-l10n.control.in
+
 %define L10N_LANG nb-no
 %define L10N_LANGUAGE Norwegian Bokmål (Norway)
 %define L10N_RECOMMENDS myspell-nb

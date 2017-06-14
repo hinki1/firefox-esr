@@ -39,7 +39,7 @@
 <!ENTITY  mediaDimension        "ממדים:">
 <!ENTITY  mediaLongdesc         "תיאור:">
 <!ENTITY  mediaBlockImage.accesskey "ח">
-<!ENTITY  mediaSaveAs           "שמור בשם...">
+<!ENTITY  mediaSaveAs           "שמירה בשם…">
 <!ENTITY  mediaSaveAs.accesskey "ש">
 <!ENTITY  mediaSaveAs2.accesskey "ב">
 <!ENTITY  mediaPreview          "תצוגה מקדימה:">
@@ -77,10 +77,10 @@
 <!ENTITY  securityView.privacy.header                   "פרטיות והיסטוריה">
 <!ENTITY  securityView.privacy.history                  "האם ביקרתי באתר זה בעבר?">
 <!ENTITY  securityView.privacy.cookies                  "האם אתר זה שומר מידע (עוגיות) על המחשב שלי?">
-<!ENTITY  securityView.privacy.viewCookies              "הצג עוגיות">
+<!ENTITY  securityView.privacy.viewCookies              "הצגת עוגיות">
 <!ENTITY  securityView.privacy.viewCookies.accessKey    "ע">
 <!ENTITY  securityView.privacy.passwords                "האם שמרתי ססמאות עבור אתר זה?">
-<!ENTITY  securityView.privacy.viewPasswords            "הצג ססמאות שמורות">
+<!ENTITY  securityView.privacy.viewPasswords            "הצגת ססמאות שמורות">
 <!ENTITY  securityView.privacy.viewPasswords.accessKey  "ס">
 
 <!ENTITY  securityView.technical.header                 "פירוט טכני">

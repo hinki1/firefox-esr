@@ -8,7 +8,7 @@
 <!ENTITY loadError.label "Problemă la încărcarea paginii">
 <!ENTITY retry.label "Încearcă din nou">
 <!ENTITY returnToPreviousPage.label "Mergi înapoi">
-<!ENTITY advanced.label "Avansat">
+
 <!-- Specific error messages -->
 
 
@@ -30,10 +30,10 @@
 <!ENTITY generic.title "Au.">
 <!ENTITY generic.longDesc "<p>&brandShortName; nu poate încărca pagina dintr-un motiv oarecare.</p>">
 
-<!ENTITY captivePortal.title "Autentificare în rețea">
-<!ENTITY captivePortal.longDesc "<p>Pentru a folosi internetul ar putea fi necesar să te autentifici cu această rețea.</p>">
+<!ENTITY captivePortal.title "Autentificare la rețea">
+<!ENTITY captivePortal.longDesc2 "<p>Trebuie să te autentifici la această rețea înainte de a accesa internetul.</p>">
 
-<!ENTITY openPortalLoginPage.label "Deschide pagina de autentificare">
+<!ENTITY openPortalLoginPage.label2 "Deschide pagina de autentificare la rețea">
 
 <!ENTITY malformedURI.title "Adresa nu este validă">
 <!ENTITY malformedURI.longDesc "<ul> <li>Adresele web se scriu de obicei așa: <strong>http://www.exemplu.ro/</strong></li> <li>Asigurați-vă că folosiți slash-uri orientate spre dreapta (de ex., <strong>/</strong>).</li> </ul>">
@@ -60,7 +60,7 @@
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
 <!ENTITY unknownProtocolFound.title "Adresa nu a fost înțeleasă">
-<!ENTITY unknownProtocolFound.longDesc "<ul> <li>S-ar putea să fie nevoie să instalați alt software pentru a deschide această adresă.</li> </ul>">
+<!ENTITY unknownProtocolFound.longDesc "<ul> <li>S-ar putea să fie nevoie să instalezi alt program pentru a deschide această adresă.</li> </ul>">
 
 <!ENTITY proxyConnectFailure.title "Serverul proxy refuză conexiuni">
 <!ENTITY proxyConnectFailure.longDesc "<ul> <li>Verificați setările proxy pentru a vă asigura că sunt corecte.</li> <li>Contactați administratorul rețelei pentru a vă asigura că serverul proxy funcționează.</li> </ul>">
@@ -104,14 +104,6 @@ was trying to connect. -->
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc2) - Do not translate
      "SSL_ERROR_UNSUPPORTED_VERSION". -->
 <!ENTITY sslv3Used.longDesc2 "Informații avansate: SSL_ERROR_UNSUPPORTED_VERSION">
-
-<!ENTITY weakCryptoUsed.title "Conexiunea nu este securizată">
-<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
-     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
-<!ENTITY weakCryptoUsed.longDesc2 "Informații avansate: SSL_ERROR_NO_CYPHER_OVERLAP">
-<!ENTITY weakCryptoAdvanced.title "Avansat">
-<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> folosește tehnologie de securitate care este învechită și vulnerabilă la atac. Un atacator ar putea dezvălui cu ușurință informații pe care le credeai a fi în siguranță.">
-<!ENTITY weakCryptoAdvanced.override "(Nesigur) Încearcă încărcarea <span class='hostname'></span> folosind securitate învechită">
 <!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
                         certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
      tags will be injected with actual values, please leave them unchanged. -->

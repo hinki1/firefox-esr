@@ -76,7 +76,7 @@
    Зависания браузера ">
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "
-   Зависания потоков">
+   Зависания потоков ">
 
 <!ENTITY aboutTelemetry.capturedStacksSection "
 
@@ -126,11 +126,12 @@
 <!ENTITY aboutTelemetry.fullSqlWarning "
       ПРИМЕЧАНИЕ: Включён медленный режим отладки SQL. Внизу могут быть показаны полные строки SQL, но в телеметрию они отправлены не будут. ">
 
-<!ENTITY aboutTelemetry.fetchSymbols "
-   Загрузить имена функций для стеков зависаний ">
+<!ENTITY aboutTelemetry.fetchStackSymbols "
+  Загрузить имена функций для стеков">
 
-<!ENTITY aboutTelemetry.hideSymbols "
-   Показать сырые данные из зависаний ">
+<!ENTITY aboutTelemetry.hideStackSymbols "
+  Показать сырые данные стека
+">
 
 <!ENTITY aboutTelemetry.filterText "
   Фильтр (строковый или /regexp/)

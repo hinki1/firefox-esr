@@ -70,7 +70,7 @@
 <!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext             "Приемане на събитието като несигурно за всички случвания на събитието">
 <!ENTITY lightning.imipbar.btnUpdate.label                                  "Обновяване">
 <!ENTITY lightning.imipbar.btnUpdate.tooltiptext                            "Обновяване на събитието в календара">
-<!ENTITY lightning.imipbar.description                                      "Това писмо съдържа покана за събитие.">
+<!ENTITY lightning.imipbar.description                                      "Писмото съдържа покана за събитие.">
 
 <!-- Lightning specific keybindings -->
 <!ENTITY lightning.keys.event.showCalendar.key "C">
@@ -88,6 +88,6 @@
 <!ENTITY todaypane.showMiniday.accesskey  "д">
 <!ENTITY todaypane.showNone.label "Без показване">
 <!ENTITY todaypane.showNone.accesskey "в">
-<!ENTITY todaypane.showTodayPane.label "Показване на дневния плот">
+<!ENTITY todaypane.showTodayPane.label "Показване на дневния график">
 <!ENTITY todaypane.showTodayPane.accesskey "к">
-<!ENTITY todaypane.statusButton.label "Дневен плот">
+<!ENTITY todaypane.statusButton.label "Дневен график">
