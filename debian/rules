@@ -20,11 +20,12 @@ PRODUCT := browser
 include debian/upstream.mk
 
 SYSTEM_LIBS = zlib bz2 ffi libevent
-ifeq (,$(filter wheezy jessie,$(DIST)))
-SYSTEM_LIBS += hunspell nspr nss sqlite vpx
+ifeq (,$(filter wheezy jessie stretch,$(DIST)))
+SYSTEM_LIBS += hunspell nspr nss sqlite
 endif
-# Until the required version of sqlite can be in Debian.
-SYSTEM_LIBS := $(filter-out sqlite, $(SYSTEM_LIBS))
+ifeq (,$(filter wheezy jessie,$(DIST)))
+SYSTEM_LIBS += vpx
+endif
 
 define system_lib
 USE_SYSTEM_$(1) = 1
