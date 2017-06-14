@@ -30,7 +30,7 @@ $(foreach arch,$(ARCHES),$(call download_package,$1,$(lastword $(subst :, ,$(PAC
 endef
 
 $(eval $(call define_package,$(PACKAGE_NAME)))
-ifeq (,$(filter $(BACKPORT),wheezy jessie))
+ifeq (,$(filter $(DIST),wheezy jessie))
 DBG=dbgsym
 else
 DBG=dbg

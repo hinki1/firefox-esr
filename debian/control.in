@@ -4,12 +4,12 @@ Priority: optional
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Uploaders: Mike Hommey <glandium@debian.org>
 Build-Depends: autotools-dev,
-%if BACKPORT == wheezy || BACKPORT == jessie
+%if DIST == wheezy || DIST == jessie
                debhelper (>= 9),
 %else
                debhelper (>= 9.20160114),
 %endif
-%if BACKPORT == wheezy
+%if DIST == wheezy
                gcc-mozilla,
 %endif
                autoconf2.13,
@@ -127,7 +127,7 @@ Description: Web browser based on Firefox - Transitional package
  This is a transitional package, it can be safely removed.
 %endif
 
-%if BACKPORT == wheezy || BACKPORT == jessie
+%if DIST == wheezy || DIST == jessie
 Package: @browser@-dbg
 Architecture: any
 Priority: extra

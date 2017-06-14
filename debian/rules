@@ -20,7 +20,7 @@ PRODUCT := browser
 include debian/upstream.mk
 
 SYSTEM_LIBS = zlib bz2 ffi libevent
-ifeq (,$(filter wheezy jessie,$(BACKPORT)))
+ifeq (,$(filter wheezy jessie,$(DIST)))
 SYSTEM_LIBS += hunspell nspr nss sqlite vpx
 endif
 # Until the required version of sqlite can be in Debian.
@@ -32,7 +32,7 @@ SYSTEM_LIBS_VARS += USE_SYSTEM_$(1)
 endef
 $(foreach lib,$(sort $(call uc,$(SYSTEM_LIBS))),$(eval $(call system_lib,$(lib))))
 
-ifeq ($(BACKPORT),wheezy)
+ifeq ($(DIST),wheezy)
 CC := /usr/lib/gcc-mozilla/bin/gcc
 CXX := /usr/lib/gcc-mozilla/bin/g++
 endif
@@ -155,7 +155,7 @@ debian/l10n/$(PRODUCT)-l10n.control: %: %.in
 
 DICT_DIR := /usr/share/hunspell
 
-$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) MOZ_APP_REMOTINGNAME $(SYSTEM_LIBS_VARS) SHORT_SOURCE_CHANNEL GTK3 BACKPORT TRANSITION MOZ_FFVPX ICU_DATA_FILE CRASH_REPORTER DEB_BUILD_ARCH
+$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) MOZ_APP_REMOTINGNAME $(SYSTEM_LIBS_VARS) SHORT_SOURCE_CHANNEL GTK3 DIST TRANSITION MOZ_FFVPX ICU_DATA_FILE CRASH_REPORTER DEB_BUILD_ARCH
 debian/control: VARS += L10N_PACKAGES_DEPS PRODUCT
 $(PREPROCESSED_FILES):
 	$(PYTHON) python/mozbuild/mozbuild/preprocessor.py --marker % -Fsubstitution $(foreach var,$(VARS),-D$(var)="$($(var))" )$< > $@
@@ -340,7 +340,7 @@ stamps/dh_install:: debian/noinstall
 override_dh_install: stamps/dh_install
 
 override_dh_strip:
-ifneq (,$(filter wheezy jessie,$(BACKPORT)))
+ifneq (,$(filter wheezy jessie,$(DIST)))
 	dh_strip -a --dbg-package=$($(PRODUCT))-dbg
 else
 	dh_strip --dbgsym-migration='$($(PRODUCT))-dbg (<< 49.0-4~)'
