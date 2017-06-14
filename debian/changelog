@@ -1,6 +1,31 @@
-firefox (54.0-2) UNRELEASED; urgency=medium
+firefox (54.0-1) unstable; urgency=medium
 
   * New upstream release.
+  * Fixes for mfsa2017-15, also known as:
+    CVE-2017-5472, CVE-2017-7749, CVE-2017-7750, CVE-2017-7751,
+    CVE-2017-7752, CVE-2017-7754, CVE-2017-7756, CVE-2017-7757,
+    CVE-2017-7778, CVE-2017-7758, CVE-2017-7762, CVE-2017-7764,
+    CVE-2017-5471, CVE-2017-5470.
+  * Targetting unstable because the required rustc version is available there,
+    and the freeze is almost over, meaning new versions of rustc will receive
+    updates, allowing to build newer versions of Firefox.
+
+  * debian/rules, debian/control.in: Switch to GCC 4.8 on wheezy.
+  * debian/rules: Don't remove debian/control on clean. Thanks to
+    Emilio Pozuelo Monfort for those two changes for wheezy LTS support.
+  * debian/control.in, debian/rules, debian/symbols.mk, debian/upstream.mk:
+    Rename the BACKPORT variable to DIST, and set it to "stretch" for
+    unstable/testing targetted builds.
+  * debian/rules: Normalize the system libraries used depending on the Debian
+    version.
+  * debian/control*:
+    - Bump nspr and build dependencies.
+    - Bump rustc and cargo build dependencies.
+  * debian/rules:
+    - Allow to override USE_SYSTEM_* variables from the environment.
+    - Remove rules to create mozilla-nspr.pc.  It hasn't been shipped since
+      45.0-1.
+  * debian/browser.install.in: Add the pingsender executable.
 
  -- Mike Hommey <glandium@debian.org>  Wed, 14 Jun 2017 10:56:14 +0900
 
