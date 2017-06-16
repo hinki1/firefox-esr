@@ -281,6 +281,9 @@ endif
 		done; \
 	done
 
+override_dh_clean:
+	dh_clean -XCargo.toml.orig
+
 override_dh_auto_install: stamps/install-$(PRODUCT)
 
 stamps/install-$(PRODUCT):: build-$(PRODUCT)/debian/installer/package-manifest
