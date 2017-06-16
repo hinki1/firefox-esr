@@ -29,7 +29,7 @@ endif
 
 define system_lib
 USE_SYSTEM_$(1) ?= 1
-SYSTEM_LIBS_VARS += USE_SYSTEM_$(1)
+SYSTEM_LIBS_VARS += $$(if $$(USE_SYSTEM_$(1)),USE_SYSTEM_$(1))
 endef
 $(foreach lib,$(sort $(call uc,$(SYSTEM_LIBS))),$(eval $(call system_lib,$(lib))))
 
