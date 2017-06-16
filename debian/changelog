@@ -1,3 +1,14 @@
+firefox (54.0-2) unstable; urgency=medium
+
+  * debian/upstream.mk: Consider testing/unstable as buster, which implies
+    build depending on system nspr, nss, sqlite and hunspell again.
+  * debian/rules: Really make overrides with USE_SYSTEM_* set to nothing work.
+
+  * build/moz.configure/rust.configure: Add ppc64el target for rust code.
+    Closes: #864822.
+
+ -- Mike Hommey <glandium@debian.org>  Sat, 17 Jun 2017 07:20:23 +0900
+
 firefox (54.0-1) unstable; urgency=medium
 
   * New upstream release.
