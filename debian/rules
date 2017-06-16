@@ -303,7 +303,7 @@ endif
 MPL-1.1: gfx/cairo/cairo/COPYING-MPL-1.1
 	cp -f $< $@
 
-MPL-2.0: b2g/LICENSE
+MPL-2.0: nsprpub/LICENSE
 	cp -f $< $@
 
 override_dh_installdocs: MPL-1.1 MPL-2.0
