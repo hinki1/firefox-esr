@@ -151,6 +151,7 @@ def rust_triple_alias(host_or_target):
             ('sparc64', 'Linux'): 'sparc64-unknown-linux-gnu',
             ('x86', 'Linux'): 'i686-unknown-linux-gnu',
             ('x86_64', 'Linux'): 'x86_64-unknown-linux-gnu',
+            ('ppc64le', 'Linux'): 'powerpc64le-unknown-linux-gnu',
             # OS X
             ('x86', 'OSX'): 'i686-apple-darwin',
             ('x86_64', 'OSX'): 'x86_64-apple-darwin',
