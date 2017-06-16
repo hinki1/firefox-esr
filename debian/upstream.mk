@@ -40,7 +40,7 @@ UPSTREAM_RELEASE := $(firstword $(subst +, ,$(UPSTREAM_RELEASE)))
 DEBIAN_RELEASE_EXTRA := $(word 2,$(subst ~, ,$(DEBIAN_RELEASE)))
 DIST = unknown
 ifneq (,$(filter testing% unstable,$(DEB_DISTRIBUTION)))
-DIST = stretch
+DIST = buster
 endif
 ifneq (,$(filter bpo% deb%,$(DEBIAN_RELEASE_EXTRA)))
 DEBIAN_TARGET := $(subst bpo,,$(subst deb,,$(DEBIAN_RELEASE_EXTRA)))
@@ -52,6 +52,9 @@ DIST = jessie
 endif
 ifneq (,$(filter 9%,$(DEBIAN_TARGET)))
 DIST = stretch
+endif
+ifneq (,$(filter 10%,$(DEBIAN_TARGET)))
+DIST = buster
 endif
 endif
 
