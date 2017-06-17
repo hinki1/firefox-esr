@@ -23,3 +23,7 @@ sticky_pref("browser.newtabpage.enhanced", false);
 
 // Disable health report upload
 pref("datareporting.healthreport.uploadEnabled", false);
+
+// Default to no suggestions in the urlbar. This still brings a panel asking
+// the user whether they want to opt-in on first use.
+pref("browser.urlbar.suggest.searches", false);
