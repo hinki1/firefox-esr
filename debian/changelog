@@ -1,3 +1,13 @@
+firefox-esr (52.2.0esr-2) unstable; urgency=medium
+
+  * debian/upstream.mk:
+    - Consider testing/unstable as buster, which implies build depending on
+      system nspr, nss and sqlite again.
+    - Support DEB_DISTRIBUTION being bustersomething or sid.
+    Closes: #865650.
+
+ -- Mike Hommey <glandium@debian.org>  Sat, 24 Jun 2017 00:23:03 +0900
+
 firefox-esr (52.2.0esr-1) unstable; urgency=medium
 
   * New upstream release.
