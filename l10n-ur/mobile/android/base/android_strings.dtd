@@ -75,6 +75,7 @@
 <!ENTITY bookmark_removed "نشانی ہٹا دی گئی">
 <!ENTITY bookmark_updated "نشانی تازہ ہوگئی">
 <!ENTITY bookmark_options "اختیارات">
+<!ENTITY bookmark_save "محفوظ کریں">
 <!ENTITY screenshot_added_to_bookmarks "نشانیاں میں سکرین شاٹ کا اضافہ کردیا گیا">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
@@ -86,6 +87,8 @@
 
 <!ENTITY bookmark_folder_items "&formatD; شہ">
 <!ENTITY bookmark_folder_one_item "۱ شہ">
+
+
 
 <!ENTITY reader_saved_offline "آف لائن محفوظ کردیا گیا">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -214,6 +217,8 @@
 <!ENTITY pref_home_updates_enabled "اہل">
 <!ENTITY pref_home_updates_wifi "صرف بعظریہ وائی فائی">
 <!ENTITY pref_category_home_homepage "ابتدائی صفحہ">
+<!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
+     home page will be use in every new tab. -->
 <!ENTITY home_homepage_title "ابتدائی صفحہ پر سیٹ کرے">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
@@ -282,6 +287,10 @@
 
 <!ENTITY pref_custom_tabs "مخصوص ٹیب">
 <!ENTITY pref_custom_tabs_summary3 "&brandShortName; کا تخصیص کردہ ورژن کا استعمال کرتے ہوئے ایپلیکیشن کو ویب سائٹ کھولنے کی اجازت دیں">
+<!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
+     default browser from user's preference, such as "Open in Firefox" -->
+
+<!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "سرگرمی سٹریم">
@@ -350,26 +359,12 @@
 <!ENTITY pref_plugins_enabled "اہل">
 <!ENTITY pref_plugins_tap_to_play2 "کھیلنے کیلئے ٹچ کریں">
 <!ENTITY pref_plugins_disabled "نا اہل">
-<!ENTITY pref_text_size "متن سائز">
 <!ENTITY pref_restore_tabs "ٹیبیں بحال کریں">
 <!ENTITY pref_restore_always "ہمیشہ بحال کریں">
 <!ENTITY pref_restore_quit "&brandShortName; کو بند کرنے کے بعد بحال نا کریں">
-<!ENTITY pref_font_size_tiny "بہت چھوٹا">
-<!ENTITY pref_font_size_small "چھوٹا">
-<!ENTITY pref_font_size_medium "متوسط">
-<!ENTITY pref_font_size_large "بڑا">
-<!ENTITY pref_font_size_xlarge "بہت زیادہ بڑا">
-<!ENTITY pref_font_size_set "سیٹ کریں">
-<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
-(or combination of characters) is used to decrease the preview font size; a larger version of the
-same character/combination is used to increase the preview font size. It should be a concise
-representation of the language it is used in that will help show the text in the preview will change
-size. -->
-<!ENTITY pref_font_size_adjust_char "A">
-<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
-    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
+<!-- Localization note (pref_use_system_font_size, pref_use_system_font_size_summary):
+     Font size here refers to the name of the corresponding Android system setting. -->
 
-<!ENTITY pref_font_size_preview_text "تیز رفتار نارنجی لومڑی زیادہ رفتار، زیادہ لچک، اور زیادہ سلامتی کے ساتھ آپ کی توقعات سے اوپر چھلانگ لگا دیتی ہے۔ ایک غیر منافع بخش کے طور پر، ہم بنا کسی اشتباہ کے آپ کے لیے اختراع کے لیے آزاد ہیں۔ جس کا مطلب آپ کے لیے ایک بہتر تجربہ اور ویب کے لیے زیادہ روشن مستقبل ہے۔">
 
 <!ENTITY pref_media_autoplay_enabled "خودکار چلنے کی اجازت دیں">
 <!ENTITY pref_media_autoplay_enabled_summary "قابو کریں اگر ویب سائٹیں خود وڈیو اور دیگر میڈیا مواد چلاسکتی ہیں">
@@ -500,6 +495,7 @@ size. -->
 <!ENTITY contextmenu_open_private_tab "نجی ٹیب میں کھولیں">
 <!ENTITY contextmenu_remove "ہٹائیں">
 <!ENTITY contextmenu_add_to_launcher "ابتدائی سکرین میں ڈالیں">
+
 <!ENTITY contextmenu_share "شیئر">
 <!ENTITY contextmenu_pasteandgo "چسپاں کریں &amp; جائیں">
 <!ENTITY contextmenu_paste "جوڑیں">
@@ -524,11 +520,6 @@ size. -->
 <!ENTITY doorhanger_login_select_toast_copy "پاس ورڈ تختہ تراشہ پر نقل شدہ">
 <!ENTITY doorhanger_login_select_action_text "کوئی اور لاگ ان چنیں">
 <!ENTITY doorhanger_login_select_title "پاس ورڈ نقل کریں">
-<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
-     whether or not the magnifying glass is disabled. -->
-
-<!ENTITY pref_magnifying_glass_enabled "چھوٹے علاقہ کو بڑا کرنا">
-<!ENTITY pref_magnifying_glass_enabled_summary2 "روابط اور فارم قطعوں کو وسعت دیں جب انکے قریب چھوا جائے">
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
 
@@ -552,6 +543,7 @@ size. -->
 <!ENTITY bookmark_edit_name "نام">
 <!ENTITY bookmark_edit_location "محل وقوع">
 <!ENTITY bookmark_edit_keyword "کلیدی لفظ">
+
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
 
@@ -573,7 +565,7 @@ size. -->
 <!ENTITY button_yes "ہاں">
 <!ENTITY button_no "نہیں">
 <!ENTITY button_clear_data "کوائف خالی کریں">
-<!ENTITY button_set "سیٹ کریں">
+
 <!ENTITY button_clear "صاف کریں">
 <!ENTITY button_copy "نقل کریں">
 
@@ -735,14 +727,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY ellipsis "…">
 
 <!ENTITY colon ":">
-<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
-     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
-     This format string is typically used by getString method, in such method the percent sign
-     is a reserved caracter. In order to display one percent sign in the result of getString,
-     double percent signs must be inserted in the format string.
-     This entity is used in the zoomed view to display the zoom factor-->
-
-<!ENTITY percent "&formatS;&#037;&#037;">
 <!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->
 

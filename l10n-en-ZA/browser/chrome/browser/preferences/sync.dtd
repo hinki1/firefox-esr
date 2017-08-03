@@ -10,8 +10,8 @@
 
 <!ENTITY engine.history.label       "History">
 <!ENTITY engine.history.accesskey   "r">
-<!ENTITY engine.passwords.label     "Passwords">
-<!ENTITY engine.passwords.accesskey "P">
+
+
 <!ENTITY engine.prefs.label         "Preferences">
 <!ENTITY engine.prefs.accesskey     "s">
 <!ENTITY engine.addons.label        "Add-ons">
@@ -61,6 +61,7 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY signedOut.description        "Synchronise your bookmarks, history, tabs, passwords, add-ons, and preferences across all your devices.">
 <!ENTITY signedOut.accountBox.title   "Connect with a &syncBrand.fxAccount.label;">
+
 
 
 

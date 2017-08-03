@@ -33,4 +33,4 @@
 <!ENTITY loaddevice.browse                      "Esplori…">
 <!ENTITY loaddevice.browse.accesskey            "E">
 
-<!ENTITY loaddevice.title                       "Ŝargi aparaton PKCS#11">
+<!ENTITY loaddevice.title2                      "Ŝargi aparatan pelilon de PKCS#11">

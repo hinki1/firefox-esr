@@ -75,6 +75,7 @@
 <!ENTITY bookmark_removed "Kikwanyo woko Alama me buk">
 <!ENTITY bookmark_updated "Kimedo Alama me buk">
 <!ENTITY bookmark_options "Me ayera">
+<!ENTITY bookmark_save "Gwoki">
 <!ENTITY screenshot_added_to_bookmarks "Cal me wang kio kimedo i alama me buk">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
@@ -86,6 +87,8 @@
 
 <!ENTITY bookmark_folder_items "jami &formatD;">
 <!ENTITY bookmark_folder_one_item "Jami 1">
+<!ENTITY bookmark_parent_folder "Boc makwongo">
+<!ENTITY bookmark_add_folder "Med boc manyen">
 
 <!ENTITY reader_saved_offline "Kigwoko pi mape iwiyamo">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -203,7 +206,7 @@
 <!ENTITY pref_developer_remotedebugging_usb "Nongo bal ki iyi USB">
 <!ENTITY pref_developer_remotedebugging_wifi "Nongo bal ki iyi Wi-Fi">
 <!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "Nongo bal ki iyi Wi-Fi mito ni nyonyo ni obed ki purugram me kwano kod me QR.">
-<!ENTITY pref_remember_signons2 "Po ikom donyo iyie">
+<!ENTITY pref_remember_signons2 "Poo ikom donyo iyie">
 <!ENTITY pref_manage_logins "Lo donyo iyie">
 
 <!ENTITY pref_category_home "Gang">
@@ -214,6 +217,9 @@
 <!ENTITY pref_home_updates_enabled "Kicako">
 <!ENTITY pref_home_updates_wifi "Ki i Wi-Fi keken">
 <!ENTITY pref_category_home_homepage "Potbuk me gang">
+<!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
+     home page will be use in every new tab. -->
+<!ENTITY home_homepage_every_new_tab "Bene tic pa dirica matidi manyen">
 <!ENTITY home_homepage_title "Ter potbuk me gang">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
@@ -279,6 +285,12 @@
      Instead of switching to the browser it appears as if the user stays in the third-party app.
      For more see: https://developer.chrome.com/multidevice/android/customtabs -->
 
+<!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
+     default browser from user's preference, such as "Open in Firefox" -->
+<!ENTITY custom_tabs_menu_item_open_in "Yab i &formatS;">
+<!ENTITY custom_tabs_menu_footer "Lamiyo ne aye &brandShortName;">
+<!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
+<!ENTITY custom_tabs_hint_url_copy "Kiloko URL">
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "Activity Stream">
@@ -344,26 +356,14 @@
 <!ENTITY pref_plugins_enabled "Kicako">
 <!ENTITY pref_plugins_tap_to_play2 "Gudi me tuko">
 <!ENTITY pref_plugins_disabled "Kijuko woko">
-<!ENTITY pref_text_size "Dit pa nyig Coc">
 <!ENTITY pref_restore_tabs "Dwok dirica matino">
 <!ENTITY pref_restore_always "Pol kare dwoki">
 <!ENTITY pref_restore_quit "Pe idwok inge weko &brandShortName;">
-<!ENTITY pref_font_size_tiny "Tino">
-<!ENTITY pref_font_size_small "Tidi">
-<!ENTITY pref_font_size_medium "Dyere dyere">
-<!ENTITY pref_font_size_large "Lac">
-<!ENTITY pref_font_size_xlarge "Madit loyo">
-<!ENTITY pref_font_size_set "Ter">
-<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
-(or combination of characters) is used to decrease the preview font size; a larger version of the
-same character/combination is used to increase the preview font size. It should be a concise
-representation of the language it is used in that will help show the text in the preview will change
-size. -->
-<!ENTITY pref_font_size_adjust_char "A">
-<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
-    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
+<!-- Localization note (pref_use_system_font_size, pref_use_system_font_size_summary):
+     Font size here refers to the name of the corresponding Android system setting. -->
 
-<!ENTITY pref_font_size_preview_text "Orange fox madwir ni pye iwi gen mamegi ki dwiro mapol, ma gome oyot ki ber bedo mapol. Macalo labongo magoba, watye agonya me yubo jami manyen me kakari labongo dic mo keken me winye. Man te lokke ni ber me tic kwede piri ki anyim maleng pi Kakube.">
+<!ENTITY pref_use_system_font_size "Tii ki dit me coc pa nyonyo">
+
 
 <!ENTITY pref_media_autoplay_enabled "Ye tuko pire kene">
 <!ENTITY pref_media_autoplay_enabled_summary "Lo kacce kakube tuko video pi gi kengi ki jami mukene me poko ngec">
@@ -494,6 +494,7 @@ size. -->
 <!ENTITY contextmenu_open_private_tab "Yab i dirica matidi me mung">
 <!ENTITY contextmenu_remove "Kwany">
 <!ENTITY contextmenu_add_to_launcher "Med I gang Kio ma neno">
+<!ENTITY contextmenu_set_as_homepage "Ter calo potbuk me gang">
 <!ENTITY contextmenu_share "Nywak">
 <!ENTITY contextmenu_pasteandgo "Mwon ka iciti">
 <!ENTITY contextmenu_paste "Dani">
@@ -518,11 +519,6 @@ size. -->
 <!ENTITY doorhanger_login_select_toast_copy "Kiloko mung me donyo i bao me coc">
 <!ENTITY doorhanger_login_select_action_text "Yer dony iyie mukene">
 <!ENTITY doorhanger_login_select_title "Lok mung me donyo ki i">
-<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
-     whether or not the magnifying glass is disabled. -->
-
-<!ENTITY pref_magnifying_glass_enabled "Wul kabedo matino">
-<!ENTITY pref_magnifying_glass_enabled_summary2 "Yab kakube ki kacoc me pwom ka kigudo ka nget gi">
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
 
@@ -546,6 +542,7 @@ size. -->
 <!ENTITY bookmark_edit_name "Nying">
 <!ENTITY bookmark_edit_location "Kabedo">
 <!ENTITY bookmark_edit_keyword "Lok mapire tek">
+<!ENTITY bookmark_select_folder "Yer boc">
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
 
@@ -729,14 +726,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY ellipsis "…">
 
 <!ENTITY colon ":">
-<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
-     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
-     This format string is typically used by getString method, in such method the percent sign
-     is a reserved caracter. In order to display one percent sign in the result of getString,
-     double percent signs must be inserted in the format string.
-     This entity is used in the zoomed view to display the zoom factor-->
-
-<!ENTITY percent "&formatS;&#037;&#037;">
 <!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->
 

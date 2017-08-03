@@ -14,7 +14,7 @@
 <!ENTITY aboutNetworking.autoRefresh           "Segarkan otomatis tiap 3 detik">
 <!ENTITY aboutNetworking.hostname              "Nama host">
 <!ENTITY aboutNetworking.port                  "Port">
-<!ENTITY aboutNetworking.spdy                  "SPDY">
+<!ENTITY aboutNetworking.http2                 "HTTP/2">
 <!ENTITY aboutNetworking.ssl                   "SSL">
 <!ENTITY aboutNetworking.active                "Aktif">
 <!ENTITY aboutNetworking.idle                  "Menganggur">
@@ -41,3 +41,6 @@
 <!ENTITY aboutNetworking.dnsLookupButton       "Selesaikan">
 <!ENTITY aboutNetworking.dnsDomain             "Domain">
 <!ENTITY aboutNetworking.dnsLookupTableColumn  "IP">
+<!ENTITY aboutNetworking.rcwn                  "Statistik RCWN">
+<!ENTITY aboutNetworking.rcwnStatus            "Status RCWN">
+<!ENTITY aboutNetworking.totalNetworkRequests  "Total jumlah permintaan jaringan">

@@ -14,7 +14,7 @@
 <!ENTITY aboutNetworking.autoRefresh           "Αυτόματη ανανέωση κάθε 3 δευτερόλεπτα">
 <!ENTITY aboutNetworking.hostname              "Όνομα κεντρικού υπολογιστή">
 <!ENTITY aboutNetworking.port                  "Θύρα">
-<!ENTITY aboutNetworking.spdy                  "SPDY">
+<!ENTITY aboutNetworking.http2                 "HTTP/2">
 <!ENTITY aboutNetworking.ssl                   "SSL">
 <!ENTITY aboutNetworking.active                "Ενεργό">
 <!ENTITY aboutNetworking.idle                  "Αδρανές">
@@ -41,3 +41,8 @@
 <!ENTITY aboutNetworking.dnsLookupButton       "Επίλυση">
 <!ENTITY aboutNetworking.dnsDomain             "Τομέας">
 <!ENTITY aboutNetworking.dnsLookupTableColumn  "IPs">
+<!ENTITY aboutNetworking.rcwn                  "Στατιστικά RCWN">
+<!ENTITY aboutNetworking.rcwnStatus            "Κατάσταση RCWN">
+<!ENTITY aboutNetworking.rcwnCacheWonCount     "Αριθμός νικών cache">
+<!ENTITY aboutNetworking.rcwnNetWonCount       "Αριθμός νικών δικτύου">
+<!ENTITY aboutNetworking.totalNetworkRequests  "Αριθμός συνολικών αιτημάτων δικτύου">

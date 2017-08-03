@@ -14,7 +14,7 @@
 <!ENTITY aboutNetworking.autoRefresh           "3초마다 자동 업데이트 ">
 <!ENTITY aboutNetworking.hostname              "호스트명">
 <!ENTITY aboutNetworking.port                  "포토 번호">
-<!ENTITY aboutNetworking.spdy                  "SPDY">
+<!ENTITY aboutNetworking.http2                 "HTTP/2">
 <!ENTITY aboutNetworking.ssl                   "SSL">
 <!ENTITY aboutNetworking.active                "액티브">
 <!ENTITY aboutNetworking.idle                  "대기">
@@ -41,3 +41,8 @@
 <!ENTITY aboutNetworking.dnsLookupButton       "조회">
 <!ENTITY aboutNetworking.dnsDomain             "도메인">
 <!ENTITY aboutNetworking.dnsLookupTableColumn  "IP">
+<!ENTITY aboutNetworking.rcwn                  "RCWN 상태">
+<!ENTITY aboutNetworking.rcwnStatus            "RCWN 상태">
+<!ENTITY aboutNetworking.rcwnCacheWonCount     "캐시 성공 수">
+<!ENTITY aboutNetworking.rcwnNetWonCount       "네트워크 성공 수">
+<!ENTITY aboutNetworking.totalNetworkRequests  "총 네트워크 요청 수">

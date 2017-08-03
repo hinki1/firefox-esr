@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "v">
 <!ENTITY useSmoothScrolling.label        "Përdor rrëshqitje të butë">
 <!ENTITY useSmoothScrolling.accesskey    "b">
-<!ENTITY allowHWAccel.label              "Kur mundet, përdor përshpejtim hardware">
-<!ENTITY allowHWAccel.accesskey          "u">
 <!ENTITY checkUserSpelling.label         "Kontrollo drejtshkrimin në shtypje e sipër">
 <!ENTITY checkUserSpelling.accesskey     "o">
 
@@ -83,23 +81,35 @@
 
 <!ENTITY updateTab.label                 "Përditësim">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "Përditësime &brandShortName;-i">
-<!ENTITY updateAuto1.label               "Instaloji vetvetiu përditësimet (e këshillueshme: përmirësohet siguria)">
-<!ENTITY updateAuto1.accesskey           "I">
-<!ENTITY updateCheckChoose.label         "Kontrollo për përditësime, por lejomë të zgjedh t&apos;i instaloj apo jo">
-<!ENTITY updateCheckChoose.accesskey     "K">
-<!ENTITY updateManual.label              "Mos kontrollo kurrë për përditësime (e pakëshillueshme: rrezik sigurie)">
-<!ENTITY updateManual.accesskey          "o">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.description   "Lejojeni &brandShortName;-in">
+<!ENTITY updateAuto2.label               "Të instalojë vetvetiu përditësimet (e këshillueshme për siguri të përmirësuar)">
+<!ENTITY updateAuto2.accesskey           "v">
+<!ENTITY updateCheckChoose2.label        "Të kontrollojë për përditësime, por t&apos;ju lejojë të zgjidhni t&apos;i instaloni apo jo">
+<!ENTITY updateCheckChoose2.accesskey    "k">
+<!ENTITY updateManual2.label             "Të mos kontrollojë kurrë për përditësime (nuk rekomandohet)">
+<!ENTITY updateManual2.accesskey         "u">
 
-<!ENTITY updateHistory.label             "Shfaq Historik Përditësimesh">
-<!ENTITY updateHistory.accesskey         "H">
+<!ENTITY updateHistory2.label            "Shfaq Historik Përditësimesh…">
+<!ENTITY updateHistory2.accesskey        "P">
 
 <!ENTITY useService.label                "Përdor shërbim në prapaskenë për të instaluar përditësimet">
 <!ENTITY useService.accesskey            "P">
 
-<!ENTITY autoUpdateOthers.label          "Përditësoje vetvetiu">
-<!ENTITY enableSearchUpdate.label        "Motorë Kërkimi">
-<!ENTITY enableSearchUpdate.accesskey    "M">
+<!ENTITY enableSearchUpdate2.label       "Të përditësojë vetvetiu motorët e kërkimeve">
+<!ENTITY enableSearchUpdate2.accesskey   "m">
+
+<!ENTITY reports.label                   "Raporte">
 
 <!ENTITY offlineStorageNotify.label               "Bëma të ditur kur një sajt kërkon të depozitojë të dhëna për përdorim të palidhur">
 <!ENTITY offlineStorageNotify.accesskey           "B">
@@ -113,8 +123,7 @@
 <!ENTITY offlineAppRemove.confirm        "Hiqi të dhënat jashtë linje">
 
 <!ENTITY certificateTab.label            "Dëshmi">
-<!ENTITY certPersonal.label              "Kërkesa">
-<!ENTITY certPersonal.description        "Kur një shërbyes kërkon dëshminë tuaj personale:">
+<!ENTITY certPersonal2.description       "Kur një shërbyes kërkon dëshminë tuaj personale">
 <!ENTITY selectCerts.auto                "Përzgjidh një vetvetiu">
 <!ENTITY selectCerts.auto.accesskey      "z">
 <!ENTITY selectCerts.ask                 "Pyetmë çdo herë">
@@ -125,3 +134,6 @@
 <!ENTITY viewCerts.accesskey             "S">
 <!ENTITY viewSecurityDevices.label       "Pajisje Sigurie">
 <!ENTITY viewSecurityDevices.accesskey   "P">
+
+<!ENTITY allowHWAccel.label              "Kur mundet, përdor përshpejtim hardware">
+<!ENTITY allowHWAccel.accesskey          "u">

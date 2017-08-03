@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "ב">
 <!ENTITY useSmoothScrolling.label        "שימוש בגלילה חלקה">
 <!ENTITY useSmoothScrolling.accesskey    "ח">
-<!ENTITY allowHWAccel.label              "שימוש בהאצת חומרה כשניתן">
-<!ENTITY allowHWAccel.accesskey          "ה">
 <!ENTITY checkUserSpelling.label         "בדיקת איות תוך כדי הקלדה">
 <!ENTITY checkUserSpelling.accesskey     "ב">
 
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "עדכון">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "עדכוני &brandShortName;">
-<!ENTITY updateAuto1.label               "התקנת עדכונים אוטומטית (מומלץ: אבטחה משופרת)">
-<!ENTITY updateAuto1.accesskey           "א">
-<!ENTITY updateCheckChoose.label         "בדיקת עדכונים, אבל לאפשר בחירה אם להתקין אותם">
-<!ENTITY updateCheckChoose.accesskey     "ע">
-<!ENTITY updateManual.label              "לעולם לא לבצע בדיקת עדכונים (לא מומלץ: סיכוני אבטחה)">
-<!ENTITY updateManual.accesskey          "ל">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "גרסה ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "לאפשר ל־&brandShortName;">
+<!ENTITY updateAuto2.label               "להתקין אוטומטית עדכונים (מומלץ מטעמי אבטחה משופרת)">
+<!ENTITY updateAuto2.accesskey           "א">
+<!ENTITY updateCheckChoose2.label        "לבדוק אם קיימים עדכונים אבל לדרוש אישור כדי להתקין אותם">
+<!ENTITY updateCheckChoose2.accesskey    "ב">
+<!ENTITY updateManual2.label             "לעולם לא לבדוק לעדכונים (לא מומלץ)">
+<!ENTITY updateManual2.accesskey         "ל">
 
-<!ENTITY updateHistory.label             "הצגת היסטורית עדכונים">
-<!ENTITY updateHistory.accesskey         "צ">
+<!ENTITY updateHistory2.label            "הצגת היסטורית עדכונים…">
+<!ENTITY updateHistory2.accesskey        "ה">
 
 <!ENTITY useService.label                "שימוש בשירות רקע לשם התקנת עדכונים">
 <!ENTITY useService.accesskey            "ר">
 
-<!ENTITY autoUpdateOthers.label          "עדכון באופן אוטומטי">
-<!ENTITY enableSearchUpdate.label        "מנועי חיפוש">
-<!ENTITY enableSearchUpdate.accesskey    "מ">
+<!ENTITY enableSearchUpdate2.label       "עדכון מנועי חיפוש באופן אוטומטי">
+<!ENTITY enableSearchUpdate2.accesskey   "ע">
+
+<!ENTITY reports.label                   "דיווחים">
 
 <!ENTITY offlineStorageNotify.label               "דיווח כאשר אתר מבקש לשמור נתונים לשימוש לא מקוון">
 <!ENTITY offlineStorageNotify.accesskey           "ד">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "הסרת נתונים לא מקוונים">
 
 <!ENTITY certificateTab.label            "אישורים">
-<!ENTITY certPersonal.label              "בקשות">
-<!ENTITY certPersonal.description        "כאשר שרת מבקש את האישור האישי שלך, יש:">
+<!ENTITY certPersonal2.description       "כאשר שרת מבקש את האישור האישי שלך">
 <!ENTITY selectCerts.auto                "לבחור אחד באופן אוטומטי">
 <!ENTITY selectCerts.auto.accesskey      "ב">
 <!ENTITY selectCerts.ask                 "לשאול אותך כל פעם">
@@ -125,3 +136,19 @@
 <!ENTITY viewCerts.accesskey             "צ">
 <!ENTITY viewSecurityDevices.label       "התקני אבטחה">
 <!ENTITY viewSecurityDevices.accesskey   "ה">
+
+<!ENTITY performance.label               "ביצועים">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "שימוש בהגדרות הביצועים המומלצות">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "הגדרות אלו מותאמות לחומרת המחשב ולמערכת ההפעלה שלך.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "ש">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "מידע נוסף">
+<!ENTITY limitContentProcessOption.label "הגבלת תהליך תוכן">
+<!ENTITY limitContentProcessOption.description
+                                         "תהליכי תוכן נוספים עשויים לשפר את הביצועים בעת שימוש במספר לשוניות, עם זאת יעשה שימוש ביותר זיכרון.">
+<!ENTITY limitContentProcessOption.accesskey   "ה">
+<!ENTITY allowHWAccel.label              "שימוש בהאצת חומרה כשניתן">
+<!ENTITY allowHWAccel.accesskey          "ה">

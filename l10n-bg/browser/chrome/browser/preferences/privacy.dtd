@@ -2,7 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "Използване на защитата от проследяване">
+<!ENTITY  trackingProtectionHeader2.label      "Защита от проследяване">
+<!ENTITY  trackingProtection.description       "Проследяване е когато дадена компания събира информация за вас, за да създаде ваш профил и да ви показва съдържание на базата поведенческа и лична информация.">
+<!ENTITY  trackingProtection.radioGroupLabel   "Спиране на съдържанието от проследяващите компании">
 <!ENTITY  trackingProtectionAlways.label       "Винаги">
 <!ENTITY  trackingProtectionAlways.accesskey   "В">
 <!ENTITY  trackingProtectionPrivate.label      "Само в поверителни прозорци">
@@ -30,7 +32,7 @@
 
 <!ENTITY  locationBar.label             "Адресна лента">
 
-<!ENTITY  locbar.suggest.label          "При въвеждане в адресната лента, подсказване с:">
+<!ENTITY  locbar.suggest2.label         "При въвеждане в адресната лента, подсказване с">
 <!ENTITY  locbar.history.label          "История">
 <!ENTITY  locbar.history.accesskey      "И">
 <!ENTITY  locbar.bookmarks.label        "Отметки">
@@ -40,8 +42,7 @@
 <!ENTITY  locbar.searches.label         "Подобни търсения от стандартната търсеща машина">
 <!ENTITY  locbar.searches.accesskey     "П">
 
-<!ENTITY  suggestionSettings.label      "Промяна настройките на подсказките от търсещите машини…">
-<!ENTITY  suggestionSettings.accesskey  "р">
+<!ENTITY  suggestionSettings2.label     "Промяна настройките на подсказките от търсещите машини">
 
 <!ENTITY  acceptCookies.label           "Разрешаване на бисквитките">
 <!ENTITY  acceptCookies.accesskey       "Р">
@@ -64,10 +65,10 @@
 <!ENTITY  showCookies.label             "Показване на бисквитките…">
 <!ENTITY  showCookies.accesskey         "б">
 
-<!ENTITY  historyHeader.pre.label          "&brandShortName; ще:">
-<!ENTITY  historyHeader.pre.accesskey      "щ">
+<!ENTITY  historyHeader2.pre.label         "Нека &brandShortName; да">
+<!ENTITY  historyHeader2.pre.accesskey     "д">
 <!ENTITY  historyHeader.remember.label     "Помни история">
-<!ENTITY  historyHeader.dontremember.label "Никога няма да помни история">
+<!ENTITY  historyHeader.dontremember.label "Не помни история">
 <!ENTITY  historyHeader.custom.label       "Използва потребителски настройки">
 <!ENTITY  historyHeader.post.label         "">
 
@@ -82,7 +83,7 @@
 <!ENTITY  rememberActions.removeCookies.label "да премахнете отделни бисквитки">
 <!ENTITY  rememberActions.post.label          ".">
 
-<!ENTITY  dontrememberDescription.label  "&brandShortName; ще използва същите настройки като при поверително сърфиране и няма да помни никаква история, докато сте в Интернет.">
+<!ENTITY  dontrememberDescription.label  "&brandShortName; ще използва същите настройки като при поверително разглеждане и няма да помни никаква история, докато сте в интернет.">
 
 <!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
@@ -90,13 +91,13 @@
 <!ENTITY  dontrememberActions.clearHistory.label "изчистите цялата настояща история">
 <!ENTITY  dontrememberActions.post.label         ".">
 
-<!ENTITY  privateBrowsingPermanent2.label "Винаги да се използва поверително сърфиране">
+<!ENTITY  privateBrowsingPermanent2.label "Винаги включено поверително разглеждане">
 <!ENTITY  privateBrowsingPermanent2.accesskey "п">
 
-<!ENTITY  rememberHistory2.label      "Запомняне на моята история на сърфиране и изтегляния">
+<!ENTITY  rememberHistory2.label      "Запазване на история на разглеждане и изтегляния">
 <!ENTITY  rememberHistory2.accesskey  "З">
 
-<!ENTITY  rememberSearchForm.label       "Помнене на историята на търсенията и формулярите">
+<!ENTITY  rememberSearchForm.label       "Запазване на история на търсения и формуляри">
 <!ENTITY  rememberSearchForm.accesskey   "ф">
 
 <!ENTITY  clearOnClose.label             "Изчистване на история при изход от &brandShortName;">

@@ -2,21 +2,23 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "தடமறியல் பாதுகாப்பை பயன்படுத்து">
-
-
+<!ENTITY  trackingProtectionHeader2.label      "தடமறியல் பாதுகாப்பு">
+<!ENTITY  trackingProtection.description       "உங்கள் உலாவல் மற்றும் சுய தரவின் அடிப்படையில் ஒரு சுயவிவரத்தை உருவாக்கி காட்சிப்படுத்த நிறுவனங்கள் உங்களைப் பற்றிய தகவல்களைச் சேகரிக்கையில் கண்காணிப்பது.">
+<!ENTITY  trackingProtection.radioGroupLabel   "உள்ளடக்கத்தைக் காட்டும் நன்கு அறிந்த தடமறி நிறுவனங்களைத் தடு">
+<!ENTITY  trackingProtectionAlways.label       "எப்போதும்">
+<!ENTITY  trackingProtectionAlways.accesskey   "y">
 <!ENTITY  trackingProtectionPrivate.label      "தனிப்பட்ட சாளரத்தில் மட்டும்">
 <!ENTITY  trackingProtectionPrivate.accesskey  "l">
-
-
+<!ENTITY  trackingProtectionNever.label        "ஒருபோதுமில்லை">
+<!ENTITY  trackingProtectionNever.accesskey    "N">
 <!ENTITY  trackingProtectionLearnMore.label    "மேலும் அறி">
-
-
+<!ENTITY  trackingProtectionExceptions.label   "விதிவிலக்குகள்…">
+<!ENTITY  trackingProtectionExceptions.accesskey "x">
 
 <!ENTITY tracking.label                 "கண்காணிப்பு">
 <!ENTITY trackingProtectionPBM5.label         "தனிப்பட்ட சாளரத்தில் தடமறியல் பாதுகாப்பை பயன்படுத்து">
 <!ENTITY trackingProtectionPBM5.accesskey     "v">
-
+<!ENTITY trackingProtectionPBMLearnMore.label "மேலும் அறிய">
 <!ENTITY changeBlockList.label          "தடை பட்டியலை மாற்று">
 <!ENTITY changeBlockList.accesskey      "C">
 <!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
@@ -24,28 +26,29 @@
 
 <!ENTITY  doNotTrack.pre.label          "நீங்களும் ">
 <!ENTITY  doNotTrack.settings.label     "தடமறியாதே அமைவுகளை நிர்வகிக்கலாம்">
-
+<!ENTITY  doNotTrack.post.label         ".">
 
 <!ENTITY  history.label                 "வரலாறு">
 
 <!ENTITY  locationBar.label             "இடப் பட்டை">
 
-<!ENTITY  locbar.suggest.label          "இடப் பட்டையைப் பயன்படுத்தும் போது, பரிந்துரை:">
+<!ENTITY  locbar.suggest2.label         "இடப்பட்டையைப் பயன்படுத்தும் போது, பரிந்துரைக்கவும்">
 <!ENTITY  locbar.history.label          "வரலாறு">
 <!ENTITY  locbar.history.accesskey      "H">
 <!ENTITY  locbar.bookmarks.label        "புத்தகக்குறிகள்">
 <!ENTITY  locbar.bookmarks.accesskey    "k">
 <!ENTITY  locbar.openpage.label         "கீற்றுகளைத் திற">
 <!ENTITY  locbar.openpage.accesskey     "O">
+<!ENTITY  locbar.searches.label         "முன்னிருப்பு தேடுபொறியிலிருந்து தொடர்புடைய தேடல்கள்">
+<!ENTITY  locbar.searches.accesskey     "d">
 
+<!ENTITY  suggestionSettings2.label     "தேடுபொறி பரிந்துரைத்துலுக்கான முன்னுரிமைகளை மாற்று">
 
-
-
-
-<!ENTITY  acceptCookies.label           "இணைய தளங்களிலிருந்து நினைவிகளை அனுமதிக்கவும்">
+<!ENTITY  acceptCookies.label           "தளங்களிலிருந்து நினைவிகளை அனுமதி">
 <!ENTITY  acceptCookies.accesskey       "அ">
 
-
+<!ENTITY  acceptThirdParty.pre.label      "மூன்றாம் தரப்பு நினைவிகளை அனுமதிக்கவும்:">
+<!ENTITY  acceptThirdParty.pre.accesskey  "y">
 <!ENTITY  acceptThirdParty.always.label   "எப்போதும்">
 <!ENTITY  acceptThirdParty.never.label    "ஒரு போதும் இல்லை">
 <!ENTITY  acceptThirdParty.visited.label  "பார்வையிட்டதிலிருந்து">
@@ -62,11 +65,11 @@
 <!ENTITY  showCookies.label             "நினைவிகளைக் காட்டு…">
 <!ENTITY  showCookies.accesskey         "S">
 
-<!ENTITY  historyHeader.pre.label          "&brandShortName; செய்யும்:">
-<!ENTITY  historyHeader.pre.accesskey      "w">
-<!ENTITY  historyHeader.remember.label     "வரலாற்றை நினைவு கொள்">
-<!ENTITY  historyHeader.dontremember.label "வரலாற்றை ஒருபோதும் நினைவில் கொள்ளாதே">
-<!ENTITY  historyHeader.custom.label       "வரலாற்றுக்குத் தனிபயன் அமைவுகளைப் பயன்படுத்து">
+<!ENTITY  historyHeader2.pre.label         "&brandShortName;">
+<!ENTITY  historyHeader2.pre.accesskey     "w">
+<!ENTITY  historyHeader.remember.label     "வரலாறை நினைவில் வைக்கும்">
+<!ENTITY  historyHeader.dontremember.label "வரலாற்றை நினைவில் வைக்காது">
+<!ENTITY  historyHeader.custom.label       "வரலாறுக்கான விருப்பமை அமைவுகளைப் பாவிக்கும்">
 <!ENTITY  historyHeader.post.label         "">
 
 <!ENTITY  rememberDescription.label      "&brandShortName; உங்கள் உலாவும், பதிவிறக்கும், படிவ மற்றும் தேடும் வரலாற்றை நினைவில் வைத்து நீங்கள் பார்வையிடும் இணைய தளங்களின் குக்கீகளையும் வைத்திருக்கும்.">
@@ -97,7 +100,7 @@
 <!ENTITY  rememberSearchForm.label       "தேடும் மற்றும் படிவ வரலாற்றை நினைவில் கொள்">
 <!ENTITY  rememberSearchForm.accesskey   "f">
 
-<!ENTITY  clearOnClose.label             "&brandShortName; மூடும் போது வரலாற்றை துடை">
+<!ENTITY  clearOnClose.label             "&brandShortName; மூடுகையில் வரலாற்றைத் துடை">
 <!ENTITY  clearOnClose.accesskey         "r">
 
 <!ENTITY  clearOnCloseSettings.label     "அமைவுகள்…">
@@ -107,5 +110,5 @@
 <!ENTITY  browserContainersLearnMore.label      "மேலும் அறிய">
 <!ENTITY  browserContainersEnabled.label        "கலன் கீற்றுகளை செயற்படுத்து">
 <!ENTITY  browserContainersEnabled.accesskey    "n">
-
-
+<!ENTITY  browserContainersSettings.label        "அமைவுகள்…">
+<!ENTITY  browserContainersSettings.accesskey    "i">

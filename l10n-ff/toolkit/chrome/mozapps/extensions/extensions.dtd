@@ -117,6 +117,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "Hollu konngol bayyinol ngal ɓeydital">
 <!ENTITY cmd.hideReleaseNotes.label           "Suuɗ Konngol Bayyinol">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Suuɗ konngol bayyinol ngal ɓeydital">
+
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
@@ -184,6 +185,9 @@
 <!ENTITY addon.details.label                  "Teelte goɗɗe">
 <!ENTITY addon.details.tooltip                "Hollu teelɗe goɗɗe baɗte ngal ɓeydital">
 <!ENTITY addon.unknownDate                    "Anndaaka">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -248,3 +252,9 @@
 
 <!ENTITY pluginDeprecation.description "Ena ŋakki huunde? Won ceŋe nattuɗe tammiteede e &brandShortName;.">
 <!ENTITY pluginDeprecation.learnMore "Ɓeydu Humpito.">
+
+<!ENTITY legacyWarning.description "Ena ŋakki huunde? Won jokke nattuɗe tammbaade e &brandShortName;.">
+<!ENTITY legacyWarning.showLegacy "Hollu Jokke donaaɗe">
+
+
+

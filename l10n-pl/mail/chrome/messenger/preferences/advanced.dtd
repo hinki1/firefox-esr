@@ -47,7 +47,9 @@
 <!ENTITY enableCrashReporter.accesskey "Z">
 <!ENTITY crashReporterLearnMore.label "Więcej informacji">
 
-<!ENTITY updateApp.label "Aktualizacje programu &brandShortName;">
+<!ENTITY updateApp2.label "Aktualizacje programu &brandShortName;">
+<!ENTITY updateApp.version.pre "Wersja ">
+<!ENTITY updateApp.version.post "">
 <!ENTITY updateAuto.label "Instaluj aktualizacje automatycznie (zalecane: większe bezpieczeństwo)">
 <!ENTITY updateAuto.accesskey "I">
 <!ENTITY updateCheck.label "Sprawdzaj dostępność aktualizacji, ale wymagaj potwierdzenia ich instalacji">
@@ -76,6 +78,8 @@
 <!ENTITY useCacheBefore.label "Używaj maksymalnie">
 <!ENTITY useCacheBefore.accesskey "m">
 <!ENTITY useCacheAfter.label "MB miejsca dla pamięci podręcznej">
+<!ENTITY overrideSmartCacheSize.label "Używaj ręcznego zarządzania pamięcią podręczną">
+<!ENTITY overrideSmartCacheSize.accesskey "r">
 <!ENTITY clearCacheNow.label "Wyczyść teraz">
 <!ENTITY clearCacheNow.accesskey "W">
 

@@ -2,6 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  applications.label       "Forrit">
+<!ENTITY  applications.description "Veldu hvernig &brandShortName; meðhöndlar skrár sem þú halar niður frá vefnum eða forritum þegar þú ert að vafra.">
+
 <!ENTITY  typeColumn.label        "Efnistegund">
 <!ENTITY  typeColumn.accesskey    "t">
 
@@ -11,4 +14,4 @@
 <!ENTITY  focusSearch1.key        "f">
 <!ENTITY  focusSearch2.key        "k">
 
-<!ENTITY  filter.emptytext        "Leita">
+<!ENTITY  filter2.emptytext        "Leita að skráargerðum og forritum">

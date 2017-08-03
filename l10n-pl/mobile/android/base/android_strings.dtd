@@ -30,7 +30,7 @@
 
 <!ENTITY firstrun_readerview_title "Artykuły">
 <!ENTITY firstrun_readerview_message "Popraw czytelność">
-<!ENTITY firstrun_readerview_subtext "Funkcja poprawiania czytelności ułatwia czytanie artykułów – i działa także w trybie offline.">
+<!ENTITY firstrun_readerview_subtext "Funkcja poprawiania czytelności ułatwia czytanie artykułów – i działa także w trybie offline.">
 
 <!ENTITY firstrun_account_title "Ty">
 <!ENTITY firstrun_account_message "Masz przeglądarkę &brandShortName; na innych urządzeniach?">
@@ -66,12 +66,15 @@
 <!ENTITY bookmark_removed "Usunięto zakładkę">
 <!ENTITY bookmark_updated "Zaktualizowano zakładkę">
 <!ENTITY bookmark_options "Opcje">
+<!ENTITY bookmark_save "Zachowaj">
 <!ENTITY screenshot_added_to_bookmarks "Dodano zakładkę do zrzutu ekranu">
 <!ENTITY screenshot_folder_label_in_bookmarks "Zrzuty ekranu">
 <!ENTITY readinglist_smartfolder_label_in_bookmarks "Do przeczytania">
 
 <!ENTITY bookmark_folder_items "Zakładki: &formatD;">
 <!ENTITY bookmark_folder_one_item "Zakładki: 1">
+<!ENTITY bookmark_parent_folder "Folder nadrzędny">
+<!ENTITY bookmark_add_folder "Dodaj nowy folder">
 
 <!ENTITY reader_saved_offline "Zachowano do korzystania offline">
 <!ENTITY reader_switch_to_bookmarks "Przejdź">
@@ -159,6 +162,7 @@
 <!ENTITY pref_home_updates_wifi "Tylko przez Wi-Fi">
 
 <!ENTITY pref_category_home_homepage "Strona domowa">
+<!ENTITY home_homepage_every_new_tab "Także w nowych kartach">
 <!ENTITY home_homepage_title "Ustaw stronę domową">
 <!ENTITY home_homepage_radio_default "&brandShortName;: Strona domowa">
 <!ENTITY home_homepage_radio_user_address "Inny adres">
@@ -206,6 +210,9 @@
 
 <!ENTITY pref_custom_tabs "Niestandardowe karty">
 <!ENTITY pref_custom_tabs_summary3 "Aplikacje mogą otwierać strony za pomocą niestandardowej wersji przeglądarki &brandShortName;">
+<!ENTITY custom_tabs_menu_item_open_in "Otwórz w przeglądarce &formatS;">
+<!ENTITY custom_tabs_menu_footer "Funkcja programu &brandShortName;">
+<!ENTITY custom_tabs_hint_url_copy "Skopiowano adres">
 
 <!ENTITY pref_activity_stream "Activity Stream">
 <!ENTITY pref_activity_stream_summary "Wizualna historia i nowa strona domowa, ułatwiające wyszukiwanie treści w przeglądarce &brandShortName;.">
@@ -248,24 +255,17 @@
 <!ENTITY pref_plugins_enabled "Włączone">
 <!ENTITY pref_plugins_tap_to_play2 "Dotknięcie, aby odtworzyć">
 <!ENTITY pref_plugins_disabled "Wyłączone">
-<!ENTITY pref_text_size "Rozmiar tekstu">
 <!ENTITY pref_restore_tabs "Przywracanie kart">
 <!ENTITY pref_restore_always "Zawsze">
 <!ENTITY pref_restore_quit "Nigdy">
-<!ENTITY pref_font_size_tiny "Bardzo mały">
-<!ENTITY pref_font_size_small "Mały">
-<!ENTITY pref_font_size_medium "Średni">
-<!ENTITY pref_font_size_large "Duży">
-<!ENTITY pref_font_size_xlarge "Bardzo duży">
-<!ENTITY pref_font_size_set "Ustaw">
-<!ENTITY pref_font_size_adjust_char "Aa">
 
-<!ENTITY pref_font_size_preview_text "Chyży ryży lisek skacze przez wysoko postawioną poprzeczkę dzięki szybkości, łatwości w dostosowywaniu go do potrzeb użytkownika i zwiększonym bezpieczeństwie. Jesteśmy organizacją non-profit, dzięki czemu możemy pracować nad innowacjami służącymi Twojemu dobru bez potrzeby pójścia na żaden kompromis. To oznacza przyjemniejsze użytkowanie aplikacji i lepszą przyszłość dla sieci.">
+<!ENTITY pref_use_system_font_size "Rozmiar czcionki systemu">
+<!ENTITY pref_use_system_font_size_summary "Skalowanie stron zgodnie z rozmiarem czcionki systemu">
 
 <!ENTITY pref_media_autoplay_enabled "Automatyczne odtwarzanie">
 <!ENTITY pref_media_autoplay_enabled_summary "Kontroluje, czy strony mogą automatycznie odtwarzać filmy i inne treści">
-<!ENTITY pref_zoom_force_enabled "Wymuszanie możliwości powiększania">
-<!ENTITY pref_zoom_force_enabled_summary "Kontroluje możliwość wymuszenia możliwości powiększania dowolnej strony">
+<!ENTITY pref_zoom_force_enabled "Można powiększać każdą stronę">
+<!ENTITY pref_zoom_force_enabled_summary "Umożliwia powiększanie dowolnej strony">
 <!ENTITY pref_voice_input "Sterowanie głosowe">
 <!ENTITY pref_voice_input_summary2 "Umożliwia sterowanie głosowe w pasku adresu">
 <!ENTITY pref_qrcode_enabled "Czytnik kodów QR">
@@ -362,6 +362,7 @@
 <!ENTITY contextmenu_open_new_tab "Otwórz w nowej karcie">
 <!ENTITY contextmenu_remove "Usuń">
 <!ENTITY contextmenu_add_to_launcher "Dodaj do ekranu głównego">
+<!ENTITY contextmenu_set_as_homepage "Ustaw jako stronę domową">
 <!ENTITY contextmenu_share "Udostępnij">
 <!ENTITY contextmenu_pasteandgo "Wklej i przejdź do strony">
 <!ENTITY contextmenu_paste "Wklej">
@@ -385,9 +386,6 @@
 <!ENTITY doorhanger_login_select_action_text "Wybierz inne">
 <!ENTITY doorhanger_login_select_title "Kopiuj hasło dla">
 
-<!ENTITY pref_magnifying_glass_enabled "Powiększanie małych obszarów">
-<!ENTITY pref_magnifying_glass_enabled_summary2 "Zwiększanie odnośników i pól formularzy po dotknięciu obok nich">
-
 <!ENTITY pref_scroll_title_bar2 "Przeglądanie pełnoekranowe">
 <!ENTITY pref_scroll_title_bar_summary2 "Ukrywanie paska przeglądarki &brandShortName; przy przewijaniu stron">
 
@@ -402,7 +400,8 @@
 <!ENTITY bookmark_edit_title "Edytuj zakładkę">
 <!ENTITY bookmark_edit_name "Nazwa">
 <!ENTITY bookmark_edit_location "Adres URL">
-<!ENTITY bookmark_edit_keyword "Słowa kluczowe">
+<!ENTITY bookmark_edit_keyword "Słowo kluczowe">
+<!ENTITY bookmark_select_folder "Wybierz folder">
 
 <!ENTITY site_settings_title3 "Ustawienia witryny">
 <!ENTITY site_settings_cancel "Anuluj">
@@ -538,7 +537,6 @@
 
 <!ENTITY ellipsis "…">
 <!ENTITY colon ":">
-<!ENTITY percent "&formatS;&#37;&#37;">
 
 <!ENTITY actionbar_menu "Menu">
 <!ENTITY actionbar_done "Gotowe">

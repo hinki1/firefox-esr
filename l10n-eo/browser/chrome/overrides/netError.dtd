@@ -158,9 +158,12 @@ was trying to connect. -->
 <!-- LOCALIZATION NOTE (certerror.wrongSystemTime2,
                         certerror.wrongSystemTimeWithoutReference) - The <span id='..' />
      tags will be injected with actual values, please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime2 "<p> &brandShortName; ne konektiĝis al <span id='wrongSystemTime_URL'/>, ĉar la horloĝo en via komputilo ŝajne montras malĝustan horon, kaj tio malebligas sekuran konekton.</p><p>La dato en via komputilo estas nun <span id='wrongSystemTime_systemDate'/>, sed ĝi devus esti <span id='wrongSystemTime_actualDate'/>. Por solvi ĉi tiun problemon, ŝanĝu la daton kaj horon, tiel ke ili estos ĝustaj.</p>">
+<!ENTITY certerror.wrongSystemTimeWithoutReference "<p>&brandShortName; ne konektiĝis al <span id='wrongSystemTimeWithoutReference_URL'/>, ĉar la horloĝo en via komputilo ŝajne montras malĝustan horon, kaj tio malebligas sekuran konekton.</p><p>La dato en via komputilo estas nun <span id='wrongSystemTimeWithoutReference_systemDate'/>. Por solvi ĉi tiun problemon, ŝanĝu la daton kaj horon, tiel ke ili estos ĝustaj.</p>">
 
 <!ENTITY certerror.pagetitle1  "Nesekura konekto">
-<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Tiu ĉi retejo uzas Striktan Transportan Sekurecan HTTP (HSTS) por indiki ke &brandShortName; nur konektu al ĝi sekure. Pro tio, ne eblas aldoni escepton por tiu ĉi atestilo.">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Tiu ĉi retejo uzas HTTP
+Strict Transport Security (HSTS) por specifi ke &brandShortName; nur povas konekti ĝin sekure. Pro tio, ne eblas aldoni escepton por tiu ĉi atestilo.">
 <!ENTITY certerror.copyToClipboard.label "Kopii tekston al tondujo">
 
 <!ENTITY inadequateSecurityError.title "Via konekto ne estas sekura">

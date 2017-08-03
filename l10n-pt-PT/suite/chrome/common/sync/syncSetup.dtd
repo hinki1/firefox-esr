@@ -49,7 +49,7 @@
 <!ENTITY recoveryKeyEntry.label        "A sua chave de recuperação">
 <!ENTITY recoveryKeyEntry.accesskey    "c">
 <!ENTITY recoveryGenerateNewKey.label  "Criar uma nova chave">
-<!ENTITY recoveryKeyBackup.description "A sua chave de recuperação é necessária para aceder ao &syncBrand.fullName.label; noutras máquinas. Por favor crie uma cópia de segurança. Não podemos ajudá-lo a recuperar a sua chave de recuperação.">
+<!ENTITY recoveryKeyBackup.description "A sua chave de recuperação é necessária para aceder ao &syncBrand.fullName.label; noutras máquinas. Por favor crie uma cópia de segurança. Não podemos ajudar-lhe a recuperar a sua chave de recuperação.">
 
 <!ENTITY button.syncKeyBackup.print.label     "Imprimir...">
 <!ENTITY button.syncKeyBackup.print.accesskey "I">
@@ -57,7 +57,7 @@
 <!ENTITY button.syncKeyBackup.save.accesskey  "G">
 <!-- New Account Page 3: Captcha -->
 
-<!ENTITY setup.captchaPage2.title.label     "Por favor confirme que não é um robô ;)">
+<!ENTITY setup.captchaPage2.title.label     "Por favor confirme que não é um robô">
 <!-- Existing Account Page 1: Add Device (incl. Add a Device dialog strings) -->
 
 <!ENTITY addDevice.title.label              "Adicionar um dispositivo">
@@ -68,7 +68,7 @@
 <!ENTITY addDevice.dialog.description.label "Para ativar o seu novo dispositivo, vá às opções do &syncBrand.shortName.label; no dispositivo e selecione &quot;Ligar.&quot;">
 <!ENTITY addDevice.dialog.enterCode.label   "Introduza o código que o dispositivo forneceu:">
 <!ENTITY addDevice.dialog.tryAgain.label    "Por favor tente novamente.">
-<!ENTITY addDevice.dialog.successful.label  "O dispositivo foi adicionado com sucesso. A sincronização inicial pode demorar alguns minutos e irá terminar em segundo plano.">
+<!ENTITY addDevice.dialog.successful.label  "O dispositivo foi adicionado com sucesso. A sincronização inicial pode demorar alguns minutos e irá concluir em segundo plano.">
 <!ENTITY addDevice.dialog.recoveryKey.label "Para ativar o seu dispositivo tem de introduzir a sua chave de recuperação. Por favor, imprima ou guarde esta chave e leve-a consigo.">
 <!ENTITY addDevice.dialog.connected.label   "Dispositivo ligado">
 <!-- Existing Account Page 2: Manual Login -->

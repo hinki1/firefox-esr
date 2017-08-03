@@ -51,16 +51,16 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "T">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Conta atual">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "C">
-<!ENTITY getNextNMsgCmd.label "Receber próxima 500 novas mensagens">
-<!ENTITY getNextNMsgCmd.accesskey "R">
+<!ENTITY getNextNMsgCmd2.label "Obter as próximas mensagens de notícias">
+<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Enviar mensagens não enviadas">
 <!ENTITY sendUnsentCmd.accesskey "e">
 <!ENTITY subscribeCmd.label "Subscrever...">
 <!ENTITY subscribeCmd.accesskey "b">
 <!ENTITY deleteFolder.label "Apagar pasta">
 <!ENTITY deleteFolder.accesskey "A">
-<!ENTITY renameFolder.label "Mudar nome da pasta...">
-<!ENTITY renameFolder.accesskey "M">
+<!ENTITY renameFolder.label "Renomear pasta…">
+<!ENTITY renameFolder.accesskey "R">
 <!ENTITY renameFolder.key "VK_F2">
 <!ENTITY compactFolders.label "Compactar pastas">
 <!ENTITY compactFolders.accesskey "t">
@@ -136,7 +136,7 @@
 <!ENTITY customizeToolbar.accesskey "P">
 
 <!ENTITY messagePaneLayoutStyle.label "Esquema">
-<!ENTITY messagePaneLayoutStyle.accesskey "u">
+<!ENTITY messagePaneLayoutStyle.accesskey "E">
 <!ENTITY messagePaneClassic.label "Clássico">
 <!ENTITY messagePaneClassic.accesskey "C">
 <!ENTITY messagePaneWide.label "Grande">
@@ -210,18 +210,18 @@
 <!ENTITY sortUnthreaded.label "Não agrupar">
 <!ENTITY sortUnthreaded.accesskey "N">
 <!ENTITY groupBySort.label "Agrupar pela ordem">
-<!ENTITY groupBySort.accesskey "e">
+<!ENTITY groupBySort.accesskey "g">
 <!ENTITY msgsMenu.label "Mensagens">
 <!ENTITY msgsMenu.accesskey "M">
 <!ENTITY threads.label "Tópicos">
 <!ENTITY threads.accesskey "T">
 <!ENTITY allMsgsCmd.label "Todos">
 <!ENTITY allMsgsCmd.accesskey "T">
-<!ENTITY expandAllThreadsCmd.label "Expandir todos">
+<!ENTITY expandAllThreadsCmd.label "Expandir todos os tópicos">
 <!ENTITY expandAllThreadsCmd.accesskey "E">
 <!ENTITY expandAllThreadsCmd.key "*">
-<!ENTITY collapseAllThreadsCmd.label "Recolher todos">
-<!ENTITY collapseAllThreadsCmd.accesskey "c">
+<!ENTITY collapseAllThreadsCmd.label "Colapsar todos os tópicos">
+<!ENTITY collapseAllThreadsCmd.accesskey "C">
 <!ENTITY collapseAllThreadsCmd.key "\">
 <!ENTITY unreadMsgsCmd.label "Não lidas">
 <!ENTITY unreadMsgsCmd.accesskey "N">
@@ -357,8 +357,8 @@
 <!ENTITY forwardMsgCmd.key "l">
 <!ENTITY forwardAsMenu.label "Reencaminhar como">
 <!ENTITY forwardAsMenu.accesskey "m">
-<!ENTITY forwardAsInline.label "Em linha">
-<!ENTITY forwardAsInline.accesskey "l">
+<!ENTITY forwardAsInline.label "Inline">
+<!ENTITY forwardAsInline.accesskey "I">
 <!ENTITY forwardAsAttachmentCmd.label "Anexo">
 <!ENTITY forwardAsAttachmentCmd.accesskey "x">
 <!ENTITY editAsNewMsgCmd.label "Editar como nova">
@@ -441,8 +441,8 @@
 <!ENTITY openFeedWebPage.accesskey "w">
 <!ENTITY openFeedSummary.label "Abrir como resumo">
 <!ENTITY openFeedSummary.accesskey "s">
-<!ENTITY openFeedWebPageInMP.label "Trocar página web e resumo no painel de mensagens">
-<!ENTITY openFeedWebPageInMP.accesskey "T">
+<!ENTITY openFeedWebPageInMP.label "Alternar página web e resumo no painel de mensagens">
+<!ENTITY openFeedWebPageInMP.accesskey "t">
 <!-- Windows Menu -->
 
 <!ENTITY windowMenu.label "Janela">
@@ -567,7 +567,7 @@
 <!ENTITY replyAllButton.tooltip "Responder ao remetente e a todos os destinatários">
 <!ENTITY replyListButton.tooltip "Responder à lista de correio">
 <!ENTITY forwardButton.tooltip "Reencaminhar mensagem selecionada">
-<!ENTITY forwardAsInline.tooltip "Reencaminhar mensagem selecionada como texto">
+<!ENTITY forwardAsInline.tooltip "Reencaminhar mensagem selecionada como texto inline">
 <!ENTITY forwardAsAttachment.tooltip "Reencaminhar mensagem selecionada como anexo">
 <!ENTITY fileButton.tooltip "Selecione a mensagem">
 <!ENTITY archiveButton.tooltip "Arquivar mensagens selecionadas">
@@ -592,7 +592,7 @@
 <!ENTITY appmenuButton1.tooltip "Mostrar menu do &brandShortName;">
 <!-- Toolbar Button Popup -->
 
-<!ENTITY buttonMenuForwardAsInline.label "Reencaminhar como texto">
+<!ENTITY buttonMenuForwardAsInline.label "Reencaminhar inline">
 <!ENTITY buttonMenuForwardAsAttachment.label "Reencaminhar como anexo">
 <!-- Remote Content Button Popup -->
 
@@ -615,7 +615,7 @@
 <!ENTITY appmenuNewMsgCmd.label "Nova mensagem">
 <!ENTITY appmenuNewContactCmd.label "Contacto do livro de endereços...">
 <!ENTITY appmenuEditMenu.label "Editar">
-<!ENTITY appmenuToolbarLayout.label "Esquema da barra de ferramentas...">
+<!ENTITY appmenuToolbarLayout.label "Esquema da barra de ferramentas…">
 <!ENTITY appmenuSelectThread.label "Selecionar tópico">
 <!ENTITY appmenuSelectFlagged.label "Selecionar mensagens com estrela">
 <!-- Tags Menu Popup -->
@@ -634,14 +634,17 @@
 
 <!ENTITY folderContextGetMessages.label "Obter mensagens">
 <!ENTITY folderContextGetMessages.accesskey "O">
+<!ENTITY folderContextPauseAllUpdates.label "Pausar todas as atualizações">
+<!ENTITY folderContextPauseUpdates.label "Pausar atualizações">
+<!ENTITY folderContextPauseUpdates.accesskey "u">
 <!ENTITY folderContextOpenInNewWindow.label "Abrir">
 <!ENTITY folderContextOpenInNewWindow.accesskey "A">
 <!ENTITY folderContextOpenNewTab.label "Abrir em novo separador">
 <!ENTITY folderContextOpenNewTab.accesskey "s">
 <!ENTITY folderContextNew.label "Nova subpasta...">
 <!ENTITY folderContextNew.accesskey "N">
-<!ENTITY folderContextRename.label "Mudar nome">
-<!ENTITY folderContextRename.accesskey "M">
+<!ENTITY folderContextRename.label "Renomear">
+<!ENTITY folderContextRename.accesskey "R">
 <!ENTITY folderContextRemove.label "Apagar">
 <!ENTITY folderContextRemove.accesskey "A">
 <!ENTITY folderContextCompact.label "Compactar">
@@ -760,8 +763,8 @@
 <!ENTITY contextForward.accesskey "e">
 <!ENTITY contextForwardAsMenu.label "Reencaminhar como">
 <!ENTITY contextForwardAsMenu.accesskey "o">
-<!ENTITY contextForwardAsInline.label "Texto">
-<!ENTITY contextForwardAsInline.accesskey "x">
+<!ENTITY contextForwardAsInline.label "Inline">
+<!ENTITY contextForwardAsInline.accesskey "I">
 <!ENTITY contextForwardAsAttachmentItem.label "Anexo">
 <!ENTITY contextForwardAsAttachmentItem.accesskey "A">
 <!ENTITY contextMultiForwardAsAttachment.label "Reencaminhar como anexos">
@@ -932,7 +935,7 @@
 <!ENTITY minimizeWindow.label "Minimizar">
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY bringAllToFront.label "Trazer tudo para frente">
-<!ENTITY zoomWindow.label "Ampliação">
+<!ENTITY zoomWindow.label "Zoom">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 
 <!ENTITY preferencesCmdMac2.label       "Preferências">

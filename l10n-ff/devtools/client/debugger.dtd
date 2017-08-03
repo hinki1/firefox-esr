@@ -19,20 +19,34 @@
 <!-- LOCALIZATION NOTE (debuggerUI.blackBoxMessage.label): This is the message
   - displayed to users when they select a black boxed source from the sources
   - list in the debugger. -->
+
+<!ENTITY debuggerUI.blackBoxMessage.label "Ndee sewnde ko bakanel ɓalewel: gulɗe maggel ko ñifaaɗe, taaɓo ɗe ɓennaa.">
 <!-- LOCALIZATION NOTE (debuggerUI.blackBoxMessage.unBlackBoxButton): This is
   - the text displayed in the button to stop black boxing the currently selected
   - source. -->
+
+<!ENTITY debuggerUI.blackBoxMessage.unBlackBoxButton "Dartin bakanel ɓalewel ndee sewnde">
 <!-- LOCALIZATION NOTE (debuggerUI.optsButton.tooltip): This is the tooltip for
   -  the button that opens up an options context menu for the debugger UI. -->
+
+<!ENTITY debuggerUI.optsButton.tooltip  "Cuɓanɗe Momtirgel ella">
 <!-- LOCALIZATION NOTE (debuggerUI.sources.blackBoxTooltip): This is the tooltip
   -  for the button that black boxes the selected source. -->
+
+<!ENTITY debuggerUI.sources.blackBoxTooltip "Waklit wakannde ɓaleere ndee">
 <!-- LOCALIZATION NOTE (debuggerUI.sources.prettyPrint): This is the tooltip for the
   -  button that pretty prints the selected source. -->
+
+<!ENTITY debuggerUI.sources.prettyPrint "Ŋarɗin Sewnde">
 <!-- LOCALIZATION NOTE (debuggerUI.autoPrettyPrint): This is the label for the
   -  checkbox that toggles auto pretty print. -->
+
+<!ENTITY debuggerUI.autoPrettyPrint     "Cewɗe tokosinaaɗe ŋarɗin koye mum en">
 <!ENTITY debuggerUI.autoPrettyPrint.accesskey "P">
 <!-- LOCALIZATION NOTE (debuggerUI.sources.toggleBreakpoints): This is the tooltip for the
   -  button that toggles all breakpoints for all sources. -->
+
+<!ENTITY debuggerUI.sources.toggleBreakpoints "Hurmin/daaƴ toɓɓe dartorɗe">
 <!-- LOCALIZATION NOTE (debuggerUI.clearButton): This is the label for
   -  the button that clears the collected tracing data in the tracing tab. -->
 
@@ -44,26 +58,36 @@
 <!-- LOCALIZATION NOTE (debuggerUI.pauseExceptions): This is the label for the
   -  checkbox that toggles pausing on exceptions. -->
 
+<!ENTITY debuggerUI.pauseExceptions           "Foofto e Luulnde">
+
 <!-- LOCALIZATION NOTE (debuggerUI.ignoreCaughtExceptions): This is the label for the
   -  checkbox that toggles ignoring caught exceptions. -->
 
+<!ENTITY debuggerUI.ignoreCaughtExceptions           "Faalkiso Luulnde jaggaaɗe">
+<!ENTITY debuggerUI.ignoreCaughtExceptions.accesskey "C">
 <!-- LOCALIZATION NOTE (debuggerUI.showPanesOnInit): This is the label for the
   -  checkbox that toggles visibility of panes when opening the debugger. -->
 
+<!ENTITY debuggerUI.showPanesOnInit           "Hollit barware pokkitgol">
+<!ENTITY debuggerUI.showPanesOnInit.accesskey "D">
 <!-- LOCALIZATION NOTE (debuggerUI.showVarsFilter): This is the label for the
   -  checkbox that toggles visibility of a designated variables filter box. -->
 
+<!ENTITY debuggerUI.showVarsFilter           "Hollit baylotooɗe wakannde siiwtirde">
+<!ENTITY debuggerUI.showVarsFilter.accesskey "V">
 <!-- LOCALIZATION NOTE (debuggerUI.showOnlyEnum): This is the label for the
   -  checkbox that toggles visibility of hidden (non-enumerable) variables and
   -  properties in stack views. The "enumerable" flag is a state of a property
   -  defined in JavaScript. When in doubt, leave untranslated. -->
 
+<!ENTITY debuggerUI.showOnlyEnum           "Hollit keeriiɗe limtaaɗe ɗee tan">
+<!ENTITY debuggerUI.showOnlyEnum.accesskey "P">
 <!-- LOCALIZATION NOTE (debuggerUI.showOriginalSource): This is the label for
   -  the checkbox that toggles the display of original or sourcemap-derived
   -  sources. -->
 
 <!ENTITY debuggerUI.showOriginalSource           "Hollu iwdiji yummaaji">
-
+<!ENTITY debuggerUI.showOriginalSource.accesskey "C">
 <!-- LOCALIZATION NOTE (debuggerUI.autoBlackBox): This is the label for
   -  the checkbox that toggles whether sources that we suspect are minified are
   -  automatically black boxed or not. -->
@@ -75,6 +99,8 @@
 <!-- LOCALIZATION NOTE (debuggerUI.searchFile): This is the text that appears
   -  in the source editor's context menu for the scripts search operation. -->
 
+<!ENTITY debuggerUI.searchFile           "Ciiwtirgal eskiript">
+<!ENTITY debuggerUI.searchFile.key       "P">
 
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchGlobal): This is the text that appears
@@ -85,6 +111,8 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchFunction): This is the text that appears
   -  in the source editor's context menu for the function search operation. -->
+
+<!ENTITY debuggerUI.searchFunction           "Yiylo firo gollirgal">
 
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchToken): This is the text that appears
@@ -116,6 +144,8 @@
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuBreak): This is the text that
   -  appears in the source editor context menu for adding a breakpoint. -->
 
+<!ENTITY debuggerUI.seMenuBreak     "Ɓeydu toɓɓere dartorde">
+
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuCondBreak): This is the text that
   -  appears in the source editor context menu for adding a conditional
   -  breakpoint. -->
@@ -130,10 +160,10 @@
 <!-- LOCALIZATION NOTE (debuggerUI.tabs.*): This is the text that
   -  appears in the debugger's side pane tabs. -->
 <!ENTITY debuggerUI.tabs.sources        "Iwdeele">
-
-
+<!ENTITY debuggerUI.tabs.traces         "Ɓarakke">
+<!ENTITY debuggerUI.tabs.callstack      "Noddu joowondire">
 <!ENTITY debuggerUI.tabs.variables      "Baylotooɗe">
-
+<!ENTITY debuggerUI.tabs.events         "Joljole">
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuAddWatch): This is the text that
   -  appears in the source editor context menu for adding an expression. -->
 

@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Úsáid mínscrollú">
 <!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY allowHWAccel.label              "Úsáid luasghéarú crua-earraí más féidir">
-<!ENTITY allowHWAccel.accesskey          "r">
 <!ENTITY checkUserSpelling.label         "Seiceáil litriú le linn clóscríofa">
 <!ENTITY checkUserSpelling.accesskey     "t">
 
@@ -33,17 +31,17 @@
 <!ENTITY healthReportDesc.label          "Cabhraíonn seo leat feidhmíocht an bhrabhsálaí a thuiscint, agus seolann sé sonraí maidir le sláinte do leagan den bhrabhsálaí chuig &vendorShortName;">
 <!ENTITY enableHealthReport.label        "Cumasaigh Tuairisc Shláinte &brandShortName;">
 <!ENTITY enableHealthReport.accesskey    "T">
-<!ENTITY healthReportLearnMore.label     "Tuilleadh Eolais">
+<!ENTITY healthReportLearnMore.label     "Tuilleadh eolais">
 
 <!ENTITY telemetryDesc.label             "Seolann sé faisnéis maidir le feidhmíocht, úsáid, crua-earraí, agus saincheapadh an bhrabhsálaí chuig &vendorShortName; chun cabhrú linn feabhas a chur ar &brandShortName;.">
 <!ENTITY enableTelemetryData.label       "Comhroinn Sonraí Breise (.i., Telemetry)">
 <!ENTITY enableTelemetryData.accesskey   "T">
-<!ENTITY telemetryLearnMore.label        "Tuilleadh Eolais">
+<!ENTITY telemetryLearnMore.label        "Tuilleadh eolais">
 
 <!ENTITY crashReporterDesc2.label         "Cabhraíonn tuairiscí tuairteála le &vendorShortName; fadhbanna a réiteach agus brabhsálaí níos cobhsaí níos sláine a chur ar fáil">
 <!ENTITY alwaysSubmitCrashReports.label   "Lig do &brandShortName; seantuairiscí tuairteála a sheoladh ar do shon">
 <!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "Tuilleadh Eolais">
+<!ENTITY crashReporterLearnMore.label     "Tuilleadh eolais">
 
 <!ENTITY networkTab.label                "Líonra">
 
@@ -82,24 +80,38 @@
 <!ENTITY overrideSmartCacheSize.accesskey "r">
 
 <!ENTITY updateTab.label                 "Nuashonrú">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 
 <!ENTITY updateApplication.label         "Nuashonruithe &brandShortName;">
-<!ENTITY updateAuto1.label               "Suiteáil nuashonruithe go huathoibríoch (molta: slándáil níos fearr)">
-<!ENTITY updateAuto1.accesskey           "a">
-<!ENTITY updateCheckChoose.label         "Lorg nuashonruithe, ach lig dom iad a shuiteáil nuair is mian liom">
-<!ENTITY updateCheckChoose.accesskey     "L">
-<!ENTITY updateManual.label              "Ná lorg nuashonruithe riamh (rabhadh: contúirt slándála)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Leagan ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Lig do &brandShortName;">
+<!ENTITY updateAuto2.label               "Suiteáil nuashonruithe go huathoibríoch (molta: slándáil níos fearr)">
+<!ENTITY updateAuto2.accesskey           "a">
+<!ENTITY updateCheckChoose2.label        "Lorg nuashonruithe, ach lig dom iad a shuiteáil nuair is mian liom">
+<!ENTITY updateCheckChoose2.accesskey    "L">
+<!ENTITY updateManual2.label             "Ná lorg nuashonruithe (ní mholtar é seo)">
+<!ENTITY updateManual2.accesskey         "N">
 
-<!ENTITY updateHistory.label             "Taispeáin Stair na Nuashonruithe">
-<!ENTITY updateHistory.accesskey         "p">
+<!ENTITY updateHistory2.label            "Taispeáin Stair na Nuashonruithe…">
+<!ENTITY updateHistory2.accesskey        "p">
 
 <!ENTITY useService.label                "Úsáid seirbhís sa chúlra chun nuashonruithe a shuiteáil">
 <!ENTITY useService.accesskey            "b">
 
-<!ENTITY autoUpdateOthers.label          "Nuashonraigh go huathoibríoch">
-<!ENTITY enableSearchUpdate.label        "Innill Chuardaigh">
-<!ENTITY enableSearchUpdate.accesskey    "I">
+<!ENTITY enableSearchUpdate2.label       "Nuashonraigh innill chuardaigh go huathoibríoch">
+<!ENTITY enableSearchUpdate2.accesskey   "c">
+
+<!ENTITY reports.label                   "Tuairiscí">
 
 <!ENTITY offlineStorageNotify.label               "Inis dom nuair a iarrann suíomh Gréasáin sonraí a stóráil le haghaidh úsáide as líne">
 <!ENTITY offlineStorageNotify.accesskey           "t">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Bain sonraí as líne">
 
 <!ENTITY certificateTab.label            "Teastais">
-<!ENTITY certPersonal.label              "Iarratais">
-<!ENTITY certPersonal.description        "Nuair atá freastalaí ag iarraidh mo theastas pearsanta:">
+<!ENTITY certPersonal2.description       "Nuair atá freastalaí ag iarraidh mo theastas pearsanta">
 <!ENTITY selectCerts.auto                "Roghnaigh go huathoibríoch">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "Fiafraigh díom i gcónaí">
@@ -125,3 +136,16 @@
 <!ENTITY viewCerts.accesskey             "s">
 <!ENTITY viewSecurityDevices.label       "Gléasanna Slándála">
 <!ENTITY viewSecurityDevices.accesskey   "d">
+
+<!ENTITY performance.label               "Feidhmíocht">
+<!ENTITY useRecommendedPerformanceSettings2.label "Bain úsáid as na socruithe feidhmíochta a mholtar">
+<!ENTITY useRecommendedPerformanceSettings2.description "Cuireadh na socruithe seo in oiriúint do chrua-earraí agus do chóras oibriúcháin do ríomhaire.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey "B">
+<!ENTITY performanceSettingsLearnMore.label "Tuilleadh eolais">
+<!ENTITY limitContentProcessOption.label "Teorainn próiseála ábhair">
+<!ENTITY limitContentProcessOption.description "Beidh an brabhsálaí níos freagraí agus tuilleadh próiseas ábhair ar siúl má úsáidtear cluaisíní iomadúla, cé go n-úsáideann sé níos mó cuimhne.">
+<!ENTITY limitContentProcessOption.accesskey   "T">
+<!ENTITY limitContentProcessOption.disabledDescription "Ní féidir mionathrú a dhéanamh ar an líon próisis ábhair ach le hilphróiseáil &brandShortName; amháin.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink "Foghlaim conas seiceáil má tá an ilphróiseáil cumasaithe">
+<!ENTITY allowHWAccel.label              "Úsáid luasghéarú crua-earraí más féidir">
+<!ENTITY allowHWAccel.accesskey          "r">

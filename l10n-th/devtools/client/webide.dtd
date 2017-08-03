@@ -22,7 +22,7 @@
 <!ENTITY projectMenu_debug_accesskey "D">
 <!ENTITY projectMenu_remove_label "เอาโครงการออก">
 <!ENTITY projectMenu_remove_accesskey "R">
-<!ENTITY projectMenu_showPrefs_label "การตั้งค่า">
+<!ENTITY projectMenu_showPrefs_label "ค่ากำหนด">
 <!ENTITY projectMenu_showPrefs_accesskey "e">
 <!ENTITY projectMenu_manageComponents_label "จัดการส่วนประกอบพิเศษ">
 <!ENTITY projectMenu_manageComponents_accesskey "M">
@@ -37,7 +37,7 @@
 <!ENTITY runtimeMenu_showDetails_label "ข้อมูล Runtime">
 <!ENTITY runtimeMenu_showDetails_accesskey "E">
 <!ENTITY runtimeMenu_showMonitor_accesskey "M">
-<!ENTITY runtimeMenu_showDevicePrefs_label "ค่าที่ตั้งของอุปกรณ์">
+<!ENTITY runtimeMenu_showDevicePrefs_label "ค่ากำหนดอุปกรณ์">
 <!ENTITY runtimeMenu_showDevicePrefs_accesskey "D">
 <!ENTITY runtimeMenu_showSettings_label "ตั้งค่าอุปกรณ์">
 <!ENTITY runtimeMenu_showSettings_accesskey "s">
@@ -110,7 +110,7 @@
 <!ENTITY addons_aboutaddons "เปิดตัวจัดการส่วนเสริม">
 
 <!-- Prefs -->
-<!ENTITY prefs_title "การตั้งค่า">
+<!ENTITY prefs_title "ค่ากำหนด">
 <!ENTITY prefs_editor_title "ตัวแก้ไข">
 <!ENTITY prefs_general_title "ทั่วไป">
 <!ENTITY prefs_restore "เรียกคืนค่าเริ่มต้น">
@@ -128,16 +128,22 @@
 <!ENTITY runtimedetails_title "ข้อมูล Runtime">
 
 <!-- Device Preferences and Settings -->
+<!ENTITY device_typeboolean "ค่าตรรกะ">
 <!ENTITY device_typeobject "วัตถุ">
 <!ENTITY device_typenone "เลือกชนิด">
 
 <!-- Device Preferences -->
-<!ENTITY devicepreference_title "ค่าที่ตั้งของอุปกรณ์">
+<!ENTITY devicepreference_title "ค่ากำหนดอุปกรณ์">
+<!ENTITY devicepreference_search "ค้นหาค่ากำหนด">
+<!ENTITY devicepreference_newname "ชื่อค่ากำหนดใหม่">
+<!ENTITY devicepreference_newtext "ค่าของค่ากำหนด">
+<!ENTITY devicepreference_addnew "เพิ่มค่ากำหนดใหม่">
 
 <!-- Device Settings -->
 <!ENTITY devicesetting_title "ตั้งค่าอุปกรณ์">
 <!ENTITY devicesetting_search "ตั้งค่าการค้นหา">
 <!ENTITY devicesetting_newname "ชื่อการตั้งค่าใหม่">
+<!ENTITY devicesetting_newtext "ค่าการตั้งค่า">
 <!ENTITY devicesetting_addnew "เพิ่มการตั้งค่าใหม่">
 
 <!-- Monitor -->
@@ -165,7 +171,7 @@
 <!ENTITY simulator_name "ชื่อ">
 <!ENTITY simulator_software "ซอฟต์แวร์">
 <!ENTITY simulator_version "รุ่น">
-<!ENTITY simulator_profile "โพรไฟล์">
+<!ENTITY simulator_profile "โปรไฟล์">
 <!ENTITY simulator_hardware "ฮาร์ดแวร์">
 <!ENTITY simulator_device "อุปกรณ์">
 <!ENTITY simulator_screenSize "หน้าจอ">

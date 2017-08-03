@@ -1,24 +1,27 @@
 <!ENTITY aboutDialog.title          "&brandFullName; туралы">
+<!-- LOCALIZATION NOTE (update.*):
+# These strings are also used in the update pane of preferences.
+# See about:preferences#advanced.
+-->
 <!-- LOCALIZATION NOTE (update.checkForUpdatesButton.*, update.updateButton.*):
 # Only one button is present at a time.
 # The button when displayed is located directly under the Thunderbird version in
 # the about dialog.
 -->
 
-
 <!ENTITY update.checkForUpdatesButton.label       "Жаңартуларды тексеру">
 <!ENTITY update.checkForUpdatesButton.accesskey   "к">
-<!ENTITY update.updateButton.label2               "Жаңарту үшін &brandShortName; қайта қосу">
+<!ENTITY update.updateButton.label3               "&brandShorterName; жаңарту үшін қайта іске қосыңыз">
 <!ENTITY update.updateButton.accesskey            "й">
-<!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
+<!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly builds. It is only shown in this version. -->
 
 
 <!ENTITY warningDesc.version        "&brandShortName; сынама түрі және тұрақсыз болуы мүмкін.">
-<!-- LOCALIZATION NOTE (warningDesc.telemetryDesc): This is a notification that Nightly/Aurora builds automatically send Telemetry data back to Mozilla. It is only shown in those versions. "It" refers to brandShortName. -->
+<!-- LOCALIZATION NOTE (warningDesc.telemetryDesc): This is a notification that Nightly builds automatically send Telemetry data back to Mozilla. It is only shown in this version. "It" refers to brandShortName. -->
 <!ENTITY warningDesc.telemetryDesc  "Ол автоматты түрде &vendorShortName; адресіне &brandShortName; жақсарту мақсатында өнімділік, құрылғылар, қолданыс пен баптаулар ақпаратын жіберіп отырады.">
-<!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
+<!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly builds, instead of the other "community.*" strings below. -->
 
-<!ENTITY community.exp.start        "">
+<!ENTITY community.exp.start        "‌">
 <!-- LOCALIZATION NOTE (community.exp.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
 <!ENTITY community.exp.mozillaLink  "&vendorShortName;">
 <!ENTITY community.exp.middle       " бұл ">
@@ -37,10 +40,10 @@
 <!ENTITY helpus.start               "Көмектескіңіз келе ме? ">
 <!-- LOCALIZATION NOTE (helpus.donateLink): This is a link title that links to the thunderbird donation page -->
 <!ENTITY helpus.donateLink          "Ақшалай көмектесіңіз">
-<!ENTITY helpus.middle              " немесе ">
+<!ENTITY helpus.middle              " немесе ">
 <!-- LOCALIZATION NOTE (helpus.getInvolvedLink): This is a link title that links to http://www.mozilla.org/contribute/. -->
 <!ENTITY helpus.getInvolvedLink     "үлес қосуға болады!">
-<!ENTITY helpus.end                 "">
+<!ENTITY helpus.end                 "‌">
 
 <!ENTITY releaseNotes.link          "Шығарылым ескертпесі">
 <!-- LOCALIZATION NOTE (bottomLinks.license): This is a link title that links to about:license. -->
@@ -75,7 +78,7 @@
      to download the latest version of Firefox (e.g. http://www.firefox.com). As this is all in one line,
      try to make the localized text short (see bug 596813 for screenshots). -->
 
-<!ENTITY update.manual.start        "Жүктеп алу">
+<!ENTITY update.manual.start        "Жүктеп алу ">
 <!ENTITY update.manual.linkText     "соңғы нұсқасы">
 <!ENTITY update.manual.end          "">
 <!-- LOCALIZATION NOTE (update.unsupported.start,update.unsupported.linkText,update.unsupported.end):
@@ -88,7 +91,7 @@
 <!ENTITY update.unsupported.start    "Бұл жүйе үшін болашақ жаңартуларды орната алмайсыз. ">
 <!ENTITY update.unsupported.linkText "Көбірек білу">
 <!ENTITY update.unsupported.end      "">
-<!-- LOCALIZATION NOTE (update.downloading.start,update.downloading.end): update.downloading.start and 
+<!-- LOCALIZATION NOTE (update.downloading.start,update.downloading.end): update.downloading.start and
      update.downloading.end all go into one line, with the amount downloaded inserted in between. As this
      is all in one line, try to make the localized text short (see bug 596813 for screenshots). The — is
      the "em dash" (long dash).
@@ -103,6 +106,6 @@
      example: You are currently on the _Stable_ update channel. -->
 
 <!ENTITY channel.description.start  "Сіз қазір ">
-<!ENTITY channel.description.end    " жаңарту арнадасыз.">
+<!ENTITY channel.description.end    " жаңарту арнадасыз. ">
 
 <!ENTITY cmdCloseMac.commandKey "w">

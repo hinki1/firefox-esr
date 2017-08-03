@@ -2,6 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/.  -->
 <!ENTITY aboutDialog.title          "Rutzijol &brandFullName;">
+<!-- LOCALIZATION NOTE (update.*):
+# These strings are also used in the update pane of preferences.
+# See about:preferences#advanced.
+-->
 <!-- LOCALIZATION NOTE (update.checkForUpdatesButton.*, update.updateButton.*):
 # Only one button is present at a time.
 # The button when displayed is located directly under the Firefox version in
@@ -10,12 +14,12 @@
 
 <!ENTITY update.checkForUpdatesButton.label       "Kekanöx taq k'exoj">
 <!ENTITY update.checkForUpdatesButton.accesskey   "K">
-<!ENTITY update.updateButton.label2               "Titikirisäx chik ri &brandShortName; richin nik'ex ruwäch">
+<!ENTITY update.updateButton.label3               "Titikirisäx chik richin nik'ex &brandShorterName;">
 <!ENTITY update.updateButton.accesskey            "T">
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
 
 
-<!ENTITY warningDesc.version        "&brandShortName; choj ok nitojtob’ëx, rik’in jub’a’ man pa rub’eyal ta.">
+<!ENTITY warningDesc.version        "&brandShortName; choj ok nitojtob'ëx, rik’in jub'a' man pa rub'eyal ta.">
 <!-- LOCALIZATION NOTE (warningDesc.telemetryDesc): This is a notification that Nightly/Aurora builds automatically send Telemetry data back to Mozilla. It is only shown in those versions. "It" refers to brandShortName. -->
 <!ENTITY warningDesc.telemetryDesc  "Ruyonil nutäq rutzijol ri rusamaj, rumolik samajib'äl, rokisaxik chuqa' taq winaqirem pa &vendorShortName; richin nito'on pa ruwi' ri &brandShortName; richin nutzïr.">
 <!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
@@ -26,28 +30,28 @@
 <!ENTITY community.exp.middle       " jun ">
 <!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
 <!ENTITY community.exp.creditsLink  "molaj winaqilal">
-<!ENTITY community.exp.end          " yojsamäj pa q'u'ch richin jantape' jaqäl chuqa' okel nisamajïx ri k’amaya’l.">
+<!ENTITY community.exp.end          " yojsamäj pa q'u'ch richin jantape' jaqäl chuqa' okel nisamajïx ri k'amaya'l.">
 
-<!ENTITY community.start2           "&brandShortName; wachib’en ruma ">
+<!ENTITY community.start2           "&brandShortName; wachib'en ruma ">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
 <!ENTITY community.mozillaLink      "&vendorShortName;">
 <!ENTITY community.middle2          ", jun ">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.creditsLink      "molaj winaqilal">
-<!ENTITY community.end3             " yojsamäj pa q'u'ch richin jantape' jaqäl chuqa' okel nisamajïx ri k’amaya’l.">
+<!ENTITY community.end3             " yojsamäj junam richin jantape' jaqäl chuqa' okel nisamajïx ri k’amaya'l.">
 
 <!ENTITY helpus.start               "¿La nawajo' yato'on? ">
 <!-- LOCALIZATION NOTE (helpus.donateLink): This is a link title that links to https://sendto.mozilla.org/page/contribute/Give-Now?source=mozillaorg_default_footer&ref=firefox_about&utm_campaign=firefox_about&utm_source=firefox&utm_medium=referral&utm_content=20140929_FireFoxAbout. -->
 <!ENTITY helpus.donateLink          "Taya' jun sipanïk">
 <!ENTITY helpus.middle              " o ">
 <!-- LOCALIZATION NOTE (helpus.getInvolvedLink): This is a link title that links to http://www.mozilla.org/contribute/. -->
-<!ENTITY helpus.getInvolvedLink     "¡kato’on!">
+<!ENTITY helpus.getInvolvedLink     "¡kato'on!">
 <!ENTITY helpus.end                 "">
 
 <!ENTITY releaseNotes.link          "Achike natzijoj">
 <!-- LOCALIZATION NOTE (bottomLinks.license): This is a link title that links to about:license. -->
 
-<!ENTITY bottomLinks.license        "Na’oj chi rij ya'öl q’ij">
+<!ENTITY bottomLinks.license        "Na'oj chi rij ya'öl q’ij">
 <!-- LOCALIZATION NOTE (bottomLinks.rights): This is a link title that links to about:rights. -->
 
 <!ENTITY bottomLinks.rights         "Kich'ojib'al kisib'äl taq winäq">
@@ -90,7 +94,7 @@
 <!ENTITY update.unsupported.start    "Man tikirel ta chik nab'an taq k'exoj pa re q'inoj re'. ">
 <!ENTITY update.unsupported.linkText "Tetamäx ch'aqa' chik">
 <!ENTITY update.unsupported.end      "">
-<!-- LOCALIZATION NOTE (update.downloading.start,update.downloading.end): update.downloading.start and 
+<!-- LOCALIZATION NOTE (update.downloading.start,update.downloading.end): update.downloading.start and
      update.downloading.end all go into one line, with the amount downloaded inserted in between. As this
      is all in one line, try to make the localized text short (see bug 596813 for screenshots). The — is
      the "em dash" (long dash).

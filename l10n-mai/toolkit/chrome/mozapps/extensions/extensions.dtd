@@ -117,6 +117,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "ई अद्यतन क लेल रिलीज नोट्स देखाउ">
 <!ENTITY cmd.hideReleaseNotes.label           "रिलीज नोट्स नुकाउ">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "ई अद्यतन क लेल रिलीज नोट्स नुकाउ">
+
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
@@ -184,6 +185,9 @@
 <!ENTITY addon.details.label                  " बेसी ">
 <!ENTITY addon.details.tooltip                "ई सहयुक्तिक संबंधमे बेसी विस्तार सँ देखाउ">
 <!ENTITY addon.unknownDate                    "अज्ञात">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -245,5 +249,10 @@
 <!ENTITY disabledUnsigned.devInfo.start "डेवलपर रुचि देखाबत हुए अपन एड-ऑन केँ जाँचनाय जारी राखत पढ़ि कए">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "मैनुअल">
 <!ENTITY disabledUnsigned.devInfo.end ".">
+
+
+
+
+
 
 

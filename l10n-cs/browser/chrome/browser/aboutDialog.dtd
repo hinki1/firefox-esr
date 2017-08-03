@@ -10,14 +10,14 @@
 -->
 <!ENTITY update.checkForUpdatesButton.label       "Zkontrolovat aktualizace">
 <!ENTITY update.checkForUpdatesButton.accesskey   "Z">
-<!ENTITY update.updateButton.label2               "Pro aktualizaci restartovat &brandShortName;">
+<!ENTITY update.updateButton.label3               "Restartovat a aktualizovat aplikaci &brandShorterName;">
 <!ENTITY update.updateButton.accesskey            "R">
 
 
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
 <!ENTITY warningDesc.version        "&brandShortName; je experimentální verze a může být nestabilní.">
 <!-- LOCALIZATION NOTE (warningDesc.telemetryDesc): This is a notification that Nightly/Aurora builds automatically send Telemetry data back to Mozilla. It is only shown in those versions. "It" refers to brandShortName. -->
-<!ENTITY warningDesc.telemetryDesc  "&brandShortName; automaticky odesílá data o výkonu, hardware, používání a přizpůsobení, která slouží vývojářům z organizace &vendorShortName; k vylepšení aplikace.">
+<!ENTITY warningDesc.telemetryDesc  "&brandShortName; automaticky odesílá data o výkonu, hardwaru, používání a přizpůsobení, která slouží vývojářům z organizace &vendorShortName; k vylepšení aplikace.">
 
 <!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
 <!ENTITY community.exp.start        "">
@@ -104,5 +104,5 @@
 <!-- LOCALIZATION NOTE (channel.description.start,channel.description.end): channel.description.start and
      channel.description.end create one sentence, with the current channel label inserted in between.
      example: You are currently on the _Stable_ update channel. -->
-<!ENTITY channel.description.start  "Nyní používáte aktualizační kanál ">
+<!ENTITY channel.description.start  "Používáte aktualizační kanál ">
 <!ENTITY channel.description.end    ".">

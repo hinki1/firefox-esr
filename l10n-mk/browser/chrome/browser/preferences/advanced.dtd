@@ -20,8 +20,6 @@
 <!ENTITY useAutoScroll.accesskey         "А">
 <!ENTITY useSmoothScrolling.label        "Мазно лизгање">
 <!ENTITY useSmoothScrolling.accesskey    "М">
-<!ENTITY allowHWAccel.label              "Користи хардверско забрзување кога е достапно">
-<!ENTITY allowHWAccel.accesskey          "х">
 
 <!ENTITY dataChoicesTab.label            "Избор за податоци">
 
@@ -69,19 +67,22 @@
 
 <!ENTITY updateTab.label                 "Надградби">
 
-<!ENTITY updateAuto1.label               "Инсталирај надградби автоматски (препорачано: подобрена безбедност)">
-<!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateManual.label              "Никогаш не проверувај (не се препорачува заради безбедност)">
-<!ENTITY updateManual.accesskey          "Н">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
 
-<!ENTITY updateHistory.label             "Покажи историја на надградби">
-<!ENTITY updateHistory.accesskey         "о">
 
 <!ENTITY useService.label                "Користи позадински сервис за да се инсталираат надградби">
 <!ENTITY useService.accesskey            "б">
 
-<!ENTITY enableSearchUpdate.label        "Сервиси за пребарување">
-<!ENTITY enableSearchUpdate.accesskey    "е">
+
 
 <!ENTITY offlineStorageNotify.label               "Кажи ми кога мрежното место сака да складира податоци за локална употреба">
 
@@ -97,3 +98,6 @@
 <!ENTITY viewCerts.accesskey             "С">
 <!ENTITY viewSecurityDevices.label       "Безб. уреди">
 <!ENTITY viewSecurityDevices.accesskey   "з">
+
+<!ENTITY allowHWAccel.label              "Користи хардверско забрзување кога е достапно">
+<!ENTITY allowHWAccel.accesskey          "х">

@@ -6,12 +6,12 @@
 
 <!ENTITY engine.bookmarks.label     "Markah">
 <!ENTITY engine.bookmarks.accesskey "M">
-<!ENTITY engine.tabs.label2         "Buka tab">
+<!ENTITY engine.tabs.label2         "Tab Terbuka">
 <!ENTITY engine.tabs.accesskey      "T">
 <!ENTITY engine.history.label       "Riwayat">
 <!ENTITY engine.history.accesskey   "w">
-<!ENTITY engine.passwords.label     "Sandi">
-<!ENTITY engine.passwords.accesskey "i">
+<!ENTITY engine.logins.label        "Log masuk">
+<!ENTITY engine.logins.accesskey    "L">
 <!ENTITY engine.prefs.label         "Pengaturan">
 <!ENTITY engine.prefs.accesskey     "P">
 <!ENTITY engine.addons.label        "Pengaya">
@@ -19,8 +19,8 @@
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Nama Perangkat">
-<!ENTITY changeSyncDeviceName.label "Ubah Nama Perangkat…">
-<!ENTITY changeSyncDeviceName.accesskey "h">
+<!ENTITY changeSyncDeviceName2.label "Ubah Nama Peranti…">
+<!ENTITY changeSyncDeviceName2.accesskey "h">
 <!ENTITY cancelChangeSyncDeviceName.label "Batal">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "B">
 <!ENTITY saveChangeSyncDeviceName.label "Simpan">
@@ -52,11 +52,11 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "Ubah gambar profil">
 <!ENTITY verifiedManage.label        "Kelola Akun">
 <!ENTITY verifiedManage.accesskey    "o">
-<!ENTITY disconnect.label            "Putuskan…">
-<!ENTITY disconnect.accesskey        "P">
-<!ENTITY verify.label                "Verifikasikan Email">
+<!ENTITY disconnect3.label           "Putuskan…">
+<!ENTITY disconnect3.accesskey       "P">
+<!ENTITY verify.label                "Verifikasikan Surel">
 <!ENTITY verify.accesskey            "V">
-<!ENTITY forget.label                "Lupakan Email Ini">
+<!ENTITY forget.label                "Lupakan Surel ini">
 <!ENTITY forget.accesskey            "L">
 
 <!ENTITY signedOut.caption            "Bawalah Web bersama Anda">
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "Masuk">
 <!ENTITY signedOut.accountBox.signin.accesskey  "M">
 
-<!ENTITY signedIn.engines.label       "Sinkronkan berbagai perangkat">
+<!ENTITY signedIn.settings.label       "Pengaturan Sinkronisasi">
+<!ENTITY signedIn.settings.description "Pilih apa saja yang akan disinkronkan pada perangkat Anda yang menggunakan &brandShortName;.">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

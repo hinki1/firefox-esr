@@ -10,10 +10,10 @@
 
 <!ENTITY useCursorNavigation.label       "Utilitza sempre les tecles de cursor per navegar en les pàgines">
 <!ENTITY useCursorNavigation.accesskey   "c">
-
-
-
-
+<!ENTITY searchOnStartTyping.label       "Cerca el text en començar a teclejar">
+<!ENTITY searchOnStartTyping.accesskey   "x">
+<!ENTITY blockAutoReload.label           "Avisa quan els llocs web provin de redirigir o actualitzar la pàgina">
+<!ENTITY blockAutoReload.accesskey       "v">
 <!ENTITY useOnScreenKeyboard.label       "Mostra un teclat tàctil quan calgui">
 <!ENTITY useOnScreenKeyboard.accesskey   "M">
 
@@ -23,10 +23,8 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Utilitza el desplaçament suau">
 <!ENTITY useSmoothScrolling.accesskey    "s">
-<!ENTITY allowHWAccel.label              "Utilitza l'acceleració de maquinari quan sigui disponible">
-<!ENTITY allowHWAccel.accesskey          "r">
-
-
+<!ENTITY checkUserSpelling.label         "Verifica l'ortografia a mesura que s'escriu">
+<!ENTITY checkUserSpelling.accesskey     "o">
 
 <!ENTITY dataChoicesTab.label            "Elecció de dades">
 
@@ -36,8 +34,8 @@
 <!ENTITY healthReportLearnMore.label     "Més informació">
 
 <!ENTITY telemetryDesc.label             "Comparteix dades sobre el rendiment, ús, maquinari i personalització del navegador amb &vendorShortName; per ajudar-nos a millorar el &brandShortName;">
-
-
+<!ENTITY enableTelemetryData.label       "Comparteix dades addicionals (és a dir, la telemesura)">
+<!ENTITY enableTelemetryData.accesskey   "t">
 <!ENTITY telemetryLearnMore.label        "Més informació">
 
 <!ENTITY crashReporterDesc2.label         "Els informes de fallada ajuden a &vendorShortName; a resoldre problemes i a fer més estable i segur el vostre navegador">
@@ -58,7 +56,9 @@
 <!ENTITY offlineStorage2.label           "Contingut web i dades de l'usuari fora de línia">
 <!--  Site Data section manages sites using Storage API and is under Network -->
 
-
+<!ENTITY siteData.label                  "Dades dels llocs">
+<!ENTITY clearSiteData.label             "Esborra totes les dades">
+<!ENTITY clearSiteData.accesskey         "b">
 <!ENTITY siteDataSettings.label          "Paràmetres…">
 <!ENTITY siteDataSettings.accesskey      "P">
 <!ENTITY siteDataLearnMoreLink.label     "Més informació">
@@ -80,24 +80,41 @@
 <!ENTITY overrideSmartCacheSize.accesskey "g">
 
 <!ENTITY updateTab.label                 "Actualització">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 
-<!ENTITY updateAuto1.label               "Instal·la les actualitzacions automàticament (és l'opció recomanada per seguretat)">
-<!ENTITY updateAuto1.accesskey           "a">
+<!ENTITY updateApplication.label         "Actualitzacions del &brandShortName;">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Versió ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Actualitzacions del &brandShortName;">
+<!ENTITY updateAuto2.label               "Instal·la les actualitzacions automàticament (l'opció recomanada per seguretat)">
+<!ENTITY updateAuto2.accesskey           "a">
+<!ENTITY updateCheckChoose2.label        "Cerca actualitzacions, però demana'm si vull instal·lar-les">
+<!ENTITY updateCheckChoose2.accesskey    "C">
+<!ENTITY updateManual2.label             "No cerquis mai actualitzacions (no recomanat)">
+<!ENTITY updateManual2.accesskey         "N">
 
-
-<!ENTITY updateManual.label              "No cerquis mai actualitzacions (poc recomanable pel risc de seguretat que comporta)">
-<!ENTITY updateManual.accesskey          "N">
-
-<!ENTITY updateHistory.label             "Mostra l'historial d'actualitzacions">
-<!ENTITY updateHistory.accesskey         "h">
+<!ENTITY updateHistory2.label            "Mostra l'historial d'actualitzacions…">
+<!ENTITY updateHistory2.accesskey        "h">
 
 <!ENTITY useService.label                "Instal·la les actualitzacions en segon pla">
 <!ENTITY useService.accesskey            "s">
 
-<!ENTITY enableSearchUpdate.label        "Motors de cerca">
-<!ENTITY enableSearchUpdate.accesskey    "M">
+<!ENTITY enableSearchUpdate2.label       "Actualitza automàticament els motors de cerca">
+<!ENTITY enableSearchUpdate2.accesskey   "e">
 
+<!ENTITY reports.label                   "Informes">
 
+<!ENTITY offlineStorageNotify.label               "Avisa quan un lloc web demani emmagatzemar dades per utilitzar-les fora de línia">
+<!ENTITY offlineStorageNotify.accesskey           "f">
 <!ENTITY offlineStorageNotifyExceptions.label     "Excepcions…">
 <!ENTITY offlineStorageNotifyExceptions.accesskey "x">
 
@@ -108,15 +125,27 @@
 <!ENTITY offlineAppRemove.confirm        "Suprimeix les dades fora de línia">
 
 <!ENTITY certificateTab.label            "Certificats">
-<!ENTITY certPersonal.label              "Sol·licituds">
-
+<!ENTITY certPersonal2.description       "Quan un servidor demani el meu certificat personal">
 <!ENTITY selectCerts.auto                "Selecciona'n un automàticament">
-
+<!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "Demana-ho cada vegada">
-
+<!ENTITY selectCerts.ask.accesskey       "D">
 <!ENTITY enableOCSP.label                "Consulta els servidors de resposta OCSP per confirmar la validesa actual dels certificats">
 <!ENTITY enableOCSP.accesskey            "C">
 <!ENTITY viewCerts.label                 "Visualitza els certificats">
 <!ENTITY viewCerts.accesskey             "c">
 <!ENTITY viewSecurityDevices.label       "Dispositius de seguretat">
 <!ENTITY viewSecurityDevices.accesskey   "D">
+
+<!ENTITY performance.label               "Rendiment">
+<!ENTITY useRecommendedPerformanceSettings2.label "Utilitza els paràmetres de rendiment recomanats">
+<!ENTITY useRecommendedPerformanceSettings2.description "Aquests paràmetres estan personalitzats per al maquinari i sistema operatiu del vostre ordinador.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey "U">
+<!ENTITY performanceSettingsLearnMore.label "Més informació">
+<!ENTITY limitContentProcessOption.label "Límit de processos de contingut">
+<!ENTITY limitContentProcessOption.description "Més processos de contingut poden millorar el rendiment quan utilitzeu diverses pestanyes, però també utilitzaran més memòria.">
+<!ENTITY limitContentProcessOption.accesskey   "L">
+<!ENTITY limitContentProcessOption.disabledDescription "El nombre de processos de contingut només es pot modificar amb el &brandShortName; multiprocés.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink "Més informació sobre com comprovar si el multiprocés està activat.">
+<!ENTITY allowHWAccel.label              "Utilitza l'acceleració de maquinari quan sigui disponible">
+<!ENTITY allowHWAccel.accesskey          "r">

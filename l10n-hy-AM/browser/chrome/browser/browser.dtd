@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "Աջ սեղմում կամ պտտում ներքև՝ պատմությունը դիտելու համար">
 <!ENTITY backForwardButtonMenuMac.tooltip "Պտտեք ներքև՝ պատմությունը դիտելու համար">
 <!ENTITY reloadCmd.label              "Կրկին բեռնել">
-<!ENTITY reloadButton.tooltip         "Կրկին բեռնել տվյալ Էջը">
 <!ENTITY stopCmd.label                "Ընդհատել">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "Ընդհատել Էջի բեռնավորումը">
 <!ENTITY goEndCap.tooltip             "Գնալ Հասցեի Տողում նշված հասցեով">
 <!ENTITY printButton.label            "Տպել">
 <!ENTITY printButton.tooltip          "Տպել տվյալ էջը">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Բացել պահպանված գաղտնաբառի հաղորդագրության վահանակը">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Կառավարել բաղադրիչների օգտագործումը">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Փոխել, թե արդյոք կարող եք կայքից ստանալ ծանուցումներ">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Պահել տվյալները Մշտական պահեստում">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Դիտարկել հեռակա կառավարմամբ">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Կառավարել խցիկի և/կամ բարձրախոսի համօգտագործումը այս կայքի հետ">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Կառավարել ձեր բարձրախոսի համօգտագործումը այս կայքի հետ">
@@ -231,13 +231,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "Դուք արգելափակել եք տեղադրության տեղեկությունը այս կայքի համար:">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "Դուք արգելափակել եք տվյալների պահեստը այս կայքի համար:">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "Դուք արգելափակել եք ծանուցումները այս կայքի համար:">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "Դուք արգելափակել եք մշտական պահեստը այս կայքի համար:">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Ցուցադրել պատմությունը">
 
-<!ENTITY urlbar.zoomReset.tooltip     "ՎԵրակայել դիտափոխման մակարդակը">
-
 <!ENTITY searchItem.title             "Որոնում">
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 
 <!ENTITY homeButton.label             "Տուն">
 
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Մաքրել Վերջին Պատմությունը...">
 <!ENTITY appMenuHistory.restoreSession.label "Վերականգնել նախորդ աշխատաշրջանը">
 <!ENTITY appMenuHistory.viewSidebar.label "Պատմության կողային վահանակը">
+<!ENTITY appMenuHelp.label "Օգնություն">
 <!ENTITY appMenuHelp.tooltip "Բացել օգնության ցանկը">
 
 <!ENTITY appMenuRemoteTabs.label "Համաժամեցված ներդիրներ">
@@ -377,27 +377,44 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Սինքի նախընտրանքներ">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Մուտք գործե՛ք՝ տեսնելու Ձեր այլ սարքերի ներդիրների ցանկը։">
 <!ENTITY appMenuRemoteTabs.signin.label "Մուտք գործել Սինք">
+<!ENTITY appMenuRemoteTabs.managedevices.label "Կառավարել սարքերը…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Դիտել համաժամեցված ներդիրների Կողագոտին">
 
 <!ENTITY customizeMenu.addToToolbar.label "Ավելացնել  գործիքավահանակում">
 <!ENTITY customizeMenu.addToToolbar.accesskey "Ա">
 <!ENTITY customizeMenu.addToPanel.label "Ավելացնել Ցանկում">
 <!ENTITY customizeMenu.addToPanel.accesskey "Ց">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "Ավելացնել Արտահոսքի ցանկում">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "ց">
 <!ENTITY customizeMenu.moveToToolbar.label "Տեղափոխել Գործիքավահանակ">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "ե">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Տեղափոխել Ցանկ">
 <!ENTITY customizeMenu.moveToPanel.accesskey "ե">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "Գամել Արտահոսքի ցանկում">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "Գ">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Ապագամել Արտահոսքի ցանկից">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "Ա">
 <!ENTITY customizeMenu.removeFromToolbar.label "Հեռացնել Գործիքավահանակից">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "Հ">
 <!ENTITY customizeMenu.removeFromMenu.label "Հեռացնել Ցանկից">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "Հ">
 <!ENTITY customizeMenu.addMoreItems.label "Ավելացնել այլ տարրեր...">
 <!ENTITY customizeMenu.addMoreItems.accesskey "Ա">
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+
+<!ENTITY moreMenu.label "Ավելին">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Մուտքագրեք կայքի հասցե կամ որոնում">
@@ -413,7 +430,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.disable.accesskey "n">
 <!ENTITY urlbar.searchSuggestionsNotification.enable "Այո">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "y">
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Հուշում.">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "Օգնություն ստացեք ինչ-որ բան գտնելիս: Նայեք &#x1F50E;-ին՝ հաջորդ առաջարկության համար:">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "Փոխել ընտրանքները...">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "C">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "Փոխել Կարգավորումները...">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "C">
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -526,6 +552,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "Հ">
 <!ENTITY bookmarkThisFrameCmd.label      "Էջանշել Այս շրջանակը">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "շ">
+<!ENTITY copyURLCmd.label             "Պատճենել URL">
 <!ENTITY emailPageCmd.label           "Հղումը ուղարկել էլ. փոստով...">
 <!ENTITY emailPageCmd.accesskey       "Հ">
 <!ENTITY savePageCmd.label            "Պահպանել Էջը որպես…">
@@ -652,6 +679,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.accesskey             "Մ">
 
 <!ENTITY sidebarCloseButton.tooltip     "Փակել կողավահանակը">
+<!ENTITY sidebarMenuClose.label         "Փակել Կողավահանակը">
 
 <!ENTITY quitApplicationCmdWin2.label       "Փակել">
 <!ENTITY quitApplicationCmdWin2.accesskey   "ա">
@@ -661,8 +689,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Փակել"> 
 <!ENTITY quitApplicationCmd.accesskey   "Փ">
 <!ENTITY quitApplicationCmdMac2.label   "Փակել &brandShorterName;-ը">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
+<!ENTITY quitApplicationCmd.key         "Q">
 
 <!ENTITY closeCmd.label                 "Փակել">  
 <!ENTITY closeCmd.key                   "W">  
@@ -714,6 +741,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Այս էջը գտնվում է համակարգչում:">
 <!ENTITY identity.connectionVerified2 "Դուք անվտանգ կապակցված եք այս կայքին, որը աշխատեցնում է՝">
 <!ENTITY identity.connectionInternal "Սա անվտանգ &brandShortName; էջ է:">
+<!ENTITY identity.extensionPage "Այս էջը բեռնվել է հավելումից:">
 <!ENTITY identity.insecureLoginForms2 "Այս էջից մուտքագրումները վտանգված են:">
 <!-- Strings for connection state warnings. -->
 
@@ -786,6 +814,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "Բացել Բոլորը Ներդիրներում">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "Բ">
+<!ENTITY syncedTabs.context.managedevices.label              "Կառավարել սարքերը…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "ս">
 
 
 <!ENTITY syncBrand.shortName.label    "Սինք">
@@ -810,8 +840,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "Ի՞նչ լրացուցիչ գործիք">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Ընտրություն կատարեք հազարավոր հավելումներից">
 <!ENTITY customizeMode.restoreDefaults "Վերականգնել ծրագրայինը">
-<!ENTITY customizeMode.toolbars "Ցուցադրել կամ թաքցնել Գործիքագոտիները">
+<!ENTITY customizeMode.done "Պատրաստ է">
 <!ENTITY customizeMode.titlebar "Անվանագոտի">
+<!ENTITY customizeMode.toolbars2 "Գործիքագոտիներ">
 <!ENTITY customizeMode.lwthemes "Ձևավորումներ">
 <!ENTITY customizeMode.lwthemes.myThemes "Իմ ձևավորումները">
 <!ENTITY customizeMode.lwthemes.recommended "Խորհուրդ է տրվում՝">
@@ -900,3 +931,36 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "Իմանալ ավելին DRM-ի մասին...">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+<!ENTITY updateAvailable.message "Թարմացրեք &brandShorterName;-ը՝ արագագործության և անվտանգության համար:">
+<!ENTITY updateAvailable.whatsnew.label "Ինչն է նոր:">
+<!ENTITY updateAvailable.header.message "Հասանելի է &brandShorterName;-ի նոր թարմացում:">
+<!ENTITY updateAvailable.acceptButton.label "Ներբեռնել թարմացումը">
+<!ENTITY updateAvailable.acceptButton.accesskey "Ն">
+<!ENTITY updateAvailable.cancelButton.label "Ոչ հիմա">
+<!ENTITY updateAvailable.cancelButton.accesskey "Ո">
+<!ENTITY updateAvailable.panelUI.label "Ներբեռնել &brandShorterName;-ի թարմացումը">
+
+<!ENTITY updateManual.message "Ներբեռնեք &brandShorterName;-ի նոր տարբերակը և մենք կօգնենք Ձեզ տեղադրել այն:">
+<!ENTITY updateManual.whatsnew.label "Ինչն է նոր:">
+<!ENTITY updateManual.header.message "&brandShorterName;-ը հնարավոր չէ թարմացնել:">
+<!ENTITY updateManual.acceptButton.label "Ներբեռնել &brandShorterName;-ը">
+<!ENTITY updateManual.acceptButton.accesskey "Ն">
+<!ENTITY updateManual.cancelButton.label "Ոչ հիմա">
+<!ENTITY updateManual.cancelButton.accesskey "Ո">
+<!ENTITY updateManual.panelUI.label "Ներբեռնել &brandShorterName;-ի նոր տարբերակը">
+
+<!ENTITY updateRestart.message "&brandShorterName;-ը արագորեն կվերամեկնարկի և կվերականգնի բոլոր բաց ներդիրները և պատուհանները:">
+<!ENTITY updateRestart.header.message2 "Վերամեկնարկեք՝ &brandShorterName;-ը թարմացնելու համար:">
+<!ENTITY updateRestart.acceptButton.label "Վերամեկնարկել և վերականգնել">
+<!ENTITY updateRestart.acceptButton.accesskey "Վ">
+<!ENTITY updateRestart.cancelButton.label "Ոչ հիմա">
+<!ENTITY updateRestart.cancelButton.accesskey "Ո">
+<!ENTITY updateRestart.panelUI.label2 "Վերամեկնարկեք՝ &brandShorterName;-ը՝ արդիացնելու համար">
+
+<!ENTITY pageActionButton.tooltip "Էջի գործույթները">
+
+<!ENTITY sendToDevice.label "Ուղարկել սարքի...">
+<!ENTITY sendToDevice.viewTitle "Ուղարկել սարքի">
+<!ENTITY sendToDevice.fxaRequired.label "Պահանջվում է">
+<!ENTITY sendToDevice.noDevices.label "Մատչելի սարքեր չկան">

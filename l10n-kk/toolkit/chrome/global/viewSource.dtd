@@ -17,7 +17,7 @@
 <!ENTITY savePageCmd.label "Бетті қалай сақтау…">
 <!ENTITY savePageCmd.accesskey "а">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY pageSetupCmd.label "Парақ баптаулары...">
+<!ENTITY pageSetupCmd.label "Парақ баптаулары…">
 <!ENTITY pageSetupCmd.accesskey "р">
 <!ENTITY printPreviewCmd.label "Алдын-ала қарау">
 <!ENTITY printPreviewCmd.accesskey "д">
@@ -42,7 +42,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
 
-<!ENTITY goToLineCmd.label "Жолға өту...">
+<!ENTITY goToLineCmd.label "Жолға өту…">
 <!ENTITY goToLineCmd.accesskey "о">
 <!ENTITY goToLineCmd.commandkey "l">
 
@@ -80,7 +80,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 
-<!ENTITY copyLinkCmd.label "Сілтемені көшіру">
+<!ENTITY copyLinkCmd.label "Сілтемені көшіріп алу">
 <!ENTITY copyLinkCmd.accesskey "С">
 <!ENTITY copyEmailCmd.label "Электронды пошта адресін көшіріп алу">
 <!ENTITY copyEmailCmd.accesskey "Э">

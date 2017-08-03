@@ -4,21 +4,21 @@
 
 <!ENTITY startup.label             "เริ่มการทำงาน">
 
-<!ENTITY startupPage.label         "เมื่อ &brandShortName; เริ่ม:">
-<!ENTITY startupPage.accesskey     "s">
+<!ENTITY startupPage2.label        "เมื่อ &brandShortName; เริ่ม">
+<!ENTITY startupPage2.accesskey    "ม">
 <!ENTITY startupUserHomePage.label "แสดงหน้าแรกของคุณ">
 <!ENTITY startupBlankPage.label    "แสดงหน้าว่าง">
 <!ENTITY startupPrevSession.label  "แสดงหน้าต่างและแท็บของคุณจากครั้งล่าสุด">
 
-<!ENTITY homepage.label            "หน้าแรก:">
-<!ENTITY homepage.accesskey        "น">
+<!ENTITY homepage2.label           "หน้าแรก">
+<!ENTITY homepage2.accesskey       "ห">
 <!ENTITY useCurrentPage.label      "ใช้หน้าปัจจุบัน">
-<!ENTITY useCurrentPage.accesskey  "ป">
+<!ENTITY useCurrentPage.accesskey  "ช">
 <!ENTITY useMultiple.label         "ใช้หน้าปัจจุบัน">
 <!ENTITY chooseBookmark.label      "ใช้ที่คั่นหน้า…">
 <!ENTITY chooseBookmark.accesskey  "ท">
 <!ENTITY restoreDefault.label      "เรียกคืนค่าเริ่มต้น">
-<!ENTITY restoreDefault.accesskey  "เ">
+<!ENTITY restoreDefault.accesskey  "ร">
 
 <!ENTITY downloads.label     "ดาวน์โหลด">
 
@@ -29,17 +29,18 @@
 <!ENTITY chooseFolderMac.label        "เลือก…">
 <!ENTITY chooseFolderMac.accesskey    "ล">
 <!ENTITY alwaysAskWhere.label         "ถามคุณเสมอว่าจะบันทึกไฟล์ที่ไหน">
-<!ENTITY alwaysAskWhere.accesskey     "A">
+<!ENTITY alwaysAskWhere.accesskey     "ถ">
 
 <!ENTITY alwaysCheckDefault2.label        "ตรวจสอบเสมอว่า &brandShortName; เป็นเบราว์เซอร์เริ่มต้นของคุณหรือไม่">
-<!ENTITY alwaysCheckDefault2.accesskey    "จ">
+<!ENTITY alwaysCheckDefault2.accesskey    "ต">
 <!ENTITY setAsMyDefaultBrowser2.label     "ทำให้เป็นค่าเริ่มต้น">
-<!ENTITY setAsMyDefaultBrowser2.accesskey "ค">
+<!ENTITY setAsMyDefaultBrowser2.accesskey "ร">
 <!ENTITY isDefault.label                  "&brandShortName; เป็นเบราว์เซอร์เริ่มต้นของคุณในขณะนี้">
 <!ENTITY isNotDefault.label               "&brandShortName; ไม่ได้เป็นเบราว์เซอร์เริ่มต้นของคุณ">
 
 <!ENTITY separateProfileMode.label        "อนุญาตให้ &brandShortName; และ Firefox ทำงานพร้อมกัน">
-<!ENTITY useFirefoxSync.label             "เคล็ดลับ: สิ่งนี้ใช้โพรไฟล์แยก ใช้ Sync เพื่อแบ่งปันข้อมูลระหว่างกัน">
-<!ENTITY getStarted.label                 "เริ่มใช้งาน Sync…">
+<!ENTITY useFirefoxSync.label             "เคล็ดลับ: สิ่งนี้ใช้โปรไฟล์แยก ใช้ Sync เพื่อแบ่งปันข้อมูลระหว่างกัน">
+<!ENTITY getStarted.notloggedin.label     "ลงชื่อเข้า &syncBrand.shortName.label;…">
+<!ENTITY getStarted.configured.label      "เปิดค่ากำหนด &syncBrand.shortName.label;">
 
-<!ENTITY e10sEnabled.label                "เปิดใช้งาน &brandShortName; แบบหลายโพรเซส">
+<!ENTITY e10sEnabled.label                "เปิดใช้งาน &brandShortName; แบบหลายโปรเซส">

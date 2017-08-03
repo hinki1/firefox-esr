@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  general.label                 "సాధారణం">
+<!ENTITY  security.label                 "భద్రత">
 
 <!ENTITY  warnOnAddonInstall.label        "సైట్లు పొడిగింతలను స్థాపించడానికి ప్రయత్నించినపుడు మిమ్మల్ని హెచ్చరించు">
 <!ENTITY  warnOnAddonInstall.accesskey    "W">
@@ -24,10 +24,10 @@
 <!ENTITY  addonExceptions.accesskey     "E">
 
 
-<!ENTITY  logins.label                  "ప్రవేశాలు">
+<!ENTITY  formsAndPasswords.label       "ఫారాలు &amp; సంకేతపదాలు">
 
-<!ENTITY  rememberLogins.label          "సైట్లలోని ప్రవేశాలను గుర్తుంచుకో">
-<!ENTITY  rememberLogins.accesskey      "R">
+<!ENTITY  rememberLogins1.label          "సైట్ల యొక్క లాగిన్లు మరియు పాస్వర్డ్లను గుర్తుంచుకో">
+<!ENTITY  rememberLogins1.accesskey      "R">
 <!ENTITY  passwordExceptions.label      "మినహాయింపులు…">
 <!ENTITY  passwordExceptions.accesskey  "x">
 

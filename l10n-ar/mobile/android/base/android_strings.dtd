@@ -75,6 +75,7 @@
 <!ENTITY bookmark_removed "أُزيلت العلامة">
 <!ENTITY bookmark_updated "حُدّثت العلامة">
 <!ENTITY bookmark_options "الخيارات">
+<!ENTITY bookmark_save "احفظ">
 <!ENTITY screenshot_added_to_bookmarks "أضيفت لقطة الشاشة إلى العلامات">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
@@ -86,12 +87,14 @@
 
 <!ENTITY bookmark_folder_items "&formatD; من العناصر">
 <!ENTITY bookmark_folder_one_item "عنصر واحد">
+<!ENTITY bookmark_parent_folder "المجلد الأب">
+<!ENTITY bookmark_add_folder "أضِف مجلدا جديدا">
 
 <!ENTITY reader_saved_offline "حُفظ للاستخدام دون اتصال">
 <!-- Localization note (reader_switch_to_bookmarks) : This
      string is used as an action in a snackbar - it lets you
      "switch" to the bookmarks (saved items) panel. -->
-<!ENTITY reader_switch_to_bookmarks "بدّل">
+<!ENTITY reader_switch_to_bookmarks "انتقل">
 
 <!ENTITY history_today_section "اليوم">
 <!ENTITY history_yesterday_section "أمس">
@@ -117,7 +120,7 @@
 <!-- Localization note (switch_button_message): This string should be as short
      as possible because it's shown as a label in a toast.  Ideally, this string
      is upper-case, to match Google and Android's convention. -->
-<!ENTITY switch_button_message "بدّل">
+<!ENTITY switch_button_message "انتقل">
 <!-- Localization note (tab_title_prefix_is_playing_audio): This string is not
      visible in the UI, but rather used as a text-to-speech content description
      for sight-impaired a11y users. The content description is set on a tab
@@ -180,7 +183,7 @@
 <!ENTITY pref_category_datareporting "اختيارات البيانات">
 <!ENTITY pref_category_logins "جلسات الولوج">
 <!ENTITY pref_learn_more "اطّلع على المزيد">
-<!ENTITY pref_category_installed_search_engines "محركات البحث المُثبّتة">
+<!ENTITY pref_category_installed_search_engines "محركات البحث المُنصّبة">
 <!ENTITY pref_category_add_search_providers "أضف المزيد من مزودي البحث">
 <!ENTITY pref_category_search_restore_defaults "استعد محركات البحث">
 <!ENTITY pref_search_restore_defaults "استعد الإعدادات المبدئية">
@@ -202,7 +205,7 @@
 <!ENTITY pref_content_notifications_summary2 "اكتشف محتوى جديد من المواقع المدعومة">
 <!ENTITY pref_developer_remotedebugging_usb "التنقيح عن بعد عبر USB">
 <!ENTITY pref_developer_remotedebugging_wifi "التنقيح عن بعد عبر واي-فاي">
-<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "يتطلّب التنقيح عبر واي-فاي تثبيت برنامج لقراءة رموز QR على جهازك.">
+<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "يتطلّب التنقيح عبر واي-فاي تنصيب برنامج لقراءة رموز QR على جهازك.">
 <!ENTITY pref_remember_signons2 "تذكّر جلسات الولوج">
 <!ENTITY pref_manage_logins "أدِر جلسات الولوج">
 
@@ -214,6 +217,9 @@
 <!ENTITY pref_home_updates_enabled "مفعّلة">
 <!ENTITY pref_home_updates_wifi "عبر واي فاي فقط">
 <!ENTITY pref_category_home_homepage "صفحة البداية">
+<!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
+     home page will be use in every new tab. -->
+<!ENTITY home_homepage_every_new_tab "استخدمها أيضا للألسنة الجديدة">
 <!ENTITY home_homepage_title "حدد صفحة بداية">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
@@ -256,7 +262,7 @@
 <!ENTITY pref_tap_to_load_images_title2 "أظهِر الصور">
 <!ENTITY pref_tap_to_load_images_enabled "دائمًا">
 <!ENTITY pref_tap_to_load_images_data "عبر واي فاي فقط">
-<!ENTITY pref_tap_to_load_images_disabled2 "امنعها">
+<!ENTITY pref_tap_to_load_images_disabled2 "احجبها">
 
 <!ENTITY pref_show_web_fonts "أظهر خطوط الوب">
 <!ENTITY pref_show_web_fonts_summary2 "نزّل الخطوط عن بعد عند تحميل الصفحة">
@@ -282,13 +288,19 @@
 
 <!ENTITY pref_custom_tabs "ألسنة مخصصة">
 <!ENTITY pref_custom_tabs_summary3 "اسمح للتطبيقات بفتح المواقع مستخدمة نسخة مخصصة من &brandShortName;">
+<!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
+     default browser from user's preference, such as "Open in Firefox" -->
+<!ENTITY custom_tabs_menu_item_open_in "افتح في &formatS;">
+<!ENTITY custom_tabs_menu_footer "يستخدم &brandShortName;">
+<!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
+<!ENTITY custom_tabs_hint_url_copy "نُسِخَ المسار">
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "تيار النشاطات">
 <!ENTITY pref_activity_stream_summary "تلقيمات غنية من تأريخ التصفح و إعادة تصور لصفحة البداية تجعل العثور على ما تبحث عنه في &brandShortName; أسهل من أي وقت كان.">
 
 <!ENTITY tracking_protection_prompt_title "الآن مع حماية من التعقّب">
-<!ENTITY tracking_protection_prompt_text "يمنع عناصر التعقب لئلا تقلق بشأنها.">
+<!ENTITY tracking_protection_prompt_text "يحجب عناصر التعقب لئلا تقلق بشأنها.">
 <!ENTITY tracking_protection_prompt_tip_text "طالع إعدادات الخصوصية للاطلاع على المزيد">
 <!ENTITY tracking_protection_prompt_action_button "فهمت!">
 
@@ -350,26 +362,14 @@
 <!ENTITY pref_plugins_enabled "مفعّلة">
 <!ENTITY pref_plugins_tap_to_play2 "المس للتشغيل">
 <!ENTITY pref_plugins_disabled "مُعطّلة">
-<!ENTITY pref_text_size "حجم النص">
 <!ENTITY pref_restore_tabs "استعد الألسنة">
 <!ENTITY pref_restore_always "استعد دائمًا">
 <!ENTITY pref_restore_quit "لا تستعد بعد إغلاق &brandShortName;">
-<!ENTITY pref_font_size_tiny "ضئيل">
-<!ENTITY pref_font_size_small "صغير">
-<!ENTITY pref_font_size_medium "متوسط">
-<!ENTITY pref_font_size_large "كبير">
-<!ENTITY pref_font_size_xlarge "كبير جدا">
-<!ENTITY pref_font_size_set "حدد">
-<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
-(or combination of characters) is used to decrease the preview font size; a larger version of the
-same character/combination is used to increase the preview font size. It should be a concise
-representation of the language it is used in that will help show the text in the preview will change
-size. -->
-<!ENTITY pref_font_size_adjust_char "ع">
-<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
-    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
+<!-- Localization note (pref_use_system_font_size, pref_use_system_font_size_summary):
+     Font size here refers to the name of the corresponding Android system setting. -->
 
-<!ENTITY pref_font_size_preview_text "صِفْ خَلْقَ خَوْدٍ كَمِثْلِ ٱلشَّمْسِ إِذْ بَزَغَتْ يَحْظَىٰ ٱلضَّجِيعُ بِهَا نَجْلَاءَ مِعْطَارِ.">
+<!ENTITY pref_use_system_font_size "استخدم حجم خط النّظام">
+<!ENTITY pref_use_system_font_size_summary "غيّر حجم محتوى الوِب بناء على حجم خط النظام">
 
 <!ENTITY pref_media_autoplay_enabled "اسمح بالتشغيل التلقائي">
 <!ENTITY pref_media_autoplay_enabled_summary "تحكم في السماح للمواقع بتشغيل الڤديو و غيره من الوسائط تلقائيا">
@@ -500,6 +500,7 @@ size. -->
 <!ENTITY contextmenu_open_private_tab "افتح في لسان خاص">
 <!ENTITY contextmenu_remove "أزِل">
 <!ENTITY contextmenu_add_to_launcher "أضِف إلى شاشة البداية">
+<!ENTITY contextmenu_set_as_homepage "اجعلها صفحة البداية">
 <!ENTITY contextmenu_share "شارِك">
 <!ENTITY contextmenu_pasteandgo "ألصق و اذهب">
 <!ENTITY contextmenu_paste "لصق">
@@ -524,11 +525,6 @@ size. -->
 <!ENTITY doorhanger_login_select_toast_copy "نُسخت كلمة السر إلى الحافظة">
 <!ENTITY doorhanger_login_select_action_text "اختر ولوجا آخر">
 <!ENTITY doorhanger_login_select_title "انسخ كلمة السر من">
-<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
-     whether or not the magnifying glass is disabled. -->
-
-<!ENTITY pref_magnifying_glass_enabled "كبّر المناطق الصغيرة">
-<!ENTITY pref_magnifying_glass_enabled_summary2 "كبّر الروابط و حقول الاستمارات عند اللمس بقربها">
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
 
@@ -552,6 +548,7 @@ size. -->
 <!ENTITY bookmark_edit_name "الاسم">
 <!ENTITY bookmark_edit_location "المكان">
 <!ENTITY bookmark_edit_keyword "كلمة مفتاحية">
+<!ENTITY bookmark_select_folder "اختر مجلدًا">
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
 
@@ -654,8 +651,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_connection_chromeui "هذه صفحة &brandShortName; آمنة">
 <!-- Mixed content notifications in site identity popup -->
 
-<!ENTITY mixed_content_blocked_all1 "منع &brandShortName; محتوى غير آمن في هذه الصفحة.">
-<!ENTITY mixed_content_blocked_some1 "منع &brandShortName; بعض المحتوى غير الآمن في هذه الصفحة.">
+<!ENTITY mixed_content_blocked_all1 "حجب &brandShortName; محتوى غير آمن في هذه الصفحة.">
+<!ENTITY mixed_content_blocked_some1 "حجب &brandShortName; بعض المحتوى غير الآمن في هذه الصفحة.">
 <!ENTITY mixed_content_display_loaded1 "بعض أجزاء هذه الصفحة غير آمنة (مثل الصور).">
 <!ENTITY mixed_content_protection_disabled1 "لقد أوقفت الحماية من المحتوى غير الآمن.">
 <!-- Tracking content notifications in site identity popup -->
@@ -663,7 +660,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY doorhanger_tracking_title2 "الحماية من التعقّب">
 <!ENTITY doorhanger_tracking_state_enabled "مفعّلة">
 <!ENTITY doorhanger_tracking_state_disabled "مُعطّلة">
-<!ENTITY doorhanger_tracking_message_enabled1 "مُنعت محاولات لتعقّب سلوكك على الإنترنت.">
+<!ENTITY doorhanger_tracking_message_enabled1 "حُجبت محاولات لتعقّب سلوكك على الإنترنت.">
 <!ENTITY doorhanger_tracking_message_disabled2 "في هذه الصفحة عناصر قد تتعقّب التصفّح.">
 <!-- Common mixed and tracking content strings in site identity popup -->
 
@@ -706,7 +703,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_downloading_retry2 "المس لإعادة المحاولة">
 
 <!ENTITY updater_apply_title3 "تم تنزيل تحديث &brandShortName;">
-<!ENTITY updater_apply_select3 "المس للتثبيت">
+<!ENTITY updater_apply_select3 "المس للتنصيب">
 <!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
      if the app requires a runtime permission to download updates. Currently, the updater only sees
      remotely advertised updates in the Nightly and Aurora channels. -->
@@ -718,7 +715,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY new_guest_session "جلسة ضيف جديدة">
 <!ENTITY exit_guest_session "اخرج من جلسة الضيف">
-<!ENTITY guest_session_dialog_continue "استمر">
+<!ENTITY guest_session_dialog_continue "واصِل">
 <!ENTITY guest_session_dialog_cancel "ألغِ">
 <!ENTITY new_guest_session_title "سيُعاد تشغيل &brandShortName; الآن">
 <!ENTITY new_guest_session_text2 "مستخدم جلسة الضيف لن يرى أيا من بيانات التصفح الخاصة (مثل جلسات الولوج المحفوظة، أو التاريخ أو العلامات).\n\nعندما ينتهي الضيف من التصفح، ستُحذف بيانات تصفحه و ستُستعاد جلستك.">
@@ -735,14 +732,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY ellipsis "…">
 
 <!ENTITY colon ":">
-<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
-     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
-     This format string is typically used by getString method, in such method the percent sign
-     is a reserved caracter. In order to display one percent sign in the result of getString,
-     double percent signs must be inserted in the format string.
-     This entity is used in the zoomed view to display the zoom factor-->
-
-<!ENTITY percent "&formatS;٪">
 <!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->
 
@@ -798,7 +787,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY restrictable_feature_camera_microphone "الكمرة و المِكروفون">
 <!ENTITY restrictable_feature_camera_microphone_description "يسمح لأفراد العائلة بالتخاطب في نفس اللحظة عبر مواقع الوب.">
 <!ENTITY restrictable_feature_block_list "قائمة الحجب">
-<!ENTITY restrictable_feature_block_list_description "احجب المواقع التي تتضمن محتويات حساسة">
+<!ENTITY restrictable_feature_block_list_description "احجب المواقع التي تتضمن محتويات حساسة.">
 <!-- Default Bookmarks titles-->
 <!-- LOCALIZATION NOTE (bookmarks_about_browser): link title for about:fennec -->
 

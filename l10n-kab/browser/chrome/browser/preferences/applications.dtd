@@ -2,6 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  applications.label       "Isnasen">
+<!ENTITY  applications.description "Fren amek ad yeddu &brandShortName; akked ifuyla i d-saliḍ akked isnasen i tseqdaceḍ m'ara tettinigeḍ.">
+
 <!ENTITY  typeColumn.label        "Tawsit n ugbur">
 <!ENTITY  typeColumn.accesskey    "T">
 
@@ -11,4 +14,4 @@
 <!ENTITY  focusSearch1.key        "f">
 <!ENTITY  focusSearch2.key        "k">
 
-<!ENTITY  filter.emptytext        "Nadi">
+<!ENTITY  filter2.emptytext        "Nadi tawsit n ifuyla neγ isnasen">

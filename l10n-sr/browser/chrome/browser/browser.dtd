@@ -85,7 +85,7 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY personalbarCmd.accesskey "з">
 <!ENTITY bookmarksToolbarItem.label "Забележи ставке из алатне траке">
 
-<!ENTITY toolbarContextMenu.reloadAllTabs.label "Поново учитај све језичке">
+<!ENTITY toolbarContextMenu.reloadAllTabs.label "Обнови све језичке">
 <!ENTITY toolbarContextMenu.reloadAllTabs.accesskey "у">
 <!ENTITY toolbarContextMenu.bookmarkAllTabs.label "Забележи све језичке…">
 <!ENTITY toolbarContextMenu.bookmarkAllTabs.accesskey "ј">
@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "Десни клик или мени за приказ историјата">
 <!ENTITY backForwardButtonMenuMac.tooltip "Падајући мени показује историјат">
 <!ENTITY reloadCmd.label              "Опет учитај">
-<!ENTITY reloadButton.tooltip         "Обнови тренутну страницу">
 <!ENTITY stopCmd.label                "Стани">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "Заустави учитавање странице">
 <!ENTITY goEndCap.tooltip             "Приказ адресе уписане у траку за адресе">
 <!ENTITY printButton.label            "Штампање">
 <!ENTITY printButton.tooltip          "Штампај ову страницу">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Отвори панел за снимање лозинке">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Управљајте додацима">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Промените да ли сајт може да приказује обавештења">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Складишти податке у трајном складишту">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Прегледач је под удаљеним управљањем">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Управљајте дељењем ваше камере и/или микрофона са сајтом">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Управљајте дељењем вашег микрофона са сајтом">
@@ -231,14 +231,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "Блокирали сте локацију за овај веб сајт.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "Блокирали сте складиште за овај веб сајт.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "Блокирали сте обавештења за овај веб сајт.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "Блокирали сте трајно складиштење за овај веб сајт.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Прикажи историјат">
 
-<!ENTITY urlbar.zoomReset.tooltip     "Ресетуј ниво увеличавање">
-
 <!ENTITY searchItem.title             "Претрага">
 
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 <!ENTITY homeButton.label             "Почетна">
 
 <!ENTITY bookmarksButton.label          "Забелешке">
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Обриши историјат…">
 <!ENTITY appMenuHistory.restoreSession.label "Обнови претходну сесију">
 <!ENTITY appMenuHistory.viewSidebar.label "Прикажи палету историјата">
+<!ENTITY appMenuHelp.label "Помоћ">
 <!ENTITY appMenuHelp.tooltip "Отвори мени за помоћ">
 
 <!ENTITY appMenuRemoteTabs.label "Синхронизовани језичци">
@@ -377,27 +377,44 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Поставке синхронизације">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Пријавите се да видите листу језичака са других уређаја.">
 <!ENTITY appMenuRemoteTabs.signin.label "Пријави се на Sync">
+<!ENTITY appMenuRemoteTabs.managedevices.label "Управљај уређајима…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Прикажи траку са син. језичцима">
 
 <!ENTITY customizeMenu.addToToolbar.label "Додај траци">
 <!ENTITY customizeMenu.addToToolbar.accesskey "Д">
 <!ENTITY customizeMenu.addToPanel.label "Додај менију">
 <!ENTITY customizeMenu.addToPanel.accesskey "м">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "Додај у додатну траку">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "т">
 <!ENTITY customizeMenu.moveToToolbar.label "Помери на траку">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "т">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Помери до менија">
 <!ENTITY customizeMenu.moveToPanel.accesskey "м">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "Закачи на додатну траку">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "З">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Откачи са додатне траке">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "О">
 <!ENTITY customizeMenu.removeFromToolbar.label "Уклони са траке">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "у">
 <!ENTITY customizeMenu.removeFromMenu.label "Уклони са менија">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "е">
 <!ENTITY customizeMenu.addMoreItems.label "Додај још елемената…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "Д">
+
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+<!ENTITY moreMenu.label "Још">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Претражи или унеси адресу">
@@ -414,7 +431,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.enable "Да">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "Д">
 
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Савет:">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "Потражите помоћ око проналажења ствари! Потражите &#x1F50E; поред предлога претраге.">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "Измените поставке…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "И">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "Измените подешавања…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "И">
+
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -507,7 +533,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewPageInfoCmd.accesskey    "н">
 <!ENTITY viewFrameInfoCmd.label       "Подаци о оквиру">
 <!ENTITY viewFrameInfoCmd.accesskey   "к">
-<!ENTITY reloadImageCmd.label         "Поновно учитавање слике">
+<!ENTITY reloadImageCmd.label         "Учитај поново слике">
 <!ENTITY reloadImageCmd.accesskey     "ч">
 <!ENTITY viewImageCmd.label           "Прикажи слику">
 <!ENTITY viewImageCmd.accesskey       "и">
@@ -526,6 +552,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "в">
 <!ENTITY bookmarkThisFrameCmd.label      "Забележи овај оквир">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "З">
+<!ENTITY copyURLCmd.label             "Копирај URL">
 <!ENTITY emailPageCmd.label           "Веза е-поште…">
 <!ENTITY emailPageCmd.accesskey       "е">
 <!ENTITY savePageCmd.label            "Сачувај страницу као…">
@@ -651,6 +678,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.accesskey             "У">
 
 <!ENTITY sidebarCloseButton.tooltip     "Затвори бочну палету">
+<!ENTITY sidebarMenuClose.label         "Затвори бочну палету">
 
 <!ENTITY quitApplicationCmdWin2.label       "Изађи">
 <!ENTITY quitApplicationCmdWin2.accesskey   "И">
@@ -660,8 +688,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Изађи"> 
 <!ENTITY quitApplicationCmd.accesskey   "И">
 <!ENTITY quitApplicationCmdMac2.label   "Изађи из &brandShorterName;">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
+<!ENTITY quitApplicationCmd.key         "Q">
 
 <!ENTITY closeCmd.label                 "Затвори">  
 <!ENTITY closeCmd.key                   "W">  
@@ -713,6 +740,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Ова страница се складишти на рачунару.">
 <!ENTITY identity.connectionVerified2 "Безбедно сте повезани на овај сајт, који је у власништву:">
 <!ENTITY identity.connectionInternal "Ово је безбедна &brandShortName; страница.">
+<!ENTITY identity.extensionPage "Ова страница је учитана са екстензије.">
 <!ENTITY identity.insecureLoginForms2 "Пријаве које су унесене на овој страници су можда угрожене.">
 
 <!-- Strings for connection state warnings. -->
@@ -785,6 +813,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "Отвори све у језичцима">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "ч">
+<!ENTITY syncedTabs.context.managedevices.label              "Управљај уређајима…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "ђ">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">
@@ -809,8 +839,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "Желите више алата?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Изаберите неки од хиљада додатака">
 <!ENTITY customizeMode.restoreDefaults "Обнови подразумевано">
-<!ENTITY customizeMode.toolbars "Прикажи / Сакриј траке са алаткама">
+<!ENTITY customizeMode.done "Готово">
 <!ENTITY customizeMode.titlebar "Трака наслова">
+<!ENTITY customizeMode.toolbars2 "Алатне траке">
 <!ENTITY customizeMode.lwthemes "Теме">
 <!ENTITY customizeMode.lwthemes.myThemes "Моје теме">
 <!ENTITY customizeMode.lwthemes.recommended "Препоручене">
@@ -899,3 +930,36 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "Сазнајте више о DRM…">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "С">
+
+<!ENTITY updateAvailable.message "Ажурирајте ваш &brandShorterName; за нове могућности.">
+<!ENTITY updateAvailable.whatsnew.label "Погледајте шта је ново.">
+<!ENTITY updateAvailable.header.message "Ажурирање &brandShorterName;-а је доступно.">
+<!ENTITY updateAvailable.acceptButton.label "Преузми надоградње">
+<!ENTITY updateAvailable.acceptButton.accesskey "П">
+<!ENTITY updateAvailable.cancelButton.label "Не сада">
+<!ENTITY updateAvailable.cancelButton.accesskey "Н">
+<!ENTITY updateAvailable.panelUI.label "Ажурирај &brandShorterName;">
+
+<!ENTITY updateManual.message "Преузмите &brandShorterName; и ми ћемо вам помоћи да га инсталирате.">
+<!ENTITY updateManual.whatsnew.label "Погледајте шта је ново.">
+<!ENTITY updateManual.header.message "&brandShorterName; се не може ажурирати на последњу верзију.">
+<!ENTITY updateManual.acceptButton.label "Преузми &brandShorterName;">
+<!ENTITY updateManual.acceptButton.accesskey "П">
+<!ENTITY updateManual.cancelButton.label "Не сада">
+<!ENTITY updateManual.cancelButton.accesskey "Н">
+<!ENTITY updateManual.panelUI.label "Преузмите &brandShorterName;">
+
+<!ENTITY updateRestart.message "Након рестартовања, &brandShorterName; ће повратити све ваше отворене језичке и прозоре.">
+<!ENTITY updateRestart.header.message2 "Рестартуј да се &brandShorterName; ажурира.">
+<!ENTITY updateRestart.acceptButton.label "Рестартуј и обнови">
+<!ENTITY updateRestart.acceptButton.accesskey "Р">
+<!ENTITY updateRestart.cancelButton.label "Не сада">
+<!ENTITY updateRestart.cancelButton.accesskey "Н">
+<!ENTITY updateRestart.panelUI.label2 "Рестартуј да се &brandShorterName; ажурира">
+
+<!ENTITY pageActionButton.tooltip "Радње странице">
+
+<!ENTITY sendToDevice.label "Пошаљи на уређај…">
+<!ENTITY sendToDevice.viewTitle "Пошаљи на уређај">
+<!ENTITY sendToDevice.fxaRequired.label "Обавезно">
+<!ENTITY sendToDevice.noDevices.label "Нема доступних уређаја">

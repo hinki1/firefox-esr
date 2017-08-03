@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "d">
 <!ENTITY useSmoothScrolling.label        "Adeuvia rebelamento regolâ">
 <!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY allowHWAccel.label              "Adeuvia l'aceleraçion hardware se a gh'é">
-<!ENTITY allowHWAccel.accesskey          "h">
 <!ENTITY checkUserSpelling.label         "Contròlla l'òrtografia quande scrivo">
 <!ENTITY checkUserSpelling.accesskey     "l">
 
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Agiorna">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "Agiornamenti de &brandShortName;">
-<!ENTITY updateAuto1.label               "Installa i agiornamenti in aotomatico (racomandou: ciù seguessa)">
-<!ENTITY updateAuto1.accesskey           "s">
-<!ENTITY updateCheckChoose.label         "Contròlla se gh'é agiornamenti, ma famme decidde a mi se instalali">
-<!ENTITY updateCheckChoose.accesskey     "C">
-<!ENTITY updateManual.label              "No çercâ mai i agiornamenti (no racomandou: reizego de seguessa)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Verscion ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Permetti a &brandShortName; de">
+<!ENTITY updateAuto2.label               "Instalâ in outomatico i agiornamenti (racomandou pe avei 'na megio seguessa)">
+<!ENTITY updateAuto2.accesskey           "I">
+<!ENTITY updateCheckChoose2.label        "Contròlla se gh'é agiornamenti, ma famme decidde se instalali">
+<!ENTITY updateCheckChoose2.accesskey    "C">
+<!ENTITY updateManual2.label             "No controlâ mai se gh'é agiornamenti (no racomandou)">
+<!ENTITY updateManual2.accesskey         "N">
 
-<!ENTITY updateHistory.label             "Fanni vedde a stöia di agiornamenti">
-<!ENTITY updateHistory.accesskey         "F">
+<!ENTITY updateHistory2.label            "Fanni vedde a stöia di agiornamenti…">
+<!ENTITY updateHistory2.accesskey        "g">
 
 <!ENTITY useService.label                "Uzâ 'n serviçio ascozo pe instalâ i agiornamenti">
 <!ENTITY useService.accesskey            "z">
 
-<!ENTITY autoUpdateOthers.label          "Agiornamenti outomatichi">
-<!ENTITY enableSearchUpdate.label        "Motô de riçerca">
-<!ENTITY enableSearchUpdate.accesskey    "M">
+<!ENTITY enableSearchUpdate2.label       "Agiorna in outomatico i motoî de riçerca">
+<!ENTITY enableSearchUpdate2.accesskey   "e">
+
+<!ENTITY reports.label                   "Dimme">
 
 <!ENTITY offlineStorageNotify.label               "Dimme quando un scito o veu sarvâ di dæti da êse adeuviæ feua linia">
 <!ENTITY offlineStorageNotify.accesskey           "D">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Leva da mezo i dæti feua linia">
 
 <!ENTITY certificateTab.label            "Certificati">
-<!ENTITY certPersonal.label              "Domanda">
-<!ENTITY certPersonal.description        "Quande 'n server o domanda o teu certificato personale:">
+<!ENTITY certPersonal2.description       "Quande 'n server o domanda o teu certificato personale">
 <!ENTITY selectCerts.auto                "Seleçionn-a un in outomatico">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "Domandimòu tutte e vòtte">
@@ -125,3 +136,9 @@
 <!ENTITY viewCerts.accesskey             "F">
 <!ENTITY viewSecurityDevices.label       "Aparati">
 <!ENTITY viewSecurityDevices.accesskey   "p">
+
+<!ENTITY performance.label               "Prestaçioin">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Saccine de ciù">
+<!ENTITY allowHWAccel.label              "Adeuvia l'aceleraçion hardware se a gh'é">
+<!ENTITY allowHWAccel.accesskey          "h">

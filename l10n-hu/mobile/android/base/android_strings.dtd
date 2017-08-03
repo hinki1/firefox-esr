@@ -75,6 +75,7 @@
 <!ENTITY bookmark_removed "Könyvjelző törölve">
 <!ENTITY bookmark_updated "Könyvjelző frissítve">
 <!ENTITY bookmark_options "Beállítások">
+<!ENTITY bookmark_save "Mentés">
 <!ENTITY screenshot_added_to_bookmarks "Képernyőkép hozzáadva a könyvjelzőkhöz">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
@@ -86,6 +87,8 @@
 
 <!ENTITY bookmark_folder_items "&formatD; elem">
 <!ENTITY bookmark_folder_one_item "1 elem">
+<!ENTITY bookmark_parent_folder "Szülőmappa">
+<!ENTITY bookmark_add_folder "Új mappa hozzáadása">
 
 <!ENTITY reader_saved_offline "Kapcsolat nélkül mentve">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -214,6 +217,9 @@
 <!ENTITY pref_home_updates_enabled "Engedélyezve">
 <!ENTITY pref_home_updates_wifi "Csak Wi-Fi használatakor">
 <!ENTITY pref_category_home_homepage "Honlap">
+<!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
+     home page will be use in every new tab. -->
+<!ENTITY home_homepage_every_new_tab "Mindig használja az új lapoknál">
 <!ENTITY home_homepage_title "Honlap beállítása">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
@@ -282,6 +288,12 @@
 
 <!ENTITY pref_custom_tabs "Egyéni lapok">
 <!ENTITY pref_custom_tabs_summary3 "Az appok megnyithatnak weboldalakat a &brandShortName; személyre szabott verziójával">
+<!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
+     default browser from user's preference, such as "Open in Firefox" -->
+<!ENTITY custom_tabs_menu_item_open_in "Megnyitás ebben: &formatS;">
+<!ENTITY custom_tabs_menu_footer "A motorháztető alatt: &brandShortName;">
+<!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
+<!ENTITY custom_tabs_hint_url_copy "URL másolva">
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "Tevékenységfolyam">
@@ -350,26 +362,14 @@
 <!ENTITY pref_plugins_enabled "Engedélyezve">
 <!ENTITY pref_plugins_tap_to_play2 "Érintse meg a lejátszáshoz">
 <!ENTITY pref_plugins_disabled "Tiltva">
-<!ENTITY pref_text_size "Szöveg mérete">
 <!ENTITY pref_restore_tabs "Lapok visszaállítása">
 <!ENTITY pref_restore_always "Visszaállítás mindig">
 <!ENTITY pref_restore_quit "Ne állítsa vissza a &brandShortName; bezárása után">
-<!ENTITY pref_font_size_tiny "Apró">
-<!ENTITY pref_font_size_small "Kicsi">
-<!ENTITY pref_font_size_medium "Közepes">
-<!ENTITY pref_font_size_large "Nagy">
-<!ENTITY pref_font_size_xlarge "Óriási">
-<!ENTITY pref_font_size_set "Beállítás">
-<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
-(or combination of characters) is used to decrease the preview font size; a larger version of the
-same character/combination is used to increase the preview font size. It should be a concise
-representation of the language it is used in that will help show the text in the preview will change
-size. -->
-<!ENTITY pref_font_size_adjust_char "A">
-<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
-    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
+<!-- Localization note (pref_use_system_font_size, pref_use_system_font_size_summary):
+     Font size here refers to the name of the corresponding Android system setting. -->
 
-<!ENTITY pref_font_size_preview_text "A gyors narancssárga róka sebességben, rugalmasságban és biztonságban is megugorja várakozásait. Non-profit szervezetként szabadon innoválhatunk az Ön érdekében, nem kell semmilyen kompromisszumot kötnünk. Ez Önnek jobb élményt, a webnek pedig fényesebb jövőt jelent.">
+<!ENTITY pref_use_system_font_size "A rendszer betűméretének használata">
+<!ENTITY pref_use_system_font_size_summary "A webes tartalom méretezése a rendszer betűmérete alapján">
 
 <!ENTITY pref_media_autoplay_enabled "Automatikus lejátszás">
 <!ENTITY pref_media_autoplay_enabled_summary "A webhelyek automatikusan lejátszhatnak-e videókat és más médiatartalmakat">
@@ -500,6 +500,7 @@ size. -->
 <!ENTITY contextmenu_open_private_tab "Megnyitás privát lapon">
 <!ENTITY contextmenu_remove "Eltávolítás">
 <!ENTITY contextmenu_add_to_launcher "Kezdőképernyőhöz adás">
+<!ENTITY contextmenu_set_as_homepage "Beállítás kezdőlapként">
 <!ENTITY contextmenu_share "Megosztás">
 <!ENTITY contextmenu_pasteandgo "Beillesztés és ugrás">
 <!ENTITY contextmenu_paste "Beillesztés">
@@ -524,11 +525,6 @@ size. -->
 <!ENTITY doorhanger_login_select_toast_copy "A jelszó vágólapra másolva">
 <!ENTITY doorhanger_login_select_action_text "Válasszon másik bejelentkezést">
 <!ENTITY doorhanger_login_select_title "Jelszó másolása innen:">
-<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
-     whether or not the magnifying glass is disabled. -->
-
-<!ENTITY pref_magnifying_glass_enabled "Kis területek nagyítása">
-<!ENTITY pref_magnifying_glass_enabled_summary2 "Hivatkozások és űrlapmezők nagyítása a közelük érintésekor">
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
 
@@ -552,6 +548,7 @@ size. -->
 <!ENTITY bookmark_edit_name "Név">
 <!ENTITY bookmark_edit_location "Hely">
 <!ENTITY bookmark_edit_keyword "Kulcsszó">
+<!ENTITY bookmark_select_folder "Válasszon mappát">
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
 
@@ -735,14 +732,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY ellipsis "…">
 
 <!ENTITY colon ":">
-<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
-     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
-     This format string is typically used by getString method, in such method the percent sign
-     is a reserved caracter. In order to display one percent sign in the result of getString,
-     double percent signs must be inserted in the format string.
-     This entity is used in the zoomed view to display the zoom factor-->
-
-<!ENTITY percent "&formatS;&#037;&#037;">
 <!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->
 

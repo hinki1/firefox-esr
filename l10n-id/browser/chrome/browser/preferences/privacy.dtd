@@ -2,7 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "Gunakan Perlindungan Pelacakan">
+<!ENTITY  trackingProtectionHeader2.label      "Perlindungan Pelacakan">
+<!ENTITY  trackingProtection.description       "Pelacakan adalah ketika perusahaan mengumpulkan informasi tentang Anda untuk menyusun sebuah profil dan menampilkan konten berdasarkan penjelajahan dan data pribadi Anda.">
+<!ENTITY  trackingProtection.radioGroupLabel   "Blokir perusahaan pelacak dikenal untuk menampilkan konten">
 <!ENTITY  trackingProtectionAlways.label       "Selalu">
 <!ENTITY  trackingProtectionAlways.accesskey   "S">
 <!ENTITY  trackingProtectionPrivate.label      "Hanya di jendela pribadi">
@@ -30,7 +32,7 @@
 
 <!ENTITY  locationBar.label             "Bilah Lokasi">
 
-<!ENTITY  locbar.suggest.label          "Saat menggunakan bilah lokasi, sarankan:">
+<!ENTITY  locbar.suggest2.label         "Saat menggunakan bilah lokasi, sarankan">
 <!ENTITY  locbar.history.label          "Riwayat">
 <!ENTITY  locbar.history.accesskey      "R">
 <!ENTITY  locbar.bookmarks.label        "Markah">
@@ -40,8 +42,7 @@
 <!ENTITY  locbar.searches.label         "Pencarian terkait dari mesin pencari baku.">
 <!ENTITY  locbar.searches.accesskey     "d">
 
-<!ENTITY  suggestionSettings.label      "Ubah preferensi saran mesin pencari…">
-<!ENTITY  suggestionSettings.accesskey  "p">
+<!ENTITY  suggestionSettings2.label     "Ubah preferensi untuk penyaranan mesin pencari">
 
 <!ENTITY  acceptCookies.label           "Terima kuki dari situs web">
 <!ENTITY  acceptCookies.accesskey       "w">
@@ -64,8 +65,8 @@
 <!ENTITY  showCookies.label             "Tampilkan Kuki…">
 <!ENTITY  showCookies.accesskey         "K">
 
-<!ENTITY  historyHeader.pre.label          "&brandShortName;:">
-<!ENTITY  historyHeader.pre.accesskey      "F">
+<!ENTITY  historyHeader2.pre.label         "&brandShortName; akan">
+<!ENTITY  historyHeader2.pre.accesskey     "a">
 <!ENTITY  historyHeader.remember.label     "akan mengingat data riwayat">
 <!ENTITY  historyHeader.dontremember.label "tidak akan mengingat data riwayat">
 <!ENTITY  historyHeader.custom.label       "menggunakan pengaturan khusus untuk data riwayat">

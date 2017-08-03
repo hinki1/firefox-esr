@@ -2,6 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/.  -->
 <!ENTITY aboutDialog.title          "عن &brandFullName;">
+<!-- LOCALIZATION NOTE (update.*):
+# These strings are also used in the update pane of preferences.
+# See about:preferences#advanced.
+-->
 <!-- LOCALIZATION NOTE (update.checkForUpdatesButton.*, update.updateButton.*):
 # Only one button is present at a time.
 # The button when displayed is located directly under the Firefox version in
@@ -10,12 +14,12 @@
 
 <!ENTITY update.checkForUpdatesButton.label       "التمس التحديثات">
 <!ENTITY update.checkForUpdatesButton.accesskey   "ت">
-<!ENTITY update.updateButton.label2               "أعِد تشغيل &brandShortName; لتحديثه">
+<!ENTITY update.updateButton.label3               "أعد التشغيل لتحديث &brandShorterName;">
 <!ENTITY update.updateButton.accesskey            "د">
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
 
 
-<!ENTITY warningDesc.version        "&brandShortName; تجريبي وقد لا يكون مستقرا.">
+<!ENTITY warningDesc.version        "&brandShortName; تجريبي و قد لا يكون مستقرا.">
 <!-- LOCALIZATION NOTE (warningDesc.telemetryDesc): This is a notification that Nightly/Aurora builds automatically send Telemetry data back to Mozilla. It is only shown in those versions. "It" refers to brandShortName. -->
 <!ENTITY warningDesc.telemetryDesc  "يُرسل تلقائيا معلومات عن الأداء و العتاد و الاستخدام و التخصيصات إلى &vendorShortName; للمساعدة على تحسين &brandShortName;.">
 <!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
@@ -90,7 +94,7 @@
 <!ENTITY update.unsupported.start    "لا يمكنك إجراء أي تحديثات أخرى على هذا النظام. ">
 <!ENTITY update.unsupported.linkText "اطّلع على المزيد">
 <!ENTITY update.unsupported.end      "​">
-<!-- LOCALIZATION NOTE (update.downloading.start,update.downloading.end): update.downloading.start and 
+<!-- LOCALIZATION NOTE (update.downloading.start,update.downloading.end): update.downloading.start and
      update.downloading.end all go into one line, with the amount downloaded inserted in between. As this
      is all in one line, try to make the localized text short (see bug 596813 for screenshots). The — is
      the "em dash" (long dash).

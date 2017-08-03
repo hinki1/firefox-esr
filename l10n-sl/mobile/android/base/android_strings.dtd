@@ -75,6 +75,7 @@
 <!ENTITY bookmark_removed "Zaznamek odstranjen">
 <!ENTITY bookmark_updated "Zaznamek posodobljen">
 <!ENTITY bookmark_options "Možnosti">
+<!ENTITY bookmark_save "Shrani">
 <!ENTITY screenshot_added_to_bookmarks "Posnetek zaslona dodan med zaznamke">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
@@ -86,6 +87,8 @@
      in the folder. -->
 <!ENTITY bookmark_folder_items "Število predmetov: &formatD;">
 <!ENTITY bookmark_folder_one_item "1 predmet">
+<!ENTITY bookmark_parent_folder "Nadrejena mapa">
+<!ENTITY bookmark_add_folder "Dodaj novo mapo">
 
 <!ENTITY reader_saved_offline "Shranjeno za delo brez povezave">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -214,6 +217,9 @@
 <!ENTITY pref_home_updates_enabled "Omogočeno">
 <!ENTITY pref_home_updates_wifi "Samo preko Wi-Fi">
 <!ENTITY pref_category_home_homepage "Domača stran">
+<!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
+     home page will be use in every new tab. -->
+<!ENTITY home_homepage_every_new_tab "Uporabi tudi za nove zavihke">
 <!ENTITY home_homepage_title "Nastavi domačo stran">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
@@ -282,6 +288,12 @@
      For more see: https://developer.chrome.com/multidevice/android/customtabs -->
 <!ENTITY pref_custom_tabs "Zavihki po meri">
 <!ENTITY pref_custom_tabs_summary3 "Dovoli aplikacijam, da odpirajo spletne strani z uporabo prilagojene različice &brandShortName;a">
+<!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
+     default browser from user's preference, such as "Open in Firefox" -->
+<!ENTITY custom_tabs_menu_item_open_in "Odpri v &formatS;">
+<!ENTITY custom_tabs_menu_footer "Omogoča &brandShortName;">
+<!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
+<!ENTITY custom_tabs_hint_url_copy "Spletni naslov kopiran">
 
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Tok dejavnosti">
@@ -350,26 +362,14 @@
 <!ENTITY pref_plugins_enabled "Vključeno">
 <!ENTITY pref_plugins_tap_to_play2 "Predvajaj ob dotiku">
 <!ENTITY pref_plugins_disabled "Onemogočeno">
-<!ENTITY pref_text_size "Velikost besedila">
 <!ENTITY pref_restore_tabs "Obnovi zavihke">
 <!ENTITY pref_restore_always "Vedno obnovi">
 <!ENTITY pref_restore_quit "Ne obnavljaj po zapiranju &brandShortName;a">
-<!ENTITY pref_font_size_tiny "Drobno">
-<!ENTITY pref_font_size_small "Majhno">
-<!ENTITY pref_font_size_medium "Normalno">
-<!ENTITY pref_font_size_large "Veliko">
-<!ENTITY pref_font_size_xlarge "Zelo veliko">
-<!ENTITY pref_font_size_set "Nastavi">
-<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
-(or combination of characters) is used to decrease the preview font size; a larger version of the
-same character/combination is used to increase the preview font size. It should be a concise
-representation of the language it is used in that will help show the text in the preview will change
-size. -->
-<!ENTITY pref_font_size_adjust_char "A">
 
-<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
-    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
-<!ENTITY pref_font_size_preview_text "Hitra oranžna lisica preskoči vaša pričakovanja z večjo hitrostjo, prilagodljivostjo in varnostjo. Kot neprofitna organizacija lahko svobodno delamo za dobrobit vseh nas, brez pritiskov in kompromisov. To prinaša boljšo izkušnjo za vas in svetlejšo prihodnost za splet.">
+<!-- Localization note (pref_use_system_font_size, pref_use_system_font_size_summary):
+     Font size here refers to the name of the corresponding Android system setting. -->
+<!ENTITY pref_use_system_font_size "Uporabljaj sistemsko velikost pisave">
+<!ENTITY pref_use_system_font_size_summary "Prilagodi spletno vsebino sistemski velikosti pisave">
 
 <!ENTITY pref_media_autoplay_enabled "Samodejno predvajanje">
 <!ENTITY pref_media_autoplay_enabled_summary "Določite, ali lahko spletne strani samodejno predvajajo videe in druge vsebine">
@@ -423,7 +423,7 @@ size. -->
 <!ENTITY datareporting_notification_action "Izberite, kaj deliti">
 <!-- Used in datareporting_notification_ticket_text, but unused in strings.xml. -->
 <!ENTITY datareporting_notification_action_long "Izberite, katere podatke želite deliti">
-<!ENTITY datareporting_notification_summary "Za izboljšanje vaše izkušnje, &brandShortName; samodejno pošilja nekatere podatke organizaciji &vendorShortName;.">
+<!ENTITY datareporting_notification_summary "Za izboljšanje vaše izkušnje &brandShortName; samodejno pošilja nekatere podatke organizaciji &vendorShortName;.">
 <!-- When this item is removed, also remove datareporting_notification_action_long:
      it is unused in strings.xml. -->
 <!ENTITY datareporting_notification_ticker_text "&datareporting_notification_title;: &datareporting_notification_action_long;">
@@ -500,6 +500,7 @@ size. -->
 <!ENTITY contextmenu_open_private_tab "Odpri v zasebnem zavihku">
 <!ENTITY contextmenu_remove "Odstrani">
 <!ENTITY contextmenu_add_to_launcher "Dodaj na domači zaslon">
+<!ENTITY contextmenu_set_as_homepage "Nastavi kot domačo stran">
 <!ENTITY contextmenu_share "Deli">
 <!ENTITY contextmenu_pasteandgo "Prilepi in odpri">
 <!ENTITY contextmenu_paste "Prilepi">
@@ -525,11 +526,6 @@ size. -->
 <!ENTITY doorhanger_login_select_action_text "Izberite drugo prijavo">
 <!ENTITY doorhanger_login_select_title "Kopiraj geslo iz">
 
-<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
-     whether or not the magnifying glass is disabled. -->
-<!ENTITY pref_magnifying_glass_enabled "Povečaj majhna območja">
-<!ENTITY pref_magnifying_glass_enabled_summary2 "Povečaj povezave in polja obrazcev ob dotiku v bližini">
-
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
 <!ENTITY pref_scroll_title_bar2 "Celozaslonsko brskanje">
@@ -552,6 +548,7 @@ size. -->
 <!ENTITY bookmark_edit_name "Ime">
 <!ENTITY bookmark_edit_location "Naslov">
 <!ENTITY bookmark_edit_keyword "Ključna beseda">
+<!ENTITY bookmark_select_folder "Izberite mapo">
 
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
@@ -703,7 +700,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_start_title2 "Na voljo je posodobitev za &brandShortName;">
 <!ENTITY updater_start_select2 "Tapnite za prenos">
 
-<!ENTITY updater_downloading_title2 "Prenašam &brandShortName;">
+<!ENTITY updater_downloading_title2 "Prenašanje &brandShortName;a">
 <!ENTITY updater_downloading_title_failed2 "Prenos neuspešen">
 <!ENTITY updater_downloading_select2 "Tapnite za uveljavitev posodobitve, ko se prenese">
 <!ENTITY updater_downloading_retry2 "Tapnite za ponovni poskus">
@@ -738,14 +735,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY ellipsis " …">
 
 <!ENTITY colon ":">
-
-<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
-     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
-     This format string is typically used by getString method, in such method the percent sign
-     is a reserved caracter. In order to display one percent sign in the result of getString,
-     double percent signs must be inserted in the format string.
-     This entity is used in the zoomed view to display the zoom factor-->
-<!ENTITY percent "&formatS; &#37;&#37;">
 
 <!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->

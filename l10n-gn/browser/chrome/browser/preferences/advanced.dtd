@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Oku'éva mbeguemi jepuru">
 <!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY allowHWAccel.label              "Hardware mbopya'eha oĩmba vove jepuru">
-<!ENTITY allowHWAccel.accesskey          "r">
 
 
 
@@ -33,16 +31,16 @@
 <!ENTITY healthReportDesc.label          "Oipytyvõ chupe oikumby hag̃ua ikundahára rembiapo ha ombohasa mba'ekuaarã &vendorShortName; ndive mbaéichapa oĩhína kóva">
 <!ENTITY enableHealthReport.label        "Emomarandu mba'éichapa oĩ &brandShortName;">
 <!ENTITY enableHealthReport.accesskey    "R">
-<!ENTITY healthReportLearnMore.label     "Kuaave">
+
 
 <!ENTITY telemetryDesc.label             "Embohasa mba'ekuaarã rembiapokue, jepuru, hardware ha ñemomba'egua ikundahára rehegua &vendorShortName; ndive oipytyvõ hag̃ua &brandShortName;-pe oikoporãvévo">
 
 
-<!ENTITY telemetryLearnMore.label        "Kuaave">
 
 
 
-<!ENTITY crashReporterLearnMore.label     "Kuaave">
+
+
 
 <!ENTITY networkTab.label                "Ñanduti">
 
@@ -79,22 +77,32 @@
 <!ENTITY overrideSmartCacheSize.accesskey "O">
 
 <!ENTITY updateTab.label                 "Mbohekopyahu">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.post  "">
 
-<!ENTITY updateAuto1.label               "Tekopyahu ijeheguíva mohenda (jeroviapyrãva: omohekorosãvéta)">
-<!ENTITY updateAuto1.accesskey           "A">
 
 
-<!ENTITY updateManual.label              "Tekopyahu jejhechajey'ỹva, (jerovia'ỹva: hekorosã kyhyjéta)">
-<!ENTITY updateManual.accesskey          "N">
 
-<!ENTITY updateHistory.label             "Tembiasakue rekopyahu jehechauka">
-<!ENTITY updateHistory.accesskey         "p">
+
+
+
+
+
 
 <!ENTITY useService.label                "Eipuru peteĩ mba'epytyvõrã mokõiha pegua remboguejy hag̃ua tekopyahu">
 <!ENTITY useService.accesskey            "m">
 
-<!ENTITY enableSearchUpdate.label        "Jehekaha">
-<!ENTITY enableSearchUpdate.accesskey    "E">
+
+
 
 
 <!ENTITY offlineStorageNotifyExceptions.label     "Oĩ'ỹva">
@@ -107,7 +115,6 @@
 <!ENTITY offlineAppRemove.confirm        "Mba'ekuaarã jeikekatu'ỹre mboguete">
 
 <!ENTITY certificateTab.label            "Mboajepyréva">
-<!ENTITY certPersonal.label              "Mba'ejerure">
 
 <!ENTITY selectCerts.auto                "Eiporavo peteĩ ijeheguíva">
 
@@ -119,3 +126,15 @@
 <!ENTITY viewCerts.accesskey             "C">
 <!ENTITY viewSecurityDevices.label       "Tekorosã mba'e'oka rehegua">
 <!ENTITY viewSecurityDevices.accesskey   "D">
+
+
+
+
+
+
+
+
+
+
+<!ENTITY allowHWAccel.label              "Hardware mbopya'eha oĩmba vove jepuru">
+<!ENTITY allowHWAccel.accesskey          "r">

@@ -14,7 +14,7 @@
 <!ENTITY aboutNetworking.autoRefresh           "Elke 3 sekonden opnij lade">
 <!ENTITY aboutNetworking.hostname              "Hostnamme">
 <!ENTITY aboutNetworking.port                  "Poarte">
-<!ENTITY aboutNetworking.spdy                  "SPDY">
+<!ENTITY aboutNetworking.http2                 "HTTP/2">
 <!ENTITY aboutNetworking.ssl                   "SSL">
 <!ENTITY aboutNetworking.active                "Aktyf">
 <!ENTITY aboutNetworking.idle                  "Wachtet">
@@ -41,3 +41,8 @@
 <!ENTITY aboutNetworking.dnsLookupButton       "Omsette">
 <!ENTITY aboutNetworking.dnsDomain             "Domein">
 <!ENTITY aboutNetworking.dnsLookupTableColumn  "IP-adressen">
+<!ENTITY aboutNetworking.rcwn                  "RCWN-statistiken">
+<!ENTITY aboutNetworking.rcwnStatus            "RCWN-steat">
+<!ENTITY aboutNetworking.rcwnCacheWonCount     "Oantal wûn troch buffer">
+<!ENTITY aboutNetworking.rcwnNetWonCount       "Oantal wûn troch netwurk">
+<!ENTITY aboutNetworking.totalNetworkRequests  "Totale oantal netwurkoanfragen">

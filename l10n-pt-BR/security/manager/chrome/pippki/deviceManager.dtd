@@ -33,4 +33,4 @@
 <!ENTITY loaddevice.browse                      "Procurar…">
 <!ENTITY loaddevice.browse.accesskey            "P">
 
-<!ENTITY loaddevice.title                       "Carregar dispositivo PKCS#11">
+<!ENTITY loaddevice.title2                      "Carregar driver de dispositivo PKCS#11">

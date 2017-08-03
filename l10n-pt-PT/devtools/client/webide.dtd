@@ -26,7 +26,7 @@
 <!ENTITY projectMenu_showPrefs_accesskey "e">
 <!ENTITY projectMenu_manageComponents_label "Gerir componentes extra">
 <!ENTITY projectMenu_manageComponents_accesskey "G">
-<!ENTITY projectMenu_refreshTabs_label "Recarregar separadores">
+<!ENTITY projectMenu_refreshTabs_label "Atualizar separadores">
 
 <!ENTITY runtimeMenu_label "Ambiente de execução">
 <!ENTITY runtimeMenu_accesskey "n">
@@ -34,8 +34,8 @@
 <!ENTITY runtimeMenu_disconnect_accesskey "D">
 <!ENTITY runtimeMenu_takeScreenshot_label "Captura de ecrã">
 <!ENTITY runtimeMenu_takeScreenshot_accesskey "e">
-<!ENTITY runtimeMenu_showDetails_label "Informação do ambiente de execução">
-<!ENTITY runtimeMenu_showDetails_accesskey "u">
+<!ENTITY runtimeMenu_showDetails_label "Informação do runtime">
+<!ENTITY runtimeMenu_showDetails_accesskey "E">
 <!ENTITY runtimeMenu_showMonitor_label "Monitor">
 <!ENTITY runtimeMenu_showMonitor_accesskey "M">
 <!ENTITY runtimeMenu_showDevicePrefs_label "Preferências do dispositivo">
@@ -45,17 +45,15 @@
 
 <!ENTITY viewMenu_label "Ver">
 <!ENTITY viewMenu_accesskey "V">
-<!ENTITY viewMenu_toggleEditor_label "Alternar editor">
-<!ENTITY viewMenu_toggleEditor_accesskey "e">
 <!ENTITY viewMenu_zoomin_label "Ampliar">
 <!ENTITY viewMenu_zoomin_accesskey "u">
 <!ENTITY viewMenu_zoomout_label "Reduzir">
 <!ENTITY viewMenu_zoomout_accesskey "i">
-<!ENTITY viewMenu_resetzoom_label "Repor Zoom">
+<!ENTITY viewMenu_resetzoom_label "Repor zoom">
 <!ENTITY viewMenu_resetzoom_accesskey "R">
 
 <!ENTITY projectButton_label "Abrir aplicação">
-<!ENTITY runtimeButton_label "Selecionar tempo de execução">
+<!ENTITY runtimeButton_label "Selecionar runtime">
 <!-- We try to repicate Firefox' bindings: -->
 <!-- quit app -->
 
@@ -66,8 +64,6 @@
 <!ENTITY key_play "R">
 <!-- show toolbox -->
 <!ENTITY key_toggleToolbox "VK_F12">
-<!-- toggle sidebar -->
-<!ENTITY key_toggleEditor "B">
 <!-- zoom -->
 <!ENTITY key_zoomin "+">
 <!ENTITY key_zoomin2 "=">
@@ -84,7 +80,7 @@
 <!ENTITY runtimePanel_installsimulator "Instalar simulador">
 <!ENTITY runtimePanel_noadbhelper "Instalar ADB Helper">
 <!ENTITY runtimePanel_nousbdevice "Não vê o seu dispositivo?">
-<!ENTITY runtimePanel_refreshDevices_label "Recarregar dispositivos">
+<!ENTITY runtimePanel_refreshDevices_label "Atualizar dispositivos">
 <!-- Lense -->
 
 <!ENTITY details_valid_header "válido">
@@ -117,30 +113,15 @@
 <!ENTITY prefs_general_title "Geral">
 <!ENTITY prefs_restore "Restaurar predefinições">
 <!ENTITY prefs_manage_components "Gerir componentes extra">
-<!ENTITY prefs_options_autoconnectruntime "Estabelecer nova ligação ao runtime anterior">
-<!ENTITY prefs_options_autoconnectruntime_tooltip "Estabelecer nova ligação ao runtime anterior ao iniciar o WebIDE">
+<!ENTITY prefs_options_autoconnectruntime "Religar ao runtime anterior">
+<!ENTITY prefs_options_autoconnectruntime_tooltip "Religar ao runtime anterior quando o WebIDE iniciar">
 <!ENTITY prefs_options_rememberlastproject "Memorizar último projeto">
 <!ENTITY prefs_options_rememberlastproject_tooltip "Restaurar projeto anterior quando o WebIDE inicia">
 <!ENTITY prefs_options_templatesurl "Modelos URL">
 <!ENTITY prefs_options_templatesurl_tooltip "Índice dos modelos disponíveis">
-<!ENTITY prefs_options_showeditor "Mostrar editor">
-<!ENTITY prefs_options_showeditor_tooltip "Mostrar editor interno">
-<!ENTITY prefs_options_tabsize "Tamanho do separador">
-<!ENTITY prefs_options_expandtab "Separadores flexíveis">
-<!ENTITY prefs_options_expandtab_tooltip "Utilizar espaços em vez do caractere de tabulação">
-<!ENTITY prefs_options_detectindentation "Indentar automaticamente">
-<!ENTITY prefs_options_detectindentation_tooltip "Presumir indentação baseada no conteúdo fonte">
-<!ENTITY prefs_options_autocomplete "Completar automaticamente">
-<!ENTITY prefs_options_autocomplete_tooltip "Ativar completação automática de código">
-<!ENTITY prefs_options_autoclosebrackets "Fechar parênteses automaticamente">
-<!ENTITY prefs_options_autoclosebrackets_tooltip "Inserir automaticamente o fecho dos parênteses">
-<!ENTITY prefs_options_keybindings "Associação de teclas">
-<!ENTITY prefs_options_keybindings_default "Predefinição">
-<!ENTITY prefs_options_autosavefiles "Guardar ficheiros automaticamente">
-<!ENTITY prefs_options_autosavefiles_tooltip "Guardar automaticamente os ficheiros editados antes de executar o projeto">
 <!-- Runtime Details -->
 
-<!ENTITY runtimedetails_title "Informação de Runtime">
+<!ENTITY runtimedetails_title "Informação do runtime">
 <!ENTITY runtimedetails_adbIsRoot "ADB é root: ">
 <!ENTITY runtimedetails_summonADBRoot "raiz do dispositivo">
 <!ENTITY runtimedetails_ADBRootWarning "(requer um bootloader desbloqueado)">

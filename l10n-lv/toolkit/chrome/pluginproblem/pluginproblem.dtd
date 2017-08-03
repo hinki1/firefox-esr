@@ -3,6 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (tapToPlayPlugin): Mobile (used for touch interfaces) only has one type of plugin possible. -->
+<!ENTITY pluginActivationWarning                             "Šī lapa izmanto spraudņus, kas var palēnināt &brandShortName;.">
 <!ENTITY tapToPlayPlugin                                     "Pieskarieties šeit, lai aktivētu spraudni.">
 <!ENTITY clickToActivatePlugin                               "Aktivēt spraudni.">
 <!ENTITY checkForUpdates                                     "Meklēt atjauninājumus…">
@@ -29,3 +30,4 @@
 <!ENTITY plugin.file                                         "Fails">
 <!ENTITY plugin.mimeTypes                                    "MIME tips">
 <!ENTITY plugin.flashProtectedMode.label                     "Aktivēt Adobe Flash aizsargāto režīmu">
+<!ENTITY plugin.enableBlocklists.label                       "Bloķēt bīstamu un uzmācīgu Flash saturu">

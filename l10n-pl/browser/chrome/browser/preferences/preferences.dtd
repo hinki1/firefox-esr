@@ -2,26 +2,22 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
-<!ENTITY  prefWindow.titleWin     "Opcje">
-<!ENTITY  prefWindow.title "Preferencje">
-<!ENTITY  prefWindow.titleGNOME   "Preferencje programu &brandShortName;">
+<!ENTITY prefWindow.titleWin "Opcje">
+<!ENTITY prefWindow.title "Preferencje">
+<!ENTITY prefWindow.titleGNOME "Preferencje programu &brandShortName;">
 
 <!ENTITY prefWinMinSize.styleWin2 "width: 47em; min-height: 37.5em;">
 <!ENTITY prefWinMinSize.styleMac "width: 50em; min-height: 40em;">
 <!ENTITY prefWinMinSize.styleGNOME "width: 51.5em; min-height: 40.5em;">
 
-<!ENTITY  paneGeneral.title       "Ogólne">
-<!ENTITY  paneTabs.title          "Karty">
-<!ENTITY  paneSearch.title "Wyszukiwanie">
-<!ENTITY  paneContent.title       "Treść">
-<!ENTITY  paneApplications.title  "Aplikacje">
-<!ENTITY  panePrivacy.title       "Prywatność">
+<!ENTITY paneSearchResults.title "Wyniki wyszukiwania">
+<!ENTITY paneGeneral.title "Ogólne">
+<!ENTITY paneFilesApplications.title "Pliki i aplikacje">
+<!ENTITY panePrivacySecurity.title "Prywatność i bezpieczeństwo">
 <!ENTITY paneContainers.title "Karty z kontekstem">
-<!ENTITY  paneSecurity.title      "Bezpieczeństwo">
-<!ENTITY  paneAdvanced.title      "Zaawansowane">
+<!ENTITY paneUpdates.title "Aktualizacje">
+<!ENTITY paneSync1.title "Konto Firefoksa">
 
-<!-- LOCALIZATION NOTE (paneSync.title): This should match syncBrand.shortName.label in ../syncBrand.dtd -->
-<!ENTITY  paneSync.title          "Synchronizacja">
+<!ENTITY helpButton2.label "Wsparcie programu &brandShortName;">
 
-<!ENTITY helpButton.label "Pomoc">
+<!ENTITY searchInput.label "Szukaj">

@@ -10,8 +10,8 @@
 
 <!ENTITY engine.history.label       "നാള്‍വഴി">
 <!ENTITY engine.history.accesskey   "r">
-<!ENTITY engine.passwords.label     "രഹസ്യവാക്കുകള്‍">
-<!ENTITY engine.passwords.accesskey "P">
+
+
 <!ENTITY engine.prefs.label         "മുന്‍ഗണനകള്‍">
 <!ENTITY engine.prefs.accesskey     "s">
 <!ENTITY engine.addons.label        "ആഡ്-ഓണുകള്‍">
@@ -61,6 +61,7 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY signedOut.description        "നിങ്ങളുടെ അടയാളക്കുറിപ്പുകള്‍, നാള്‍വഴി, ടാബുകള്‍, രഹസ്യവാക്കുകള്‍, ആഡോണുകള്‍, ക്രമീകരണങ്ങള്‍ നിങ്ങളുടെ എല്ലാ ഡിവൈസുകളിലേക്കും പൊരുത്തപ്പെടുത്തുക.">
 <!ENTITY signedOut.accountBox.title   "&syncBrand.fxAccount.label; -ന്‍റെ ഒപ്പം കണക്റ്റ് ചെയ്യുക">
+
 
 
 

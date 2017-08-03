@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Usar desplazamiento suave">
 <!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY allowHWAccel.label              "Usar aceleración por hardware cuando esté disponible">
-<!ENTITY allowHWAccel.accesskey          "h">
 <!ENTITY checkUserSpelling.label         "Revisar ortografía al escribir">
 <!ENTITY checkUserSpelling.accesskey     "t">
 
@@ -41,7 +39,7 @@
 <!ENTITY telemetryLearnMore.label        "Aprender más">
 
 <!ENTITY crashReporterDesc2.label         "Los reportes de fallos ayudan a &vendorShortName; a arreglar problemas y hacer tu navegador más estable y seguro">
-<!ENTITY alwaysSubmitCrashReports.label   "">
+<!ENTITY alwaysSubmitCrashReports.label   "Permitir a &brandShortName; enviar reportes de fallos acumulados a tu nombre">
 <!ENTITY alwaysSubmitCrashReports.accesskey "c">
 <!ENTITY crashReporterLearnMore.label     "Aprender más">
 
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Actualización">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "Actualizaciones de &brandShortName;">
-<!ENTITY updateAuto1.label               "Instalar actualizaciones automáticamente (recomendado: mayor seguridad)">
-<!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateCheckChoose.label         "Buscar actualizaciones, pero dejarte decidir cuando instalarlas">
-<!ENTITY updateCheckChoose.accesskey     "C">
-<!ENTITY updateManual.label              "Nunca buscar actualizaciones (no recomendado: riesgos de seguridad)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Versión ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Permitir a &brandShortName;">
+<!ENTITY updateAuto2.label               "Instalar automáticamente las actualizaciones (recomendado para una mayor seguridad)">
+<!ENTITY updateAuto2.accesskey           "A">
+<!ENTITY updateCheckChoose2.label        "Buscar actualizaciones pero permitirte elegir cuando instalarlas">
+<!ENTITY updateCheckChoose2.accesskey    "C">
+<!ENTITY updateManual2.label             "Nunca buscar actualizaciones (no recomendado)">
+<!ENTITY updateManual2.accesskey         "N">
 
-<!ENTITY updateHistory.label             "Mostrar historial de actualizaciones">
-<!ENTITY updateHistory.accesskey         "H">
+<!ENTITY updateHistory2.label            "Mostrar historial de actualización…">
+<!ENTITY updateHistory2.accesskey        "p">
 
 <!ENTITY useService.label                "Usar un servicio en segundo plano para instalar actualizaciones">
 <!ENTITY useService.accesskey            "U">
 
-<!ENTITY autoUpdateOthers.label          "Actualización automática">
-<!ENTITY enableSearchUpdate.label        "Motores de búsqueda">
-<!ENTITY enableSearchUpdate.accesskey    "b">
+<!ENTITY enableSearchUpdate2.label       "Actualizar motores de búsqueda automáticamente">
+<!ENTITY enableSearchUpdate2.accesskey   "e">
+
+<!ENTITY reports.label                   "Reportes">
 
 <!ENTITY offlineStorageNotify.label               "Avisarte cuando un sitio solicite almacenar datos para uso sin conexión">
 <!ENTITY offlineStorageNotify.accesskey           "T">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Eliminar datos sin conexión">
 
 <!ENTITY certificateTab.label            "Certificados">
-<!ENTITY certPersonal.label              "Solicitudes">
-<!ENTITY certPersonal.description        "Cuando un servidor pida tu certificado personal:">
+<!ENTITY certPersonal2.description       "Cuando un servidor solicita tu certificado personal">
 <!ENTITY selectCerts.auto                "Seleccionar uno automáticamente">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "Preguntar cada vez">
@@ -125,3 +136,23 @@
 <!ENTITY viewCerts.accesskey             "s">
 <!ENTITY viewSecurityDevices.label       "Dispositivos de seguridad">
 <!ENTITY viewSecurityDevices.accesskey   "D">
+
+<!ENTITY performance.label               "Rendimiento">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Usar ajustes de rendimiento recomendados">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Estos ajustes están pensados para el hardware de tu computador y sistema operativo.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "U">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Aprender más">
+<!ENTITY limitContentProcessOption.label "Límite de procesos de contenido">
+<!ENTITY limitContentProcessOption.description
+                                         "Los procesos de contenido adicionales pueden mejorar el rendimiento al usar múltiples pestañas, pero también usan más memoria.">
+<!ENTITY limitContentProcessOption.accesskey   "L">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Modificar el número de procesos de contenido solo es posible con &brandShortName; multiproceso.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Aprende cómo revisar si el multiproceso está activado">
+<!ENTITY allowHWAccel.label              "Usar aceleración por hardware cuando esté disponible">
+<!ENTITY allowHWAccel.accesskey          "h">

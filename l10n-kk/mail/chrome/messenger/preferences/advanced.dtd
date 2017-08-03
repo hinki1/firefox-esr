@@ -34,9 +34,9 @@
 <!ENTITY configEditDesc.label          "Кеңейтілген баптаулар">
 <!ENTITY configEdit.label              "Баптаулар түзеткіші…">
 <!ENTITY configEdit.accesskey          "Б">
-
-
-
+<!ENTITY returnReceiptsInfo.label      "&brandShortName; алу есептемелерін қалай өңдейтінін таңдаңыз">
+<!ENTITY showReturnReceipts.label      "Алу есептемелері…">
+<!ENTITY showReturnReceipts.accesskey  "р">
 <!-- Data Choices -->
 
 <!ENTITY telemetrySection.label          "Телеметрия">
@@ -51,8 +51,20 @@
 <!ENTITY enableCrashReporter.accesskey   "с">
 <!ENTITY crashReporterLearnMore.label    "Көбірек білу">
 <!-- Update -->
+<!-- LOCALIZATION NOTE (updateApp.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 
-<!ENTITY updateApp.label                 "&brandShortName; жаңартулары:">
+<!ENTITY updateApp2.label                "&brandShortName; жаңартулары">
+<!-- LOCALIZATION NOTE (updateApp.version.*): updateApp.version.pre is
+  followed by a version number, keep the trailing space or replace it with
+  a different character as needed. updateApp.version.post is displayed after
+  the version number, and is empty on purpose for English. You can use it
+  if required by your language.
+ -->
+<!ENTITY updateApp.version.pre           "Нұсқасы ">
+<!ENTITY updateApp.version.post          "">
 <!ENTITY updateAuto.label                "Жаңартуларды автоматты түрде орнату (ұсынылады: қауіпсіздікті арттырады)">
 <!ENTITY updateAuto.accesskey            "а">
 <!ENTITY updateCheck.label               "Жаңартуларды тексеру, бірақ орнату уақытын өзім тандаймын">
@@ -68,7 +80,7 @@
 
 <!ENTITY showSettings.label            "Баптаулар…">
 <!ENTITY showSettings.accesskey        "а">
-<!ENTITY proxiesConfigure.label        "&brandShortName; Интернетке қосылу параметрлерін баптау">
+<!ENTITY proxiesConfigure.label        "&brandShortName; Интернетке байланысу параметрлерін баптау">
 <!ENTITY connectionsInfo.caption       "Байланыс">
 <!ENTITY offlineInfo.caption           "Желіде емес">
 <!ENTITY offlineInfo.label             "Желіден тыс баптаулары">
@@ -76,9 +88,9 @@
 <!ENTITY showOffline.accesskey         "ы">
 
 <!ENTITY Diskspace                       "Дискідегі орын">
-
-
-
+<!ENTITY offlineCompactFolders.label     "Барлық бумаларды ықшамдау, егер ол сақтаса">
+<!ENTITY offlineCompactFolders.accesskey "ы">
+<!ENTITY offlineCompactFoldersMB.label   "МБ жалпы">
 <!-- LOCALIZATION NOTE:
   The entities useCacheBefore.label and useCacheAfter.label appear on a single
   line in preferences as follows:
@@ -86,19 +98,24 @@
   &useCacheBefore.label  [ textbox for cache size in MB ]   &useCacheAfter.label;
 -->
 
-
+<!ENTITY useCacheBefore.label            "Дейін қолдану">
+<!ENTITY useCacheBefore.accesskey        "о">
+<!ENTITY useCacheAfter.label             "МБ орын кэш үшін">
+<!ENTITY overrideSmartCacheSize.label    "Кэшті автобасқаруды елемеу">
+<!ENTITY overrideSmartCacheSize.accesskey "м">
 <!ENTITY clearCacheNow.label             "Қазір өшіру">
 <!ENTITY clearCacheNow.accesskey         "з">
 <!-- Certificates -->
 
 <!ENTITY certSelection.description       "Егерде сервер менің жеке сертификатымды сұраса:">
 <!ENTITY certs.auto                      "Мені сұрамай-ақ жіберу">
-
+<!ENTITY certs.auto.accesskey            "с">
 <!ENTITY certs.ask                       "Әрбір ретте менен сұрау">
+<!ENTITY certs.ask.accesskey             "а">
+<!ENTITY enableOCSP.label                "OCSP жауап беруші серверлерін сертификаттардың ағымдағы дұрыстығы жөнінде сұрау">
+<!ENTITY enableOCSP.accesskey            "с">
 
-
-
-
-
+<!ENTITY manageCertificates.label "Сертификаттарды басқару">
+<!ENTITY manageCertificates.accesskey "б">
 <!ENTITY viewSecurityDevices.label "Қорғаныс жабдықтары">
 <!ENTITY viewSecurityDevices.accesskey "ж">

@@ -22,9 +22,9 @@
 <!ENTITY view.sort.accesskey            "R">
 <!ENTITY view.unsorted.label            "Ne ordigite">
 <!ENTITY view.unsorted.accesskey        "N">
-<!ENTITY view.sortAscending.label       "Ordigado laŭ A > Z">
+<!ENTITY view.sortAscending.label       "Ordigo laŭ A > Z">
 <!ENTITY view.sortAscending.accesskey   "A">
-<!ENTITY view.sortDescending.label      "Ordigado laŭ Z > A">
+<!ENTITY view.sortDescending.label      "Ordigo laŭ Z > A">
 <!ENTITY view.sortDescending.accesskey  "Z">
 
 <!ENTITY importBookmarksFromHTML.label     "Importi legosignojn el HTML…">

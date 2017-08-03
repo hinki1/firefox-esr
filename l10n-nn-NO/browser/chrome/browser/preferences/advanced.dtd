@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "B">
 <!ENTITY useSmoothScrolling.label        "Bruk jamn rulling">
 <!ENTITY useSmoothScrolling.accesskey    "u">
-<!ENTITY allowHWAccel.label              "Bruk maskinvareakselerasjon når tilgjengeleg">
-<!ENTITY allowHWAccel.accesskey          "m">
 <!ENTITY checkUserSpelling.label         "Kontroller staving medan du skriv">
 <!ENTITY checkUserSpelling.accesskey     "K">
 
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Oppdatering">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "&brandShortName;-oppdateringar">
-<!ENTITY updateAuto1.label               "Automatisk installer oppdateringar (tilrådd: betre tryggleik)">
-<!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateCheckChoose.label         "Sjå etter oppdateringar, men la meg velje når eg vil installere dei">
-<!ENTITY updateCheckChoose.accesskey     "S">
-<!ENTITY updateManual.label              "Aldri sjå etter oppdateringar (ikkje tilrådd: tryggingsrisiko)">
-<!ENTITY updateManual.accesskey          "d">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Versjon ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Tillat &brandShortName; å">
+<!ENTITY updateAuto2.label               "Installer oppdateringar automatisk (tilrådd for forbetra sikkerheit)">
+<!ENTITY updateAuto2.accesskey           "a">
+<!ENTITY updateCheckChoose2.label        "Sjå etter oppdateringar, men la meg velje om eg vil installere dei">
+<!ENTITY updateCheckChoose2.accesskey    "S">
+<!ENTITY updateManual2.label             "Sjå aldri etter oppdateringar (ikkje tilrådd)">
+<!ENTITY updateManual2.accesskey         "a">
 
-<!ENTITY updateHistory.label             "Vis oppdateringshistorikk">
-<!ENTITY updateHistory.accesskey         "V">
+<!ENTITY updateHistory2.label            "Vis oppdateringshistorikk…">
+<!ENTITY updateHistory2.accesskey        "p">
 
 <!ENTITY useService.label                "Bruk ei bakgrunnsteneste for å installere oppdateringar">
 <!ENTITY useService.accesskey            "B">
 
-<!ENTITY autoUpdateOthers.label          "Automatisk oppdatering">
-<!ENTITY enableSearchUpdate.label        "Søkemotorar">
-<!ENTITY enableSearchUpdate.accesskey    "m">
+<!ENTITY enableSearchUpdate2.label       "Oppdater søkemotorar automatisk">
+<!ENTITY enableSearchUpdate2.accesskey   "e">
+
+<!ENTITY reports.label                   "Rapportar">
 
 <!ENTITY offlineStorageNotify.label               "Fortel meg når ein nettstad ber om å lagre data for fråkopla bruk">
 <!ENTITY offlineStorageNotify.accesskey           "F">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Slett fråkopla-data">
 
 <!ENTITY certificateTab.label            "Sertifikat">
-<!ENTITY certPersonal.label              "Førespurnadar">
-<!ENTITY certPersonal.description        "Når ein nettstad ber om det personlege sertifikatet ditt:">
+<!ENTITY certPersonal2.description       "Når ein server ber om det personlege sertifikatet ditt">
 <!ENTITY selectCerts.auto                "Vel eit automastisk">
 <!ENTITY selectCerts.auto.accesskey      "s">
 <!ENTITY selectCerts.ask                 "Spør kvar gong">
@@ -125,3 +136,23 @@
 <!ENTITY viewCerts.accesskey             "V">
 <!ENTITY viewSecurityDevices.label       "Sikkerheitseiningar">
 <!ENTITY viewSecurityDevices.accesskey   "k">
+
+<!ENTITY performance.label               "Yting">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Bruk tilrådde ytingsinnstillingar">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Desse innstillingane er skreddarsydd til datamaskinas maskinvare og operativsystem.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "B">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Les meir">
+<!ENTITY limitContentProcessOption.label "Grense for innhaldsprosessar">
+<!ENTITY limitContentProcessOption.description
+                                         "Ytterlegere innhaldsprosessar kan forbetre ytinga når du brukar fleire faner, men vil også bruke meir minne.">
+<!ENTITY limitContentProcessOption.accesskey   "Y">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Endring av talet på innhaldsprosessar kan berre gjerast med multiprosess &brandShortName;.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Lær deg korleis du kontrollerer om multiprosess er slått på">
+<!ENTITY allowHWAccel.label              "Bruk maskinvareakselerasjon når tilgjengeleg">
+<!ENTITY allowHWAccel.accesskey          "m">

@@ -36,9 +36,9 @@ left edge of the tabstrip. Really we just want the string to express the idea
 that this is a lightweight and reversible action that keeps your tab where you
 can reach it easily. -->
 
-<!ENTITY  pinTab.label                       "Feistigh an Cluaisín">
-<!ENTITY  pinTab.accesskey                   "F">
-<!ENTITY  unpinTab.label                     "Dífheistigh an Cluaisín">
+<!ENTITY  pinTab.label                       "Pionnáil an Cluaisín">
+<!ENTITY  pinTab.accesskey                   "P">
+<!ENTITY  unpinTab.label                     "Díphionnáil an Cluaisín">
 <!ENTITY  unpinTab.accesskey                 "D">
 <!ENTITY  sendTabToDevice.label              "Seol an Cluaisín Chuig Gléas">
 <!ENTITY  sendTabToDevice.accesskey          "G">
@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "Deaschliceáil nó tarraing anuas chun an stair a thaispeáint">
 <!ENTITY backForwardButtonMenuMac.tooltip "Tarraing anuas chun an stair a thaispeáint">
 <!ENTITY reloadCmd.label              "Athluchtaigh">
-<!ENTITY reloadButton.tooltip         "Athluchtaigh an leathanach reatha">
 <!ENTITY stopCmd.label                "Stad">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "Éirigh as an leathanach seo a luchtú">
 <!ENTITY goEndCap.tooltip             "Téigh go dtí an seoladh atá sa Bharra Suímh">
 <!ENTITY printButton.label            "Priontáil">
 <!ENTITY printButton.tooltip          "Priontáil an leathanach seo">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Oscail painéal teachtaireachtaí sábháil focal faire">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Bainistigh úsáid na bhforlíontán">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Athraigh pé acu an bhfaighidh nó nach bhfaighidh tú fógraí ón suíomh">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Sábháil sonraí sa Stóras Seasmhach">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Tá an brabhsálaí faoi chianrialú">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Bainistigh comhroinnt do cheamara agus/nó do mhicreafón leis an suíomh">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Bainistigh comhroinnt do mhicreafóin leis an suíomh">
@@ -231,13 +231,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "Chuir tú cosc ar an suíomh seo an áit ina bhfuil tú a fheiceáil.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "Chuir tú cosc ar stóras sonraí ar an suíomh seo.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "Chuir tú cosc ar fhógraí ón suíomh seo.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "Chuir tú cosc ar stóras seasmhach ar an suíomh seo.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Taispeáin an stair">
 
-<!ENTITY urlbar.zoomReset.tooltip     "Athshocraigh an leibhéal súmála">
-
 <!ENTITY searchItem.title             "Cuardaigh">
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 
 <!ENTITY homeButton.label             "Baile">
 
@@ -267,7 +266,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY keywordfield.label           "Cuir lorgfhocal leis an gcuardach seo…">
 <!ENTITY keywordfield.accesskey       "l">
 
-<!ENTITY downloads.label              "Íosluchtú">
+<!ENTITY downloads.label              "Íosluchtuithe">
 <!ENTITY downloads.accesskey          "l">
 <!ENTITY downloads.commandkey         "j">
 <!ENTITY downloadsUnix.commandkey     "y">
@@ -283,8 +282,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY fileMenu.label         "Comhad"> 
 <!ENTITY fileMenu.accesskey       "C">
-<!ENTITY newUserContext.label             "Árthach Cluaisín Nua">
-<!ENTITY newUserContext.accesskey         "C">
+<!ENTITY newUserContext.label             "Cluaisín Coimeádáin Nua">
+<!ENTITY newUserContext.accesskey         "m">
 <!ENTITY newNavigatorCmd.label        "Fuinneog Nua">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "N">
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Glan an Stair Is Déanaí…">
 <!ENTITY appMenuHistory.restoreSession.label "Athchóirigh an Seisiún Roimhe Seo">
 <!ENTITY appMenuHistory.viewSidebar.label "Taispeáin Stair sa Bharra Taoibh">
+<!ENTITY appMenuHelp.label "Cabhair">
 <!ENTITY appMenuHelp.tooltip "Oscail an Roghchlár Cabhrach">
 
 <!ENTITY appMenuRemoteTabs.label "Cluaisíní Sioncronaithe">
@@ -377,27 +377,44 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Sioncronaigh Sainroghanna">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Logáil isteach le hamharc ar liosta chluaisíní do ghléasanna eile.">
 <!ENTITY appMenuRemoteTabs.signin.label "Logáil isteach le sioncronú">
+<!ENTITY appMenuRemoteTabs.managedevices.label "Bainistigh Gléasanna…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Féach ar Chluaisíní Sioncronaithe i mBarra Taoibh">
 
 <!ENTITY customizeMenu.addToToolbar.label "Cuir leis an mBarra Uirlisí">
 <!ENTITY customizeMenu.addToToolbar.accesskey "C">
 <!ENTITY customizeMenu.addToPanel.label "Cuir leis an Roghchlár">
 <!ENTITY customizeMenu.addToPanel.accesskey "R">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "Cuir leis an Roghchlár Fuílligh">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "R">
 <!ENTITY customizeMenu.moveToToolbar.label "Cuir sa Bharra Uirlisí">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "C">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Cuir sa Roghchlár">
 <!ENTITY customizeMenu.moveToPanel.accesskey "R">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "Pionnáil leis an Roghchlár Fuílligh">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "P">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Díphionnáil ón Roghchlár Fuílligh">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "D">
 <!ENTITY customizeMenu.removeFromToolbar.label "Bain amach ón Bharra Uirlisí">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "B">
 <!ENTITY customizeMenu.removeFromMenu.label "Bain ón Roghchlár">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "B">
 <!ENTITY customizeMenu.addMoreItems.label "Cuir Tuilleadh Leis…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "T">
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+
+<!ENTITY moreMenu.label "Tuilleadh">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Cuardaigh nó cuir seoladh isteach">
@@ -413,7 +430,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.disable.accesskey "n">
 <!ENTITY urlbar.searchSuggestionsNotification.enable "Tá">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "y">
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Leid:">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "Faigh cabhair le cuardach! Bain úsáid as an &#x1F50E; in aice leis na moltaí cuardaigh.">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "Athraigh Roghanna…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "C">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "Athraigh Sainroghanna…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "C">
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -487,7 +513,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openFrameCmdInTab.accesskey  "C">
 <!ENTITY openFrameCmd.label           "Oscail an Fráma i bhFuinneog Nua">
 <!ENTITY openFrameCmd.accesskey       "F">
-<!ENTITY openLinkCmdInContainerTab.label "Oscail an Nasc i gCluaisín Coimeadáin Nua">
+<!ENTITY openLinkCmdInContainerTab.label "Oscail an Nasc i gCluaisín Coimeádáin Nua">
 <!ENTITY openLinkCmdInContainerTab.accesskey "g">
 <!ENTITY showOnlyThisFrameCmd.label     "Ná Taispeáin ach an Fráma Seo">
 <!ENTITY showOnlyThisFrameCmd.accesskey "s">
@@ -526,6 +552,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "L">
 <!ENTITY bookmarkThisFrameCmd.label      "Cruthaigh Leabharmharc don Fhráma Seo">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "m">
+<!ENTITY copyURLCmd.label             "Cóipeáil an URL">
 <!ENTITY emailPageCmd.label           "Seol an Nasc trí Ríomhphost…">
 <!ENTITY emailPageCmd.accesskey       "S">
 <!ENTITY savePageCmd.label            "Sábháil an Leathanach Mar…">
@@ -652,6 +679,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.accesskey             "S">
 
 <!ENTITY sidebarCloseButton.tooltip     "Dún an barra taoibh">
+<!ENTITY sidebarMenuClose.label         "Dún an Barra Taoibh">
 
 <!ENTITY quitApplicationCmdWin2.label       "Scoir">
 <!ENTITY quitApplicationCmdWin2.accesskey   "S">
@@ -661,8 +689,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Scoir"> 
 <!ENTITY quitApplicationCmd.accesskey   "S">
 <!ENTITY quitApplicationCmdMac2.label   "Scoir &brandShorterName;">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
+<!ENTITY quitApplicationCmd.key         "Q">
 
 <!ENTITY closeCmd.label                 "Dún">  
 <!ENTITY closeCmd.key                   "W">  
@@ -714,6 +741,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Stóráiltear an leathanach seo ar do ríomhaire.">
 <!ENTITY identity.connectionVerified2 "Tá ceangal slán agat leis an suíomh seo, suíomh faoi stiúir:">
 <!ENTITY identity.connectionInternal "Is leathanach slán &brandShortName; é seo.">
+<!ENTITY identity.extensionPage "Lódáiltear an leathanach seo ó eisínteacht.">
 <!ENTITY identity.insecureLoginForms2 "D'fhéadfadh sonraí logáil isteach bheith i mbaol ar an leathanach seo.">
 <!-- Strings for connection state warnings. -->
 
@@ -786,6 +814,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "Oscail Gach Rud i gCluaisíní">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "O">
+<!ENTITY syncedTabs.context.managedevices.label              "Bainistigh Gléasanna…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "G">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">
@@ -810,8 +840,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "An bhfuil tuilleadh uirlisí uait?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Roghnaigh ó na mílte breiseán">
 <!ENTITY customizeMode.restoreDefaults "Athchóirigh na Réamhshocruithe">
-<!ENTITY customizeMode.toolbars "Taispeáin / Folaigh Barraí Uirlisí">
+<!ENTITY customizeMode.done "Déanta">
 <!ENTITY customizeMode.titlebar "Barra Teidil">
+<!ENTITY customizeMode.toolbars2 "Barraí Uirlisí">
 <!ENTITY customizeMode.lwthemes "Téamaí">
 <!ENTITY customizeMode.lwthemes.myThemes "Mo Chuid Téamaí">
 <!ENTITY customizeMode.lwthemes.recommended "Molta">
@@ -839,7 +870,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- LOCALIZATION NOTE (trackingProtection.unblockPrivate.label, trackingProtection.unblockPrivate.accesskey):
      The associated button with this label and accesskey is only shown when opening the control
      center while looking at a site with trackers in PRIVATE browsing mode. -->
-<!ENTITY trackingProtection.unblockPrivate.label "Díchumasaigh cosaint don suíomh seo">
+<!ENTITY trackingProtection.unblockPrivate.label "Díchumasaigh cosaint don seisiún seo">
 <!ENTITY trackingProtection.unblockPrivate.accesskey "D">
 <!ENTITY trackingProtection.block2.label "Cumasaigh cosaint">
 <!ENTITY trackingProtection.block2.accesskey "C">
@@ -900,3 +931,36 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "Tuilleadh eolais faoi DRM...">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+<!ENTITY updateAvailable.message "Nuashonraigh &brandShorterName; chun an leagan is sciobtha is sábháilte a fháil.">
+<!ENTITY updateAvailable.whatsnew.label "Gach rud nua.">
+<!ENTITY updateAvailable.header.message "Tá nuashonrú &brandShorterName; ar fáil.">
+<!ENTITY updateAvailable.acceptButton.label "Íosluchtaigh an Nuashonrú">
+<!ENTITY updateAvailable.acceptButton.accesskey "o">
+<!ENTITY updateAvailable.cancelButton.label "Níl Anois">
+<!ENTITY updateAvailable.cancelButton.accesskey "N">
+<!ENTITY updateAvailable.panelUI.label "Íosluchtaigh an nuashonrú &brandShorterName;">
+
+<!ENTITY updateManual.message "Íosluchtaigh cóip nua de &brandShorterName; agus cabhróimid leat é a shuiteáil.">
+<!ENTITY updateManual.whatsnew.label "Gach rud nua.">
+<!ENTITY updateManual.header.message "Ní féidir le &brandShorterName; nuashonrú go dtí an leagan is déanaí.">
+<!ENTITY updateManual.acceptButton.label "Íosluchtaigh &brandShorterName;">
+<!ENTITY updateManual.acceptButton.accesskey "o">
+<!ENTITY updateManual.cancelButton.label "Níl Anois">
+<!ENTITY updateManual.cancelButton.accesskey "N">
+<!ENTITY updateManual.panelUI.label "Íosluchtaigh cóip nua de &brandShorterName;">
+
+<!ENTITY updateRestart.message "Tar éis duit &brandShorterName; a atosú, athosclófar na cluaisíní agus fuinneoga atá oscailte agat.">
+<!ENTITY updateRestart.header.message2 "Atosaigh chun &brandShorterName; a nuashonrú">
+<!ENTITY updateRestart.acceptButton.label "Atosaigh agus Athoscail">
+<!ENTITY updateRestart.acceptButton.accesskey "A">
+<!ENTITY updateRestart.cancelButton.label "Níl Anois">
+<!ENTITY updateRestart.cancelButton.accesskey "N">
+<!ENTITY updateRestart.panelUI.label2 "Atosaigh chun &brandShorterName; a nuashonrú">
+
+<!ENTITY pageActionButton.tooltip "Gníomhartha leathanaigh">
+
+<!ENTITY sendToDevice.label "Seol chuig Gléas…">
+<!ENTITY sendToDevice.viewTitle "Seol chuig Gléas">
+<!ENTITY sendToDevice.fxaRequired.label "Riachtanach">
+<!ENTITY sendToDevice.noDevices.label "Níl Aon Ghléasanna Ar Fáil">

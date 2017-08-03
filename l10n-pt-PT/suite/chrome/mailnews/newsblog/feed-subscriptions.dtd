@@ -10,13 +10,22 @@
 <!ENTITY feedTitle.accesskey         "T">
 
 <!ENTITY feedLocation.label          "URL da fonte:">
-<!ENTITY feedLocation.accesskey      "U">
+<!ENTITY feedLocation.accesskey      "f">
 <!ENTITY feedLocation.placeholder    "Introduza um URL para adicionar a fonte">
 <!ENTITY locationValidate.label      "Validar">
 <!ENTITY validateText.label          "Validar e obter um URL válido.">
 
 <!ENTITY feedFolder.label            "Guardar artigos em:">
 <!ENTITY feedFolder.accesskey        "s">
+<!-- Account Settings and Subscription Dialog -->
+
+<!ENTITY biffStart.label             "Procurar novos artigos a cada ">
+<!ENTITY biffStart.accesskey         "r">
+<!ENTITY biffMinutes.label           "minutos">
+<!ENTITY biffMinutes.accesskey       "n">
+<!ENTITY biffDays.label              "dias">
+<!ENTITY biffDays.accesskey          "d">
+<!ENTITY recommendedUnits.label      "O publicador recomenda:">
 
 <!ENTITY quickMode.label             "Mostrar resumo do artigo em vez de carregar a página web">
 <!ENTITY quickMode.accesskey         "M">
@@ -26,6 +35,7 @@
 <!ENTITY autotagUsePrefix.label      "Adicionar um prefixo às etiquetas:">
 <!ENTITY autotagUsePrefix.accesskey  "p">
 <!ENTITY autoTagPrefix.placeholder   "Introduza um prefixo para as etiquetas">
+<!-- Subscription Dialog -->
 
 <!ENTITY button.addFeed.label        "Adicionar">
 <!ENTITY button.addFeed.accesskey    "A">

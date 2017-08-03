@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "سابقات دکھانے کے لیے دایاں کلک کریں یا نیچے کھینچیں">
 <!ENTITY backForwardButtonMenuMac.tooltip "سابقات دکھانے کے لیے نیچے کھینچیں">
 <!ENTITY reloadCmd.label              "پھر لوڈ کریں">
-<!ENTITY reloadButton.tooltip         "حالیہ صفحہ پھر لوڈ کریں">
 <!ENTITY stopCmd.label                "رکیں">
 <!ENTITY stopCmd.macCommandKey        "۔">
-<!ENTITY stopButton.tooltip           "اس صفحہ کو لوڈ کرنا روکیں">
 <!ENTITY goEndCap.tooltip             "محل وقوع بار میں دیے گئے پتے پر جائیں">
 <!ENTITY printButton.label            "چھاپیں">
 <!ENTITY printButton.tooltip          "اس صفحہ کو چھاپیں">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "مہفوظ شدہ پیغام پینل کھولیں">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "پلگ ان کو بندوبست کریں">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "تبدیل کریں کے آپ اس سائٹ سے اطلاع وصول کرنا چاہتے ہے یا نہیں">
+
+
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "کیمرہ اور مائیکروفون کی سائٹ کے ساتھ حصہ داری کو بندوبست کریں">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "مائیکروفون کی سائٹ کہ ساتھ حصہ داری کو بندوبست کریں">
@@ -232,12 +232,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "آپ نے اس ویب سائٹ کے لیئے کوائف کے ذخیرہ کو بلاک کیا ہوا ہے">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "آپ نے اس ویب سائٹ کے لیئے اطلاع کو بلاک کیا ہوا ہے">
 
+
 <!ENTITY urlbar.openHistoryPopup.tooltip                "سابقات دکھائیں">
 
-<!ENTITY urlbar.zoomReset.tooltip     "زوم سطح پھر سیٹ کریں">
-
 <!ENTITY searchItem.title             "تلاش کریں">
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 
 <!ENTITY homeButton.label             "گھر">
 
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "حالیہ سابقات خالی کریں…">
 <!ENTITY appMenuHistory.restoreSession.label "پچھلا سیشن بحال کریں">
 <!ENTITY appMenuHistory.viewSidebar.label "بغلی بار میں سابقات دیکھیں">
+<!ENTITY appMenuHelp.label "مدد">
 <!ENTITY appMenuHelp.tooltip "مدد مینیو کھولیں">
 
 <!ENTITY appMenuRemoteTabs.label "ہمہ وقت ساز ٹیب">
@@ -377,27 +377,43 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "ہمہ وقت ساز ترجیحات">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "ٹیبیں کی فہرست دیکھنے کے لئے اپنے دیگر آلات سے سائن ان کریں۔">
 <!ENTITY appMenuRemoteTabs.signin.label "ہم سازی کے لئے سائن ان کریں">
+<!ENTITY appMenuRemoteTabs.managedevices.label "آلات کو بندوبست کریںبندوبست کریں…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "ہمہ وقت ساز ٹیبس کے بغلی بار کا نظارہ کریں">
 
 <!ENTITY customizeMenu.addToToolbar.label "ٹول بار میں ڈالیں">
 <!ENTITY customizeMenu.addToToolbar.accesskey "ڈ">
 <!ENTITY customizeMenu.addToPanel.label "مینیو میں ڈالیں">
 <!ENTITY customizeMenu.addToPanel.accesskey "م">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+
 <!ENTITY customizeMenu.moveToToolbar.label "ٹول بار میں لائیں">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "ل">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "مینیو میں لائیں">
 <!ENTITY customizeMenu.moveToPanel.accesskey "ل">
+
+
+
+
 <!ENTITY customizeMenu.removeFromToolbar.label "ٹول بار سے ہٹائیں">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "ہ">
 <!ENTITY customizeMenu.removeFromMenu.label "مینیو سے ہٹائیں">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "ہ">
 <!ENTITY customizeMenu.addMoreItems.label "مزید اشیا ڈالیں…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "ڈ">
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+
+<!ENTITY moreMenu.label "مزید">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "تلاش کریں یا پتہ داخل کریں">
@@ -413,7 +429,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.disable.accesskey "n">
 <!ENTITY urlbar.searchSuggestionsNotification.enable "ہاں">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "y">
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "ٹوٹکا:">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "C">
+
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "C">
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -526,6 +550,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "ر">
 <!ENTITY bookmarkThisFrameCmd.label      "یہ فریم نشان زد کریں">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "ن">
+
 <!ENTITY emailPageCmd.label           "ای میل ربط…">
 <!ENTITY emailPageCmd.accesskey       "ا">
 <!ENTITY savePageCmd.label            "صفحہ محفوظ کریں بطور…">
@@ -652,6 +677,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.accesskey             "ز">
 
 <!ENTITY sidebarCloseButton.tooltip     "بغلی بار بند کریں">
+<!ENTITY sidebarMenuClose.label         "بغلی بار بند کریں">
 
 <!ENTITY quitApplicationCmdWin2.label       "خروج">
 <!ENTITY quitApplicationCmdWin2.accesskey   "خ">
@@ -661,8 +687,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "کنارہ کریں"> 
 <!ENTITY quitApplicationCmd.accesskey   "ک">
 <!ENTITY quitApplicationCmdMac2.label   "&brandShorterName; برخاست کریں">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
+<!ENTITY quitApplicationCmd.key         "Q">
 
 <!ENTITY closeCmd.label                 "بند کریں">  
 <!ENTITY closeCmd.key                   "W">  
@@ -706,7 +731,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY spellAddDictionaries.label "لغات اضافہ کریں…">
 <!ENTITY spellAddDictionaries.accesskey "ا">
 
-<!ENTITY editBookmark.done.label                     "ہوگیا">
 <!ENTITY editBookmark.removeBookmark.accessKey       "R">
 
 <!ENTITY identity.connectionSecure "بعید کنکشن">
@@ -714,6 +738,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "یہ صفحہ آپکے کمپیوٹر پر سٹورڈ ہے۔">
 <!ENTITY identity.connectionVerified2 "آپ محفوظ طریقے سے اس سائٹ سے جڑے ہوے ہے، کی ملکیت ہے:">
 <!ENTITY identity.connectionInternal "یہ ایک قابل بھروسا &brandShortName; صفحہ ہے۔">
+
 <!ENTITY identity.insecureLoginForms2 "اس صفحہ پر داخل کردہ لاگ ان اشتباہ کیا جا سکتا ہے۔">
 <!-- Strings for connection state warnings. -->
 
@@ -788,6 +813,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "ک">
 
 
+
+
 <!ENTITY syncBrand.shortName.label    "ہمہ وقت سازی">
 
 <!ENTITY syncSignIn.label             "&syncBrand.shortName.label; میں سائن ان کریں…">
@@ -810,8 +837,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "مزید ٹول چاہتے ہیں؟">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "ہزاروں ایڈ اون سے انتخاب کریں">
 <!ENTITY customizeMode.restoreDefaults "طےشدہ بحال کریں">
-<!ENTITY customizeMode.toolbars "دکھائیں / چھپائیں ٹول باریں">
+
 <!ENTITY customizeMode.titlebar "عنوان بار">
+
 <!ENTITY customizeMode.lwthemes "خیالیات">
 <!ENTITY customizeMode.lwthemes.myThemes "میری تھیم">
 <!ENTITY customizeMode.lwthemes.recommended "تجویز کردہ">
@@ -900,3 +928,32 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "DRM کے بارے میں مزید سیکھیں">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+<!ENTITY updateAvailable.whatsnew.label "نظارہ کریں نیا کیا ہے">
+
+<!ENTITY updateAvailable.acceptButton.label "تازہ کاری ڈاؤن لوڈ کریں">
+<!ENTITY updateAvailable.acceptButton.accesskey "ڈ">
+<!ENTITY updateAvailable.cancelButton.label "ابھی نہیں">
+<!ENTITY updateAvailable.cancelButton.accesskey "ا">
+<!ENTITY updateAvailable.panelUI.label "&brandShorterName;; کی تازہ کاری ڈاؤن لوڈ کریں">
+
+<!ENTITY updateManual.whatsnew.label "نظارہ کریں نیا کیا ہے">
+
+<!ENTITY updateManual.acceptButton.label "brandShorterName; کو Download کریں">
+<!ENTITY updateManual.acceptButton.accesskey "D">
+
+
+
+
+
+
+
+
+
+
+
+
+<!ENTITY sendToDevice.label "آلہ پر ارسال کریں…">
+<!ENTITY sendToDevice.viewTitle "آلہ پر ارسال کریں">
+<!ENTITY sendToDevice.fxaRequired.label "مطلوب">
+<!ENTITY sendToDevice.noDevices.label "کوئِ آلہ دستیاب نہیں ہے">

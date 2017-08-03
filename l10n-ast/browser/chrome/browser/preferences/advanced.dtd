@@ -19,8 +19,6 @@
 <!ENTITY useAutoScroll.accesskey         "d">
 <!ENTITY useSmoothScrolling.label        "Usar desplazamientu sele">
 <!ENTITY useSmoothScrolling.accesskey    "l">
-<!ENTITY allowHWAccel.label              "Usar aceleración de hardware cuando tea disponible">
-<!ENTITY allowHWAccel.accesskey          "h">
 
 <!ENTITY dataChoicesTab.label            "Eleición de datos">
 
@@ -71,19 +69,22 @@
 
 <!ENTITY updateTab.label                 "Anovar">
 
-<!ENTITY updateAuto1.label               "Instalar anovamientos automáticamente (recomendáu: meyora la seguridá)">
-<!ENTITY updateAuto1.accesskey           "I">
-<!ENTITY updateManual.label              "Nun comprobar anovamientos (nun se recomienda: riesgu na seguridá)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
 
-<!ENTITY updateHistory.label             "Amosar historial d'anovamientos">
-<!ENTITY updateHistory.accesskey         "m">
 
 <!ENTITY useService.label                "Usar serviciu en segundu planu pa instalar los anovamientos">
 <!ENTITY useService.accesskey            "v">
 
-<!ENTITY enableSearchUpdate.label        "Guetadores">
-<!ENTITY enableSearchUpdate.accesskey    "G">
+
 
 
 <!ENTITY offlineAppsList2.label          "Los siguientes sitios tienen permisu pa guardar datos pal mou ensin conexón:">
@@ -99,3 +100,6 @@
 <!ENTITY viewCerts.accesskey             "s">
 <!ENTITY viewSecurityDevices.label       "Preseos de seguridá">
 <!ENTITY viewSecurityDevices.accesskey   "o">
+
+<!ENTITY allowHWAccel.label              "Usar aceleración de hardware cuando tea disponible">
+<!ENTITY allowHWAccel.accesskey          "h">

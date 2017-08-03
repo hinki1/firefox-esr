@@ -2,6 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  applications.label       "అనువర్తనాలు">
+<!ENTITY  applications.description "&brandShortName; మీరు వెబ్ నుండి డౌన్లోడ్ చేస్తున్న ఫైళ్ళను లేదా బ్రౌజింగ్ సమయంలో మీరు ఉపయోగించే అనువర్తనాలను ఎలా నిర్వహిస్తుందో ఎంచుకోండి.">
+
 <!ENTITY  typeColumn.label        "విషయాంశ రకం">
 <!ENTITY  typeColumn.accesskey    "T">
 
@@ -11,4 +14,4 @@
 <!ENTITY  focusSearch1.key        "f">
 <!ENTITY  focusSearch2.key        "k">
 
-<!ENTITY  filter.emptytext        "శోధన">
+<!ENTITY  filter2.emptytext        "ఫైలు రకాన్ని లేదా అనువర్తనాలను శోధించండి">

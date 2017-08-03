@@ -51,8 +51,8 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "v">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "aktyvios paskyros">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "a">
-<!ENTITY getNextNMsgCmd.label "Atsiųsti kitus 500 naujienų laiškų">
-<!ENTITY getNextNMsgCmd.accesskey "t">
+
+
 <!ENTITY sendUnsentCmd.label "Išsiųsti laiškus">
 <!ENTITY sendUnsentCmd.accesskey "s">
 <!ENTITY subscribeCmd.label "Prenumeruoti…">
@@ -634,6 +634,9 @@
 
 <!ENTITY folderContextGetMessages.label "Atsiųsti laiškus">
 <!ENTITY folderContextGetMessages.accesskey "l">
+
+
+
 <!ENTITY folderContextOpenInNewWindow.label "Atverti naujame lange">
 <!ENTITY folderContextOpenInNewWindow.accesskey "A">
 <!ENTITY folderContextOpenNewTab.label "Atverti naujoje kortelėje">

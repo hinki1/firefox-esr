@@ -2,6 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY windowTitle "Firefox WebIDE">
 
 
 
@@ -24,8 +25,7 @@
 
 
 
-
-
+<!ENTITY projectMenu_refreshTabs_label "Reîmprospătează filele">
 
 
 
@@ -55,7 +55,6 @@
 <!-- open menu -->
 <!-- reload app -->
 <!-- show toolbox -->
-<!-- toggle sidebar -->
 <!-- zoom -->
 
 
@@ -70,7 +69,7 @@
 
 
 
-
+<!ENTITY runtimePanel_refreshDevices_label "Reîmprospătează dispozitivele">
 <!-- Lense -->
 
 
@@ -89,22 +88,7 @@
 <!-- Prefs -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!ENTITY prefs_restore "Restaurează valorile implicite">
 
 
 
@@ -135,7 +119,7 @@
 
 
 <!-- Monitor -->
-
+<!ENTITY monitor_help "Ajutor">
 <!-- WiFi Authentication -->
 <!-- LOCALIZATION NOTE (wifi_auth_header): The header displayed on the dialog
      that instructs the user to transfer an authentication token to the
@@ -152,7 +136,7 @@
 <!-- Logs panel -->
 <!-- Simulator Options -->
 
-
+<!ENTITY simulator_reset "Restaurează valorile implicite">
 
 
 

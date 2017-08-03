@@ -121,7 +121,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY fullScreenMinimize.tooltip "מזער">
 <!ENTITY fullScreenRestore.tooltip "שחזר">
-<!ENTITY fullScreenClose.tooltip "סגור">
+<!ENTITY fullScreenClose.tooltip "סגירה">
 <!ENTITY fullScreenAutohide.label "הסתרת סרגלים">
 <!ENTITY fullScreenAutohide.accesskey "ה">
 <!ENTITY fullScreenExit.label "צא ממצב מסך מלא">
@@ -153,7 +153,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY pointerlockWarning.afterDomain.label "יש שליטה על הסמן שלך. לחיצה על ESC תחזיר את השליטה אליך.">
 <!ENTITY pointerlockWarning.generic.label "למסמך זה יש שליטה על הסמן שלך. לחיצה על ESC תחזיר את השליטה אליך.">
 
-<!ENTITY closeWindow.label "סגור חלון">
+<!ENTITY closeWindow.label "סגירת חלון">
 <!ENTITY closeWindow.accesskey "ס">
 
 <!ENTITY bookmarksMenu.label "סימניות">
@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "לחיצה ימנית או משיכה מטה כדי להציג היסטוריה">
 <!ENTITY backForwardButtonMenuMac.tooltip "משיכה מטה כדי להציג היסטוריה">
 <!ENTITY reloadCmd.label              "טעינה מחדש">
-<!ENTITY reloadButton.tooltip         "טעינה מחדש של דף נוכחי">
 <!ENTITY stopCmd.label                "עצירה">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "הפסקת טעינת דף זה">
 <!ENTITY goEndCap.tooltip             "מעבר לכתובת שבסרגל המיקום">
 <!ENTITY printButton.label            "הדפסה">
 <!ENTITY printButton.tooltip          "הדפסת דף זה">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "פתיחת חלונית הודעת שמירת ססמה">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "ניהול שימוש בתוספים חיצוניים">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "החלפת מצב קבלת התרעות מהאתר">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "שמירת נתונים באחסון קבוע">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "הדפדפן נשלט מרחוק">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "ניהול שיתוף המצלמה ו/או המיקרופון שלך עם האתר">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "ניהול שיתוף המיקרופון שלך עם האתר">
@@ -231,14 +231,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "חסמת מפני האתר הזה לגשת לנתוני המיקום שלך.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "האפשרות לאחסן נתונים נחסמה מפני אתר זה.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "האפשרות להציג הודעות נחסמה מפני אתר זה.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "חסמת את האתר הזה משמירת נתונים קבועים.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "הצגת היסטוריה">
 
-<!ENTITY urlbar.zoomReset.tooltip     "איפוס רמת התקריב">
-
 <!ENTITY searchItem.title             "חיפוש">
 
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 <!ENTITY homeButton.label             "דף הבית">
 
 <!ENTITY bookmarksButton.label          "סימניות">
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "מחיקת היסטוריה אחרונה…">
 <!ENTITY appMenuHistory.restoreSession.label "שחזור הפעלה קודמת">
 <!ENTITY appMenuHistory.viewSidebar.label "הצגת סרגל הצד היסטוריה">
+<!ENTITY appMenuHelp.label "עזרה">
 <!ENTITY appMenuHelp.tooltip "פתיחת תפריט העזרה">
 
 <!ENTITY appMenuRemoteTabs.label "לשוניות מסונכרנות">
@@ -377,27 +377,44 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "העדפות Sync">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "יש להיכנס כדי לצפות ברשימת הלשוניות שלך מהתקנים אחרים.">
 <!ENTITY appMenuRemoteTabs.signin.label "התחברות אל Sync">
+<!ENTITY appMenuRemoteTabs.managedevices.label "ניהול התקנים…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "הצגת סרגל צד של לשוניות מסונכרנות">
 
 <!ENTITY customizeMenu.addToToolbar.label "הוספה לסרגל כלים">
 <!ENTITY customizeMenu.addToToolbar.accesskey "ר">
 <!ENTITY customizeMenu.addToPanel.label "הוספה לתפריט">
 <!ENTITY customizeMenu.addToPanel.accesskey "ת">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "הוספה לתפריט הצף">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "ס">
 <!ENTITY customizeMenu.moveToToolbar.label "העברה לסרגל כלים">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "ס">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "העברה לתפריט">
 <!ENTITY customizeMenu.moveToPanel.accesskey "ע">
-<!ENTITY customizeMenu.removeFromToolbar.label "הסרה מסרגל כלים">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "הצמדה לתפריט הצף">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "צ">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "הסרת הצמדה מהתפריט הצף">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "מ">
+<!ENTITY customizeMenu.removeFromToolbar.label "הסרה מסרגל הכלים">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "ר">
 <!ENTITY customizeMenu.removeFromMenu.label "הסרה מתפריט">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "ר">
 <!ENTITY customizeMenu.addMoreItems.label "הוספת פריטים נוספים…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "נ">
+
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+<!ENTITY moreMenu.label "עוד">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "חפש או הכנס כתובת">
@@ -414,7 +431,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.enable "כן">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "כ">
 
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "עצה:">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "קבלו עזרה במציאת הדברים החשובים לכם! חפשו את הסמל &#x1F50E; שליד תוצאות החיפוש.">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "שינוי אפשרויות…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "ע">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "שינוי העדפות…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "כ">
+
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -526,6 +552,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "ק">
 <!ENTITY bookmarkThisFrameCmd.label      "יצירת סימנייה למסגרת זו">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "מ">
+<!ENTITY copyURLCmd.label             "העתקת כתובת">
 <!ENTITY emailPageCmd.label           "שליחת קישור בדוא״ל…">
 <!ENTITY emailPageCmd.accesskey       "ד">
 <!ENTITY savePageCmd.label            "שמירת דף בשם…">
@@ -650,7 +677,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.label                 "מרחק מתצוגה">
 <!ENTITY fullZoom.accesskey             "ת">
 
-<!ENTITY sidebarCloseButton.tooltip     "סגור את סרגל הצד">
+<!ENTITY sidebarCloseButton.tooltip     "סגירת סרגל הצד">
+<!ENTITY sidebarMenuClose.label         "סגירת סרגל הצד">
 
 <!ENTITY quitApplicationCmdWin2.label       "יציאה">
 <!ENTITY quitApplicationCmdWin2.accesskey   "צ">
@@ -660,10 +688,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "יציאה"> 
 <!ENTITY quitApplicationCmd.accesskey   "צ">
 <!ENTITY quitApplicationCmdMac2.label   "יציאה מ־&brandShorterName;">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
+<!ENTITY quitApplicationCmd.key         "Q">
 
-<!ENTITY closeCmd.label                 "סגור">  
+<!ENTITY closeCmd.label                 "סגירה">  
 <!ENTITY closeCmd.key                   "W">  
 <!ENTITY closeCmd.accesskey             "ג">
 
@@ -713,6 +740,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "העמוד הזה מאוחסן במחשב שלך.">
 <!ENTITY identity.connectionVerified2 "התחברת לאתר זה באופן מאובטח, בבעלות:">
 <!ENTITY identity.connectionInternal "דף זה הנו דף מאובטח של &brandShortName;.">
+<!ENTITY identity.extensionPage "עמוד זה נטען מתוך הרחבה.">
 <!ENTITY identity.insecureLoginForms2 "פרטי ההתחברות המוזנים בעמוד זה עשויים להיות חשופים בפני גורמי צד שלישי.">
 
 <!-- Strings for connection state warnings. -->
@@ -785,6 +813,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "פתיחת הכל בלשוניות">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "פ">
+<!ENTITY syncedTabs.context.managedevices.label              "ניהול התקנים…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "נ">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">
@@ -809,8 +839,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "מעוניינים בכלים נוספים?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "לבחור מאלפי תוספות">
 <!ENTITY customizeMode.restoreDefaults "שחזור לבררות מחדל">
-<!ENTITY customizeMode.toolbars "הצגה והסתרה של סרגלי כלים">
+<!ENTITY customizeMode.done "סיום">
 <!ENTITY customizeMode.titlebar "שורת כותרת">
+<!ENTITY customizeMode.toolbars2 "סרגלי כלים">
 <!ENTITY customizeMode.lwthemes "ערכות נושא">
 <!ENTITY customizeMode.lwthemes.myThemes "ערכות הנושא שלי">
 <!ENTITY customizeMode.lwthemes.recommended "מומלצים">
@@ -899,3 +930,36 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "מידע נוסף על ניהול זכויות דיגיטלי…">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "ז">
+
+<!ENTITY updateAvailable.message "נא לעדכן את &brandShorterName; כדי ליהנות משיפורי מהירות ופרטיות.">
+<!ENTITY updateAvailable.whatsnew.label "מידע נוסף על החידושים בגרסה זו.">
+<!ENTITY updateAvailable.header.message "זמין עדכון חדש של &brandShorterName;.">
+<!ENTITY updateAvailable.acceptButton.label "הורדת עדכון">
+<!ENTITY updateAvailable.acceptButton.accesskey "ה">
+<!ENTITY updateAvailable.cancelButton.label "לא כעת">
+<!ENTITY updateAvailable.cancelButton.accesskey "ל">
+<!ENTITY updateAvailable.panelUI.label "הורדת עדכון &brandShorterName;">
+
+<!ENTITY updateManual.message "נא להוריד עותק חדש של &brandShorterName; ואנו נסייע לך בהתקנה.">
+<!ENTITY updateManual.whatsnew.label "מידע נוסף על החידושים בגרסה זו.">
+<!ENTITY updateManual.header.message "לא ניתן לעדכן את &brandShorterName; לגרסה החדשה.">
+<!ENTITY updateManual.acceptButton.label "הורדת &brandShorterName;">
+<!ENTITY updateManual.acceptButton.accesskey "ה">
+<!ENTITY updateManual.cancelButton.label "לא כעת">
+<!ENTITY updateManual.cancelButton.accesskey "ל">
+<!ENTITY updateManual.panelUI.label "הורדת עותק חדש של &brandShorterName;">
+
+<!ENTITY updateRestart.message "לאחר הפעלה מחדש, &brandShorterName; ישחזר את כל הלשוניות והחלונות הפתוחים שלך.">
+<!ENTITY updateRestart.header.message2 "יש להפעיל מחדש כדי לעדכן את &brandShorterName;.">
+<!ENTITY updateRestart.acceptButton.label "הפעלה מחדש ושחזור">
+<!ENTITY updateRestart.acceptButton.accesskey "פ">
+<!ENTITY updateRestart.cancelButton.label "לא כעת">
+<!ENTITY updateRestart.cancelButton.accesskey "ל">
+<!ENTITY updateRestart.panelUI.label2 "הפעלה מחדש לעדכון &brandShorterName;">
+
+<!ENTITY pageActionButton.tooltip "פעולות דף">
+
+<!ENTITY sendToDevice.label "שליחה להתקן…">
+<!ENTITY sendToDevice.viewTitle "שליחה להתקן">
+<!ENTITY sendToDevice.fxaRequired.label "נדרש">
+<!ENTITY sendToDevice.noDevices.label "אין התקנים זמינים">

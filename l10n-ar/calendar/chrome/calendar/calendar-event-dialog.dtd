@@ -102,8 +102,8 @@
 <!ENTITY  event.menu.edit.undo.accesskey                  "ت">
 <!ENTITY  event.menu.edit.redo.label                      "كرّر">
 <!ENTITY  event.menu.edit.redo.accesskey                  "ك">
-<!ENTITY  event.menu.edit.cut.label                       "قص">
-<!ENTITY  event.menu.edit.cut.accesskey                   "ص">
+<!ENTITY  event.menu.edit.cut.label                       "قصّ">
+<!ENTITY  event.menu.edit.cut.accesskey                   "ق">
 <!ENTITY  event.menu.edit.copy.label                      "انسخ">
 <!ENTITY  event.menu.edit.copy.accesskey                  "ن">
 <!ENTITY  event.menu.edit.paste.label                     "ألصق">
@@ -205,7 +205,7 @@
 <!ENTITY event.categories.textbox.label                   "أضف فئة جديدة" >
 <!ENTITY event.calendar.label                             "التقويم:" >
 <!ENTITY event.calendar.accesskey                         "ت">
-<!ENTITY event.attendees.label                            "الحضور" >
+<!ENTITY event.attendees.label                            "الحضور:" >
 <!ENTITY event.attendees.accesskey                        "ض">
 <!ENTITY event.alldayevent.label                          "حدث طوال اليوم" >
 <!ENTITY event.alldayevent.accesskey                      "ط">
@@ -214,7 +214,7 @@
 <!ENTITY task.from.label                                  "البداية:" >
 <!ENTITY task.from.accesskey                              "د">
 <!ENTITY event.to.label                                   "النهاية:" >
-<!ENTITY event.to.accesskey                               "ت">
+<!ENTITY event.to.accesskey                               "ن">
 <!ENTITY task.to.label                                    "تاريخ الاستحقاق:" >
 <!ENTITY task.to.accesskey                                "ق">
 <!ENTITY task.status.label                                "الحالة:" >

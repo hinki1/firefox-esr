@@ -74,7 +74,7 @@
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableChrome.label5    "Aktivigi la sencimigan ilujon por la retumila chrome kaj por la aldonaĵoj">
-<!ENTITY options.enableChrome.tooltip3  "Ŝalto de tiu ĉi elekteblo permesos al vi uzi plurajn ilojn por programistoj en la kunteksto de la retumilo (Iloj > Teksaĵaj programistoj > Retumila ilujo) kaj uzi sencimigajn aldonaĵojn el la administro de aldonaĵoj">
+<!ENTITY options.enableChrome.tooltip3  "Ŝalto de tiu ĉi elekteblo permesos al vi uzi plurajn ilojn por programistoj en la kunteksto de la retumilo (Iloj > Teksaĵa programistoj > Retumila ilujo) kaj uzi sencimigajn aldonaĵojn el la administro de aldonaĵoj">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled

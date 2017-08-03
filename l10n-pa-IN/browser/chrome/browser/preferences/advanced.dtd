@@ -10,6 +10,10 @@
 
 <!ENTITY useCursorNavigation.label       "ਪੇਜ਼ ਵਿੱਚ ਨੇਵੀਗੇਸ਼ਨ ਦੌਰਾਨ ਹਮੇਸ਼ਾਂ ਕਰਸਰ ਸਵਿੱਚਾਂ ਵੇਖੋ">
 <!ENTITY useCursorNavigation.accesskey   "c">
+<!ENTITY searchOnStartTyping.label       "Search for text when you start typing">
+<!ENTITY searchOnStartTyping.accesskey   "x">
+<!ENTITY blockAutoReload.label           "Warn you when websites try to redirect or reload the page">
+<!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "ਜਦੋਂ ਲੋੜ ਹੋਵੇ ਤਾਂ ਟੱਚ ਕੀਬੋਰਡ ਨੂੰ ਵੇਖਾਓ">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
@@ -19,8 +23,8 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "ਸਮੂਥ ਸਕਰੋਲਿੰਗ ਨੂੰ ਵਰਤੋਂ">
 <!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY allowHWAccel.label              "ਜਦੋਂ ਵੀ ਉਪਲੱਬਧ ਹੋਵੇ ਹਾਰਡਵੇਅਰ ਐਕਸਰਲੇਸ਼ਨ ਵਰਤੋਂ">
-<!ENTITY allowHWAccel.accesskey          "h">
+<!ENTITY checkUserSpelling.label         "Check your spelling as you type">
+<!ENTITY checkUserSpelling.accesskey     "t">
 
 <!ENTITY dataChoicesTab.label            "ਡਾਟਾ ਚੋਣਾਂ">
 
@@ -52,6 +56,12 @@
 <!ENTITY offlineStorage2.label           "ਆਫਲਾਈਨ ਵੈੱਬ ਸਮੱਗਰੀ ਅਤੇ ਯੂਜ਼ਰ ਡਾਟਾ">
 
 <!--  Site Data section manages sites using Storage API and is under Network -->
+<!ENTITY siteData.label                  "Site Data">
+<!ENTITY clearSiteData.label             "Clear All Data">
+<!ENTITY clearSiteData.accesskey         "l">
+<!ENTITY siteDataSettings.label          "Settings…">
+<!ENTITY siteDataSettings.accesskey      "i">
+<!ENTITY siteDataLearnMoreLink.label     "Learn more">
 
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
@@ -71,20 +81,28 @@
 
 <!ENTITY updateTab.label                 "ਅੱਪਡੇਟ">
 
-<!ENTITY updateAuto1.label               "ਅੱਪਡੇਟ ਨੂੰ ਆਪਣੇ-ਆਪ ਹੀ ਇੰਸਟਾਲ ਕਰੋ (ਸਿਫਾਰਸ਼ੀ: ਸੁਰੱਖਿਆ ਸੁਧਾਰਾਂ ਲਈ)">
-<!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateManual.label              "ਅੱਪਡੇਟ ਲਈ ਕਦੇ ਜਾਂਚ ਨਾ ਕਰੋ (ਸਿਫਾਰਸ਼ ਨਹੀਂ ਕੀਤੀ ਜਾਂਦੀ: ਸੁਰੱਖਿਆ ਲਈ ਖਤਰਾ)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
+<!ENTITY updateApplication.label         "&brandShortName; ਅੱਪਡੇਟ">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
 
-<!ENTITY updateHistory.label             "ਅੱਪਡੇਟ ਅਤੀਤ ਨੂੰ ਵੇਖੋ">
-<!ENTITY updateHistory.accesskey         "p">
 
 <!ENTITY useService.label                "ਅੱਪਡੇਟ ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਬੈਕਗਰਾਊਂਡ ਸਰਵਿਸ ਵਰਤੋਂ">
 <!ENTITY useService.accesskey            "b">
 
-<!ENTITY enableSearchUpdate.label        "ਖੋਜ ਇੰਜਣ">
-<!ENTITY enableSearchUpdate.accesskey    "E">
 
+
+<!ENTITY offlineStorageNotify.label               "Tell you when a website asks to store data for offline use">
+<!ENTITY offlineStorageNotify.accesskey           "T">
+<!ENTITY offlineStorageNotifyExceptions.label     "Exceptions…">
+<!ENTITY offlineStorageNotifyExceptions.accesskey "x">
 
 <!ENTITY offlineAppsList2.label          "ਅੱਗੇ ਦਿੱਤੀਆਂ ਵੈੱਬਸਾਈਟਾਂ ਨੂੰ ਆਫਲਾਈਨ ਵਰਤੋਂ ਲਈ ਡਾਟਾ ਸਟੋਰ ਕਰਨ ਦੀ ਮਨਜ਼ੂਰੀ ਹੈ:">
 <!ENTITY offlineAppsList.height          "7em">
@@ -93,9 +111,16 @@
 <!ENTITY offlineAppRemove.confirm        "ਆਫਲਾਈਨ ਡਾਟੇ ਨੂੰ ਹਟਾਓ">
 
 <!ENTITY certificateTab.label            "ਸਰਟੀਫਿਕੇਟ">
+<!ENTITY selectCerts.auto                "Select one automatically">
+<!ENTITY selectCerts.auto.accesskey      "S">
+<!ENTITY selectCerts.ask                 "Ask you every time">
+<!ENTITY selectCerts.ask.accesskey       "A">
 <!ENTITY enableOCSP.label                " ਕਿਊਰੀ OCSP ਜਵਾਬ-ਦੇਣ ਵਾਲੇ ਸਰਵਰਾਂ ਨੂੰ ਸਰਟੀਫਿਕੇਟਾਂ ਦੀ ਮੌਜੂਦਾ ਵੈਧਤਾ ਦੀ ਪਸ਼ਟੀ ਕਰਨ">
 <!ENTITY enableOCSP.accesskey            "Q">
 <!ENTITY viewCerts.label                 "ਸਰਟੀਫਿਕੇਟ ਨੂੰ ਵੇਖੋ">
 <!ENTITY viewCerts.accesskey             "s">
 <!ENTITY viewSecurityDevices.label       "ਸਕਿਉਰ ਡਿਵਾਇਸ">
 <!ENTITY viewSecurityDevices.accesskey   "y">
+
+<!ENTITY allowHWAccel.label              "ਜਦੋਂ ਵੀ ਉਪਲੱਬਧ ਹੋਵੇ ਹਾਰਡਵੇਅਰ ਐਕਸਰਲੇਸ਼ਨ ਵਰਤੋਂ">
+<!ENTITY allowHWAccel.accesskey          "h">

@@ -8,7 +8,8 @@
 <!ENTITY  actionColumn2.label         "Әрекет">
 <!ENTITY  actionColumn2.accesskey     "е">
 
-
+<!ENTITY  focusSearch1.key            "f">
+<!ENTITY  focusSearch2.key            "k">
 
 <!ENTITY  filter.placeholder          "Іздеу">
 
@@ -16,9 +17,9 @@
 <!ENTITY saveTo.accesskey             "с">
 <!ENTITY alwaysAsk.label              "Файлдар сақталатын жері туралы әрқашан мені сұрау">
 <!ENTITY alwaysAsk.accesskey          "ж">
-<!ENTITY chooseFolderWin.label        "Қарап шығу...">
+<!ENTITY chooseFolderWin.label        "Қарап шығу…">
 <!ENTITY chooseFolderWin.accesskey    "ш">
-<!ENTITY chooseFolderMac.label        "Таңдау...">
+<!ENTITY chooseFolderMac.label        "Таңдау…">
 <!ENTITY chooseFolderMac.accesskey    "Т">
 
 <!ENTITY attachments.incoming.label   "Кіріс">
@@ -33,5 +34,5 @@
 <!ENTITY authRequired.button.label        "Авторизация беру">
 <!ENTITY authRequired.button.accesskey    "в">
 
-<!ENTITY enableCloudFileAccountOffer.label "Келесіден үлкен файлдарды сақтауды ұсыну:">
+<!ENTITY enableCloudFileAccountOffer.label "Келесіден үлкен файлдарды бөлісуді ұсыну">
 <!ENTITY enableCloudFileAccountOffer.mb "МБ">

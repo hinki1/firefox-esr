@@ -41,9 +41,11 @@
   -  in the toolbar on buttons that select which view is currently shown. -->
 <!ENTITY performanceUI.toolbar.waterfall "Καταρράκτης">
 <!ENTITY performanceUI.toolbar.js-calltree "Δέντρο κλήσεων">
+<!ENTITY performanceUI.toolbar.js-calltree.tooltiptext "Επισημαίνει τις λειτουργίες JavaScript όπου το πρόγραμμα περιήγησης πέρασε τον περισσότερο χρόνο κατά τη διάρκεια της εγγραφής.">
 <!ENTITY performanceUI.toolbar.memory-calltree "Καταμερισμοί">
 <!ENTITY performanceUI.toolbar.allocations.tooltiptext "Εμφανίζει πως η μνήμη ήταν καταμερισμένη κατά την εγγραφή.">
 <!ENTITY performanceUI.toolbar.js-flamegraph "Γράφημα Φωτιάς JS">
+<!ENTITY performanceUI.toolbar.js-flamegraph.tooltiptext "Εμφανίζει τη στοίβα κλήσεων JavaScript από όλη τη διάρκεια της εγγραφής.">
 
 <!-- LOCALIZATION NOTE (performanceUI.table.*): These strings are displayed
   -  in the call tree headers for a recording. -->
@@ -62,6 +64,7 @@
 
 <!-- LOCALIZATION NOTE (performanceUI.options.filter.tooltiptext): This string
   -  is displayed next to the filter button-->
+<!ENTITY performanceUI.options.filter.tooltiptext "Επιλέξτε ποια δεδομένα θα εμφανίζονται στο χρονοδιάγραμμα">
 
 <!-- LOCALIZATION NOTE (performanceUI.options.gear.tooltiptext): This is the
   -  tooltip for the options button. -->
@@ -91,15 +94,19 @@
   -  is displayed next to a checkbox determining whether or not memory
   -  measurements are enabled. -->
 <!ENTITY performanceUI.enableMemory             "Εγγραφή μνήμης">
+<!ENTITY performanceUI.enableMemory.tooltiptext "Εγγραφή κατανάλωσης μνήμης κατά τη δημιουργία προφίλ.">
 
 <!-- LOCALIZATION NOTE (performanceUI.enableAllocations): This string
   -  is displayed next to a checkbox determining whether or not allocation
   -  measurements are enabled. -->
 <!ENTITY performanceUI.enableAllocations             "Εγγραφή εκχωρήσεων">
+<!ENTITY performanceUI.enableAllocations.tooltiptext "Εγγραφή εκχωρήσεων αντικειμένων κατά τη δημιουργία προφίλ.">
 
 <!-- LOCALIZATION NOTE (performanceUI.enableFramerate): This string
   -  is displayed next to a checkbox determining whether or not framerate
   -  is recorded. -->
+<!ENTITY performanceUI.enableFramerate             "Εγγραφή ρυθμού καρέ">
+<!ENTITY performanceUI.enableFramerate.tooltiptext "Εγγραφή ρυθμού καρέ κατά τη δημιουργία προφίλ.">
 
 <!-- LOCALIZATION NOTE (performanceUI.console.recordingNoticeStart/recordingNoticeEnd):
   -  This string is displayed when a recording is selected that started via console.profile.

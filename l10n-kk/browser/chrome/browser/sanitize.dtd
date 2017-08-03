@@ -28,22 +28,20 @@
 
 <!ENTITY clearTimeDuration.label          "Жойылатын деректер мерзімі: ">
 <!ENTITY clearTimeDuration.accesskey      "Ж">
-<!ENTITY clearTimeDuration.lastHour       "соңғы сағат тарихын">
-<!ENTITY clearTimeDuration.last2Hours     "соңғы 2 сағат тарихын">
-<!ENTITY clearTimeDuration.last4Hours     "соңғы 4 сағат тарихын">
+<!ENTITY clearTimeDuration.lastHour       "Соңғы сағат">
+<!ENTITY clearTimeDuration.last2Hours     "Соңғы 2 сағат">
+<!ENTITY clearTimeDuration.last4Hours     "Соңғы 4 сағат">
 <!ENTITY clearTimeDuration.today          "бүгінгі тарихымды">
-<!ENTITY clearTimeDuration.everything     "бүкіл тарихымды">
+<!ENTITY clearTimeDuration.everything     "Барлығы">
 <!-- Localization note (clearTimeDuration.suffix) - trailing entity for languages
 that require it.  -->
 <!ENTITY clearTimeDuration.suffix         "">
-<!ENTITY clearTimeDuration.dateColumn     "Қарап шығу күні">
-<!ENTITY clearTimeDuration.nameColumn     "Аты">
 <!-- LOCALIZATION NOTE (detailsProgressiveDisclosure.*): Labels and accesskeys
      of the "Details" progressive disclosure button.  See UI mockup at bug
      480169 -->
 
-<!ENTITY detailsProgressiveDisclosure.label     "Егжей-тегжейі">
-<!ENTITY detailsProgressiveDisclosure.accesskey "ж">
+<!ENTITY detailsProgressiveDisclosure.label     "Ақпараты">
+<!ENTITY detailsProgressiveDisclosure.accesskey "п">
 
 <!ENTITY historySection.label         "Тарихы">
 <!ENTITY dataSection.label            "Мәліметтер">

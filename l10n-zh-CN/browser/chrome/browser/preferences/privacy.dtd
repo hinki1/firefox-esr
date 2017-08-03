@@ -2,7 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "使用跟踪保护">
+<!ENTITY  trackingProtectionHeader2.label      "跟踪保护">
+<!ENTITY  trackingProtection.description       "某些公司会收集您的信息，用来建立您的个人档案，并根据收集到的网上行为和个人数据来向您展示内容。">
+<!ENTITY  trackingProtection.radioGroupLabel   "阻止已知的网络跟踪公司向您展示内容">
 <!ENTITY  trackingProtectionAlways.label       "始终">
 <!ENTITY  trackingProtectionAlways.accesskey   "y">
 <!ENTITY  trackingProtectionPrivate.label      "只在隐私浏览窗口中">
@@ -13,7 +15,7 @@
 <!ENTITY  trackingProtectionExceptions.label   "例外…">
 <!ENTITY  trackingProtectionExceptions.accesskey "x">
 
-<!ENTITY tracking.label                 "跟踪防护">
+<!ENTITY tracking.label                 "跟踪">
 <!ENTITY trackingProtectionPBM5.label         "在隐私浏览窗口中使用跟踪保护">
 <!ENTITY trackingProtectionPBM5.accesskey     "v">
 <!ENTITY trackingProtectionPBMLearnMore.label "详细了解">
@@ -30,7 +32,7 @@
 
 <!ENTITY  locationBar.label             "地址栏">
 
-<!ENTITY  locbar.suggest.label          "使用地址栏时，向我建议：">
+<!ENTITY  locbar.suggest2.label         "当使用地址栏时，为我提供来自以下位置的建议">
 <!ENTITY  locbar.history.label          "历史记录">
 <!ENTITY  locbar.history.accesskey      "H">
 <!ENTITY  locbar.bookmarks.label        "书签">
@@ -40,8 +42,7 @@
 <!ENTITY  locbar.searches.label         "默认搜索引擎提供的相关搜索">
 <!ENTITY  locbar.searches.accesskey     "d">
 
-<!ENTITY  suggestionSettings.label      "更改搜索引擎建议的首选项…">
-<!ENTITY  suggestionSettings.accesskey  "g">
+<!ENTITY  suggestionSettings2.label     "更改搜索引擎建议的首选项">
 
 <!ENTITY  acceptCookies.label           "接受来自站点的 Cookie">
 <!ENTITY  acceptCookies.accesskey       "A">
@@ -50,7 +51,7 @@
 <!ENTITY  acceptThirdParty.pre.accesskey  "C">
 <!ENTITY  acceptThirdParty.always.label   "总是">
 <!ENTITY  acceptThirdParty.never.label    "总不">
-<!ENTITY  acceptThirdParty.visited.label  "来自访问过的域">
+<!ENTITY  acceptThirdParty.visited.label  "来自访问过的网站">
 
 <!ENTITY  keepUntil.label               "保存，直到：">
 <!ENTITY  keepUntil.accesskey           "u">
@@ -64,14 +65,14 @@
 <!ENTITY  showCookies.label             "显示 Cookie…">
 <!ENTITY  showCookies.accesskey         "S">
 
-<!ENTITY  historyHeader.pre.label          "&brandShortName; 将会：">
-<!ENTITY  historyHeader.pre.accesskey      "w">
+<!ENTITY  historyHeader2.pre.label         "&brandShortName; 将">
+<!ENTITY  historyHeader2.pre.accesskey     "w">
 <!ENTITY  historyHeader.remember.label     "记录历史">
 <!ENTITY  historyHeader.dontremember.label "不记录历史">
 <!ENTITY  historyHeader.custom.label       "使用自定义设置">
 <!ENTITY  historyHeader.post.label         "">
 
-<!ENTITY  rememberDescription.label      "&brandShortName; 将会记录您的浏览、下载、表单和搜索历史，和保留来自您访问的网站的 Cookie。">
+<!ENTITY  rememberDescription.label      "&brandShortName; 将会记录您的浏览、下载、表单和搜索历史，并保留您已访问网站的 Cookie。">
 
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
@@ -79,15 +80,15 @@
 <!ENTITY  rememberActions.pre.label           "您也许想">
 <!ENTITY  rememberActions.clearHistory.label  "清空近期历史记录">
 <!ENTITY  rememberActions.middle.label        "，或者">
-<!ENTITY  rememberActions.removeCookies.label "移除单个 Cookie">
+<!ENTITY  rememberActions.removeCookies.label "移除特定网站的 Cookie">
 <!ENTITY  rememberActions.post.label          "。">
 
 <!ENTITY  dontrememberDescription.label  "&brandShortName; 将采用与“隐私浏览模式”相同的设置，不会记录您浏览网络的历史。">
 
 <!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
-<!ENTITY  dontrememberActions.pre.label          "您也可能是想">
-<!ENTITY  dontrememberActions.clearHistory.label "清除当前的所有历史记录">
+<!ENTITY  dontrememberActions.pre.label          "您也许想">
+<!ENTITY  dontrememberActions.clearHistory.label "清除现存的所有历史记录">
 <!ENTITY  dontrememberActions.post.label         "。">
 
 <!ENTITY  privateBrowsingPermanent2.label "始终使用隐私浏览模式">

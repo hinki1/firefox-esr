@@ -1,22 +1,25 @@
 <!ENTITY aboutDialog.title          "عنْ &brandFullName;">
+<!-- LOCALIZATION NOTE (update.*):
+# These strings are also used in the update pane of preferences.
+# See about:preferences#advanced.
+-->
 <!-- LOCALIZATION NOTE (update.checkForUpdatesButton.*, update.updateButton.*):
 # Only one button is present at a time.
 # The button when displayed is located directly under the Thunderbird version in
 # the about dialog.
 -->
 
-
 <!ENTITY update.checkForUpdatesButton.label       "التمس التحديثات">
 <!ENTITY update.checkForUpdatesButton.accesskey   "ت">
-<!ENTITY update.updateButton.label2               "أعِد تشغيل &brandShortName; لتحديثه">
+<!ENTITY update.updateButton.label3               "أعد التشغيل لتحديث &brandShorterName;">
 <!ENTITY update.updateButton.accesskey            "ش">
-<!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
+<!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly builds. It is only shown in this version. -->
 
 
-<!ENTITY warningDesc.version        "&brandShortName; تجريبي وقد لا يكون مستقرا.">
-<!-- LOCALIZATION NOTE (warningDesc.telemetryDesc): This is a notification that Nightly/Aurora builds automatically send Telemetry data back to Mozilla. It is only shown in those versions. "It" refers to brandShortName. -->
+<!ENTITY warningDesc.version        "&brandShortName; تجريبي و قد لا يكون مستقرا.">
+<!-- LOCALIZATION NOTE (warningDesc.telemetryDesc): This is a notification that Nightly builds automatically send Telemetry data back to Mozilla. It is only shown in this version. "It" refers to brandShortName. -->
 <!ENTITY warningDesc.telemetryDesc  "يُرسل تلقائيا معلومات عن الأداء والعتاد والاستخدام والتخصيصات إلى &vendorShortName; للمساعدة على تحسين &brandShortName;.">
-<!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
+<!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly builds, instead of the other "community.*" strings below. -->
 
 <!ENTITY community.exp.start        "​">
 <!-- LOCALIZATION NOTE (community.exp.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
@@ -24,7 +27,7 @@
 <!ENTITY community.exp.middle       " هي ">
 <!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
 <!ENTITY community.exp.creditsLink  "مجتمع عالمي">
-<!ENTITY community.exp.end          " يعمل للمحافظة على انفتاح الوب وعموميتها وإتاحتها للجميع.">
+<!ENTITY community.exp.end          " يعمل للمحافظة على انفتاح الوب و عموميتها و إتاحتها للجميع.">
 
 <!ENTITY community.start2           "صمّمَ &brandShortName; ">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
@@ -32,7 +35,7 @@
 <!ENTITY community.middle2          "، ">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.creditsLink      "مجتمع عالمي">
-<!ENTITY community.end3             " يعمل للمحافظة على انفتاح الوب وعموميتها وإتاحتها للجميع.">
+<!ENTITY community.end3             " يعمل للمحافظة على انفتاح الوب و عموميتها و إتاحتها للجميع.">
 
 <!ENTITY helpus.start               "أتريد المساعدة؟ ">
 <!-- LOCALIZATION NOTE (helpus.donateLink): This is a link title that links to the thunderbird donation page -->
@@ -88,13 +91,13 @@
 <!ENTITY update.unsupported.start    "لا يمكنك إجراء أي تحديثات أخرى على هذا النظام. ">
 <!ENTITY update.unsupported.linkText "اطّلع على المزيد">
 <!ENTITY update.unsupported.end      "​">
-<!-- LOCALIZATION NOTE (update.downloading.start,update.downloading.end): update.downloading.start and 
+<!-- LOCALIZATION NOTE (update.downloading.start,update.downloading.end): update.downloading.start and
      update.downloading.end all go into one line, with the amount downloaded inserted in between. As this
      is all in one line, try to make the localized text short (see bug 596813 for screenshots). The — is
      the "em dash" (long dash).
      example: Downloading update — 111 KB of 13 MB -->
 
-<!ENTITY update.downloading.start   "ينزّل التحديث - ">
+<!ENTITY update.downloading.start   "ينزل التحديث — ">
 <!ENTITY update.downloading.end     "​">
 
 <!ENTITY update.applying            "يطبّق التحديث…">
@@ -103,6 +106,6 @@
      example: You are currently on the _Stable_ update channel. -->
 
 <!ENTITY channel.description.start  "أنت حاليًا على قناة تحديث ">
-<!ENTITY channel.description.end    ".">
+<!ENTITY channel.description.end    ". ">
 
 <!ENTITY cmdCloseMac.commandKey "w">

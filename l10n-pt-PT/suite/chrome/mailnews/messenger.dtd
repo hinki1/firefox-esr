@@ -49,14 +49,14 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "T">
 <!ENTITY getAllNewMsgCmd.label "Obter todas as novas mensagens">
 <!ENTITY getAllNewMsgCmd2.key "d">
-<!ENTITY getNextNMsgCmd.label "Obter as próximas 500 mensagens">
+<!ENTITY getNextNMsgCmd.label "Obter as próximas 500 mensagens de notícias">
 <!ENTITY getNextNMsgCmd.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Enviar mensagens não enviadas">
 <!ENTITY sendUnsentCmd.accesskey "d">
 <!ENTITY subscribeCmd.label "Subscrever...">
 <!ENTITY subscribeCmd.accesskey "b">
-<!ENTITY renameFolder.label "Mudar nome da pasta…">
-<!ENTITY renameFolder.accesskey "M">
+<!ENTITY renameFolder.label "Renomear pasta…">
+<!ENTITY renameFolder.accesskey "R">
 <!ENTITY compactFolders.label "Compactar pastas">
 <!ENTITY compactFolders.accesskey  "p">
 <!ENTITY emptyTrashCmd.label "Esvaziar lixo">
@@ -120,7 +120,7 @@
 <!ENTITY showTabsToolbarCmd.accesskey "s">
 
 <!ENTITY messagePaneLayoutStyle.label "Esquema">
-<!ENTITY messagePaneLayoutStyle.accesskey "u">
+<!ENTITY messagePaneLayoutStyle.accesskey "E">
 <!ENTITY messagePaneClassic.label "Clássico">
 <!ENTITY messagePaneClassic.accesskey "C">
 <!ENTITY messagePaneWide.label "Grande">
@@ -182,11 +182,11 @@
 <!ENTITY threads.accesskey "p">
 <!ENTITY allMsgsCmd.label "Todas">
 <!ENTITY allMsgsCmd.accesskey "a">
-<!ENTITY expandAllThreadsCmd.label "Expandir tudo">
-<!ENTITY expandAllThreadsCmd.accesskey "d">
+<!ENTITY expandAllThreadsCmd.label "Expandir todos os tópicos">
+<!ENTITY expandAllThreadsCmd.accesskey "E">
 <!ENTITY expandAllThreadsCmd.key "*">
-<!ENTITY collapseAllThreadsCmd.label "Recolher tudo">
-<!ENTITY collapseAllThreadsCmd.accesskey "c">
+<!ENTITY collapseAllThreadsCmd.label "Colapsar todos os tópicos">
+<!ENTITY collapseAllThreadsCmd.accesskey "C">
 <!ENTITY collapseAllThreadsCmd.key "\">
 <!ENTITY unreadMsgsCmd.label "Não lidas">
 <!ENTITY unreadMsgsCmd.accesskey "N">
@@ -223,8 +223,8 @@
 <!ENTITY viewFeedSummaryFeedPropsPref.label "Formato pré-definido">
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey "d">
 
-<!ENTITY viewAttachmentsInlineCmd.label "Mostrar anexos na mensagem">
-<!ENTITY viewAttachmentsInlineCmd.accesskey "a">
+<!ENTITY viewAttachmentsInlineCmd.label "Mostrar anexos inline">
+<!ENTITY viewAttachmentsInlineCmd.accesskey "M">
 <!ENTITY reloadCmd.label "Recarregar">
 <!ENTITY reloadCmd.accesskey "g">
 <!ENTITY stopCmd.label "Parar">
@@ -303,8 +303,8 @@
 <!ENTITY forwardMsgCmd.key "l">
 <!ENTITY forwardAsMenu.label "Reencaminhar como">
 <!ENTITY forwardAsMenu.accesskey "o">
-<!ENTITY forwardAsInline.label "Texto da mensagem">
-<!ENTITY forwardAsInline.accesskey "x">
+<!ENTITY forwardAsInline.label "Inline">
+<!ENTITY forwardAsInline.accesskey "I">
 <!ENTITY forwardAsAttachmentCmd.label "Anexo">
 <!ENTITY forwardAsAttachmentCmd.accesskey "A">
 <!ENTITY editMsgAsNewCmd.label "Editar como nova">
@@ -371,8 +371,8 @@
 <!ENTITY openFeedWebPageInWindow.accesskey "w">
 <!ENTITY openFeedSummaryInWindow.label "Resumo em nova janela">
 <!ENTITY openFeedSummaryInWindow.accesskey "s">
-<!ENTITY openFeedWebPageInMP.label "Trocar página web e resumo no painel de mensagens">
-<!ENTITY openFeedWebPageInMP.accesskey "T">
+<!ENTITY openFeedWebPageInMP.label "Alternar página web e resumo no painel de mensagens">
+<!ENTITY openFeedWebPageInMP.accesskey "t">
 <!-- Tools Menu -->
 
 <!ENTITY searchMailCmd.label "Pesquisar mensagens…">
@@ -497,8 +497,8 @@
 <!ENTITY folderContextOpenNewWindow.accesskey "j">
 <!ENTITY folderContextOpenNewTab.label "Abrir num novo separador">
 <!ENTITY folderContextOpenNewTab.accesskey "s">
-<!ENTITY folderContextRename.label "Mudar nome">
-<!ENTITY folderContextRename.accesskey "r">
+<!ENTITY folderContextRename.label "Renomear">
+<!ENTITY folderContextRename.accesskey "R">
 <!ENTITY folderContextRemove.label "Apagar">
 <!ENTITY folderContextRemove.accesskey "A">
 <!ENTITY folderContextCompact.label "Compactar esta pasta">

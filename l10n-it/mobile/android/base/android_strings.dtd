@@ -55,11 +55,14 @@
 <!ENTITY bookmark_removed "Segnalibro eliminato">
 <!ENTITY bookmark_updated "Segnalibro aggiornato">
 <!ENTITY bookmark_options "Opzioni">
+<!ENTITY bookmark_save "Salva">
 <!ENTITY screenshot_added_to_bookmarks "Schermata aggiunta ai segnalibri">
 <!ENTITY screenshot_folder_label_in_bookmarks "Schermate">
 <!ENTITY readinglist_smartfolder_label_in_bookmarks "Elenco lettura">
 <!ENTITY bookmark_folder_items "&formatD; elementi">
 <!ENTITY bookmark_folder_one_item "1 elemento">
+<!ENTITY bookmark_parent_folder "Cartella superiore">
+<!ENTITY bookmark_add_folder "Nuova cartella">
 <!ENTITY reader_saved_offline "Salvato">
 <!ENTITY reader_switch_to_bookmarks "Visualizza">
 <!ENTITY history_today_section "Oggi">
@@ -135,6 +138,7 @@
 <!ENTITY pref_home_updates_enabled "Attivo">
 <!ENTITY pref_home_updates_wifi "Solo con Wi-Fi">
 <!ENTITY pref_category_home_homepage "Pagina iniziale">
+<!ENTITY home_homepage_every_new_tab "Utilizza anche per le nuove schede">
 <!ENTITY home_homepage_title "Imposta una pagina iniziale">
 <!ENTITY home_homepage_radio_default "&brandShortName; Home">
 <!ENTITY home_homepage_radio_user_address "Personalizzata">
@@ -171,6 +175,9 @@
 <!ENTITY pref_category_experimental "Caratteristiche sperimentali">
 <!ENTITY pref_custom_tabs "Schede personalizzate">
 <!ENTITY pref_custom_tabs_summary3 "Consenti alle app di aprire siti web in una versione personalizzata di &brandShortName;.">
+<!ENTITY custom_tabs_menu_item_open_in "Apri in &formatS;">
+<!ENTITY custom_tabs_menu_footer "Con tecnologia &brandShortName;">
+<!ENTITY custom_tabs_hint_url_copy "Indirizzo copiato">
 <!ENTITY pref_activity_stream "Flusso attività">
 <!ENTITY pref_activity_stream_summary "Una visualizzazione della cronologia ricca di informazioni e una pagina iniziale completamente ripensata rendono ancora più semplice trovare tutto ciò che serve in &brandShortName;.">
 <!ENTITY tracking_protection_prompt_title "Ora con protezione antitracciamento">
@@ -207,22 +214,15 @@
 <!ENTITY pref_plugins_enabled "Attivati">
 <!ENTITY pref_plugins_tap_to_play2 "Tocca per avviare">
 <!ENTITY pref_plugins_disabled "Disattivati">
-<!ENTITY pref_text_size "Dimensioni testo">
 <!ENTITY pref_restore_tabs "Ripristina schede">
 <!ENTITY pref_restore_always "Sempre">
 <!ENTITY pref_restore_quit "Non ripristinare dopo aver chiuso &brandShortName;">
-<!ENTITY pref_font_size_tiny "Molto piccolo">
-<!ENTITY pref_font_size_small "Piccolo">
-<!ENTITY pref_font_size_medium "Medio">
-<!ENTITY pref_font_size_large "Grande">
-<!ENTITY pref_font_size_xlarge "Molto grande">
-<!ENTITY pref_font_size_set "Imposta">
-<!ENTITY pref_font_size_adjust_char "A">
+<!ENTITY pref_use_system_font_size "Utilizza dim. caratteri di sistema">
+<!ENTITY pref_use_system_font_size_summary "Ridimensiona i contenuti web in base alle dimensioni dei caratteri di sistema">
 <!ENTITY pref_media_autoplay_enabled "Consenti riproduz. automatica">
 <!ENTITY pref_media_autoplay_enabled_summary "Determina se i siti web possono riprodurre automaticamente video e altri contenuti multimediali">
 <!ENTITY pref_zoom_force_enabled "Consenti sempre zoom">
 <!ENTITY pref_zoom_force_enabled_summary "Ignora le impostazioni della pagina e consenti sempre lo zoom">
-<!ENTITY pref_font_size_preview_text "La volpe arancio oltrepassa ogni ostacolo con sempre maggiore velocità, flessibilità e sicurezza. In quanto organizzazione non profit siamo in grado di creare innovazione per il bene degli utenti senza cedere a pressioni o compromessi. Questo significa una migliore esperienza per tutti e un futuro migliore per il Web.">
 <!ENTITY pref_voice_input "Input vocale">
 <!ENTITY pref_voice_input_summary2 "Attiva input vocale nella barra degli indirizzi">
 <!ENTITY pref_qrcode_enabled "Scansione codici QR">
@@ -313,6 +313,7 @@
 <!ENTITY contextmenu_open_private_tab "Apri in scheda anonima">
 <!ENTITY contextmenu_remove "Rimuovi">
 <!ENTITY contextmenu_add_to_launcher "Agg. a schermata principale">
+<!ENTITY contextmenu_set_as_homepage "Imposta come pagina iniziale">
 <!ENTITY contextmenu_share "Condividi">
 <!ENTITY contextmenu_pasteandgo "Incolla e vai">
 <!ENTITY contextmenu_paste "Incolla">
@@ -333,8 +334,6 @@
 <!ENTITY doorhanger_login_select_toast_copy "Password copiata negli appunti">
 <!ENTITY doorhanger_login_select_action_text "Seleziona un altro accesso">
 <!ENTITY doorhanger_login_select_title "Copia password da">
-<!ENTITY pref_magnifying_glass_enabled "Ingrandisci aree piccole">
-<!ENTITY pref_magnifying_glass_enabled_summary2 "Ingrandisci link e campi dei moduli quando si tocca l’area circostante.">
 <!ENTITY pref_scroll_title_bar2 "Navigazione a schermo intero">
 <!ENTITY pref_scroll_title_bar_summary2 "Nascondi la barra degli strumenti di &brandShortName; quando si scorre una pagina verso il basso">
 <!ENTITY pref_tab_queue_title3 "Accoda schede">
@@ -346,6 +345,7 @@
 <!ENTITY bookmark_edit_name "Nome">
 <!ENTITY bookmark_edit_location "Indirizzo">
 <!ENTITY bookmark_edit_keyword "Parola chiave">
+<!ENTITY bookmark_select_folder "Scegli cartella">
 <!ENTITY site_settings_title3 "Impostazioni sito">
 <!ENTITY site_settings_cancel "Annulla">
 <!ENTITY site_settings_clear "Cancella">
@@ -441,7 +441,6 @@
 <!ENTITY exit_guest_session_text "I dati relativi a questa sessione di navigazione verranno eliminati.">
 <!ENTITY ellipsis "…">
 <!ENTITY colon ":">
-<!ENTITY percent "&formatS;&#37;&#37;">
 <!ENTITY actionbar_menu "Menu">
 <!ENTITY actionbar_done "Fatto">
 <!ENTITY voicesearch_prompt "Parla ora">

@@ -115,7 +115,7 @@
 <!ENTITY prefs_title "Настройки">
 <!ENTITY prefs_editor_title "Редактор">
 <!ENTITY prefs_general_title "Основни">
-<!ENTITY prefs_restore "Връщане на стандартни настройки">
+<!ENTITY prefs_restore "Стандартни настройки">
 <!ENTITY prefs_manage_components "Управление на допълнителни компоненти">
 <!ENTITY prefs_options_autoconnectruntime "Ново свързване към предишната среда за приложения">
 <!ENTITY prefs_options_autoconnectruntime_tooltip "Ново свързване към предишната среда за приложения при пускане на WebIDE">
@@ -129,7 +129,7 @@
 <!ENTITY prefs_options_expandtab "Мек табулатор">
 <!ENTITY prefs_options_expandtab_tooltip "Използване на интервали вместо табулатор">
 <!ENTITY prefs_options_detectindentation "Автоматичен отстъп">
-<!ENTITY prefs_options_detectindentation_tooltip "Предполагане какъв е използваният отстъп, изследвайки съдържанието на сорса">
+<!ENTITY prefs_options_detectindentation_tooltip "Предполагане на използваният отстъп, изследвайки съдържанието на кода">
 <!ENTITY prefs_options_autocomplete "Автоматично довършване">
 <!ENTITY prefs_options_autocomplete_tooltip "Активиране на автоматичното довършване на код">
 <!ENTITY prefs_options_autoclosebrackets "Автоматично затваряне на скоби">
@@ -198,7 +198,7 @@
 <!-- Simulator Options -->
 <!ENTITY simulator_title "Настройки на симулатора">
 <!ENTITY simulator_remove "Изтриване на симулатора">
-<!ENTITY simulator_reset "Връщане на стандартни настройки">
+<!ENTITY simulator_reset "Стандартни настройки">
 <!ENTITY simulator_name "Име">
 <!ENTITY simulator_software "Софтуер">
 <!ENTITY simulator_version "Версия">

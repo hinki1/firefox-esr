@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "К">
 <!ENTITY useSmoothScrolling.label        "Користи глатко померање">
 <!ENTITY useSmoothScrolling.accesskey    "г">
-<!ENTITY allowHWAccel.label              "Користи хардверско убрзање, кад је доступно">
-<!ENTITY allowHWAccel.accesskey          "х">
 <!ENTITY checkUserSpelling.label         "Проверавај правопис док куцам">
 <!ENTITY checkUserSpelling.accesskey     "р">
 
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Надоградње">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "&brandShortName; ажурирања">
-<!ENTITY updateAuto1.label               "Аутоматски инсталирај надоградње (препоручено: повећана сигурност)">
-<!ENTITY updateAuto1.accesskey           "А">
-<!ENTITY updateCheckChoose.label         "Проверавај надоградње, али ме питај да ли да их инсталирам">
-<!ENTITY updateCheckChoose.accesskey     "и">
-<!ENTITY updateManual.label              "Никад не проверавај надоградње (не препоручује се)">
-<!ENTITY updateManual.accesskey          "Н">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Верзија ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Дозволи &brandShortName;-у да">
+<!ENTITY updateAuto2.label               "Аутоматски инсталира надоградње (препоручено: повећана сигурност)">
+<!ENTITY updateAuto2.accesskey           "А">
+<!ENTITY updateCheckChoose2.label        "Проверава надоградње али ме питај да ли да их инсталирам">
+<!ENTITY updateCheckChoose2.accesskey    "и">
+<!ENTITY updateManual2.label             "Никадa не проверава надоградње (не препоручује се)">
+<!ENTITY updateManual2.accesskey         "Н">
 
-<!ENTITY updateHistory.label             "Прикажи историјат надоградњи">
-<!ENTITY updateHistory.accesskey         "и">
+<!ENTITY updateHistory2.label            "Прикажи историјат ажурирања…">
+<!ENTITY updateHistory2.accesskey        "и">
 
 <!ENTITY useService.label                "Употреби позадинске сервисе за инсталацију надоградњи">
 <!ENTITY useService.accesskey            "з">
 
-<!ENTITY autoUpdateOthers.label          "Аутоматски ажурирај">
-<!ENTITY enableSearchUpdate.label        "Претраживаче">
-<!ENTITY enableSearchUpdate.accesskey    "е">
+<!ENTITY enableSearchUpdate2.label       "Аутоматски ажурирај претраживаче">
+<!ENTITY enableSearchUpdate2.accesskey   "п">
+
+<!ENTITY reports.label                   "Извештаји">
 
 <!ENTITY offlineStorageNotify.label               "Обавести ме када веб сајт затражи да смести податке за коришћење ван мреже">
 <!ENTITY offlineStorageNotify.accesskey           "ж">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Уклони податке о сајту">
 
 <!ENTITY certificateTab.label            "Сертификати">
-<!ENTITY certPersonal.label              "Захтеви">
-<!ENTITY certPersonal.description        "Када сервер затражи мој лични сертификат:">
+<!ENTITY certPersonal2.description       "Када сервер затражи ваш лични сертификат">
 <!ENTITY selectCerts.auto                "Изабери један аутоматски">
 <!ENTITY selectCerts.auto.accesskey      "ј">
 <!ENTITY selectCerts.ask                 "Питај ме сваки пут">
@@ -125,3 +136,23 @@
 <!ENTITY viewCerts.accesskey             "ф">
 <!ENTITY viewSecurityDevices.label       "Безбедносни уређаји">
 <!ENTITY viewSecurityDevices.accesskey   "Б">
+
+<!ENTITY performance.label               "Перформансе">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Користи препоручене поставке перформанси">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Ове поставке су кројене за хардвер вашег рачунара и његов оперативни систем.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "К">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Сазнајте више">
+<!ENTITY limitContentProcessOption.label "Лимит процеса садржаја">
+<!ENTITY limitContentProcessOption.description
+                                         "Додатни процеси садржаја могу побољшати перформансе док користите више језичака, али ће такође користити више меморије.">
+<!ENTITY limitContentProcessOption.accesskey   "Л">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Уређивање броја процеса садржаја је могуће само када је омогућен вишепроцесни &brandShortName;.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Сазнајте како да проверите да ли су мултипроцеси омогућени">
+<!ENTITY allowHWAccel.label              "Користи хардверско убрзање, кад је доступно">
+<!ENTITY allowHWAccel.accesskey          "х">

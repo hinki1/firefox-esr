@@ -21,16 +21,17 @@
 
 <!ENTITY  fontsAndColors.label        "Shkronja &amp; Ngjyra">
 
-<!ENTITY  defaultFont.label                       "Shkronja parazgjedhje:">
-<!ENTITY  defaultFont.accesskey                   "d">
-<!ENTITY  defaultSize.label                       "Madhësi:">
-<!ENTITY  defaultSize.accesskey                   "m">
+<!ENTITY  defaultFont2.label          "Shkronja parazgjedhje">
+<!ENTITY  defaultFont2.accesskey      "p">
+<!ENTITY  defaultSize2.label          "Madhësi">
+<!ENTITY  defaultSize2.accesskey      "M">
 
 <!ENTITY  advancedFonts.label         "Të mëtejshme…">
 <!ENTITY  advancedFonts.accesskey     "t">
 
 <!ENTITY  colors.label                "Ngjyra…">
 <!ENTITY  colors.accesskey            "y">
+
 
 <!ENTITY languages.label              "Gjuhë">
 <!ENTITY chooseLanguage.label         "Zgjidhni gjuhën tuaj të parapëlqyer për shfaqje faqesh">

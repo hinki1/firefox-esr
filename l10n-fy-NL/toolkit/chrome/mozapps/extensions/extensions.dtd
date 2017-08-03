@@ -118,6 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "De útjefte-opmerkingen foar dizze fernijing toane">
 <!ENTITY cmd.hideReleaseNotes.label           "Ferstopje útjefte-opmerkingen">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Ferstopje de útjefte-opmerkingen foar dizze fernijing">
+<!ENTITY cmd.findReplacement.label            "Nei ferfanging sykje">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
@@ -188,6 +189,10 @@
 <!ENTITY addon.details.label                  "Mear">
 <!ENTITY addon.details.tooltip                "Mear details oer dizze add-on toane">
 <!ENTITY addon.unknownDate                    "Unbekend">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "ERFENIS">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -252,3 +257,9 @@
 
 <!ENTITY pluginDeprecation.description "Misse jo wat? Guon ynstekkers wurde net langer stipe troch &brandShortName;.">
 <!ENTITY pluginDeprecation.learnMore "Mear ynfo.">
+
+<!ENTITY legacyWarning.description "Misse jo wat? Guon útwreidingen wurde net langer stipe troch &brandShortName;.">
+<!ENTITY legacyWarning.showLegacy "Ferâldere útwreidingen toane">
+<!ENTITY legacyExtensions.title "Ferâldere útwreidingen">
+<!ENTITY legacyExtensions.description "Dizze útwreidingen foldogge op dit stuit net oan de &brandShortName;-standerts binne dêrom de-aktivearre.">
+<!ENTITY legacyExtensions.learnMore "Lear mear oer de wizigingen oan add-ons">

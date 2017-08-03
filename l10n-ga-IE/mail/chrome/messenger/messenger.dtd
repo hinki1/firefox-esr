@@ -51,8 +51,8 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "a">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "An Cuntas Reatha">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "C">
-<!ENTITY getNextNMsgCmd.label "Faigh an 500 Teachtaireacht Nuachta Eile">
-<!ENTITY getNextNMsgCmd.accesskey "T">
+<!ENTITY getNextNMsgCmd2.label "Faigh Tuilleadh Teachtaireachtaí Nuachta">
+<!ENTITY getNextNMsgCmd2.accesskey "T">
 <!ENTITY sendUnsentCmd.label "Seol na teachtaireachtaí gan seoladh">
 <!ENTITY sendUnsentCmd.accesskey "l">
 <!ENTITY subscribeCmd.label "Liostáil…">
@@ -634,6 +634,9 @@
 
 <!ENTITY folderContextGetMessages.label "Faigh Teachtaireachtaí">
 <!ENTITY folderContextGetMessages.accesskey "g">
+<!ENTITY folderContextPauseAllUpdates.label "Cuir gach nuashonrú ar sos">
+<!ENTITY folderContextPauseUpdates.label "Cuir nuashonruithe ar sos">
+<!ENTITY folderContextPauseUpdates.accesskey "u">
 <!ENTITY folderContextOpenInNewWindow.label "Oscail i bhFuinneog Nua">
 <!ENTITY folderContextOpenInNewWindow.accesskey "O">
 <!ENTITY folderContextOpenNewTab.label "Oscail i gCluaisín Nua">

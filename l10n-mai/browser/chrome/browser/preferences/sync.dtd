@@ -10,8 +10,8 @@
 
 <!ENTITY engine.history.label       "इतिहास">
 <!ENTITY engine.history.accesskey   "r">
-<!ENTITY engine.passwords.label     "गुड़किल्ली">
-<!ENTITY engine.passwords.accesskey "P">
+
+
 <!ENTITY engine.prefs.label         "वरीयता">
 <!ENTITY engine.prefs.accesskey     "s">
 <!ENTITY engine.addons.label        "सहयुक्ति">
@@ -61,6 +61,7 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY signedOut.description        "अपन सभ उपकरण पर अपन बुकमार्क, इतिहास, टैब, पासवर्ड, ऐड-ऑन, आओर वरीयताकेँ तुल्यकालित करू.">
 <!ENTITY signedOut.accountBox.title   "&syncBrand.fxAccount.label; सँग कनेक्ट करू.">
+
 
 
 

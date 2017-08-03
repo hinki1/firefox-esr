@@ -25,7 +25,7 @@
 <!-- LOCALIZATION NOTE (options.showUserAgentStyles.label): This is the label
   -  for the checkbox option to show user agent styles in the Inspector
   -  panel. -->
-<!ENTITY options.showUserAgentStyles.label "แสดงสไตล์เบราว์เซอร์">
+<!ENTITY options.showUserAgentStyles.label "แสดงลักษณะของเบราว์เซอร์">
 <!ENTITY options.showUserAgentStyles.tooltip "การเปิดสิ่งนี้จะแสดงลักษณะเริ่มต้นที่ถูกโหลดโดยเบราว์เซอร์">
 
 <!-- LOCALIZATION NOTE (options.collapseAttrs.label): This is the label
@@ -163,14 +163,17 @@
 
 <!-- LOCALIZATION NOTE (options.screenshot.clipboard.label): This is the
    - label for the checkbox that toggles screenshot to clipboard feature. -->
+<!ENTITY options.screenshot.clipboard.label      "จับภาพหน้าจอไปยังคลิปบอร์ด">
 
 <!-- LOCALIZATION NOTE (options.screenshot.audio.label): This is the
    - label for the checkbox that toggles the camera shutter audio for screenshot tool -->
+<!ENTITY options.screenshot.audio.label      "เล่นเสียงชัตเตอร์กล้อง">
+<!ENTITY options.screenshot.audio.tooltip    "เปิดใช้งานเสียงกล้องเมื่อถ่ายภาพหน้าจอ">
 
 <!-- LOCALIZATION NOTE (options.commonprefs): This is the label for the heading
       of all preferences that affect both the Web Console and the Network
       Monitor -->
-<!ENTITY options.commonPrefs.label           "ตัวเลือกร่วมกัน">
+<!ENTITY options.commonPrefs.label           "ค่ากำหนดร่วมกัน">
 
 <!-- LOCALIZATION NOTE (options.enablePersistentLogs.label): This is the
   -  label for the checkbox that toggles persistent logs in the Web Console and
@@ -189,7 +192,7 @@
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
 
-<!ENTITY options.sourceeditor.label                     "ตั้งค่าตัวเลือก">
+<!ENTITY options.sourceeditor.label                     "ค่ากำหนดตัวแก้ไข">
 <!ENTITY options.sourceeditor.detectindentation.label   "ตรวจสอบการเยื้อง">
 <!ENTITY options.sourceeditor.detectindentation.tooltip "กะประมาณการเยื้องขึ้นอยู่กับเนื้อหาต้นฉบับ">
 <!ENTITY options.sourceeditor.autoclosebrackets.label   "ปิดวงเล็บอัตโนมัติ">

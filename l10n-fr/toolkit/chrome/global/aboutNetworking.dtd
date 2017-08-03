@@ -14,7 +14,7 @@
 <!ENTITY aboutNetworking.autoRefresh           "Actualiser toutes les 3 secondes">
 <!ENTITY aboutNetworking.hostname              "Nom d’hôte">
 <!ENTITY aboutNetworking.port                  "Port">
-<!ENTITY aboutNetworking.spdy                  "SPDY">
+<!ENTITY aboutNetworking.http2                 "HTTP/2">
 <!ENTITY aboutNetworking.ssl                   "SSL">
 <!ENTITY aboutNetworking.active                "Actif">
 <!ENTITY aboutNetworking.idle                  "Inactif">
@@ -41,3 +41,8 @@
 <!ENTITY aboutNetworking.dnsLookupButton       "Résolution">
 <!ENTITY aboutNetworking.dnsDomain             "Domaine">
 <!ENTITY aboutNetworking.dnsLookupTableColumn  "Adresses IP">
+<!ENTITY aboutNetworking.rcwn                  "Statistiques RCWN">
+<!ENTITY aboutNetworking.rcwnStatus            "État RCWN">
+<!ENTITY aboutNetworking.rcwnCacheWonCount     "Nombre de victoires du cache">
+<!ENTITY aboutNetworking.rcwnNetWonCount       "Nombre de victoires du réseau">
+<!ENTITY aboutNetworking.totalNetworkRequests  "Nombre total de requêtes réseau">

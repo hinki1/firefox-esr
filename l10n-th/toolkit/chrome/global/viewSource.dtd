@@ -20,7 +20,7 @@
 <!ENTITY pageSetupCmd.label "ตั้งค่าหน้ากระดาษ…">
 <!ENTITY pageSetupCmd.accesskey "ต">
 <!ENTITY printPreviewCmd.label "ตัวอย่างก่อนพิมพ์">
-<!ENTITY printPreviewCmd.accesskey "ส">
+<!ENTITY printPreviewCmd.accesskey "ต">
 <!ENTITY printCmd.label "พิมพ์…">
 <!ENTITY printCmd.accesskey "พ">
 <!ENTITY printCmd.commandkey "P">
@@ -68,7 +68,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY findOnCmd.accesskey "ค">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "ค้นหาอีกครั้ง">
-<!ENTITY findAgainCmd.accesskey "ก">
+<!ENTITY findAgainCmd.accesskey "น">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">

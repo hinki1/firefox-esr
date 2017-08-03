@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "u">
 <!ENTITY useSmoothScrolling.label        "Finom görgetés">
 <!ENTITY useSmoothScrolling.accesskey    "F">
-<!ENTITY allowHWAccel.label              "Hardveres gyorsítás használata, ha lehetséges">
-<!ENTITY allowHWAccel.accesskey          "r">
 <!ENTITY checkUserSpelling.label         "Helyesírás-ellenőrzés beírás közben">
 <!ENTITY checkUserSpelling.accesskey     "H">
 
@@ -82,24 +80,38 @@
 <!ENTITY overrideSmartCacheSize.accesskey "a">
 
 <!ENTITY updateTab.label                 "Frissítés">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 
 <!ENTITY updateApplication.label         "&brandShortName; frissítések">
-<!ENTITY updateAuto1.label               "Frissítések automatikus telepítése (ez ajánlott a maximális biztonság érdekében)">
-<!ENTITY updateAuto1.accesskey           "a">
-<!ENTITY updateCheckChoose.label         "Frissítések keresése, de a telepítés kézzel történik">
-<!ENTITY updateCheckChoose.accesskey     "k">
-<!ENTITY updateManual.label              "Ne legyen frissítve (nem ajánlott a biztonsági kockázat miatt">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Verzió">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "A következők engedélyezése a &brandShortName;nak:">
+<!ENTITY updateAuto2.label               "Frissítések automatikus telepítése (ajánlott a maximális biztonság érdekében)">
+<!ENTITY updateAuto2.accesskey           "a">
+<!ENTITY updateCheckChoose2.label        "Frissítések keresése, de a telepítés jóváhagyással történik">
+<!ENTITY updateCheckChoose2.accesskey    "k">
+<!ENTITY updateManual2.label             "Ne legyen frissítve (nem ajánlott)">
+<!ENTITY updateManual2.accesskey         "N">
 
-<!ENTITY updateHistory.label             "Frissítési előzmények megjelenítése">
-<!ENTITY updateHistory.accesskey         "z">
+<!ENTITY updateHistory2.label            "Frissítési előzmények megjelenítése…">
+<!ENTITY updateHistory2.accesskey        "z">
 
 <!ENTITY useService.label                "Háttérben futó szolgáltatás intézze a frissítést">
 <!ENTITY useService.accesskey            "H">
 
-<!ENTITY autoUpdateOthers.label          "Automatikus frissítés">
-<!ENTITY enableSearchUpdate.label        "Keresőszolgáltatások">
-<!ENTITY enableSearchUpdate.accesskey    "e">
+<!ENTITY enableSearchUpdate2.label       "Keresőszolgáltatások automatikus frissítése">
+<!ENTITY enableSearchUpdate2.accesskey   "u">
+
+<!ENTITY reports.label                   "Jelentések">
 
 <!ENTITY offlineStorageNotify.label               "Figyelmeztetés, ha a webhely adatokat akar tárolni kapcsolat nélküli használatra">
 <!ENTITY offlineStorageNotify.accesskey           "w">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Kapcsolat nélküli adatok eltávolítása">
 
 <!ENTITY certificateTab.label            "Tanúsítványok">
-<!ENTITY certPersonal.label              "Kérések">
-<!ENTITY certPersonal.description        "Ha a kiszolgáló elkéri a személyes tanúsítványt:">
+<!ENTITY certPersonal2.description       "Ha a kiszolgáló elkéri a személyes tanúsítványt">
 <!ENTITY selectCerts.auto                "Automatikus választás">
 <!ENTITY selectCerts.auto.accesskey      "A">
 <!ENTITY selectCerts.ask                 "Megerősítés minden alkalommal">
@@ -125,3 +136,16 @@
 <!ENTITY viewCerts.accesskey             "T">
 <!ENTITY viewSecurityDevices.label       "Adatvédelmi eszközök">
 <!ENTITY viewSecurityDevices.accesskey   "d">
+
+<!ENTITY performance.label               "Teljesítmény">
+<!ENTITY useRecommendedPerformanceSettings2.label "Javasolt teljesítménybeállítások használata">
+
+<!ENTITY useRecommendedPerformanceSettings2.accesskey "h">
+<!ENTITY performanceSettingsLearnMore.label "További tudnivalók">
+
+
+
+
+
+<!ENTITY allowHWAccel.label              "Hardveres gyorsítás használata, ha lehetséges">
+<!ENTITY allowHWAccel.accesskey          "r">

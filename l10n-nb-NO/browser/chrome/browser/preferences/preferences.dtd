@@ -13,17 +13,16 @@
 <!ENTITY  prefWinMinSize.styleMac       "width: 47em; min-height: 40em;">
 <!ENTITY  prefWinMinSize.styleGNOME     "width: 45.5em; min-height: 40.5em;">
 
-<!ENTITY  paneGeneral.title       "Generelt">
-<!ENTITY  paneTabs.title          "Faner">
-<!ENTITY  paneSearch.title        "Søk">
-<!ENTITY  paneContent.title       "Innhold">
-<!ENTITY  paneApplications.title  "Programmer">
-<!ENTITY  panePrivacy.title       "Personvern">
-<!ENTITY  paneContainers.title    "Innholdsfaner">
-<!ENTITY  paneSecurity.title      "Sikkerhet">
-<!ENTITY  paneAdvanced.title      "Avansert">
-<!-- LOCALIZATION NOTE (paneSync.title): This should match syncBrand.shortName.label in ../syncBrand.dtd -->
+<!ENTITY  paneSearchResults.title       "Søkeresultat">
+<!ENTITY  paneGeneral.title             "Generelt">
+<!ENTITY  paneFilesApplications.title   "Filer og program">
+<!ENTITY  panePrivacySecurity.title     "Personvern og sikkerhet">
+<!ENTITY  paneContainers.title          "Innholdsfaner">
+<!ENTITY  paneUpdates.title             "Oppdateringer">
 
-<!ENTITY  paneSync.title          "Sync">
+<!-- LOCALIZATION NOTE (paneSync1.title): This should match syncBrand.fxAccount.label in ../syncBrand.dtd -->
+<!ENTITY  paneSync1.title          "Firefox-konto">
 
-<!ENTITY  helpButton.label        "Hjelp">
+<!ENTITY  helpButton2.label        "&brandShortName; brukerstøtte">
+
+<!ENTITY  searchInput.label        "Søk">

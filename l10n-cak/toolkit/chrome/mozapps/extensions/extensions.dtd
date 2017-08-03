@@ -62,7 +62,7 @@
      update checking behavior for all add-ons to the default global behavior
      (which itself is either "Automatically" or "Manually", controlled by the
      updates.updateAddonsAutomatically.label menu item). -->
-<!ENTITY updates.resetUpdatesToAutomatic.label       "Titzolïx chi kij konojel ri taq tz'aqat richin kek'ex pa kiyonil.">
+<!ENTITY updates.resetUpdatesToAutomatic.label       "Titzolïx chi kij konojel ri taq tz'aqat richin kek'ex pa kiyonil">
 <!ENTITY updates.resetUpdatesToAutomatic.accesskey   "T">
 <!ENTITY updates.resetUpdatesToManual.label          "Titzolïx chi kij konojel ri taq tz'aqat richin kek'ex pa chi q'ab'aj.">
 <!ENTITY updates.resetUpdatesToManual.accesskey      "T">
@@ -118,6 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "Kek'ut ri taq rutzijol re ruwäch chi k'exoj re'">
 <!ENTITY cmd.hideReleaseNotes.label           "Ke'ewäx taq rutziol ri ruwäch">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Ke'ewäx ri taq rutzijol re ruwäch chi k'exoj re'">
+<!ENTITY cmd.findReplacement.label            "Tikanöx jun richin nijal">
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
@@ -131,7 +132,7 @@
 <!ENTITY detail.lastupdated.label             "Ruk'isib'äl k'exoj">
 <!ENTITY detail.creator.label                 "Nuk'unel">
 <!ENTITY detail.homepage.label                "Ruxaq tikirib'äl">
-<!ENTITY detail.numberOfDownloads.label       "Taq qasa’n">
+<!ENTITY detail.numberOfDownloads.label       "Taq qasa'n">
 
 <!ENTITY detail.contributions.description     "Ri runuk'unel re tz'aqat re', nuk'utüj chawe chi tato' rik'in rub'anik, rik'in naya' jun ko'öl ato'ik.">
 
@@ -185,6 +186,10 @@
 <!ENTITY addon.details.label                  "Ch'aqa' chik">
 <!ENTITY addon.details.tooltip                "Titz'et ch'aqa' chik taq rub'anikil re tz'aqat re'">
 <!ENTITY addon.unknownDate                    "Man etaman ta ruwäch">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "B'ANOB'ÄL">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -249,3 +254,9 @@
 
 <!ENTITY pluginDeprecation.description "¿La k'o nanataj? Jujun taq nak'ab'äl man nikixïm ta chik ki' ruma &brandShortName;.">
 <!ENTITY pluginDeprecation.learnMore "Tetamäx ch'aqa' chik.">
+
+<!ENTITY legacyWarning.description "¿La k'o nanataj? Jujun taq k'amal man nikixïm ta chik ki' ruma &brandShortName;.">
+<!ENTITY legacyWarning.showLegacy "Kek'ut pe ri kochin taq k'amal">
+<!ENTITY legacyExtensions.title "Kochin taq k'amaya'l">
+<!ENTITY legacyExtensions.description "Re taq k'amal re' man nikik'äm ta ki' rik'in current &brandShortName; taq rub'eyal richin chi xechuputäj.">
+<!ENTITY legacyExtensions.learnMore "Tetamäx chi kij ri kijaloj taq tzaqät">

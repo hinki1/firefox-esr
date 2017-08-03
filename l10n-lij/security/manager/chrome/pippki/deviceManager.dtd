@@ -33,4 +33,4 @@
 <!ENTITY loaddevice.browse                      "Çerca…">
 <!ENTITY loaddevice.browse.accesskey            "e">
 
-<!ENTITY loaddevice.title                       "Carego PKCS#11 Device">
+<!ENTITY loaddevice.title2                      "Carego o driver PKCS#11 do device">

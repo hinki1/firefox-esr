@@ -2,7 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "Používať Ochranu pred sledovaním">
+<!ENTITY  trackingProtectionHeader2.label      "Ochrana pred sledovaním">
+<!ENTITY  trackingProtection.description       "Internetové spoločnosti vás môžu sledovať a zbierať o vás informácie. Tieto informácie často využívajú na vytvorenie profilu a zobrazovanie personalizovaného obsahu.">
+<!ENTITY  trackingProtection.radioGroupLabel   "Blokovať zobrazovanie obsahu od známych sledovacích spoločností">
 <!ENTITY  trackingProtectionAlways.label       "Vždy">
 <!ENTITY  trackingProtectionAlways.accesskey   "V">
 <!ENTITY  trackingProtectionPrivate.label      "Len v súkromných oknách">
@@ -30,7 +32,7 @@
 
 <!ENTITY  locationBar.label             "Panel s adresou">
 
-<!ENTITY  locbar.suggest.label          "Pri používaní panela s adresou ponúkať:">
+<!ENTITY  locbar.suggest2.label         "Pri používaní panela s adresou ponúkať">
 <!ENTITY  locbar.history.label          "záznamy z histórie">
 <!ENTITY  locbar.history.accesskey      "r">
 <!ENTITY  locbar.bookmarks.label        "záložky">
@@ -40,8 +42,7 @@
 <!ENTITY  locbar.searches.label         "výsledky vyhľadávania z predvoleného vyhľadávacieho modulu">
 <!ENTITY  locbar.searches.accesskey     "d">
 
-<!ENTITY  suggestionSettings.label      "Zmeniť nastavenia pre návrhy vyhľadávania…">
-<!ENTITY  suggestionSettings.accesskey  "i">
+<!ENTITY  suggestionSettings2.label     "Zmeniť nastavenia pre návrhy vyhľadávania">
 
 <!ENTITY  acceptCookies.label           "Povoliť serverom nastavovať cookies">
 <!ENTITY  acceptCookies.accesskey       "s">
@@ -56,7 +57,7 @@
 <!ENTITY  keepUntil.accesskey           "v">
 
 <!ENTITY  expire.label                  "vypršania platnosti">
-<!ENTITY  close.label                   "ukončenia &brandShortName;u">
+<!ENTITY  close.label                   "ukončenia prehliadača &brandShortName;">
 
 <!ENTITY  cookieExceptions.label        "Výnimky…">
 <!ENTITY  cookieExceptions.accesskey    "m">
@@ -64,8 +65,8 @@
 <!ENTITY  showCookies.label             "Zobraziť cookies…">
 <!ENTITY  showCookies.accesskey         "b">
 
-<!ENTITY  historyHeader.pre.label          "Uchovávanie histórie:">
-<!ENTITY  historyHeader.pre.accesskey      "U">
+<!ENTITY  historyHeader2.pre.label         "Uchovávanie histórie:">
+<!ENTITY  historyHeader2.pre.accesskey     "h">
 <!ENTITY  historyHeader.remember.label     "Pamätať si históriu prehliadania">
 <!ENTITY  historyHeader.dontremember.label "Nikdy neukladať históriu prehliadania">
 <!ENTITY  historyHeader.custom.label       "Použiť vlastné nastavenia">
@@ -99,7 +100,7 @@
 <!ENTITY  rememberSearchForm.label       "Pamätať si údaje zadané do formulárov a vyhľadávacieho panela">
 <!ENTITY  rememberSearchForm.accesskey   "f">
 
-<!ENTITY  clearOnClose.label             "Vymazať históriu pri ukončení &brandShortName;u">
+<!ENTITY  clearOnClose.label             "Vymazať históriu pri ukončení prehliadača &brandShortName;">
 <!ENTITY  clearOnClose.accesskey         "k">
 
 <!ENTITY  clearOnCloseSettings.label     "Nastavenia…">

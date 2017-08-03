@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "স্মুথ-স্ক্রলিং ব্যবহার করা হবে m">
 <!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY allowHWAccel.label              "হার্ডওয়্যার এক্সিলারেশন বিদ্যমান থাকলে তা ব্যবহার করা হবে r">
-<!ENTITY allowHWAccel.accesskey          "r">
 <!ENTITY checkUserSpelling.label         "টাইপ করার সময় বানান পরীক্ষা করা হবে">
 <!ENTITY checkUserSpelling.accesskey     "t">
 
@@ -33,17 +31,17 @@
 <!ENTITY healthReportDesc.label          "আপনার ব্রাউজারের স্বাস্থ্য সম্পর্কে আপনাকে ব্রাউজারের কার্যকারিতা বুঝতে সহায়তা করে এবং &vendorShortName; এর সাথে তথ্যাদি শেয়ার করে">
 <!ENTITY enableHealthReport.label        "&brandShortName; স্বাস্থ্য প্রতিবেদন সক্রিয় করা হবে">
 <!ENTITY enableHealthReport.accesskey    "R">
-<!ENTITY healthReportLearnMore.label     "আরও জানুন…">
+
 
 <!ENTITY telemetryDesc.label             "&brandShortName;-কে আরও ভাল করে তুলতে আমাদের সাহায্য করার জন্য আপনার ব্রাউজারের কর্মক্ষমতা, ব্যবহার, হার্ডওয়্যার এবং স্বনির্ধারণ সম্পর্কিত তথ্য &vendorShortName;-কে জানায়">
 <!ENTITY enableTelemetryData.label       "বাড়তি ডাটা শেয়ার করুন (যেমন টেলিমেট্রি)">
 <!ENTITY enableTelemetryData.accesskey   "T">
-<!ENTITY telemetryLearnMore.label        "আরও জানুন…">
+
 
 <!ENTITY crashReporterDesc2.label         "ক্র্যাশ প্রতিবেদনগুলি &vendorShortName; কে সাহায্য করে; সমস্যাগুলি ঠিক করুন এবং আপনার ব্রাউজার আরো স্থিতিশীল এবং নিরাপদ করুন">
 <!ENTITY alwaysSubmitCrashReports.label   "আপনার backlogged জমে থাকা ক্র্যাশ রিপোর্ট প্রেরণ করার জন্যে &brandShortName; কে অনুমতি দিন">
 <!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "আরও জানুন…">
+
 
 <!ENTITY networkTab.label                "নেটওয়ার্ক">
 
@@ -63,7 +61,7 @@
 <!ENTITY clearSiteData.accesskey         "l">
 <!ENTITY siteDataSettings.label          "সেটিং">
 <!ENTITY siteDataSettings.accesskey      "i">
-<!ENTITY siteDataLearnMoreLink.label     "আরও জানুন">
+
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
@@ -82,24 +80,34 @@
 <!ENTITY overrideSmartCacheSize.accesskey "O">
 
 <!ENTITY updateTab.label                 "হালনাগাদ">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 
 <!ENTITY updateApplication.label         "&brandShortName; হালনাগাদ">
-<!ENTITY updateAuto1.label               "হালনাগাদকরণ স্বয়ংক্রিয়ভাবে ইনস্টল হয় A (প্রস্তাবিত: উন্নত নিরাপত্তা)">
-<!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateCheckChoose.label         "হালনাগাদকরণ যাচাই করুন, কিন্তু ইনস্টলের পূর্বে আপনাকে জানাবে">
-<!ENTITY updateCheckChoose.accesskey     "C">
-<!ENTITY updateManual.label              "হালনাগাদকরণ কখনও পরীক্ষা করবেন না N (প্রস্তাবিত নয়: নিরাপত্তা ঝুঁকি রয়েছে)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.post  "">
 
-<!ENTITY updateHistory.label             "হালনাগাদের ইতিহাস প্রদর্শন P">
-<!ENTITY updateHistory.accesskey         "P">
+
+
+
+
+
+
+
+
 
 <!ENTITY useService.label                "হালনাগাদ ইনস্টলের জন্য একটি পটভূমির সার্ভিস ব্যবহার করুন b">
 <!ENTITY useService.accesskey            "b">
 
-<!ENTITY autoUpdateOthers.label          "স্বয়ংক্রিয়ভাবে হালনাগাদ">
-<!ENTITY enableSearchUpdate.label        "অনুসন্ধান ইঞ্জিন E">
-<!ENTITY enableSearchUpdate.accesskey    "E">
+
+
 
 <!ENTITY offlineStorageNotify.label               "অফলাইন অবস্থায় ব্যবহারের জন্য কোনো ওয়েবসাইট তথ্য সংরক্ষণের চেষ্টা করলে আপনাকে জানাবে">
 <!ENTITY offlineStorageNotify.accesskey           "T">
@@ -113,8 +121,7 @@
 <!ENTITY offlineAppRemove.confirm        "অফলাইন ডাটা মুছে ফেলা হবে">
 
 <!ENTITY certificateTab.label            "সনদপত্র">
-<!ENTITY certPersonal.label              "অনুরোধ">
-<!ENTITY certPersonal.description        "কোনো সার্ভার আপনার ব্যক্তিগত সার্টিফিকেট অনুরোধ করলে:">
+
 <!ENTITY selectCerts.auto                "স্বয়ংক্রিয়ভাবে নির্বাচন করা হবে">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "আপনাকে প্রতিবার জিজ্ঞেস করা">
@@ -125,3 +132,15 @@
 <!ENTITY viewCerts.accesskey             "V">
 <!ENTITY viewSecurityDevices.label       "নিরাপত্তা ডিভাইস">
 <!ENTITY viewSecurityDevices.accesskey   "D">
+
+
+
+
+
+
+
+
+
+
+<!ENTITY allowHWAccel.label              "হার্ডওয়্যার এক্সিলারেশন বিদ্যমান থাকলে তা ব্যবহার করা হবে r">
+<!ENTITY allowHWAccel.accesskey          "r">

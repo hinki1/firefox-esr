@@ -75,6 +75,7 @@
 <!ENTITY bookmark_removed "Marcador eliminado">
 <!ENTITY bookmark_updated "Marcador actualizado">
 <!ENTITY bookmark_options "Opciones">
+<!ENTITY bookmark_save "Guardar">
 <!ENTITY screenshot_added_to_bookmarks "Captura de pantalla agregada a marcadores">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
@@ -86,6 +87,8 @@
      in the folder. -->
 <!ENTITY bookmark_folder_items "&formatD; elementos">
 <!ENTITY bookmark_folder_one_item "1 elemento">
+<!ENTITY bookmark_parent_folder "Carpeta principal">
+<!ENTITY bookmark_add_folder "Agregar nueva carpeta">
 
 <!ENTITY reader_saved_offline "Guardado sin conexión">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -214,6 +217,9 @@
 <!ENTITY pref_home_updates_enabled "Habilitado">
 <!ENTITY pref_home_updates_wifi "Solo sobre Wi-Fi">
 <!ENTITY pref_category_home_homepage "Página de inicio">
+<!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
+     home page will be use in every new tab. -->
+<!ENTITY home_homepage_every_new_tab "Usar también para nuevas pestañas">
 <!ENTITY home_homepage_title "Establecer página de inicio">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
@@ -282,6 +288,12 @@
      For more see: https://developer.chrome.com/multidevice/android/customtabs -->
 <!ENTITY pref_custom_tabs "Pestañas personalizadas">
 <!ENTITY pref_custom_tabs_summary3 "Permitir a las aplicaciones abrir sitios web usando una versión personalizada de &brandShortName;">
+<!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
+     default browser from user's preference, such as "Open in Firefox" -->
+<!ENTITY custom_tabs_menu_item_open_in "Abrir en &formatS;">
+<!ENTITY custom_tabs_menu_footer "Impulsado por &brandShortName;">
+<!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
+<!ENTITY custom_tabs_hint_url_copy "URL copiada">
 
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Flujo de actividad">
@@ -350,26 +362,14 @@
 <!ENTITY pref_plugins_enabled "Habilitado">
 <!ENTITY pref_plugins_tap_to_play2 "Presiona para reproducir">
 <!ENTITY pref_plugins_disabled "Deshabilitado">
-<!ENTITY pref_text_size "Tamaño de texto">
 <!ENTITY pref_restore_tabs "Restaurar pestañas">
 <!ENTITY pref_restore_always "Siempre restaurar">
 <!ENTITY pref_restore_quit "No restaurar después de salir de &brandShortName;">
-<!ENTITY pref_font_size_tiny "Diminuto">
-<!ENTITY pref_font_size_small "Pequeño">
-<!ENTITY pref_font_size_medium "Mediano">
-<!ENTITY pref_font_size_large "Grande">
-<!ENTITY pref_font_size_xlarge "Extra grande">
-<!ENTITY pref_font_size_set "Establecer">
-<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
-(or combination of characters) is used to decrease the preview font size; a larger version of the
-same character/combination is used to increase the preview font size. It should be a concise
-representation of the language it is used in that will help show the text in the preview will change
-size. -->
-<!ENTITY pref_font_size_adjust_char "A">
 
-<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
-    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
-<!ENTITY pref_font_size_preview_text "El veloz zorro naranja supera tus expectativas con más velocidad, flexibilidad y seguridad. No tener ánimo de lucro nos hace libres de innovar para ti sin presiones ni compromisos. Esto quiere decir una mejor experiencia para ti y un mejor futuro para la Web.">
+<!-- Localization note (pref_use_system_font_size, pref_use_system_font_size_summary):
+     Font size here refers to the name of the corresponding Android system setting. -->
+<!ENTITY pref_use_system_font_size "Utilizar tamaño de fuente del sistema">
+<!ENTITY pref_use_system_font_size_summary "Escalar el contenido web de acuerdo con el tamaño de fuente del sistema">
 
 <!ENTITY pref_media_autoplay_enabled "Permitir reproducción automática">
 <!ENTITY pref_media_autoplay_enabled_summary "Controla si los sitios web puede reproducir videos automáticamente u otro contenido multimedia.">
@@ -500,6 +500,7 @@ size. -->
 <!ENTITY contextmenu_open_private_tab "Abrir en pestaña privada">
 <!ENTITY contextmenu_remove "Eliminar">
 <!ENTITY contextmenu_add_to_launcher "Agregar a la pantalla de inicio">
+<!ENTITY contextmenu_set_as_homepage "Establecer como página de inicio">
 <!ENTITY contextmenu_share "Compartir">
 <!ENTITY contextmenu_pasteandgo "Pegar e ir">
 <!ENTITY contextmenu_paste "Pegar">
@@ -525,11 +526,6 @@ size. -->
 <!ENTITY doorhanger_login_select_action_text "Seleccionar otro inicio de sesión">
 <!ENTITY doorhanger_login_select_title "Copiar contraseña desde">
 
-<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
-     whether or not the magnifying glass is disabled. -->
-<!ENTITY pref_magnifying_glass_enabled "Magnifica áreas pequeñas">
-<!ENTITY pref_magnifying_glass_enabled_summary2 "Alargar enlaces y campos de formularios cuando presiones cerca de ellos">
-
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
 <!ENTITY pref_scroll_title_bar2 "Navegación en pantalla completa">
@@ -552,6 +548,7 @@ size. -->
 <!ENTITY bookmark_edit_name "Nombre">
 <!ENTITY bookmark_edit_location "Ubicación">
 <!ENTITY bookmark_edit_keyword "Palabra clave">
+<!ENTITY bookmark_select_folder "Seleccionar carpeta">
 
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
@@ -722,7 +719,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY guest_session_dialog_cancel "Cancelar">
 <!ENTITY new_guest_session_title "&brandShortName; ahora reiniciará">
 <!ENTITY new_guest_session_text2 "La persona que lo use no podrá ver ninguno de tus datos de navegación personales (como contraseñas, historial o marcadores guardados).\n\nCuando tu invitado acabe, sus datos de navegación serán eliminados y se restaurará tu sesión.">
-<!ENTITY guest_browsing_notification_title "La navegación de invitado está habilitada">
+<!ENTITY guest_browsing_notification_title "Navegación de invitado activada">
 <!ENTITY guest_browsing_notification_text "Presiona para salir">
 
 <!ENTITY exit_guest_session_title "&brandShortName; ahora reiniciará">
@@ -735,14 +732,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY ellipsis "…">
 
 <!ENTITY colon ":">
-
-<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
-     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
-     This format string is typically used by getString method, in such method the percent sign
-     is a reserved caracter. In order to display one percent sign in the result of getString,
-     double percent signs must be inserted in the format string.
-     This entity is used in the zoomed view to display the zoom factor-->
-<!ENTITY percent "&formatS;&#037;&#037;">
 
 <!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->
@@ -818,7 +807,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY unsupported_sdk_version "¡Lo siento! &brandShortName; no trabajará en este dispositivo (&formatS1;, &formatS2;). Por favor, descarga la versión correcta.">
 
 <!ENTITY eol_notification_title2 "&brandShortName; ya no se actualizará">
-<!ENTITY eol_notification_summary "Toca para obtener más información">
+<!ENTITY eol_notification_summary "Presiona para obtener más información">
 
 <!-- LOCALIZATION NOTE (whatsnew_notification_title, whatsnew_notification_summary): These strings
      are used for a system notification that's shown to users after the app updates. -->

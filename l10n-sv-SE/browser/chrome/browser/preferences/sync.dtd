@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey      "F">
 <!ENTITY engine.history.label       "Historiken">
 <!ENTITY engine.history.accesskey   "o">
-<!ENTITY engine.passwords.label     "Lösenord">
-<!ENTITY engine.passwords.accesskey "L">
+<!ENTITY engine.logins.label        "Inloggningar">
+<!ENTITY engine.logins.accesskey    "l">
 <!ENTITY engine.prefs.label         "Inställningar">
 <!ENTITY engine.prefs.accesskey     "n">
 <!ENTITY engine.addons.label        "Tillägg">
@@ -19,8 +19,8 @@
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Enhetens namn">
-<!ENTITY changeSyncDeviceName.label "Byt enhetens namn…">
-<!ENTITY changeSyncDeviceName.accesskey "h">
+<!ENTITY changeSyncDeviceName2.label "Ändra enhetsnamn…">
+<!ENTITY changeSyncDeviceName2.accesskey "n">
 <!ENTITY cancelChangeSyncDeviceName.label "Avbryt">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "n">
 <!ENTITY saveChangeSyncDeviceName.label "Spara">
@@ -52,8 +52,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "Ändra profilbild">
 <!ENTITY verifiedManage.label        "Hantera Konto">
 <!ENTITY verifiedManage.accesskey    "o">
-<!ENTITY disconnect.label            "Koppla ifrån…">
-<!ENTITY disconnect.accesskey        "D">
+<!ENTITY disconnect3.label           "Koppla från…">
+<!ENTITY disconnect3.accesskey       "f">
 <!ENTITY verify.label                "Verifiera e-postadress">
 <!ENTITY verify.accesskey            "V">
 <!ENTITY forget.label                "Glöm den här e-postadressen">
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "Logga in">
 <!ENTITY signedOut.accountBox.signin.accesskey  "I">
 
-<!ENTITY signedIn.engines.label       "Synka mellan alla enheter">
+<!ENTITY signedIn.settings.label       "Sync-inställningar">
+<!ENTITY signedIn.settings.description "Välj vad du vill synkronisera på dina enheter med &brandShortName;.">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

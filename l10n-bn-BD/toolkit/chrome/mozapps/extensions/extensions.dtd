@@ -118,6 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "হালনাগাদের জন্য রিলিজ নোট প্রদর্শন করা হবে">
 <!ENTITY cmd.hideReleaseNotes.label           "রিলিজ নোট আড়াল করা হবে">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "এই হালনাগাদের জন্য রিলিজ নোট আড়াল করা হবে">
+
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
@@ -185,6 +186,9 @@
 <!ENTITY addon.details.label                  "আরও">
 <!ENTITY addon.details.tooltip                "এই অ্যাড-অন সম্পর্কে আরও বিস্তারিত তথ্য প্রদর্শন">
 <!ENTITY addon.unknownDate                    "অজানা">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -249,3 +253,8 @@
 
 <!ENTITY pluginDeprecation.description "কোন কিছু পাওয়া যাচ্ছে না? কোন কোন প্লাগইন &brandShortName; আর সমর্থন করে না।">
 <!ENTITY pluginDeprecation.learnMore "আরও জানুন।">
+
+
+
+
+

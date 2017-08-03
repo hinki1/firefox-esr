@@ -14,7 +14,7 @@
 <!ENTITY aboutNetworking.autoRefresh           "Wultin hoore mum kala maje 3">
 <!ENTITY aboutNetworking.hostname              "Innde mooftoowo">
 <!ENTITY aboutNetworking.port                  "Poor">
-<!ENTITY aboutNetworking.spdy                  "SPDY">
+
 <!ENTITY aboutNetworking.ssl                   "SSL">
 <!ENTITY aboutNetworking.active                "Ena hurmi">
 <!ENTITY aboutNetworking.idle                  "Aami">
@@ -41,3 +41,8 @@
 <!ENTITY aboutNetworking.dnsLookupButton       "Jiɓtu">
 <!ENTITY aboutNetworking.dnsDomain             "Domen">
 <!ENTITY aboutNetworking.dnsLookupTableColumn  "IPs">
+
+
+
+
+

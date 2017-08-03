@@ -4,7 +4,7 @@
 
 <!ENTITY  popups.label                "النوافذ المنبثقة">
 
-<!ENTITY  blockPopups.label           "امنع النوافذ المنبثقة">
+<!ENTITY  blockPopups.label           "احجب النوافذ المنبثقة">
 <!ENTITY  blockPopups.accesskey       "ذ">
 
 <!ENTITY  notificationsPolicy.label            "التنبيهات">
@@ -19,12 +19,12 @@
 <!ENTITY  popupExceptions.label       "الاستثناءات…">
 <!ENTITY  popupExceptions.accesskey   "ت">
 
-<!ENTITY  fontsAndColors.label        "الخطوط و الألوان">
+<!ENTITY  fontsAndColors.label        "الخطوط و الألوان">
 
-<!ENTITY  defaultFont.label           "الخط المبدئي:">
-<!ENTITY  defaultFont.accesskey       "ط">
-<!ENTITY  defaultSize.label           "الحجم:">
-<!ENTITY  defaultSize.accesskey       "ح">
+<!ENTITY  defaultFont2.label          "الخط المبدئي">
+<!ENTITY  defaultFont2.accesskey      "ط">
+<!ENTITY  defaultSize2.label          "الحجم">
+<!ENTITY  defaultSize2.accesskey      "ح">
 
 <!ENTITY  advancedFonts.label         "متقدم…">
 <!ENTITY  advancedFonts.accesskey     "د">

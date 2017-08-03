@@ -56,13 +56,14 @@
 <!-- intro paragraph for branded builds -->
 <!ENTITY rights2.webservices-a "&brandFullName; ใช้บริการข้อมูลผ่านเว็บ (&quot;บริการ&quot;) ในการเสนอความสามารถให้กับคุณใน &brandShortName; รุ่นนี้ภายใต้ข้อตกลงที่อธิบายไว้ข้างล่าง ถ้าคุณไม่ต้องการใช้งานบริการเหล่านั้นหรือข้อตกลงข้างล่างนั้นไม่สามารถยอมรับได้ คุณอาจจะปิดการใช้งานความสามารถเหล่านั้น วิธีการปิดใช้งานความสามารถส่วนใดส่วนหนึ่งอาจจะพบได้ ">
 <!ENTITY rights2.webservices-b "ที่นี่">
-<!ENTITY rights3.webservices-c "คุณลักษณะและบริการอื่น ๆ สามารถปิดใช้งานได้ในการตั้งค่าแอปพลิเคชัน">
+<!ENTITY rights3.webservices-c " คุณลักษณะและบริการอื่น ๆ สามารถปิดใช้งานได้ในค่ากำหนดแอปพลิเคชัน">
 
 <!-- safe browsing points for branded builds -->
 <!ENTITY rights.safebrowsing-a "การท่องเว็บแบบปลอดภัย: ">
 <!ENTITY rights.safebrowsing-b "ไม่แนะนำให้ปิดใช้งานการท่องเว็บแบบปลอดภัยเพราะอาจจะส่งผลให้คุณเข้าไปยังเว็บไซต์ที่ไม่ปลอดภัย ถ้าคุณต้องการปิดความสามารถนี้อย่างถาวร โปรแกรมทำตามขั้นตอนนี้:">
-<!ENTITY rights.safebrowsing-term1 "เปิดการตั้งค่าแอปพลิเคชัน">
+<!ENTITY rights.safebrowsing-term1 "เปิดค่ากำหนดแอปพลิเคชัน">
 <!ENTITY rights.safebrowsing-term2 "เลือก ความปลอดภัย">
+<!ENTITY rights2.safebrowsing-term3 "ไม่เลือกตัวเลือก &quot;&enableSafeBrowsing.label;&quot;">
 <!ENTITY rights.safebrowsing-term4 "การท่องเว็บแบบปลอดภัยถูกปิดใช้งานแล้ว">
 
 <!-- location aware browsing points for branded builds -->
@@ -71,7 +72,7 @@
 <!ENTITY rights.locationawarebrowsing-term1a "ในแถบ URL พิมพ์ ">
 <!ENTITY rights.locationawarebrowsing-term1b "about:config">
 <!ENTITY rights.locationawarebrowsing-term2 "พิมพ์ geo.enabled">
-<!ENTITY rights.locationawarebrowsing-term3 "คลิกสองครั้งที่ค่า geo.enabled ">
+<!ENTITY rights.locationawarebrowsing-term3 "คลิกสองครั้งที่ค่ากำหนด geo.enabled">
 <!ENTITY rights.locationawarebrowsing-term4 "การท่องเว็บที่ผูกพันกับสถานที่ถูกปิดใช้งานแล้ว">
 
 <!-- intro paragraph for unbranded builds -->

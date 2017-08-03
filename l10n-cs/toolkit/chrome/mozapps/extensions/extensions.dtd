@@ -118,6 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "Zobrazí poznámky k vydání této aktualizace">
 <!ENTITY cmd.hideReleaseNotes.label           "Skrýt poznámky k vydání">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Skryje poznámky k vydání této aktualizace">
+<!ENTITY cmd.findReplacement.label            "Najít náhradu">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
@@ -185,6 +186,10 @@
 <!ENTITY addon.details.label                  "Více">
 <!ENTITY addon.details.tooltip                "Zobrazí více informací o doplňku">
 <!ENTITY addon.unknownDate                    "Neznámá">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "ZASTARALÉ">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -249,3 +254,9 @@
 
 <!ENTITY pluginDeprecation.description "Něco chybí? Některé zásuvné moduly už &brandShortName; nepodporuje.">
 <!ENTITY pluginDeprecation.learnMore "Zjistit více.">
+
+<!ENTITY legacyWarning.description "Něco chybí? Některá rozšíření už &brandShortName; nepodporuje.">
+<!ENTITY legacyWarning.showLegacy "Zobrazit zastaralá rozšíření">
+<!ENTITY legacyExtensions.title "Zastaralá rozšíření">
+<!ENTITY legacyExtensions.description "Tato rozšíření byla zakázána, protože neodpovídají současným standardům aplikace &brandShortName;.">
+<!ENTITY legacyExtensions.learnMore "Zjistit více o změnách pro doplňky">

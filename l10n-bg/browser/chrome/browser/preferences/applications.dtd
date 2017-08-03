@@ -2,6 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  applications.label       "Приложения">
+<!ENTITY  applications.description "Изберете как &brandShortName; да управлява изтеглените файлове или приложенията, които използвате докато разглеждате.">
+
 <!ENTITY  typeColumn.label        "Вид съдържание">
 <!ENTITY  typeColumn.accesskey    "В">
 
@@ -11,4 +14,4 @@
 <!ENTITY  focusSearch1.key        "f">
 <!ENTITY  focusSearch2.key        "k">
 
-<!ENTITY  filter.emptytext        "Търсене">
+<!ENTITY  filter2.emptytext        "Търсене на видове файлове и приложения">

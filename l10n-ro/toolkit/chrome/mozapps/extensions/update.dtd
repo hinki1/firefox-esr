@@ -20,11 +20,11 @@
 <!ENTITY  found.wizard.title               "S-au găsit suplimente compatibile">
 <!ENTITY  found.top.label                 "Selectează suplimentele pe care dorești să le instalezi:">
 <!ENTITY  found.disabledXPinstall.label   "Aceste actualizări nu pot fi instalate deoarece instalarea de programe este în prezent dezactivată. Puteți schimba această setare mai jos.">
-<!ENTITY  found.enableXPInstall.label     "Permite ca site-urile web să instaleze programe">
+<!ENTITY  found.enableXPInstall.label     "Permite site-urilor web să instaleze programe">
 <!ENTITY  found.enableXPInstall.accesskey "a">
 
 <!ENTITY  installing.wizard.title         "Instalare suplimente compatibile">
-<!ENTITY  installing.top.label            "Se descarcă și instalează actualizările suplimentelor…">
+<!ENTITY  installing.top.label            "Se descarcă și se instalează actualizările suplimentelor…">
 
 <!ENTITY  noupdates.wizard.title          "Nu s-au găsit suplimente compatibile">
 <!ENTITY  noupdates.intro.desc            "&brandShortName; nu a putut găsi actualizări pentru suplimentele tale incompatibile.">
@@ -47,6 +47,6 @@
 <!ENTITY  installerrors.intro.label       "&brandShortName; a întâlnit probleme în timp ce actualiza unele suplimente.">
 <!-- general strings used by several of the finish pages -->
 
-<!ENTITY  clickFinish.label               "Clic pe „Încheiere” pentru a continua pornirea &brandShortName;.">
-<!ENTITY  clickFinish.labelMac            "Clic pe „Gata” pentru a continua pornirea &brandShortName;.">
+<!ENTITY  clickFinish.label               "Clic pe Încheiere pentru a continua pornirea &brandShortName;.">
+<!ENTITY  clickFinish.labelMac            "Clic pe „Terminat” pentru a continua pornirea &brandShortName;.">
 <!ENTITY  enableChecking.label            "Permite &brandShortName; să verifice dacă există actualizări.">

@@ -12,7 +12,7 @@
 <!ENTITY firstrun_data_title "Δεδομένα">
 <!ENTITY firstrun_data_message "Λιγότερα δεδομένα, μεγαλύτερη οικονομία">
 <!ENTITY firstrun_data_subtext2 "Απενεργοποιήστε τις εικόνες για να ξοδεύετε λιγότερα δεδομένα σε κάθε ιστοσελίδα που επισκέπτεστε.">
-<!ENTITY firstrun_sync_title "Συγχρονισμός">
+<!ENTITY firstrun_sync_title "Sync">
 <!ENTITY firstrun_sync_message "Το &brandShortName; πάντα στο πλευρό σας">
 <!ENTITY firstrun_sync_subtext "Συγχρονίστε τις καρτέλες, τους κωδικούς πρόσβασης και άλλα οπουδήποτε τον χρησιμοποιείτε.">
 <!ENTITY firstrun_signin_message "Συνδεθείτε και ξεκινήστε">
@@ -75,6 +75,7 @@
 <!ENTITY bookmark_removed "Ο σελιδοδείκτης διεγράφη">
 <!ENTITY bookmark_updated "Ο σελιδοδείκτης ενημερώθηκε">
 <!ENTITY bookmark_options "Επιλογές">
+<!ENTITY bookmark_save "Αποθήκευση">
 <!ENTITY screenshot_added_to_bookmarks "Το στιγμιότυπο οθόνης προστέθηκε στους σελιδοδείκτες">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
@@ -86,6 +87,8 @@
      in the folder. -->
 <!ENTITY bookmark_folder_items "&formatD; στοιχεία">
 <!ENTITY bookmark_folder_one_item "1 στοιχείο">
+<!ENTITY bookmark_parent_folder "Γονικός φάκελος">
+<!ENTITY bookmark_add_folder "Προσθήκη νέου φακέλου">
 
 <!ENTITY reader_saved_offline "Αποθηκευμένα για χρήση χωρίς σύνδεση">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -214,6 +217,9 @@
 <!ENTITY pref_home_updates_enabled "Ενεργοποιημένες">
 <!ENTITY pref_home_updates_wifi "Μόνο μέσω Wi-Fi">
 <!ENTITY pref_category_home_homepage "Αρχική σελίδα">
+<!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
+     home page will be use in every new tab. -->
+<!ENTITY home_homepage_every_new_tab "Να χρησιμοποιείται επίσης για τις νέες καρτέλες">
 <!ENTITY home_homepage_title "Ορισμός αρχικής σελίδας">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
@@ -282,6 +288,12 @@
      For more see: https://developer.chrome.com/multidevice/android/customtabs -->
 <!ENTITY pref_custom_tabs "Προσαρμοσμένες καρτέλες">
 <!ENTITY pref_custom_tabs_summary3 "Να επιτρέπεται σε εφαρμογές να ανοίγουν ιστοσελίδες με μια προσαρμοσμένη έκδοση του &brandShortName;">
+<!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
+     default browser from user's preference, such as "Open in Firefox" -->
+<!ENTITY custom_tabs_menu_item_open_in "Άνοιγμα στο &formatS;">
+<!ENTITY custom_tabs_menu_footer "Με την υποστήριξη του &brandShortName;">
+<!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
+<!ENTITY custom_tabs_hint_url_copy "Το URL αντεγράφη">
 
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Ροή δραστηριότητας">
@@ -350,26 +362,14 @@
 <!ENTITY pref_plugins_enabled "Ενεργοποιημένες">
 <!ENTITY pref_plugins_tap_to_play2 "Ενεργοποίηση με πάτημα">
 <!ENTITY pref_plugins_disabled "Απενεργοποιημένες">
-<!ENTITY pref_text_size "Μέγεθος κειμένου">
 <!ENTITY pref_restore_tabs "Επαναφορά καρτελών">
 <!ENTITY pref_restore_always "Να επαναφέρονται πάντα">
 <!ENTITY pref_restore_quit "Να μην επαναφέρονται μετά την έξοδο από τον &brandShortName;">
-<!ENTITY pref_font_size_tiny "Μικροσκοπικό">
-<!ENTITY pref_font_size_small "Μικρό">
-<!ENTITY pref_font_size_medium "Μεσαίο">
-<!ENTITY pref_font_size_large "Μεγάλο">
-<!ENTITY pref_font_size_xlarge "Πολύ μεγάλο">
-<!ENTITY pref_font_size_set "Ορισμός">
-<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
-(or combination of characters) is used to decrease the preview font size; a larger version of the
-same character/combination is used to increase the preview font size. It should be a concise
-representation of the language it is used in that will help show the text in the preview will change
-size. -->
-<!ENTITY pref_font_size_adjust_char "A">
 
-<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
-    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
-<!ENTITY pref_font_size_preview_text "Ο καλύμνιος σφουγγαράς ψιθύρισε πως θα βουτήξει χωρίς να διστάζει. Ως μη κερδοσκοπική οργάνωση, μπορούμε να καινοτομούμε ελεύθερα προς όφελος σας, χωρίς να δεχόμαστε πιέσεις ώστε να συμβιβαστούμε. Αυτό έχει ως αποτέλεσμα μια καλύτερη εμπειρία για εσάς και ένα πιο λαμπερό μέλλον για τον Παγκόσμιο Ιστό.">
+<!-- Localization note (pref_use_system_font_size, pref_use_system_font_size_summary):
+     Font size here refers to the name of the corresponding Android system setting. -->
+<!ENTITY pref_use_system_font_size "Χρήση του μεγέθους γραμματοσειράς του συστήματος">
+<!ENTITY pref_use_system_font_size_summary "Κλιμάκωση περιεχομένου ιστού σύμφωνα με το μέγεθος γραμματοσειράς του συστήματος">
 
 <!ENTITY pref_media_autoplay_enabled "Αποδοχή αυτόματης αναπαραγωγής">
 <!ENTITY pref_media_autoplay_enabled_summary "Καθορίστε αν οι ιστοσελίδες θα αναπαράγουν αυτόματα βίντεο και άλλο περιεχόμενο πολυμέσων">
@@ -469,7 +469,7 @@ size. -->
 <!ENTITY save_as_pdf "Αποθήκευση ως PDF">
 <!ENTITY print "Εκτύπωση">
 <!ENTITY find_in_page "Εύρεση στη σελίδα">
-<!ENTITY desktop_mode "Αίτημα ιστοσελίδας για υπολογιστή">
+<!ENTITY desktop_mode "Εμφάν. σελίδας desktop">
 <!ENTITY page "Σελίδα">
 <!ENTITY tools "Εργαλεία">
 <!ENTITY new_tab "Νέα καρτέλα">
@@ -500,6 +500,7 @@ size. -->
 <!ENTITY contextmenu_open_private_tab "Άνοιγμα σε ιδιωτική καρτέλα">
 <!ENTITY contextmenu_remove "Αφαίρεση">
 <!ENTITY contextmenu_add_to_launcher "Προσθήκη στην αρχική οθόνη">
+<!ENTITY contextmenu_set_as_homepage "Ορισμός ως αρχική σελίδα">
 <!ENTITY contextmenu_share "Κοινή χρήση">
 <!ENTITY contextmenu_pasteandgo "Επικόλληση &amp; μετάβαση">
 <!ENTITY contextmenu_paste "Επικόλληση">
@@ -525,11 +526,6 @@ size. -->
 <!ENTITY doorhanger_login_select_action_text "Επιλέξτε άλλο στοιχείο σύνδεσης">
 <!ENTITY doorhanger_login_select_title "Αντιγραφή κωδικού από">
 
-<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
-     whether or not the magnifying glass is disabled. -->
-<!ENTITY pref_magnifying_glass_enabled "Μεγέθυνση μικρών περιοχών">
-<!ENTITY pref_magnifying_glass_enabled_summary2 "Μεγέθυνση συνδέσμων και πεδίων φόρμας κατά το άγγιγμα κοντά σε αυτά">
-
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
 <!ENTITY pref_scroll_title_bar2 "Περιήγηση πλήρους οθόνης">
@@ -552,6 +548,7 @@ size. -->
 <!ENTITY bookmark_edit_name "Όνομα">
 <!ENTITY bookmark_edit_location "Τοποθεσία">
 <!ENTITY bookmark_edit_keyword "Λέξη κλειδί">
+<!ENTITY bookmark_select_folder "Επιλογή φακέλου">
 
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
@@ -577,7 +574,7 @@ size. -->
 <!ENTITY button_clear "Εκκαθάριση">
 <!ENTITY button_copy "Αντιγραφή">
 
-<!ENTITY home_top_sites_title "Δημοφιλείς σελίδες">
+<!ENTITY home_top_sites_title "Κορυφαίες ιστοσελίδες">
 <!-- Localization note (home_top_sites_add): This string is used as placeholder
      text underneath empty thumbnails in the Top Sites page on about:home. -->
 <!ENTITY home_top_sites_add "Προσθήκη σελίδας">
@@ -739,14 +736,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY colon ":">
 
-<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
-     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
-     This format string is typically used by getString method, in such method the percent sign
-     is a reserved caracter. In order to display one percent sign in the result of getString,
-     double percent signs must be inserted in the format string.
-     This entity is used in the zoomed view to display the zoom factor-->
-<!ENTITY percent "&formatS;&#37;&#37;">
-
 <!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->
 <!ENTITY actionbar_menu "Μενού">
@@ -838,7 +827,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_message "Προσθέστε τα στοιχεία της προβολής ανάγνωσης στους σελιδοδείκτες για να τα διαβάζετε χωρίς σύνδεση.">
 <!ENTITY helper_triple_readerview_open_button "Προσθήκη στους σελιδοδείκτες">
 
-<!ENTITY activity_stream_topsites "Αγαπημένες σελίδες">
+<!ENTITY activity_stream_topsites "Κορυφαίες ιστοσελίδες">
 <!ENTITY activity_stream_highlights "Τα καλύτερα">
 
 <!-- LOCALIZATION NOTE (activity_stream_highlight_label_bookmarked): This label is shown in the Activity

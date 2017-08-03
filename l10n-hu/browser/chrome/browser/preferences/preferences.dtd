@@ -13,17 +13,16 @@
 <!ENTITY  prefWinMinSize.styleMac       "width: 52em; min-height: 40em;">
 <!ENTITY  prefWinMinSize.styleGNOME     "width: 52em; min-height: 40.5em;">
 
-<!ENTITY  paneGeneral.title       "Általános">
-<!ENTITY  paneTabs.title          "Lapok">
-<!ENTITY  paneSearch.title        "Keresés">
-<!ENTITY  paneContent.title       "Tartalom">
-<!ENTITY  paneApplications.title  "Alkalmazások">
-<!ENTITY  panePrivacy.title       "Adatvédelem">
-<!ENTITY  paneContainers.title    "Konténer lapok">
-<!ENTITY  paneSecurity.title      "Biztonság">
-<!ENTITY  paneAdvanced.title      "Speciális">
-<!-- LOCALIZATION NOTE (paneSync.title): This should match syncBrand.shortName.label in ../syncBrand.dtd -->
+<!ENTITY  paneSearchResults.title       "Találatok">
+<!ENTITY  paneGeneral.title             "Általános">
+<!ENTITY  paneFilesApplications.title   "Fájlok és alkalmazások">
+<!ENTITY  panePrivacySecurity.title     "Adatvédelem és biztonság">
+<!ENTITY  paneContainers.title          "Konténer lapok">
+<!ENTITY  paneUpdates.title             "Frissítések">
+<!-- LOCALIZATION NOTE (paneSync1.title): This should match syncBrand.fxAccount.label in ../syncBrand.dtd -->
 
-<!ENTITY  paneSync.title          "Sync">
+<!ENTITY  paneSync1.title          "Firefox fiók">
 
-<!ENTITY  helpButton.label        "Súgó">
+<!ENTITY  helpButton2.label        "&brandShortName; támogatás">
+
+<!ENTITY  searchInput.label        "Keresés">

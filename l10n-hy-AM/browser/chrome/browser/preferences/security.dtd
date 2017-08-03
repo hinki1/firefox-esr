@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  general.label                 "Գլխավոր">
+<!ENTITY  security.label                 "Անվտանգուրյուն">
 
 <!ENTITY  warnOnAddonInstall.label        "Զգուշացնել, երբ կայքերը փորձում են տեղադրել հավելումներ">
 <!ENTITY  warnOnAddonInstall.accesskey    "Զ">
@@ -24,10 +24,10 @@
 <!ENTITY  addonExceptions.accesskey     "Բ">
 
 
-<!ENTITY  logins.label                  "Մուտքաանուններ">
+<!ENTITY  formsAndPasswords.label       "Ձևեր և գաղտնաբառեր">
 
-<!ENTITY  rememberLogins.label          "Հիշել մուտքանունները կայքերի համար">
-<!ENTITY  rememberLogins.accesskey      "Հ">
+<!ENTITY  rememberLogins1.label          "Հիշել մուտքագրումները և գաղտնաբառերը կայքերի համար">
+<!ENTITY  rememberLogins1.accesskey      "Հ">
 <!ENTITY  passwordExceptions.label      "Բացառություններ…">
 <!ENTITY  passwordExceptions.accesskey  "ա">
 

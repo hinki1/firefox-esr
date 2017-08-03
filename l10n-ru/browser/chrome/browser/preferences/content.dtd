@@ -21,10 +21,10 @@
 
 <!ENTITY  fontsAndColors.label        "Шрифты и цвета">
 
-<!ENTITY  defaultFont.label           "Шрифт по умолчанию:">
-<!ENTITY  defaultFont.accesskey       "ф">
-<!ENTITY  defaultSize.label           "Размер:">
-<!ENTITY  defaultSize.accesskey       "м">
+<!ENTITY  defaultFont2.label          "Шрифт по умолчанию">
+<!ENTITY  defaultFont2.accesskey      "ф">
+<!ENTITY  defaultSize2.label          "Размер">
+<!ENTITY  defaultSize2.accesskey      "м">
 
 <!ENTITY  advancedFonts.label         "Дополнительно…">
 <!ENTITY  advancedFonts.accesskey     "н">

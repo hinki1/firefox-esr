@@ -85,18 +85,11 @@
 ">
 
 <!ENTITY contentEncodingError.title "Erreur d’encodage de contenu">
-<!ENTITY contentEncodingError.longDesc "
-<ul>
-  <li>Veuillez contacter les propriétaires du site web pour les informer de ce problème.</li>
-</ul>
+<!ENTITY contentEncodingError.longDesc "<ul><li>Veuillez contacter les propriétaires du site web pour les informer de ce problème.</li></ul>
 ">
 
 <!ENTITY unsafeContentType.title "Type de fichier non sûr">
-<!ENTITY unsafeContentType.longDesc "
-<ul>
-  <li>Veuillez contacter les propriétaires du site web pour les informer de ce problème.</li>
-</ul>
-">
+<!ENTITY unsafeContentType.longDesc "<ul><li>Veuillez contacter les propriétaires du site web pour les informer de ce problème.</li></ul>">
 
 <!ENTITY netReset.title "La connexion a été réinitialisée">
 <!ENTITY netReset.longDesc2 "&sharedLongDesc3;">
@@ -153,8 +146,7 @@
 <!ENTITY nssFailure2.title "Échec de la connexion sécurisée">
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>La page que vous essayez de consulter ne peut pas être affichée car l’authenticité des données reçues
-ne peut être vérifiée.</li>
+  <li>La page que vous essayez de consulter ne peut pas être affichée car l’authenticité des données reçues ne peut être vérifiée.</li>
   <li>Veuillez contacter les propriétaires du site web pour les informer de ce problème.</li>
 </ul>
 ">

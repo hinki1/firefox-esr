@@ -1,0 +1,32 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- LOCALIZATION NOTE the term "url-classifier" should not be translated. -->
+
+<!ENTITY aboutUrlClassifier.pageTitle                   "Titouroù a-zivout an url-classifier">
+<!ENTITY aboutUrlClassifier.providerTitle               "Pourchaser">
+<!ENTITY aboutUrlClassifier.provider                    "Pourchaser">
+<!ENTITY aboutUrlClassifier.providerLastUpdateTime      "Deiziad an hizivadenn ziwezhañ">
+<!ENTITY aboutUrlClassifier.providerNextUpdateTime      "Deiziad hizivadenn a-zeu">
+<!ENTITY aboutUrlClassifier.providerLastUpdateStatus    "Statud hizivadenn ziwezhañ">
+<!ENTITY aboutUrlClassifier.providerUpdateBtn           "Hizivaat">
+<!ENTITY aboutUrlClassifier.cacheTitle                  "Krubuilh">
+<!ENTITY aboutUrlClassifier.cacheRefreshBtn             "Azgrenaat">
+<!ENTITY aboutUrlClassifier.cacheClearBtn               "Skarzhañ">
+<!ENTITY aboutUrlClassifier.cacheTableName              "Anv taolenn">
+<!ENTITY aboutUrlClassifier.cacheNCacheEntries          "Niver a enankadoù krubuilh leiel">
+<!ENTITY aboutUrlClassifier.cachePCacheEntries          "Niver a enankadoù krubuilh muiel">
+<!ENTITY aboutUrlClassifier.cacheShowEntries            "Diskouez an enankadoù">
+<!ENTITY aboutUrlClassifier.cacheEntries                "Enankadoù krubuilh">
+<!ENTITY aboutUrlClassifier.cachePrefix                 "Rakger">
+<!ENTITY aboutUrlClassifier.cacheNCacheExpiry           "Diamzeradur krubuilh leiel">
+<!ENTITY aboutUrlClassifier.cacheFullhash               "Linennaoueg leun">
+<!ENTITY aboutUrlClassifier.cachePCacheExpiry           "Diamzeradur krubuilh muiel">
+<!ENTITY aboutUrlClassifier.debugTitle                  "Diveugañ">
+<!ENTITY aboutUrlClassifier.debugModuleBtn              "Arventennañ molladoù ar c'herzhlevr">
+<!ENTITY aboutUrlClassifier.debugFileBtn                "Lakaat ar restr kerzhlevr">
+<!ENTITY aboutUrlClassifier.debugJSLogChk               "Arventennañ ar c'herzhlevr JS">
+<!ENTITY aboutUrlClassifier.debugSBModules              "Molladoù kerzhlevr merdeiñ diogel">
+<!ENTITY aboutUrlClassifier.debugModules                "Molladoù kerzhlevr bremanel">
+<!ENTITY aboutUrlClassifier.debugSBJSModules            "Kerzhlevr JS ar merdeiñ diogel">
+<!ENTITY aboutUrlClassifier.debugFile                   "Restr kerzhlevr bremanel">

@@ -23,9 +23,7 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Uporabljaj gladko drsenje">
 <!ENTITY useSmoothScrolling.accesskey    "g">
-<!ENTITY allowHWAccel.label              "Uporabljaj strojno pospeševanje, ko je na voljo">
-<!ENTITY allowHWAccel.accesskey          "U">
-<!ENTITY checkUserSpelling.label         "Preverjajte črkovanje med vnašanjem">
+<!ENTITY checkUserSpelling.label         "Preverjaj črkovanje med tipkanjem">
 <!ENTITY checkUserSpelling.accesskey     "v">
 
 <!ENTITY dataChoicesTab.label            "Podatkovne možnosti">
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Posodobitve">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "Posodobitve &brandShortName;a">
-<!ENTITY updateAuto1.label               "Samodejno nameščaj posodobitve (priporočeno za večjo varnost)">
-<!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateCheckChoose.label         "Preverjaj posodobitve, vendar prepusti odločitev o nameščanju">
-<!ENTITY updateCheckChoose.accesskey     "r">
-<!ENTITY updateManual.label              "Nikoli ne preverjaj posodobitev (ni priporočeno zaradi varnosti)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Različica ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "&brandShortName; naj">
+<!ENTITY updateAuto2.label               "Samodejno namešča posodobitve (priporočeno za večjo varnost)">
+<!ENTITY updateAuto2.accesskey           "p">
+<!ENTITY updateCheckChoose2.label        "Preverja posodobitve, vendar vam prepusti odločitev o nameščanju">
+<!ENTITY updateCheckChoose2.accesskey    "o">
+<!ENTITY updateManual2.label             "Nikoli ne preverja posodobitev (ni priporočeno)">
+<!ENTITY updateManual2.accesskey         "N">
 
-<!ENTITY updateHistory.label             "Zgodovina posodobitev">
-<!ENTITY updateHistory.accesskey         "Z">
+<!ENTITY updateHistory2.label            "Prikaži zgodovino posodobitev …">
+<!ENTITY updateHistory2.accesskey        "z">
 
 <!ENTITY useService.label                "Uporabi storitev za nameščanje posodobitev v ozadju">
 <!ENTITY useService.accesskey            "s">
 
-<!ENTITY autoUpdateOthers.label          "Samodejno posodabljaj">
-<!ENTITY enableSearchUpdate.label        "Iskalnike">
-<!ENTITY enableSearchUpdate.accesskey    "I">
+<!ENTITY enableSearchUpdate2.label       "Samodejno posodabljaj iskalnike">
+<!ENTITY enableSearchUpdate2.accesskey   "i">
+
+<!ENTITY reports.label                   "Poročila">
 
 <!ENTITY offlineStorageNotify.label               "Sporoči, ko želi stran shraniti podatke za delo brez povezave">
 <!ENTITY offlineStorageNotify.accesskey           "t">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Odstrani ">
 
 <!ENTITY certificateTab.label            "Digitalna potrdila">
-<!ENTITY certPersonal.label              "Zahteve">
-<!ENTITY certPersonal.description        "Ko strežnik zahteva vaše osebno digitalno potrdilo:">
+<!ENTITY certPersonal2.description       "Ko strežnik zahteva vaše osebno digitalno potrdilo,">
 <!ENTITY selectCerts.auto                "ga izberi samodejno">
 <!ENTITY selectCerts.auto.accesskey      "s">
 <!ENTITY selectCerts.ask                 "vsakokrat vprašaj">
@@ -125,3 +136,23 @@
 <!ENTITY viewCerts.accesskey             "e">
 <!ENTITY viewSecurityDevices.label       "Varnostne naprave">
 <!ENTITY viewSecurityDevices.accesskey   "a">
+
+<!ENTITY performance.label               "Učinkovitost">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Uporabi priporočene nastavitve učinkovitosti">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Te nastavitve so prikrojene strojni opremi in operacijskemu sistemu vašega računalnika.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "p">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Več o tem">
+<!ENTITY limitContentProcessOption.label "Omejitev procesov vsebine">
+<!ENTITY limitContentProcessOption.description
+                                         "Dodatni procesi vsebine lahko pospešijo delovanje pri uporabi večjega števila zavihkov, a tudi porabijo več pomnilnika.">
+<!ENTITY limitContentProcessOption.accesskey   "O">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Število procesov vsebine je mogoče spreminjati samo v večprocesnem &brandShortName;u.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Kako izveste, ali je večprocesni način omogočen">
+<!ENTITY allowHWAccel.label              "Uporabljaj strojno pospeševanje, ko je na voljo">
+<!ENTITY allowHWAccel.accesskey          "U">

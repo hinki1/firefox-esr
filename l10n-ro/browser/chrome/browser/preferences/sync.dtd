@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey      "T">
 <!ENTITY engine.history.label       "Istoric">
 <!ENTITY engine.history.accesskey   "r">
-<!ENTITY engine.passwords.label     "Parole">
-<!ENTITY engine.passwords.accesskey "P">
+<!ENTITY engine.logins.label        "Autentificări">
+<!ENTITY engine.logins.accesskey    "L">
 <!ENTITY engine.prefs.label         "Preferințe">
 <!ENTITY engine.prefs.accesskey     "s">
 <!ENTITY engine.addons.label        "Suplimente">
@@ -19,8 +19,8 @@
 <!-- Device Settings -->
 
 <!ENTITY fxaSyncDeviceName.label       "Numele dispozitivului">
-<!ENTITY changeSyncDeviceName.label "Schimbă numele dispozitivului…">
-<!ENTITY changeSyncDeviceName.accesskey "h">
+<!ENTITY changeSyncDeviceName2.label "Schimbă numele dispozitivului">
+<!ENTITY changeSyncDeviceName2.accesskey "h">
 <!ENTITY cancelChangeSyncDeviceName.label "Renunță">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "n">
 <!ENTITY saveChangeSyncDeviceName.label "Salvează">
@@ -52,21 +52,23 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "Schimbă fotografia de profil">
 <!ENTITY verifiedManage.label        "Gestionează contul">
 <!ENTITY verifiedManage.accesskey    "o">
-<!ENTITY disconnect.label            "Deconectează-te…">
-<!ENTITY disconnect.accesskey        "D">
+<!ENTITY disconnect3.label           "Deconectează-te…">
+<!ENTITY disconnect3.accesskey       "D">
 <!ENTITY verify.label                "Verifică e-mailul">
 <!ENTITY verify.accesskey            "V">
 <!ENTITY forget.label                "Uită acest e-mail">
 <!ENTITY forget.accesskey            "F">
 
+<!ENTITY signedOut.caption            "Ia webul cu tine">
 <!ENTITY signedOut.description        "Sincronizează semnele de carte, istoricul, filele, parolele, suplimentele și preferințele pe toate dispozitivele.">
 <!ENTITY signedOut.accountBox.title   "Conectează-te cu un &syncBrand.fxAccount.label;">
-
+<!ENTITY signedOut.accountBox.create  "Creează cont">
 <!ENTITY signedOut.accountBox.create.accesskey  "C">
-
+<!ENTITY signedOut.accountBox.signin  "Autentifică-te">
 <!ENTITY signedOut.accountBox.signin.accesskey  "I">
 
-<!ENTITY signedIn.engines.label       "Sincronizează pe toate dispozitivele">
+<!ENTITY signedIn.settings.label       "Setări de sincronizare">
+<!ENTITY signedIn.settings.description "Alege ce să sincronizezi pe dispozitive folosind &brandShortName;.">
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.
      The resulting sentence in English is: "Download Firefox for

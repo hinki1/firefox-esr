@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey      "س">
 <!ENTITY engine.history.label       "تأريخي">
 <!ENTITY engine.history.accesskey   "خ">
-<!ENTITY engine.passwords.label     "كلمات السر">
-<!ENTITY engine.passwords.accesskey "ر">
+<!ENTITY engine.logins.label        "جلسات الولوج">
+<!ENTITY engine.logins.accesskey    "س">
 <!ENTITY engine.prefs.label         "تفضيلاتي">
 <!ENTITY engine.prefs.accesskey     "ض">
 <!ENTITY engine.addons.label        "الإضافات">
@@ -19,8 +19,8 @@
 <!-- Device Settings -->
 
 <!ENTITY fxaSyncDeviceName.label       "اسم الجهاز">
-<!ENTITY changeSyncDeviceName.label "غيّر اسم الجهاز…">
-<!ENTITY changeSyncDeviceName.accesskey "ه">
+<!ENTITY changeSyncDeviceName2.label "غيّر اسم الجهاز…">
+<!ENTITY changeSyncDeviceName2.accesskey "ه">
 <!ENTITY cancelChangeSyncDeviceName.label "ألغِ">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "ل">
 <!ENTITY saveChangeSyncDeviceName.label "احفظ">
@@ -52,8 +52,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "غيّر صورة الحساب">
 <!ENTITY verifiedManage.label        "أدِر الحساب">
 <!ENTITY verifiedManage.accesskey    "س">
-<!ENTITY disconnect.label            "اقطع الاتصال…">
-<!ENTITY disconnect.accesskey        "ط">
+<!ENTITY disconnect3.label           "اقطع الاتصال…">
+<!ENTITY disconnect3.accesskey       "ط">
 <!ENTITY verify.label                "أكّد البريد">
 <!ENTITY verify.accesskey            "ك">
 <!ENTITY forget.label                "انس هذا البريد">
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "لِج">
 <!ENTITY signedOut.accountBox.signin.accesskey  "ل">
 
-<!ENTITY signedIn.engines.label       "زامِن عبر كل الأجهزة">
+<!ENTITY signedIn.settings.label       "إعدادات المزامنة">
+<!ENTITY signedIn.settings.description "اختر مالذي تريد مزامنته على أجهزتك باستخدام &brandShortName;.">
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.
      The resulting sentence in English is: "Download Firefox for
@@ -81,6 +82,6 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY mobilePromo3.iOSBefore         " أو ">
 <!-- LOCALIZATION NOTE (mobilePromo3.iOSLink): This is a link title that links to https://www.mozilla.org/firefox/ios/ -->
-<!ENTITY mobilePromo3.iOSLink          "iOS">
+<!ENTITY mobilePromo3.iOSLink          "آي أو إس">
 
 <!ENTITY mobilePromo3.end              " للمزامنة مع هاتفك المحمول.">

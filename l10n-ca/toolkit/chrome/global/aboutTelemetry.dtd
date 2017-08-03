@@ -52,6 +52,7 @@
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "  Bloquejos de fils">
 
+<!ENTITY aboutTelemetry.capturedStacksSection "  Piles capturades">
 
 <!ENTITY aboutTelemetry.scalarsSection "  Escalars">
 
@@ -61,6 +62,7 @@
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "  Histogrames amb clau">
 
+<!ENTITY aboutTelemetry.eventsSection "  Esdeveniments">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "  Mesures senzilles">
 
@@ -78,6 +80,7 @@
 
 <!ENTITY aboutTelemetry.fullSqlWarning "  NOTA: la depuració de SQL lenta està habilitada. Es poden mostrar les cadenes SQL completes a sota però no s'enviaran per a la telemesura.">
 
+<!ENTITY aboutTelemetry.fetchStackSymbols "  Obtén els noms de les funcions per a les piles">
 
 
 <!ENTITY aboutTelemetry.filterText "  Filtra (cadenes o /regexp/)">

@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "Faire un clic droit ou cliquer en déplaçant la souris vers le bas pour afficher l’historique">
 <!ENTITY backForwardButtonMenuMac.tooltip "Cliquer tout en déplaçant la souris vers le bas pour afficher l’historique">
 <!ENTITY reloadCmd.label              "Actualiser">
-<!ENTITY reloadButton.tooltip         "Actualiser la page courante">
 <!ENTITY stopCmd.label                "Arrêter">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "Arrêter le chargement de la page">
 <!ENTITY goEndCap.tooltip             "Se rendre à la page indiquée dans la barre d’adresse">
 <!ENTITY printButton.label            "Imprimer">
 <!ENTITY printButton.tooltip          "Imprimer cette page">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Afficher la demande d’enregistrement du mot de passe">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Gérer l’utilisation du plugin">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Gérer l’envoi de notifications par le site">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Stocker des données dans le stockage persistant">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Le navigateur est contrôlé à distance">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Gérer le partage de la caméra et/ou du microphone avec ce site">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Gérer le partage du microphone avec ce site">
@@ -231,14 +231,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "Vous avez empêché ce site d’accéder à vos données de géolocalisation.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "Vous avez empêché ce site de stocker des données.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "Vous avez empêché ce site d’envoyer des notifications.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "Vous avez empêché ce site d’utiliser le stockage persistant.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Afficher l’historique">
 
-<!ENTITY urlbar.zoomReset.tooltip     "Réinitialiser le niveau de zoom">
-
 <!ENTITY searchItem.title             "Rechercher">
 
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 <!ENTITY homeButton.label             "Accueil">
 
 <!ENTITY bookmarksButton.label          "Marque-pages">
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Effacer l’historique récent…">
 <!ENTITY appMenuHistory.restoreSession.label "Restaurer la session précédente">
 <!ENTITY appMenuHistory.viewSidebar.label "Afficher le panneau de l’historique">
+<!ENTITY appMenuHelp.label "Aide">
 <!ENTITY appMenuHelp.tooltip "Ouvrir le menu d’aide">
 
 <!ENTITY appMenuRemoteTabs.label "Onglets synchronisés">
@@ -377,27 +377,44 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Préférences de synchronisation">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Connectez-vous pour afficher la liste des onglets de vos autres appareils.">
 <!ENTITY appMenuRemoteTabs.signin.label "Se connecter à Sync">
+<!ENTITY appMenuRemoteTabs.managedevices.label "Gérer les appareils…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Panneau latéral des onglets synchronisés">
 
 <!ENTITY customizeMenu.addToToolbar.label "Ajouter à la barre d’outils">
 <!ENTITY customizeMenu.addToToolbar.accesskey "A">
 <!ENTITY customizeMenu.addToPanel.label "Ajouter au menu">
 <!ENTITY customizeMenu.addToPanel.accesskey "m">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "Ajouter au menu de dépassement">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "m">
 <!ENTITY customizeMenu.moveToToolbar.label "Déplacer vers la barre d’outils">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "D">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Déplacer vers le menu">
 <!ENTITY customizeMenu.moveToPanel.accesskey "D">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "Épingler au menu de dépassement">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "n">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Retirer du menu de dépassement">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "R">
 <!ENTITY customizeMenu.removeFromToolbar.label "Retirer de la barre d’outils">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "R">
 <!ENTITY customizeMenu.removeFromMenu.label "Retirer du menu">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "R">
 <!ENTITY customizeMenu.addMoreItems.label "Ajouter plus d’éléments…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "A">
+
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+<!ENTITY moreMenu.label "Plus">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Saisir un terme à rechercher ou une adresse">
@@ -414,7 +431,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.enable "Oui">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "O">
 
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Suggestion :">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "obtenez de l’aide pour vos recherches : repérez l’icône &#x1F50E; à côté des suggestions de recherche.">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "Modifier les options…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "M">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "Modifier les préférences…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "M">
+
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -526,6 +552,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "M">
 <!ENTITY bookmarkThisFrameCmd.label      "Marque-page sur ce cadre">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "M">
+<!ENTITY copyURLCmd.label             "Copier l’adresse web">
 <!ENTITY emailPageCmd.label           "Envoyer par courriel un lien vers la page…">
 <!ENTITY emailPageCmd.accesskey       "c">
 <!ENTITY savePageCmd.label            "Enregistrer sous…">
@@ -651,6 +678,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.accesskey             "Z">
 
 <!ENTITY sidebarCloseButton.tooltip     "Fermer le panneau latéral">
+<!ENTITY sidebarMenuClose.label         "Fermer le panneau latéral">
 
 <!ENTITY quitApplicationCmdWin2.label       "Quitter">
 <!ENTITY quitApplicationCmdWin2.accesskey   "Q">
@@ -660,8 +688,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Quitter"> 
 <!ENTITY quitApplicationCmd.accesskey   "Q">
 <!ENTITY quitApplicationCmdMac2.label   "Quitter &brandShorterName;">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
+<!ENTITY quitApplicationCmd.key         "Q">
 
 <!ENTITY closeCmd.label                 "Fermer">  
 <!ENTITY closeCmd.key                   "W">  
@@ -713,11 +740,12 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Cette page est stockée sur votre ordinateur.">
 <!ENTITY identity.connectionVerified2 "Votre connexion à ce site est sécurisée. Son détenteur est :">
 <!ENTITY identity.connectionInternal "Ceci est une page sécurisée de &brandShortName;.">
+<!ENTITY identity.extensionPage "Cette page a été chargée depuis une extension.">
 <!ENTITY identity.insecureLoginForms2 "Les identifiants saisis sur cette page pourraient être compromis.">
 
 <!-- Strings for connection state warnings. -->
 <!ENTITY identity.activeBlocked "&brandShortName; a bloqué des éléments non sécurisés sur cette page.">
-<!ENTITY identity.passiveLoaded "Des éléments de cette page ne sont pas sécurisés (tels que des images).">
+<!ENTITY identity.passiveLoaded "Des éléments de la page ne sont pas sécurisés (tels que des images).">
 <!ENTITY identity.activeLoaded "Vous avez désactivé la protection sur cette page.">
 <!ENTITY identity.weakEncryption "Cette page utilise un faible niveau de chiffrement.">
 
@@ -785,6 +813,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "Tout ouvrir dans des onglets">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "T">
+<!ENTITY syncedTabs.context.managedevices.label              "Gérer les appareils…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "G">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">
@@ -809,8 +839,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "Besoin d’encore plus d’outils ?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Faites votre choix parmi des milliers de modules complémentaires">
 <!ENTITY customizeMode.restoreDefaults "Configuration par défaut">
-<!ENTITY customizeMode.toolbars "Afficher/Masquer les barres d’outils">
+<!ENTITY customizeMode.done "Terminé">
 <!ENTITY customizeMode.titlebar "Barre de titre">
+<!ENTITY customizeMode.toolbars2 "Barres d’outils">
 <!ENTITY customizeMode.lwthemes "Thèmes">
 <!ENTITY customizeMode.lwthemes.myThemes "Mes thèmes">
 <!ENTITY customizeMode.lwthemes.recommended "Recommandés">
@@ -899,3 +930,36 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "En savoir plus sur les DRM…">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+<!ENTITY updateAvailable.message "Mettez à jour votre version de &brandShorterName; pour bénéficier des dernières améliorations en matière de sécurité et de vie privée.">
+<!ENTITY updateAvailable.whatsnew.label "Découvrez les nouveautés.">
+<!ENTITY updateAvailable.header.message "Une nouvelle mise à jour de &brandShorterName; est disponible.">
+<!ENTITY updateAvailable.acceptButton.label "Télécharger la mise à jour">
+<!ENTITY updateAvailable.acceptButton.accesskey "T">
+<!ENTITY updateAvailable.cancelButton.label "Plus tard">
+<!ENTITY updateAvailable.cancelButton.accesskey "P">
+<!ENTITY updateAvailable.panelUI.label "Télécharger la mise à jour de &brandShorterName;">
+
+<!ENTITY updateManual.message "Téléchargez à nouveau &brandShorterName; et nous pourrons vous guider pour l’installer.">
+<!ENTITY updateManual.whatsnew.label "Découvrez les nouveautés.">
+<!ENTITY updateManual.header.message "&brandShorterName; ne peut pas être mis à jour vers la version la plus récente.">
+<!ENTITY updateManual.acceptButton.label "Télécharger &brandShorterName;">
+<!ENTITY updateManual.acceptButton.accesskey "T">
+<!ENTITY updateManual.cancelButton.label "Plus tard">
+<!ENTITY updateManual.cancelButton.accesskey "P">
+<!ENTITY updateManual.panelUI.label "Télécharger &brandShorterName; à nouveau">
+
+<!ENTITY updateRestart.message "Après un rapide redémarrage, &brandShorterName; restaurera l’ensemble de vos fenêtres et onglets ouverts.">
+<!ENTITY updateRestart.header.message2 "Redémarrez pour mettre à jour &brandShorterName;.">
+<!ENTITY updateRestart.acceptButton.label "Redémarrer et restaurer">
+<!ENTITY updateRestart.acceptButton.accesskey "R">
+<!ENTITY updateRestart.cancelButton.label "Plus tard">
+<!ENTITY updateRestart.cancelButton.accesskey "P">
+<!ENTITY updateRestart.panelUI.label2 "Redémarrer pour mettre à jour &brandShorterName;">
+
+<!ENTITY pageActionButton.tooltip "Actions de la page">
+
+<!ENTITY sendToDevice.label "Envoyer à un appareil…">
+<!ENTITY sendToDevice.viewTitle "Envoyer à un appareil">
+<!ENTITY sendToDevice.fxaRequired.label "Requis">
+<!ENTITY sendToDevice.noDevices.label "Aucun appareil disponible">

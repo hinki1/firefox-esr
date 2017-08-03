@@ -49,7 +49,7 @@
 <!ENTITY viewMenu_toggleEditor_accesskey "E">
 <!ENTITY viewMenu_zoomin_label "Yaklaştır">
 <!ENTITY viewMenu_zoomin_accesskey "Y">
-<!ENTITY viewMenu_zoomout_label "Uzaklaștır">
+<!ENTITY viewMenu_zoomout_label "Uzaklaştır">
 <!ENTITY viewMenu_zoomout_accesskey "U">
 <!ENTITY viewMenu_resetzoom_label "Yaklaşmayı sıfırla">
 <!ENTITY viewMenu_resetzoom_accesskey "s">
@@ -134,7 +134,7 @@
 <!ENTITY prefs_options_autocomplete_tooltip "Kodları otomatik tamamlamayı etkinleştir">
 <!ENTITY prefs_options_autoclosebrackets "Parantezleri otomatik kapat">
 <!ENTITY prefs_options_autoclosebrackets_tooltip "Kapatma parantezlerini otomatik ekle">
-<!ENTITY prefs_options_keybindings "Tuş kısayolları">
+<!ENTITY prefs_options_keybindings "Kısayol tuşları">
 <!ENTITY prefs_options_keybindings_default "Varsayılan">
 <!ENTITY prefs_options_autosavefiles "Dosyaları otomatik kaydet">
 <!ENTITY prefs_options_autosavefiles_tooltip "Düzenlenen dosyaları projeyi çalıştırmadan önce kendiliğinden kaydeder">
@@ -150,7 +150,7 @@
 
 <!-- Device Preferences and Settings -->
 <!ENTITY device_typeboolean "Boolean">
-<!ENTITY device_typenumber "Tamsayı">
+<!ENTITY device_typenumber "Tam sayı">
 <!ENTITY device_typestring "Dizgi">
 <!ENTITY device_typeobject "Nesne">
 <!ENTITY device_typenone "Tür seçin">

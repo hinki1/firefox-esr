@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey      "V">
 <!ENTITY engine.history.label       "Keçmiș">
 <!ENTITY engine.history.accesskey   "i">
-<!ENTITY engine.passwords.label     "Parollar">
-<!ENTITY engine.passwords.accesskey "P">
+<!ENTITY engine.logins.label        "Daxil olmalar">
+<!ENTITY engine.logins.accesskey    "L">
 <!ENTITY engine.prefs.label         "Nizamlamalar">
 <!ENTITY engine.prefs.accesskey     "l">
 <!ENTITY engine.addons.label        "Əlavələr">
@@ -19,8 +19,8 @@
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Cihaz Adı">
-<!ENTITY changeSyncDeviceName.label "Cihaz adını dəyişdir…">
-<!ENTITY changeSyncDeviceName.accesskey "h">
+<!ENTITY changeSyncDeviceName2.label "Cihaz adını dəyişdir…">
+<!ENTITY changeSyncDeviceName2.accesskey "h">
 <!ENTITY cancelChangeSyncDeviceName.label "Ləğv et">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "n">
 <!ENTITY saveChangeSyncDeviceName.label "Saxla">
@@ -52,8 +52,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "Profil şəklini dəyiş">
 <!ENTITY verifiedManage.label        "Hesabı idarə et">
 <!ENTITY verifiedManage.accesskey    "o">
-<!ENTITY disconnect.label            "Bağlantını kəs…">
-<!ENTITY disconnect.accesskey        "D">
+<!ENTITY disconnect3.label           "Ayrıl…">
+<!ENTITY disconnect3.accesskey       "D">
 <!ENTITY verify.label                "E-poçtu təsdiqlə">
 <!ENTITY verify.accesskey            "V">
 <!ENTITY forget.label                "Bu e-poçtu yaddan çıxart">
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "Daxil ol">
 <!ENTITY signedOut.accountBox.signin.accesskey  "I">
 
-<!ENTITY signedIn.engines.label       "Bütün cihazlarda sinxronlaşdır">
+<!ENTITY signedIn.settings.label       "Sync Tənzimləmələri">
+<!ENTITY signedIn.settings.description "&brandShortName; işlədən cihazlarınızda nələrin sinxronlaşacağını seçin.">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

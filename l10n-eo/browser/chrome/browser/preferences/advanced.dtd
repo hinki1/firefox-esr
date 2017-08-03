@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Uzi glatan ŝovadon">
 <!ENTITY useSmoothScrolling.accesskey    "g">
-<!ENTITY allowHWAccel.label              "Uzi aparatan akceladon se tio disponeblas">
-<!ENTITY allowHWAccel.accesskey          "d">
 <!ENTITY checkUserSpelling.label         "Kontroli literumadon dum tajpado">
 <!ENTITY checkUserSpelling.accesskey     "t">
 
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Ĝisdatigi">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "Ĝisdatigoj de &brandShortName;">
-<!ENTITY updateAuto1.label               "Aŭtomate instali ĝisdatigojn (rekomendita por via sekureco)">
-<!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateCheckChoose.label         "Kontroli ĉu estas ĝisdatigoj, sed permesi al vi elekti kiam instali ilin">
-<!ENTITY updateCheckChoose.accesskey     "K">
-<!ENTITY updateManual.label              "Neniam kontroli ĉu estas ĝisdatigoj (ne rekomendita: sekureca risko)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Versio ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Permesi al &brandShortName;">
+<!ENTITY updateAuto2.label               "Aŭtomate instali ĝisdatigojn (konsilinda por plibonigi sekurecon)">
+<!ENTITY updateAuto2.accesskey           "A">
+<!ENTITY updateCheckChoose2.label        "Kontroli ĉu estas ĝisdatigoj, sed ebligi al uzanto elekti ĉu ilin instali">
+<!ENTITY updateCheckChoose2.accesskey    "K">
+<!ENTITY updateManual2.label             "Neniam kontroli ĉu estas ĝisdatigoj (malkonsilinda)">
+<!ENTITY updateManual2.accesskey         "N">
 
-<!ENTITY updateHistory.label             "Montri la historion de ĝisdatigoj">
-<!ENTITY updateHistory.accesskey         "M">
+<!ENTITY updateHistory2.label            "Montri historion de ĝisdatigoj…">
+<!ENTITY updateHistory2.accesskey        "M">
 
 <!ENTITY useService.label                "Uzi fonan servon por instali ĝisdatigojn">
 <!ENTITY useService.accesskey            "f">
 
-<!ENTITY autoUpdateOthers.label          "Aŭtomate ĝisdatigi">
-<!ENTITY enableSearchUpdate.label        "Serĉilojn">
-<!ENTITY enableSearchUpdate.accesskey    "S">
+<!ENTITY enableSearchUpdate2.label       "Aŭtomate ĝisdatigi serĉilojn">
+<!ENTITY enableSearchUpdate2.accesskey   "t">
+
+<!ENTITY reports.label                   "Raportoj">
 
 <!ENTITY offlineStorageNotify.label               "Diri al mi kiam retejoj petas konservi datumojn por uzi malkonektite">
 <!ENTITY offlineStorageNotify.accesskey           "r">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Forigi malkonektitaĵojn">
 
 <!ENTITY certificateTab.label            "Atestiloj">
-<!ENTITY certPersonal.label              "Petoj">
-<!ENTITY certPersonal.description        "Kiam servilo petas vian personan atestilon:">
+<!ENTITY certPersonal2.description       "Kiam servilo petas vian personan atestilon">
 <!ENTITY selectCerts.auto                "Aŭtomate elekti unu">
 <!ENTITY selectCerts.auto.accesskey      "A">
 <!ENTITY selectCerts.ask                 "Demandi ĉiufoje">
@@ -125,3 +136,23 @@
 <!ENTITY viewCerts.accesskey             "a">
 <!ENTITY viewSecurityDevices.label       "Sekurecaj aparatoj">
 <!ENTITY viewSecurityDevices.accesskey   "s">
+
+<!ENTITY performance.label               "Efikeco">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Uzi konsilindajn efikecajn agordojn">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Tiuj ĉi agordoj estas alĝustigitaj al la mastruma sistemo kaj aparataro de via komputilo.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "T">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Pli da informo">
+<!ENTITY limitContentProcessOption.label "Maksimuma nombro de enhavaj taskoj">
+<!ENTITY limitContentProcessOption.description
+                                         "Pli da enhavaj taskoj povas plibonigi efikecon dum uzo de pluraj langetoj, sed ili ankaŭ uzos pli da memoro.">
+<!ENTITY limitContentProcessOption.accesskey   "P">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Nur eblas modifi la nombron de enhavaj taskoj en plurproceza &brandShortName;.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Informo pri kiel eltrovi ĉu plurprocezo estas aktiva">
+<!ENTITY allowHWAccel.label              "Uzi aparatan akceladon se tio disponeblas">
+<!ENTITY allowHWAccel.accesskey          "d">

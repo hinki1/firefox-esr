@@ -2,6 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  applications.label       "பயன்பாடுகள்">
+<!ENTITY  applications.description "நீங்கள் உலாவும்பொருட்டு இணையத்திலிருந்தும் பயன்பாடுகளிலிருந்தும் பதிவிற்க்கும் கோப்புகளை &brandShortName; உலாவி எவ்வாறு செயல்பட வேண்டும் என்பதைத் தேர்.">
+
 <!ENTITY  typeColumn.label        "உள்ளடக்க வகை">
 <!ENTITY  typeColumn.accesskey    "T">
 
@@ -11,4 +14,4 @@
 <!ENTITY  focusSearch1.key        "f">
 <!ENTITY  focusSearch2.key        "k">
 
-<!ENTITY  filter.emptytext        "தேடு">
+<!ENTITY  filter2.emptytext        "கோப்பு வகைகளுக்காக (அ) பயன்பாடுகளுக்காகத் தேடுங்கள்">

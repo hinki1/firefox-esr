@@ -14,7 +14,7 @@
 <!-- LOCALIZATION NOTE (abouthome.defaultSnippet1.v1):
      text in <a/> will be linked to the Firefox features page on mozilla.com
 -->
-<!ENTITY abouthome.defaultSnippet1.v1 "ขอบคุณที่เลือก Firefox! เพื่อรับประโยชน์สูงสุดจากเบราว์เซอร์ของคุณ เรียนรู้เพิ่มเติมเกี่ยวกับ<a>คุณลักษณะล่าสุด</a>">
+<!ENTITY abouthome.defaultSnippet1.v1 "ขอบคุณที่เลือก Firefox! เพื่อรับประโยชน์สูงสุดจากเบราว์เซอร์ของคุณ เรียนรู้เพิ่มเติมเกี่ยวกับ <a>คุณลักษณะล่าสุด</a>">
 <!-- LOCALIZATION NOTE (abouthome.defaultSnippet2.v1):
      text in <a/> will be linked to the featured add-ons on addons.mozilla.org
 -->
@@ -29,7 +29,7 @@
 <!ENTITY abouthome.preferencesButtonWin.label  "ตัวเลือก">
 <!-- LOCALIZATION NOTE (abouthome.preferencesButtonUnix.label): The label for the
      preferences/options item on about:home on Linux and OS X -->
-<!ENTITY abouthome.preferencesButtonUnix.label  "การตั้งค่า">
+<!ENTITY abouthome.preferencesButtonUnix.label  "ค่ากำหนด">
 <!ENTITY abouthome.addonsButton.label    "ส่วนเสริม">
 <!ENTITY abouthome.downloadsButton.label "ดาวน์โหลด">
 <!ENTITY abouthome.syncButton.label      "&syncBrand.shortName.label;">

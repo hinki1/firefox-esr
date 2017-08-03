@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "Tarixçəni göstərmək üçün sağ klikləyin və ya aşağı çəkin">
 <!ENTITY backForwardButtonMenuMac.tooltip "Tarixçəni göstərmək üçün aşağı çəkin">
 <!ENTITY reloadCmd.label              "Yenilə">
-<!ENTITY reloadButton.tooltip         "Hazırki səhifəni yenilə">
 <!ENTITY stopCmd.label                "Dayan">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "Səhifəni yeniləməyi dayandır">
 <!ENTITY goEndCap.tooltip             "Ünvan Sətrindəki ünvanı aç">
 <!ENTITY printButton.label            "Çap Et">
 <!ENTITY printButton.tooltip          "Bu səhifəni çap et">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Parolu saxlama mesaj panelini aç">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Qoşma istifadəsini idarə et">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Saytdan bildiriş alıb alamayacağınızı dəyişdirin">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Qalıcı Yaddaşda məlumat saxlama">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Səyyah uzaqdan idarədədir">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Kamera və/və ya mikrofonu saytla paylaşmağınızı idarə edin">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Mikrofonu saytla paylaşmağınızı idarə edin">
@@ -231,14 +231,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "Bu sayt üçün məkan məlumatlarını bloklamısınız.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "Bu sayt üçün məlumat saxlanmasını bloklamısınız.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "Bu sayt üçün bildirişləri bloklamısınız.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "Bu sayt üçün qalıcı yaddaşı bloklamısınız.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Tarixçəni göstər">
 
-<!ENTITY urlbar.zoomReset.tooltip     "Yaxınlaşdırma ölçüsünü sıfırlayın">
-
 <!ENTITY searchItem.title             "Axtar">
 
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 <!ENTITY homeButton.label             "Ev">
 
 <!ENTITY bookmarksButton.label          "Əlfəcinlər">
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Son Tarixçəni Təmizlə…">
 <!ENTITY appMenuHistory.restoreSession.label "Əvvəlki Seansı Bərpa et">
 <!ENTITY appMenuHistory.viewSidebar.label "Tarixçə yan panelini göstər">
+<!ENTITY appMenuHelp.label "Kömək">
 <!ENTITY appMenuHelp.tooltip "Kömək Menyusunu Aç">
 
 <!ENTITY appMenuRemoteTabs.label "Sinxron Vərəqlər">
@@ -377,27 +377,44 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Sync Nizamlamaları">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Digər cihazlarınızdakı vərəqlərin siyahısını görmək üçün daxil olun.">
 <!ENTITY appMenuRemoteTabs.signin.label "Sync-ə Daxil ol">
+<!ENTITY appMenuRemoteTabs.managedevices.label "Cihazları İdarə et…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Sinxronlaşdırılmış vərəqlər yan panelini göstər">
 
 <!ENTITY customizeMenu.addToToolbar.label "Alət Sətrinə Əlavə et">
 <!ENTITY customizeMenu.addToToolbar.accesskey "l">
 <!ENTITY customizeMenu.addToPanel.label "Menyuya Əlavə et">
 <!ENTITY customizeMenu.addToPanel.accesskey "M">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "Daşma Menyusuna əlavə et">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "M">
 <!ENTITY customizeMenu.moveToToolbar.label "Alət sətrinə daşı">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "d">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Menyuya daşı">
 <!ENTITY customizeMenu.moveToPanel.accesskey "a">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "Daşma Menyusuna bərkid">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "P">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Daşma Menyusundan çıxart">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "U">
 <!ENTITY customizeMenu.removeFromToolbar.label "Alət sətrindən Sil">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "S">
 <!ENTITY customizeMenu.removeFromMenu.label "Menyudan Sil">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "S">
 <!ENTITY customizeMenu.addMoreItems.label "Daha çox element Əlavə et…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "a">
+
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+<!ENTITY moreMenu.label "Ətraflı">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Ünvanı daxil et və ya axtar">
@@ -414,7 +431,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.enable "Hə">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "y">
 
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Məsləhət:">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "Axtarışla bağlı kömək əldə edin! Axtarış təkliflərinin yanındakı &#x1F50E; işarəsi üçün baxın.">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "Seçimləri Dəyişdir…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "C">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "Nizamlamaları Dəyişdir…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "C">
+
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -526,6 +552,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "K">
 <!ENTITY bookmarkThisFrameCmd.label      "Bu Çərçivəni Əlfəcinlə">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "Ə">
+<!ENTITY copyURLCmd.label             "URL Köçür">
 <!ENTITY emailPageCmd.label           "Keçidi e-poçt ilə göndər…">
 <!ENTITY emailPageCmd.accesskey       "K">
 <!ENTITY savePageCmd.label            "Fərqli saxla…">
@@ -651,6 +678,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.accesskey             "Y">
 
 <!ENTITY sidebarCloseButton.tooltip     "Yan paneli qapa">
+<!ENTITY sidebarMenuClose.label         "Yan paneli qapat">
 
 <!ENTITY quitApplicationCmdWin2.label       "Çıxış">
 <!ENTITY quitApplicationCmdWin2.accesskey   "ı">
@@ -660,8 +688,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Çıx"> 
 <!ENTITY quitApplicationCmd.accesskey   "x">
 <!ENTITY quitApplicationCmdMac2.label   "&brandShorterName; səyyahını tərk et">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
 
 <!ENTITY closeCmd.label                 "Qapat">  
 <!ENTITY closeCmd.key                   "W">  
@@ -713,6 +739,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Bu səhifə sizin kompüterinizdə saxlanıb.">
 <!ENTITY identity.connectionVerified2 "Bu sayta təhlükəsiz qoşulmusunuz, sayt sahibi:">
 <!ENTITY identity.connectionInternal "Bu səhifə təhlükəsiz bir &brandShortName; səhifəsidir.">
+<!ENTITY identity.extensionPage "Bu səhifə qoşmadan yüklənib.">
 <!ENTITY identity.insecureLoginForms2 "Bu səhifədə girilən məlumatlar oğurlana bilər.">
 
 <!-- Strings for connection state warnings. -->
@@ -785,6 +812,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "Hamısını Vərəqlərdə aç">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "O">
+<!ENTITY syncedTabs.context.managedevices.label              "Cihazları İdarə et…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "D">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">
@@ -809,8 +838,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "Daha çox alət lazımdır?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Minlərlə əlavələrdən seç">
 <!ENTITY customizeMode.restoreDefaults "İlkin Seçənəkləri Bərpa et">
-<!ENTITY customizeMode.toolbars "Alət Sətrini Göstər / Gizlə">
+<!ENTITY customizeMode.done "Tamamlandı">
 <!ENTITY customizeMode.titlebar "Başlıq Paneli">
+<!ENTITY customizeMode.toolbars2 "Alət sətirləri">
 <!ENTITY customizeMode.lwthemes "Mövzular">
 <!ENTITY customizeMode.lwthemes.myThemes "Mövzularım">
 <!ENTITY customizeMode.lwthemes.recommended "Tövsiyyə edilən">
@@ -899,3 +929,36 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "DRM haqqında ətraflı öyrən…">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+<!ENTITY updateAvailable.message "Sürət və məxfilikdə son yeniliklər üçün &brandShorterName; səyyahınızı yeniləyin.">
+<!ENTITY updateAvailable.whatsnew.label "Yeniliklərə baxın.">
+<!ENTITY updateAvailable.header.message "Yeni &brandShorterName; yeniləməsi mövcuddur.">
+<!ENTITY updateAvailable.acceptButton.label "Yeniləməni Endir">
+<!ENTITY updateAvailable.acceptButton.accesskey "D">
+<!ENTITY updateAvailable.cancelButton.label "Başqa Vaxt">
+<!ENTITY updateAvailable.cancelButton.accesskey "N">
+<!ENTITY updateAvailable.panelUI.label "&brandShorterName; yeniləməsini endir">
+
+<!ENTITY updateManual.message "&brandShorterName; səyyahının yeni nüsxəsini endir və biz sizə onu qurmağa kömək edəcik.">
+<!ENTITY updateManual.whatsnew.label "Yeniliklərə baxın.">
+<!ENTITY updateManual.header.message "&brandShorterName; son versiyaya yenilənə bilmir.">
+<!ENTITY updateManual.acceptButton.label "&brandShorterName; Endir">
+<!ENTITY updateManual.acceptButton.accesskey "D">
+<!ENTITY updateManual.cancelButton.label "Başqa Vaxt">
+<!ENTITY updateManual.cancelButton.accesskey "N">
+<!ENTITY updateManual.panelUI.label "&brandShorterName; səyyahının yeni nüsxəsini endir">
+
+<!ENTITY updateRestart.message "Yenidən başlatdıqdan sonra &brandShorterName; bütün açıq vərəq və pəncərələrinizi bərpa edəcək.">
+<!ENTITY updateRestart.header.message2 "&brandShorterName; yeniləmək üçün yenidən başladın.">
+<!ENTITY updateRestart.acceptButton.label "Yenidən başlat və Bərpa et">
+<!ENTITY updateRestart.acceptButton.accesskey "R">
+<!ENTITY updateRestart.cancelButton.label "İndi deyil">
+<!ENTITY updateRestart.cancelButton.accesskey "N">
+<!ENTITY updateRestart.panelUI.label2 "&brandShorterName; yeniləmək üçün yenidən başladın">
+
+<!ENTITY pageActionButton.tooltip "Səhifə əməliyyatları">
+
+<!ENTITY sendToDevice.label "Cihaza göndər…">
+<!ENTITY sendToDevice.viewTitle "Cihaza göndər">
+<!ENTITY sendToDevice.fxaRequired.label "Tələb edilir">
+<!ENTITY sendToDevice.noDevices.label "Cihaz yoxdur">

@@ -118,6 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "Показать примечания к выпуску для этого обновления">
 <!ENTITY cmd.hideReleaseNotes.label           "Скрыть примечания к выпуску">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Скрыть примечания к выпуску для этого обновления">
+<!ENTITY cmd.findReplacement.label            "Найти замену">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
@@ -185,6 +186,10 @@
 <!ENTITY addon.details.label                  "Подробнее">
 <!ENTITY addon.details.tooltip                "Подробнее об этом дополнении">
 <!ENTITY addon.unknownDate                    "Неизвестно">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "УСТАРЕВШЕЕ">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -249,3 +254,9 @@
 
 <!ENTITY pluginDeprecation.description "Что-то отсутствует? &brandShortName; больше не поддерживает некоторые плагины.">
 <!ENTITY pluginDeprecation.learnMore "Подробнее.">
+
+<!ENTITY legacyWarning.description "Что-то отсутствует? &brandShortName; больше не поддерживает некоторые расширения.">
+<!ENTITY legacyWarning.showLegacy "Показать устаревшие расширения">
+<!ENTITY legacyExtensions.title "Устаревшие расширения">
+<!ENTITY legacyExtensions.description "Эти расширения не соответствуют текущим стандартам &brandShortName;, поэтому они были отключены.">
+<!ENTITY legacyExtensions.learnMore "Узнайте об изменениях в дополнениях">

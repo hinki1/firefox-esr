@@ -184,6 +184,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllBookmarks2.label "ਸਭ ਬੁੱਕਮਾਰਕਾਂ ਨੂੰ ਵੇਖੋ">
 <!ENTITY recentBookmarks.label "ਤਾਜ਼ਾ ਬੁੱਕਮਾਰਕ ਕੀਤੇ">
 <!ENTITY otherBookmarksCmd.label "ਹੋਰ ਬੁੱਕਮਾਰਕ">
+<!ENTITY mobileBookmarksCmd.label "Mobile Bookmarks">
 <!ENTITY bookmarksToolbarChevron.tooltip "ਹੋਰ ਬੁੱਕਮਾਰਕਾਂ ਨੂੰ ਵੇਖੋ">
 <!ENTITY showRecentlyBookmarked.label     "ਤਾਜ਼ਾ ਬੁੱਕਮਾਰਕ ਕੀਤਿਆਂ ਨੂੰ ਵੇਖੋ">
 <!ENTITY showRecentlyBookmarked.accesskey "h">
@@ -197,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "ਅਤੀਤ ਵੇਖਣ ਲਈ ਸੱਜਾ ਕਲਿੱਕ ਕਰੋ ਜਾਂ ਹੇਠਾਂ ਖਿੱਚੋ">
 <!ENTITY backForwardButtonMenuMac.tooltip "ਅਤੀਤ ਵੇਖਣ ਲਈ ਹੇਠਾਂ ਖਿੱਚੋ">
 <!ENTITY reloadCmd.label              "ਮੁੜ ਲੋਡ ਕਰੋ">
-<!ENTITY reloadButton.tooltip         "ਮੌਜੂਦਾ ਸਫ਼ਾ ਨੂੰ ਮੁੜ ਲੋਡ ਕਰੋ">
 <!ENTITY stopCmd.label                "ਰੋਕੋ">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "ਇਸ ਸਫ਼ੇ ਨੂੰ ਲੋਡ ਹੋਣ ਤੋਂ ਰੋਕੋ">
 <!ENTITY goEndCap.tooltip             "ਟਿਕਾਣਾ ਬਾਰ ਵਿੱਚ ਦਿੱਤੇ ਐਡਰੈੱਸ 'ਤੇ ਜਾਓ">
 <!ENTITY printButton.label            "ਪਰਿੰਟ ਕਰੋ">
 <!ENTITY printButton.tooltip          "ਇਹ ਸਫ਼ੇ ਨੂੰ ਪਰਿੰਟ ਕਰੋ">
@@ -233,11 +232,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "ਅਤੀਤ ਨੂੰ ਵੇਖੋ">
 
-<!ENTITY urlbar.zoomReset.tooltip     "Reset zoom level">
-
 <!ENTITY searchItem.title             "ਖੋਜ">
 
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 <!ENTITY homeButton.label             "ਘਰ">
 
 <!ENTITY bookmarksButton.label          "ਬੁੱਕਮਾਰਕ">
@@ -245,6 +242,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenuButton.label          "ਬੁੱਕਮਾਰਕ">
 <!ENTITY bookmarksMenuButton.other.label "ਹੋਰ ਬੁੱਕਮਾਰਕ">
+<!ENTITY bookmarksMenuButton.mobile.label "Mobile Bookmarks">
 <!ENTITY viewBookmarksSidebar2.label        "ਬੁੱਕਮਾਰਕ ਬਾਹੀ ਵੇਖੋ">
 <!ENTITY viewBookmarksToolbar.label         "ਬੁੱਕਮਾਰਕ ਟੂਲਬਾਰ ਵੇਖੋ">
 
@@ -350,12 +348,21 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "…ਤਾਜ਼ੇ ਅਤੀਤ ਨੂੰ ਸਾਫ਼ ਕਰੋ">
 <!ENTITY appMenuHistory.restoreSession.label "ਪਿਛਲੇ ਸ਼ੈਸ਼ਨ ਨੂੰ ਮੁੜ-ਸਟੋਰ ਕਰੋ">
 <!ENTITY appMenuHistory.viewSidebar.label "ਅਤੀਤ ਬਾਹੀ ਨੂੰ ਵੇਖੋ">
+<!ENTITY appMenuHelp.label "ਮਦਦ">
 <!ENTITY appMenuHelp.tooltip "ਮਦਦ ਮੇਨੂ ਨੂੰ ਖੋਲ੍ਹੋ">
 
 <!ENTITY appMenuRemoteTabs.label "ਸਿੰਕ ਕੀਤੀਆਂ ਟੈਬਾਂ">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "ਕੋਈ ਖੁੱਲ੍ਹੀਆਂ ਟੈਬਾਂ ਨਹੀਂ">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showMore.label, appMenuRemoteTabs.showMore.tooltip):
+     This is shown after the tabs list if we can display more tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showMore.label "Show More">
+<!ENTITY appMenuRemoteTabs.showMore.tooltip "Show more tabs from this device">
+<!-- LOCALIZATION NOTE (appMenuRemoteTabs.showAll.label, appMenuRemoteTabs.showAll.tooltip):
+     This is shown after the tabs list if we can all the remaining tabs by clicking on the button -->
+<!ENTITY appMenuRemoteTabs.showAll.label "Show All">
+<!ENTITY appMenuRemoteTabs.showAll.tooltip "Show all tabs from this device">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "ਆਪਣੇ ਹੋਰ ਡਿਵਾਈਸਾਂ ਤੋਂ ਟੈਬਾਂ ਦੀ ਸੂਚੀ ਵੇਖਣ ਲਈ ਟੈਬਾਂ ਨੂੰ ਸਿੰਕ ਕਰਨ ਨੂੰ ਚਾਲੂ ਕਰੋ।">
@@ -367,17 +374,24 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "ਸਿੰਕ ਦੀਆਂ ਪਸੰਦਾਂ">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "ਆਪਣੇ ਹੋਰ ਡਿਵਾਈਸਾਂ ਤੋਂ ਟੈਬਾਂ ਦੀ ਸੂਚੀ ਦੇਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ।">
 <!ENTITY appMenuRemoteTabs.signin.label "ਸਿੰਕ ਕਰਨ ਸਾਈਨ ਇਨ ਕਰੋ">
+<!ENTITY appMenuRemoteTabs.managedevices.label "…ਡਿਵਾਈਸ ਪਰਬੰਧ">
 <!ENTITY appMenuRemoteTabs.sidebar.label "ਸਿੰਕ ਕੀਤੀਆਂ ਟੈਬਾਂ ਦੀ ਬਾਹੀ ਵੇਖੋ">
 
 <!ENTITY customizeMenu.addToToolbar.label "ਟੂਲਬਾਰ ਚ ਜੋੜੋ">
 <!ENTITY customizeMenu.addToToolbar.accesskey "A">
 <!ENTITY customizeMenu.addToPanel.label "ਮੇਨੂ ਚ ਜੋੜੋ">
 <!ENTITY customizeMenu.addToPanel.accesskey "M">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "M">
 <!ENTITY customizeMenu.moveToToolbar.label "ਟੂਲਬਾਰ ਚ ਭੇਜੋ">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "o">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "ਮੇਨੂ ਚ ਭੇਜੋ">
@@ -389,9 +403,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY customizeMenu.addMoreItems.label "…ਹੋਰ ਆਈਟਮਾਂ ਨੂੰ ਜੋੜੋ">
 <!ENTITY customizeMenu.addMoreItems.accesskey "A">
 
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+<!ENTITY moreMenu.label "ਹੋਰ">
+
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "ਖੋਜੋ ਜਾਂ ਐਡਰੈਸ ਦਿਉ">
 <!ENTITY urlbar.accesskey             "d">
+<!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
+<!ENTITY urlbar.extension.label       "Extension:">
 <!ENTITY urlbar.switchToTab.label     "ਟੈਬ ਤੇ ਜਾਓ:">
 
 <!ENTITY urlbar.searchSuggestionsNotification.question "ਕੀ ਤੁਸੀਂ ਸੁਝਾਆਵਾਂ ਨਾਲ ਆਪਣੇ ਖੋਜ ਤਜਰਬੇ ਨੂੰ ਸੁਧਾਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?">
@@ -402,7 +423,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.enable "ਹਾਂ">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "y">
 
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "…ਚੋਣਾਂ ਨੂੰ ਬਦਲੋ">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "C">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "…ਪਸੰਦਾਂ ਨੂੰ ਬਦਲੋ">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "C">
+
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -648,8 +676,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "ਬਾਹਰ"> 
 <!ENTITY quitApplicationCmd.accesskey   "Q">
 <!ENTITY quitApplicationCmdMac2.label   "&brandShorterName; ਤੋਂ ਬਾਹਰ">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
 
 <!ENTITY closeCmd.label                 "ਬੰਦ ਕਰੋ">  
 <!ENTITY closeCmd.key                   "W">  
@@ -734,7 +760,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.permissions "ਇਜਾਜ਼ਤਾਂ">
 <!ENTITY identity.permissionsEmpty "ਤੁਸੀਂ ਇਸ ਸਾਈਟ ਲਈ ਕੋਈ ਖਾਸ ਇਜਾਜ਼ਤਾਂ ਨਹੀਂ ਦਿੱਤੀਆਂ ਹਨ।">
-
 <!ENTITY identity.permissionsReloadHint "You may need to reload the page for changes to apply.">
 
 <!-- Name for the tabs toolbar as spoken by screen readers.
@@ -756,6 +781,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "ਆਪਣੇ ਹੋਰ ਡਿਵਾਈਸਾਂ ਤੋਂ ਟੈਬਾਂ ਦੀ ਸੂਚੀ ਨੂੰ ਵੇਖਣ ਲਈ ਟੈਬ ਸਿੰਕ ਨੂੰ ਚਾਲੂ ਕਰੋ।">
 
+<!-- LOCALIZATION NOTE (syncedTabs.context.open.accesskey,
+                        syncedTabs.context.openAllInTabs.accesskey):
+     These access keys are identical because their associated menu items are
+     mutually exclusive -->
 <!ENTITY syncedTabs.context.open.label                       "ਖੋਲ੍ਹੋ">
 <!ENTITY syncedTabs.context.open.accesskey                   "O">
 <!ENTITY syncedTabs.context.openInNewTab.label               "ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ">
@@ -768,6 +797,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "B">
 <!ENTITY syncedTabs.context.copy.label                       "ਕਾਪੀ ਕਰੋ">
 <!ENTITY syncedTabs.context.copy.accesskey                   "C">
+
+<!ENTITY syncedTabs.context.openAllInTabs.label              "Open All in Tabs">
+<!ENTITY syncedTabs.context.openAllInTabs.accesskey          "O">
 
 
 <!ENTITY syncBrand.shortName.label    "ਸਿੰਕ">
@@ -792,7 +824,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "ਹੋਰ ਟੂਲ ਚਾਹੀਦੇ ਹਨ?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "ਹਜ਼ਾਰਾਂ ਐਡ-ਆਨ ਵਿੱਚੋਂ ਚੁਣੋ">
 <!ENTITY customizeMode.restoreDefaults "ਡਿਫਾਲਟ ਮੁੜ-ਸਟੋਰ">
-<!ENTITY customizeMode.toolbars "ਟੂਲਬਾਰ ਵੇਖਾਓ/ਓਹਲੇ">
 <!ENTITY customizeMode.titlebar "ਟਾਈਟਲਬਾਰ">
 <!ENTITY customizeMode.lwthemes "Themes">
 <!ENTITY customizeMode.lwthemes.myThemes "ਮੇਰੇ ਥੀਮ">
@@ -882,3 +913,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "…DRM ਬਾਰੇ ਹੋਰ ਜਾਣੋ">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+<!ENTITY updateAvailable.acceptButton.label "ਅੱਪਡੇਟ ਡਾਊਨਲੋਡ ਕਰੋ">
+<!ENTITY updateAvailable.acceptButton.accesskey "D">
+<!ENTITY updateAvailable.cancelButton.label "ਹੁਣੇ ਨਹੀਂ">
+
+
+
+

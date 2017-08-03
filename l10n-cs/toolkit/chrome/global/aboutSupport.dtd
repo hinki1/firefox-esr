@@ -25,6 +25,11 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Verze">
 <!ENTITY aboutSupport.extensionId "Id">
 
+<!ENTITY aboutSupport.featuresTitle "Funkce aplikace &brandShortName;">
+<!ENTITY aboutSupport.featureName "Název">
+<!ENTITY aboutSupport.featureVersion "Verze">
+<!ENTITY aboutSupport.featureId "ID">
+
 <!ENTITY aboutSupport.experimentsTitle "Experimentální funkce">
 <!ENTITY aboutSupport.experimentName "Název">
 <!ENTITY aboutSupport.experimentId "Id">
@@ -93,7 +98,7 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Grafika">
 
-<!ENTITY aboutSupport.placeDatabaseTitle "Databáze umístění">
+<!ENTITY aboutSupport.placeDatabaseTitle "Databáze Places">
 <!ENTITY aboutSupport.placeDatabaseIntegrity "Integrita">
 <!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Zkontrolovat integritu">
 
@@ -130,6 +135,6 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsFailureLogTitle "Protokol chyb">
 <!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
 <!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
-<!ENTITY aboutSupport.graphicsDecisionLogTitle "Decision Log">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Protokol rozhodování">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Zakázat funkce Crash Guard">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Možná řešení">

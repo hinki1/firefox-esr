@@ -118,6 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "Ցուցադրել այս թարմացման նշումները">
 <!ENTITY cmd.hideReleaseNotes.label           "Թաքցնել Թողարկման Նշումները">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Թաքցնել այս թարմացման թողարկման նշումները">
+
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
@@ -185,6 +186,10 @@
 <!ENTITY addon.details.label                  "Ավելին">
 <!ENTITY addon.details.tooltip                "Ցուցադրել ավելի շատ տեղեկություն այս հավելման մասին">
 <!ENTITY addon.unknownDate                    "Անհայտ">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "ԺԱՌԱՆԳՈՒԹՅՈՒՆ">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -249,3 +254,8 @@
 
 <!ENTITY pluginDeprecation.description "Ինչ-որ բան բացակայու՞մ է: Որոշ բաղադրիչներ այլևս չեն աջակցվում &brandShortName;-ի կողմից:">
 <!ENTITY pluginDeprecation.learnMore "Իմանալ ավելին:">
+
+
+
+
+

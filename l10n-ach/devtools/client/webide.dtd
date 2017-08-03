@@ -22,7 +22,7 @@
 <!ENTITY projectMenu_debug_accesskey "D">
 <!ENTITY projectMenu_remove_label "Kwany tic woko">
 <!ENTITY projectMenu_remove_accesskey "R">
-<!ENTITY projectMenu_showPrefs_label "Ma imaro">
+<!ENTITY projectMenu_showPrefs_label "Ter">
 <!ENTITY projectMenu_showPrefs_accesskey "e">
 <!ENTITY projectMenu_manageComponents_label "Lo gin ma iye makato">
 <!ENTITY projectMenu_manageComponents_accesskey "M">
@@ -35,18 +35,16 @@
 <!ENTITY runtimeMenu_takeScreenshot_label "Cal me wang kio">
 <!ENTITY runtimeMenu_takeScreenshot_accesskey "S">
 <!ENTITY runtimeMenu_showDetails_label "Ngec me cawa tic">
-<!ENTITY runtimeMenu_showDetails_accesskey "E">
+
 <!ENTITY runtimeMenu_showMonitor_label "Nen">
 <!ENTITY runtimeMenu_showMonitor_accesskey "M">
-<!ENTITY runtimeMenu_showDevicePrefs_label "Ma imaro pi nonyo">
+<!ENTITY runtimeMenu_showDevicePrefs_label "Ter me nyonyo">
 <!ENTITY runtimeMenu_showDevicePrefs_accesskey "D">
 <!ENTITY runtimeMenu_showSettings_label "Ter me nyonyo">
 <!ENTITY runtimeMenu_showSettings_accesskey "s">
 
 <!ENTITY viewMenu_label "Nen">
 <!ENTITY viewMenu_accesskey "V">
-<!ENTITY viewMenu_toggleEditor_label "Lok kacoc">
-<!ENTITY viewMenu_toggleEditor_accesskey "E">
 <!ENTITY viewMenu_zoomin_label "Kwot Madit">
 <!ENTITY viewMenu_zoomin_accesskey "I">
 <!ENTITY viewMenu_zoomout_label "Jwik Matidi">
@@ -66,8 +64,6 @@
 <!ENTITY key_play "R">
 <!-- show toolbox -->
 <!ENTITY key_toggleToolbox "VK_F12">
-<!-- toggle sidebar -->
-<!ENTITY key_toggleEditor "B">
 <!-- zoom -->
 <!ENTITY key_zoomin "+">
 <!ENTITY key_zoomin2 "=">
@@ -84,7 +80,7 @@
 <!ENTITY runtimePanel_installsimulator "Ket Cuma">
 <!ENTITY runtimePanel_noadbhelper "Ket lakony me ADB">
 <!ENTITY runtimePanel_nousbdevice "Pe itwero neno nyonyo mamegi?">
-
+<!ENTITY runtimePanel_refreshDevices_label "Nwo cano nyonyo">
 <!-- Lense -->
 
 <!ENTITY details_valid_header "atir">
@@ -112,32 +108,17 @@
 <!ENTITY addons_aboutaddons "Yab Gin madoro Lamed ne">
 <!-- Prefs -->
 
-<!ENTITY prefs_title "Ma imaro">
+<!ENTITY prefs_title "Ter">
 <!ENTITY prefs_editor_title "Kacoc">
 <!ENTITY prefs_general_title "Lumuku">
 <!ENTITY prefs_restore "Dwok makwongo">
 <!ENTITY prefs_manage_components "Lo gin ma iye makato">
 <!ENTITY prefs_options_autoconnectruntime "Nwo kube i me cawa tic ma okato">
 <!ENTITY prefs_options_autoconnectruntime_tooltip "Nwo kube i me cawa tic ma okato kacce WebIDE ocake">
-<!ENTITY prefs_options_rememberlastproject "Po ikom tic me agiki">
+<!ENTITY prefs_options_rememberlastproject "Poo ikom tic me agiki">
 <!ENTITY prefs_options_rememberlastproject_tooltip "Dwok tic ma angec ka WebIDE ocake">
 <!ENTITY prefs_options_templatesurl "URL me gin cwec">
 <!ENTITY prefs_options_templatesurl_tooltip "Namba me gin cwec matye">
-<!ENTITY prefs_options_showeditor "Nyut kacoc">
-<!ENTITY prefs_options_showeditor_tooltip "Nyut kacoc me yic">
-<!ENTITY prefs_options_tabsize "Dit pa dirica matidi">
-<!ENTITY prefs_options_expandtab "Dirica matino mayom">
-<!ENTITY prefs_options_expandtab_tooltip "Tii ki kabedo me kaka kit me dirica matidi">
-<!ENTITY prefs_options_detectindentation "Ket kabedo pire kene">
-<!ENTITY prefs_options_detectindentation_tooltip "Byek kabedo ma i kin kacako coc kun i jenge ikom gin manonge kama oaa iye">
-<!ENTITY prefs_options_autocomplete "Tyek pire kene">
-<!ENTITY prefs_options_autocomplete_tooltip "Ye tyeko nyig coc pire kene">
-<!ENTITY prefs_options_autoclosebrackets "Lor bracket pire kene">
-<!ENTITY prefs_options_autoclosebrackets_tooltip "Ket bracket ma loro pire kene">
-<!ENTITY prefs_options_keybindings "Twec mapire tek">
-<!ENTITY prefs_options_keybindings_default "Makwongo">
-<!ENTITY prefs_options_autosavefiles "Pwail ma gwoke kengi">
-<!ENTITY prefs_options_autosavefiles_tooltip "Gwok pwail ma ki yubo gi pi gi kengi ma pud pe i cako tic atima">
 <!-- Runtime Details -->
 
 <!ENTITY runtimedetails_title "Ngec me cawa me tic">
@@ -156,8 +137,8 @@
 <!ENTITY device_typenone "Yer kit">
 <!-- Device Preferences -->
 
-<!ENTITY devicepreference_title "Ma imaro pi nonyo">
-<!ENTITY devicepreference_search "Yeny ma imaro">
+<!ENTITY devicepreference_title "Ter me nyonyo">
+<!ENTITY devicepreference_search "Ter me yeny">
 <!ENTITY devicepreference_newname "Nying manyen pi ma imaro">
 <!ENTITY devicepreference_newtext "Wel pi ma imaro">
 <!ENTITY devicepreference_addnew "Med ma imaro manyen">

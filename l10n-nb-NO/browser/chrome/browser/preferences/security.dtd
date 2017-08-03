@@ -2,15 +2,15 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  general.label                 "Generelt">
+<!ENTITY  security.label                 "Sikkerhet">
 
 <!ENTITY  warnOnAddonInstall.label        "Advar deg når nettsider forsøker å installere programtillegg">
 <!ENTITY  warnOnAddonInstall.accesskey    "A">
+
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
   https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
 -->
-
 <!ENTITY  enableSafeBrowsing.label        "Blokker farlig og villendende innhold">
 <!ENTITY  enableSafeBrowsing.accesskey    "B">
 
@@ -24,10 +24,10 @@
 <!ENTITY  addonExceptions.accesskey     "U">
 
 
-<!ENTITY  logins.label                  "Innlogginger">
+<!ENTITY  formsAndPasswords.label       "Skjema og passord">
 
-<!ENTITY  rememberLogins.label          "Husk innlogginger for nettsted">
-<!ENTITY  rememberLogins.accesskey      "H">
+<!ENTITY  rememberLogins1.label          "Husk brukernavn og passord for nettsteder">
+<!ENTITY  rememberLogins1.accesskey      "H">
 <!ENTITY  passwordExceptions.label      "Unntak …">
 <!ENTITY  passwordExceptions.accesskey  "n">
 

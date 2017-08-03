@@ -2,7 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "Uporabljaj zaščito pred sledenjem">
+<!ENTITY  trackingProtectionHeader2.label      "Zaščita pred sledenjem">
+<!ENTITY  trackingProtection.description       "Sledenje je proces zbiranja vaših podatkov, s pomočjo katerih podjetja izdelajo vaš profil in vam prikazujejo vsebino, prilagojeno vam.">
+<!ENTITY  trackingProtection.radioGroupLabel   "Zavračaj prikazovanje vsebine podjetij, znanih po sledenju uporabnikom">
 <!ENTITY  trackingProtectionAlways.label       "Vedno">
 <!ENTITY  trackingProtectionAlways.accesskey   "e">
 <!ENTITY  trackingProtectionPrivate.label      "Le v zasebnih oknih">
@@ -30,7 +32,7 @@
 
 <!ENTITY  locationBar.label             "Vrstica z naslovom">
 
-<!ENTITY  locbar.suggest.label          "Pri uporabi vrstice z naslovom predlagaj:">
+<!ENTITY  locbar.suggest2.label         "Pri uporabi naslovne vrstice predlagaj">
 <!ENTITY  locbar.history.label          "Zgodovino">
 <!ENTITY  locbar.history.accesskey      "Z">
 <!ENTITY  locbar.bookmarks.label        "Zaznamke">
@@ -40,8 +42,7 @@
 <!ENTITY  locbar.searches.label         "Povezana iskanja privzetega iskalnika">
 <!ENTITY  locbar.searches.accesskey     "P">
 
-<!ENTITY  suggestionSettings.label      "Spremeni nastavitve predlogov iskanja …">
-<!ENTITY  suggestionSettings.accesskey  "g">
+<!ENTITY  suggestionSettings2.label     "Spremeni nastavitve predlogov iskanja">
 
 <!ENTITY  acceptCookies.label           "Dovoli stranem, da ustvarijo piškotke.">
 <!ENTITY  acceptCookies.accesskey       "v">
@@ -64,8 +65,8 @@
 <!ENTITY  showCookies.label             "Pokaži piškotke …">
 <!ENTITY  showCookies.accesskey         "K">
 
-<!ENTITY  historyHeader.pre.label          "&brandShortName; naj:">
-<!ENTITY  historyHeader.pre.accesskey      "J">
+<!ENTITY  historyHeader2.pre.label         "&brandShortName; naj">
+<!ENTITY  historyHeader2.pre.accesskey     "n">
 <!ENTITY  historyHeader.remember.label     "Shranjuje zgodovino">
 <!ENTITY  historyHeader.dontremember.label "Ne shranjuje zgodovine">
 <!ENTITY  historyHeader.custom.label       "Uporablja posebne nastavitve za zgodovino">
@@ -105,9 +106,9 @@
 <!ENTITY  clearOnCloseSettings.label     "Nastavitve …">
 <!ENTITY  clearOnCloseSettings.accesskey "t">
 
-<!ENTITY  browserContainersHeader.label         "Zavihki vsebnika">
+<!ENTITY  browserContainersHeader.label         "Vsebniški zavihki">
 <!ENTITY  browserContainersLearnMore.label      "Več o tem">
-<!ENTITY  browserContainersEnabled.label        "Omogoči zavihke vsebnika">
+<!ENTITY  browserContainersEnabled.label        "Omogoči vsebniške zavihke">
 <!ENTITY  browserContainersEnabled.accesskey    "O">
 <!ENTITY  browserContainersSettings.label        "Nastavitve …">
 <!ENTITY  browserContainersSettings.accesskey    "N">

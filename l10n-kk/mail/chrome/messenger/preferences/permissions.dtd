@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY window.title                 "Осыдан бөлек">
-
+<!ENTITY window.width                 "55em">
 
 <!ENTITY treehead.sitename.label      "Сайты">
 <!ENTITY treehead.status.label        "Күйі">
@@ -13,9 +13,9 @@
 <!ENTITY removeallpermissions.accesskey "р">
 <!ENTITY address.label                "Вебсайт адресі:">
 <!ENTITY address.accesskey            "д">
-<!ENTITY block.label                  "Қамалау">
-<!ENTITY block.accesskey              "м">
-<!ENTITY session.label                "Тек осы сессия үшін рұқсат беру">
+<!ENTITY block.label                  "Блоктау">
+<!ENTITY block.accesskey              "Б">
+<!ENTITY session.label                "Тек осы сессия үшін рұқсат ету">
 <!ENTITY session.accesskey            "Т">
 <!ENTITY allow.label                  "Рұқсат ету">
 <!ENTITY allow.accesskey              "Р">

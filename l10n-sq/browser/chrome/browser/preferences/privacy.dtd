@@ -2,7 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "Përdorni Mbrojtje Nga Gjurmimet">
+<!ENTITY  trackingProtectionHeader2.label      "Mbrojtje Nga Gjurmimet">
+<!ENTITY  trackingProtection.description       "Gjurmim është kur kompanitë grumbullojnë të dhëna rreth jush, për të ndërtuar një profil dhe për t&apos;ju shfaqur lëndë bazuar në shfletimin dhe të dhënat tuaja personale.">
+<!ENTITY  trackingProtection.radioGroupLabel   "Blloko shfalqe lënde nga kompani të njohura për gjurmim">
 <!ENTITY  trackingProtectionAlways.label       "Përherë">
 <!ENTITY  trackingProtectionAlways.accesskey   "h">
 <!ENTITY  trackingProtectionPrivate.label      "Vetëm në dritare private">
@@ -14,18 +16,23 @@
 <!ENTITY  trackingProtectionExceptions.accesskey "a">
 
 <!ENTITY tracking.label                 "Gjurmim">
-<!ENTITY trackingProtectionLearnMore.label "Mësoni më tepër">
 <!ENTITY trackingProtectionPBM5.label         "Përdore Mbrojtjen Nga Gjurmimet në Dritare Private">
 <!ENTITY trackingProtectionPBM5.accesskey     "v">
 <!ENTITY trackingProtectionPBMLearnMore.label "Mësoni më tepër">
 <!ENTITY changeBlockList.label          "Ndryshoni Listë Bllokimesh">
 <!ENTITY changeBlockList.accesskey      "N">
 
+<!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
+<!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
+<!ENTITY  doNotTrack.pre.label          "Mundeni edhe ">
+<!ENTITY  doNotTrack.settings.label     "të administroni rregullimet tuaja për Mos Më Gjurmoni">
+<!ENTITY  doNotTrack.post.label         ".">
+
 <!ENTITY  history.label                 "Historik">
 
 <!ENTITY  locationBar.label             "Shtyllë Vendesh">
 
-<!ENTITY  locbar.suggest.label          "Kur përdoret shtylla e vendeve, jep sugjerime nga:">
+<!ENTITY  locbar.suggest2.label         "Kur përdoret shtylla e vendeve, jep sugjerime nga">
 <!ENTITY  locbar.history.label          "Historiku">
 <!ENTITY  locbar.history.accesskey      "H">
 <!ENTITY  locbar.bookmarks.label        "Faqerojtësit">
@@ -35,8 +42,7 @@
 <!ENTITY  locbar.searches.label         "Kërkime të afërta, nga motori parazgjedhje i kërkimeve">
 <!ENTITY  locbar.searches.accesskey     "p">
 
-<!ENTITY  suggestionSettings.label      "Ndryshoni parapëlqimet mbi këshillime motorësh kërkimi…">
-<!ENTITY  suggestionSettings.accesskey  "N">
+<!ENTITY  suggestionSettings2.label     "Ndryshoni parapëlqimet mbi këshillime motorësh kërkimi">
 
 <!ENTITY  acceptCookies.label           "Prano cookies prej sajtesh">
 <!ENTITY  acceptCookies.accesskey       "s">
@@ -59,8 +65,8 @@
 <!ENTITY  showCookies.label             "Shfaqni Cookie…">
 <!ENTITY  showCookies.accesskey         "C">
 
-<!ENTITY  historyHeader.pre.label          "&brandShortName;-i:">
-<!ENTITY  historyHeader.pre.accesskey      "F">
+<!ENTITY  historyHeader2.pre.label         "&brandShortName;-i">
+<!ENTITY  historyHeader2.pre.accesskey     "d">
 <!ENTITY  historyHeader.remember.label     "Do ta mbajë mend historikun">
 <!ENTITY  historyHeader.dontremember.label "Nuk do ta mbajë mend historikun">
 <!ENTITY  historyHeader.custom.label       "Do të përdorë rregullime vetjake për historikun">
@@ -99,12 +105,6 @@
 
 <!ENTITY  clearOnCloseSettings.label     "Rregullime…">
 <!ENTITY  clearOnCloseSettings.accesskey "R">
-
-<!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
-<!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
-<!ENTITY  doNotTrack.pre.label          "Mundeni edhe ">
-<!ENTITY  doNotTrack.settings.label     "të administroni rregullimet tuaja për Mos Më Gjurmoni">
-<!ENTITY  doNotTrack.post.label         ".">
 
 <!ENTITY  browserContainersHeader.label         "Skeda Kontejneri">
 <!ENTITY  browserContainersLearnMore.label      "Mësoni më tepër">

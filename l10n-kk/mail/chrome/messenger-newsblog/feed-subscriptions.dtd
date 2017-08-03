@@ -17,15 +17,25 @@
 
 <!ENTITY feedFolder.label            "Мақалаларды сақтау орны:">
 <!ENTITY feedFolder.accesskey        "с">
+<!-- Account Settings and Subscription Dialog -->
+
+<!ENTITY biffStart.label             "Жаңа мақалаларды тексеру уақыт аралығы ">
+<!ENTITY biffStart.accesskey         "а">
+<!ENTITY biffMinutes.label           "минут">
+<!ENTITY biffMinutes.accesskey       "н">
+<!ENTITY biffDays.label              "күн">
+<!ENTITY biffDays.accesskey          "к">
+<!ENTITY recommendedUnits.label      "Жариялаушы ұсынады:">
 
 <!ENTITY quickMode.label             "Веб парағын жүктеп алу орнына мақаланың қысқаша қорытындысын көрсету">
 <!ENTITY quickMode.accesskey         "с">
 
 <!ENTITY autotagEnable.label         "Тегтерді автоматты түрде &lt;category&gt; атауларынан жасау">
-<!ENTITY autotagEnable.accesskey     "м">
+<!ENTITY autotagEnable.accesskey     "о">
 <!ENTITY autotagUsePrefix.label      "Тегтерді келесімен префикстеу:">
 <!ENTITY autotagUsePrefix.accesskey  "п">
 <!ENTITY autoTagPrefix.placeholder   "Тег префиксін енгізіңіз">
+<!-- Subscription Dialog -->
 
 <!ENTITY button.addFeed.label        "Қосу">
 <!ENTITY button.addFeed.accesskey    "о">

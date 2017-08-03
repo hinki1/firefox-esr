@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "c">
 <!ENTITY useSmoothScrolling.label        "Cendiyan baana goyandi">
 <!ENTITY useSmoothScrolling.accesskey    "a">
-<!ENTITY allowHWAccel.label              "Goy nda jinay šenda cahãndikaw nd'a ga bara">
-<!ENTITY allowHWAccel.accesskey          "j">
 <!ENTITY checkUserSpelling.label         "War boŋhantumoo koroši waati kaŋ ay ga hantum">
 <!ENTITY checkUserSpelling.accesskey     "h">
 
@@ -33,17 +31,17 @@
 <!ENTITY healthReportDesc.label          "Ga war gaa ka faham ceecikaa goysahãa se nda ka bayhaya žemni war ceecikaa baanoo ga nda &vendorShortName;">
 <!ENTITY enableHealthReport.label        "&brandShortName; baani bayrandikaa tunandi">
 <!ENTITY enableHealthReport.accesskey    "r">
-<!ENTITY healthReportLearnMore.label     "Bay ka tonton">
+
 
 <!ENTITY telemetryDesc.label             "Goysahã, goyfondo, jinay šenda nda boŋse hanseyan bayhayey žemni war ceecikaa ga nda &vendorShortName; k'ir gaa ka &brandShortName; boryandi">
+<!ENTITY enableTelemetryData.label       "Bayhaya tontonantey žemna (sanda mooray neešiyan)">
+<!ENTITY enableTelemetryData.accesskey   "T">
 
-
-<!ENTITY telemetryLearnMore.label        "Bay ka tonton">
 
 <!ENTITY crashReporterDesc2.label         "Kaŋyan bayrandey ga &vendorShortName; faaba ka harasawey hanse nda ka war ceecijinaa tabatandi nda saajaw">
 <!ENTITY alwaysSubmitCrashReports.label   "Naŋ &brandShortName; ma kaŋyan bayrandi margantey sanba war se">
 <!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "Bay ka tonton">
+
 
 <!ENTITY networkTab.label                "Sankay">
 
@@ -63,7 +61,7 @@
 <!ENTITY clearSiteData.accesskey         "u">
 <!ENTITY siteDataSettings.label          "Kayandiyaney…">
 <!ENTITY siteDataSettings.accesskey      "i">
-<!ENTITY siteDataLearnMoreLink.label     "Bay ka tonton">
+
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
@@ -82,22 +80,37 @@
 <!ENTITY overrideSmartCacheSize.accesskey "d">
 
 <!ENTITY updateTab.label                 "Taagandiri">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 
-<!ENTITY updateAuto1.label               "Taagandirey sinji ngey boŋse (yaamarante: saajaw tontonandi)">
-<!ENTITY updateAuto1.accesskey           "a">
-<!ENTITY updateCheckChoose.label         "Taagandirey guna, amma naŋ ya ngey sinjiyan dogoo suuba">
-<!ENTITY updateCheckChoose.accesskey     "g">
-<!ENTITY updateManual.label              "Ši taagandirey ceeci abada (manti yaamarante: saajaw allamaana)">
-<!ENTITY updateManual.accesskey          "b">
+<!ENTITY updateApplication.label         "&brandShortName; taagandirey">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Naŋ &brandShortName; ma">
+<!ENTITY updateAuto2.label               "Taagandirey sinji ngi boŋse (woo yaamarandi saajaw tontoni se)">
+<!ENTITY updateAuto2.accesskey           "a">
+<!ENTITY updateCheckChoose2.label        "Taagandirey guna, amma naŋ ma sinji dogoo suuba">
+<!ENTITY updateCheckChoose2.accesskey    "g">
+<!ENTITY updateManual2.label             "Ma ši taagandirey ceeci abada (ši yaamarandi)">
+<!ENTITY updateManual2.accesskey         "b">
 
-<!ENTITY updateHistory.label             "Taagandiri taariku cebe">
-<!ENTITY updateHistory.accesskey         "a">
+<!ENTITY updateHistory2.label            "Taagandiri taariki cebe…">
+<!ENTITY updateHistory2.accesskey        "a">
 
 <!ENTITY useService.label                "Goy bandafaari zaa ka taagarandirey sinji">
 <!ENTITY useService.accesskey            "b">
 
-<!ENTITY enableSearchUpdate.label        "Ceeci maršiney">
-<!ENTITY enableSearchUpdate.accesskey    "e">
+<!ENTITY enableSearchUpdate2.label       "Ceecijinawey ma taagandi ngi boŋ se">
+<!ENTITY enableSearchUpdate2.accesskey   "a">
+
+<!ENTITY reports.label                   "Bayrandey">
 
 <!ENTITY offlineStorageNotify.label               "Har war se waati kaŋ interneti nungu ga hãa ka bayhayey jiši bila nda interneti-ciyari">
 <!ENTITY offlineStorageNotify.accesskey           "H">
@@ -111,8 +124,7 @@
 <!ENTITY offlineAppRemove.confirm        "Bila-nda-ciyari kaa">
 
 <!ENTITY certificateTab.label            "Tabatiyan-tiirawey">
-<!ENTITY certPersonal.label              "Hãayaney">
-<!ENTITY certPersonal.description        "Waati kaŋ feršikaw n'ay boŋ tabatiyan-tiiraa wiri:">
+<!ENTITY certPersonal2.description       "Waati kaŋ feršikaw n'ay boŋ tabatiyan-tiiraa wiri">
 <!ENTITY selectCerts.auto                "Affoo suuba boŋse">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "Hãa waati foo kul">
@@ -123,3 +135,14 @@
 <!ENTITY viewCerts.accesskey             "a">
 <!ENTITY viewSecurityDevices.label       "Saajaw jinawey">
 <!ENTITY viewSecurityDevices.accesskey   "w">
+
+<!ENTITY performance.label               "Teeyan sahã">
+<!ENTITY useRecommendedPerformanceSettings2.label "Goy nda goy sahã kayandiyan yaamarantey">
+
+<!ENTITY useRecommendedPerformanceSettings2.accesskey "o">
+
+<!ENTITY limitContentProcessOption.label "Gundekuna goyandiyan adadu">
+
+<!ENTITY limitContentProcessOption.accesskey   "d">
+<!ENTITY allowHWAccel.label              "Goy nda jinay šenda cahãndikaw nd'a ga bara">
+<!ENTITY allowHWAccel.accesskey          "j">

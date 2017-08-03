@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "부드러운 스크롤 기능 사용">
 <!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY allowHWAccel.label              "하드웨어 가속이 가능하면 사용">
-<!ENTITY allowHWAccel.accesskey          "r">
 <!ENTITY checkUserSpelling.label         "입력할 때 철자 확인">
 <!ENTITY checkUserSpelling.accesskey     "t">
 
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "업데이트">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "&brandShortName; 업데이트">
-<!ENTITY updateAuto1.label               "자동으로 업데이트 설치 (추천: 보안이 강화됨)">
-<!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateCheckChoose.label         "업데이트를 확인하지만 설치할지는 사용자에게 물어봄">
-<!ENTITY updateCheckChoose.accesskey     "C">
-<!ENTITY updateManual.label              "업데이트 확인 안함 (추천 안함: 보안 위협)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "버전 ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "&brandShortName; 설치 방법">
+<!ENTITY updateAuto2.label               "업데이트 자동 설치(보안을 위해 권장됨)">
+<!ENTITY updateAuto2.accesskey           "A">
+<!ENTITY updateCheckChoose2.label        "새로운 업데이트를 확인하지만 설치는 수동으로 진행">
+<!ENTITY updateCheckChoose2.accesskey    "C">
+<!ENTITY updateManual2.label             "업데이트 확인 안함(권장하지 않음)">
+<!ENTITY updateManual2.accesskey         "N">
 
-<!ENTITY updateHistory.label             "업데이트 기록 보기">
-<!ENTITY updateHistory.accesskey         "p">
+<!ENTITY updateHistory2.label            "업데이트 기록 보기…">
+<!ENTITY updateHistory2.accesskey        "p">
 
 <!ENTITY useService.label                "업데이트 설치 시 백그라운드 작업으로 하기">
 <!ENTITY useService.accesskey            "b">
 
-<!ENTITY autoUpdateOthers.label          "자동으로 업데이트">
-<!ENTITY enableSearchUpdate.label        "검색 사이트">
-<!ENTITY enableSearchUpdate.accesskey    "E">
+<!ENTITY enableSearchUpdate2.label       "검색 엔진 자동 업데이트">
+<!ENTITY enableSearchUpdate2.accesskey   "e">
+
+<!ENTITY reports.label                   "리포트">
 
 <!ENTITY offlineStorageNotify.label               "웹사이트가 오프라인 상태일 때 데이터를 저장하려하면 물어봄">
 <!ENTITY offlineStorageNotify.accesskey           "T">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "오프라인 자료 삭제">
 
 <!ENTITY certificateTab.label            "인증서">
-<!ENTITY certPersonal.label              "요청">
-<!ENTITY certPersonal.description        "서버가 개인 인증서를 요청할 때:">
+<!ENTITY certPersonal2.description       "서버가 인증 정보를 요구할 때">
 <!ENTITY selectCerts.auto                "자동으로 하나를 선택">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "항상 물어보기">
@@ -125,3 +136,23 @@
 <!ENTITY viewCerts.accesskey             "s">
 <!ENTITY viewSecurityDevices.label       "보안 장치">
 <!ENTITY viewSecurityDevices.accesskey   "y">
+
+<!ENTITY performance.label               "성능">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "권장 설정을 사용">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "이 설정은 컴퓨터 하드웨어 및 운영체제에 맞게 조정됩니다.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "U">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "더 알아보기">
+<!ENTITY limitContentProcessOption.label "컨텐트 프로세스 제한">
+<!ENTITY limitContentProcessOption.description
+                                         "추가 컨텐트 프로세스는 다중 탭을 사용 하는 경우 성능을 향상 시킬 수 있지만 더 많은 메모리를 사용 합니다.">
+<!ENTITY limitContentProcessOption.accesskey   "L">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "컨텐트 프로세스 갯수 변경은 멀티 프로세스 &brandShortName;에서만 가능합니다.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "멀티 프로세스가 활성화 되었는지 확인하는 방법">
+<!ENTITY allowHWAccel.label              "하드웨어 가속이 가능하면 사용">
+<!ENTITY allowHWAccel.accesskey          "r">

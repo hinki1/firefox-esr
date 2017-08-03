@@ -2,7 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "Követés elleni védelem használata">
+<!ENTITY  trackingProtectionHeader2.label      "Követés elleni védelem">
+
+
 <!ENTITY  trackingProtectionAlways.label       "Mindig">
 <!ENTITY  trackingProtectionAlways.accesskey   "d">
 <!ENTITY  trackingProtectionPrivate.label      "Csak privát ablakokban">
@@ -30,7 +32,6 @@
 
 <!ENTITY  locationBar.label             "Címsáv">
 
-<!ENTITY  locbar.suggest.label          "A címsáv használatakor jelenjen meg:">
 <!ENTITY  locbar.history.label          "Előzmények">
 <!ENTITY  locbar.history.accesskey      "E">
 <!ENTITY  locbar.bookmarks.label        "Könyvjelzők">
@@ -40,8 +41,6 @@
 <!ENTITY  locbar.searches.label         "Kapcsolódó keresések az alapértelmezett keresőszolgáltatásból">
 <!ENTITY  locbar.searches.accesskey     "c">
 
-<!ENTITY  suggestionSettings.label      "Keresőszolgáltatás-javaslatok beállításainak módosítása…">
-<!ENTITY  suggestionSettings.accesskey  "r">
 
 <!ENTITY  acceptCookies.label           "Sütik elfogadása webhelyekről">
 <!ENTITY  acceptCookies.accesskey       "w">
@@ -64,12 +63,11 @@
 <!ENTITY  showCookies.label             "Sütik megtekintése…">
 <!ENTITY  showCookies.accesskey         "S">
 
-<!ENTITY  historyHeader.pre.label          "A &brandShortName;:">
-<!ENTITY  historyHeader.pre.accesskey      "A">
+
 <!ENTITY  historyHeader.remember.label     "Megjegyzi az előzményeket">
 <!ENTITY  historyHeader.dontremember.label "Nem jegyzi meg az előzményeket">
 <!ENTITY  historyHeader.custom.label       "Egyéni beállításokat használ az előzményekhez">
-<!ENTITY  historyHeader.post.label         "‌">
+<!ENTITY  historyHeader.post.label         "">
 
 <!ENTITY  rememberDescription.label      "A &brandShortName; megjegyzi a böngészés, a letöltések, az űrlapok és a keresőmezők előzményeit.">
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->

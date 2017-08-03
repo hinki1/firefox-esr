@@ -2,6 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  applications.label       "ישומים">
+<!ENTITY  applications.description "בחירה כיצד &brandShortName; יטפל בקבצים שהורדו מהרשת או ביישומים שיהיו בשימוש במהלך הגלישה.">
+
 <!ENTITY  typeColumn.label        "סיווג תוכן">
 <!ENTITY  typeColumn.accesskey    "ס">
 
@@ -11,4 +14,4 @@
 <!ENTITY  focusSearch1.key        "f">
 <!ENTITY  focusSearch2.key        "k">
 
-<!ENTITY  filter.emptytext        "חיפוש">
+<!ENTITY  filter2.emptytext        "חיפוש סוגי קבצים או יישומים">

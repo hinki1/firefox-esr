@@ -3,6 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!-- LOCALIZATION NOTE (tapToPlayPlugin): Mobile (used for touch interfaces) only has one type of plugin possible. -->
 
+<!ENTITY pluginActivationWarning                             "Arveret eo un enlugellad a c'hall gorrekat &brandShortName; gant al lec'hienn.">
 <!ENTITY tapToPlayPlugin                                     "Stokit ouzh amañ evit gweredekaat an enlugellad.">
 <!ENTITY clickToActivatePlugin                               "Gweredekaat an enlugellad.">
 <!ENTITY checkForUpdates                                     "Gwiriañ an hizivadennoù...">
@@ -29,3 +30,4 @@
 <!ENTITY plugin.file                                         "Restr">
 <!ENTITY plugin.mimeTypes                                    "Rizhoù MIME">
 <!ENTITY plugin.flashProtectedMode.label                     "Gweredekaat mod gwarezet Adobe Flash">
+<!ENTITY plugin.enableBlocklists.label                       "Stankañ endalc'had arvarus Flash">

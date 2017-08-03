@@ -33,4 +33,4 @@
 <!ENTITY loaddevice.browse                      "Gözat…">
 <!ENTITY loaddevice.browse.accesskey            "G">
 
-<!ENTITY loaddevice.title                       "PKCS#11 Aygıtını Yükle">
+<!ENTITY loaddevice.title2                      "PKCS #11 aygıt sürücüsünü yükle">

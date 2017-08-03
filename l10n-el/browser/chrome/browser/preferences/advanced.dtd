@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "α">
 <!ENTITY useSmoothScrolling.label        "Χρήση ομαλής κύλισης">
 <!ENTITY useSmoothScrolling.accesskey    "μ">
-<!ENTITY allowHWAccel.label              "Χρήση επιτάχυνσης υλικού όταν είναι διαθέσιμη">
-<!ENTITY allowHWAccel.accesskey          "h">
 <!ENTITY checkUserSpelling.label         "Έλεγχος ορθογραφίας κατά την πληκτρολόγηση">
 <!ENTITY checkUserSpelling.accesskey     "π">
 
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Ενημέρωση">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "Ενημερώσεις του &brandShortName;">
-<!ENTITY updateAuto1.label               "Αυτόματη εγκατάσταση ενημερώσεων (προτείνεται: βελτιωμένη ασφάλεια)">
-<!ENTITY updateAuto1.accesskey           "Α">
-<!ENTITY updateCheckChoose.label         "Έλεγχος για ενημερώσεις, αλλά με δυνατότητα επιλογής για εγκατάσταση">
-<!ENTITY updateCheckChoose.accesskey     "Ε">
-<!ENTITY updateManual.label              "Κανένας έλεγχος για ενημερώσεις (δεν προτείνεται: επισφαλής επιλογή)">
-<!ENTITY updateManual.accesskey          "μ">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Έκδοση ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Να επιτρέπεται στο &brandShortName;">
+<!ENTITY updateAuto2.label               "Αυτόματη εγκατάσταση ενημερώσεων (προτείνεται για βελτιωμένη ασφάλεια)">
+<!ENTITY updateAuto2.accesskey           "Α">
+<!ENTITY updateCheckChoose2.label        "Έλεγχος για ενημερώσεις, αλλά με δυνατότητα επιλογής για εγκατάσταση">
+<!ENTITY updateCheckChoose2.accesskey    "Ε">
+<!ENTITY updateManual2.label             "Να μην γίνεται ποτέ έλεγχος για ενημερώσεις (δεν προτείνεται)">
+<!ENTITY updateManual2.accesskey         "Ν">
 
-<!ENTITY updateHistory.label             "Εμφάνιση ιστορικού ενημερώσεων">
-<!ENTITY updateHistory.accesskey         "ρ">
+<!ENTITY updateHistory2.label            "Εμφάνιση ιστορικού ενημερώσεων…">
+<!ENTITY updateHistory2.accesskey        "ν">
 
 <!ENTITY useService.label                "Χρήση μιας υπηρεσίας παρασκηνίου για την εγκατάσταση ενημερώσεων">
 <!ENTITY useService.accesskey            "υ">
 
-<!ENTITY autoUpdateOthers.label          "Αυτόματη ενημέρωση">
-<!ENTITY enableSearchUpdate.label        "Μηχανές αναζήτησης">
-<!ENTITY enableSearchUpdate.accesskey    "η">
+<!ENTITY enableSearchUpdate2.label       "Αυτόματη ενημέρωση μηχανών αναζήτησης">
+<!ENTITY enableSearchUpdate2.accesskey   "μ">
+
+<!ENTITY reports.label                   "Αναφορές">
 
 <!ENTITY offlineStorageNotify.label               "Ειδοποίηση όταν μια ιστοσελίδα ζητά να αποθηκεύσει δεδομένα για χρήση εκτός σύνδεσης">
 <!ENTITY offlineStorageNotify.accesskey           "Ε">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Διαγραφή δεδομένων χωρίς σύνδεση">
 
 <!ENTITY certificateTab.label            "Πιστοποιητικά">
-<!ENTITY certPersonal.label              "Αιτήματα">
-<!ENTITY certPersonal.description        "Όταν ένας διακομιστής ζητά το προσωπικό σας πιστοποιητικό:">
+<!ENTITY certPersonal2.description       "Όταν ένας διακομιστής απαιτεί το προσωπικό σας πιστοποιητικό">
 <!ENTITY selectCerts.auto                "Αυτόματη επιλογή">
 <!ENTITY selectCerts.auto.accesskey      "Δ">
 <!ENTITY selectCerts.ask                 "Ερώτηση κάθε φορά">
@@ -125,3 +136,19 @@
 <!ENTITY viewCerts.accesskey             "ο">
 <!ENTITY viewSecurityDevices.label       "Συσκευές ασφαλείας">
 <!ENTITY viewSecurityDevices.accesskey   "σ">
+
+<!ENTITY performance.label               "Επιδόσεις">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Χρήση προτεινόμενων ρυθμίσεων επιδόσεων">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Αυτές οι ρυθμίσεις είναι προσαρμοσμένες στο υλικό και το λειτουργικό σύστημα του υπολογιστή σας.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "Χ">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Μάθετε περισσότερα">
+<!ENTITY limitContentProcessOption.label "Όριο διεργασιών περιεχομένου">
+<!ENTITY limitContentProcessOption.description
+                                         "Οι επιπρόσθετες διεργασίες περιεχομένου μπορούν να βελτιώσουν τις επιδόσεις κατά τη χρήση πολλαπλών καρτελών, αλλά θα χρησιμοποιούν περισσότερη μνήμη.">
+<!ENTITY limitContentProcessOption.accesskey   "Ο">
+<!ENTITY allowHWAccel.label              "Χρήση επιτάχυνσης υλικού όταν είναι διαθέσιμη">
+<!ENTITY allowHWAccel.accesskey          "λ">

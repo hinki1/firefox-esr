@@ -21,10 +21,15 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Нұсқасы">
 <!ENTITY aboutSupport.extensionId "ID">
 
+<!ENTITY aboutSupport.featuresTitle "&brandShortName; мүмкіндіктері">
+<!ENTITY aboutSupport.featureName "Аты">
+<!ENTITY aboutSupport.featureVersion "Нұсқасы">
+<!ENTITY aboutSupport.featureId "ID">
+
 <!ENTITY aboutSupport.experimentsTitle "Эксперименталды мүмкіндіктер">
 <!ENTITY aboutSupport.experimentName "Аты">
 <!ENTITY aboutSupport.experimentId "ID">
-<!ENTITY aboutSupport.experimentDescription "Анықтамасы:">
+<!ENTITY aboutSupport.experimentDescription "Анықтамасы">
 <!ENTITY aboutSupport.experimentActive "Белсенді">
 <!ENTITY aboutSupport.experimentEndDate "Аяқталу күні">
 <!ENTITY aboutSupport.experimentHomepage "Үй парағы">
@@ -96,7 +101,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Өспелі GC">
 
-<!ENTITY aboutSupport.a11yTitle "Кеңейтілген мүмкіндіктері">
+<!ENTITY aboutSupport.a11yTitle "Қолжетерлілік">
 <!ENTITY aboutSupport.a11yActivated "Белсендірілген">
 <!ENTITY aboutSupport.a11yForceDisabled "Кеңейтілген мүмкіндіктерге  тыйым салу">
 
@@ -105,8 +110,8 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.installationHistoryTitle "Орнатулар тарихы">
 <!ENTITY aboutSupport.updateHistoryTitle "Жаңартулар тарихы">
 
-<!ENTITY aboutSupport.copyTextToClipboard.label "Мәтінді алмасу буферіне көшіру">
-<!ENTITY aboutSupport.copyRawDataToClipboard.label "Өнделмеген мәліметтерді алмасу буферіне көшіру">
+<!ENTITY aboutSupport.copyTextToClipboard.label "Мәтінді алмасу буферіне көшіріп алу">
+<!ENTITY aboutSupport.copyRawDataToClipboard.label "Өнделмеген мәліметтерді алмасу буферіне көшіріп алу">
 
 <!ENTITY aboutSupport.sandboxTitle "Құмсалғыш">
 <!ENTITY aboutSupport.sandboxSyscallLogTitle "Тайдырылған жүйелік шақырулар">
