@@ -8,6 +8,9 @@ porting/Fix-CPU_ARCH-test-for-libjpeg-on-mips.patch
 porting/Fix-crashes-in-AtomicOperations-none-on-s390x.patch
 porting/Fix-broken-MIPS-build.patch
 porting/Work-around-Debian-bug-844357.patch
+porting/Bug-1352236-Work-around-missing-GETRANDOM_NR-when-bu.patch
+porting/Bug-1357874-Define-GETRANDOM_NR-macro-for-AArch64.-r.patch
+porting/Bug-1012232-Only-use-the-perf-opcode-on-mips-arches-.patch
 prefs/Set-javascript.options.showInConsole.patch
 prefs/Set-DPI-to-system-settings.patch
 prefs/Don-t-auto-disable-extensions-in-system-directories.patch
