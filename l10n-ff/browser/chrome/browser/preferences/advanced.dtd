@@ -10,10 +10,10 @@
 
 <!ENTITY useCursorNavigation.label       "Huutoro ñiiƴe jamngel ngel ngam feeraade e nder kelle">
 <!ENTITY useCursorNavigation.accesskey   "g">
-
-
-
-
+<!ENTITY searchOnStartTyping.label       "Yiylo binndi so mi fuɗɗiima tappude">
+<!ENTITY searchOnStartTyping.accesskey   "n">
+<!ENTITY blockAutoReload.label           "Reentin am so lowe geese etiima yiiltude walla hesɗitinde hello ngoo">
+<!ENTITY blockAutoReload.accesskey       "e">
 <!ENTITY useOnScreenKeyboard.label       "Hollu tappirde memto so soklaama">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
@@ -23,27 +23,25 @@
 <!ENTITY useAutoScroll.accesskey         "j">
 <!ENTITY useSmoothScrolling.label        "Huutoro woragol teeyngol">
 <!ENTITY useSmoothScrolling.accesskey    "t">
-<!ENTITY allowHWAccel.label              "Huutoro moylinol masiŋeeri so ena woodi">
-<!ENTITY allowHWAccel.accesskey          "m">
-
-
+<!ENTITY checkUserSpelling.label         "Ƴeewto mbinndiin am so miɗo tappa">
+<!ENTITY checkUserSpelling.accesskey     "b">
 
 <!ENTITY dataChoicesTab.label            "Cuɓe Keɓe">
 
 <!ENTITY healthReportDesc.label          "Wallete faamde moƴƴugol wanngorde maa tee lollina keɓe e &vendorShortName; baɗte kisal wanngorde maa">
 <!ENTITY enableHealthReport.label        "Hurmin &brandShortName; Health Report">
 <!ENTITY enableHealthReport.accesskey    "R">
-<!ENTITY healthReportLearnMore.label     "Ɓeydu humpito">
+<!ENTITY healthReportLearnMore.label     "Jokku Taro">
 
 <!ENTITY telemetryDesc.label             "Lollintu keɓe moƴƴugol, kuutorgol, masiŋeeri e keertine baɗte wanngorde maa e &vendorShortName; ngam wallude min moƴƴinde &brandShortName;">
-
-
-<!ENTITY telemetryLearnMore.label        "Ɓeydu Humpito">
+<!ENTITY enableTelemetryData.label       "Lollin keɓe ɓeydaaɗe (i.e., Telemeetri)">
+<!ENTITY enableTelemetryData.accesskey   "T">
+<!ENTITY telemetryLearnMore.label        "Jokku taro">
 
 <!ENTITY crashReporterDesc2.label         "Jaŋte Kooke ena mballa &vendorShortName; ñawndude caɗe kadi ɓeyda peeragol maa deeƴde e hisde.">
 <!ENTITY alwaysSubmitCrashReports.label   "Yamir &brandShortName; yoo neldu jaŋte kooke ejtaaɗe caggal e innde maa">
 <!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "Ɓeydu Humpito">
+<!ENTITY crashReporterLearnMore.label     "Jokku taro">
 
 <!ENTITY networkTab.label                "Laylaytol">
 
@@ -58,10 +56,12 @@
 <!ENTITY offlineStorage2.label           "Loowdi Geese Ceŋtol e Keɓe Kuutoro">
 <!--  Site Data section manages sites using Storage API and is under Network -->
 
-
-
-
-
+<!ENTITY siteData.label                  "Keɓe Lowre">
+<!ENTITY clearSiteData.label             "Momtu Keɓe ɗee Fof">
+<!ENTITY clearSiteData.accesskey         "o">
+<!ENTITY siteDataSettings.label          "Teelte… ">
+<!ENTITY siteDataSettings.accesskey      "e">
+<!ENTITY siteDataLearnMoreLink.label     "Jokku taro">
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
@@ -80,24 +80,41 @@
 <!ENTITY overrideSmartCacheSize.accesskey "F">
 
 <!ENTITY updateTab.label                 "Hesɗitin">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 
-<!ENTITY updateAuto1.label               "Aaf kesɗitine e jaajol (ena wasiyaa: kisal ƴellitaama)">
-<!ENTITY updateAuto1.accesskey           "s">
+<!ENTITY updateApplication.label         "Kesɗitine &brandShortName;:">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Yamre">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Yamir &brandShortName; to">
+<!ENTITY updateAuto2.label               "Aaf kesɗitine e jaajol (ena wasiyaa: kisal ƴellitaama)">
+<!ENTITY updateAuto2.accesskey           "s">
+<!ENTITY updateCheckChoose2.label        "Yuurnito kesɗitine, kono woppu am mi suɓoo aafat ɗe">
+<!ENTITY updateCheckChoose2.accesskey    "Y">
+<!ENTITY updateManual2.label             "Hoto yuurnito kesɗitine (wasiyaaka)">
+<!ENTITY updateManual2.accesskey         "u">
 
-
-<!ENTITY updateManual.label              "Hoto yuurnito kesɗitine (wasiyaaka: ena ŋakki hisde)">
-<!ENTITY updateManual.accesskey          "u">
-
-<!ENTITY updateHistory.label             "Hollu Aslol Kesɗitine">
-<!ENTITY updateHistory.accesskey         "A">
+<!ENTITY updateHistory2.label            "Hollu Daartol Kesɗitine">
+<!ENTITY updateHistory2.accesskey        "e">
 
 <!ENTITY useService.label                "Huutoro carwol cakkitol ngam aafde kesɗitine">
 <!ENTITY useService.accesskey            "c">
 
-<!ENTITY enableSearchUpdate.label        "Jiilorɗe">
-<!ENTITY enableSearchUpdate.accesskey    "o">
+<!ENTITY enableSearchUpdate2.label       "Kesɗitingol ajaaja jiylorɗe">
+<!ENTITY enableSearchUpdate2.accesskey   "l">
 
+<!ENTITY reports.label                   "Ciimti">
 
+<!ENTITY offlineStorageNotify.label               "&amp;Haalan mo so lowre geese naamniima mooftude keɓe ngam huutoreede e ceŋtol">
+<!ENTITY offlineStorageNotify.accesskey           "g">
 <!ENTITY offlineStorageNotifyExceptions.label     "Paltooje…">
 <!ENTITY offlineStorageNotifyExceptions.accesskey "l">
 
@@ -108,15 +125,27 @@
 <!ENTITY offlineAppRemove.confirm        "Momtu keɓe ceŋtol ɗee">
 
 <!ENTITY certificateTab.label            "Seedamfaaji">
-<!ENTITY certPersonal.label              "Ɗaɓɓitanɗe">
-
+<!ENTITY certPersonal2.description       "So sarworde ɗaɓɓii seedamfaagu maa keeriingu:">
 <!ENTITY selectCerts.auto                "Labo gootal e jaajol">
-
-
-
+<!ENTITY selectCerts.auto.accesskey      "D">
+<!ENTITY selectCerts.ask                 "Naamno mo e sahaa kala">
+<!ENTITY selectCerts.ask.accesskey       "Y">
 <!ENTITY enableOCSP.label                "Ɗaɓɓitere OCSP carworɗe jaaborɗe ena teeŋtina moƴƴugol seedamfaaje">
 <!ENTITY enableOCSP.accesskey            "Ɗ">
 <!ENTITY viewCerts.label                 "Hollu Seedamfaaji">
 <!ENTITY viewCerts.accesskey             "d">
 <!ENTITY viewSecurityDevices.label       "Kaɓirɗi Kisal">
 <!ENTITY viewSecurityDevices.accesskey   "ɓ">
+
+<!ENTITY performance.label               "Jaawgol golle ">
+<!ENTITY useRecommendedPerformanceSettings2.label "Huutoro teelte jaawgol golle basiyaaɗe ɗee">
+<!ENTITY useRecommendedPerformanceSettings2.description "Ɗee teelte ina njahdi e kaɓirɗe kam e dognirgal ordinateer maa.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey "H">
+<!ENTITY performanceSettingsLearnMore.label "Jokku taro">
+<!ENTITY limitContentProcessOption.label "Kaaɗtudi silsil loowdi">
+<!ENTITY limitContentProcessOption.description "Silsilaaji loowdi ɓeydaaɗi ina mbaawi ɓeydude kattanɗe golle so tabbe keewɗe ina kuutoree, kono ina kuutoroo teskorde ɓurnde heewde.">
+<!ENTITY limitContentProcessOption.accesskey   "K">
+
+
+<!ENTITY allowHWAccel.label              "Huutoro moylinol masiŋeeri so ena woodi">
+<!ENTITY allowHWAccel.accesskey          "m">

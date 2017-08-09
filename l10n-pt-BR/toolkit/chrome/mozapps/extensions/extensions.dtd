@@ -13,7 +13,7 @@
 <!ENTITY listEmpty.installed.label            "Não há nenhuma extensão deste tipo instalada">
 <!ENTITY listEmpty.availableUpdates.label     "Nenhuma atualização encontrada.">
 <!ENTITY listEmpty.recentUpdates.label        "Você não atualizou recentemente nenhuma extensão">
-<!ENTITY listEmpty.findUpdates.label          "Verificar atualizações">
+<!ENTITY listEmpty.findUpdates.label          "Verificar se há atualizações">
 <!ENTITY listEmpty.search.label               "Não foi possível localizar quaisquer extensões correspondentes">
 <!ENTITY listEmpty.button.label               "Saber mais sobre as extensões">
 <!ENTITY installAddonFromFile.label           "Instalar de um arquivo…">
@@ -47,7 +47,7 @@
 <!ENTITY view.availableUpdates.label          "Atualizações disponíveis">
 
 <!-- addon updates -->
-<!ENTITY updates.checkForUpdates.label        "Verificar atualizações">
+<!ENTITY updates.checkForUpdates.label        "Verificar se há atualizações">
 <!ENTITY updates.checkForUpdates.accesskey    "V">
 <!ENTITY updates.viewUpdates.label            "Ver atualizações recentes">
 <!ENTITY updates.viewUpdates.accesskey        "E">
@@ -118,6 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "Mostrar as notas de lançamento para esta atualização">
 <!ENTITY cmd.hideReleaseNotes.label           "Ocultar notas da versão">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Ocultar as notas da versão para esta atualização">
+<!ENTITY cmd.findReplacement.label            "Localizar um substituto">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
@@ -188,6 +189,10 @@ funcionalidades ou estilos extras. Experimente um painel que otimiza seu tempo, 
 <!ENTITY addon.details.label                  "Mais">
 <!ENTITY addon.details.tooltip                "Mostrar mais detalhes sobre estas extensões">
 <!ENTITY addon.unknownDate                    "Desconhecido">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "LEGADO">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -252,3 +257,9 @@ funcionalidades ou estilos extras. Experimente um painel que otimiza seu tempo, 
 
 <!ENTITY pluginDeprecation.description "Faltando alguma coisa? Alguns plugins não são mais suportados pelo &brandShortName;.">
 <!ENTITY pluginDeprecation.learnMore "Saber mais.">
+
+<!ENTITY legacyWarning.description "Faltando alguma coisa? Algumas extensões não são mais suportadas pelo &brandShortName;.">
+<!ENTITY legacyWarning.showLegacy "Mostrar extensões legadas">
+<!ENTITY legacyExtensions.title "Extensões legadas">
+<!ENTITY legacyExtensions.description "Estas extensões não cumprem os padrões atuais do &brandShortName;, então eles foram desativados.">
+<!ENTITY legacyExtensions.learnMore "Saiba mais sobre as alterações das extensões">

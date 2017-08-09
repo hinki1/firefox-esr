@@ -100,7 +100,7 @@
 <!ENTITY customizeToolbar.label                         "Personalizar…">
 <!ENTITY customizeToolbar.accesskey                     "P">
 <!ENTITY layoutMenu.label                               "Esquema">
-<!ENTITY layoutMenu.accesskey                           "q">
+<!ENTITY layoutMenu.accesskey                           "E">
 <!ENTITY showDirectoryPane.label                        "Painel de diretórios">
 <!ENTITY showDirectoryPane.accesskey                    "d">
 <!ENTITY showContactPane2.label                         "Painel de contactos">
@@ -140,6 +140,8 @@ because displayed names don't have the comma in between. -->
 <!ENTITY newContactButton.accesskey                     "c">
 <!ENTITY newlistButton.label                            "Nova lista">
 <!ENTITY newlistButton.accesskey                        "l">
+<!ENTITY showAsDefault.label                            "Diretório de arranque predefinidio">
+<!ENTITY showAsDefault.accesskey                        "a">
 <!ENTITY editPropertiesButton.label                     "Editar">
 <!ENTITY propertiesContext.label                        "Propriedades">
 <!ENTITY propertiesContext.accesskey                    "i">
@@ -238,4 +240,4 @@ because displayed names don't have the comma in between. -->
 <!ENTITY minimizeWindow.label                           "Minimizar">
 <!ENTITY minimizeWindow.key                             "M">
 <!ENTITY bringAllToFront.label                          "Trazer tudo para frente">
-<!ENTITY zoomWindow.label                               "Ampliação">
+<!ENTITY zoomWindow.label                               "Zoom">

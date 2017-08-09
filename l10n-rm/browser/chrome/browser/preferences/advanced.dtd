@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "o">
 <!ENTITY useSmoothScrolling.label        "Activar la defilada cuntinuanta">
 <!ENTITY useSmoothScrolling.accesskey    "n">
-<!ENTITY allowHWAccel.label              "Utilisar sche pussaivel l'acceleraziun cun hardware da grafica">
-<!ENTITY allowHWAccel.accesskey          "h">
 <!ENTITY checkUserSpelling.label         "Controllar l'ortografia durant l'endataziun">
 <!ENTITY checkUserSpelling.accesskey     "t">
 
@@ -83,23 +81,23 @@
 
 <!ENTITY updateTab.label                 "Actualisaziun">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "Actualisaziuns da &brandShortName;">
-<!ENTITY updateAuto1.label               "Installar automaticamain actualisaziuns (recumandà, pli segir)">
-<!ENTITY updateAuto1.accesskey           "I">
-<!ENTITY updateCheckChoose.label         "Tschertgar actualisaziuns, ma dumandar avant che installar">
-<!ENTITY updateCheckChoose.accesskey     "T">
-<!ENTITY updateManual.label              "Mai tschertgar actualisaziuns (betg recumandà, privel da segirezza)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
 
-<!ENTITY updateHistory.label             "Mussar la cronologia da las actualisaziuns">
-<!ENTITY updateHistory.accesskey         "c">
 
 <!ENTITY useService.label                "Utilisar in servetsch per installar actualisaziuns senza interrupziun">
 <!ENTITY useService.accesskey            "r">
 
-<!ENTITY autoUpdateOthers.label          "Actualisar automaticamain">
-<!ENTITY enableSearchUpdate.label        "Maschinas da tschertgar">
-<!ENTITY enableSearchUpdate.accesskey    "s">
+
 
 <!ENTITY offlineStorageNotify.label               "Dumandar en cas che websites vulan memorisar datas per l'utilisaziun offline">
 <!ENTITY offlineStorageNotify.accesskey           "D">
@@ -113,8 +111,6 @@
 <!ENTITY offlineAppRemove.confirm        "Allontanar las datas offline">
 
 <!ENTITY certificateTab.label            "Certificats">
-<!ENTITY certPersonal.label              "Dumondas">
-<!ENTITY certPersonal.description        "Sch'ina website dumonda il certificat da segirezza persunal:">
 <!ENTITY selectCerts.auto                "Tscherner automaticamain in">
 <!ENTITY selectCerts.auto.accesskey      "T">
 <!ENTITY selectCerts.ask                 "Dumandar mintga giada">
@@ -125,3 +121,6 @@
 <!ENTITY viewCerts.accesskey             "c">
 <!ENTITY viewSecurityDevices.label       "Moduls da criptadi">
 <!ENTITY viewSecurityDevices.accesskey   "M">
+
+<!ENTITY allowHWAccel.label              "Utilisar sche pussaivel l'acceleraziun cun hardware da grafica">
+<!ENTITY allowHWAccel.accesskey          "h">

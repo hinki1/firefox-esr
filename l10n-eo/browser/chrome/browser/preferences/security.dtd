@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  general.label                 "Ĝenerala">
+<!ENTITY  security.label                 "Sekureco">
 
 <!ENTITY  warnOnAddonInstall.label        "Averti min kiam retejoj volas instali aldonaĵojn">
 <!ENTITY  warnOnAddonInstall.accesskey    "A">
@@ -24,10 +24,10 @@
 <!ENTITY  addonExceptions.accesskey     "E">
 
 
-<!ENTITY  logins.label                  "Akreditiloj">
+<!ENTITY  formsAndPasswords.label       "Formularoj kaj pasvortoj">
 
-<!ENTITY  rememberLogins.label          "Memori akreditilojn por retejoj">
-<!ENTITY  rememberLogins.accesskey      "a">
+<!ENTITY  rememberLogins1.label          "Memori akreditilojn kaj pasvortojn por retejoj">
+<!ENTITY  rememberLogins1.accesskey      "M">
 <!ENTITY  passwordExceptions.label      "Esceptoj…">
 <!ENTITY  passwordExceptions.accesskey  "c">
 

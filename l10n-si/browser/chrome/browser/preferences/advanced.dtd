@@ -22,8 +22,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "සුමට ස්ක්‍රෝල් වීම භාවිතා කරන්න">
 <!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY allowHWAccel.label              "ඇත්නම් දෘඩාංග වේග-උපාංග (acceleration) භාවිතා කරන්න">
-<!ENTITY allowHWAccel.accesskey          "r">
 <!ENTITY checkUserSpelling.label         "ඔබ යතුරු ලියන අතර අක්ෂර වින්‍යාසය පිරික්සන්න">
 <!ENTITY checkUserSpelling.accesskey     "t">
 
@@ -80,23 +78,23 @@
 
 <!ENTITY updateTab.label                 "යාවත්කාලීන">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "&brandShortName; යාවත්කාල">
-<!ENTITY updateAuto1.label               "යාවත්කාලීන යාවත්කාලීන ස්වයංක්‍රීයව ස්ථාපනය කරන්න (ආරක්ෂීතබව වැඩිකරයි)">
-<!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateCheckChoose.label         "යාවත්කාලීන සඳහා පරීක්ෂා කරන්න, නමුත් ස්ථාපනය සඳහා ඔබට තේරීමට ඉඩහරින්න">
-<!ENTITY updateCheckChoose.accesskey     "C">
-<!ENTITY updateManual.label              "යාවත්කාලීන සඳහා ස්වයංක්‍රීයව පරීක්ෂා නොකරන්න (අනතුරුදායනවබ බව වැඩිකරයන නිසා නිර්දේශ නොකරයි)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
 
-<!ENTITY updateHistory.label             "යාවත්කාලීන අතීතය පෙන්වන්න">
-<!ENTITY updateHistory.accesskey         "p">
 
 <!ENTITY useService.label                "යාවත්කාලීන ස්ථාපනය සඳහා පසුබ්ම් සේවාව (background service) භාවිතා කරන්න">
 <!ENTITY useService.accesskey            "b">
 
-<!ENTITY autoUpdateOthers.label          "ස්වයංක්‍රීයව යාවත්කාලීන කරන්න">
-<!ENTITY enableSearchUpdate.label        "සෙවුම් යන්ත්‍ර">
-<!ENTITY enableSearchUpdate.accesskey    "E">
+
 
 <!ENTITY offlineStorageNotify.label               "වෙබ් අඩවියක් නොබැඳි භාවිතය සඳහා දත්ත ගබඩා කිරීමට විමසන විට ඔබට පවසයි">
 <!ENTITY offlineStorageNotify.accesskey           "T">
@@ -109,8 +107,6 @@
 <!ENTITY offlineAppRemove.confirm        "නොබැඳි දත්ත ඉවත් කරන්න">
 
 <!ENTITY certificateTab.label            "සහතික">
-<!ENTITY certPersonal.label              "ඉල්ලීම්">
-<!ENTITY certPersonal.description        "සේවාදායකයක් ඔබගේ පෞද්ගලික සහතික ඉල්ලා සිටින විට:">
 <!ENTITY selectCerts.auto                "එකක් ස්වයංක්‍රීයව තෝරන්න">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "සැමවිටම ඔබෙන් විමසන්න">
@@ -121,3 +117,6 @@
 <!ENTITY viewCerts.accesskey             "C">
 <!ENTITY viewSecurityDevices.label       "ආරක්‍ෂක උපාංග">
 <!ENTITY viewSecurityDevices.accesskey   "D">
+
+<!ENTITY allowHWAccel.label              "ඇත්නම් දෘඩාංග වේග-උපාංග (acceleration) භාවිතා කරන්න">
+<!ENTITY allowHWAccel.accesskey          "r">

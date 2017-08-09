@@ -34,6 +34,11 @@
 %undef L10N_RECOMMENDS
 %include @PRODUCT@-l10n.control.in
 
+%define L10N_LANG be
+%define L10N_LANGUAGE Belarusian
+%undef L10N_RECOMMENDS
+%include @PRODUCT@-l10n.control.in
+
 %define L10N_LANG bg
 %define L10N_LANGUAGE Bulgarian
 %define L10N_RECOMMENDS myspell-bg

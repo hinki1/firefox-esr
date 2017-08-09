@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey      "C">
 <!ENTITY engine.history.label       "Vēsturi">
 <!ENTITY engine.history.accesskey   "r">
-<!ENTITY engine.passwords.label     "Paroles">
-<!ENTITY engine.passwords.accesskey "P">
+<!ENTITY engine.logins.label        "Lietotājvārdi">
+<!ENTITY engine.logins.accesskey    "L">
 <!ENTITY engine.prefs.label         "Iestatījumus">
 <!ENTITY engine.prefs.accesskey     "s">
 <!ENTITY engine.addons.label        "Papildinājumus">
@@ -19,8 +19,8 @@
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Ierīces nosaukums">
-<!ENTITY changeSyncDeviceName.label "Mainīt ierīces nosaukumu…">
-<!ENTITY changeSyncDeviceName.accesskey "h">
+<!ENTITY changeSyncDeviceName2.label "Mainīt ierīces nosaukumu…">
+<!ENTITY changeSyncDeviceName2.accesskey "n">
 <!ENTITY cancelChangeSyncDeviceName.label "Atcelt">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "n">
 <!ENTITY saveChangeSyncDeviceName.label "Saglabāt">
@@ -52,8 +52,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "Mainīt profila attēlu">
 <!ENTITY verifiedManage.label        "Pārvaldīt kontu">
 <!ENTITY verifiedManage.accesskey    "a">
-<!ENTITY disconnect.label            "Atslēgties…">
-<!ENTITY disconnect.accesskey        "A">
+<!ENTITY disconnect3.label           "Atslēgties…">
+<!ENTITY disconnect3.accesskey       "T">
 <!ENTITY verify.label                "Apstiprināt epastu">
 <!ENTITY verify.accesskey            "p">
 <!ENTITY forget.label                "Aizmirst šo epastu">
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "Pieslēgties">
 <!ENTITY signedOut.accountBox.signin.accesskey  "I">
 
-<!ENTITY signedIn.engines.label       "Sinhronizēt visās ierīcēs">
+<!ENTITY signedIn.settings.label       "Sync iestatījumi">
+<!ENTITY signedIn.settings.description "Izvēlēties, ko sinhronizēt ierīcē, izmantojot uz &brandShortName;.">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

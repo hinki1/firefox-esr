@@ -2,10 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  general.label                 "ทั่วไป">
+<!ENTITY  security.label                 "ความปลอดภัย">
 
 <!ENTITY  warnOnAddonInstall.label        "เตือนคุณเมื่อไซต์พยายามจะติดตั้งส่วนเสริม">
-<!ENTITY  warnOnAddonInstall.accesskey    "W">
+<!ENTITY  warnOnAddonInstall.accesskey    "ต">
 
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
@@ -18,16 +18,16 @@
 <!ENTITY  blockDownloads.accesskey        "อ">
 
 <!ENTITY  blockUncommonAndUnwanted.label     "เตือนคุณเกี่ยวกับซอฟต์แวร์ไม่พึงประสงค์และไม่ปกติ">
-<!ENTITY  blockUncommonAndUnwanted.accesskey "C">
+<!ENTITY  blockUncommonAndUnwanted.accesskey "น">
 
 <!ENTITY  addonExceptions.label         "ข้อยกเว้น…">
-<!ENTITY  addonExceptions.accesskey     "อ">
+<!ENTITY  addonExceptions.accesskey     "ข">
 
 
-<!ENTITY  logins.label                  "การเข้าสู่ระบบ">
+<!ENTITY  formsAndPasswords.label       "แบบฟอร์มและรหัสผ่าน">
 
-<!ENTITY  rememberLogins.label          "จดจำการเข้าสู่ระบบสำหรับไซต์">
-<!ENTITY  rememberLogins.accesskey      "R">
+<!ENTITY  rememberLogins1.label          "จดจำการเข้าสู่ระบบและรหัสผ่านสำหรับไซต์">
+<!ENTITY  rememberLogins1.accesskey      "ด">
 <!ENTITY  passwordExceptions.label      "ข้อยกเว้น…">
 <!ENTITY  passwordExceptions.accesskey  "อ">
 
@@ -37,4 +37,4 @@
 <!ENTITY  changeMasterPassword.accesskey "ล">
 
 <!ENTITY  savedLogins.label              "การเข้าสู่ระบบที่บันทึกไว้…">
-<!ENTITY  savedLogins.accesskey          "ข">
+<!ENTITY  savedLogins.accesskey          "ก">

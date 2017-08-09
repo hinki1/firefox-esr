@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  general.label                 "Γενικά">
+<!ENTITY  security.label                 "Ασφάλεια">
 
 <!ENTITY  warnOnAddonInstall.label        "Προειδοποίηση όταν οι ιστοσελίδες προσπαθούν να εγκαταστήσουν πρόσθετα">
 <!ENTITY  warnOnAddonInstall.accesskey    "Π">
@@ -24,10 +24,10 @@
 <!ENTITY  addonExceptions.accesskey     "Ε">
 
 
-<!ENTITY  logins.label                  "Λογαριασμοί">
+<!ENTITY  formsAndPasswords.label       "Φόρμες &amp; κωδικοί πρόσβασης">
 
-<!ENTITY  rememberLogins.label          "Απομνημόνευση λογαριασμών για ιστοσελίδες">
-<!ENTITY  rememberLogins.accesskey      "μ">
+<!ENTITY  rememberLogins1.label          "Απομνημόνευση στοιχείων σύνδεσης για ιστοσελίδες">
+<!ENTITY  rememberLogins1.accesskey      "Α">
 <!ENTITY  passwordExceptions.label      "Εξαιρέσεις…">
 <!ENTITY  passwordExceptions.accesskey  "ξ">
 

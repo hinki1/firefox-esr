@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Akıcı kaydırmayı kullan">
 <!ENTITY useSmoothScrolling.accesskey    "c">
-<!ENTITY allowHWAccel.label              "Mümkün olduğunda donanım ivmelenmesini kullan">
-<!ENTITY allowHWAccel.accesskey          "d">
 <!ENTITY checkUserSpelling.label         "Yazarken yazım denetimi yap">
 <!ENTITY checkUserSpelling.accesskey     "t">
 
@@ -83,23 +81,36 @@
 
 <!ENTITY updateTab.label                 "Güncelleme">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "&brandShortName; güncellemeleri">
-<!ENTITY updateAuto1.label               "Güncellemeleri otomatik olarak yükle (önerilir: artırılmış güvenlik)">
-<!ENTITY updateAuto1.accesskey           "o">
-<!ENTITY updateCheckChoose.label         "Güncellemeleri denetle ama onları kurma kararını bana bırak">
-<!ENTITY updateCheckChoose.accesskey     "d">
-<!ENTITY updateManual.label              "Güncellemeleri hiçbir zaman denetleme (önerilmez: güvenlik riski)">
-<!ENTITY updateManual.accesskey          "h">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Sürüm ">
+<!ENTITY updateApplication.description   "&brandShortName;">
+<!ENTITY updateAuto2.label               "Güncellemeleri otomatik olarak yüklesin (Güvenliğiniz için önerilir)">
+<!ENTITY updateAuto2.accesskey           "G">
+<!ENTITY updateCheckChoose2.label        "Güncellemeleri denetlesin ama yükleme kararını bana bıraksın">
+<!ENTITY updateCheckChoose2.accesskey    "d">
+<!ENTITY updateManual2.label             "Güncellemeleri hiçbir zaman denetlemesin (Önerilmez)">
+<!ENTITY updateManual2.accesskey         "n">
 
-<!ENTITY updateHistory.label             "Güncelleme geçmişini göster">
-<!ENTITY updateHistory.accesskey         "G">
+<!ENTITY updateHistory2.label            "Güncelleme geçmişini göster…">
+<!ENTITY updateHistory2.accesskey        "c">
 
 <!ENTITY useService.label                "Güncellemeleri yüklemek için arka plan hizmetini kullan">
 <!ENTITY useService.accesskey            "h">
 
-<!ENTITY autoUpdateOthers.label          "Otomatik olarak güncelle">
-<!ENTITY enableSearchUpdate.label        "Arama motorları">
-<!ENTITY enableSearchUpdate.accesskey    "A">
+<!ENTITY enableSearchUpdate2.label       "Arama motorlarını otomatik olarak güncelle">
+<!ENTITY enableSearchUpdate2.accesskey   "e">
+
+<!ENTITY reports.label                   "Raporlar">
 
 <!ENTITY offlineStorageNotify.label               "Bir site çevrimdışı kullanım için veri depolamak istediğinde bana bildir">
 <!ENTITY offlineStorageNotify.accesskey           "v">
@@ -113,8 +124,7 @@
 <!ENTITY offlineAppRemove.confirm        "Çevrimdışı verileri sil">
 
 <!ENTITY certificateTab.label            "Sertifikalar">
-<!ENTITY certPersonal.label              "İstekler">
-<!ENTITY certPersonal.description        "Bir sunucu kişisel sertifikamı istediğinde:">
+<!ENTITY certPersonal2.description       "Bir sunucu kişisel sertifikamı istediğinde">
 <!ENTITY selectCerts.auto                "Birini kendiliğinden seç">
 <!ENTITY selectCerts.auto.accesskey      "B">
 <!ENTITY selectCerts.ask                 "Her seferinde bana sor">
@@ -125,3 +135,19 @@
 <!ENTITY viewCerts.accesskey             "S">
 <!ENTITY viewSecurityDevices.label       "Güvenlik aygıtları">
 <!ENTITY viewSecurityDevices.accesskey   "G">
+
+<!ENTITY performance.label               "Performans">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Önerilen performans ayarlarını kullan">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Bu ayarlar bilgisayarınızın donanımına ve işletim sistemine göre seçilmiştir.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "Ö">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Daha fazla bilgi al">
+<!ENTITY limitContentProcessOption.label "İçerik işlemi sınırı">
+<!ENTITY limitContentProcessOption.description
+                                         "Daha fazla içerik işlemine izin verdiğinizde, çok sayıda sekme açıkken performans artar ama daha fazla bellek kullanılır.">
+<!ENTITY limitContentProcessOption.accesskey   "L">
+<!ENTITY allowHWAccel.label              "Mümkün olduğunda donanım ivmelenmesini kullan">
+<!ENTITY allowHWAccel.accesskey          "d">

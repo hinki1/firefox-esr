@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey      "л">
 <!ENTITY engine.history.label       "Историю">
 <!ENTITY engine.history.accesskey   "т">
-<!ENTITY engine.passwords.label     "Пароли">
-<!ENTITY engine.passwords.accesskey "а">
+<!ENTITY engine.logins.label        "Логины">
+<!ENTITY engine.logins.accesskey    "ы">
 <!ENTITY engine.prefs.label         "Настройки">
 <!ENTITY engine.prefs.accesskey     "й">
 <!ENTITY engine.addons.label        "Дополнения">
@@ -19,8 +19,8 @@
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Имя устройства">
-<!ENTITY changeSyncDeviceName.label "Сменить имя устройства…">
-<!ENTITY changeSyncDeviceName.accesskey "я">
+<!ENTITY changeSyncDeviceName2.label "Изменить имя устройства…">
+<!ENTITY changeSyncDeviceName2.accesskey "м">
 <!ENTITY cancelChangeSyncDeviceName.label "Отмена">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "е">
 <!ENTITY saveChangeSyncDeviceName.label "Сохранить">
@@ -52,8 +52,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "Изменить фотографию в профиле">
 <!ENTITY verifiedManage.label        "Управление аккаунтом">
 <!ENTITY verifiedManage.accesskey    "в">
-<!ENTITY disconnect.label            "Отсоединить…">
-<!ENTITY disconnect.accesskey        "н">
+<!ENTITY disconnect3.label           "Отсоединить…">
+<!ENTITY disconnect3.accesskey       "н">
 <!ENTITY verify.label                "Подтвердить эл. почту">
 <!ENTITY verify.accesskey            "э">
 <!ENTITY forget.label                "Забыть об этой эл. почте">
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "Войти">
 <!ENTITY signedOut.accountBox.signin.accesskey  "и">
 
-<!ENTITY signedIn.engines.label       "Синхронизировать со всеми устройствами">
+<!ENTITY signedIn.settings.label       "Параметры синхронизации">
+<!ENTITY signedIn.settings.description "Выберите, что нужно синхронизировать на ваших устройствах при помощи &brandShortName;.">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

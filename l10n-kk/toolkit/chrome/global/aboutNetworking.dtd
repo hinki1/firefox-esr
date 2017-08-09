@@ -14,7 +14,7 @@
 <!ENTITY aboutNetworking.autoRefresh           "Әр 3 секунд сайын жаңарту">
 <!ENTITY aboutNetworking.hostname              "Хост аты">
 <!ENTITY aboutNetworking.port                  "Порт">
-<!ENTITY aboutNetworking.spdy                  "SPDY">
+<!ENTITY aboutNetworking.http2                 "HTTP/2">
 <!ENTITY aboutNetworking.ssl                   "SSL">
 <!ENTITY aboutNetworking.active                "Белсенді">
 <!ENTITY aboutNetworking.idle                  "Іссіз">
@@ -41,3 +41,8 @@
 <!ENTITY aboutNetworking.dnsLookupButton       "Шешу">
 <!ENTITY aboutNetworking.dnsDomain             "Домен">
 <!ENTITY aboutNetworking.dnsLookupTableColumn  "IP адрестері">
+<!ENTITY aboutNetworking.rcwn                  "RCWN статистикасы">
+<!ENTITY aboutNetworking.rcwnStatus            "RCWN қалып-күйі">
+<!ENTITY aboutNetworking.rcwnCacheWonCount     "Кэшке сәтті қатынаудың саны">
+<!ENTITY aboutNetworking.rcwnNetWonCount       "Желіге қатынаудың саны">
+<!ENTITY aboutNetworking.totalNetworkRequests  "Желілік сұранымдардың жалпы саны">

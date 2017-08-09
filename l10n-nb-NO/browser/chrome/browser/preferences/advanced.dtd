@@ -1,8 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- Note: each tab panel must contain unique accesskeys -->
 
+<!-- Note: each tab panel must contain unique accesskeys -->
 
 <!ENTITY generalTab.label                "Generelt">
 
@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "B">
 <!ENTITY useSmoothScrolling.label        "Bruk jevn rulling">
 <!ENTITY useSmoothScrolling.accesskey    "u">
-<!ENTITY allowHWAccel.label              "Bruk maskinvareakselerasjon når tilgjengelig">
-<!ENTITY allowHWAccel.accesskey          "m">
 <!ENTITY checkUserSpelling.label         "Kontroller staving mens du skriver">
 <!ENTITY checkUserSpelling.accesskey     "t">
 
@@ -56,21 +54,21 @@
 <!ENTITY httpCache.label                 "Hurtiglagret nettinnhold">
 
 <!ENTITY offlineStorage2.label           "Frakoblet nettinnhold og brukerdata">
-<!--  Site Data section manages sites using Storage API and is under Network -->
 
+<!--  Site Data section manages sites using Storage API and is under Network -->
 <!ENTITY siteData.label                  "Sidedata">
 <!ENTITY clearSiteData.label             "Fjern alle data">
 <!ENTITY clearSiteData.accesskey         "l">
 <!ENTITY siteDataSettings.label          "Innstillinger …">
 <!ENTITY siteDataSettings.accesskey      "I">
 <!ENTITY siteDataLearnMoreLink.label     "Les mer">
+
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
 
   &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
 -->
-
 <!ENTITY limitCacheSizeBefore.label      "Begrens hurtiglageret til">
 <!ENTITY limitCacheSizeBefore.accesskey  "B">
 <!ENTITY limitCacheSizeAfter.label       " MB diskplass">
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Oppdatering">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "&brandShortName;-oppdateringer">
-<!ENTITY updateAuto1.label               "Automatisk installer oppdateringer (anbefalt: bedre sikkerhet)">
-<!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateCheckChoose.label         "Søk etter oppdateringer, men lar deg velge om du vil installere dem">
-<!ENTITY updateCheckChoose.accesskey     "S">
-<!ENTITY updateManual.label              "Aldri søk etter oppdateringer (ikke anbefalt: sikkerhetsrisiko)">
-<!ENTITY updateManual.accesskey          "r">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Versjon ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Tillat &brandShortName; å">
+<!ENTITY updateAuto2.label               "Installer oppdateringer automatisk (anbefales for forbedret sikkerhet)">
+<!ENTITY updateAuto2.accesskey           "a">
+<!ENTITY updateCheckChoose2.label        "Se etter oppdateringer, men la meg velge om jeg vil installere dem">
+<!ENTITY updateCheckChoose2.accesskey    "S">
+<!ENTITY updateManual2.label             "Se aldri etter oppdateringer (anbefales ikke)">
+<!ENTITY updateManual2.accesskey         "s">
 
-<!ENTITY updateHistory.label             "Vis oppdateringshistorikk">
-<!ENTITY updateHistory.accesskey         "V">
+<!ENTITY updateHistory2.label            "Vis oppdateringshistorikk…">
+<!ENTITY updateHistory2.accesskey        "p">
 
 <!ENTITY useService.label                "Bruk en bakgrunnstjeneste for å installere oppdateringer">
 <!ENTITY useService.accesskey            "B">
 
-<!ENTITY autoUpdateOthers.label          "Automatisk oppdatering">
-<!ENTITY enableSearchUpdate.label        "Søkemotorer">
-<!ENTITY enableSearchUpdate.accesskey    "m">
+<!ENTITY enableSearchUpdate2.label       "Oppdater søkemotorer automatisk">
+<!ENTITY enableSearchUpdate2.accesskey   "e">
+
+<!ENTITY reports.label                   "Rapporter">
 
 <!ENTITY offlineStorageNotify.label               "Fortell deg når et nettsted ber om å lagre data for frakoblet bruk">
 <!ENTITY offlineStorageNotify.accesskey           "F">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Slett frakoblet data">
 
 <!ENTITY certificateTab.label            "Sertifikater">
-<!ENTITY certPersonal.label              "Forespørsler">
-<!ENTITY certPersonal.description        "Når et nettsted ber om ditt personlige sertifikat:">
+<!ENTITY certPersonal2.description       "Når et nettsted ber om ditt personlige sertifikat">
 <!ENTITY selectCerts.auto                "Velg ett automatisk">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "Spør deg hver gang">
@@ -125,3 +136,23 @@
 <!ENTITY viewCerts.accesskey             "V">
 <!ENTITY viewSecurityDevices.label       "Sikkerhetsenheter">
 <!ENTITY viewSecurityDevices.accesskey   "k">
+
+<!ENTITY performance.label               "Ytelse">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Bruk anbefalte ytelsesinnstillinger">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Disse innstillingene er skreddersydd til datamaskinens maskinvare og operativsystem.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "B">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Les mer">
+<!ENTITY limitContentProcessOption.label "Grense for innholdsprosesser">
+<!ENTITY limitContentProcessOption.description
+                                         "Ytterligere innholdsprosesser kan forbedre ytelsen når du bruker flere faner, men vil også bruke mer minne.">
+<!ENTITY limitContentProcessOption.accesskey   "Y">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Endring av antall innholdsprosesser kan bare gjøres med multiprosess &brandShortName;.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Lær hvordan du kontrollerer om multiprosess er slått på">
+<!ENTITY allowHWAccel.label              "Bruk maskinvareakselerasjon når tilgjengelig">
+<!ENTITY allowHWAccel.accesskey          "m">

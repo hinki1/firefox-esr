@@ -149,7 +149,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      Localizers can use one of them, or both, to better adapt this
      sentence to their language. -->
 
-<!ENTITY pointerlockWarning.beforeDomain.label "">
+<!ENTITY pointerlockWarning.beforeDomain.label "Tamde">
 <!ENTITY pointerlockWarning.afterDomain.label "nana ɗowa doborde maa. Ñoƴƴu Ech ngam ɓamtude ɗowgol.">
 <!ENTITY pointerlockWarning.generic.label "Ndee fiilannde nana ɗowa doborde maa. Ñoƴƴu Ech ngam ɓamtude ɗowgol.">
 
@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "Dobo ñaamo walla fooɗ ngam hollude aslol">
 <!ENTITY backForwardButtonMenuMac.tooltip "Wertu ngam hollude aslol">
 <!ENTITY reloadCmd.label              "Hesɗitin">
-<!ENTITY reloadButton.tooltip         "Hesɗitin hello wonaango ngoo">
 <!ENTITY stopCmd.label                "Dartin">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "Dartin kesɗitingol ngoo hello">
 <!ENTITY goEndCap.tooltip             "Yah to ñiiɓirde wonde e Palal Nokkuuje">
 <!ENTITY printButton.label            "Waanjito">
 <!ENTITY printButton.tooltip          "Waanjito ngoo hello">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Uddit alluwal ɓatakuuje danndugol finnde">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Toppito kuutoragol ceŋe">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Waylu mbele aɗa waawi heɓde tintine iwɗe e ndee lowre">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Mooftu keɓe e Ndesgu Duumiingu">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Feerorde wonnde yuurnito woɗɗungo">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Toppito lollingol kameraa e/walla mikkoroo maa e ndee lowre">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Toppito lollingol mikkoroo maa e ndee lowre">
@@ -231,13 +231,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "A daaƴii humpito nokkuure e ndee lowre.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "A daaƴii ndesgu keɓe e ndee lowre.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "A daaƴii tintine e ndee lowre.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "A daaƴii ndesgu duumiingu e ndee lowre.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Hollir aslol">
 
-<!ENTITY urlbar.zoomReset.tooltip     "Artir tolno lonngol">
-
 <!ENTITY searchItem.title             "Yiylo">
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 
 <!ENTITY homeButton.label             "Jaɓɓorgo">
 
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Momtu Aslol Sakketol…">
 <!ENTITY appMenuHistory.restoreSession.label "Artir Yillannde Ɓennunde">
 <!ENTITY appMenuHistory.viewSidebar.label "Hollu Aslol Palal Sawndo">
+<!ENTITY appMenuHelp.label "&amp;Ballal">
 <!ENTITY appMenuHelp.tooltip "Uddit ballitorgol">
 
 <!ENTITY appMenuRemoteTabs.label "Tabbe synckaaɗe">
@@ -377,27 +377,44 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Cuɓoraaɗe Sync">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Seŋo ngam yiyde tabbe iwɗe e kaɓirɗi maa goɗɗi.">
 <!ENTITY appMenuRemoteTabs.signin.label "Seŋo nga syncude">
+<!ENTITY appMenuRemoteTabs.managedevices.label "Toppito Kaɓirɗi…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Yiy Tabbe Cynkaaɗe">
 
 <!ENTITY customizeMenu.addToToolbar.label "Ɓeydu e palal kuutorɗe">
 <!ENTITY customizeMenu.addToToolbar.accesskey "Ɓ">
 <!ENTITY customizeMenu.addToPanel.label "Ɓeeydu to Loowdi">
 <!ENTITY customizeMenu.addToPanel.accesskey "L">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "Ɓeydu e Overflow Cuɓirgol">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "C">
 <!ENTITY customizeMenu.moveToToolbar.label "Dirtin to palal kuutorɗe">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "D">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Dirtin to cuɓirgol">
 <!ENTITY customizeMenu.moveToPanel.accesskey "D">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "Pin to Overflow Cuɓirgol">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "P">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Pintu ummoraade Overflow Cuɓirgol">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "P">
 <!ENTITY customizeMenu.removeFromToolbar.label "Ittu e  palal kuutorɗe">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "I">
 <!ENTITY customizeMenu.removeFromMenu.label "Ittu e cuɓirgel">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "I">
 <!ENTITY customizeMenu.addMoreItems.label "Ɓeeydu ngeɗon ngoɗkon…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "Ɓ">
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+
+<!ENTITY moreMenu.label "Goɗɗum">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Yiylo walla naatnu ñiiɓirde">
@@ -413,7 +430,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.disable.accesskey "n">
 <!ENTITY urlbar.searchSuggestionsNotification.enable "Eey">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "y">
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Toɓɓu:">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "Ɓeydu ballal ngam yiytude geɗe ! Ƴeewto to &#x1F50E; sara bagginooje njiylawu.">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "Waylu Cuɓe...">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "C ">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "Waylu Cuɓe...">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "C ">
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -526,6 +552,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "J">
 <!ENTITY bookmarkThisFrameCmd.label      "Maantoro Ngol Kaarewol">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "o">
+<!ENTITY copyURLCmd.label             "Natto URL">
 <!ENTITY emailPageCmd.label           "Jokkol Iimeel…">
 <!ENTITY emailPageCmd.accesskey       "J">
 <!ENTITY savePageCmd.label            "Danndu Hello e Innde…">
@@ -652,6 +679,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.accesskey             "L">
 
 <!ENTITY sidebarCloseButton.tooltip     "Uddu palal sawndo">
+<!ENTITY sidebarMenuClose.label         "Uddu palal sawndo ">
 
 <!ENTITY quitApplicationCmdWin2.label       "Yaltu">
 <!ENTITY quitApplicationCmdWin2.accesskey   "Y">
@@ -661,8 +689,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Yaltu"> 
 <!ENTITY quitApplicationCmd.accesskey   "Y">
 <!ENTITY quitApplicationCmdMac2.label   "Yaltu &brandShorterName;">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Y">
+<!ENTITY quitApplicationCmd.key         "Q">
 
 <!ENTITY closeCmd.label                 "Uddu">  
 <!ENTITY closeCmd.key                   "W">  
@@ -714,6 +741,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Ngoo hello mooftaa ko e ordinateer maa.">
 <!ENTITY identity.connectionVerified2 "Aɗa seŋii kisngol e ndee lowre, jeyɗum ko:">
 <!ENTITY identity.connectionInternal "Ɗum ko hello &brandShortName; hisngo.">
+<!ENTITY identity.extensionPage "Ngoo hello loowraa ko jokkel">
 <!ENTITY identity.insecureLoginForms2 "Ceŋorɗe naatnaaɗe e ngoo hello ena mbawi jaayeede.">
 <!-- Strings for connection state warnings. -->
 
@@ -786,6 +814,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "Uddit Fof e Tabbe">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "U">
+<!ENTITY syncedTabs.context.managedevices.label              "Toppito Kaɓirɗi…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "K">
 
 
 <!ENTITY syncBrand.shortName.label    "Sanngoɗin">
@@ -810,8 +840,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "Ina sokli kaɓirɗe goɗɗe">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Suɓo e nder ujunnaaje ɓeyditte">
 <!ENTITY customizeMode.restoreDefaults "Artir Goowaaɗe">
-<!ENTITY customizeMode.toolbars "Hollu / Suuɗ pale kaɓirɗe">
+<!ENTITY customizeMode.done "Gasii">
 <!ENTITY customizeMode.titlebar "Tiitoonde palal">
+<!ENTITY customizeMode.toolbars2 "&amp;Pale kuutorɗe">
 <!ENTITY customizeMode.lwthemes "Ciŋkooje">
 <!ENTITY customizeMode.lwthemes.myThemes "Ciŋkooje Am">
 <!ENTITY customizeMode.lwthemes.recommended "Basiyaaɗi">
@@ -900,3 +931,36 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "Ɓeydu humpito baɗte DRM…">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+<!ENTITY updateAvailable.message "Hesɗitin &brandShorterName; maa ngam heɓde ko sakkitii e njaawka e suturo.">
+<!ENTITY updateAvailable.whatsnew.label "Ƴeew ko hesɗi.">
+<!ENTITY updateAvailable.header.message "&brandShorterName; keso ena woodi.">
+<!ENTITY updateAvailable.acceptButton.label "Aawto Kesɗitinal">
+<!ENTITY updateAvailable.acceptButton.accesskey "A">
+<!ENTITY updateAvailable.cancelButton.label "Wonaa Jooni">
+<!ENTITY updateAvailable.cancelButton.accesskey "W">
+<!ENTITY updateAvailable.panelUI.label "Aawto kesɗitinal &brandShorterName;">
+
+<!ENTITY updateManual.message "Aawto tumbitere hesere &brandShorterName; min mballu maa ɗum aafde.">
+<!ENTITY updateManual.whatsnew.label "Ƴeew ko hesɗi.">
+<!ENTITY updateManual.header.message "&brandShorterName; roŋkii aafde tumbitere hesere nde.">
+<!ENTITY updateManual.acceptButton.label "Aawto &brandShorterName;">
+<!ENTITY updateManual.acceptButton.accesskey "A">
+<!ENTITY updateManual.cancelButton.label "Wonaa Jooni">
+<!ENTITY updateManual.cancelButton.accesskey "W">
+<!ENTITY updateManual.panelUI.label "Aawto tumbitere &brandShorterName; hesere">
+
+<!ENTITY updateRestart.message "Caggal kuɓɓitgol jaawngol &brandShorterName; maa artir tabbe e kenorɗe maa fof.">
+<!ENTITY updateRestart.header.message2 "Huɓɓit ngam hesɗitinde &brandShorterName;.">
+<!ENTITY updateRestart.acceptButton.label "Hurmitin tee Ngartiraa">
+<!ENTITY updateRestart.acceptButton.accesskey "H">
+<!ENTITY updateRestart.cancelButton.label "Wonaa Jooni">
+<!ENTITY updateRestart.cancelButton.accesskey "W">
+<!ENTITY updateRestart.panelUI.label2 "Huɓɓit ngam hesɗitinde &brandShorterName;.">
+
+<!ENTITY pageActionButton.tooltip "Baɗe hello">
+
+<!ENTITY sendToDevice.label "Neldu to Masiŋel...">
+<!ENTITY sendToDevice.viewTitle "Neldu to Masiŋel">
+<!ENTITY sendToDevice.fxaRequired.label "Ena waɗɗii">
+<!ENTITY sendToDevice.noDevices.label "Alaa masiŋel heɓii">

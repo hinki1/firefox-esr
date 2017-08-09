@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  general.label                 "Powšykne">
+<!ENTITY  security.label                 "Wěstota">
 
 <!ENTITY  warnOnAddonInstall.label        "Warnowaś, gaž sedła wopytuju dodanki instalěrowaś">
 <!ENTITY  warnOnAddonInstall.accesskey    "W">
@@ -24,10 +24,10 @@
 <!ENTITY  addonExceptions.accesskey     "W">
 
 
-<!ENTITY  logins.label                  "Pśizjawjenja">
+<!ENTITY  formsAndPasswords.label       "Formulary a gronidła">
 
-<!ENTITY  rememberLogins.label          "Pśizjawjenja za sedła se spomnjeś">
-<!ENTITY  rememberLogins.accesskey      "P">
+<!ENTITY  rememberLogins1.label          "Pśizjawjenja a gronidła za sedła se spomnjeś">
+<!ENTITY  rememberLogins1.accesskey      "P">
 <!ENTITY  passwordExceptions.label      "Wuwześa…">
 <!ENTITY  passwordExceptions.accesskey  "u">
 

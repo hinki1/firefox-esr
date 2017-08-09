@@ -24,7 +24,7 @@
 <!ENTITY tabCrashed.commentPlaceholder2 "Nedevigaj komentoj (komentoj estas publike videblaj)">
 <!ENTITY tabCrashed.includeURL2 "Inkluzivi la adreson de la paĝon en tiu ĉi raporto pri paneo">
 <!ENTITY tabCrashed.emailPlaceholder "Tajpu vian retpoŝtan adreson ĉi tie">
-<!ENTITY tabCrashed.emailMe "Sendi retpoŝton kiam pli da informo estos havebla">
+<!ENTITY tabCrashed.emailMe "Sendi retpoŝton kiam pli da informo estas havebla">
 <!ENTITY tabCrashed.reportSent "Raporto pri paneo sendita, dankon, vi helpas nin plibonigi &brandShortName;!">
 <!ENTITY tabCrashed.requestAutoSubmit2 "Raporti fonajn langetojn">
 <!ENTITY tabCrashed.autoSubmit2 "Modifi preferojn por aŭtomate sendi raportojn pri paneo, kiuj inkluzivas ankaŭ raportojn pri paneo de fonaj langetoj, en tiu ĉi seanco kaj en la venontaj.">

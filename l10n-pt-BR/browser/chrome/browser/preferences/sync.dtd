@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey      "A">
 <!ENTITY engine.history.label       "Histórico">
 <!ENTITY engine.history.accesskey   "H">
-<!ENTITY engine.passwords.label     "Senhas">
-<!ENTITY engine.passwords.accesskey "S">
+<!ENTITY engine.logins.label        "Contas de acesso">
+<!ENTITY engine.logins.accesskey    "L">
 <!ENTITY engine.prefs.label         "Preferências">
 <!ENTITY engine.prefs.accesskey     "P">
 <!ENTITY engine.addons.label        "Extensões">
@@ -19,8 +19,8 @@
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Nome do dispositivo">
-<!ENTITY changeSyncDeviceName.label "Alterar nome do dispositivo…">
-<!ENTITY changeSyncDeviceName.accesskey "l">
+<!ENTITY changeSyncDeviceName2.label "Alterar nome do dispositivo…">
+<!ENTITY changeSyncDeviceName2.accesskey "h">
 <!ENTITY cancelChangeSyncDeviceName.label "Cancelar">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "n">
 <!ENTITY saveChangeSyncDeviceName.label "Salvar">
@@ -52,8 +52,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "Alterar imagem do perfil">
 <!ENTITY verifiedManage.label        "Gerenciar conta">
 <!ENTITY verifiedManage.accesskey    "o">
-<!ENTITY disconnect.label            "Desconectar…">
-<!ENTITY disconnect.accesskey        "D">
+<!ENTITY disconnect3.label           "Desconectar…">
+<!ENTITY disconnect3.accesskey       "D">
 <!ENTITY verify.label                "Verificar e-mail">
 <!ENTITY verify.accesskey            "V">
 <!ENTITY forget.label                "Esquecer este e-mail">
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "Entrar">
 <!ENTITY signedOut.accountBox.signin.accesskey  "E">
 
-<!ENTITY signedIn.engines.label       "Sincronização entre dispositivos">
+<!ENTITY signedIn.settings.label       "Configurações de sincronização">
+<!ENTITY signedIn.settings.description "Escolha o que sincronizar em seus dispositivos usando o &brandShortName;.">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

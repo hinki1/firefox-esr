@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "Kanbe guma naagu wala cendi ganda ka taariki cebe">
 <!ENTITY backForwardButtonMenuMac.tooltip "Cendi ganda ka taariki cebe">
 <!ENTITY reloadCmd.label              "Dam taaga">
-<!ENTITY reloadButton.tooltip         "Sohõ moɲoo dam taaga">
 <!ENTITY stopCmd.label                "Kay">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "Moɲoo woo zumandiroo kayandi">
 <!ENTITY goEndCap.tooltip             "Koy aderesoo do gorodoo žeeroo ga">
 <!ENTITY printButton.label            "Kar">
 <!ENTITY printButton.tooltip          "Moɲoo woo kar">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Šennikufal gaabu alhabar fasaldoo feeri">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Sukari goyyan juwal">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Barmay wala war ga hin ka duu bangandiyaney nungoo ga">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Bayhayey jiši jišiyan duumante ra">
+
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "War bii nda/wala jindezaahaya žemnayanoo nda nungoo juwal">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "War jindezaahayaa žemnayanoo nda nungoo juwal">
@@ -231,13 +231,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "War na gorodoo alhabar gagay interneti nungoo woo se.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "War na bayhaya jišiyan gagay interneti nungoo woo se.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "War na bangandiyaney gagay interneti nungoo woo se.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "War na bayhaya jišiyan duumante gagay interneti nungoo woo se.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Taariki cebe">
 
-<!ENTITY urlbar.zoomReset.tooltip     "Azzaati dimma yeeti">
-
 <!ENTITY searchItem.title             "Ceeci">
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 
 <!ENTITY homeButton.label             "Šintin">
 
@@ -304,7 +303,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY cutCmd.key             "X">  
 <!ENTITY cutCmd.accesskey         "D"> 
 <!ENTITY copyCmd.label            "Berandi">  
-<!ENTITY copyCmd.key            "C">  
+
 <!ENTITY copyCmd.accesskey          "B"> 
 <!ENTITY pasteCmd.label           "Dobu">  
 <!ENTITY pasteCmd.key           "V">  
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Taariki kokorantaa tuusu…">
 <!ENTITY appMenuHistory.restoreSession.label "Goywaati bisantaa yeeti">
 <!ENTITY appMenuHistory.viewSidebar.label "Taariki ceraw zuu cebe">
+
 <!ENTITY appMenuHelp.tooltip "Faaba šilbayboŋ feeri">
 
 <!ENTITY appMenuRemoteTabs.label "Kanji hangantey">
@@ -377,27 +377,41 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Ibaayey hangandi">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Huru ka dii kanji maašeede foo war jinay taney ga.">
 <!ENTITY appMenuRemoteTabs.signin.label "Huru Sync ra">
+<!ENTITY appMenuRemoteTabs.managedevices.label "Goyey juwal…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Kanji hangantey ceraw-zuwoo guna">
 
 <!ENTITY customizeMenu.addToToolbar.label "Goyjinay zuu tonton">
 <!ENTITY customizeMenu.addToToolbar.accesskey "o">
 <!ENTITY customizeMenu.addToPanel.label "Tonton šilbayboŋ ga">
 <!ENTITY customizeMenu.addToPanel.accesskey "b">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+
 <!ENTITY customizeMenu.moveToToolbar.label "Bere goyjinay zuu ga">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "e">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Bere šilbayboŋ zuu ga">
 <!ENTITY customizeMenu.moveToPanel.accesskey "e">
+
+
+
+
 <!ENTITY customizeMenu.removeFromToolbar.label "Kaataray goyjinay zuu ra">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "r">
 <!ENTITY customizeMenu.removeFromMenu.label "Kaataray šilbayboŋoo ra">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "r">
 <!ENTITY customizeMenu.addMoreItems.label "Hayizeyaŋ tonton…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "a">
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Ceeci wala aderesu dam">
@@ -413,7 +427,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.disable.accesskey "n">
 <!ENTITY urlbar.searchSuggestionsNotification.enable "Ayyo">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "y">
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+
+
+
+
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -526,6 +546,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "D">
 <!ENTITY bookmarkThisFrameCmd.label      "Kungaa woo šilbay">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "K">
+
 <!ENTITY emailPageCmd.label           "Bataga dobu…">
 <!ENTITY emailPageCmd.accesskey       "a">
 <!ENTITY savePageCmd.label            "Moɲoo gaabu sanda…">
@@ -653,6 +674,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY sidebarCloseButton.tooltip     "Ceraw-zuu daabu">
 
+
 <!ENTITY quitApplicationCmdWin2.label       "Fatta">
 <!ENTITY quitApplicationCmdWin2.accesskey   "F">
 <!ENTITY quitApplicationCmdWin2.tooltip     "Fatta &brandShorterName; ra">
@@ -661,8 +683,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Fatta"> 
 <!ENTITY quitApplicationCmd.accesskey   "F">
 <!ENTITY quitApplicationCmdMac2.label   "Fatta &brandShorterName; ra">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
+
 
 <!ENTITY closeCmd.label                 "Daabu">  
 <!ENTITY closeCmd.key                   "W">  
@@ -706,7 +727,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY spellAddDictionaries.label "Kamasey tonton…">
 <!ENTITY spellAddDictionaries.accesskey "t">
 
-<!ENTITY editBookmark.done.label                     "Ben">
 <!ENTITY editBookmark.removeBookmark.accessKey       "R">
 
 <!ENTITY identity.connectionSecure "Ciyari moora">
@@ -714,6 +734,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Moɲoo woo n' ka jisandii war ordinateroo ga.">
 <!ENTITY identity.connectionVerified2 "War dobu nda saajaw nungoo woo ga, kaŋ maykaa ti:">
 <!ENTITY identity.connectionInternal "Woo ti &brandShortName; moo saajante.">
+
 <!ENTITY identity.insecureLoginForms2 "Huruyan šilbawey kaŋ goo moɲoo woo ši hima saajante.">
 <!-- Strings for connection state warnings. -->
 
@@ -786,6 +807,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "Kul feeri kanjey ra">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "f">
+<!ENTITY syncedTabs.context.managedevices.label              "Jinawey juwal…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "D">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">
@@ -810,8 +833,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "Ga jinay ka tonton?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Suuba tontoni ženberyaŋ ra">
 <!ENTITY customizeMode.restoreDefaults "Taka jina tilasu">
-<!ENTITY customizeMode.toolbars "Goyjinay zuu cebe / tugu">
+
 <!ENTITY customizeMode.titlebar "Maa zuu">
+
 <!ENTITY customizeMode.lwthemes "Furarey">
 <!ENTITY customizeMode.lwthemes.myThemes "Ay furarey">
 <!ENTITY customizeMode.lwthemes.recommended "Yaamarante">
@@ -900,3 +924,35 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "Bay ka tonton DRM ga…">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+<!ENTITY updateAvailable.message "War &brandShorterName; taagandi haya kul itejey cahãri nda sutura ra.">
+<!ENTITY updateAvailable.whatsnew.label "Dii haya taagey.">
+<!ENTITY updateAvailable.header.message "&brandShorterName; taagandiri taaga foo ga bara.">
+<!ENTITY updateAvailable.acceptButton.label "Taagandiri zumandi">
+<!ENTITY updateAvailable.acceptButton.accesskey "d">
+<!ENTITY updateAvailable.cancelButton.label "Manti sohõ">
+<!ENTITY updateAvailable.cancelButton.accesskey "M">
+<!ENTITY updateAvailable.panelUI.label "&brandShorterName; taagandiroo zumandi">
+
+<!ENTITY updateManual.message "Nda war ga &brandShorterName; dumi teji foo zumandi, ir ga war faaba k'a sinji.">
+<!ENTITY updateManual.whatsnew.label "Dii haya taagey.">
+<!ENTITY updateManual.header.message "&brandShorterName; ši hin ka taagandi dumi kokorantaa se.">
+<!ENTITY updateManual.acceptButton.label "&brandShorterName; zumandi">
+<!ENTITY updateManual.acceptButton.accesskey "d">
+<!ENTITY updateManual.cancelButton.label "Manti sohõ">
+<!ENTITY updateManual.cancelButton.accesskey "n">
+<!ENTITY updateManual.panelUI.label "&brandShorterName; dumi teji foo zumandi">
+
+<!ENTITY updateRestart.message "Tunandiyan cahãnte banda ga, &brandShorterName; ga war kanji nda zanfun feerantey kul yeeri.">
+<!ENTITY updateRestart.header.message2 "Tunandi taaga ka &brandShorterName; taagandi.">
+<!ENTITY updateRestart.acceptButton.label "Tunandi taaga nda yeeri">
+<!ENTITY updateRestart.acceptButton.accesskey "T">
+<!ENTITY updateRestart.cancelButton.label "Manti sohõ">
+<!ENTITY updateRestart.cancelButton.accesskey "n">
+
+
+<!ENTITY pageActionButton.tooltip "Moo goyey">
+
+
+
+

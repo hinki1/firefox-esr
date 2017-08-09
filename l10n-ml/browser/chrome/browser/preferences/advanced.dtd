@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "സുഖമമായ സ്ക്രോളിംങ് ഉപയോഗിക്കുക ">
 <!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY allowHWAccel.label              "ലഭ്യമാകുമ്പോള്‍ ഹാര്‍ഡ്‌വെയര്‍ ആക്സിലറേഷന്‍ ഉപയോഗിയ്ക്കുക">
-<!ENTITY allowHWAccel.accesskey          "r">
 
 
 
@@ -33,16 +31,16 @@
 <!ENTITY healthReportDesc.label          "നിങ്ങളുടെ ബ്രൌസറിന്റെ പ്രവര്‍ത്തനം മനസ്സിലാക്കുവാന്‍ സഹായിയ്ക്കുന്നു, ബ്രൌസര്‍ വിവരങ്ങള്‍ &vendorShortName;-മായി പങ്കിടുന്നു">
 <!ENTITY enableHealthReport.label        "&brandShortName;  ആരോഗ്യ വിവരപ്പട്ടിക സജ്ജമാക്കുക">
 <!ENTITY enableHealthReport.accesskey    "R">
-<!ENTITY healthReportLearnMore.label     "കൂടുതല്‍ അറിയുക">
+
 
 <!ENTITY telemetryDesc.label             "പ്രകടനം, ഉപയോഗം, ഹാർഡ്‌വെയർ തുടങ്ങിയ വിവരങ്ങൾ &vendorShortName; -മായി പങ്കു വെയ്ക്കുക.  &brandShortName;  മെച്ചപ്പെടുത്തുവാൻ സഹായിക്കുക.">
 
 
-<!ENTITY telemetryLearnMore.label        "കൂടുതല്‍ അറിയുക">
 
 
 
-<!ENTITY crashReporterLearnMore.label     "കൂടുതല്‍ അറിയുക">
+
+
 
 <!ENTITY networkTab.label                "നെറ്റ്‌വര്‍ക്ക്‌">
 
@@ -79,22 +77,32 @@
 <!ENTITY overrideSmartCacheSize.accesskey "O">
 
 <!ENTITY updateTab.label                 "പരിഷ്കരിക്കുക">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.post  "">
 
-<!ENTITY updateAuto1.label               "സ്വയമായി പരിഷ്കരണങ്ങള്‍ ഇന്‍സ്റ്റോള്‍ ചെയ്യുക (ഉചിതമായതു്: മെച്ചപ്പെട്ട സുരക്ഷ)">
-<!ENTITY updateAuto1.accesskey           "A">
 
 
-<!ENTITY updateManual.label              "പരിഷ്കരണങ്ങള്‍ക്കായി പരിശോധിയ്ക്കേണ്ട (ഉചിതമല്ല: സുരക്ഷ പ്രശ്നം)">
-<!ENTITY updateManual.accesskey          "N">
 
-<!ENTITY updateHistory.label             "പരിഷ്കരണ വിശദാംശങ്ങള്‍ (ഹിസ്റ്ററി) കാണിക്കുക ">
-<!ENTITY updateHistory.accesskey         "p">
+
+
+
+
+
 
 <!ENTITY useService.label                "പരിഷ്കരണങ്ങള്‍ ഇന്‍സ്റ്റോള്‍ ചെയ്യുന്നതിനായി ഒരു പശ്ചാത്തല സര്‍വീസ് ഉപയോഗിയ്ക്കുക">
 <!ENTITY useService.accesskey            "b">
 
-<!ENTITY enableSearchUpdate.label        "തെരച്ചിലിനുള്ള പ്രയോഗങ്ങള്‍">
-<!ENTITY enableSearchUpdate.accesskey    "E">
+
+
 
 
 <!ENTITY offlineStorageNotifyExceptions.label     "ഒഴിവാക്കേണ്ടവ…">
@@ -107,7 +115,6 @@
 <!ENTITY offlineAppRemove.confirm        "ഓഫ്‌ലൈന്‍ ഡേറ്റ മാറ്റുക">
 
 <!ENTITY certificateTab.label            "സര്‍ട്ടിഫിക്കറ്റുകള്‍">
-<!ENTITY certPersonal.label              "ആവശ്യങ്ങള്‍">
 
 <!ENTITY selectCerts.auto                "ഒന്നു് സ്വയം തെരഞ്ഞെടുക്കുക ">
 
@@ -119,3 +126,13 @@
 <!ENTITY viewCerts.accesskey             "ക">
 <!ENTITY viewSecurityDevices.label       "സുരക്ഷാ ഉപകരണങ്ങള്‍ ">
 <!ENTITY viewSecurityDevices.accesskey   "ഉ">
+
+
+
+
+
+
+
+
+<!ENTITY allowHWAccel.label              "ലഭ്യമാകുമ്പോള്‍ ഹാര്‍ഡ്‌വെയര്‍ ആക്സിലറേഷന്‍ ഉപയോഗിയ്ക്കുക">
+<!ENTITY allowHWAccel.accesskey          "r">

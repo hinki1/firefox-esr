@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  general.label                 "सामान्य">
+<!ENTITY  security.label                 "सुरक्षा">
 
 <!ENTITY  warnOnAddonInstall.label        "आपको चेताएँ जब साइट सहयुक्तियों को जोड़ना चाहता है">
 <!ENTITY  warnOnAddonInstall.accesskey    "W">
@@ -24,10 +24,10 @@
 <!ENTITY  addonExceptions.accesskey     "E">
 
 
-<!ENTITY  logins.label                  "दाखिला">
+<!ENTITY  formsAndPasswords.label       "फ़ॉर्म व कूटशब्द">
 
-<!ENTITY  rememberLogins.label          "साइटों के लिए दाखिला याद रखें">
-<!ENTITY  rememberLogins.accesskey      "R">
+<!ENTITY  rememberLogins1.label          "साइटों के लिए लॉग इन और कूटशब्द याद रखें">
+<!ENTITY  rememberLogins1.accesskey      "R">
 <!ENTITY  passwordExceptions.label      "अपवाद…">
 <!ENTITY  passwordExceptions.accesskey  "x">
 
@@ -36,5 +36,5 @@
 <!ENTITY  changeMasterPassword.label     "मुख्य कूटशब्द बदलें…">
 <!ENTITY  changeMasterPassword.accesskey "M">
 
-<!ENTITY  savedLogins.label              "सहेजें गए लॉगइन देखें">
+<!ENTITY  savedLogins.label              "सहेजें गए लॉगइन देखें...">
 <!ENTITY  savedLogins.accesskey          "L">

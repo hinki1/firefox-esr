@@ -13,17 +13,16 @@
 <!ENTITY  prefWinMinSize.styleMac       "width: 47em; min-height: 40em;">
 <!ENTITY  prefWinMinSize.styleGNOME     "width: 45.5em; min-height: 40.5em;">
 
-<!ENTITY  paneGeneral.title       "Kuuɓal">
-<!ENTITY  paneTabs.title          "Tabbe">
-<!ENTITY  paneSearch.title        "Yiylo">
-<!ENTITY  paneContent.title       "Loowdi">
-<!ENTITY  paneApplications.title  "Jaaɓnirɗe">
-<!ENTITY  panePrivacy.title       "Suturo">
-<!ENTITY  paneContainers.title    "Tabbe Mooftirɗe">
-<!ENTITY  paneSecurity.title      "Kisal">
-<!ENTITY  paneAdvanced.title      "Ceeɓtore">
-<!-- LOCALIZATION NOTE (paneSync.title): This should match syncBrand.shortName.label in ../syncBrand.dtd -->
+<!ENTITY  paneSearchResults.title       "Njaltudi Njiilawu">
+<!ENTITY  paneGeneral.title             "Kuuɓal">
+<!ENTITY  paneFilesApplications.title   "Pille &amp; Jaaɓnirɗe">
+<!ENTITY  panePrivacySecurity.title     "Suturo &amp; Kisal">
+<!ENTITY  paneContainers.title          "Tabbe Mooftirɗe">
+<!ENTITY  paneUpdates.title             "Kesɗitine">
+<!-- LOCALIZATION NOTE (paneSync1.title): This should match syncBrand.fxAccount.label in ../syncBrand.dtd -->
 
-<!ENTITY  paneSync.title          "Sanngoɗin">
+<!ENTITY  paneSync1.title          "Konte Firefox">
 
-<!ENTITY  helpButton.label        "Ballal">
+<!ENTITY  helpButton2.label        "Wallitorde &brandShortName;">
+
+<!ENTITY  searchInput.label        "Yiylo">

@@ -14,7 +14,7 @@
 <!ENTITY aboutNetworking.autoRefresh           "Adnewyddu pob 3 eiliad">
 <!ENTITY aboutNetworking.hostname              "Enw Gwesteiwr">
 <!ENTITY aboutNetworking.port                  "Porth">
-<!ENTITY aboutNetworking.spdy                  "SPDY">
+<!ENTITY aboutNetworking.http2                 "HTTP/2">
 <!ENTITY aboutNetworking.ssl                   "SSL">
 <!ENTITY aboutNetworking.active                "Gweithredol">
 <!ENTITY aboutNetworking.idle                  "Segur">
@@ -41,3 +41,8 @@
 <!ENTITY aboutNetworking.dnsLookupButton       "Datrys">
 <!ENTITY aboutNetworking.dnsDomain             "Parth">
 <!ENTITY aboutNetworking.dnsLookupTableColumn  "IPau">
+<!ENTITY aboutNetworking.rcwn                  "Statws RCWN">
+<!ENTITY aboutNetworking.rcwnStatus            "Statws RCWN">
+<!ENTITY aboutNetworking.rcwnCacheWonCount     "Cyfrif storfa wedi ei ennill">
+<!ENTITY aboutNetworking.rcwnNetWonCount       "Cyfrif rhwyd wedi ei ennill">
+<!ENTITY aboutNetworking.totalNetworkRequests  "Cyfanswm cyfrif ceisiadau rhwydwaith">

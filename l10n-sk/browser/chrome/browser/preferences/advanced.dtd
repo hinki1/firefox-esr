@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Použiť plynulý posun">
 <!ENTITY useSmoothScrolling.accesskey    "o">
-<!ENTITY allowHWAccel.label              "Použiť hardvérové urýchľovanie (ak je dostupné)">
-<!ENTITY allowHWAccel.accesskey          "h">
 <!ENTITY checkUserSpelling.label         "Kontrolovať pravopis počas písania">
 <!ENTITY checkUserSpelling.accesskey     "K">
 
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Aktualizácie">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "Aktualizácie prehliadača &brandShortName;">
-<!ENTITY updateAuto1.label               "Automaticky inštalovať aktualizácie (odporúčané z dôvodu zvýšenej bezpečnosti)">
-<!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateCheckChoose.label         "Vyhľadávať aktualizácie, ale poskytnúť možnosť zvoliť, či sa nainštalujú">
-<!ENTITY updateCheckChoose.accesskey     "k">
-<!ENTITY updateManual.label              "Nevyhľadávať aktualizácie (neodporúča sa z dôvodu zníženej bezpečnosti)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Verzia ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Povoliť aplikácii &brandShortName;">
+<!ENTITY updateAuto2.label               "Automaticky inštalovať aktualizácie (odporúčané z dôvodu vyššej bezpečnosti)">
+<!ENTITY updateAuto2.accesskey           "A">
+<!ENTITY updateCheckChoose2.label        "Vyhľadávať aktualizácie, ale poskytnúť možnosť zvoliť, či sa nainštalujú">
+<!ENTITY updateCheckChoose2.accesskey    "k">
+<!ENTITY updateManual2.label             "Nevyhľadávať aktualizácie (neodporúča sa)">
+<!ENTITY updateManual2.accesskey         "N">
 
-<!ENTITY updateHistory.label             "Zobraziť históriu aktualizácií">
-<!ENTITY updateHistory.accesskey         "h">
+<!ENTITY updateHistory2.label            "Zobraziť históriu aktualizácii…">
+<!ENTITY updateHistory2.accesskey        "h">
 
 <!ENTITY useService.label                "Na inštaláciu aktualizácií používať službu na pozadí">
 <!ENTITY useService.accesskey            "z">
 
-<!ENTITY autoUpdateOthers.label          "Automaticky aktualizovať">
-<!ENTITY enableSearchUpdate.label        "Vyhľadávacie moduly">
-<!ENTITY enableSearchUpdate.accesskey    "V">
+<!ENTITY enableSearchUpdate2.label       "Automaticky aktualizovať vyhľadávacie moduly">
+<!ENTITY enableSearchUpdate2.accesskey   "e">
+
+<!ENTITY reports.label                   "Hlásenia">
 
 <!ENTITY offlineStorageNotify.label               "Upozorniť, ak chce stránka uložiť údaje na použitie v režime offline">
 <!ENTITY offlineStorageNotify.accesskey           "U">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Odstránenie údajov pre režim offline">
 
 <!ENTITY certificateTab.label            "Certifikáty">
-<!ENTITY certPersonal.label              "Žiadosti">
-<!ENTITY certPersonal.description        "Pokiaľ stránka požaduje môj osobný certifikát:">
+<!ENTITY certPersonal2.description       "Pokiaľ stránka požaduje môj osobný certifikát">
 <!ENTITY selectCerts.auto                "Vybrať automaticky">
 <!ENTITY selectCerts.auto.accesskey      "m">
 <!ENTITY selectCerts.ask                 "Vždy sa opýtať">
@@ -123,5 +134,25 @@
 <!ENTITY enableOCSP.accesskey            "A">
 <!ENTITY viewCerts.label                 "Zobraziť certifikáty">
 <!ENTITY viewCerts.accesskey             "c">
-<!ENTITY viewSecurityDevices.label       "Zariadenia">
-<!ENTITY viewSecurityDevices.accesskey   "Z">
+<!ENTITY viewSecurityDevices.label       "Bezpečnostné zariadenia">
+<!ENTITY viewSecurityDevices.accesskey   "z">
+
+<!ENTITY performance.label               "Výkon">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Použiť odporúčané nastavenia výkonu">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Tieto nastavenia sú ušité na mieru podľa hardvéru a operačného systému vášho počítača.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "u">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Ďalšie informácie">
+<!ENTITY limitContentProcessOption.label "Limit procesov obsahu">
+<!ENTITY limitContentProcessOption.description
+                                         "Viac procesov môže zlepšiť výkon pri otvorení viacerých kariet. Spotrebujú však viac pamäte.">
+<!ENTITY limitContentProcessOption.accesskey   "L">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Zmena počtu procesov obsahu je možná len pri použití multiprocesového režimu aplikácie &brandShortName;.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Pozrite sa, ako môžete skontrolovať stav multiprocesového režimu">
+<!ENTITY allowHWAccel.label              "Použiť hardvérové urýchľovanie (ak je dostupné)">
+<!ENTITY allowHWAccel.accesskey          "h">

@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "r">
 <!ENTITY useSmoothScrolling.label        "Tokisäx jeb'ël q'axanïk">
 <!ENTITY useSmoothScrolling.accesskey    "e">
-<!ENTITY allowHWAccel.label              "Tokisäx rupararexik ch'akulakem toq xtiwachin pe">
-<!ENTITY allowHWAccel.accesskey          "a">
 <!ENTITY checkUserSpelling.label         "Tinik'öx ri nutz'ib'anik toq yitz'ib'an">
 <!ENTITY checkUserSpelling.accesskey     "n">
 
@@ -82,24 +80,38 @@
 <!ENTITY overrideSmartCacheSize.accesskey "T">
 
 <!ENTITY updateTab.label                 "Tik'ex">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 
 <!ENTITY updateApplication.label         "&brandShortName; Taq k'exoj ruwäch">
-<!ENTITY updateAuto1.label               "Keyak ruyonil taq k'exoj ruwäch (chilab'en: nrutzilaj ri chajinïk)">
-<!ENTITY updateAuto1.accesskey           "r">
-<!ENTITY updateCheckChoose.label         "Kenik'öx ri taq k'exoj ruwäch, xa xe chi tiya' q'ij chi re we ninwajo' chi yenyäk">
-<!ENTITY updateCheckChoose.accesskey     "K">
-<!ENTITY updateManual.label              "Mani nikanöx taq k'exoj ruwäch (man chilab'en ta: ruk'ayewal chajinïk)">
-<!ENTITY updateManual.accesskey          "M">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Ruwäch ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Tiya' q'ij &brandShortName; chi re">
+<!ENTITY updateAuto2.label               "Keyak pa ruyonil taq k'exoj ruwäch (chilab'en richin nrutzilaj ri jikomal)">
+<!ENTITY updateAuto2.accesskey           "r">
+<!ENTITY updateCheckChoose2.label        "Kenik'öx taq k'exoj ruwäch, xa xe chi tiya' q'ij chwe richin nincha' we yenyäk">
+<!ENTITY updateCheckChoose2.accesskey    "K">
+<!ENTITY updateManual2.label             "Majub'ey kekanöx taq k'exoj ruwäch (we man echilab'en ta)">
+<!ENTITY updateManual2.accesskey         "M">
 
-<!ENTITY updateHistory.label             "Tik'ut pe ri runatab'al taq k'exoj ruwäch">
-<!ENTITY updateHistory.accesskey         "k">
+<!ENTITY updateHistory2.label            "Tik'ut pe ri runatab'al K'exoj ruwäch…">
+<!ENTITY updateHistory2.accesskey        "K">
 
 <!ENTITY useService.label                "Tokisäx jun samaj pa ruka'n b'ey richin yeyak ri taq k'exoj ruwäch">
 <!ENTITY useService.accesskey            "r">
 
-<!ENTITY autoUpdateOthers.label          "Tik'extäj ruyon">
-<!ENTITY enableSearchUpdate.label        "Samajel chi kanob'äl">
-<!ENTITY enableSearchUpdate.accesskey    "k">
+<!ENTITY enableSearchUpdate2.label       "Pa yonil k'exoj chuqa' ruk'wayöl kanob'äl">
+<!ENTITY enableSearchUpdate2.accesskey   "x">
+
+<!ENTITY reports.label                   "Kitzijol taq samaj">
 
 <!ENTITY offlineStorageNotify.label               "Taya' rutzijol we k'o jun k'amaya'l nrajo' nuyäk taq tzij richin nrokisaj toq majun okem pa k'amaya'l">
 <!ENTITY offlineStorageNotify.accesskey           "T">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Tiyuj el na'oj pa rub'eyal majun okem pa k'amaya'l">
 
 <!ENTITY certificateTab.label            "Taq ruwujil b'i'aj:">
-<!ENTITY certPersonal.label              "Taq k'utuj">
-<!ENTITY certPersonal.description        "Toq ri ruk'u'x samaj xtrajo' pe ri nuwujil ab'i':">
+<!ENTITY certPersonal2.description       "Toq jun ruk'u'x samaj nuk'utuj pe ri ruwujil ab'i'">
 <!ENTITY selectCerts.auto                "Pa ruyonil ticha' jun">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "Junelïk tik'utüx pe">
@@ -125,3 +136,16 @@
 <!ENTITY viewCerts.accesskey             "r">
 <!ENTITY viewSecurityDevices.label       "Taq okisaxel richin jikomal">
 <!ENTITY viewSecurityDevices.accesskey   "o">
+
+<!ENTITY performance.label               "Rub'eyal nisamäj">
+<!ENTITY useRecommendedPerformanceSettings2.label "Tokisäx runuk'ulem rub'eyal nisamäj chilab'en pe">
+<!ENTITY useRecommendedPerformanceSettings2.description "Re taq nuk'ulem re' nikik'äm ki' kik'in ri ch'akulakem chuqa' rik'in ri samajel ruq'inoj akematz'ib'.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey "T">
+<!ENTITY performanceSettingsLearnMore.label "Tetamäx ch'aqa' chik">
+<!ENTITY limitContentProcessOption.label "ruchi' rutajinik rupam">
+<!ENTITY limitContentProcessOption.description "Ri taq ruxenab'al rutz'aqat rupam yetikïr nikutzilaj rub'eyal nisamäj toq nrokisaj k'ïy taq ruwi', xa chuqa' xtrokisaj k'ïy rutzatzq'ob'al.">
+<!ENTITY limitContentProcessOption.accesskey   "r">
+<!ENTITY limitContentProcessOption.disabledDescription "Ri rujalwachinik rajilab'al rutajinik rupam xa okel rik'in ri k'ïy tajinïk &brandShortName;.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink "Tawetamaj nanik'oj we tzijïl ri k'ïy tajinïk">
+<!ENTITY allowHWAccel.label              "Tokisäx rupararexik ch'akulakem toq xtiwachin pe">
+<!ENTITY allowHWAccel.accesskey          "a">

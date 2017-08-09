@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "Högerklicka eller dra ner för att visa historik">
 <!ENTITY backForwardButtonMenuMac.tooltip "Dra ner för att visa historik">
 <!ENTITY reloadCmd.label              "Uppdatera">
-<!ENTITY reloadButton.tooltip         "Uppdatera sidan">
 <!ENTITY stopCmd.label                "Stopp">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "Avbryt hämtningen av denna sida">
 <!ENTITY goEndCap.tooltip             "Gå till adressen i adressfältet">
 <!ENTITY printButton.label            "Skriv ut">
 <!ENTITY printButton.tooltip          "Skriv ut denna sida">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Öppna meddelandepanel för sparade lösenord">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Hantera plugins som används">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Ändra om du kan ta emot meddelanden från webbplatsen">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Lagra data i beständig lagring">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Webbläsaren är fjärrstyrd">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Hantera delning av din kamera och/eller mikrofon med webbplatsen">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Hantera delning av din mikrofon med webbplatsen">
@@ -231,14 +231,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "Du har blockerat platsinformation för denna webbplats.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "Du har blockerat datalagring för denna webbplats.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "Du har blockerat notifieringar för denna webbsida.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "Du har blockerat beständig lagring för denna webbplats.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Visa historik">
 
-<!ENTITY urlbar.zoomReset.tooltip     "Återställ zoomnivå">
-
 <!ENTITY searchItem.title             "Sök">
 
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 <!ENTITY homeButton.label             "Startsida">
 
 <!ENTITY bookmarksButton.label          "Bokmärken">
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Rensa ut tidigare historik…">
 <!ENTITY appMenuHistory.restoreSession.label "Återställ föregående session">
 <!ENTITY appMenuHistory.viewSidebar.label "Visa sidofältet Historik">
+<!ENTITY appMenuHelp.label "Hjälp">
 <!ENTITY appMenuHelp.tooltip "Öppna Hjälp-menyn">
 
 <!ENTITY appMenuRemoteTabs.label "Synkade flikar">
@@ -377,27 +377,44 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Synkroniseringsinställningar">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Logga in för att se en lista med flikar från dina andra enheter.">
 <!ENTITY appMenuRemoteTabs.signin.label "Logga in till Sync">
+<!ENTITY appMenuRemoteTabs.managedevices.label "Hantera enheter…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Visa sidofält Synkade flikar">
 
 <!ENTITY customizeMenu.addToToolbar.label "Lägg till i verktygsfält">
 <!ENTITY customizeMenu.addToToolbar.accesskey "L">
 <!ENTITY customizeMenu.addToPanel.label "Lägg till i menyn">
 <!ENTITY customizeMenu.addToPanel.accesskey "m">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "Lägg till i Overflow-meny">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "L">
 <!ENTITY customizeMenu.moveToToolbar.label "Flytta till verktygsfält">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "F">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Flytta till menyn">
 <!ENTITY customizeMenu.moveToPanel.accesskey "F">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "Fäst på Owerflow-meny">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "F">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Ta bort från Oweflow-meny">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "T">
 <!ENTITY customizeMenu.removeFromToolbar.label "Ta bort från verktygsfält">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "T">
 <!ENTITY customizeMenu.removeFromMenu.label "Ta bort från menyn">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "T">
 <!ENTITY customizeMenu.addMoreItems.label "Lägg till fler poster…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "L">
+
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+<!ENTITY moreMenu.label "Fler">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Sök eller ange adress">
@@ -414,7 +431,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.enable "Ja">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "y">
 
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Tips:">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "Få hjälp att hitta saker! Leta efter &#x1F50E; bredvid sökförslag.">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "Ändra inställningar…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "n">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "Ändra inställningar…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "n">
+
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -526,6 +552,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "L">
 <!ENTITY bookmarkThisFrameCmd.label      "Lägg till bokmärke för ram">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "r">
+<!ENTITY copyURLCmd.label             "Kopiera URL">
 <!ENTITY emailPageCmd.label           "E-posta länk…">
 <!ENTITY emailPageCmd.accesskey       "E">
 <!ENTITY savePageCmd.label            "Spara sida som…">
@@ -650,7 +677,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.label                 "Zoom">
 <!ENTITY fullZoom.accesskey             "Z">
 
-<!ENTITY sidebarCloseButton.tooltip     "Stäng Sidofält">
+<!ENTITY sidebarCloseButton.tooltip     "Stäng sidofält">
+<!ENTITY sidebarMenuClose.label         "Stäng sidofält">
 
 <!ENTITY quitApplicationCmdWin2.label       "Avsluta">
 <!ENTITY quitApplicationCmdWin2.accesskey   "A">
@@ -660,8 +688,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Avsluta"> 
 <!ENTITY quitApplicationCmd.accesskey   "A">
 <!ENTITY quitApplicationCmdMac2.label   "Avsluta &brandShorterName;">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
+<!ENTITY quitApplicationCmd.key         "Q">
 
 <!ENTITY closeCmd.label                 "Stäng">  
 <!ENTITY closeCmd.key                   "W">  
@@ -713,6 +740,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Den här sidan är lagrad på din dator.">
 <!ENTITY identity.connectionVerified2 "Du är säkert ansluten till denna webbplats, som tillhör:">
 <!ENTITY identity.connectionInternal "Detta är en säker &brandShortName; sida.">
+<!ENTITY identity.extensionPage "Den här sidan laddas från ett tillägg.">
 <!ENTITY identity.insecureLoginForms2 "Inloggningar du anger på denna sida kan äventyras">
 
 <!-- Strings for connection state warnings. -->
@@ -785,6 +813,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "Öppna allt i flikar">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "p">
+<!ENTITY syncedTabs.context.managedevices.label              "Hantera enheter…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "e">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">
@@ -809,8 +839,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "Vill du ha fler verktyg?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Välj bland tusentals tillägg">
 <!ENTITY customizeMode.restoreDefaults "Återställ standard">
-<!ENTITY customizeMode.toolbars "Visa / Dölj verktygsfält">
+<!ENTITY customizeMode.done "Klar">
 <!ENTITY customizeMode.titlebar "Namnfältet">
+<!ENTITY customizeMode.toolbars2 "Verktygsfält">
 <!ENTITY customizeMode.lwthemes "Teman">
 <!ENTITY customizeMode.lwthemes.myThemes "Mina teman">
 <!ENTITY customizeMode.lwthemes.recommended "Rekommenderade">
@@ -899,3 +930,36 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "Lär dig mer om DRM…">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+<!ENTITY updateAvailable.message "Uppdatera &brandShorterName; för det senaste inom hastighet och integritet.">
+<!ENTITY updateAvailable.whatsnew.label "Se vad som är nytt.">
+<!ENTITY updateAvailable.header.message "En ny &brandShorterName; uppdatering är tillgänglig.">
+<!ENTITY updateAvailable.acceptButton.label "Ladda ned uppdatering">
+<!ENTITY updateAvailable.acceptButton.accesskey "L">
+<!ENTITY updateAvailable.cancelButton.label "Inte nu">
+<!ENTITY updateAvailable.cancelButton.accesskey "n">
+<!ENTITY updateAvailable.panelUI.label "Ladda ner &brandShorterName; uppdatering">
+
+<!ENTITY updateManual.message "Ladda ner en ny kopia av &brandShorterName; och vi kommer att hjälpa dig att installera den.">
+<!ENTITY updateManual.whatsnew.label "Se vad som är nytt.">
+<!ENTITY updateManual.header.message "&brandShorterName; kan inte uppdateras till den senaste versionen.">
+<!ENTITY updateManual.acceptButton.label "Ladda ner &brandShorterName;">
+<!ENTITY updateManual.acceptButton.accesskey "L">
+<!ENTITY updateManual.cancelButton.label "Inte nu">
+<!ENTITY updateManual.cancelButton.accesskey "n">
+<!ENTITY updateManual.panelUI.label "Ladda ner en ny kopia av &brandShorterName;">
+
+<!ENTITY updateRestart.message "Efter en snabb omstart, kommer &brandShorterName; att återställa alla dina öppna flikar och fönster.">
+<!ENTITY updateRestart.header.message2 "Starta om för att uppdatera &brandShorterName;.">
+<!ENTITY updateRestart.acceptButton.label "Starta om och återställ">
+<!ENTITY updateRestart.acceptButton.accesskey "S">
+<!ENTITY updateRestart.cancelButton.label "Inte nu">
+<!ENTITY updateRestart.cancelButton.accesskey "n">
+<!ENTITY updateRestart.panelUI.label2 "Starta om för att uppdatera &brandShorterName;">
+
+<!ENTITY pageActionButton.tooltip "Åtgärder för sida">
+
+<!ENTITY sendToDevice.label "Skicka till enhet…">
+<!ENTITY sendToDevice.viewTitle "Skicka till enhet">
+<!ENTITY sendToDevice.fxaRequired.label "Krävs">
+<!ENTITY sendToDevice.noDevices.label "Inga enheter tillgängliga">

@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  general.label                 "Általános">
+<!ENTITY  security.label                 "Biztonság">
 
 <!ENTITY  warnOnAddonInstall.label        "Figyelmeztetés kiegészítők telepítése előtt">
 <!ENTITY  warnOnAddonInstall.accesskey    "F">
@@ -24,10 +24,10 @@
 <!ENTITY  addonExceptions.accesskey     "K">
 
 
-<!ENTITY  logins.label                  "Bejelentkezések">
+<!ENTITY  formsAndPasswords.label       "Űrlapok és jelszavak">
 
-<!ENTITY  rememberLogins.label          "Bejelentkezések megjegyzése az oldalakon">
-<!ENTITY  rememberLogins.accesskey      "m">
+<!ENTITY  rememberLogins1.label          "Felhasználónevek és jelszavak megjegyzése az oldalakhoz">
+<!ENTITY  rememberLogins1.accesskey      "F">
 <!ENTITY  passwordExceptions.label      "Kivételek…">
 <!ENTITY  passwordExceptions.accesskey  "v">
 

@@ -12,9 +12,9 @@
 <!ENTITY useCursorNavigation.accesskey   "к">
 <!ENTITY searchOnStartTyping.label       "Търсене на текст при започване на въвеждане">
 <!ENTITY searchOnStartTyping.accesskey   "Т">
-<!ENTITY blockAutoReload.label           "Предупреждение, когато страницата се опитва да пренасочи или презареди">
+<!ENTITY blockAutoReload.label           "Предупреждаване, когато страница се опитва да пренасочи или презареди">
 <!ENTITY blockAutoReload.accesskey       "П">
-<!ENTITY useOnScreenKeyboard.label       "Показване на клавиатура за докосване, ако е необходимо">
+<!ENTITY useOnScreenKeyboard.label       "Показване на клавиатура за докосване, при необходимост">
 <!ENTITY useOnScreenKeyboard.accesskey   "д">
 
 <!ENTITY browsing.label                  "Сърфиране">
@@ -23,9 +23,7 @@
 <!ENTITY useAutoScroll.accesskey         "А">
 <!ENTITY useSmoothScrolling.label        "Плавно плъзгане">
 <!ENTITY useSmoothScrolling.accesskey    "л">
-<!ENTITY allowHWAccel.label              "Използване на хардуерно ускоряване, ако е налично">
-<!ENTITY allowHWAccel.accesskey          "х">
-<!ENTITY checkUserSpelling.label         "Проверка на правописа при въвеждане">
+<!ENTITY checkUserSpelling.label         "Проверяване на правописа при въвеждане">
 <!ENTITY checkUserSpelling.accesskey     "в">
 
 <!ENTITY dataChoicesTab.label            "Данни">
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Обновяване">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "Обновявания на &brandShortName;">
-<!ENTITY updateAuto1.label               "Автоматично инсталиране на обновявания (препоръчано: подобрява защитата)">
-<!ENTITY updateAuto1.accesskey           "А">
-<!ENTITY updateCheckChoose.label         "Проверка за обновявания, но показване на избор дали да бъдат инсталирани">
-<!ENTITY updateCheckChoose.accesskey     "П">
-<!ENTITY updateManual.label              "Никога да не се проверява за обновявания (не е препоръчано: риск за безопасността)">
-<!ENTITY updateManual.accesskey          "Н">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Версия ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Разрешаване на &brandShortName;">
+<!ENTITY updateAuto2.label               "Автоматично да инсталира обновяванията (препоръчано: подобрява защитата)">
+<!ENTITY updateAuto2.accesskey           "а">
+<!ENTITY updateCheckChoose2.label        "Да прави проверка за обновяванията, на да дава избор дали да бъдат инсталирани">
+<!ENTITY updateCheckChoose2.accesskey    "п">
+<!ENTITY updateManual2.label             "Никога да не прави проверка за обновявания (непрепоръчително)">
+<!ENTITY updateManual2.accesskey         "Н">
 
-<!ENTITY updateHistory.label             "История на обновяванията">
-<!ENTITY updateHistory.accesskey         "о">
+<!ENTITY updateHistory2.label            "Хронология на обновяванията…">
+<!ENTITY updateHistory2.accesskey        "х">
 
 <!ENTITY useService.label                "Използване на услуга на заден план за инсталиране на обновявания">
 <!ENTITY useService.accesskey            "у">
 
-<!ENTITY autoUpdateOthers.label          "Автоматично обновяване">
-<!ENTITY enableSearchUpdate.label        "Търсещи машини">
-<!ENTITY enableSearchUpdate.accesskey    "Т">
+<!ENTITY enableSearchUpdate2.label       "Автоматично обновяване на търсещите машини">
+<!ENTITY enableSearchUpdate2.accesskey   "т">
+
+<!ENTITY reports.label                   "Доклади">
 
 <!ENTITY offlineStorageNotify.label               "Предупреждение, при опит на сайт да запазва информация за работа извън мрежата">
 <!ENTITY offlineStorageNotify.accesskey           "П">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Изчистване на данните за работа извън мрежата">
 
 <!ENTITY certificateTab.label            "Сертификати">
-<!ENTITY certPersonal.label              "Заявки">
-<!ENTITY certPersonal.description        "Когато сървър изисква вашият личен сертификат:">
+<!ENTITY certPersonal2.description       "Когато сървър поиска личния ви сертификат">
 <!ENTITY selectCerts.auto                "Автоматично избиране на някой">
 <!ENTITY selectCerts.auto.accesskey      "а">
 <!ENTITY selectCerts.ask                 "Питане всеки път">
@@ -125,3 +136,23 @@
 <!ENTITY viewCerts.accesskey             "с">
 <!ENTITY viewSecurityDevices.label       "Устройства по безопасността">
 <!ENTITY viewSecurityDevices.accesskey   "У">
+
+<!ENTITY performance.label               "Производителност">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Използване на препоръчителните настройки на производителността">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Тези настройки са съобразени с хардуера и операционната система на компютъра.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "п">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Научете повече">
+<!ENTITY limitContentProcessOption.label "Процеси за обработка на съдържание">
+<!ENTITY limitContentProcessOption.description
+                                         "Допълнителни процеси за обработка съдържание може да направят &brandShortName; по-отзивчив, при използване на повече раздели за сметка на повече използвана памет.">
+<!ENTITY limitContentProcessOption.accesskey   "с">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Променянето на броя на процесите за съдържание е възможно само при многопроцесен &brandShortName;.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Научете как да проверите дали многопроцесността е включена">
+<!ENTITY allowHWAccel.label              "Използване на хардуерно ускоряване, ако е налично">
+<!ENTITY allowHWAccel.accesskey          "х">

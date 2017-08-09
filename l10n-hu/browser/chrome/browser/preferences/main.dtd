@@ -4,14 +4,14 @@
 
 <!ENTITY startup.label             "Indítás">
 
-<!ENTITY startupPage.label         "A &brandShortName; indításakor:">
-<!ENTITY startupPage.accesskey     "d">
+<!ENTITY startupPage2.label        "A &brandShortName; indításakor">
+<!ENTITY startupPage2.accesskey    "s">
 <!ENTITY startupUserHomePage.label "Kezdőlap megjelenítése">
 <!ENTITY startupBlankPage.label    "Üres oldal megjelenítése">
 <!ENTITY startupPrevSession.label  "A legutóbbi ablakok és lapok megjelenítése">
 
-<!ENTITY homepage.label            "Kezdőlap:">
-<!ENTITY homepage.accesskey        "K">
+<!ENTITY homepage2.label           "Kezdőlap">
+<!ENTITY homepage2.accesskey       "K">
 <!ENTITY useCurrentPage.label      "Aktuális oldal használata">
 <!ENTITY useCurrentPage.accesskey  "A">
 <!ENTITY useMultiple.label         "Aktuális oldalak használata">
@@ -40,6 +40,7 @@
 
 <!ENTITY separateProfileMode.label        "A &brandShortName; és a Firefox futhat egyszerre">
 <!ENTITY useFirefoxSync.label             "Tipp: Ez külön profilokat használ. A Sync segítségével adatokat oszthat meg közöttük.">
-<!ENTITY getStarted.label                 "A Sync használatának megkezdése…">
+<!ENTITY getStarted.notloggedin.label     "Bejelentkezés a &syncBrand.shortName.label;be">
+<!ENTITY getStarted.configured.label      "A &syncBrand.shortName.label; beállításainak megnyitása">
 
 <!ENTITY e10sEnabled.label                "Párhuzamosított &brandShortName; engedélyezése">

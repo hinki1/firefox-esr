@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "G">
 <!ENTITY useSmoothScrolling.label        "Geser dengan mulus">
 <!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY allowHWAccel.label              "Gunakan akselerasi perangkat keras jika tersedia">
-<!ENTITY allowHWAccel.accesskey          "a">
 <!ENTITY checkUserSpelling.label         "Periksa ejaan saat mengetik teks">
 <!ENTITY checkUserSpelling.accesskey     "j">
 
@@ -50,7 +48,7 @@
 <!ENTITY connection.label                "Sambungan">
 
 <!ENTITY connectionDesc.label            "Atur cara &brandShortName; tersambung ke Internet">
-<!ENTITY connectionSettings.label        "Pengaturan…">
+<!ENTITY connectionSettings.label        "Setelan…">
 <!ENTITY connectionSettings.accesskey    "u">
 
 <!ENTITY httpCache.label                 "Konten Web Tembolok">
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Pemutakhiran">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "Pemutakhiran &brandShortName;">
-<!ENTITY updateAuto1.label               "Otomatis pasang pemutakhiran (disarankan: untuk keamanan lebih baik)">
-<!ENTITY updateAuto1.accesskey           "O">
-<!ENTITY updateCheckChoose.label         "Periksa pemutakhiran, biarkan saya memilih apakah akan dipasang atau tidak">
-<!ENTITY updateCheckChoose.accesskey     "m">
-<!ENTITY updateManual.label              "Jangan pernah memeriksa pemutakhiran (tidak disarankan: berisiko keamanan)">
-<!ENTITY updateManual.accesskey          "J">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Versi ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Izinkan &brandShortName; untuk">
+<!ENTITY updateAuto2.label               "Otomatis pasang pemutakhiran (disarankan untuk keamanan lebih baik)">
+<!ENTITY updateAuto2.accesskey           "O">
+<!ENTITY updateCheckChoose2.label        "Periksa pemutakhiran, biarkan saya memilih memasangnya atau tidak">
+<!ENTITY updateCheckChoose2.accesskey    "C">
+<!ENTITY updateManual2.label             "Jangan pernah memeriksa pemutakhiran (tidak disarankan)">
+<!ENTITY updateManual2.accesskey         "J">
 
-<!ENTITY updateHistory.label             "Tampilkan Riwayat Pemutakhiran">
-<!ENTITY updateHistory.accesskey         "w">
+<!ENTITY updateHistory2.label            "Tampilkan Riwayat Pemutakhiran…">
+<!ENTITY updateHistory2.accesskey        "P">
 
 <!ENTITY useService.label                "Gunakan layanan latar belakang untuk memasang pemutakhiran">
 <!ENTITY useService.accesskey            "l">
 
-<!ENTITY autoUpdateOthers.label          "Otomatis mutakhirkan">
-<!ENTITY enableSearchUpdate.label        "Mesin Pencari">
-<!ENTITY enableSearchUpdate.accesskey    "r">
+<!ENTITY enableSearchUpdate2.label       "Mutakhirkan mesin pencari secara otomatis">
+<!ENTITY enableSearchUpdate2.accesskey   "m">
+
+<!ENTITY reports.label                   "Laporan">
 
 <!ENTITY offlineStorageNotify.label               "Beritahukan jika situs web meminta untuk menyimpan data untuk penggunaan luring">
 <!ENTITY offlineStorageNotify.accesskey           "l">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Hapus data luring">
 
 <!ENTITY certificateTab.label            "Sertifikat">
-<!ENTITY certPersonal.label              "Permintaan">
-<!ENTITY certPersonal.description        "Saat server meminta sertifikat pribadi saya:">
+<!ENTITY certPersonal2.description       "Saat peladen meminta sertifikat pribadi Anda">
 <!ENTITY selectCerts.auto                "Pilih satu secara otomatis">
 <!ENTITY selectCerts.auto.accesskey      "s">
 <!ENTITY selectCerts.ask                 "Tanyakan setiap saat">
@@ -125,3 +136,23 @@
 <!ENTITY viewCerts.accesskey             "S">
 <!ENTITY viewSecurityDevices.label       "Perangkat Keamanan">
 <!ENTITY viewSecurityDevices.accesskey   "K">
+
+<!ENTITY performance.label               "Kinerja">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Gunakan setelan kinerja yang disarankan">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Setelan ini dirancang untuk perangkat keras dan sistem operasi komputer Anda.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "G">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Pelajari lebih lanjut">
+<!ENTITY limitContentProcessOption.label "Batas proses konten">
+<!ENTITY limitContentProcessOption.description
+                                         "Proses konten tambahan dapat meningkatkan performa ketika menggunakan multipel tab, tetapi juga akan menggunakan lebih banyak memori.">
+<!ENTITY limitContentProcessOption.accesskey   "P">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Memodifikasi jumlah proses konten hanya bisa dengan multiproses &brandShortName;.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Pelajari cara mengecek jika multiproses diaktifkan">
+<!ENTITY allowHWAccel.label              "Gunakan akselerasi perangkat keras jika tersedia">
+<!ENTITY allowHWAccel.accesskey          "a">

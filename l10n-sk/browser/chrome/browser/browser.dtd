@@ -150,8 +150,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      Localizers can use one of them, or both, to better adapt this
      sentence to their language. -->
 <!ENTITY pointerlockWarning.beforeDomain.label "">
-<!ENTITY pointerlockWarning.afterDomain.label "má kontrolu nad vašim kurzorom. Ovládanie kurzora prevezmete stlačením klávesy Esc.">
-<!ENTITY pointerlockWarning.generic.label "Tento dokument má kontrolu nad vašim kurzorom. Ovládanie kurzora prevezmete stlačením klávesy Esc.">
+<!ENTITY pointerlockWarning.afterDomain.label "má kontrolu nad vaším kurzorom. Ovládanie kurzora prevezmete stlačením klávesy Esc.">
+<!ENTITY pointerlockWarning.generic.label "Tento dokument má kontrolu nad vaším kurzorom. Ovládanie kurzora prevezmete stlačením klávesy Esc.">
 
 <!ENTITY closeWindow.label "Zavrieť okno">
 <!ENTITY closeWindow.accesskey "v">
@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "Kliknutím pravým tlačidlom alebo dlhším stlačením zobrazíte históriu">
 <!ENTITY backForwardButtonMenuMac.tooltip "Dlhším stlačením zobrazíte históriu">
 <!ENTITY reloadCmd.label              "Obnoviť">
-<!ENTITY reloadButton.tooltip         "Načítať najnovšiu verziu stránky">
 <!ENTITY stopCmd.label                "Zastaviť">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "Zastaviť načítavanie tejto stránky">
 <!ENTITY goEndCap.tooltip             "Prejsť na adresu zadanú v paneli s adresou">
 <!ENTITY printButton.label            "Tlačiť">
 <!ENTITY printButton.tooltip          "Umožní vytlačiť túto stránku">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Otvorí panel správ uloženia hesla">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Správa používania zásuvných modulov">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Zmení, či môžete zo servera prijímať upozornenia">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Uloží údaje do trvalého úložiska">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Prehliadač je ovládaný vzdialene">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Spravovať zdieľanie webkamery a/alebo mikrofónu so stránkou">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Spravovať zdieľanie mikrofónu so stránkou">
@@ -231,14 +231,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "Tejto stránke ste zakázali zisťovať vašu polohu.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "Tejto stránke ste zakázali ukladať údaje do vášho počítača.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "Tejto stránke ste zakázali zobrazovať upozornenia.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "Tejto stránke ste zakázali ukladanie údajov do trvalého úložiska.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Zobraziť históriu">
 
-<!ENTITY urlbar.zoomReset.tooltip     "Obnoviť úroveň priblíženia">
-
 <!ENTITY searchItem.title             "Vyhľadávanie">
 
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 <!ENTITY homeButton.label             "Domov">
 
 <!ENTITY bookmarksButton.label          "Záložky">
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Vymazať nedávnu históriu…">
 <!ENTITY appMenuHistory.restoreSession.label "Obnoviť poslednú reláciu">
 <!ENTITY appMenuHistory.viewSidebar.label "Zobraziť bočný panel História">
+<!ENTITY appMenuHelp.label "Pomocník">
 <!ENTITY appMenuHelp.tooltip "Otvorí ponuku Pomocník">
 
 <!ENTITY appMenuRemoteTabs.label "Synchronizované karty">
@@ -377,27 +377,44 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Nastavenia synchronizácie">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Prihlásením sa zobrazíte zoznam kariet z vašich ostatných zariadení.">
 <!ENTITY appMenuRemoteTabs.signin.label "Prihlásiť sa k službe Sync">
+<!ENTITY appMenuRemoteTabs.managedevices.label "Spravovať zariadenia…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Zobraziť synchronizované karty na bočnom paneli">
 
 <!ENTITY customizeMenu.addToToolbar.label "Pridať na panel nástrojov">
 <!ENTITY customizeMenu.addToToolbar.accesskey "s">
 <!ENTITY customizeMenu.addToPanel.label "Pridať do ponuky">
 <!ENTITY customizeMenu.addToPanel.accesskey "n">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "Pridať do rozširujúcej ponuky">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "P">
 <!ENTITY customizeMenu.moveToToolbar.label "Presunúť na panel nástrojov">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "u">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Presunúť do ponuky">
 <!ENTITY customizeMenu.moveToPanel.accesskey "u">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "Pripnúť do rozširujúcej ponuky">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "r">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Zrušiť pripnutie v rozširujúcej ponuke">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "r">
 <!ENTITY customizeMenu.removeFromToolbar.label "Odstrániť z panela nástrojov">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "O">
 <!ENTITY customizeMenu.removeFromMenu.label "Odstrániť z ponuky">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "d">
 <!ENTITY customizeMenu.addMoreItems.label "Pridať ďalšie položky…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "P">
+
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+<!ENTITY moreMenu.label "Viac">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Zadajte adresu alebo výraz vyhľadávania">
@@ -414,7 +431,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.enable "Áno">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "o">
 
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Tip:">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "Potrebujete pomoc s hľadaním? Pomôže vám ikona &#x1F50E; v návrhoch vyhľadávania.">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "Upraviť Možnosti…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "U">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "Upraviť Možnosti…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "U">
+
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -456,7 +482,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      intentionally left empty for en-US and can be used by other localizations to
      display a string after the search engine name.  This string will be displayed
      as:  "Search <selected engine name><searchAfter.label text>" -->
-<!ENTITY search.label                 "Vyhľadávanie pomocou ">
+<!ENTITY search.label                 "Vyhľadať pomocou ">
 <!ENTITY searchAfter.label            "">
 
 <!-- LOCALIZATION NOTE (searchWithHeader.label):
@@ -526,6 +552,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "i">
 <!ENTITY bookmarkThisFrameCmd.label      "Vytvoriť záložku pre tento rámec">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "V">
+<!ENTITY copyURLCmd.label             "Kopírovať adresu URL">
 <!ENTITY emailPageCmd.label           "Odoslať odkaz…">
 <!ENTITY emailPageCmd.accesskey       "l">
 <!ENTITY savePageCmd.label            "Uložiť stránku ako…">
@@ -651,6 +678,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.accesskey             "L">
 
 <!ENTITY sidebarCloseButton.tooltip     "Zavrieť bočný panel">
+<!ENTITY sidebarMenuClose.label         "Zavrieť bočný panel">
 
 <!ENTITY quitApplicationCmdWin2.label       "Ukončiť prehliadač">
 <!ENTITY quitApplicationCmdWin2.accesskey   "k">
@@ -660,8 +688,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Ukončiť prehliadač"> 
 <!ENTITY quitApplicationCmd.accesskey   "k">
 <!ENTITY quitApplicationCmdMac2.label   "Ukončiť &brandShorterName;">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
+<!ENTITY quitApplicationCmd.key         "U">
 
 <!ENTITY closeCmd.label                 "Zavrieť">  
 <!ENTITY closeCmd.key                   "W">  
@@ -713,6 +740,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Táto stránka je uložená vo vašom počítači.">
 <!ENTITY identity.connectionVerified2 "Pripojenie k tejto stránke je zabezpečené. Spravuje ju:">
 <!ENTITY identity.connectionInternal "Toto je bezpečná stránka prehliadača &brandShortName;">
+<!ENTITY identity.extensionPage "Táto stránka je načítaná z doplnku.">
 <!ENTITY identity.insecureLoginForms2 "Prihlasovacie údaje zadané na tejto stránke by mohli byť ohrozené.">
 
 <!-- Strings for connection state warnings. -->
@@ -785,6 +813,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "Otvoriť všetko na kartách">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "O">
+<!ENTITY syncedTabs.context.managedevices.label              "Spravovať zariadenia…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "i">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">
@@ -802,15 +832,16 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY social.directory.label "Katalóg aktivácií">
 <!ENTITY social.directory.text "Služby zdieľania môžete aktivovať z katalógu.">
 <!ENTITY social.directory.button "Prejsť na katalóg">
-<!ENTITY social.directory.introText "Kliknutím na ikonu služby ju pridáte do &brandShortName;u.">
+<!ENTITY social.directory.introText "Kliknutím na ikonu služby ju pridáte do prehliadača &brandShortName;.">
 <!ENTITY social.directory.viewmore.text "Zobraziť ďalšie služby">
 
 <!ENTITY customizeMode.menuAndToolbars.header2 "Ďalšie nástroje a funkcie">
 <!ENTITY customizeMode.menuAndToolbars.empty "Chcete ďalšie nástroje?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Vyberte si z tisícok doplnkov">
 <!ENTITY customizeMode.restoreDefaults "Obnoviť predvolené">
-<!ENTITY customizeMode.toolbars "Zobraziť/skryť panely s nástrojmi">
+<!ENTITY customizeMode.done "Hotovo">
 <!ENTITY customizeMode.titlebar "Panel s titulkom okna">
+<!ENTITY customizeMode.toolbars2 "Panely s nástrojmi">
 <!ENTITY customizeMode.lwthemes "Témy">
 <!ENTITY customizeMode.lwthemes.myThemes "Moje témy">
 <!ENTITY customizeMode.lwthemes.recommended "Odporúčané">
@@ -899,3 +930,36 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "Ďalšie informácie o DRM…">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+<!ENTITY updateAvailable.message "Aktualizujte si svoj &brandShorterName; a získajte najnovšie vylepšenia rýchlosti a súkromia.">
+<!ENTITY updateAvailable.whatsnew.label "Pozrite sa, čo je nové.">
+<!ENTITY updateAvailable.header.message "K dispozícii je nová aktualizácia prehliadača &brandShorterName;.">
+<!ENTITY updateAvailable.acceptButton.label "Prevziať aktualizáciu">
+<!ENTITY updateAvailable.acceptButton.accesskey "P">
+<!ENTITY updateAvailable.cancelButton.label "Teraz nie">
+<!ENTITY updateAvailable.cancelButton.accesskey "n">
+<!ENTITY updateAvailable.panelUI.label "Prevziať aktualizáciu &brandShorterName;u">
+
+<!ENTITY updateManual.message "Prevezmite si novú verziu aplikácie &brandShorterName; a my vám pomôžeme ju nainštalovať.">
+<!ENTITY updateManual.whatsnew.label "Pozrite sa, čo je nové.">
+<!ENTITY updateManual.header.message "Aplikácii &brandShorterName; sa nepodarilo nainštalovať najnovšiu verziu.">
+<!ENTITY updateManual.acceptButton.label "Prevziať &brandShorterName;">
+<!ENTITY updateManual.acceptButton.accesskey "P">
+<!ENTITY updateManual.cancelButton.label "Teraz nie">
+<!ENTITY updateManual.cancelButton.accesskey "n">
+<!ENTITY updateManual.panelUI.label "Prevziať novú verziu aplikácie &brandShorterName;">
+
+<!ENTITY updateRestart.message "Po rýchlom reštarte obnoví aplikácia &brandShorterName; všetky vaše otvorené karty a okná.">
+<!ENTITY updateRestart.header.message2 "Reštartovať a aktualizovať aplikáciu &brandShorterName;.">
+<!ENTITY updateRestart.acceptButton.label "Reštartovať a obnoviť">
+<!ENTITY updateRestart.acceptButton.accesskey "R">
+<!ENTITY updateRestart.cancelButton.label "Teraz nie">
+<!ENTITY updateRestart.cancelButton.accesskey "n">
+<!ENTITY updateRestart.panelUI.label2 "Reštartovať a aktualizovať aplikáciu &brandShorterName;">
+
+<!ENTITY pageActionButton.tooltip "Akcie stránky">
+
+<!ENTITY sendToDevice.label "Odoslať do zariadenia…">
+<!ENTITY sendToDevice.viewTitle "Odoslať do zariadenia">
+<!ENTITY sendToDevice.fxaRequired.label "Požadované">
+<!ENTITY sendToDevice.noDevices.label "K dispozícii nie sú žiadne zariadenia">

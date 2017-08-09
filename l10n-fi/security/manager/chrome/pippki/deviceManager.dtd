@@ -33,4 +33,4 @@
 <!ENTITY loaddevice.browse                      "Selaa…">
 <!ENTITY loaddevice.browse.accesskey            "S">
 
-<!ENTITY loaddevice.title                       "Lataa PKCS#11-laite">
+<!ENTITY loaddevice.title2                      "Lataa PKCS#11-laiteajuri">

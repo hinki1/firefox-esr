@@ -118,6 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "Tampilkan catatan rilis versi baru ini">
 <!ENTITY cmd.hideReleaseNotes.label           "Sembunyikan Catatan Rilis">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Sembunyikan catatan rilis versi baru ini">
+<!ENTITY cmd.findReplacement.label            "Cari Penggantian">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
@@ -185,6 +186,10 @@
 <!ENTITY addon.details.label                  "Lebih Lanjut">
 <!ENTITY addon.details.tooltip                "Tampilkan detail lainnya tentang pengaya ini">
 <!ENTITY addon.unknownDate                    "Tidak dikenali">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "LAWAS">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -249,3 +254,9 @@
 
 <!ENTITY pluginDeprecation.description "Kehilangan sesuatu? Beberapa plugin tidak didukung lagi oleh &brandShortName;.">
 <!ENTITY pluginDeprecation.learnMore "Pelajari Lebih Lanjut.">
+
+<!ENTITY legacyWarning.description "Kehilangan sesuatu? Beberapa plugin tidak didukung lagi oleh &brandShortName;.">
+<!ENTITY legacyWarning.showLegacy "Tampilkan ekstensi peninggalan">
+<!ENTITY legacyExtensions.title "Ekstensi Peninggalan">
+<!ENTITY legacyExtensions.description "Ekstensi ini tidak memenuhi standar &brandShortName; saat ini sehingga telah dinonaktifkan.">
+<!ENTITY legacyExtensions.learnMore "Pelajari tentang perubahan terhadap pengaya">

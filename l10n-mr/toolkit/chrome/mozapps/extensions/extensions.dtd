@@ -118,6 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "या सुधारणाकरीता प्रकाशन टिपा दाखवा">
 <!ENTITY cmd.hideReleaseNotes.label           "प्रकाशन टिपा लपवा">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "या सुधारणाकरीता प्रकाशन टिपा लपवा">
+<!ENTITY cmd.findReplacement.label            "पुनर्बदल शोधा">
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
@@ -185,6 +186,10 @@
 <!ENTITY addon.details.label                  "अधिक">
 <!ENTITY addon.details.tooltip                "या ॲड-ऑनविषयी अधिक माहिती दाखवा">
 <!ENTITY addon.unknownDate                    "अपरिचीत">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "अप्रचलित">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -243,9 +248,15 @@
 <!-- LOCALIZATION NOTE (disabledUnsigned.devInfo.start, disabledUnsigned.devInfo.linkToManual, disabledUnsigned.devInfo.end):
      These entities form a sentence, with disabledUnsigned.devInfo.linkToManual
      being a link to an external site. -->
-<!ENTITY disabledUnsigned.devInfo.start "ज्यांना त्यांचे अॅड-ऑन्स् पडताळून घेण्यात स्वारस्य आहे असे विकासक ते करू शकताता. त्यासाठी वाचा">
+<!ENTITY disabledUnsigned.devInfo.start "ज्यांना त्यांचे अॅड-ऑन्स् पडताळून घेण्यात स्वारस्य आहे असे विकासक ते करू शकतात. त्यासाठी वाचा">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "मॅन्युअल">
 <!ENTITY disabledUnsigned.devInfo.end ".">
 
 <!ENTITY pluginDeprecation.description "काही शोधताय काय? काही प्लगईन्स, &brandShortName; आता समर्थित नाहीत.">
 <!ENTITY pluginDeprecation.learnMore "आणखी शिका">
+
+<!ENTITY legacyWarning.description "काही शोधताय? काही विस्तार आता &brandShortName; द्वारा समर्थीत नाही.">
+<!ENTITY legacyWarning.showLegacy "सर्व वारसा विस्तार दर्शवा">
+<!ENTITY legacyExtensions.title "वारसा विस्तार">
+<!ENTITY legacyExtensions.description "हे विस्तार सध्याच्या &brandShortName; मानकांमध्ये बसत नाही म्हणून ते निष्क्रिय करण्यात आले आहेत.">
+<!ENTITY legacyExtensions.learnMore "ॲड-ऑन्सबद्दल बदल जाणा">

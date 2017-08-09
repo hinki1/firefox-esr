@@ -3,20 +3,19 @@ Date: Sat, 29 Oct 2016 18:23:56 +0900
 Subject: Fix crashes in AtomicOperations-none on s390x
 
 ---
- js/src/jit/AtomicOperations.h | 3 +++
- 1 file changed, 3 insertions(+)
+ js/src/jit/AtomicOperations.h | 2 ++
+ 1 file changed, 2 insertions(+)
 
 diff --git a/js/src/jit/AtomicOperations.h b/js/src/jit/AtomicOperations.h
-index ad531b5b5db1..581cde734c57 100644
+index 0f08fed79748..2e99707e0eb9 100644
 --- a/js/src/jit/AtomicOperations.h
 +++ b/js/src/jit/AtomicOperations.h
-@@ -347,6 +347,9 @@ AtomicOperations::isLockfree(int32_t size)
- #  include "jit/none/AtomicOperations-ppc.h"
- #elif defined(__sh__)
- #  include "jit/none/AtomicOperations-ppc.h"
+@@ -347,6 +347,8 @@ AtomicOperations::isLockfree(int32_t size)
+ #  include "jit/none/AtomicOperations-feeling-lucky.h"
+ # elif defined(__sh__)
+ #  include "jit/none/AtomicOperations-feeling-lucky.h"
 +# elif defined(__s390__)
-+  // The sparc file is more or less generic and works on s390x.
-+#  include "jit/none/AtomicOperations-sparc.h"
++#  include "jit/none/AtomicOperations-feeling-lucky.h"
  # else
  #  include "jit/none/AtomicOperations-none.h" // These MOZ_CRASH() always
  # endif

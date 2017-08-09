@@ -3,6 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (tapToPlayPlugin): Mobile (used for touch interfaces) only has one type of plugin possible. -->
+<!ENTITY pluginActivationWarning                             "Táto stránka používa zásuvný modul, ktorý môže aplikáciu &brandShortName; spomaľovať.">
 <!ENTITY tapToPlayPlugin                                     "Ťuknutím sem aktivujete zásuvný modul">
 <!ENTITY clickToActivatePlugin                               "Aktivovať zásuvný modul">
 <!ENTITY checkForUpdates                                     "Skontrolovať aktualizácie…">
@@ -29,3 +30,4 @@
 <!ENTITY plugin.file                                         "Súbor">
 <!ENTITY plugin.mimeTypes                                    "Typy MIME">
 <!ENTITY plugin.flashProtectedMode.label                     "Povoliť chránený režim Adobe Flash">
+<!ENTITY plugin.enableBlocklists.label                       "Blokovať nebezpečný a dotieravý obsah používajúci Flash">

@@ -2,7 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "Jälitamisvastast kaitset kasutatakse">
+<!ENTITY  trackingProtectionHeader2.label      "Jälitamisvastane kaitse">
+<!ENTITY  trackingProtection.description       "Jälitamiseks peetakse seda, kui ettevõtted koguvad sinu kohta infot ja kasutavad seda profileerimiseks ning sinu veebilehitsemise ja isiklike andmete põhjal sisu kuvamiseks.">
+<!ENTITY  trackingProtection.radioGroupLabel   "Teadaolevate jälitustegevusi harrastavate ettevõtete sisu kuvamine blokitakse">
 <!ENTITY  trackingProtectionAlways.label       "alati">
 <!ENTITY  trackingProtectionAlways.accesskey   "a">
 <!ENTITY  trackingProtectionPrivate.label      "ainult privaatsetes akendes">
@@ -30,18 +32,17 @@
 
 <!ENTITY  locationBar.label             "Asukohariba">
 
-<!ENTITY  locbar.suggest.label          "Asukohariba abil otsitakse soovitusi:">
+<!ENTITY  locbar.suggest2.label         "Asukohariba kasutamisel otsitakse soovitusi">
 <!ENTITY  locbar.history.label          "ajaloost">
 <!ENTITY  locbar.history.accesskey      "a">
 <!ENTITY  locbar.bookmarks.label        "järjehoidjatest">
 <!ENTITY  locbar.bookmarks.accesskey    "j">
 <!ENTITY  locbar.openpage.label         "avatud kaartide seast">
 <!ENTITY  locbar.openpage.accesskey     "v">
-<!ENTITY  locbar.searches.label         "vaikeotsingumootori poolt pakutavate seonduvate otsingute seast">
+<!ENTITY  locbar.searches.label         "vaikeotsingumootori pakutavate seonduvate otsingute seast">
 <!ENTITY  locbar.searches.accesskey     "d">
 
-<!ENTITY  suggestionSettings.label      "Muuda otsingumootorite soovituste sätteid…">
-<!ENTITY  suggestionSettings.accesskey  "u">
+<!ENTITY  suggestionSettings2.label     "Muuda otsingumootorite soovituste sätteid">
 
 <!ENTITY  acceptCookies.label           "Küpsised lubatakse">
 <!ENTITY  acceptCookies.accesskey       "K">
@@ -64,8 +65,8 @@
 <!ENTITY  showCookies.label             "Näita küpsiseid…">
 <!ENTITY  showCookies.accesskey         "N">
 
-<!ENTITY  historyHeader.pre.label          "&brandShortName;">
-<!ENTITY  historyHeader.pre.accesskey      "F">
+<!ENTITY  historyHeader2.pre.label         "&brandShortName;">
+<!ENTITY  historyHeader2.pre.accesskey     "e">
 <!ENTITY  historyHeader.remember.label     "säilitab ajaloo">
 <!ENTITY  historyHeader.dontremember.label "ei säilita ajalugu">
 <!ENTITY  historyHeader.custom.label       "kasutab ajaloo säilitamiseks kohandatud sätteid">

@@ -118,6 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "نمایش یادداشت‌های انتشار این نسخهٔ افزودنی">
 <!ENTITY cmd.hideReleaseNotes.label           "مخفی کردن یادداشت‌های انتشار">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "مخفی کردن یادداشت‌های انتشار این نسخهٔ افزودنی">
+
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
@@ -185,6 +186,10 @@
 <!ENTITY addon.details.label                  "اطلاعات بیشتر">
 <!ENTITY addon.details.tooltip                "نمایش اطلاعات بیشتر در مورد این افزودنی">
 <!ENTITY addon.unknownDate                    "نامعلوم">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "قدیمی">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -243,9 +248,14 @@
 <!-- LOCALIZATION NOTE (disabledUnsigned.devInfo.start, disabledUnsigned.devInfo.linkToManual, disabledUnsigned.devInfo.end):
      These entities form a sentence, with disabledUnsigned.devInfo.linkToManual
      being a link to an external site. -->
-<!ENTITY disabledUnsigned.devInfo.start "توسعه‌دهندگانی که علاقه‌مند به دریافت تاییدیۀ افزودنیهای خود هستند می تواند ادامه دهند با خواندنِ ">
-<!ENTITY disabledUnsigned.devInfo.linkToManual "کتابچۀ راهنما">
+<!ENTITY disabledUnsigned.devInfo.start "توسعه‌دهندگانی که علاقه‌مند به دریافت تاییدیهٔ افزودنی‌های خود هستند می‌توانند ادامه دهند با خواندنِ ">
+<!ENTITY disabledUnsigned.devInfo.linkToManual "کتابچهٔ راهنما">
 <!ENTITY disabledUnsigned.devInfo.end ".">
 
 <!ENTITY pluginDeprecation.description "چیزی گم کرده‌اید؟ بعضی از افزونه‌ها دیگر توسط&brandShortName; پشتیبانی نمی‌شود.">
 <!ENTITY pluginDeprecation.learnMore "بیشتر بدانید.">
+
+
+
+
+

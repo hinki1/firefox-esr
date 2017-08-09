@@ -13,17 +13,16 @@
 <!ENTITY  prefWinMinSize.styleMac       "width: 47em; min-height: 40em;">
 <!ENTITY  prefWinMinSize.styleGNOME     "width: 45.5em; min-height: 40.5em;">
 
-<!ENTITY  paneGeneral.title       "సాధారణం">
-<!ENTITY  paneTabs.title          "ట్యాబులు">
-<!ENTITY  paneSearch.title        "వెతకడం">
-<!ENTITY  paneContent.title       "విషయ సంగ్రహం">
-<!ENTITY  paneApplications.title  "అనువర్తనాలు">
-<!ENTITY  panePrivacy.title       "గోప్యత">
-<!ENTITY  paneContainers.title    "కంటైనర్ ట్యాబులు">
-<!ENTITY  paneSecurity.title      "రక్షణ">
-<!ENTITY  paneAdvanced.title      "ఉన్నతం">
+<!ENTITY  paneSearchResults.title       "వెతుకుడు ఫలితాలు">
+<!ENTITY  paneGeneral.title             "సాధారణం">
+<!ENTITY  paneFilesApplications.title   "దస్త్రాలు &amp; అనువర్తనాలు">
+<!ENTITY  panePrivacySecurity.title     "అంతరంగికత &amp; భద్రత">
+<!ENTITY  paneContainers.title          "కంటైనర్ ట్యాబులు">
+<!ENTITY  paneUpdates.title             "తాజాకరణలు">
 
-<!-- LOCALIZATION NOTE (paneSync.title): This should match syncBrand.shortName.label in ../syncBrand.dtd -->
-<!ENTITY  paneSync.title          "సింక్">
+<!-- LOCALIZATION NOTE (paneSync1.title): This should match syncBrand.fxAccount.label in ../syncBrand.dtd -->
+<!ENTITY  paneSync1.title          "Firefox ఖాతా">
 
-<!ENTITY  helpButton.label        "సహాయం">
+<!ENTITY  helpButton2.label        "&brandShortName; తోడ్పాటు">
+
+<!ENTITY  searchInput.label        "వెతుకు">

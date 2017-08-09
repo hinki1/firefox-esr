@@ -75,6 +75,7 @@
 <!ENTITY bookmark_removed "Favorito removido">
 <!ENTITY bookmark_updated "Favorito atualizado">
 <!ENTITY bookmark_options "Opções">
+<!ENTITY bookmark_save "Salvar">
 <!ENTITY screenshot_added_to_bookmarks "Screenshot adicionado aos favoritos">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
@@ -86,6 +87,8 @@
      in the folder. -->
 <!ENTITY bookmark_folder_items "&formatD; itens">
 <!ENTITY bookmark_folder_one_item "1 item">
+<!ENTITY bookmark_parent_folder "Pasta pai">
+<!ENTITY bookmark_add_folder "Adicionar nova pasta">
 
 <!ENTITY reader_saved_offline "Salvo off-line">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -214,6 +217,9 @@
 <!ENTITY pref_home_updates_enabled "Habilitadas">
 <!ENTITY pref_home_updates_wifi "Somente via Wi-Fi">
 <!ENTITY pref_category_home_homepage "Página inicial">
+<!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
+     home page will be use in every new tab. -->
+<!ENTITY home_homepage_every_new_tab "Também usar para novas abas">
 <!ENTITY home_homepage_title "Definir uma página inicial">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
@@ -282,6 +288,12 @@
      For more see: https://developer.chrome.com/multidevice/android/customtabs -->
 <!ENTITY pref_custom_tabs "Abas personalizadas">
 <!ENTITY pref_custom_tabs_summary3 "Permitir que aplicativos abram sites usando uma versão personalizada do &brandShortName;">
+<!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
+     default browser from user's preference, such as "Open in Firefox" -->
+<!ENTITY custom_tabs_menu_item_open_in "Abrir no &formatS;">
+<!ENTITY custom_tabs_menu_footer "Desenvolvido por &brandShortName;">
+<!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
+<!ENTITY custom_tabs_hint_url_copy "URL copiado">
 
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Fluxo de atividade">
@@ -350,26 +362,14 @@
 <!ENTITY pref_plugins_enabled "Habilitado">
 <!ENTITY pref_plugins_tap_to_play2 "Tocar para reproduzir">
 <!ENTITY pref_plugins_disabled "Desabilitado">
-<!ENTITY pref_text_size "Tamanho do texto">
 <!ENTITY pref_restore_tabs "Restaurar abas">
 <!ENTITY pref_restore_always "Restaurar sempre">
 <!ENTITY pref_restore_quit "Não restaurar após sair do &brandShortName;">
-<!ENTITY pref_font_size_tiny "Mini">
-<!ENTITY pref_font_size_small "Pequeno">
-<!ENTITY pref_font_size_medium "Médio">
-<!ENTITY pref_font_size_large "Grande">
-<!ENTITY pref_font_size_xlarge "Gigante">
-<!ENTITY pref_font_size_set "Definir">
-<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
-(or combination of characters) is used to decrease the preview font size; a larger version of the
-same character/combination is used to increase the preview font size. It should be a concise
-representation of the language it is used in that will help show the text in the preview will change
-size. -->
-<!ENTITY pref_font_size_adjust_char "A">
 
-<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
-    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
-<!ENTITY pref_font_size_preview_text "A raposa laranja ultrapassa as expectativas com mais velocidade, flexibilidade e segurança. Como uma organização sem fins lucrativos, somos livres para inovar sem pressões ou compromissos. Isso significa uma melhor experiência para você e um futuro brilhante para a web.">
+<!-- Localization note (pref_use_system_font_size, pref_use_system_font_size_summary):
+     Font size here refers to the name of the corresponding Android system setting. -->
+<!ENTITY pref_use_system_font_size "Usar o tamanho da fonte do sistema">
+<!ENTITY pref_use_system_font_size_summary "Escala conteúdo web de acordo com o tamanho da fonte do sistema">
 
 <!ENTITY pref_media_autoplay_enabled "Permitir reprodução automática">
 <!ENTITY pref_media_autoplay_enabled_summary "Controlar a reprodução de vídeos e outras mídias automaticamente">
@@ -500,6 +500,7 @@ size. -->
 <!ENTITY contextmenu_open_private_tab "Abrir em uma aba privativa">
 <!ENTITY contextmenu_remove "Remover">
 <!ENTITY contextmenu_add_to_launcher "Adicionar à tela inicial">
+<!ENTITY contextmenu_set_as_homepage "Definir como página inicial">
 <!ENTITY contextmenu_share "Compartilhar">
 <!ENTITY contextmenu_pasteandgo "Colar e ir">
 <!ENTITY contextmenu_paste "Colar">
@@ -516,19 +517,14 @@ size. -->
      where normally a username would be displayed. In this case, no username was found, and this placeholder
      contains brackets to indicate this is not actually a username, but rather a placeholder -->
 <!ENTITY doorhanger_login_no_username "[Sem nome de usuário]">
-<!ENTITY doorhanger_login_edit_title "Editar login">
+<!ENTITY doorhanger_login_edit_title "Editar conta de acesso">
 <!ENTITY doorhanger_login_edit_username_hint "Nome de usuário">
 <!ENTITY doorhanger_login_edit_password_hint "Senha">
 <!ENTITY doorhanger_login_edit_toggle "Mostrar senha">
 <!ENTITY doorhanger_login_select_message "Copiar senha de &formatS;?">
 <!ENTITY doorhanger_login_select_toast_copy "Senha copiada para a área de transferência">
-<!ENTITY doorhanger_login_select_action_text "Selecionar outro login">
+<!ENTITY doorhanger_login_select_action_text "Selecionar outra conta de acesso">
 <!ENTITY doorhanger_login_select_title "Copiar senha de">
-
-<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
-     whether or not the magnifying glass is disabled. -->
-<!ENTITY pref_magnifying_glass_enabled "Ampliar áreas pequenas">
-<!ENTITY pref_magnifying_glass_enabled_summary2 "Ampliar links e campos de formulário quando tocar perto deles">
 
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
@@ -552,6 +548,7 @@ size. -->
 <!ENTITY bookmark_edit_name "Nome">
 <!ENTITY bookmark_edit_location "Endereço">
 <!ENTITY bookmark_edit_keyword "Palavra-chave">
+<!ENTITY bookmark_select_folder "Selecionar pasta">
 
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
@@ -739,18 +736,10 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY colon ":">
 
-<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
-     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
-     This format string is typically used by getString method, in such method the percent sign
-     is a reserved caracter. In order to display one percent sign in the result of getString,
-     double percent signs must be inserted in the format string.
-     This entity is used in the zoomed view to display the zoom factor-->
-<!ENTITY percent "&formatS;&#037;&#037;">
-
 <!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->
 <!ENTITY actionbar_menu "Menu">
-<!ENTITY actionbar_done "Concluir">
+<!ENTITY actionbar_done "Concluído">
 
 <!-- Voice search in the awesome bar -->
 <!ENTITY voicesearch_prompt "Fale agora">

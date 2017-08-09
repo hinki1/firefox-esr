@@ -5,11 +5,11 @@
 <!ENTITY  fontsDialog.title                       "แบบอักษร">
 
 <!ENTITY  language.label                          "แบบอักษรสำหรับ:">
-<!ENTITY  language.accesskey                      "F">
+<!ENTITY  language.accesskey                      "บ">
 
 <!ENTITY  size.label                              "ขนาด:">
-<!ENTITY  sizeProportional.accesskey              "z">
-<!ENTITY  sizeMonospace.accesskey                 "e">
+<!ENTITY  sizeProportional.accesskey              "ข">
+<!ENTITY  sizeMonospace.accesskey                 "น">
 
 <!ENTITY  proportional.label                      "ความกว้างตามสัดส่วน:">
 <!ENTITY  proportional.accesskey                  "ค">
@@ -17,9 +17,9 @@
 <!ENTITY  serif.label                             "มีเชิง:">
 <!ENTITY  serif.accesskey                         "ม">
 <!ENTITY  sans-serif.label                        "ไม่มีเชิง:">
-<!ENTITY  sans-serif.accesskey                    "ม">
+<!ENTITY  sans-serif.accesskey                    "ง">
 <!ENTITY  monospace.label                         "ความกว้างคงที่:">
-<!ENTITY  monospace.accesskey                     "ค">
+<!ENTITY  monospace.accesskey                     "ว">
 
 <!-- LOCALIZATION NOTE (font.langGroup.latin) :
      Translate "Latin" as the name of Latin (Roman) script, not as the name of the Latin language. -->
@@ -38,23 +38,23 @@
 <!ENTITY  font.langGroup.devanagari               "เทวนาครี">
 <!ENTITY  font.langGroup.tamil                    "ทมิฬ">
 <!ENTITY  font.langGroup.armenian                 "อาร์เมเนีย">
-<!ENTITY  font.langGroup.bengali                  "เบ็งกาลี">
+<!ENTITY  font.langGroup.bengali                  "เบงกาลี">
 <!ENTITY  font.langGroup.canadian                 "อักษรพยางค์พื้นเมืองแคนาดา">
-<!ENTITY  font.langGroup.ethiopic                 "เอธิโอปิก">
+<!ENTITY  font.langGroup.ethiopic                 "เอธิโอเปีย">
 <!ENTITY  font.langGroup.georgian                 "จอร์เจีย">
 <!ENTITY  font.langGroup.gujarati                 "คุชราตี">
 <!ENTITY  font.langGroup.gurmukhi                 "คุรุมุขี">
 <!ENTITY  font.langGroup.khmer                    "เขมร">
 <!ENTITY  font.langGroup.malayalam                "มะละยาลัม">
 <!ENTITY  font.langGroup.math                     "คณิตศาสตร์">
-<!ENTITY  font.langGroup.odia                     "โอริยา">
+<!ENTITY  font.langGroup.odia                     "โอเดีย">
 <!ENTITY  font.langGroup.telugu                   "เตลูกู">
 <!ENTITY  font.langGroup.kannada                  "กัณณาท">
 <!ENTITY  font.langGroup.sinhala                  "สิงหล">
 <!ENTITY  font.langGroup.tibetan                  "ทิเบต">
 <!-- Minimum font size -->
 <!ENTITY minSize.label                            "ขนาดอักษรต่ำสุด:">
-<!ENTITY minSize.accesskey                        "ก">
+<!ENTITY minSize.accesskey                        "ด">
 <!ENTITY minSize.none                             "ไม่มี">
 
 <!-- default font type -->
@@ -62,7 +62,7 @@
 <!ENTITY  useDefaultFontSansSerif.label           "ไม่มีเชิง">
 
 <!ENTITY  allowPagesToUseOwn.label                "อนุญาตให้หน้าเลือกใช้แบบอักษรของตัวเอง แทนที่จะเป็นที่คุณเลือกไว้ด้านบน">
-<!ENTITY  allowPagesToUseOwn.accesskey            "A">
+<!ENTITY  allowPagesToUseOwn.accesskey            "อ">
 
 <!ENTITY languages.customize.Fallback2.grouplabel "รหัสอักขระสำหรับเนื้อหาเก่า">
 <!ENTITY languages.customize.Fallback2.label      "รหัสอักขระตัวทางเลือก:">

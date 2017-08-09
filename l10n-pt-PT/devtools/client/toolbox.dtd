@@ -104,7 +104,7 @@
   -  tooltip for the checkbox that toggles the service workers testing features on or off. This option enables service workers over HTTP. -->
 
 <!ENTITY options.enableServiceWorkersHTTP.label     "Ativar Service Workers sobre HTTP (se a caixa de ferramentas estiver aberta)">
-<!ENTITY options.enableServiceWorkersHTTP.tooltip   "Se ativar esta opção, serão ativados os service workers sob HTTP, em todos os separadores que tenham a caixa de ferramentas aberta.">
+<!ENTITY options.enableServiceWorkersHTTP.tooltip   "Ligar esta opção irá ativar os service workers sob HTTP para todos os separadores que têm a caixa de ferramentas aberta.">
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label2): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
@@ -158,7 +158,7 @@
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->
 
-<!ENTITY options.styleeditor.label            "Estilos">
+<!ENTITY options.styleeditor.label            "Editor de estilos">
 <!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
    - label for the checkbox that toggles showing original sources in the Style Editor -->
 
@@ -182,8 +182,8 @@
 <!-- LOCALIZATION NOTE (options.screenshot.audio.label): This is the
    - label for the checkbox that toggles the camera shutter audio for screenshot tool -->
 
-<!ENTITY options.screenshot.audio.label      "Reproduzir som de obturador de câmera">
-<!ENTITY options.screenshot.audio.tooltip    "Ativa o som do áudio de câmera ao tirar uma captura de ecrã">
+<!ENTITY options.screenshot.audio.label      "Reproduzir som de obturador de câmara">
+<!ENTITY options.screenshot.audio.tooltip    "Ativa o som do áudio de câmara ao tirar uma captura de ecrã">
 <!-- LOCALIZATION NOTE (options.commonprefs): This is the label for the heading
       of all preferences that affect both the Web Console and the Network
       Monitor -->
@@ -209,9 +209,9 @@
 
 <!ENTITY options.sourceeditor.label                     "Preferências do editor">
 <!ENTITY options.sourceeditor.detectindentation.label   "Detetar indentação">
-<!ENTITY options.sourceeditor.detectindentation.tooltip "Inferir indentação com base no conteúdo do código">
-<!ENTITY options.sourceeditor.autoclosebrackets.label   "Fechar automaticamente parêntesis retos">
-<!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Inserir automaticamente os parêntesis retos de fecho">
+<!ENTITY options.sourceeditor.detectindentation.tooltip "Inferir indentação com base na fonte do código">
+<!ENTITY options.sourceeditor.autoclosebrackets.label   "Fechar parêntesis retos automaticamente">
+<!ENTITY options.sourceeditor.autoclosebrackets.tooltip "Inserir parêntesis retos de fecho automaticamente">
 <!ENTITY options.sourceeditor.expandtab.label           "Indentar usando espaços">
 <!ENTITY options.sourceeditor.expandtab.tooltip         "Utilizar espaços em vez do caractere de tabulação">
 <!ENTITY options.sourceeditor.tabsize.label             "Tamanho da tabulação">

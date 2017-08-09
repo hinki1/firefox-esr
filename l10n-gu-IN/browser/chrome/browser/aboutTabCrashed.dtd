@@ -13,3 +13,15 @@
      happen. If you have a similar word or short phrase that is not profane or
      vulgar, use it. If not, feel free to skip the word in your
      translation. -->
+<!ENTITY tabCrashed.header2 "ઓહ. તમારા ટેબ હમનાજ ક્રેશ થયું.">
+<!ENTITY tabCrashed.offerHelp "અમે તમને મદદ કરી શકે છે!">
+<!ENTITY tabCrashed.single.offerHelpMessage "પૃષ્ઠ સામગ્રી ફરીથી લોડ કરવા માટે; &tabCrashed.restoreTab;પસંદ કરો.">
+<!ENTITY tabCrashed.multiple.offerHelpMessage "પૃષ્ઠ સામગ્રી ફરીથી લોડ કરવા માટે &tabCrashed.restoreTab; અથવા &tabCrashed.restoreAll; પસંદ કરો.">
+<!ENTITY tabCrashed.requestHelp "તમે અમને મદદ કરશેા?">
+<!ENTITY tabCrashed.requestHelpMessage "ક્રેશ રિપોર્ટ્સ અમને સમસ્યાઓનું નિદાન કરવા અને &brandShortName; સારુ બનાવવા મદદ કરસે.">
+<!ENTITY tabCrashed.requestReport "આ ટેબની જાણ કરો">
+<!ENTITY tabCrashed.sendReport2 "જે ટેબ તમે જોઈ રહ્યાં છો ઍ માટે ક્રેશ રિપોર્ટ મોકલો">
+<!ENTITY tabCrashed.commentPlaceholder2 "વૈકલ્પિક ટિપ્પણીઓ (ટિપ્પણીઓ સાર્વજનિક રૂપે દૃશ્યમાન થાય છે)">
+<!ENTITY tabCrashed.includeURL2 "આ ક્રેશ રિપોર્ટ સાથે પેજ URL સમાવેશ કરો">
+<!ENTITY tabCrashed.emailPlaceholder "અહીં તમારું ઇમેઇલ સરનામું દાખલ કરો">
+<!ENTITY tabCrashed.emailMe "વધુ માહિતી ઉપલબ્ધ હોય ત્યારે મને ઇમેઇલ કરો">

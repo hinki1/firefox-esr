@@ -118,6 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "Taispeáin na nótaí eisiúna don nuashonrú seo">
 <!ENTITY cmd.hideReleaseNotes.label           "Folaigh na Nótaí Eisiúna">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Folaigh na nótaí eisiúna don nuashonrú seo">
+<!ENTITY cmd.findReplacement.label            "Aimsigh Ionadaí">
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
@@ -185,6 +186,10 @@
 <!ENTITY addon.details.label                  "Tuilleadh">
 <!ENTITY addon.details.tooltip                "Taispeáin tuilleadh eolais faoin bhreiseán seo">
 <!ENTITY addon.unknownDate                    "Anaithnid">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "OIDHREACHT">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -249,3 +254,9 @@
 
 <!ENTITY pluginDeprecation.description "Rud éigin ar iarraidh? Ní thacaíonn &brandShortName; le roinnt forlíontán a thuilleadh.">
 <!ENTITY pluginDeprecation.learnMore "Tuilleadh Eolais.">
+
+<!ENTITY legacyWarning.description "Rud éigin ar iarraidh? Ní thacaíonn &brandShortName; le roinnt eisínteachtaí a thuilleadh.">
+<!ENTITY legacyWarning.showLegacy "Taispeáin seaneisínteachtaí">
+<!ENTITY legacyExtensions.title "Seaneisínteachtaí">
+<!ENTITY legacyExtensions.description "Ní chloíonn na heisínteachtaí seo le caighdeáin &brandShortName; a thuilleadh agus dhíchumasaíomar iad.">
+<!ENTITY legacyExtensions.learnMore "Foghlaim faoi na hathruithe ar bhreiseáin">

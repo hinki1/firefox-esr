@@ -46,14 +46,14 @@
 <!ENTITY certmgr.certserver                   "Server">
 <!ENTITY certmgr.override_lifetime            "Durată de viață">
 <!ENTITY certmgr.tokenname                    "Dispozitiv de securitate">
-<!ENTITY certmgr.begins                       "Începe la">
-<!ENTITY certmgr.expires                      "Expiră în">
+<!ENTITY certmgr.begins                       "Începe">
+<!ENTITY certmgr.expires                      "Expiră">
 <!ENTITY certmgr.email                        "Adresă de e-mail">
 <!ENTITY certmgr.serial                       "Număr de serie">
 
 <!ENTITY certmgr.close.label                  "Închide">
 <!ENTITY certmgr.close.accesskey              "c">
-<!ENTITY certmgr.view2.label                  "Vizualizează">
+<!ENTITY certmgr.view2.label                  "Vezi">
 <!ENTITY certmgr.view2.accesskey              "V">
 <!ENTITY certmgr.edit3.label                  "Editează încrederea…">
 <!ENTITY certmgr.edit3.accesskey              "E">

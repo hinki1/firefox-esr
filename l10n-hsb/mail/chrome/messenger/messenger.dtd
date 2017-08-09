@@ -51,8 +51,8 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "W">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Aktualne konto">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "A">
-<!ENTITY getNextNMsgCmd.label "Přichodnych 500 nowych powěsćowy wobstarać">
-<!ENTITY getNextNMsgCmd.accesskey "5">
+<!ENTITY getNextNMsgCmd2.label "Přichodne powěsće wobstarać">
+<!ENTITY getNextNMsgCmd2.accesskey "b">
 <!ENTITY sendUnsentCmd.label "Njepósłane powěsće pósłać">
 <!ENTITY sendUnsentCmd.accesskey "n">
 <!ENTITY subscribeCmd.label "Abonować…">
@@ -634,6 +634,9 @@
 
 <!ENTITY folderContextGetMessages.label "Powěsće wobstarać">
 <!ENTITY folderContextGetMessages.accesskey "P">
+<!ENTITY folderContextPauseAllUpdates.label "Wšě aktualizacije zastajić">
+<!ENTITY folderContextPauseUpdates.label "Aktualizacije zastajić">
+<!ENTITY folderContextPauseUpdates.accesskey "A">
 <!ENTITY folderContextOpenInNewWindow.label "W nowym woknje wočinić">
 <!ENTITY folderContextOpenInNewWindow.accesskey "o">
 <!ENTITY folderContextOpenNewTab.label "W nowym rajtarku wočinić">

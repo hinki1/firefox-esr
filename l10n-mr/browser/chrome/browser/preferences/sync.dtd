@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey      "T">
 <!ENTITY engine.history.label       "इतिहास">
 <!ENTITY engine.history.accesskey   "r">
-<!ENTITY engine.passwords.label     "पासवर्डस्">
-<!ENTITY engine.passwords.accesskey "P">
+<!ENTITY engine.logins.label        "लॉगिन्स">
+<!ENTITY engine.logins.accesskey    "L">
 <!ENTITY engine.prefs.label         "पसंती">
 <!ENTITY engine.prefs.accesskey     "s">
 <!ENTITY engine.addons.label        "ॲड-ऑन्स्">
@@ -19,8 +19,8 @@
 <!-- Device Settings -->
 
 <!ENTITY fxaSyncDeviceName.label       "साधनाचे नाव:">
-<!ENTITY changeSyncDeviceName.label "साधनाचे नाव बदला…">
-<!ENTITY changeSyncDeviceName.accesskey "h">
+<!ENTITY changeSyncDeviceName2.label "साधनाचे नाव बदला…">
+<!ENTITY changeSyncDeviceName2.accesskey "h">
 <!ENTITY cancelChangeSyncDeviceName.label "रद्द करा">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "n">
 <!ENTITY saveChangeSyncDeviceName.label "जतन करा">
@@ -52,8 +52,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "प्रोफाइल प्रतिमा बदला">
 <!ENTITY verifiedManage.label        "खाते व्यवस्थापित करा">
 <!ENTITY verifiedManage.accesskey    "o">
-<!ENTITY disconnect.label            "जोडणी मोडा...">
-<!ENTITY disconnect.accesskey        "D">
+<!ENTITY disconnect3.label           "जोडणी मोडा…">
+<!ENTITY disconnect3.accesskey       "D">
 <!ENTITY verify.label                "ईमेल सत्यापित करा">
 <!ENTITY verify.accesskey            "V">
 <!ENTITY forget.label                "हा ईमेल विसरा">
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "साइन इन">
 <!ENTITY signedOut.accountBox.signin.accesskey  "I">
 
-<!ENTITY signedIn.engines.label       "सर्व साधनांबरोबर समक्रमण करा">
+<!ENTITY signedIn.settings.label       "ताळमेळ सेटिंग्ज">
+<!ENTITY signedIn.settings.description "&brandShortName; वापरून आपल्या उपकरणांवर काय सिंक्रोनाईझ करायचे ते निवडा.">
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.
      The resulting sentence in English is: "Download Firefox for
@@ -83,4 +84,4 @@ both, to better adapt this sentence to their language.
 <!-- LOCALIZATION NOTE (mobilePromo3.iOSLink): This is a link title that links to https://www.mozilla.org/firefox/ios/ -->
 <!ENTITY mobilePromo3.iOSLink          "iOS">
 
-<!ENTITY mobilePromo3.end              "आपल्या उपकरणाबरोबर समक्रमण करण्यासाठी ">
+<!ENTITY mobilePromo3.end              " आपल्या उपकरणाबरोबर समक्रमण करण्यासाठी ">

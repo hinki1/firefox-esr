@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey      "ל">
 <!ENTITY engine.history.label       "היסטוריה">
 <!ENTITY engine.history.accesskey   "ה">
-<!ENTITY engine.passwords.label     "ססמאות">
-<!ENTITY engine.passwords.accesskey "ס">
+<!ENTITY engine.logins.label        "כניסות">
+<!ENTITY engine.logins.accesskey    "כ">
 <!ENTITY engine.prefs.label         "העדפות">
 <!ENTITY engine.prefs.accesskey     "ה">
 <!ENTITY engine.addons.label        "תוספות">
@@ -19,8 +19,8 @@
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "שם התקן">
-<!ENTITY changeSyncDeviceName.label "שינוי שם התקן…">
-<!ENTITY changeSyncDeviceName.accesskey "ש">
+<!ENTITY changeSyncDeviceName2.label "שינוי שם התקן…">
+<!ENTITY changeSyncDeviceName2.accesskey "ש">
 <!ENTITY cancelChangeSyncDeviceName.label "ביטול">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "ב">
 <!ENTITY saveChangeSyncDeviceName.label "שמירה">
@@ -52,8 +52,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "שינוי תמונת פרופיל">
 <!ENTITY verifiedManage.label        "ניהול חשבון">
 <!ENTITY verifiedManage.accesskey    "נ">
-<!ENTITY disconnect.label            "התנתקות…">
-<!ENTITY disconnect.accesskey        "ת">
+<!ENTITY disconnect3.label           "התנתקות…">
+<!ENTITY disconnect3.accesskey       "ה">
 <!ENTITY verify.label                "אימות דואר אלקטרוני">
 <!ENTITY verify.accesskey            "א">
 <!ENTITY forget.label                "לשכוח מכתובת דואר אלקטרוני זו">
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "כניסה">
 <!ENTITY signedOut.accountBox.signin.accesskey  "כ">
 
-<!ENTITY signedIn.engines.label       "סנכרון בין התקנים">
+<!ENTITY signedIn.settings.label       "הגדרות סנכרון">
+<!ENTITY signedIn.settings.description "נא לבחור את הפריטים שיסונכרנו להתקנים שלך באמצעות &brandShortName;.">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

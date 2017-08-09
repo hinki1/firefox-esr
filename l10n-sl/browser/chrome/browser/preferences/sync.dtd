@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey      "Z">
 <!ENTITY engine.history.label       "Zgodovino">
 <!ENTITY engine.history.accesskey   "d">
-<!ENTITY engine.passwords.label     "Gesla">
-<!ENTITY engine.passwords.accesskey "G">
+<!ENTITY engine.logins.label        "Prijave">
+<!ENTITY engine.logins.accesskey    "P">
 <!ENTITY engine.prefs.label         "Nastavitve">
 <!ENTITY engine.prefs.accesskey     "N">
 <!ENTITY engine.addons.label        "Dodatke">
@@ -19,8 +19,8 @@
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Ime naprave">
-<!ENTITY changeSyncDeviceName.label "Spremeni ime naprave …">
-<!ENTITY changeSyncDeviceName.accesskey "S">
+<!ENTITY changeSyncDeviceName2.label "Spremeni ime naprave …">
+<!ENTITY changeSyncDeviceName2.accesskey "r">
 <!ENTITY cancelChangeSyncDeviceName.label "Prekliči">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "P">
 <!ENTITY saveChangeSyncDeviceName.label "Shrani">
@@ -52,8 +52,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "Spremeni sliko profila">
 <!ENTITY verifiedManage.label        "Upravljanje računa">
 <!ENTITY verifiedManage.accesskey    "U">
-<!ENTITY disconnect.label            "Odklopi …">
-<!ENTITY disconnect.accesskey        "O">
+<!ENTITY disconnect3.label           "Odklopi …">
+<!ENTITY disconnect3.accesskey       "k">
 <!ENTITY verify.label                "Potrdi e-poštni naslov">
 <!ENTITY verify.accesskey            "P">
 <!ENTITY forget.label                "Pozabi ta e-poštni naslov">
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "Prijava">
 <!ENTITY signedOut.accountBox.signin.accesskey  "P">
 
-<!ENTITY signedIn.engines.label       "Sinhronizacija vseh naprav">
+<!ENTITY signedIn.settings.label       "Nastavitve Synca">
+<!ENTITY signedIn.settings.description "Izberite, kaj želite sinhronizirati med svojimi napravami s pomočjo &brandShortName;a.">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

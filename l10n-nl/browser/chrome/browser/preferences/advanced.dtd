@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "m">
 <!ENTITY useSmoothScrolling.label        "Vloeiend scrollen gebruiken">
 <!ENTITY useSmoothScrolling.accesskey    "e">
-<!ENTITY allowHWAccel.label              "Hardwareversnelling gebruiken wanneer beschikbaar">
-<!ENTITY allowHWAccel.accesskey          "v">
 <!ENTITY checkUserSpelling.label         "Uw spelling controleren tijdens het typen">
 <!ENTITY checkUserSpelling.accesskey     "s">
 
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Update">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "&brandShortName;-updates">
-<!ENTITY updateAuto1.label               "Updates automatisch installeren (aanbevolen: verbeterde beveiliging)">
-<!ENTITY updateAuto1.accesskey           "U">
-<!ENTITY updateCheckChoose.label         "Controleren op updates, maar u laten kiezen of u deze wilt installeren">
-<!ENTITY updateCheckChoose.accesskey     "C">
-<!ENTITY updateManual.label              "Nooit controleren op updates (niet aanbevolen: beveiligingsrisico)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Versie ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "&brandShortName; mag">
+<!ENTITY updateAuto2.label               "Updates automatisch installeren (aanbevolen voor verbeterde beveiliging)">
+<!ENTITY updateAuto2.accesskey           "U">
+<!ENTITY updateCheckChoose2.label        "Controleren op updates, maar u laten kiezen of u deze wilt installeren">
+<!ENTITY updateCheckChoose2.accesskey    "C">
+<!ENTITY updateManual2.label             "Nooit controleren op updates (niet aanbevolen)">
+<!ENTITY updateManual2.accesskey         "N">
 
-<!ENTITY updateHistory.label             "Updategeschiedenis tonen">
-<!ENTITY updateHistory.accesskey         "d">
+<!ENTITY updateHistory2.label            "Updategeschiedenis tonen…">
+<!ENTITY updateHistory2.accesskey        "d">
 
 <!ENTITY useService.label                "Een achtergrondservice gebruiken om updates te installeren">
 <!ENTITY useService.accesskey            "a">
 
-<!ENTITY autoUpdateOthers.label          "Automatisch bijwerken">
-<!ENTITY enableSearchUpdate.label        "Zoekmachines">
-<!ENTITY enableSearchUpdate.accesskey    "Z">
+<!ENTITY enableSearchUpdate2.label       "Zoekmachines automatisch bijwerken">
+<!ENTITY enableSearchUpdate2.accesskey   "Z">
+
+<!ENTITY reports.label                   "Rapporten">
 
 <!ENTITY offlineStorageNotify.label               "Vertellen wanneer een website vraagt gegevens op te slaan voor offlinegebruik">
 <!ENTITY offlineStorageNotify.accesskey           "e">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Offlinegegevens verwijderen">
 
 <!ENTITY certificateTab.label            "Certificaten">
-<!ENTITY certPersonal.label              "Aanvragen">
-<!ENTITY certPersonal.description        "Wanneer een server om uw persoonlijke certificaat vraagt:">
+<!ENTITY certPersonal2.description       "Wanneer een server om uw persoonlijke certificaat vraagt">
 <!ENTITY selectCerts.auto                "Er automatisch een selecteren">
 <!ENTITY selectCerts.auto.accesskey      "a">
 <!ENTITY selectCerts.ask                 "Elke keer vragen">
@@ -125,3 +136,23 @@
 <!ENTITY viewCerts.accesskey             "C">
 <!ENTITY viewSecurityDevices.label       "Beveiligingsapparaten">
 <!ENTITY viewSecurityDevices.accesskey   "B">
+
+<!ENTITY performance.label               "Prestaties">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Aanbevolen prestatie-instellingen gebruiken">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Deze instellingen zijn afgestemd op de hardware en het besturingssysteem van uw computer.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "A">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Meer info">
+<!ENTITY limitContentProcessOption.label "Limiet van inhoudsprocessen">
+<!ENTITY limitContentProcessOption.description
+                                         "Extra inhoudsprocessen kunnen de prestaties bij het gebruik van meerdere tabbladen verbeteren, maar zullen ook meer geheugen gebruiken.">
+<!ENTITY limitContentProcessOption.accesskey   "L">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Aanpassen van het aantal inhoudsprocessen is alleen mogelijk met multiprocess-&brandShortName;.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Informatie over het controleren of multiprocess is ingeschakeld">
+<!ENTITY allowHWAccel.label              "Hardwareversnelling gebruiken wanneer beschikbaar">
+<!ENTITY allowHWAccel.accesskey          "v">

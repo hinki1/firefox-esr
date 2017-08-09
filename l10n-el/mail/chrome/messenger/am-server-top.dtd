@@ -55,7 +55,7 @@
 <!-- LOCALIZATION NOTE (expungeOnExit.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY expungeOnExit.label "Εκκαθάριση (&quot;Expunge&quot;) εισερχομένων κατά την έξοδο">
 <!ENTITY expungeOnExit.accesskey "θ">
-<!ENTITY emptyTrashOnExit.label "Άδειασμα απορριμάτων κατά την έξοδο">
+<!ENTITY emptyTrashOnExit.label "Άδειασμα απορριμμάτων κατά την έξοδο">
 <!ENTITY emptyTrashOnExit.accesskey "δ">
 <!ENTITY loginAtStartup.label "Έλεγχος για νέα μηνύματα κατά την εκκίνηση">
 <!ENTITY loginAtStartup.accesskey "λ">
@@ -67,7 +67,7 @@
 <!ENTITY maxMessagesStart.accesskey "ρ">
 <!-- LOCALIZATION NOTE (maxMessagesEnd.label) : see note for maxMessagesStart.label -->
 <!ENTITY maxMessagesEnd.label "μηνύματα">
-<!ENTITY alwaysAuthenticate.label "Να απαιτείται πάντα πιστοποίηση κατά τη σύνδεση με αυτόν τον εξυπηρετητή">
+<!ENTITY alwaysAuthenticate.label "Να απαιτείται πάντα πιστοποίηση κατά τη σύνδεση με αυτόν τον διακομιστή">
 <!ENTITY alwaysAuthenticate.accesskey "π">
 <!ENTITY newsrcFilePath.label "αρχείο newsrc:">
 <!ENTITY newsrcPicker.label "Επιλογή αρχείου newsrc">

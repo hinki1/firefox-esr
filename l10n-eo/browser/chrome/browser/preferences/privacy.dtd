@@ -2,7 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "Uzi protekton kontraŭ spurado">
+<!ENTITY  trackingProtectionHeader2.label      "Protekto kontraŭ spurado">
+<!ENTITY  trackingProtection.description       "Spurado estas la kolekto de informoj pri vi, kiun faras entreprenoj por krei profilon de vi kaj montri enhavon surbaze de viaj retumaj kaj personaj datumoj.">
+<!ENTITY  trackingProtection.radioGroupLabel   "Bloki la montron de enhavo de konataj spurantaj entreprenoj">
 <!ENTITY  trackingProtectionAlways.label       "Ĉiam">
 <!ENTITY  trackingProtectionAlways.accesskey   "m">
 <!ENTITY  trackingProtectionPrivate.label      "Nur en privataj fenestroj">
@@ -30,7 +32,7 @@
 
 <!ENTITY  locationBar.label             "Retadresa strio">
 
-<!ENTITY  locbar.suggest.label          "Dum uzado de la retadresa strio, sugesti el:">
+<!ENTITY  locbar.suggest2.label         "Dum uzo de la retadresa strio, sugesti">
 <!ENTITY  locbar.history.label          "Historio">
 <!ENTITY  locbar.history.accesskey      "H">
 <!ENTITY  locbar.bookmarks.label        "Legosignoj">
@@ -40,8 +42,7 @@
 <!ENTITY  locbar.searches.label         "Rilatitaj serĉoj el la norma serĉilo">
 <!ENTITY  locbar.searches.accesskey     "R">
 
-<!ENTITY  suggestionSettings.label      "Ŝanĝi preferojn por serĉilaj sugestoj…">
-<!ENTITY  suggestionSettings.accesskey  "s">
+<!ENTITY  suggestionSettings2.label     "Ŝanĝi preferojn de serĉilaj sugestoj">
 
 <!ENTITY  acceptCookies.label           "Akcepti kuketojn el retejoj">
 <!ENTITY  acceptCookies.accesskey       "A">
@@ -64,8 +65,8 @@
 <!ENTITY  showCookies.label             "Montri kuketojn…">
 <!ENTITY  showCookies.accesskey         "M">
 
-<!ENTITY  historyHeader.pre.label          "&brandShortName; :">
-<!ENTITY  historyHeader.pre.accesskey      "F">
+<!ENTITY  historyHeader2.pre.label         "&brandShortName;">
+<!ENTITY  historyHeader2.pre.accesskey     "F">
 <!ENTITY  historyHeader.remember.label     "memoros historion">
 <!ENTITY  historyHeader.dontremember.label "neniam memoros historion">
 <!ENTITY  historyHeader.custom.label       "uzos personajn agordojn por la historio">

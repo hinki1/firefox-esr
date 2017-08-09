@@ -2,6 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  applications.label       "Applikaasjes">
+<!ENTITY  applications.description "Kieze hoe't &brandShortName; omgiet mei de bestannen dy't jo fan it web downloade of de tapassingen dy't jo wylst it sneupen brûke.">
+
 <!ENTITY  typeColumn.label        "Ynhâldstype">
 <!ENTITY  typeColumn.accesskey    "t">
 
@@ -11,4 +14,4 @@
 <!ENTITY  focusSearch1.key        "f">
 <!ENTITY  focusSearch2.key        "k">
 
-<!ENTITY  filter.emptytext        "Sykje:">
+<!ENTITY  filter2.emptytext        "Bestânstypen of tapassingen sykje">

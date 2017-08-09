@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey      "T">
 <!ENTITY engine.history.label       "ប្រវត្តិ">
 <!ENTITY engine.history.accesskey   "r">
-<!ENTITY engine.passwords.label     "ពាក្យ​សម្ងាត់">
-<!ENTITY engine.passwords.accesskey "P">
+<!ENTITY engine.logins.label        "ចូល">
+<!ENTITY engine.logins.accesskey    "L">
 <!ENTITY engine.prefs.label         "ចំណូលចិត្ត">
 <!ENTITY engine.prefs.accesskey     "S">
 <!ENTITY engine.addons.label        "កម្មវិធី​បន្ថែម">
@@ -19,8 +19,8 @@
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "ឈ្មោះ​ឧបករណ៍ ">
-<!ENTITY changeSyncDeviceName.label "ផ្លាស់ប្តូរ​ឈ្មោះ​ឧបករណ៍ ...">
-<!ENTITY changeSyncDeviceName.accesskey "h">
+<!ENTITY changeSyncDeviceName2.label "ប្ដូរ​ឈ្មោះ​ឧបករណ៍…">
+<!ENTITY changeSyncDeviceName2.accesskey "h">
 <!ENTITY cancelChangeSyncDeviceName.label "បោះបង់">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "n">
 <!ENTITY saveChangeSyncDeviceName.label "រក្សា​ទុក">
@@ -52,8 +52,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "ប្តូរ​​រូប​ប្រូ​ហ្វាល់">
 <!ENTITY verifiedManage.label        "គ្រប់គ្រង​គណនី">
 <!ENTITY verifiedManage.accesskey    "o">
-<!ENTITY disconnect.label            "កំពុង​ផ្ដាច់...">
-<!ENTITY disconnect.accesskey        "D">
+<!ENTITY disconnect3.label           "ផ្ដាច់...">
+<!ENTITY disconnect3.accesskey       "D">
 <!ENTITY verify.label                "ផ្ទៀងផ្ទាត់​អ៊ីមែល">
 <!ENTITY verify.accesskey            "V">
 <!ENTITY forget.label                "ភ្លេច​អ៊ីមែល​នេះ">
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "ចូល">
 <!ENTITY signedOut.accountBox.signin.accesskey  "I">
 
-<!ENTITY signedIn.engines.label       "ធ្វើ​សមកាលកម្ម​គ្រប់​ឧបករណ៍​ទាំង​អស់">
+<!ENTITY signedIn.settings.label       "ការ​កំណត់​សមកាលកម្ម">
+<!ENTITY signedIn.settings.description "ជ្រើស​អ្វី​ដែល​ត្រូវ​ធ្វើ​សមកាលកម្ម​នៅ​លើ​ឧបករណ៍​របស់​អ្នក​ដោយ​ប្រើ &brandShortName;.">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

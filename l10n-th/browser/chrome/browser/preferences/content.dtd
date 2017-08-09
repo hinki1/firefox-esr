@@ -5,29 +5,29 @@
 <!ENTITY  popups.label                "ป๊อปอัป">
 
 <!ENTITY  blockPopups.label           "ปิดกั้นหน้าต่างป๊อปอัป">
-<!ENTITY  blockPopups.accesskey       "B">
+<!ENTITY  blockPopups.accesskey       "ป">
 
 <!ENTITY  notificationsPolicy.label            "การแจ้งเตือน">
 <!ENTITY  notificationsPolicyLearnMore.label   "เรียนรู้เพิ่มเติม">
 <!ENTITY  notificationsPolicyDesc3.label       "เลือกว่าไซต์ใดที่อนุญาตให้ส่งการแจ้งเตือนมาให้คุณ">
 <!ENTITY  notificationsPolicyButton.accesskey  "ล">
 <!ENTITY  notificationsPolicyButton.label      "เลือก…">
-<!ENTITY  notificationsDoNotDisturb.label      "ห้ามรบกวน">
+<!ENTITY  notificationsDoNotDisturb.label      "ห้ามรบกวนฉัน">
 <!ENTITY  notificationsDoNotDisturb.accesskey  "ห">
-<!ENTITY  notificationsDoNotDisturbDetails.value "การแจ้งเตือนจะไม่แสดงจนกระทั่งคุณได้เริ่ม &brandShortName; ใหม่">
+<!ENTITY  notificationsDoNotDisturbDetails.value "การแจ้งเตือนจะไม่ถูกแสดงจนกว่าคุณจะเริ่มการทำงาน &brandShortName; ใหม่">
 
 <!ENTITY  popupExceptions.label       "ข้อยกเว้น…">
 <!ENTITY  popupExceptions.accesskey   "ข">
 
 <!ENTITY  fontsAndColors.label        "แบบอักษรและสี">
 
-<!ENTITY  defaultFont.label           "แบบอักษรเริ่มต้น:">
-<!ENTITY  defaultFont.accesskey       "ป">
-<!ENTITY  defaultSize.label           "ขนาด:">
-<!ENTITY  defaultSize.accesskey       "ข">
+<!ENTITY  defaultFont2.label          "แบบอักษรเริ่มต้น">
+<!ENTITY  defaultFont2.accesskey      "บ">
+<!ENTITY  defaultSize2.label          "ขนาด">
+<!ENTITY  defaultSize2.accesskey      "ข">
 
 <!ENTITY  advancedFonts.label         "ขั้นสูง…">
-<!ENTITY  advancedFonts.accesskey     "ข">
+<!ENTITY  advancedFonts.accesskey     "น">
 
 <!ENTITY  colors.label                "สี…">
 <!ENTITY  colors.accesskey            "ส">
@@ -39,7 +39,7 @@
 <!ENTITY chooseButton.accesskey       "ล">
 
 <!ENTITY translateWebPages.label      "แปลเนื้อหาเว็บ">
-<!ENTITY translateWebPages.accesskey  "แ">
+<!ENTITY translateWebPages.accesskey  "ป">
 <!ENTITY translateExceptions.label    "ข้อยกเว้น…">
 <!ENTITY translateExceptions.accesskey "อ">
 

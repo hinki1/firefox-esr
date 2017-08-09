@@ -184,7 +184,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllBookmarks2.label "Barcha xatcho‘plarni ko‘rsatish">
 <!ENTITY recentBookmarks.label "Soʻnggi xatchoʻpga qoʻshilgan saytlar">
 <!ENTITY otherBookmarksCmd.label "Boshqa xatcho‘plar">
-
+<!ENTITY mobileBookmarksCmd.label "Mobil xatcho‘plar">
 <!ENTITY bookmarksToolbarChevron.tooltip "Ko‘proq xatcho‘plarni ko‘rsatish">
 <!ENTITY showRecentlyBookmarked.label     "Soʻnggi xatchoʻpga qoʻshilgan saytlarni ko‘rsatish">
 <!ENTITY showRecentlyBookmarked.accesskey "h">
@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "Tarixni ko‘rish uchun o‘ng tugmani bosing yoking pastga suring">
 <!ENTITY backForwardButtonMenuMac.tooltip "Tarixni ko‘rish uchun pastga suring">
 <!ENTITY reloadCmd.label              "Qayta yuklash">
-<!ENTITY reloadButton.tooltip         "Joriy sahifani qayta yuklash">
 <!ENTITY stopCmd.label                "To‘xtatish">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "Ushbu sahifani yuklashni bekor qilish">
 <!ENTITY goEndCap.tooltip             "Manzil panelidagi manzilga o‘tish">
 <!ENTITY printButton.label            "Chop qilish">
 <!ENTITY printButton.tooltip          "Ushbu sahifani chop qilish">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Parolni saqlash xabari panelini ochish">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Plaginlarni boshqarishdan foydalanilmoqda">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Saytdan eslatma olish imkoniyatini o‘zgartirish">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Ma’lumotlarni &quot;Doimiy xotira&quot;ga saqlash">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Brauzer nazorat ostida!">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Kamera yoki mikrofonni sayt bilan bo‘lishishni boshqarish">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Mikrofonni sayt bilan bo‘lishishni boshqarish">
@@ -231,13 +231,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "Bu sayt uchun joylashuv ma’lumotini bloklab qo‘ygansiz.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "Bu sayt uchun ma’lumotlarni saqlashni bloklab qo‘ygansiz.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "Bu saytdan bildirishnomalarni olishni bloklab qo‘ygansiz.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "Bu sayt uchun &quot;Doimiy xotira&quot;ni bloklab qo‘ygansiz.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Tarixni ko‘rsatish">
 
-<!ENTITY urlbar.zoomReset.tooltip     "Masshtabni asl holiga tiklash">
-
 <!ENTITY searchItem.title             "Izlash">
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 
 <!ENTITY homeButton.label             "Uy">
 
@@ -246,7 +245,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenuButton.label          "Xatcho‘plar">
 <!ENTITY bookmarksMenuButton.other.label "Boshqa xatcho‘plar">
-
+<!ENTITY bookmarksMenuButton.mobile.label "Mobil xatcho‘plar">
 <!ENTITY viewBookmarksSidebar2.label        "Xatcho‘plarni yon panelda ko‘rsatish">
 <!ENTITY viewBookmarksToolbar.label         "Xatcho‘plar panelini ko‘rsatish">
 
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "So‘nggi tarixni tozalash">
 <!ENTITY appMenuHistory.restoreSession.label "Oldingi seansni tiklash">
 <!ENTITY appMenuHistory.viewSidebar.label "Tarixni yon panelda ko‘rsatish">
+<!ENTITY appMenuHelp.label "Yordam">
 <!ENTITY appMenuHelp.tooltip "Yordam menyusini ochish">
 
 <!ENTITY appMenuRemoteTabs.label "Sinxronlangan ichki oynalar">
@@ -360,10 +360,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.notabs.label "Ochiq ichki oynalar yo‘q">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.showMore.label, appMenuRemoteTabs.showMore.tooltip):
      This is shown after the tabs list if we can display more tabs by clicking on the button -->
-
+<!ENTITY appMenuRemoteTabs.showMore.label "Yana">
+<!ENTITY appMenuRemoteTabs.showMore.tooltip "Bu qurilmadagi boshqa ichki oynalarni ko‘rsatish">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.showAll.label, appMenuRemoteTabs.showAll.tooltip):
      This is shown after the tabs list if we can all the remaining tabs by clicking on the button -->
-
+<!ENTITY appMenuRemoteTabs.showAll.label "Barchasini ko‘rsatish">
+<!ENTITY appMenuRemoteTabs.showAll.tooltip "Bu qurilmadagi boshqa ichki oynalarni ko‘rsatish">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "Ichki oynalar ro‘yxatini boshqa qurilmada ko‘rish uchun sinxronlashni yoqing.">
@@ -375,32 +377,50 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Sinxronlash parametrlari">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Ichki oynalar ro‘yxatini boshqa qurilmalarda ko‘rish uchun Firefox hisobiga kiring.">
 <!ENTITY appMenuRemoteTabs.signin.label "Sinxronlash uchun tizimga kiring">
+<!ENTITY appMenuRemoteTabs.managedevices.label "Qurilmalarni boshqarish…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Sinxronlangan ichki oynalar yon panelini ko‘rish">
 
 <!ENTITY customizeMenu.addToToolbar.label "Asboblar paneliga qo‘shish">
 <!ENTITY customizeMenu.addToToolbar.accesskey "q">
 <!ENTITY customizeMenu.addToPanel.label "Menyuga qo‘shish">
 <!ENTITY customizeMenu.addToPanel.accesskey "M">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "Qo‘shimcha menyuga qo‘shish">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "m">
 <!ENTITY customizeMenu.moveToToolbar.label "Asboblar paneliga ko‘chirish">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "k">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Menyuga ko‘chirish">
 <!ENTITY customizeMenu.moveToPanel.accesskey "k">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "Qo‘shimcha menyuga qadash">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "P">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Qo‘shimcha menyudan ajratish">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "U">
 <!ENTITY customizeMenu.removeFromToolbar.label "Asboblar panelidan o‘chirish">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "o">
 <!ENTITY customizeMenu.removeFromMenu.label "Menyudan o‘chirish">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "o">
 <!ENTITY customizeMenu.addMoreItems.label "Ko‘proq qo‘shish…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "q">
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+
+<!ENTITY moreMenu.label "Yana">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Izlang yoki manzilni kiriting">
 <!ENTITY urlbar.accesskey             "d">
 <!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
+<!ENTITY urlbar.extension.label       "Kengaytma:">
 <!ENTITY urlbar.switchToTab.label     "Ichki oynaga o‘tish:">
 
 <!ENTITY urlbar.searchSuggestionsNotification.question "Tavsiyalar yordamida izlash bo‘yicha tajribangizni oshirishni xohlaysizmi?">
@@ -410,7 +430,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.disable.accesskey "n">
 <!ENTITY urlbar.searchSuggestionsNotification.enable "Ha">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "y">
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Maslahat:">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+
+
+
+
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -523,6 +551,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "H">
 <!ENTITY bookmarkThisFrameCmd.label      "Kadrni xatcho‘plarga qo‘shish">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "h">
+
 <!ENTITY emailPageCmd.label           "Havolani e-pochtadan jo‘natish">
 <!ENTITY emailPageCmd.accesskey       "e">
 <!ENTITY savePageCmd.label            "Sahifani saqlash…">
@@ -650,6 +679,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY sidebarCloseButton.tooltip     "Yon panelni yopish">
 
+
 <!ENTITY quitApplicationCmdWin2.label       "Chiqish">
 <!ENTITY quitApplicationCmdWin2.accesskey   "h">
 <!ENTITY quitApplicationCmdWin2.tooltip     "&brandShorterName;dan chiqish">
@@ -658,8 +688,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Chiqish"> 
 <!ENTITY quitApplicationCmd.accesskey   "C">
 <!ENTITY quitApplicationCmdMac2.label   "&brandShorterName;dan chiqish">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
+
 
 <!ENTITY closeCmd.label                 "Yopish">  
 <!ENTITY closeCmd.key                   "W">  
@@ -703,7 +732,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY spellAddDictionaries.label "Lug‘atlar qo‘shish">
 <!ENTITY spellAddDictionaries.accesskey "q">
 
-<!ENTITY editBookmark.done.label                     "Tayyor">
 <!ENTITY editBookmark.removeBookmark.accessKey       "R">
 
 <!ENTITY identity.connectionSecure "Xavfsiz ulanish">
@@ -711,6 +739,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Bu sahifa kompyuteringizda saqlangan.">
 <!ENTITY identity.connectionVerified2 "Quyidagi yordamida ishlaydigan ushbu saytga xavfli ulandingiz:">
 <!ENTITY identity.connectionInternal "Bu xavfsiz &brandShortName; sahifasi.">
+
 <!ENTITY identity.insecureLoginForms2 "Bu sahifaga kiritilgan taxalluslar yomon oqibatlarga olib kelishi mumkin.">
 <!-- Strings for connection state warnings. -->
 
@@ -784,6 +813,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 
 
+
+
 <!ENTITY syncBrand.shortName.label    "Sinxronlash">
 
 <!ENTITY syncSignIn.label             "&syncBrand.shortName.label; tizimiga kirish…">
@@ -806,8 +837,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "Ko‘proq asboblar kerakmi?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Minglab qo‘shimcha dasturlar ichidan tanlab oling">
 <!ENTITY customizeMode.restoreDefaults "Standart holatni tiklash">
-<!ENTITY customizeMode.toolbars "Asboblar panelini ko‘rsatish/yashirish">
+
 <!ENTITY customizeMode.titlebar "Sarlavha paneli">
+
 <!ENTITY customizeMode.lwthemes "Mavzular">
 <!ENTITY customizeMode.lwthemes.myThemes "Mening mavzularim">
 <!ENTITY customizeMode.lwthemes.recommended "Tavsiya qilingan">
@@ -896,3 +928,31 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "DRM haqida ko‘proq o‘rganish…">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

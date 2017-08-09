@@ -14,7 +14,7 @@
 <!ENTITY aboutNetworking.autoRefresh           "Автообновление каждые 3 секунды">
 <!ENTITY aboutNetworking.hostname              "Имя узла">
 <!ENTITY aboutNetworking.port                  "Порт">
-<!ENTITY aboutNetworking.spdy                  "SPDY">
+<!ENTITY aboutNetworking.http2                 "HTTP/2">
 <!ENTITY aboutNetworking.ssl                   "SSL">
 <!ENTITY aboutNetworking.active                "Активные">
 <!ENTITY aboutNetworking.idle                  "Простаивающие">
@@ -41,3 +41,8 @@
 <!ENTITY aboutNetworking.dnsLookupButton       "Запросить">
 <!ENTITY aboutNetworking.dnsDomain             "Домен">
 <!ENTITY aboutNetworking.dnsLookupTableColumn  "IP">
+<!ENTITY aboutNetworking.rcwn                  "Статистика RCWN">
+<!ENTITY aboutNetworking.rcwnStatus            "Статус RCWN">
+<!ENTITY aboutNetworking.rcwnCacheWonCount     "Число выигрышей кэша">
+<!ENTITY aboutNetworking.rcwnNetWonCount       "Число выигрышей сети">
+<!ENTITY aboutNetworking.totalNetworkRequests  "Общее число запросов сети">

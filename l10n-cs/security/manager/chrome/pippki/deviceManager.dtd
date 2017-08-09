@@ -33,4 +33,4 @@
 <!ENTITY loaddevice.browse                      "Procházet…">
 <!ENTITY loaddevice.browse.accesskey            "P">
 
-<!ENTITY loaddevice.title                       "Načtení zařízení PKCS#11">
+<!ENTITY loaddevice.title2                      "Načíst ovladač PKCS#11 zařízení">

@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "Clic de neu dynnu lawr i ddangos hanes">
 <!ENTITY backForwardButtonMenuMac.tooltip "Tynnu lawr i ddangos hanes">
 <!ENTITY reloadCmd.label              "Ail-lwytho">
-<!ENTITY reloadButton.tooltip         "Ail-lwytho'r dudalen gyfredol">
 <!ENTITY stopCmd.label                "Atal">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "Atal llwytho'r dudalen">
 <!ENTITY goEndCap.tooltip             "Mynd i'r cyfeiriad yn y Bar Lleoliad">
 <!ENTITY printButton.label            "Argraffu">
 <!ENTITY printButton.tooltip          "Argraffu'r dudalen">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Agor panel neges y cyfrinair cadw">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Rheoli defnydd ategion">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Newid p'un ai rydych yn derbyn hysbysiadau o'r wefan">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Cadw data mewn Storfa Barhaus">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Mae'r porwr o dan reolaeth bell">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Rheoli rhannu eich camera a/neu feicroffon gyda'r wefan">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Rheoli rhannu eich meicroffon gyda'r wefan">
@@ -231,13 +231,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "Rydych wedi rhwystro'r manylion lleoliad ar gyfer y wefan hon.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "Rydych wedi rhwystro storio data ar gyfer y wefan hon.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "Rydych wedi rhwystro hysbysiadau ar gyfer y wefan hon.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "Rydych wedi rhwystro storio data parhaus ar gyfer y wefan hon.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Dangos hanes">
 
-<!ENTITY urlbar.zoomReset.tooltip     "Ailosod lefel chwyddo">
-
 <!ENTITY searchItem.title             "Chwilio">
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 
 <!ENTITY homeButton.label             "Cartref">
 
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Clirio Hanes Diweddar…">
 <!ENTITY appMenuHistory.restoreSession.label "Adfer y Sesiwn Flaenorol">
 <!ENTITY appMenuHistory.viewSidebar.label "Gweld Bar Ochr Hanes">
+<!ENTITY appMenuHelp.label "Cymorth">
 <!ENTITY appMenuHelp.tooltip "Agor Dewislen Cymorth">
 
 <!ENTITY appMenuRemoteTabs.label "Tabiau wedi'u Cydweddu">
@@ -377,27 +377,44 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Dewisiadau Cydweddu">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Mewngofnodwch i weld rhestr o dabiau o'ch dyfeisiau eraill.">
 <!ENTITY appMenuRemoteTabs.signin.label "Mewngofnodwch i Sync">
+<!ENTITY appMenuRemoteTabs.managedevices.label "Rheoli Dyfeisiadau…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Gweld Bar Ochr Tabiau wedi eu Cydweddu">
 
 <!ENTITY customizeMenu.addToToolbar.label "Ychwanegu i'r Bar Offer">
 <!ENTITY customizeMenu.addToToolbar.accesskey "Y">
 <!ENTITY customizeMenu.addToPanel.label "Ychwanegu i'r Ddewislen">
 <!ENTITY customizeMenu.addToPanel.accesskey "D">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "Ychwanegu at y Ddewislen Ychwanegol">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "D">
 <!ENTITY customizeMenu.moveToToolbar.label "Symud i'r Bar Offer">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "y">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Symud i'r Ddewislen">
 <!ENTITY customizeMenu.moveToPanel.accesskey "m">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "Pinio i'r Ddewislen Ychwanegol">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "P">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Dadbinio o'r Ddewislen Ychwanegol">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "D">
 <!ENTITY customizeMenu.removeFromToolbar.label "Tynnu o'r Bar Offer">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "T">
 <!ENTITY customizeMenu.removeFromMenu.label "Tynnu o'r Ddewislen">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "T">
 <!ENTITY customizeMenu.addMoreItems.label "Ychwanegu Rhagor o Eitemau…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "Y">
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+
+<!ENTITY moreMenu.label "Rhagor">
 
 <!ENTITY openCmd.commandkey           "I">
 <!ENTITY urlbar.placeholder2          "Chwilio neu gyfeiriad gwe">
@@ -413,7 +430,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.disable.accesskey "n">
 <!ENTITY urlbar.searchSuggestionsNotification.enable "Iawn">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "i">
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Awgrym:">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "Derbyniwch gymorth wrth canfod pethau! Chwiliwch yn yr &#x1F50E; nesaf i'r awgrymiadau chwilio.">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "Newid Dewisiadau…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "N">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "Newid Dewisiadau…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "D">
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -526,6 +552,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "D">
 <!ENTITY bookmarkThisFrameCmd.label      "Gosod Nod Tudalen i'r Ffrâm">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "F">
+<!ENTITY copyURLCmd.label             "Copïo'r URL">
 <!ENTITY emailPageCmd.label           "E-bostio'r Ddolen…">
 <!ENTITY emailPageCmd.accesskey       "E">
 <!ENTITY savePageCmd.label            "Cadw Tudalen Fel…">
@@ -652,6 +679,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.accesskey             "h">
 
 <!ENTITY sidebarCloseButton.tooltip     "Cau'r bar ochr">
+<!ENTITY sidebarMenuClose.label         "Cau'r Bar Ochr">
 
 <!ENTITY quitApplicationCmdWin2.label       "Gadael">
 <!ENTITY quitApplicationCmdWin2.accesskey   "G">
@@ -661,8 +689,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Gadael"> 
 <!ENTITY quitApplicationCmd.accesskey   "G">
 <!ENTITY quitApplicationCmdMac2.label   "Gadael &brandShorterName;">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
+<!ENTITY quitApplicationCmd.key         "Q">
 
 <!ENTITY closeCmd.label                 "Cau">  
 <!ENTITY closeCmd.key                   "W">  
@@ -714,6 +741,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Mae'r dudalen hon wedi ei chadw ar eich cyfrifiadur.">
 <!ENTITY identity.connectionVerified2 "Rydych wedi eich cysylltu'n ddiogel â'r wefan hon, sy'n cael ei redeg gan:">
 <!ENTITY identity.connectionInternal "Mae hon yn dudalen &brandShortName; diogel.">
+<!ENTITY identity.extensionPage "Mae'r dudalen wedi ei llwytho o estyniad.">
 <!ENTITY identity.insecureLoginForms2 "Gall mewngofnodion sy'n cael eu cyflwyno ar y dudalen hon gael eu cyfaddawdu.">
 <!-- Strings for connection state warnings. -->
 
@@ -786,6 +814,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "Agor Popeth mewn Tabiau">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "A">
+<!ENTITY syncedTabs.context.managedevices.label              "Rheoli Dyfeisiadau…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "D">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">
@@ -810,8 +840,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "Angen rhagor o offer?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Dewiswch o filoedd o ychwanegion">
 <!ENTITY customizeMode.restoreDefaults "Adfer y Rhagosodiadau">
-<!ENTITY customizeMode.toolbars "Dangos / Cuddio'r Bar Offer">
+<!ENTITY customizeMode.done "Gorffen">
 <!ENTITY customizeMode.titlebar "Bar Teitl">
+<!ENTITY customizeMode.toolbars2 "Barrau Offer">
 <!ENTITY customizeMode.lwthemes "Themâu">
 <!ENTITY customizeMode.lwthemes.myThemes "Fy Thema">
 <!ENTITY customizeMode.lwthemes.recommended "Cymeradwy">
@@ -900,3 +931,36 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "Dysgu rhagor am DRM…">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+<!ENTITY updateAvailable.message "Diweddarwch &brandShorterName; ar gyfer y diweddaraf mewn cyflymder a phreifatrwydd.">
+<!ENTITY updateAvailable.whatsnew.label "Gweld beth sy'n newydd.">
+<!ENTITY updateAvailable.header.message "Mae diweddariad newydd o &brandShorterName; ar gael.">
+<!ENTITY updateAvailable.acceptButton.label "Llwytho'r Diweddariad i Lawr">
+<!ENTITY updateAvailable.acceptButton.accesskey "L">
+<!ENTITY updateAvailable.cancelButton.label "Nid Nawr">
+<!ENTITY updateAvailable.cancelButton.accesskey "N">
+<!ENTITY updateAvailable.panelUI.label "Llwytho diweddariad &brandShorterName; i lawr">
+
+<!ENTITY updateManual.message "Llwythwch gopi newydd o &brandShorterName; i lawr ac mi wnawn ni eich helpu i'w gosod.">
+<!ENTITY updateManual.whatsnew.label "Dyma sy'n newydd.">
+<!ENTITY updateManual.header.message "Nid yw &brandShorterName; yn gallu diweddaru i'r fersiwn diweddaraf.">
+<!ENTITY updateManual.acceptButton.label "Llwytho &brandShorterName; i lawr.">
+<!ENTITY updateManual.acceptButton.accesskey "L">
+<!ENTITY updateManual.cancelButton.label "Nid Nawr">
+<!ENTITY updateManual.cancelButton.accesskey "N">
+<!ENTITY updateManual.panelUI.label "Llwytho i lawr fersiwn newydd o &brandShorterName;">
+
+<!ENTITY updateRestart.message "Ar ôl cychwyn cyflym, bydd &brandShorterName; yn adfer eich holl dabiau a'r ffenestri sydd ar agor.">
+<!ENTITY updateRestart.header.message2 "Ailgychwyn i ddiweddaru &brandShorterName;">
+<!ENTITY updateRestart.acceptButton.label "Ail gychwyn ac Adfer">
+<!ENTITY updateRestart.acceptButton.accesskey "A">
+<!ENTITY updateRestart.cancelButton.label "Nid Nawr">
+<!ENTITY updateRestart.cancelButton.accesskey "N">
+<!ENTITY updateRestart.panelUI.label2 "Ailgychwyn i ddiweddaru &brandShorterName;">
+
+<!ENTITY pageActionButton.tooltip "Gweithredoedd tudalen">
+
+<!ENTITY sendToDevice.label "Anfon i'r Ddyfais…">
+<!ENTITY sendToDevice.viewTitle "Anfon i Ddyfais">
+<!ENTITY sendToDevice.fxaRequired.label "Angenrheidiol">
+<!ENTITY sendToDevice.noDevices.label "Dim Dyfeisiau ar Gael">

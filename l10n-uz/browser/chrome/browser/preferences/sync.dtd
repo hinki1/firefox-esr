@@ -10,8 +10,8 @@
 
 <!ENTITY engine.history.label       "Tarix">
 <!ENTITY engine.history.accesskey   "T">
-<!ENTITY engine.passwords.label     "Parollar">
-<!ENTITY engine.passwords.accesskey "P">
+
+
 <!ENTITY engine.prefs.label         "Moslashlar">
 <!ENTITY engine.prefs.accesskey     "M">
 <!ENTITY engine.addons.label        "Qoʻshimcha dasturlar">
@@ -61,6 +61,7 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY signedOut.description        "Xatcho‘plar, tarix, tablar, parollar, qo‘shimcha dasturlar va boshqa parametrlarni barcha qurilmalar aro sinxronlang.">
 <!ENTITY signedOut.accountBox.title   "&syncBrand.fxAccount.label; bilan ulanish">
+
 
 
 

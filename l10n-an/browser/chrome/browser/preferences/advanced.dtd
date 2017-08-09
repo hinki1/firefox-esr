@@ -10,10 +10,10 @@
 
 <!ENTITY useCursorNavigation.label       "Fer servir siempre as teclas d'o cursor ta navegar endentro d'as pachinas">
 <!ENTITY useCursorNavigation.accesskey   "c">
-
-
-
-
+<!ENTITY searchOnStartTyping.label       "Mirar textos malas que s'escomienza a tecliar">
+<!ENTITY searchOnStartTyping.accesskey   "x">
+<!ENTITY blockAutoReload.label           "Alvertir-me quan una pachina web mire de reendrezar-me u de recargar a pachina">
+<!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "Amostrar un teclau tactil quan siga necesario">
 <!ENTITY useOnScreenKeyboard.accesskey   "t">
 
@@ -23,27 +23,25 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Usar o desplazamiento suau">
 <!ENTITY useSmoothScrolling.accesskey    "d">
-<!ENTITY allowHWAccel.label              "Usar l'acceleración d'hardware quan sía disponible">
-<!ENTITY allowHWAccel.accesskey          "r">
-
-
+<!ENTITY checkUserSpelling.label         "Comprebar la ortografía entre que escribo">
+<!ENTITY checkUserSpelling.accesskey     "t">
 
 <!ENTITY dataChoicesTab.label            "Triga de datos">
 
 <!ENTITY healthReportDesc.label          "Li aduya a entender o rendimiento d'o suyo navegador y comparte datos con &vendorShortName; sobre a salut d'o suyo navegador">
 <!ENTITY enableHealthReport.label        "Activar l'informe de salut de &brandShortName;">
 <!ENTITY enableHealthReport.accesskey    "r">
-<!ENTITY healthReportLearnMore.label     "Ta saber-ne mas">
+
 
 <!ENTITY telemetryDesc.label             "Comparte datos de rendimiento, uso, hardware y personalizacions sobre o suyo navegador con &vendorShortName; ta aduyar a amillorar o &brandShortName;">
+<!ENTITY enableTelemetryData.label       "Compartir datos adicionals (p. eix., Telemetría)">
+<!ENTITY enableTelemetryData.accesskey   "T">
 
-
-<!ENTITY telemetryLearnMore.label        "Saber-ne mas">
 
 <!ENTITY crashReporterDesc2.label         "Los reportes de fallos aduyan a &vendorShortName; a apanyar los problems y fer mas estable y seguro lo suyo navegador">
 <!ENTITY alwaysSubmitCrashReports.label   "Permitir que &brandShortName; ninvie de partes suya los reportes de fallos rechistraus previament">
 <!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "Saber-ne mas">
+
 
 <!ENTITY networkTab.label                "Ret">
 
@@ -58,9 +56,11 @@
 <!ENTITY offlineStorage2.label           "Conteniu web sin connexión y datos de l'usuario">
 <!--  Site Data section manages sites using Storage API and is under Network -->
 
-
-
-
+<!ENTITY siteData.label                  "Datos d'o puesto">
+<!ENTITY clearSiteData.label             "Limpiar totz los datos">
+<!ENTITY clearSiteData.accesskey         "L">
+<!ENTITY siteDataSettings.label          "Parametros…">
+<!ENTITY siteDataSettings.accesskey      "P">
 
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
@@ -80,24 +80,40 @@
 <!ENTITY overrideSmartCacheSize.accesskey "N">
 
 <!ENTITY updateTab.label                 "Esviellar">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 
-<!ENTITY updateAuto1.label               "Instalar as actualizacions automaticament (ye a opción recomendada, por seguranza)">
-<!ENTITY updateAuto1.accesskey           "a">
+<!ENTITY updateApplication.label         "Actualizacions d'o &brandShortName;:">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Permitir a &brandShortName;">
+<!ENTITY updateAuto2.label               "Instalar las actualizacions automaticament (ye la opción recomendada, por seguranza)">
+<!ENTITY updateAuto2.accesskey           "a">
+<!ENTITY updateCheckChoose2.label        "Comprebar as actualizacions, pero deixar-me trigar si las quiero instalar">
+<!ENTITY updateCheckChoose2.accesskey    "C">
+<!ENTITY updateManual2.label             "No comprebar nunca las actualizacions">
+<!ENTITY updateManual2.accesskey         "N">
 
-
-<!ENTITY updateManual.label              "No comprebar nunca si i hai actualizacions (no se recomienda por os risgos de seguranza que comporta)">
-<!ENTITY updateManual.accesskey          "N">
-
-<!ENTITY updateHistory.label             "Amostrar l'historial d'actualizacions">
-<!ENTITY updateHistory.accesskey         "h">
+<!ENTITY updateHistory2.label            "Amostrar l'historial d'actualizacions">
+<!ENTITY updateHistory2.accesskey        "h">
 
 <!ENTITY useService.label                "Instalar as actualizacions en un segundo plan">
 <!ENTITY useService.accesskey            "p">
 
-<!ENTITY enableSearchUpdate.label        "Motors de busca">
-<!ENTITY enableSearchUpdate.accesskey    "M">
+<!ENTITY enableSearchUpdate2.label       "Esviellar automaticament los motors de busca">
+<!ENTITY enableSearchUpdate2.accesskey   "e">
 
+<!ENTITY reports.label                   "Reportes">
 
+<!ENTITY offlineStorageNotify.label               "Alvertir-me si garra puesto denanda almagazenar datos ta usar-los en modo sin connexión">
+<!ENTITY offlineStorageNotify.accesskey           "t">
 <!ENTITY offlineStorageNotifyExceptions.label     "Excepcions…">
 <!ENTITY offlineStorageNotifyExceptions.accesskey "x">
 
@@ -108,15 +124,25 @@
 <!ENTITY offlineAppRemove.confirm        "Eliminar os datos d'uso en modo sin connexión">
 
 <!ENTITY certificateTab.label            "Certificaus">
-<!ENTITY certPersonal.label              "Demandas">
-
+<!ENTITY certPersonal2.description       "Quan un servidor requiera lo mío certificau personal">
 <!ENTITY selectCerts.auto                "Trigar-ne un automaticament">
-
-
-
+<!ENTITY selectCerts.auto.accesskey      "e">
+<!ENTITY selectCerts.ask                 "Preguntar-me-lo cada vegada">
+<!ENTITY selectCerts.ask.accesskey       "m">
 <!ENTITY enableOCSP.label                "Consultar a os servidors respondedors OCSP ta confirmar a valideza actual d'os certificaus">
 <!ENTITY enableOCSP.accesskey            "u">
 <!ENTITY viewCerts.label                 "Veyer os Certificaus">
 <!ENTITY viewCerts.accesskey             "C">
 <!ENTITY viewSecurityDevices.label       "Dispositivos de seguranza">
 <!ENTITY viewSecurityDevices.accesskey   "o">
+
+<!ENTITY performance.label               "Rendimiento">
+<!ENTITY useRecommendedPerformanceSettings2.label "Usar las caracteristicas de rendimiento recomendadas">
+
+<!ENTITY useRecommendedPerformanceSettings2.accesskey "U">
+
+<!ENTITY limitContentProcessOption.label "Limite de procesado de conteniu">
+
+<!ENTITY limitContentProcessOption.accesskey   "L">
+<!ENTITY allowHWAccel.label              "Usar l'acceleración d'hardware quan sía disponible">
+<!ENTITY allowHWAccel.accesskey          "r">

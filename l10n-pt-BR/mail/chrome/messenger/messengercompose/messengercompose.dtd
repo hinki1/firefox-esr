@@ -104,7 +104,7 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 
 <!-- View Menu -->
-<!ENTITY viewMenu.label "Ver">
+<!ENTITY viewMenu.label "Exibir">
 <!ENTITY viewMenu.accesskey "x">
 <!ENTITY viewToolbarsMenuNew.label "Barras de ferramentas">
 <!ENTITY viewToolbarsMenuNew.accesskey "B">
@@ -215,7 +215,7 @@
 <!ENTITY addressButton.tooltip "Selecionar destinatários no catálogo de endereços">
 <!ENTITY attachButton.tooltip "Anexar arquivos">
 <!ENTITY spellingButton.tooltip "Verificar ortografia da seleção ou de toda a mensagem">
-<!ENTITY statusLanguageText.tooltip "Verificação ortográfica de idioma">
+<!ENTITY statusLanguageText.tooltip "Idioma da verificação ortográfica">
 <!ENTITY saveButton.tooltip "Salvar a mensagem na pasta “Rascunhos”">
 <!ENTITY cutButton.tooltip              "Recortar">
 <!ENTITY copyButton.tooltip             "Copiar">

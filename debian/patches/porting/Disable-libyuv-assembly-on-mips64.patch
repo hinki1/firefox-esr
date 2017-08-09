@@ -7,10 +7,10 @@ Subject: Disable libyuv assembly on mips64
  1 file changed, 3 insertions(+)
 
 diff --git a/build/gyp.mozbuild b/build/gyp.mozbuild
-index 5a7ec56a774b..48c5ec50f35c 100644
+index 2673a2f51c75..b3f3cff97730 100644
 --- a/build/gyp.mozbuild
 +++ b/build/gyp.mozbuild
-@@ -108,6 +108,9 @@ if CONFIG['INTEL_ARCHITECTURE']:
+@@ -101,6 +101,9 @@ if CONFIG['INTEL_ARCHITECTURE']:
      if not CONFIG['HAVE_TOOLCHAIN_SUPPORT_MSSSE3'] or not CONFIG['HAVE_TOOLCHAIN_SUPPORT_MSSE4_1']:
          gyp_vars['yuv_disable_asm'] = 1
  

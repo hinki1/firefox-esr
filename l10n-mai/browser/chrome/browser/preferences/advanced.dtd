@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "सुगम स्क्रालिंगक प्रयोग  करू ">
 <!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY allowHWAccel.label              "उपलब्ध हए पर हार्ड त्वरण क उपयोग  करू ">
-<!ENTITY allowHWAccel.accesskey          "r">
 
 
 
@@ -33,16 +31,16 @@
 <!ENTITY healthReportDesc.label          "अहाँक ब्राउज़र प्रदर्शन केँ समझाबैमे मदत करैछ आओर &vendorShortName; क संग अहाँक ब्राउज़रक स्वास्थ्य संबंधी आँकड़ा साझा करैत अछि">
 <!ENTITY enableHealthReport.label        "&brandShortName; स्थास्थ्य रिपोर्ट सक्रिय करू (R)">
 <!ENTITY enableHealthReport.accesskey    "R">
-<!ENTITY healthReportLearnMore.label     "आओर जानू">
+
 
 <!ENTITY telemetryDesc.label             "&vendorShortName; क संग &brandShortName; केँ बेहतर बनाबैक लेल प्रदर्शन, प्रयोग, हार्डवेयर आओर पसंदीदाकरण आँकड़े केँ अपन ब्राउज़रक साथ साझा करैत अछि">
 
 
-<!ENTITY telemetryLearnMore.label        "आओर जानू">
 
 
 
-<!ENTITY crashReporterLearnMore.label     "आओर जानू">
+
+
 
 <!ENTITY networkTab.label                "संजाल">
 
@@ -79,22 +77,32 @@
 <!ENTITY overrideSmartCacheSize.accesskey "O">
 
 <!ENTITY updateTab.label                 "अद्यतन  करू ">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.post  "">
 
-<!ENTITY updateAuto1.label               "अद्यतन स्वतः संस्थापित करू (अनुशंसित: आओर नीक सुरक्षा)">
-<!ENTITY updateAuto1.accesskey           "A">
 
 
-<!ENTITY updateManual.label              "अद्यतन क लेल कखनो नहि जाँचू (अनुशंसित नहि: सुरक्षा जोखिम)">
-<!ENTITY updateManual.accesskey          "N">
 
-<!ENTITY updateHistory.label             "अद्यतन इतिहास देखाउ">
-<!ENTITY updateHistory.accesskey         "p">
+
+
+
+
+
 
 <!ENTITY useService.label                "अद्यतन संस्थापित करबाक लेल पृष्ठभूमि सेवाक उपयोग करू">
 <!ENTITY useService.accesskey            "b">
 
-<!ENTITY enableSearchUpdate.label        "खोज इंजन">
-<!ENTITY enableSearchUpdate.accesskey    "E">
+
+
 
 
 <!ENTITY offlineStorageNotifyExceptions.label     "अपवाद…">
@@ -107,7 +115,6 @@
 <!ENTITY offlineAppRemove.confirm        "आफलाइन आँकड़ा हटाउ">
 
 <!ENTITY certificateTab.label            "प्रमाणपत्र">
-<!ENTITY certPersonal.label              "निवेदन">
 
 <!ENTITY selectCerts.auto                "कोनो एकरा स्वतः चुनू">
 
@@ -119,3 +126,13 @@
 <!ENTITY viewCerts.accesskey             "C">
 <!ENTITY viewSecurityDevices.label       "सुरक्षा डिवाइस">
 <!ENTITY viewSecurityDevices.accesskey   "D">
+
+
+
+
+
+
+
+
+<!ENTITY allowHWAccel.label              "उपलब्ध हए पर हार्ड त्वरण क उपयोग  करू ">
+<!ENTITY allowHWAccel.accesskey          "r">

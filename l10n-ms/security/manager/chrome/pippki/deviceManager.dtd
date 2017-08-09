@@ -33,4 +33,4 @@
 <!ENTITY loaddevice.browse                      "Lungsur...">
 <!ENTITY loaddevice.browse.accesskey            "B">
 
-<!ENTITY loaddevice.title                       "Muatkan Peranti PKCS#11">
+<!ENTITY loaddevice.title2                      "Muatkan Pemacu Peranti PKCS#11">

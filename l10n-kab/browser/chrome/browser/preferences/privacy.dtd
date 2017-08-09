@@ -2,10 +2,12 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "Seqdec ammesten mgal asfuɣel">
+<!ENTITY  trackingProtectionHeader2.label      "Ammesten mgal asfuγel">
+<!ENTITY  trackingProtection.description       "D ayen irzan asfuγel ma tikbbanin ad leqḍent talγut i k-yaεnan akken ad xedment amaγnu u sakin ad k-d-seknent agbur iddan akked isefka inek udwaman akked isefka n tunigin">
+<!ENTITY  trackingProtection.radioGroupLabel   "Sewḥel asfuγel n tkebbaniyen tirusinin seg uskan n ugbur">
 <!ENTITY  trackingProtectionAlways.label       "Yal ass">
 <!ENTITY  trackingProtectionAlways.accesskey   "Y">
-<!ENTITY  trackingProtectionPrivate.label      "Ɣef usfaylu uslig kan">
+<!ENTITY  trackingProtectionPrivate.label      "Γef usfaylu uslig kan">
 <!ENTITY  trackingProtectionPrivate.accesskey  "l">
 <!ENTITY  trackingProtectionNever.label        "Weṛǧin">
 <!ENTITY  trackingProtectionNever.accesskey    "W">
@@ -13,15 +15,15 @@
 <!ENTITY  trackingProtectionExceptions.label   "Tisuraf…">
 <!ENTITY  trackingProtectionExceptions.accesskey "s">
 
-<!ENTITY tracking.label                 "Asfuɣel">
-<!ENTITY trackingProtectionPBM5.label         "Seqdec ammesten mgal asfuɣel ɣef usfaylu uslig">
+<!ENTITY tracking.label                 "Asfuγel">
+<!ENTITY trackingProtectionPBM5.label         "Seqdec ammesten mgal asfuɣel γef usfaylu uslig">
 <!ENTITY trackingProtectionPBM5.accesskey     "q">
 <!ENTITY trackingProtectionPBMLearnMore.label "Issin ugar">
 <!ENTITY changeBlockList.label          "Snifel tabdart n usewḥel">
 <!ENTITY changeBlockList.accesskey      "S">
+
 <!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
-
 <!ENTITY  doNotTrack.pre.label          "Tzemreḍ daɣen ">
 <!ENTITY  doNotTrack.settings.label     "Sefrek iɣewwaṛen-inek n &quot;Ur Sfuɣul Ara&quot;">
 <!ENTITY  doNotTrack.post.label         ".">
@@ -30,7 +32,7 @@
 
 <!ENTITY  locationBar.label             "Afeggag n tansa">
 
-<!ENTITY  locbar.suggest.label          "Ticki tesqedceḍ afeggag n tansa, sumer:">
+<!ENTITY  locbar.suggest2.label         "Ticki tesqedceḍ afeggag n tansa, sumer">
 <!ENTITY  locbar.history.label          "Amazray">
 <!ENTITY  locbar.history.accesskey      "A">
 <!ENTITY  locbar.bookmarks.label        "Ticraḍ n isebtar">
@@ -40,8 +42,7 @@
 <!ENTITY  locbar.searches.label         "Anadi icudden ɣer umsedday n unadi">
 <!ENTITY  locbar.searches.accesskey     "d">
 
-<!ENTITY  suggestionSettings.label      "Snifel ismenyifen i yisumar n umsedday n unadi…">
-<!ENTITY  suggestionSettings.accesskey  "n">
+<!ENTITY  suggestionSettings2.label     "Snifel ismenyifen i yisumar n umsedday n unadi">
 
 <!ENTITY  acceptCookies.label           "Qbel inagan n tuqqna n yismal-agi">
 <!ENTITY  acceptCookies.accesskey       "Q">
@@ -64,29 +65,29 @@
 <!ENTITY  showCookies.label             "Sken inagan n tuqqna…">
 <!ENTITY  showCookies.accesskey         "S">
 
-<!ENTITY  historyHeader.pre.label          "Illugan n uḥraz n &brandShortName;:">
-<!ENTITY  historyHeader.pre.accesskey      "I">
+<!ENTITY  historyHeader2.pre.label         "&brandShortName; ad">
+<!ENTITY  historyHeader2.pre.accesskey     "l">
 <!ENTITY  historyHeader.remember.label     "Ḥrez amazray">
 <!ENTITY  historyHeader.dontremember.label "Ur ḥerrez ara amazray">
 <!ENTITY  historyHeader.custom.label       "Seqdec iɣewwaṛen udmawanen i umazray-agi">
 <!ENTITY  historyHeader.post.label         "">
 
 <!ENTITY  rememberDescription.label      "&brandShortName; ad yeḥrez isefka n tunigin, isidar , tiferkiyin, amazray n unadi, d inagan n tuqqna n yismal yettwarzan.">
+
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.post.label): include a starting space as needed -->
-
 <!ENTITY  rememberActions.pre.label           "Ahat tebɣiḍ ">
 <!ENTITY  rememberActions.clearHistory.label  "sfeḍ amazray-inek n melmi kan">
-<!ENTITY  rememberActions.middle.label        ", neɣ ">
+<!ENTITY  rememberActions.middle.label        ", neγ ">
 <!ENTITY  rememberActions.removeCookies.label "kkes inagan n tuqqna ilmisen">
 <!ENTITY  rememberActions.post.label          ".">
 
 <!ENTITY  dontrememberDescription.label  "&brandShortName; ad isseqdec iɣewwaṛen n tunigin tusligt, u diɣen ur iḥerrez ara amazray n tunigin-inek. ">
+
 <!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
-
-<!ENTITY  dontrememberActions.pre.label          "Ahat tebɣid diɣen ">
+<!ENTITY  dontrememberActions.pre.label          "Ahat tebγid diγen ">
 <!ENTITY  dontrememberActions.clearHistory.label "sfeḍ akk amazray amiran">
 <!ENTITY  dontrememberActions.post.label         ".">
 
@@ -102,12 +103,12 @@
 <!ENTITY  clearOnClose.label             "Sfeḍ amazray ticki tmedleḍ &brandShortName;">
 <!ENTITY  clearOnClose.accesskey         "r">
 
-<!ENTITY  clearOnCloseSettings.label     "Iɣewwaṛen">
+<!ENTITY  clearOnCloseSettings.label     "Iγewwaṛen…">
 <!ENTITY  clearOnCloseSettings.accesskey "I">
 
 <!ENTITY  browserContainersHeader.label         "Iccaren imagbaren">
 <!ENTITY  browserContainersLearnMore.label      "Issin ugar">
 <!ENTITY  browserContainersEnabled.label        "Rmed Iccaren imagbaren">
 <!ENTITY  browserContainersEnabled.accesskey    "g">
-<!ENTITY  browserContainersSettings.label        "Iɣewwaṛen…">
+<!ENTITY  browserContainersSettings.label        "Iγewwaṛen…">
 <!ENTITY  browserContainersSettings.accesskey    "I">

@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey      "V">
 <!ENTITY engine.history.label       "Sivuhistoria">
 <!ENTITY engine.history.accesskey   "S">
-<!ENTITY engine.passwords.label     "Salasanat">
-<!ENTITY engine.passwords.accesskey "a">
+<!ENTITY engine.logins.label        "Kirjautumistiedot">
+<!ENTITY engine.logins.accesskey    "r">
 <!ENTITY engine.prefs.label         "Asetukset">
 <!ENTITY engine.prefs.accesskey     "e">
 <!ENTITY engine.addons.label        "Lisäosat">
@@ -19,8 +19,8 @@
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Laitteen nimi">
-<!ENTITY changeSyncDeviceName.label "Muuta laitteen nimeä…">
-<!ENTITY changeSyncDeviceName.accesskey "M">
+<!ENTITY changeSyncDeviceName2.label "Muuta laitteen nimeä…">
+<!ENTITY changeSyncDeviceName2.accesskey "M">
 <!ENTITY cancelChangeSyncDeviceName.label "Peruuta">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "P">
 <!ENTITY saveChangeSyncDeviceName.label "Tallenna">
@@ -52,8 +52,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "Vaihda kuva">
 <!ENTITY verifiedManage.label        "Hallinnoi tiliä">
 <!ENTITY verifiedManage.accesskey    "H">
-<!ENTITY disconnect.label            "Katkaise yhteys…">
-<!ENTITY disconnect.accesskey        "y">
+<!ENTITY disconnect3.label           "Katkaise yhteys…">
+<!ENTITY disconnect3.accesskey       "y">
 <!ENTITY verify.label                "Vahvista sähköpostiosoite">
 <!ENTITY verify.accesskey            "V">
 <!ENTITY forget.label                "Unohda sähköpostiosoite">
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "Kirjaudu sisään">
 <!ENTITY signedOut.accountBox.signin.accesskey  "i">
 
-<!ENTITY signedIn.engines.label       "Synkronoi kaikki laitteesi">
+<!ENTITY signedIn.settings.label       "Synkronointiasetukset">
+<!ENTITY signedIn.settings.description "Valitse tiedot, jotka synkronoidaan niiden laitteiden kanssa, joilla käytät &brandShortName;ia.">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey      "В">
 <!ENTITY engine.history.label       "Історію">
 <!ENTITY engine.history.accesskey   "І">
-<!ENTITY engine.passwords.label     "Паролі">
-<!ENTITY engine.passwords.accesskey "П">
+<!ENTITY engine.logins.label        "Паролі">
+<!ENTITY engine.logins.accesskey    "П">
 <!ENTITY engine.prefs.label         "Налаштування">
 <!ENTITY engine.prefs.accesskey     "Н">
 <!ENTITY engine.addons.label        "Додатки">
@@ -19,8 +19,8 @@
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Назва пристрою">
-<!ENTITY changeSyncDeviceName.label "Змінити…">
-<!ENTITY changeSyncDeviceName.accesskey "м">
+<!ENTITY changeSyncDeviceName2.label "Змінити…">
+<!ENTITY changeSyncDeviceName2.accesskey "З">
 <!ENTITY cancelChangeSyncDeviceName.label "Скасувати">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "С">
 <!ENTITY saveChangeSyncDeviceName.label "Зберегти">
@@ -52,8 +52,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "Змінити зображення профілю">
 <!ENTITY verifiedManage.label        "Керувати обліковим записом">
 <!ENTITY verifiedManage.accesskey    "К">
-<!ENTITY disconnect.label            "Від’єднатись…">
-<!ENTITY disconnect.accesskey        "В">
+<!ENTITY disconnect3.label           "Від’єднатись…">
+<!ENTITY disconnect3.accesskey       "В">
 <!ENTITY verify.label                "Підтвердити">
 <!ENTITY verify.accesskey            "П">
 <!ENTITY forget.label                "Забути">
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "Увійти">
 <!ENTITY signedOut.accountBox.signin.accesskey  "У">
 
-<!ENTITY signedIn.engines.label       "Синхронізувати на всіх пристроях">
+<!ENTITY signedIn.settings.label       "Налаштування Синхронізації">
+<!ENTITY signedIn.settings.description "Оберіть, що потрібно синхронізувати на ваших пристроях за допомогою &brandShortName;.">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

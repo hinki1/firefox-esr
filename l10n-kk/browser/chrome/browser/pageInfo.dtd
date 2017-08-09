@@ -6,7 +6,7 @@
 <!ENTITY  pageInfoWindow.height "600">
 
 <!ENTITY  copy.key              "C">
-<!ENTITY  copy.label            "Көшіру">
+<!ENTITY  copy.label            "Көшіріп алу">
 <!ENTITY  copy.accesskey        "К">
 <!ENTITY  selectall.key         "A">
 <!ENTITY  selectall.label       "Барлығын ерекшелеу">
@@ -19,7 +19,7 @@
 <!ENTITY  generalURL            "Адрес:">
 <!ENTITY  generalType           "Түрі:">
 <!ENTITY  generalMode           "Визуализация түрі:">
-<!ENTITY  generalSize           "Көлемі:">
+<!ENTITY  generalSize           "Өлшемі:">
 <!ENTITY  generalReferrer       "Сілтейтін URL:">
 <!ENTITY  generalSource         "Кэштеу көзі:">
 <!ENTITY  generalModified       "Соңғы өзгерту:">

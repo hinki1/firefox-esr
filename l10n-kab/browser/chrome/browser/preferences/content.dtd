@@ -21,10 +21,10 @@
 
 <!ENTITY  fontsAndColors.label        "Tisefsiyin d yiniten">
 
-<!ENTITY  defaultFont.label           "Tasefsit tamezwarut:">
-<!ENTITY  defaultFont.accesskey       "T">
-<!ENTITY  defaultSize.label           "Teɣzi:">
-<!ENTITY  defaultSize.accesskey       "z">
+<!ENTITY  defaultFont2.label          "Tasefsit tamezwarut">
+<!ENTITY  defaultFont2.accesskey      "K">
+<!ENTITY  defaultSize2.label          "Teɣzi">
+<!ENTITY  defaultSize2.accesskey      "T">
 
 <!ENTITY  advancedFonts.label         "Talqayt…">
 <!ENTITY  advancedFonts.accesskey     "l">
@@ -42,6 +42,7 @@
 <!ENTITY translateWebPages.accesskey  "S">
 <!ENTITY translateExceptions.label    "Tisuraf…">
 <!ENTITY translateExceptions.accesskey "r">
+
 <!-- LOCALIZATION NOTE (translation.options.attribution.beforeLogo,
   -                     translation.options.attribution.afterLogo):
   -  These 2 strings are displayed before and after a 'Microsoft Translator'
@@ -49,7 +50,6 @@
   -  The translations for these strings should match the translations in
   -  browser/translation.dtd
   -->
-
 <!ENTITY translation.options.attribution.beforeLogo "Tasuqilt sɣuṛ">
 <!ENTITY translation.options.attribution.afterLogo "">
 

@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "Klik met rechts of houd ingedrukt om geschiedenis te tonen">
 <!ENTITY backForwardButtonMenuMac.tooltip "Houd ingedrukt om geschiedenis te tonen">
 <!ENTITY reloadCmd.label              "Vernieuwen">
-<!ENTITY reloadButton.tooltip         "Huidige pagina vernieuwen">
 <!ENTITY stopCmd.label                "Stoppen">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "Het laden van deze pagina stoppen">
 <!ENTITY goEndCap.tooltip             "Naar het adres in de locatiebalk gaan">
 <!ENTITY printButton.label            "Afdrukken">
 <!ENTITY printButton.tooltip          "Deze pagina afdrukken">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Berichtpaneel voor opslaan van wachtwoord openen">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Plug-in-gebruik beheren">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Wijzigen of u notificaties van de website kunt ontvangen">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Gegevens in permanente opslag bewaren">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Browser wordt op afstand bestuurd">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Delen van uw camera en/of microfoon met de website beheren">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Delen van uw microfoon met de website beheren">
@@ -231,14 +231,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "U hebt locatiegegevens voor deze website geblokkeerd.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "U hebt gegevensopslag voor deze website geblokkeerd.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "U hebt notificaties voor deze website geblokkeerd.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "U hebt permanente opslag voor deze website geblokkeerd.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Geschiedenis tonen">
 
-<!ENTITY urlbar.zoomReset.tooltip     "Zoomniveau terugzetten">
-
 <!ENTITY searchItem.title             "Zoeken">
 
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 <!ENTITY homeButton.label             "Startpagina">
 
 <!ENTITY bookmarksButton.label          "Bladwijzers">
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Recente geschiedenis wissen…">
 <!ENTITY appMenuHistory.restoreSession.label "Vorige sessie herstellen">
 <!ENTITY appMenuHistory.viewSidebar.label "Geschiedeniszijbalk weergeven">
+<!ENTITY appMenuHelp.label "Help">
 <!ENTITY appMenuHelp.tooltip "Menu Help openen">
 
 <!ENTITY appMenuRemoteTabs.label "Gesynchroniseerde tabbladen">
@@ -377,27 +377,44 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Synchronisatievoorkeuren">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Meld u aan om een lijst van tabbladen van uw andere apparaten weer te geven.">
 <!ENTITY appMenuRemoteTabs.signin.label "Aanmelden bij Sync">
+<!ENTITY appMenuRemoteTabs.managedevices.label "Apparaten beheren…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Synchrone-tabbladenzijbalk weergeven">
 
 <!ENTITY customizeMenu.addToToolbar.label "Toevoegen aan werkbalk">
 <!ENTITY customizeMenu.addToToolbar.accesskey "w">
 <!ENTITY customizeMenu.addToPanel.label "Toevoegen aan menu">
 <!ENTITY customizeMenu.addToPanel.accesskey "m">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "Toevoegen aan overloopmenu">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "m">
 <!ENTITY customizeMenu.moveToToolbar.label "Verplaatsen naar werkbalk">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "V">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Verplaatsen naar menu">
 <!ENTITY customizeMenu.moveToPanel.accesskey "V">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "Vastmaken aan overloopmenu">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "a">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Losmaken van overloopmenu">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "L">
 <!ENTITY customizeMenu.removeFromToolbar.label "Verwijderen van werkbalk">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "w">
 <!ENTITY customizeMenu.removeFromMenu.label "Verwijderen uit menu">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "w">
 <!ENTITY customizeMenu.addMoreItems.label "Meer items toevoegen…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "M">
+
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+<!ENTITY moreMenu.label "Meer">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Voer zoekterm of adres in">
@@ -414,7 +431,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.enable "Ja">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "J">
 
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Tip:">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "Hulp nodig om dingen te vinden? Zoek naar de &#x1F50E; naast zoeksuggesties.">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "Opties wijzigen…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "O">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "Voorkeuren wijzigen…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "V">
+
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -526,6 +552,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "m">
 <!ENTITY bookmarkThisFrameCmd.label      "Bladwijzer voor dit deelvenster maken">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "m">
+<!ENTITY copyURLCmd.label             "URL kopiëren">
 <!ENTITY emailPageCmd.label           "Koppeling e-mailen…">
 <!ENTITY emailPageCmd.accesskey       "m">
 <!ENTITY savePageCmd.label            "Pagina opslaan als…">
@@ -651,6 +678,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.accesskey             "o">
 
 <!ENTITY sidebarCloseButton.tooltip     "Zijbalk sluiten">
+<!ENTITY sidebarMenuClose.label         "Zijbalk sluiten">
 
 <!ENTITY quitApplicationCmdWin2.label       "Afsluiten">
 <!ENTITY quitApplicationCmdWin2.accesskey   "A">
@@ -660,8 +688,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Afsluiten"> 
 <!ENTITY quitApplicationCmd.accesskey   "A">
 <!ENTITY quitApplicationCmdMac2.label   "&brandShorterName; afsluiten">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
+<!ENTITY quitApplicationCmd.key         "Q">
 
 <!ENTITY closeCmd.label                 "Sluiten">  
 <!ENTITY closeCmd.key                   "W">  
@@ -713,6 +740,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Deze pagina is op uw computer opgeslagen.">
 <!ENTITY identity.connectionVerified2 "U hebt een beveiligde verbinding met deze website, welke wordt beheerd door:">
 <!ENTITY identity.connectionInternal "Dit is een beveiligde &brandShortName;-pagina.">
+<!ENTITY identity.extensionPage "Deze pagina is geladen vanuit een extensie.">
 <!ENTITY identity.insecureLoginForms2 "Ingevoerde aanmeldingen op deze pagina zouden kunnen worden onderschept.">
 
 <!-- Strings for connection state warnings. -->
@@ -785,6 +813,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "Alle openen in tabbladen">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "o">
+<!ENTITY syncedTabs.context.managedevices.label              "Apparaten beheren…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "A">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">
@@ -809,8 +839,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "Wilt u meer hulpmiddelen?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Kies uit duizenden add-ons">
 <!ENTITY customizeMode.restoreDefaults "Standaardinstellingen herstellen">
-<!ENTITY customizeMode.toolbars "Werkbalken tonen/verbergen">
+<!ENTITY customizeMode.done "Gereed">
 <!ENTITY customizeMode.titlebar "Titelbalk">
+<!ENTITY customizeMode.toolbars2 "Werkbalken">
 <!ENTITY customizeMode.lwthemes "Thema’s">
 <!ENTITY customizeMode.lwthemes.myThemes "Mijn thema’s">
 <!ENTITY customizeMode.lwthemes.recommended "Aanbevolen">
@@ -899,3 +930,36 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "Meer info over DRM…">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+<!ENTITY updateAvailable.message "Werk uw &brandShorterName; bij voor het nieuwste in snelheid en privacy.">
+<!ENTITY updateAvailable.whatsnew.label "Bekijk wat er nieuw is.">
+<!ENTITY updateAvailable.header.message "Er is een nieuwe &brandShorterName;-update beschikbaar.">
+<!ENTITY updateAvailable.acceptButton.label "Update downloaden">
+<!ENTITY updateAvailable.acceptButton.accesskey "d">
+<!ENTITY updateAvailable.cancelButton.label "Niet nu">
+<!ENTITY updateAvailable.cancelButton.accesskey "N">
+<!ENTITY updateAvailable.panelUI.label "&brandShorterName;-update downloaden">
+
+<!ENTITY updateManual.message "Download een nieuwe kopie van &brandShorterName; en we helpen u deze te installeren.">
+<!ENTITY updateManual.whatsnew.label "Bekijk wat er nieuw is.">
+<!ENTITY updateManual.header.message "&brandShorterName; kan niet naar de nieuwste versie worden bijgewerkt.">
+<!ENTITY updateManual.acceptButton.label "&brandShorterName; downloaden">
+<!ENTITY updateManual.acceptButton.accesskey "d">
+<!ENTITY updateManual.cancelButton.label "Niet nu">
+<!ENTITY updateManual.cancelButton.accesskey "N">
+<!ENTITY updateManual.panelUI.label "Een nieuwe kopie van &brandShorterName; downloaden">
+
+<!ENTITY updateRestart.message "Na een snelle herstart zal &brandShorterName; al uw open tabbladen en vensters herstellen.">
+<!ENTITY updateRestart.header.message2 "Herstart om &brandShorterName; bij te werken.">
+<!ENTITY updateRestart.acceptButton.label "Herstarten en herstellen">
+<!ENTITY updateRestart.acceptButton.accesskey "H">
+<!ENTITY updateRestart.cancelButton.label "Niet nu">
+<!ENTITY updateRestart.cancelButton.accesskey "N">
+<!ENTITY updateRestart.panelUI.label2 "Herstart om &brandShorterName; bij te werken">
+
+<!ENTITY pageActionButton.tooltip "Pagina-acties">
+
+<!ENTITY sendToDevice.label "Verzenden naar apparaat…">
+<!ENTITY sendToDevice.viewTitle "Verzenden naar apparaat">
+<!ENTITY sendToDevice.fxaRequired.label "Vereist">
+<!ENTITY sendToDevice.noDevices.label "Geen apparaten beschikbaar">

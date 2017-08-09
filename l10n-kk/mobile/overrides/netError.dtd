@@ -10,7 +10,7 @@
 <!-- Specific error messages -->
 
 
-<!ENTITY connectionFailure.title "Қосылу нәтижесіз аяқталды">
+<!ENTITY connectionFailure.title "Байланысты орнату сәтсіз аяқталды">
 <!ENTITY connectionFailure.longDesc2 "&sharedLongDesc3;">
 
 <!ENTITY deniedPortAccess.title "Бұл портқа тыйым салынған">
@@ -79,7 +79,7 @@
 <!ENTITY nssFailure2.longDesc2 "<ul> <li>Сіз сұраған парақ көрсетілмейді, өйткені алынған мәліметтерді тексеру мүмкін емес.</li> <li>Сайт иесіне осы мәселе жөнінде хабарлаңыз.</li> </ul>">
 
 <!ENTITY nssBadCert.title "Қорғалған байланысты орнату сәтсіз аяқталды">
-<!ENTITY nssBadCert.longDesc2 "<ul> <li>Бұл сервердің қатесі болуы мүмкін, немесе біреу сізге керек серверді басқасымен ауыстырғысы келеді</li> <li>Осыған дейін осы серверге сәтті қосылған болсаңыз, осы қате уақытша болуы мүмкін. Біраздан кейін қайталап көріңіз.</li> </ul>">
+<!ENTITY nssBadCert.longDesc2 "<ul> <li>Бұл сервердің қатесі болуы мүмкін, немесе біреу сізге керек серверді басқасымен ауыстырғысы келеді.</li> <li>Осыған дейін осы серверге сәтті қосылған болсаңыз, осы қате уақытша болуы мүмкін. Біраздан кейін қайталап көріңіз.</li> </ul>">
 <!-- LOCALIZATION NOTE (sharedLongDesc3) This string contains markup including widgets for enabling wifi connections.
      The text inside the tags should be localized. Do not touch the ids. -->
 
@@ -93,7 +93,7 @@
 
 <!ENTITY securityOverride.linkText "Немесе ерекше ереже енгізуіңіз мүмкін…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Осыдан кеткім келеді!">
-<!ENTITY securityOverride.exceptionButtonLabel "Ерекше ереже қосу...">
+<!ENTITY securityOverride.exceptionButtonLabel "Ерекше ережені қосу…">
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
 contents of the <xul:button> tags.  The only language content is the label= field,
 which uses strings already defined above. The button is included here (instead of

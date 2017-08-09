@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "برای نمایش تاریخچه، کلیک راست کنید یا به طرف پایین بکشید">
 <!ENTITY backForwardButtonMenuMac.tooltip "برای نمایش تاریخجه، به طرف پایین بکشید">
 <!ENTITY reloadCmd.label              "بارگیری مجدد">
-<!ENTITY reloadButton.tooltip         "بازآوردن همین صفحه">
 <!ENTITY stopCmd.label                "توقف">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "توقف بارکردن این صفحه">
 <!ENTITY goEndCap.tooltip             "رفتن به نشانی موجود در نوار مکان">
 <!ENTITY printButton.label            "چاپ">
 <!ENTITY printButton.tooltip          "چاپ کردن این صفحه">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "باز کردن تابلو پیام‌های ذخیره گذواژه">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "مدیریت استفاده از افزونه">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "اینکه آیا می‌توانید از این سایت اعلان دریافت کنید یا خیر را تغییر دهید">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "ذخیره اطلاعات به صورت ذخیره دائمی">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "مرورگر تحت کنترل از راه دور است">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "مدیریت اینکه آیا دوربین و/یا میکروفون خود را با این سایت به اشتراک می‌گذارید یا خیر">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "مدیریت به‌اشتراک‌گذاری میکروفن با این پایگاه">
@@ -231,13 +231,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "شما این پایگاه‌وب را برای دسترسی به اطلاعات مکانی مسدود کرده‌اید.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "شما این پایگاه‌وب را برای ذخیره اطلاعات مسدود کرده‌اید.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "شما این پایگاه‌وب را برای امکان ارسال اعلان مسدود کرده‌اید.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "شما این پایگاه‌وب را برای ذخیره اطلاعات مسدود کرده‌اید.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "نمایش تاریخچه">
 
-<!ENTITY urlbar.zoomReset.tooltip     "تنظیم مجدد سطح بزرگنمایی">
-
 <!ENTITY searchItem.title             "جست‌وجو">
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 
 <!ENTITY homeButton.label             "خانه">
 
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "پاک کردن تاریخچه اخیر…">
 <!ENTITY appMenuHistory.restoreSession.label "بازآوری نشست قبلی">
 <!ENTITY appMenuHistory.viewSidebar.label "نمایش ستون تاریخچه">
+<!ENTITY appMenuHelp.label "راهنما">
 <!ENTITY appMenuHelp.tooltip "باز کردن منوراهنما">
 
 <!ENTITY appMenuRemoteTabs.label "زبانه‌های همگام‌سازی شده">
@@ -377,27 +377,44 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "ترجیحات همگام‌سازی">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "وارد شوید تا فهرست زبانه‌ها را از دستگاه‌های دیگر خود ببینید.">
 <!ENTITY appMenuRemoteTabs.signin.label "برای همگام‌سازی وارد شوید">
+<!ENTITY appMenuRemoteTabs.managedevices.label "مدیریت دستگاه‌ها…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "نمایش نوار زبانه‌های همگام شده">
 
 <!ENTITY customizeMenu.addToToolbar.label "افزودن به نوار ابزار">
 <!ENTITY customizeMenu.addToToolbar.accesskey "ا">
 <!ENTITY customizeMenu.addToPanel.label "افزودن به منو">
 <!ENTITY customizeMenu.addToPanel.accesskey "م">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "اضافه کردن به منو شناور">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "م">
 <!ENTITY customizeMenu.moveToToolbar.label "انتقال به نوار ابزار">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "ا">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "انتقال به منو">
 <!ENTITY customizeMenu.moveToPanel.accesskey "ن">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "سنجاق کردن به منو شناور">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "س">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "حذف از منو شناور">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "ح">
 <!ENTITY customizeMenu.removeFromToolbar.label "حذف از نوارابزار">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "ح">
 <!ENTITY customizeMenu.removeFromMenu.label "حذف از منو">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "ح">
 <!ENTITY customizeMenu.addMoreItems.label "افزودن موارد بیشتر…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "ا">
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+
+<!ENTITY moreMenu.label "بیشتر">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "متنی برای جست‌وجو یا یک آدرس وارد کنید">
@@ -413,7 +430,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.disable.accesskey "n">
 <!ENTITY urlbar.searchSuggestionsNotification.enable "بله">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "y">
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "نکات:">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "برای پیدا کردن چیزها کمک بگیرید! دنبال علامت &#x1F50E; بعد از پیشنهادهای جست‌وجو بگردید.">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "تغییر گزینه‌ها…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "C">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "تغییر ترجیحات…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "C">
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -526,6 +552,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "ش">
 <!ENTITY bookmarkThisFrameCmd.label      "نشانک‌گذاری این چارچوب">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "ش">
+<!ENTITY copyURLCmd.label             "رونوشت از نشانی وب">
 <!ENTITY emailPageCmd.label           "ایمیل کردن پیوند...">
 <!ENTITY emailPageCmd.accesskey       "ا">
 <!ENTITY savePageCmd.label            "ذخیرهٔ صفحه به نام…">
@@ -613,7 +640,7 @@ items are mutually exclusive. -->
 <!ENTITY mediaHideControls.accesskey "پ">
 <!ENTITY videoFullScreen.label       "تمام‌صفحه">
 <!ENTITY videoFullScreen.accesskey   "ت">
-<!ENTITY videoSaveImage.label        "ذخیرۀ تصویر لحظه‌ای به عنوان...">
+<!ENTITY videoSaveImage.label        "ذخیرهٔ تصویر لحظه‌ای به عنوان...">
 <!ENTITY videoSaveImage.accesskey    "ذ">
 <!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
 "Hide Statistics" are the same because the two context-menu
@@ -652,6 +679,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.accesskey             "ز">
 
 <!ENTITY sidebarCloseButton.tooltip     "بستن نوار کناری">
+<!ENTITY sidebarMenuClose.label         "بستن نوار کناری">
 
 <!ENTITY quitApplicationCmdWin2.label       "خروج">
 <!ENTITY quitApplicationCmdWin2.accesskey   "خ">
@@ -661,8 +689,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "ترک"> 
 <!ENTITY quitApplicationCmd.accesskey   "ت">
 <!ENTITY quitApplicationCmdMac2.label   "ترک &brandShorterName;">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
+<!ENTITY quitApplicationCmd.key         "Q">
 
 <!ENTITY closeCmd.label                 "بستن">  
 <!ENTITY closeCmd.key                   "W">  
@@ -713,7 +740,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionNotSecure "اتصال امن نیست">
 <!ENTITY identity.connectionFile "این صفحه بر روی رایانه شما ذخیره شده است.">
 <!ENTITY identity.connectionVerified2 "شما بطور امن به این سایت متصل شده‌اید، متعلق به:">
-<!ENTITY identity.connectionInternal "این یک صفحۀ امن &brandShortName; است.">
+<!ENTITY identity.connectionInternal "این یک صفحهٔ امن &brandShortName; است.">
+<!ENTITY identity.extensionPage "این صفحه توسط یک افزونه بارگیری شده است.">
 <!ENTITY identity.insecureLoginForms2 "اطلاعات ورودی که در این صفحه وارد می‌کنید می‌توانند فاش شوند.">
 <!-- Strings for connection state warnings. -->
 
@@ -786,6 +814,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "باز کردن همه زبانه‌ها">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "ب">
+<!ENTITY syncedTabs.context.managedevices.label              "مدیریت دستگاه‌ها…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "د">
 
 
 <!ENTITY syncBrand.shortName.label    "هم‌گام‌سازی">
@@ -810,8 +840,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "ابزار بیشتری می خواهید؟">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "از بین هزاران افرونه انتخاب کنید">
 <!ENTITY customizeMode.restoreDefaults "بازگرداندن پیش‌فرض‌ها">
-<!ENTITY customizeMode.toolbars "نمایش/مخفی کردن نوار ابزار">
+<!ENTITY customizeMode.done "انجام شد">
 <!ENTITY customizeMode.titlebar "نوار عنوان">
+<!ENTITY customizeMode.toolbars2 "نوار ابزارها">
 <!ENTITY customizeMode.lwthemes "تم و زمینه ها">
 <!ENTITY customizeMode.lwthemes.myThemes "زمینه های من">
 <!ENTITY customizeMode.lwthemes.recommended "پیشنهاد شده">
@@ -900,3 +931,36 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "درباره‌ی DRM بیشتر بدانید...">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+<!ENTITY updateAvailable.message "بروزرسانی &brandShorterName;برای آخرین سرعت و حریم شخصی.">
+<!ENTITY updateAvailable.whatsnew.label "دیدن موارد جدید">
+<!ENTITY updateAvailable.header.message "بروزرسانی های جدیدی برای &brandShorterName; در دسترس است.">
+<!ENTITY updateAvailable.acceptButton.label "دریافت بروزرسانی">
+<!ENTITY updateAvailable.acceptButton.accesskey "د">
+<!ENTITY updateAvailable.cancelButton.label "اکنون نه">
+<!ENTITY updateAvailable.cancelButton.accesskey "ا">
+<!ENTITY updateAvailable.panelUI.label "دریافت بروزرسانی های &brandShorterName;">
+
+<!ENTITY updateManual.message "دریافت یک برداشت تازه از &brandShorterName; و ما نیازداریم تا شما این‌را نصب کنید.">
+<!ENTITY updateManual.whatsnew.label "دیدن موارد جدید">
+<!ENTITY updateManual.header.message "&brandShorterName; نمی‌تواند به نسخه آخر بروز شود.">
+<!ENTITY updateManual.acceptButton.label "دریافت &brandShorterName;">
+<!ENTITY updateManual.acceptButton.accesskey "د">
+<!ENTITY updateManual.cancelButton.label "اکنون نه">
+<!ENTITY updateManual.cancelButton.accesskey "ا">
+<!ENTITY updateManual.panelUI.label "دریافت یک برداشت تازه از &brandShorterName;">
+
+<!ENTITY updateRestart.message "بعد از یک راه‌اندازی مجدد کوچک، &brandShorterName; تمام زبانه‌ها پنجره‌ها را بازآوری خواهد کرد.">
+<!ENTITY updateRestart.header.message2 "برای بروزرسانی &brandShorterName; را مجددا راه‌اندازی کنید.">
+<!ENTITY updateRestart.acceptButton.label "راه‌اندازی مجدد و بازآوری">
+<!ENTITY updateRestart.acceptButton.accesskey "ر">
+<!ENTITY updateRestart.cancelButton.label "اکنون نه">
+<!ENTITY updateRestart.cancelButton.accesskey "ا">
+<!ENTITY updateRestart.panelUI.label2 "راه‌اندازی مجدد برای بروزرسانی &brandShorterName;">
+
+<!ENTITY pageActionButton.tooltip "کنش‌های صفحه">
+
+<!ENTITY sendToDevice.label "ارسال به دستگاه…">
+<!ENTITY sendToDevice.viewTitle "ارسال به دستگاه">
+<!ENTITY sendToDevice.fxaRequired.label "مورد نیاز">
+<!ENTITY sendToDevice.noDevices.label "هیچ دستگاهی موجود نیست">

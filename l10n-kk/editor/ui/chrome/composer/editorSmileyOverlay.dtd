@@ -5,6 +5,7 @@
 
 
 
+<!ENTITY smiley1Cmd.tooltip "Смайликті кірістіру">
 
 
 
@@ -26,9 +27,8 @@
 
 
 
-
-
-
+<!ENTITY smiley9Cmd.label "Сүю">
+<!ENTITY smiley9Cmd.accesskey "С">
 
 <!ENTITY smiley10Cmd.label "Ұяшық">
 <!ENTITY smiley10Cmd.accesskey "я">
@@ -51,5 +51,5 @@
 
 
 
-
+<!ENTITY SmileButton.tooltip "Смайликті кірістіру">
 

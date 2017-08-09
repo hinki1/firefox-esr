@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "V">
 <!ENTITY useSmoothScrolling.label        "Vieritä sivua portaattomasti">
 <!ENTITY useSmoothScrolling.accesskey    "e">
-<!ENTITY allowHWAccel.label              "Käytä laitteistokiihdytystä jos mahdollista">
-<!ENTITY allowHWAccel.accesskey          "K">
 <!ENTITY checkUserSpelling.label         "Oikolue käyttäjän kirjoitukset">
 <!ENTITY checkUserSpelling.accesskey     "l">
 
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Päivitys">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "&brandShortName;in päivitykset">
-<!ENTITY updateAuto1.label               "Asenna päivitykset automaattisesti (suositeltu: turvallisin)">
-<!ENTITY updateAuto1.accesskey           "A">
-<!ENTITY updateCheckChoose.label         "Hae päivityksiä, mutta minä päätän asennetaanko ne">
-<!ENTITY updateCheckChoose.accesskey     "H">
-<!ENTITY updateManual.label              "Älä hae päivityksiä (ei suositeltu: turvallisuusriski)">
-<!ENTITY updateManual.accesskey          "Ä">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Versio ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "&brandShortName;in päivitystapa">
+<!ENTITY updateAuto2.label               "Asenna päivitykset automaattisesti (suositellaan paremman turvallisuuden vuoksi)">
+<!ENTITY updateAuto2.accesskey           "A">
+<!ENTITY updateCheckChoose2.label        "Hae päivitykset, mutta anna sinun päättää asennetaanko ne">
+<!ENTITY updateCheckChoose2.accesskey    "H">
+<!ENTITY updateManual2.label             "Älä hae päivityksiä (ei suositella)">
+<!ENTITY updateManual2.accesskey         "Ä">
 
-<!ENTITY updateHistory.label             "Näytä päivityshistoria">
-<!ENTITY updateHistory.accesskey         "N">
+<!ENTITY updateHistory2.label            "Näytä päivityshistoria…">
+<!ENTITY updateHistory2.accesskey        "N">
 
 <!ENTITY useService.label                "Asenna päivitykset taustalla toimivalla palvelulla">
 <!ENTITY useService.accesskey            "u">
 
-<!ENTITY autoUpdateOthers.label          "Automaattinen päivitys">
-<!ENTITY enableSearchUpdate.label        "Hakukoneet">
-<!ENTITY enableSearchUpdate.accesskey    "k">
+<!ENTITY enableSearchUpdate2.label       "Päivitä hakukoneet automaattisesti">
+<!ENTITY enableSearchUpdate2.accesskey   "k">
+
+<!ENTITY reports.label                   "Raportit">
 
 <!ENTITY offlineStorageNotify.label               "Näytä ilmoitus, kun sivusto pyytää lupaa tallentaa tietoa yhteydetöntä tilaa varten">
 <!ENTITY offlineStorageNotify.accesskey           "N">
@@ -113,15 +125,34 @@
 <!ENTITY offlineAppRemove.confirm        "Poista yhteydetöntä tilaa varten tallennetut tiedot">
 
 <!ENTITY certificateTab.label            "Varmenteet">
-<!ENTITY certPersonal.label              "Pyynnöt">
-<!ENTITY certPersonal.description        "Sivuston pyytäessä varmennettani:">
-<!ENTITY selectCerts.auto                "Valitse sellainen automaattisesti">
-<!ENTITY selectCerts.auto.accesskey      "V">
-<!ENTITY selectCerts.ask                 "Kysy joka kerta">
-<!ENTITY selectCerts.ask.accesskey       "K">
+<!ENTITY certPersonal2.description       "Sivuston pyytäessä varmennettasi">
+<!ENTITY selectCerts.auto                "valitse sellainen automaattisesti">
+<!ENTITY selectCerts.auto.accesskey      "v">
+<!ENTITY selectCerts.ask                 "kysy joka kerta">
+<!ENTITY selectCerts.ask.accesskey       "k">
 <!ENTITY enableOCSP.label                "Vahvista varmenteiden kelpoisuus OCSP-vastaajapalvelimilta">
 <!ENTITY enableOCSP.accesskey            "C">
 <!ENTITY viewCerts.label                 "Näytä varmenteet">
 <!ENTITY viewCerts.accesskey             "N">
 <!ENTITY viewSecurityDevices.label       "Turvallisuuslaitteet">
 <!ENTITY viewSecurityDevices.accesskey   "T">
+
+<!ENTITY performance.label               "Suorituskyky">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Käytä suositeltuja suorituskykyasetuksia">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Nämä asetukset sovitetaan tietokoneesi laitteiston ja käyttöjärjestelmän kanssa.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "u">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Lue lisää">
+<!ENTITY limitContentProcessOption.label "Sisältöprosessien yläraja">
+<!ENTITY limitContentProcessOption.description
+                                         "Useammat sisältöprosessit parantavat suorituskykyä käytettäessä useita välilehtiä, mutta kuluttavat myös enemmän muistia.">
+<!ENTITY limitContentProcessOption.accesskey   "i">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Sisältöprosessien määrän muokkaaminen on mahdollista vain useaa prosessia hyödyntävällä &brandShortName;illa.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Lue, miten usean prosessin hyödyntämisen tilanteen voi tarkistaa">
+<!ENTITY allowHWAccel.label              "Käytä laitteistokiihdytystä jos mahdollista">
+<!ENTITY allowHWAccel.accesskey          "K">

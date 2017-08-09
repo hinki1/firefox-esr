@@ -2,6 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  applications.label       "Aplikazioak">
+<!ENTITY  applications.description "Aukeratu &brandShortName;(e)k nola maneiatzen dituen Webetik edo erabiltzen dituzun aplikazioetatik deskargatzen dituzun fitxategiak.">
+
 <!ENTITY  typeColumn.label        "Eduki mota">
 <!ENTITY  typeColumn.accesskey    "t">
 
@@ -11,4 +14,4 @@
 <!ENTITY  focusSearch1.key        "f">
 <!ENTITY  focusSearch2.key        "k">
 
-<!ENTITY  filter.emptytext        "Bilatu">
+<!ENTITY  filter2.emptytext        "Bilatu fitxategi motak edo aplikazioak">

@@ -3,6 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (tapToPlayPlugin): Mobile (used for touch interfaces) only has one type of plugin possible. -->
+<!ENTITY pluginActivationWarning                             "Denne nettsida brukar programtillegg som kan gjere &brandShortName; tregare.">
 <!ENTITY tapToPlayPlugin                                     "Trykk her for å aktivera programtillegget.">
 <!ENTITY clickToActivatePlugin                               "Aktiver programtillegget.">
 <!ENTITY checkForUpdates                                     "Søk etter oppdateringar…">
@@ -29,3 +30,4 @@
 <!ENTITY plugin.file                                         "Fil">
 <!ENTITY plugin.mimeTypes                                    "MIME-typer">
 <!ENTITY plugin.flashProtectedMode.label                     "Slå på Adobe Flash verna-modus">
+<!ENTITY plugin.enableBlocklists.label                       "Blokker farleg og påtrengande Flash-innhald">

@@ -117,6 +117,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "Prikaži bilješke izdanja za ovu dopunu">
 <!ENTITY cmd.hideReleaseNotes.label           "Sakrij bilješke izdanja">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Sakrij bilješke izdanja za ovaj dodatak">
+
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
@@ -184,6 +185,9 @@
 <!ENTITY addon.details.label                  "Više">
 <!ENTITY addon.details.tooltip                "Više detalja o ovom dodatku">
 <!ENTITY addon.unknownDate                    "Nepoznat">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -245,5 +249,10 @@
 <!ENTITY disabledUnsigned.devInfo.start "Razvijatelji koji su zainteresirani za verifikaciju svojih dodataka mogu nastaviti čitati naš ">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "vodič">
 <!ENTITY disabledUnsigned.devInfo.end ".">
+
+
+
+
+
 
 

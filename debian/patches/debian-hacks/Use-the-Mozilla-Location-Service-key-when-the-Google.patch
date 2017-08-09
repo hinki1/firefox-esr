@@ -7,15 +7,15 @@ Subject: Use the Mozilla Location Service key when the Google Key is not there
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/browser/app/profile/firefox.js b/browser/app/profile/firefox.js
-index 445529766b6e..a1c3008393c0 100644
+index bbe44708e663..ca25d7d2781d 100644
 --- a/browser/app/profile/firefox.js
 +++ b/browser/app/profile/firefox.js
-@@ -1251,7 +1251,7 @@ pref("dom.debug.propagate_gesture_events_through_content", false);
- // All the Geolocation preferences are here.
- //
- // The request URL of the GeoLocation backend.
--#ifdef RELEASE_OR_BETA
-+#if defined(RELEASE_OR_BETA) && defined(GOOGLE_API_KEY)
+@@ -1333,7 +1333,7 @@ pref("dom.debug.propagate_gesture_events_through_content", false);
+ // Geolocation preferences for the RELEASE and "later" Beta channels.
+ // Some of these prefs are specified even though they are redundant; they are
+ // here for clarity and end-user experiments.
+-#ifndef EARLY_BETA_OR_EARLIER
++#if !defined(EARLY_BETA_OR_EARLIER) && defined(GOOGLE_API_KEY)
  pref("geo.wifi.uri", "https://www.googleapis.com/geolocation/v1/geolocate?key=%GOOGLE_API_KEY%");
- #else
- pref("geo.wifi.uri", "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%");
+ 
+ #ifdef XP_MACOSX

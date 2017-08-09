@@ -9,8 +9,6 @@
 <!ENTITY newtab.customize.cog.title2 "ÚJ LAP VEZÉRLŐELEMEI">
 <!ENTITY newtab.customize.cog.learn "Ismerje meg az Új lapot">
 <!ENTITY newtab.customize.title "Az Új lap oldal személyre szabása">
-<!ENTITY newtab.customize.suggested "Javasolt és kedvelt oldalak megjelenítése">
-<!ENTITY newtab.customize.topsites "Kedvelt oldalak megjelenítése">
 <!ENTITY newtab.customize.blank2 "Üres oldal megjelenítése">
 <!ENTITY newtab.undo.removedLabel "Bélyegkép eltávolítva.">
 <!ENTITY newtab.undo.undoButton "Visszavonás.">

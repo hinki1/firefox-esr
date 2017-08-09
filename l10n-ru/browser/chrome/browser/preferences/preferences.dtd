@@ -13,17 +13,16 @@
 <!ENTITY  prefWinMinSize.styleMac       "width: 58em; min-height: 42em;">
 <!ENTITY  prefWinMinSize.styleGNOME     "width: 54em; min-height: 42em;">
 
-<!ENTITY  paneGeneral.title       "Основные">
-<!ENTITY  paneTabs.title          "Вкладки">
-<!ENTITY  paneSearch.title        "Поиск">
-<!ENTITY  paneContent.title       "Содержимое">
-<!ENTITY  paneApplications.title  "Приложения">
-<!ENTITY  panePrivacy.title       "Приватность">
-<!ENTITY  paneContainers.title    "Вкладки в контейнере">
-<!ENTITY  paneSecurity.title      "Защита">
-<!ENTITY  paneAdvanced.title      "Дополнительные">
+<!ENTITY  paneSearchResults.title       "Результаты поиска">
+<!ENTITY  paneGeneral.title             "Основные">
+<!ENTITY  paneFilesApplications.title   "Файлы и Приложения">
+<!ENTITY  panePrivacySecurity.title     "Приватность и Защита">
+<!ENTITY  paneContainers.title          "Вкладки в контейнере">
+<!ENTITY  paneUpdates.title             "Обновления">
 
-<!-- LOCALIZATION NOTE (paneSync.title): This should match syncBrand.shortName.label in ../syncBrand.dtd -->
-<!ENTITY  paneSync.title          "Синхронизация">
+<!-- LOCALIZATION NOTE (paneSync1.title): This should match syncBrand.fxAccount.label in ../syncBrand.dtd -->
+<!ENTITY  paneSync1.title          "Аккаунт Firefox">
 
-<!ENTITY  helpButton.label        "Справка">
+<!ENTITY  helpButton2.label        "Поддержка &brandShortName;">
+
+<!ENTITY  searchInput.label        "Поиск">

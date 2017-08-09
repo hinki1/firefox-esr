@@ -118,6 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "Mostrar notas de la versión para este complemento">
 <!ENTITY cmd.hideReleaseNotes.label           "Ocultar notas de la versión">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Ocultar las notas de la versión de esta actualización">
+<!ENTITY cmd.findReplacement.label            "Encontrar un reemplazo">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
@@ -185,6 +186,10 @@
 <!ENTITY addon.details.label                  "Más">
 <!ENTITY addon.details.tooltip                "Ver más detalles acerca de este complemento">
 <!ENTITY addon.unknownDate                    "Desconocido">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "LEGADO">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -249,3 +254,9 @@
 
 <!ENTITY pluginDeprecation.description "¿Te perdiste de algo? Algunos plugins ya no están disponibles en &brandShortName;.">
 <!ENTITY pluginDeprecation.learnMore "Saber más.">
+
+<!ENTITY legacyWarning.description "¿Te falta algo? Algunas extensiones ya no son respaldadas por &brandShortName;.">
+<!ENTITY legacyWarning.showLegacy "Mostrar las extensiones heredadas">
+<!ENTITY legacyExtensions.title "Extensiones heredadas">
+<!ENTITY legacyExtensions.description "Estas extensiones no cumplen con los estándares actuales de &brandShortName; por lo que han sido desactivadas.">
+<!ENTITY legacyExtensions.learnMore "Aprender más sobre los cambios en los complementos">

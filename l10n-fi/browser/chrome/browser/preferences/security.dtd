@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  general.label                 "Yleiset">
+<!ENTITY  security.label                 "Turvallisuus">
 
 <!ENTITY  warnOnAddonInstall.label        "Varoita, kun sivustot yrittävät asentaa lisäosia">
 <!ENTITY  warnOnAddonInstall.accesskey    "V">
@@ -24,10 +24,10 @@
 <!ENTITY  addonExceptions.accesskey     "P">
 
 
-<!ENTITY  logins.label                  "Kirjautumistiedot">
+<!ENTITY  formsAndPasswords.label       "Lomakkeet ja salasanat">
 
-<!ENTITY  rememberLogins.label          "Tallenna kirjautumistiedot">
-<!ENTITY  rememberLogins.accesskey      "T">
+<!ENTITY  rememberLogins1.label          "Tallenna kirjautumistiedot">
+<!ENTITY  rememberLogins1.accesskey      "T">
 <!ENTITY  passwordExceptions.label      "Poikkeukset…">
 <!ENTITY  passwordExceptions.accesskey  "e">
 

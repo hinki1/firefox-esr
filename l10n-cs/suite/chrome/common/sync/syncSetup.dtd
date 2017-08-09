@@ -8,12 +8,12 @@
 
 <!ENTITY setup.pickSetupType.description "Vítejte! Jestliže jste nikdy &syncBrand.fullName.label; nepoužili, budete si muset vytvořit nový účet.">
 <!ENTITY button.createNewAccount.label "Vytvořit nový účet">
-<!ENTITY setup.haveAccount.label "Již mám účet &syncBrand.fullName.label;">
+<!ENTITY setup.haveAccount.label "Účet &syncBrand.fullName.label; už mám">
 <!ENTITY button.connect.label "Připojit">
 
 <!ENTITY setup.choicePage.title.label     "Znáte a požíváte &syncBrand.fullName.label;?">
 <!ENTITY setup.choicePage.new.label       "&syncBrand.shortName.label; neznám a nepoužívám">
-<!ENTITY setup.choicePage.existing.label  "&syncBrand.shortName.label; již používám na jiném počítači">
+<!ENTITY setup.choicePage.existing.label  "&syncBrand.shortName.label; už používám na jiném počítači">
 
 <!-- New Account AND Existing Account -->
 <!ENTITY server.label               "Server">
@@ -113,4 +113,4 @@
 <!-- New & Existing Account: Setup Complete -->
 <!ENTITY setup.successPage.title "Nastavení dokončeno">
 <!ENTITY changeOptions.label "Vaše nastavení lze změnit v dialogu možnosti Sync níže.">
-<!ENTITY continueUsing.label "Nyní můžete pokračovat v používání aplikace &brandShortName;.">
+<!ENTITY continueUsing.label "Teď můžete pokračovat v používání aplikace &brandShortName;.">

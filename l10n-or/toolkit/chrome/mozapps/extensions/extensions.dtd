@@ -114,6 +114,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "ଏହି ଅଦ୍ୟତନ ପାଇଁ ପ୍ରକାଶନ ଟିପ୍ପଣୀକୁ ଦର୍ଶାନ୍ତୁ">
 <!ENTITY cmd.hideReleaseNotes.label           "ପ୍ରକାଶନ ଟିପ୍ପଣୀକୁ ଲୁଚାନ୍ତୁ">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "ଏହି ଅଦ୍ୟତନ ପାଇଁ ପ୍ରକାଶନ ଟିପ୍ପଣୀକୁ ଲୁଚାନ୍ତୁ">
+
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
@@ -181,6 +182,9 @@
 <!ENTITY addon.details.label                  "ଅଧିକ">
 <!ENTITY addon.details.tooltip                "ଏହି ଏଡ-ଅନ ବିଷୟରେ ଅଧିକ ବିବରଣୀ ଦର୍ଶାନ୍ତୁ">
 <!ENTITY addon.unknownDate                    "ଅଜଣା">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -236,6 +240,11 @@
 <!-- LOCALIZATION NOTE (disabledUnsigned.devInfo.start, disabledUnsigned.devInfo.linkToManual, disabledUnsigned.devInfo.end):
      These entities form a sentence, with disabledUnsigned.devInfo.linkToManual
      being a link to an external site. -->
+
+
+
+
+
 
 
 

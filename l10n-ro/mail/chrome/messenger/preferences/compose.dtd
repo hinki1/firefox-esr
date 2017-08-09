@@ -24,7 +24,7 @@
 <!ENTITY fontColor.accesskey                  "x">
 <!ENTITY bgColor.label                        "Culoare fundal:">
 <!ENTITY bgColor.accesskey                    "C">
-<!ENTITY restoreHTMLDefaults.label            "Restaurează setările implicite">
+<!ENTITY restoreHTMLDefaults.label            "Restaurează valorile implicite">
 <!ENTITY restoreHTMLDefaults.accesskey        "R">
 
 
@@ -54,6 +54,9 @@
 <!ENTITY directoriesNone.label                 "Niciunul">
 <!ENTITY editDirectories.label                 "Editează directoarele…">
 <!ENTITY editDirectories.accesskey             "E">
+
+
+
 
 <!ENTITY sendOptionsDescription.label          "Configurează aspectul textului">
 <!ENTITY sendOptions.label                     "Opțiuni de trimitere…">

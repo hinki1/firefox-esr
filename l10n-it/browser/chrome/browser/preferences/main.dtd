@@ -3,20 +3,20 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY startup.label "Avvio">
-<!ENTITY startupPage.label "Quando si avvia &brandShortName;:">
-<!ENTITY startupPage.accesskey "d">
+<!ENTITY startupPage2.label "Quando si avvia &brandShortName;">
+<!ENTITY startupPage2.accesskey "Q">
 <!ENTITY startupUserHomePage.label "Mostra la pagina iniziale">
 <!ENTITY startupBlankPage.label "Mostra una pagina vuota">
 <!ENTITY startupPrevSession.label "Mostra le finestre e le schede dell’ultima sessione">
-<!ENTITY homepage.label "Pagina iniziale:">
-<!ENTITY homepage.accesskey "n">
+<!ENTITY homepage2.label "Pagina iniziale">
+<!ENTITY homepage2.accesskey "n">
 <!ENTITY useCurrentPage.label "Usa la pagina corrente">
 <!ENTITY useCurrentPage.accesskey "U">
 <!ENTITY useMultiple.label "Usa le pagine correnti">
 <!ENTITY chooseBookmark.label "Usa un segnalibro…">
-<!ENTITY chooseBookmark.accesskey "s">
+<!ENTITY chooseBookmark.accesskey "b">
 <!ENTITY restoreDefault.label "Ripristina la pagina predefinita">
-<!ENTITY restoreDefault.accesskey "R">
+<!ENTITY restoreDefault.accesskey "f">
 <!ENTITY downloads.label "Download">
 <!ENTITY saveTo.label "Salva i file in">
 <!ENTITY saveTo.accesskey "v">
@@ -34,5 +34,6 @@
 <!ENTITY isNotDefault.label "&brandShortName; non è il browser predefinito">
 <!ENTITY separateProfileMode.label "Consenti l’esecuzione in contemporanea di &brandShortName; e Firefox">
 <!ENTITY useFirefoxSync.label "Consiglio: questo comporta l’utilizzo di profili diversi. È possibile appoggiarsi a Sync per la sincronizzazione dei dati.">
-<!ENTITY getStarted.label "Avvia Sync…">
+<!ENTITY getStarted.notloggedin.label "Accedi a &syncBrand.shortName.label;…">
+<!ENTITY getStarted.configured.label "Apri preferenze di &syncBrand.shortName.label;">
 <!ENTITY e10sEnabled.label "Utilizza &brandShortName; in modalità multiprocesso">

@@ -2,7 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "Folosește protecția față de urmărire">
+<!ENTITY  trackingProtectionHeader2.label      "Protecția față de urmărire">
+<!ENTITY  trackingProtection.description       "Urmărirea este atunci când companiile colectează informații despre tine pentru a construi un profil și pentru a afișa conținut pe baza datelor tale de navigare și personale.">
+<!ENTITY  trackingProtection.radioGroupLabel   "Blochează afișarea de conținut din partea companiilor cunoscute pentru urmărirea utilizatorilor">
 <!ENTITY  trackingProtectionAlways.label       "Întotdeauna">
 <!ENTITY  trackingProtectionAlways.accesskey   "y">
 <!ENTITY  trackingProtectionPrivate.label      "Doar în ferestrele private">
@@ -30,7 +32,7 @@
 
 <!ENTITY  locationBar.label             "Bară de adresă">
 
-<!ENTITY  locbar.suggest.label          "Când se folosește bara adresei, sugerează:">
+<!ENTITY  locbar.suggest2.label         "Când se folosește bara de adresă, sugerează:">
 <!ENTITY  locbar.history.label          "Istoric">
 <!ENTITY  locbar.history.accesskey      "H">
 <!ENTITY  locbar.bookmarks.label        "Semne de carte">
@@ -40,20 +42,19 @@
 <!ENTITY  locbar.searches.label         "Căutări similare de la motorul de căutare implicit">
 <!ENTITY  locbar.searches.accesskey     "d">
 
-<!ENTITY  suggestionSettings.label      "Schimbă preferințele pentru sugestiile motoarelor de căutare…">
-<!ENTITY  suggestionSettings.accesskey  "g">
+<!ENTITY  suggestionSettings2.label     "Schimbă preferințele pentru sugestiile motoarelor de căutare…">
 
 <!ENTITY  acceptCookies.label           "Acceptă cookie-uri de la site-uri">
 <!ENTITY  acceptCookies.accesskey       "A">
 
 <!ENTITY  acceptThirdParty.pre.label      "Acceptă cookie-uri terțe:">
-<!ENTITY  acceptThirdParty.pre.accesskey  "k">
+<!ENTITY  acceptThirdParty.pre.accesskey  "y">
 <!ENTITY  acceptThirdParty.always.label   "Întotdeauna">
 <!ENTITY  acceptThirdParty.never.label    "Niciodată">
 <!ENTITY  acceptThirdParty.visited.label  "De la site-urile vizitate">
 
 <!ENTITY  keepUntil.label               "Păstrează-le până când:">
-<!ENTITY  keepUntil.accesskey           "P">
+<!ENTITY  keepUntil.accesskey           "u">
 
 <!ENTITY  expire.label                  "expiră">
 <!ENTITY  close.label                   "închid &brandShortName;">
@@ -61,11 +62,11 @@
 <!ENTITY  cookieExceptions.label        "Excepții…">
 <!ENTITY  cookieExceptions.accesskey    "E">
 
-<!ENTITY  showCookies.label             "Arată cookie-urile…">
-<!ENTITY  showCookies.accesskey         "k">
+<!ENTITY  showCookies.label             "Afișează cookie-urile…">
+<!ENTITY  showCookies.accesskey         "S">
 
-<!ENTITY  historyHeader.pre.label          "&brandShortName;:">
-<!ENTITY  historyHeader.pre.accesskey      "w">
+<!ENTITY  historyHeader2.pre.label         "&brandShortName;:">
+<!ENTITY  historyHeader2.pre.accesskey     "w">
 <!ENTITY  historyHeader.remember.label     "Va memora istoricul">
 <!ENTITY  historyHeader.dontremember.label "Nu va memora istoricul niciodată">
 <!ENTITY  historyHeader.custom.label       "Va folosi setări personalizate pentru istoric">

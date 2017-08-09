@@ -51,8 +51,8 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "P">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Cyfrif Cyfredol">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "y">
-<!ENTITY getNextNMsgCmd.label "Estyn y 500 Neges Newyddion Nesaf">
-<!ENTITY getNextNMsgCmd.accesskey "E">
+<!ENTITY getNextNMsgCmd2.label "Estyn y Negeseuon Newyddion Nesaf">
+<!ENTITY getNextNMsgCmd2.accesskey "E">
 <!ENTITY sendUnsentCmd.label "Anfon Negeseuon heb eu Hanfon">
 <!ENTITY sendUnsentCmd.accesskey "H">
 <!ENTITY subscribeCmd.label "Tanysgrifio…">
@@ -634,6 +634,9 @@
 
 <!ENTITY folderContextGetMessages.label "Estyn Negeseuon">
 <!ENTITY folderContextGetMessages.accesskey "s">
+<!ENTITY folderContextPauseAllUpdates.label "Oedi Pob Diweddariad">
+<!ENTITY folderContextPauseUpdates.label "Oedi Diweddariadau">
+<!ENTITY folderContextPauseUpdates.accesskey "D">
 <!ENTITY folderContextOpenInNewWindow.label "Agor mewn Ffenestr Newydd">
 <!ENTITY folderContextOpenInNewWindow.accesskey "N">
 <!ENTITY folderContextOpenNewTab.label "Agor mewn Tab Newydd">
@@ -781,7 +784,7 @@
      In the en-US locale we ran out of access keys, so there is an empty access key for
      Watch Thread. Localizers can pick a suitable key
   -->
-<!ENTITY contextWatchThreadMenu.accesskey "">
+<!ENTITY contextWatchThreadMenu.accesskey "e">
 <!ENTITY contextSaveAs.label "Cadw Fel…">
 <!ENTITY contextSaveAs.accesskey "a">
 <!ENTITY contextPrint.label "Argraffu…">

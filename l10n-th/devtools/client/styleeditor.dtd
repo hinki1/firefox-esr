@@ -21,7 +21,7 @@
 <!ENTITY visibilityToggle.tooltip   "Toggle style sheet visibility">
 
 <!ENTITY saveButton.label           "บันทึก">
-<!ENTITY saveButton.tooltip         "Save this style sheet to a file">
+<!ENTITY saveButton.tooltip         "บันทึกแผ่นลักษณะนี้เป็นไฟล์">
 <!ENTITY saveButton.accesskey       "S">
 
 <!ENTITY optionsButton.tooltip      "ตัวเลือกตัวแก้ไขลักษณะ">
@@ -46,11 +46,11 @@
      in each stylesheet editor sidebar. -->
 <!ENTITY mediaRules.label           "กฎ @media">
 
-<!ENTITY editorTextbox.placeholder  "Type CSS here.">
+<!ENTITY editorTextbox.placeholder  "พิมพ์ CSS ที่นี่">
 
 <!-- LOCALICATION NOTE  (noStyleSheet.label): This is shown when a page has no
      stylesheet. -->
-<!ENTITY noStyleSheet.label         "This page has no style sheet.">
+<!ENTITY noStyleSheet.label         "หน้านี้ไม่มีแผ่นลักษณะ">
 
 <!-- LOCALICATION NOTE  (noStyleSheet-tip-start.label): This is the start of a
      tip sentence shown when there is no stylesheet. It suggests to create a new

@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "m">
 <!ENTITY useSmoothScrolling.label        "Floeiend skowe brûke">
 <!ENTITY useSmoothScrolling.accesskey    "l">
-<!ENTITY allowHWAccel.label              "Brûk hardware-acceleratie as it beskikber is">
-<!ENTITY allowHWAccel.accesskey          "B">
 <!ENTITY checkUserSpelling.label         "Kontrolearje jo stavering as jo type">
 <!ENTITY checkUserSpelling.accesskey     "t">
 
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Fernijing">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "&brandShortName;-fernijingen">
-<!ENTITY updateAuto1.label               "Fernijingen automatysk ynstallearje (oanrekommandearre: ferbettere feilichheid)">
-<!ENTITY updateAuto1.accesskey           "F">
-<!ENTITY updateCheckChoose.label         "Kontrolearje op fernijingen, mar lit my kieze oft ik se ynstallearje wol">
-<!ENTITY updateCheckChoose.accesskey     "K">
-<!ENTITY updateManual.label              "Nea kontrolearje op fernijingen (net oanrekommandearre: feilichheidsrisiko)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Ferzje ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "&brandShortName; mei">
+<!ENTITY updateAuto2.label               "Fernijingen automatysk ynstallearje (oanrekommandearre foar ferbettere befeiliging)">
+<!ENTITY updateAuto2.accesskey           "F">
+<!ENTITY updateCheckChoose2.label        "Kontrolearje op fernijingen, mar jo kieze litte oft jo dizze ynstallearje wolle">
+<!ENTITY updateCheckChoose2.accesskey    "K">
+<!ENTITY updateManual2.label             "Nea kontrolearje op fernijingen (net oanrekommandearre)">
+<!ENTITY updateManual2.accesskey         "N">
 
-<!ENTITY updateHistory.label             "Fernijingsskiednis toane">
-<!ENTITY updateHistory.accesskey         "t">
+<!ENTITY updateHistory2.label            "Fernijingsskiednis toane…">
+<!ENTITY updateHistory2.accesskey        "s">
 
 <!ENTITY useService.label                "Brûk in eftergrûntsjinst om fernijingen te ynstallearjen">
 <!ENTITY useService.accesskey            "a">
 
-<!ENTITY autoUpdateOthers.label          "Automatysk fernije">
-<!ENTITY enableSearchUpdate.label        "Sykmasinen">
-<!ENTITY enableSearchUpdate.accesskey    "S">
+<!ENTITY enableSearchUpdate2.label       "Sykmasines automatysk bywurkje">
+<!ENTITY enableSearchUpdate2.accesskey   "y">
+
+<!ENTITY reports.label                   "Rapporten">
 
 <!ENTITY offlineStorageNotify.label               "Jo fertelle as in website freget om gegevens te bewarjen foar offline gebrûk">
 <!ENTITY offlineStorageNotify.accesskey           "J">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Bewarre gegevens fuortsmite">
 
 <!ENTITY certificateTab.label            "Sertifikaten">
-<!ENTITY certPersonal.label              "Oanfragen">
-<!ENTITY certPersonal.description        "As in server jo persoanlike sertifikaat freget:">
+<!ENTITY certPersonal2.description       "Wannear in server om jo persoanlike sertifikaat freget">
 <!ENTITY selectCerts.auto                "Automatysk ien selektearje">
 <!ENTITY selectCerts.auto.accesskey      "A">
 <!ENTITY selectCerts.ask                 "My elke kear freegje">
@@ -125,3 +136,23 @@
 <!ENTITY viewCerts.accesskey             "S">
 <!ENTITY viewSecurityDevices.label       "Feilichheidsapparaten">
 <!ENTITY viewSecurityDevices.accesskey   "p">
+
+<!ENTITY performance.label               "Prestaasjes">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Oanrekommandearre prestaasjeynstellingen brûke">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Dizze ynstellingen binne ôfstimd op de hardware en it bestjoeringssysteem fan jo kompjûter.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "D">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Mear ynfo">
+<!ENTITY limitContentProcessOption.label "Limyt fan ynhâldsprosessen">
+<!ENTITY limitContentProcessOption.description
+                                         "Ekstra ynhâldsprosessen kinne de prestaasjes by it gebrûk fan mear ljepblêden ferbetterje, mar sille ek mear ûnthâld brûke.">
+<!ENTITY limitContentProcessOption.accesskey   "L">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Oanpassen fan it oantal ynhâldsprosessen is allinnich mooglik mei multiproses-&brandShortName;.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Ynformaasje oer it kontrolearjen of multiproses ynskeakele is">
+<!ENTITY allowHWAccel.label              "Brûk hardware-acceleratie as it beskikber is">
+<!ENTITY allowHWAccel.accesskey          "B">

@@ -7,51 +7,51 @@
 <!ENTITY places.library.width  "700">
 <!ENTITY places.library.height "500">
 <!ENTITY organize.label        "จัดระเบียบ">
-<!ENTITY organize.accesskey    "O">
+<!ENTITY organize.accesskey    "จ">
 <!ENTITY organize.tooltip      "จัดระเบียบที่คั่นหน้าของคุณ">
 
 <!ENTITY file.close.label               "ปิด">
-<!ENTITY file.close.accesskey           "C">
+<!ENTITY file.close.accesskey           "ด">
 <!ENTITY cmd.close.key                  "w">
 <!ENTITY views.label                    "มุมมอง">
-<!ENTITY views.accesskey                "V">
+<!ENTITY views.accesskey                "ม">
 <!ENTITY views.tooltip                  "เปลี่ยนมุมมองของคุณ">
 <!ENTITY view.columns.label             "แสดงคอลัมน์">
-<!ENTITY view.columns.accesskey         "C">
+<!ENTITY view.columns.accesskey         "ค">
 <!ENTITY view.sort.label                "เรียง">
-<!ENTITY view.sort.accesskey            "S">
+<!ENTITY view.sort.accesskey            "ร">
 <!ENTITY view.unsorted.label            "ไม่เรียง">
-<!ENTITY view.unsorted.accesskey        "U">
+<!ENTITY view.unsorted.accesskey        "ม">
 <!ENTITY view.sortAscending.label       "เรียงลำดับ A > Z">
 <!ENTITY view.sortAscending.accesskey   "A">
 <!ENTITY view.sortDescending.label      "เรียงลำดับ Z > A">
 <!ENTITY view.sortDescending.accesskey  "Z">
 
 <!ENTITY importBookmarksFromHTML.label     "นำเข้าที่คั่นหน้าจาก HTML…">
-<!ENTITY importBookmarksFromHTML.accesskey "I">
+<!ENTITY importBookmarksFromHTML.accesskey "น">
 <!ENTITY exportBookmarksToHTML.label       "ส่งออกที่คั่นหน้าเป็น HTML…">
-<!ENTITY exportBookmarksToHTML.accesskey   "E">
+<!ENTITY exportBookmarksToHTML.accesskey   "ส">
 <!ENTITY importOtherBrowser.label          "นำเข้าข้อมูลจากเบราว์เซอร์อื่น…">
-<!ENTITY importOtherBrowser.accesskey      "A">
+<!ENTITY importOtherBrowser.accesskey      "อ">
 
 <!ENTITY cmd.backup.label               "สำรองข้อมูล…">
-<!ENTITY cmd.backup.accesskey           "B">
+<!ENTITY cmd.backup.accesskey           "ง">
 <!ENTITY cmd.restore2.label             "เรียกคืน">
-<!ENTITY cmd.restore2.accesskey         "R">
+<!ENTITY cmd.restore2.accesskey         "ร">
 <!ENTITY cmd.restoreFromFile.label      "เลือกไฟล์…">
-<!ENTITY cmd.restoreFromFile.accesskey  "C">
+<!ENTITY cmd.restoreFromFile.accesskey  "ล">
 
 <!ENTITY cmd.deleteDomainData.label     "ลืมเกี่ยวกับไซต์นี้">
-<!ENTITY cmd.deleteDomainData.accesskey "F">
+<!ENTITY cmd.deleteDomainData.accesskey "ม">
 
 <!ENTITY cmd.open.label                  "เปิด">
-<!ENTITY cmd.open.accesskey              "O">
+<!ENTITY cmd.open.accesskey              "ป">
 <!ENTITY cmd.open_window.label           "เปิดในหน้าต่างใหม่">
-<!ENTITY cmd.open_window.accesskey       "N">
+<!ENTITY cmd.open_window.accesskey       "ห">
 <!ENTITY cmd.open_private_window.label     "เปิดในหน้าต่างส่วนตัวใหม่">
-<!ENTITY cmd.open_private_window.accesskey "P">
+<!ENTITY cmd.open_private_window.accesskey "ส">
 <!ENTITY cmd.open_tab.label              "เปิดในแท็บใหม่">
-<!ENTITY cmd.open_tab.accesskey          "w">
+<!ENTITY cmd.open_tab.accesskey          "ท">
 <!ENTITY cmd.open_all_in_tabs.label      "เปิดทั้งหมดในแท็บ">
 <!ENTITY cmd.open_all_in_tabs.accesskey  "O">
 
@@ -63,18 +63,18 @@
 <!ENTITY cmd.context_sortby_name.accesskey  "r">
 
 <!ENTITY cmd.new_bookmark.label            "ที่คั่นหน้าใหม่…">
-<!ENTITY cmd.new_bookmark.accesskey        "B">
+<!ENTITY cmd.new_bookmark.accesskey        "ม">
 <!ENTITY cmd.new_folder.label              "โฟลเดอร์ใหม่…">
-<!ENTITY cmd.new_folder.accesskey          "o">
-<!ENTITY cmd.context_new_folder.accesskey  "F">
+<!ENTITY cmd.new_folder.accesskey          "ฟ">
+<!ENTITY cmd.context_new_folder.accesskey  "ฟ">
 <!ENTITY cmd.new_separator.label           "ตัวแบ่งใหม่">
-<!ENTITY cmd.new_separator.accesskey       "S">
+<!ENTITY cmd.new_separator.accesskey       "บ">
 
 <!ENTITY cmd.reloadLivebookmark.label      "โหลดที่คั่นหน้าสดใหม่">
 <!ENTITY cmd.reloadLivebookmark.accesskey  "R">
 
 <!ENTITY cmd.moveBookmarks.label                  "ย้าย…">
-<!ENTITY cmd.moveBookmarks.accesskey              "M">
+<!ENTITY cmd.moveBookmarks.accesskey              "ย">
 
 <!ENTITY col.name.label          "ชื่อ">
 <!ENTITY col.tags.label          "ป้ายกำกับ">
@@ -86,12 +86,12 @@
 <!ENTITY col.lastmodified.label  "เปลี่ยนแปลงล่าสุด">
 
 <!ENTITY search.label                              "ค้นหา:">
-<!ENTITY search.accesskey                          "S">
+<!ENTITY search.accesskey                          "ค">
 
 <!ENTITY cmd.find.key  "f">
 
 <!ENTITY maintenance.label      "นำเข้าและสำรองข้อมูล">
-<!ENTITY maintenance.accesskey  "I">
+<!ENTITY maintenance.accesskey  "น">
 <!ENTITY maintenance.tooltip    "นำเข้าและสำรองที่คั่นหน้าของคุณ">
 
 <!ENTITY backButton.tooltip  "ย้อนกลับ">
@@ -105,9 +105,9 @@
 <!ENTITY detailsPane.selectAnItemText.description "เลือกรายการเพื่อดูและแก้ไขคุณสมบัติ">
 
 <!ENTITY find.label               "ค้นหา:">
-<!ENTITY find.accesskey           "S">
+<!ENTITY find.accesskey           "ค">
 <!ENTITY view.label               "มุมมอง">
-<!ENTITY view.accesskey           "w">
+<!ENTITY view.accesskey           "ม">
 <!ENTITY byDate.label             "ตามวันที่">
 <!ENTITY byDate.accesskey         "D">
 <!ENTITY bySite.label             "ตามไซต์">

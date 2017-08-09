@@ -7,24 +7,24 @@
 <!ENTITY engine.bookmarks.label     "Záložky">
 <!ENTITY engine.bookmarks.accesskey "Z">
 <!ENTITY engine.tabs.label2         "Otevřené panely">
-<!ENTITY engine.tabs.accesskey      "P">
-<!ENTITY engine.history.label       "Historie">
-<!ENTITY engine.history.accesskey   "H">
-<!ENTITY engine.passwords.label     "Hesla">
-<!ENTITY engine.passwords.accesskey "e">
+<!ENTITY engine.tabs.accesskey      "t">
+<!ENTITY engine.history.label       "Historii">
+<!ENTITY engine.history.accesskey   "r">
+<!ENTITY engine.logins.label        "Přihlašovací údaje">
+<!ENTITY engine.logins.accesskey    "l">
 <!ENTITY engine.prefs.label         "Předvolby">
-<!ENTITY engine.prefs.accesskey     "v">
+<!ENTITY engine.prefs.accesskey     "P">
 <!ENTITY engine.addons.label        "Doplňky">
 <!ENTITY engine.addons.accesskey    "D">
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Název zařízení">
-<!ENTITY changeSyncDeviceName.label "Změnit název zařízení…">
-<!ENTITY changeSyncDeviceName.accesskey "m">
+<!ENTITY changeSyncDeviceName2.label "Změnit název zařízení…">
+<!ENTITY changeSyncDeviceName2.accesskey "m">
 <!ENTITY cancelChangeSyncDeviceName.label "Zrušit">
-<!ENTITY cancelChangeSyncDeviceName.accesskey "r">
+<!ENTITY cancelChangeSyncDeviceName.accesskey "u">
 <!ENTITY saveChangeSyncDeviceName.label "Uložit">
-<!ENTITY saveChangeSyncDeviceName.accesskey "U">
+<!ENTITY saveChangeSyncDeviceName.accesskey "l">
 
 <!-- Footer stuff -->
 <!ENTITY prefs.tosLink.label        "Podmínky služby">
@@ -52,10 +52,10 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "Změnit profilový obrázek">
 <!ENTITY verifiedManage.label        "Spravovat účet">
 <!ENTITY verifiedManage.accesskey    "S">
-<!ENTITY disconnect.label            "Odpojit…">
-<!ENTITY disconnect.accesskey        "d">
+<!ENTITY disconnect3.label           "Odpojit…">
+<!ENTITY disconnect3.accesskey       "d">
 <!ENTITY verify.label                "Ověřit e-mail">
-<!ENTITY verify.accesskey            "t">
+<!ENTITY verify.accesskey            "v">
 <!ENTITY forget.label                "Zapomenout tento e-mail">
 <!ENTITY forget.accesskey            "a">
 
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "Přihlásit se">
 <!ENTITY signedOut.accountBox.signin.accesskey  "i">
 
-<!ENTITY signedIn.engines.label       "Synchronizace napříč všemi zařízeními">
+<!ENTITY signedIn.settings.label       "Nastavení synchronizace">
+<!ENTITY signedIn.settings.description "Vyberte, co má &brandShortName; na vašich zařízeních synchronizovat.">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

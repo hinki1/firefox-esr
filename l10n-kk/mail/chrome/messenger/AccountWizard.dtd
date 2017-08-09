@@ -20,8 +20,8 @@
 <!-- Entities for Identity page -->
 
 
-<!ENTITY identityTitle.label "Идентификация">
-<!ENTITY identityDesc.label "Әр тіркелгінің анықтауыш ақпараты бар, ол арқылы басқа адамдар сіздің хабарламаларыңызда алған кезде сізді таниды.">
+<!ENTITY identityTitle.label "Жеке мәліметтер">
+<!ENTITY identityDesc.label "Әр тіркелгінің жеке мәліметтері бар, ол арқылы басқа адамдар сіздің хабарламаларыңызда алған кезде сізді таниды.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 
 <!ENTITY fullnameDesc.label "Шығыс хабарламарыңыздың &quot;Кімнен&quot; өрісінде көрсеткіңіз келетін атыңызды енгізіңіз">
@@ -51,7 +51,7 @@
 <!ENTITY portNum.label "Порт:">
 <!ENTITY portNum.accesskey "о">
 <!ENTITY defaultPortLabel.label "Бастапқы:">
-<!ENTITY defaultPortValue.label "">
+<!ENTITY defaultPortValue.label "‌">
 <!-- LOCALIZATION NOTE (incomingServerNameDesc.label) : Do not translate "&quot;pop.example.net&quot;" in below line -->
 <!ENTITY incomingServer.description "Кіріс пошта сервер атын көрсетіңіз (мысалы, &quot;mail.example.net&quot;).">
 <!ENTITY incomingServer.label "Кіріс пошта сервері:">

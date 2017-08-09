@@ -6,7 +6,7 @@
 
 <!ENTITY generalTab.label                "Жалпы">
 
-<!ENTITY accessibility.label             "Кеңейтілген мүмкіндіктері">
+<!ENTITY accessibility.label             "Қолжетерлілік">
 
 <!ENTITY useCursorNavigation.label       "Парақтарға навигация жасау үшін әрқашан курсор батырмаларын қолдану">
 <!ENTITY useCursorNavigation.accesskey   "н">
@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "в">
 <!ENTITY useSmoothScrolling.label        "Тегіс айналдыруды қолдану">
 <!ENTITY useSmoothScrolling.accesskey    "е">
-<!ENTITY allowHWAccel.label              "Қолжетерлік болса құрылғылық үдетуді қолдану">
-<!ENTITY allowHWAccel.accesskey          "д">
 <!ENTITY checkUserSpelling.label         "Мәтін терілген кезде орфографияны тексеру">
 <!ENTITY checkUserSpelling.accesskey     "о">
 
@@ -61,7 +59,7 @@
 <!ENTITY siteData.label                  "Сайт деректері">
 <!ENTITY clearSiteData.label             "Барлық деректерді тазарту">
 <!ENTITY clearSiteData.accesskey         "з">
-<!ENTITY siteDataSettings.label          "Баптаулаур…">
+<!ENTITY siteDataSettings.label          "Баптаулар…">
 <!ENTITY siteDataSettings.accesskey      "п">
 <!ENTITY siteDataLearnMoreLink.label     "Көбірек білу">
 <!-- LOCALIZATION NOTE:
@@ -82,24 +80,38 @@
 <!ENTITY overrideSmartCacheSize.accesskey "м">
 
 <!ENTITY updateTab.label                 "Жаңартулар">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 
 <!ENTITY updateApplication.label         "&brandShortName; жаңартулары">
-<!ENTITY updateAuto1.label               "Жаңартуларды автоматты түрде орнату (ұсынылады: қауіпсіздікті арттырады)">
-<!ENTITY updateAuto1.accesskey           "а">
-<!ENTITY updateCheckChoose.label         "Жаңартуларды тексеру, бірақ орнату уақытын өзін тандайсын">
-<!ENTITY updateCheckChoose.accesskey     "н">
-<!ENTITY updateManual.label              "Жаңартуларды тексермеу (ұсынылмайды: қауіпсіздік төмендейді)">
-<!ENTITY updateManual.accesskey          "р">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Нұсқасы ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "&brandShortName; үшін рұқсат ету">
+<!ENTITY updateAuto2.label               "Жаңартуларды автоматты түрде орнату (қауіпсіздікті арттыру мақсатында ұсынылады)">
+<!ENTITY updateAuto2.accesskey           "а">
+<!ENTITY updateCheckChoose2.label        "Жаңартуларды тексеру, бірақ орнату керектігін өзіңіз тандайсыз">
+<!ENTITY updateCheckChoose2.accesskey    "з">
+<!ENTITY updateManual2.label             "Жаңартуларды тексермеу (ұсынылмайды)">
+<!ENTITY updateManual2.accesskey         "р">
 
-<!ENTITY updateHistory.label             "Жаңартулар тарихын көрсету">
-<!ENTITY updateHistory.accesskey         "р">
+<!ENTITY updateHistory2.label            "Жаңартулар тарихын көрсету…">
+<!ENTITY updateHistory2.accesskey        "р">
 
 <!ENTITY useService.label                "Жаңартуларды орнату үшін фон қызметін қолдану">
 <!ENTITY useService.accesskey            "ф">
 
-<!ENTITY autoUpdateOthers.label          "Автожаңарту">
-<!ENTITY enableSearchUpdate.label        "Іздеу плагиндері үшін">
-<!ENTITY enableSearchUpdate.accesskey    "п">
+<!ENTITY enableSearchUpdate2.label       "Іздеу жүйелерін автожаңарту">
+<!ENTITY enableSearchUpdate2.accesskey   "а">
+
+<!ENTITY reports.label                   "Есептемелер">
 
 <!ENTITY offlineStorageNotify.label               "Веб-сайт дербес режимде қолданылатын мәліметтерді сақтауды сұраса, сені ескерту">
 <!ENTITY offlineStorageNotify.accesskey           "р">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Дербес режимдегі веб-сайттардың ақпаратын өшіру">
 
 <!ENTITY certificateTab.label            "Сертификаттар">
-<!ENTITY certPersonal.label              "Сұранымдар">
-<!ENTITY certPersonal.description        "Егерде сервер сіздің жеке сертификатыңызды сұраса:">
+<!ENTITY certPersonal2.description       "Егерде сервер сіздің жеке сертификатыңызды сұраса">
 <!ENTITY selectCerts.auto                "Мені сұрамай-ақ жіберу">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "Әрбір ретте cізден сұрау">
@@ -125,3 +136,16 @@
 <!ENTITY viewCerts.accesskey             "С">
 <!ENTITY viewSecurityDevices.label       "Қауіпсіздік құрылғылары">
 <!ENTITY viewSecurityDevices.accesskey   "ы">
+
+<!ENTITY performance.label               "Өнімділік">
+<!ENTITY useRecommendedPerformanceSettings2.label "Ұсынылатын өнімділік баптауларын қолдану">
+<!ENTITY useRecommendedPerformanceSettings2.description "Бұл баптаулар сіздің компьютеріңіздің құрылғылары және операциялық жүйесі үшін ыңғайлатылған.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey "д">
+<!ENTITY performanceSettingsLearnMore.label "Көбірек білу">
+<!ENTITY limitContentProcessOption.label "Құрама процестерінің шегі">
+<!ENTITY limitContentProcessOption.description "Қосымша құрама процестері бірнеше беттерді қолдану кезінде өнімділікті арттыра алады, бірақ, нәтижесінде көбірек жады қолданылады.">
+<!ENTITY limitContentProcessOption.accesskey   "ш">
+<!ENTITY limitContentProcessOption.disabledDescription "Процесстер санын түзету тек көппроцесстік &brandShortName; үшін мүмкін.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink "Көппроцесстік іске қосылғанын қалай білуге болады">
+<!ENTITY allowHWAccel.label              "Қолжетерлік болса құрылғылық үдетуді қолдану">
+<!ENTITY allowHWAccel.accesskey          "д">

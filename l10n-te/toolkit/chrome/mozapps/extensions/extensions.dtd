@@ -82,7 +82,7 @@
 <!ENTITY cmd.findUpdates.accesskey            "F">
 <!ENTITY cmd.preferencesWin.label             "ఎంపికలు">
 <!ENTITY cmd.preferencesWin.accesskey         "O">
-<!ENTITY cmd.preferencesUnix.label            "అభీష్టాలు">
+<!ENTITY cmd.preferencesUnix.label            "అభిరుచులు">
 <!ENTITY cmd.preferencesUnix.accesskey        "P">
 <!ENTITY cmd.about.label                      "గురించి">
 <!ENTITY cmd.about.accesskey                  "A">
@@ -108,7 +108,7 @@
 <!ENTITY cmd.uninstallAddon.accesskey         "R">
 <!ENTITY cmd.showPreferencesWin.label         "ఎంపికలు">
 <!ENTITY cmd.showPreferencesWin.tooltip       "ఈ పొడిగింత యొక్క ఎంపికలను మార్చు">
-<!ENTITY cmd.showPreferencesUnix.label        "అభీష్టాలు">
+<!ENTITY cmd.showPreferencesUnix.label        "అభిరుచులు">
 <!ENTITY cmd.showPreferencesUnix.tooltip      "ఈ పొడిగింత యొక్క అభీష్టాలను మార్చు">
 <!ENTITY cmd.contribute.label                 "తోడ్పడండి">
 <!ENTITY cmd.contribute.accesskey             "C">
@@ -118,6 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "ఈ నవీకరణ కొరకు విడుదల నోట్స్ చూపు">
 <!ENTITY cmd.hideReleaseNotes.label           "విడుదల నోట్స్ మరుగుపరచు">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "ఈ నవీకరణ కొరకు విడుదల నోట్స్ మరుగుపరచు">
+<!ENTITY cmd.findReplacement.label            "ప్రత్యామ్నాయాన్ని కనుగొనండి">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
@@ -153,7 +154,7 @@
 <!ENTITY detail.showPreferencesWin.label      "ఎంపికలు">
 <!ENTITY detail.showPreferencesWin.accesskey  "O">
 <!ENTITY detail.showPreferencesWin.tooltip    "ఈ పొడిగింత యొక్క ఎంపికలను మార్చు">
-<!ENTITY detail.showPreferencesUnix.label     "అభీష్టాలు">
+<!ENTITY detail.showPreferencesUnix.label     "అభిరుచులు">
 <!ENTITY detail.showPreferencesUnix.accesskey "P">
 <!ENTITY detail.showPreferencesUnix.tooltip   "ఈ పొడిగింత యొక్క అభీష్టాలను మార్చు">
 
@@ -186,6 +187,10 @@
 <!ENTITY addon.details.label                  "ఇంకా">
 <!ENTITY addon.details.tooltip                "ఈ పొడిగింత గురించి మరిన్ని వివరములను చూపు">
 <!ENTITY addon.unknownDate                    "తెలియని">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "సాంప్రదాయకం">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -250,3 +255,8 @@
 
 <!ENTITY pluginDeprecation.description "ఏదైనా లేదా? కొన్ని ప్లగిన్లకు &brandShortName; ఇకపై తోడ్పాటు లేదు.">
 <!ENTITY pluginDeprecation.learnMore "మరింత తెలుసుకోండి.">
+
+<!ENTITY legacyWarning.description "ఏదైనా లేదా? కొన్ని పొడగింతలను &brandShortName; ఇకపై తోడ్పాటు లేదు.">
+<!ENTITY legacyWarning.showLegacy "లెగసీ పొడగింతలను చూపించు">
+<!ENTITY legacyExtensions.title "లెగసీ ఎక్స్టెన్షన్స్">
+<!ENTITY legacyExtensions.learnMore "యాడ్-ఆన్ల మార్పుల గురించి తెలుసుకోండి">

@@ -2,7 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "İzlənmə Qoruması istifadə et">
+<!ENTITY  trackingProtectionHeader2.label      "İzlənmə Qoruması">
+<!ENTITY  trackingProtection.description       "İzləmə şirkətlərin internetdə gəzməyiniz və məxfi məlumatlarınız ilə haqqınızda məlumat yığıb, bu məlumatlara əsasən sizə fərqli məzmunlar göstərmələridir.">
+<!ENTITY  trackingProtection.radioGroupLabel   "Bilinən izləmə şirkətlərinin məzmun göstərmələrinin qarşısını al">
 <!ENTITY  trackingProtectionAlways.label       "Həmişə">
 <!ENTITY  trackingProtectionAlways.accesskey   "H">
 <!ENTITY  trackingProtectionPrivate.label      "Ancaq Məxfi Pəncərələrdə">
@@ -30,7 +32,7 @@
 
 <!ENTITY  locationBar.label             "Ünvan sətiri">
 
-<!ENTITY  locbar.suggest.label          "Ünvan sətirindən istifadə edərkən təklif et:">
+<!ENTITY  locbar.suggest2.label         "Ünvan sətrindən istifadə edərkən, təklif et">
 <!ENTITY  locbar.history.label          "Tarixçə">
 <!ENTITY  locbar.history.accesskey      "T">
 <!ENTITY  locbar.bookmarks.label        "Əlfəcinlər">
@@ -40,8 +42,7 @@
 <!ENTITY  locbar.searches.label         "Əsas axtarış mühərrikindən uyğun axtarışlar">
 <!ENTITY  locbar.searches.accesskey     "y">
 
-<!ENTITY  suggestionSettings.label      "Axtarış mühərriyi təklifləri üçün nizamlamaları dəyiş…">
-<!ENTITY  suggestionSettings.accesskey  "m">
+<!ENTITY  suggestionSettings2.label     "Axtarış mühərriyi təklifləri üçün nizamlamaları dəyiş">
 
 <!ENTITY  acceptCookies.label           "Saytlardan çərəzləri qəbul et">
 <!ENTITY  acceptCookies.accesskey       "e">
@@ -64,11 +65,11 @@
 <!ENTITY  showCookies.label             "Çərəzləri Göstər…">
 <!ENTITY  showCookies.accesskey         "G">
 
-<!ENTITY  historyHeader.pre.label          "&brandShortName; səyyahı:">
-<!ENTITY  historyHeader.pre.accesskey      "h">
-<!ENTITY  historyHeader.remember.label     "Tarixçəni xatırla">
-<!ENTITY  historyHeader.dontremember.label "Tarixçəni heç vaxt xatırlama">
-<!ENTITY  historyHeader.custom.label       "Tarixçə üçün sizin seçimləriniz istifadə edilsin">
+<!ENTITY  historyHeader2.pre.label         "&brandShortName; səyyahı">
+<!ENTITY  historyHeader2.pre.accesskey     "w">
+<!ENTITY  historyHeader.remember.label     "Tarixçəni xatırlayacaq">
+<!ENTITY  historyHeader.dontremember.label "Tarixçəni heç vaxt xatırlamayacaq">
+<!ENTITY  historyHeader.custom.label       "Tarixçə üçün sizin seçimləriniz istifadə edəcək">
 <!ENTITY  historyHeader.post.label         "">
 
 <!ENTITY  rememberDescription.label      "&brandShortName; sizin səyahət, endirmə, forma və axtarış tarixçənizi xatırlayacaq, və daxil olduğunuz veb saytlardan çərəzləri saxlayacaq.">

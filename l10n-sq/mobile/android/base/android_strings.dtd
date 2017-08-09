@@ -75,6 +75,7 @@
 <!ENTITY bookmark_removed "Faqerojtësi u hoq">
 <!ENTITY bookmark_updated "Faqeruajtësi u përditësua">
 <!ENTITY bookmark_options "Mundësi">
+<!ENTITY bookmark_save "Ruaje">
 <!ENTITY screenshot_added_to_bookmarks "Fotoja e ekranit u shtua te faqerojtësit">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
@@ -86,6 +87,8 @@
      in the folder. -->
 <!ENTITY bookmark_folder_items "&formatD; objekte">
 <!ENTITY bookmark_folder_one_item "1 objekt">
+<!ENTITY bookmark_parent_folder "Dosja Mëmë">
+<!ENTITY bookmark_add_folder "Shtoni dosje të re">
 
 <!ENTITY reader_saved_offline "U ruajt offline">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -214,6 +217,9 @@
 <!ENTITY pref_home_updates_enabled "Të aktivizuara">
 <!ENTITY pref_home_updates_wifi "Vetëm përmes Wi-Fi">
 <!ENTITY pref_category_home_homepage "Kreu">
+<!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
+     home page will be use in every new tab. -->
+<!ENTITY home_homepage_every_new_tab "Përdorim edhe për skeda të reja">
 <!ENTITY home_homepage_title "Vëre si Kreun">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
@@ -282,6 +288,12 @@
      For more see: https://developer.chrome.com/multidevice/android/customtabs -->
 <!ENTITY pref_custom_tabs "Skeda Vetjake">
 <!ENTITY pref_custom_tabs_summary3 "Lejojuni aplikacioneve të hapin sajte duke përdorur një version të përshtatur të &brandShortName;-ut">
+<!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
+     default browser from user's preference, such as "Open in Firefox" -->
+<!ENTITY custom_tabs_menu_item_open_in "Hape në &formatS;">
+<!ENTITY custom_tabs_menu_footer "Bazuar në &brandShortName;">
+<!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
+<!ENTITY custom_tabs_hint_url_copy "URL-ja u kopjua">
 
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Rrjedhë Veprimtarie">
@@ -351,26 +363,14 @@
 <!ENTITY pref_plugins_enabled "Të aktivizuara">
 <!ENTITY pref_plugins_tap_to_play2 "Prekeni që të luhet">
 <!ENTITY pref_plugins_disabled "E çaktivizuar">
-<!ENTITY pref_text_size "Madhësi teksti">
 <!ENTITY pref_restore_tabs "Rikthe skeda">
 <!ENTITY pref_restore_always "Riktheji përherë">
 <!ENTITY pref_restore_quit "Mos i rikthe pas daljes nga &brandShortName;-u">
-<!ENTITY pref_font_size_tiny "Shumë të vogla">
-<!ENTITY pref_font_size_small "Të vogla">
-<!ENTITY pref_font_size_medium "Të mesme">
-<!ENTITY pref_font_size_large "Të mëdha">
-<!ENTITY pref_font_size_xlarge "Shumë të mëdha">
-<!ENTITY pref_font_size_set "Vendosi">
-<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
-(or combination of characters) is used to decrease the preview font size; a larger version of the
-same character/combination is used to increase the preview font size. It should be a concise
-representation of the language it is used in that will help show the text in the preview will change
-size. -->
-<!ENTITY pref_font_size_adjust_char "Ë">
 
-<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
-    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
-<!ENTITY pref_font_size_preview_text "Dhelpra e shpejtë ngjyrë portokalli kërcen më lart se çka prisnit, me më shumë shpejtësi, më tepër zhdërvjelltësi dhe më tepër siguri. Si një organizëm jofitimprurës, jemi të lirë të sjellim për ju risi, pa trysni për komprometim. Kjo përkthehet në punim më të mirë për ju dhe të ardhme më të ndritur për Web-in.">
+<!-- Localization note (pref_use_system_font_size, pref_use_system_font_size_summary):
+     Font size here refers to the name of the corresponding Android system setting. -->
+<!ENTITY pref_use_system_font_size "Përdor madhësi shkronjash të sistemit">
+<!ENTITY pref_use_system_font_size_summary "Ripërmasoje lëndën web sipas madhësisë së shkronjave të sistemit">
 
 <!ENTITY pref_media_autoplay_enabled "Lejo vetëluajtje">
 <!ENTITY pref_media_autoplay_enabled_summary "Kontrollo nëse sajtet mund të vetëluajnë video dhe tjetër lëndë media">
@@ -501,6 +501,7 @@ size. -->
 <!ENTITY contextmenu_open_private_tab "Hape në Skedë Private">
 <!ENTITY contextmenu_remove "Hiqe">
 <!ENTITY contextmenu_add_to_launcher "Shtoje te Skena Hyrëse">
+<!ENTITY contextmenu_set_as_homepage "Vëre si Kreun">
 <!ENTITY contextmenu_share "Ndajeni me të tjerët">
 <!ENTITY contextmenu_pasteandgo "Ngjite &amp; Shko Atje">
 <!ENTITY contextmenu_paste "Ngjite">
@@ -526,11 +527,6 @@ size. -->
 <!ENTITY doorhanger_login_select_action_text "Përzgjidh të tjera kredenciale hyrjeje">
 <!ENTITY doorhanger_login_select_title "Kopjoje fjalëkalimin prej">
 
-<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
-     whether or not the magnifying glass is disabled. -->
-<!ENTITY pref_magnifying_glass_enabled "Zmadho zona të vogla">
-<!ENTITY pref_magnifying_glass_enabled_summary2 "Zmadho lidhje dhe fusha formularësh kur preket afër tyre">
-
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
 <!ENTITY pref_scroll_title_bar2 "Shfletim në ekran të plotë">
@@ -553,6 +549,7 @@ size. -->
 <!ENTITY bookmark_edit_name "Emër">
 <!ENTITY bookmark_edit_location "Vend">
 <!ENTITY bookmark_edit_keyword "Fjalëkyç">
+<!ENTITY bookmark_select_folder "Përzgjidhni dosje">
 
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
@@ -736,14 +733,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY ellipsis "…">
 
 <!ENTITY colon ":">
-
-<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
-     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
-     This format string is typically used by getString method, in such method the percent sign
-     is a reserved caracter. In order to display one percent sign in the result of getString,
-     double percent signs must be inserted in the format string.
-     This entity is used in the zoomed view to display the zoom factor-->
-<!ENTITY percent "&formatS;&#37;&#37;">
 
 <!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->

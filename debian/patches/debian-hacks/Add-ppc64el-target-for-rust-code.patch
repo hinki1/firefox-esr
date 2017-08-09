@@ -7,10 +7,10 @@ Subject: Add ppc64el target for rust code
  1 file changed, 1 insertion(+)
 
 diff --git a/build/moz.configure/rust.configure b/build/moz.configure/rust.configure
-index 267d989f1597..bbcb729b8623 100644
+index 3443ec15d0d4..989caeba485a 100644
 --- a/build/moz.configure/rust.configure
 +++ b/build/moz.configure/rust.configure
-@@ -150,6 +150,7 @@ def rust_triple_alias(host_or_target):
+@@ -151,6 +151,7 @@ def rust_triple_alias(host_or_target):
              ('sparc64', 'Linux'): 'sparc64-unknown-linux-gnu',
              ('x86', 'Linux'): 'i686-unknown-linux-gnu',
              ('x86_64', 'Linux'): 'x86_64-unknown-linux-gnu',

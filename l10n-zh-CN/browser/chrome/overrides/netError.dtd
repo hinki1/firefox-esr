@@ -64,10 +64,10 @@
 </ul>">
 
 <!ENTITY contentEncodingError.title "内容编码错误">
-<!ENTITY contentEncodingError.longDesc "<ul><li>请联系此网站的管理员并告知此问题。</li></ul>">
+<!ENTITY contentEncodingError.longDesc "<ul><li>建议向此网站的管理员反馈这个问题。</li></ul>">
 
 <!ENTITY unsafeContentType.title "不安全的文件类型">
-<!ENTITY unsafeContentType.longDesc "<ul><li>请联系此网站的管理员并告知此问题。</li></ul>">
+<!ENTITY unsafeContentType.longDesc "<ul><li>建议向此网站的管理员反馈这个问题。</li></ul>">
 
 <!ENTITY netReset.title "连接被重置">
 <!ENTITY netReset.longDesc "&sharedLongDesc;">
@@ -97,8 +97,8 @@
 
 <!ENTITY nssFailure2.title "建立安全连接失败">
 <!ENTITY nssFailure2.longDesc2 "<ul> 
-<li>由于不能验证所接收资料的真实性，无法显示您想要查看的页面。</li> 
-<li>请联系此网站的所有者并告知此问题。</li> 
+<li>由于不能验证所收到的数据是否可信，无法显示您想要查看的页面。</li> 
+<li>建议向此网站的管理员反馈这个问题。</li> 
 </ul>">
 
 <!ENTITY certerror.longpagetitle1 "您的连接并不安全">
@@ -108,7 +108,7 @@ was trying to connect. -->
 <!ENTITY certerror.introPara "<span class='hostname'/> 的网站管理员未正确配置网站。为避免您的信息被窃，&brandShortName; 没有与该网站建立连接。">
 
 <!ENTITY sharedLongDesc "<ul> 
-<li>此站点暂时不可用或者太过忙碌。请稍后再试。</li> 
+<li>此站点暂时无法使用或者太过忙碌。请过几分钟后再试。</li> 
 <li>如果您无法载入任何网页，请检查您计算机的网络连接状态。</li> 
 <li>如果您的计算机或网络受到防火墙或者代理服务器的保护，请确认 &brandShortName; 已被授权访问网络。</li> 
 </ul>">
@@ -117,12 +117,12 @@ was trying to connect. -->
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; 已按该页面包含的内容安全策略阻止其以此种方式加载。</p>">
 
 <!ENTITY corruptedContentErrorv2.title "内容损坏错误">
-<!ENTITY corruptedContentErrorv2.longDesc "<p>由于检测到在数据传输过程中存在错误，无法显示您正要查看的页面。</p><ul><li>请联系此网站的管理员并告知此问题。</li></ul>">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>由于检测到在数据传输过程中存在错误，无法显示您正要查看的页面。</p><ul><li>建议向此网站的管理员反馈这个问题。</li></ul>">
 
 
 <!ENTITY securityOverride.exceptionButtonLabel "添加例外…">
 
-<!ENTITY errorReporting.automatic2 "报告此类错误，帮助 Mozilla 识别并拦截恶意网站">
+<!ENTITY errorReporting.automatic2 "反馈此类错误，帮助 Mozilla 识别并拦截恶意网站">
 <!ENTITY errorReporting.learnMore "详细了解…">
 
 <!ENTITY remoteXUL.title "远程 XUL">

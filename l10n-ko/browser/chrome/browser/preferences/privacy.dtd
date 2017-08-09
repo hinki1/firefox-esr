@@ -2,10 +2,12 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "추적 방지 사용">
+<!ENTITY  trackingProtectionHeader2.label      "추적 방지">
+<!ENTITY  trackingProtection.description       "추적 방지는 웹 페이지 공급자가 접속자의 프로필을 만들기 위해 정보를 수집하고 개인의 웹 서핑 기록과 데이터를 기반으로 해서 웹 콘텐츠를 보여주는 것을 차단하고자 할 때 사용됩니다.">
+<!ENTITY  trackingProtection.radioGroupLabel   "콘텐츠를 띄울 때 추적을 하는 것으로 알려진 회사 막기">
 <!ENTITY  trackingProtectionAlways.label       "항상 사용하기">
 <!ENTITY  trackingProtectionAlways.accesskey   "y">
-<!ENTITY  trackingProtectionPrivate.label      "사생활 보호 창에서만 사용">
+<!ENTITY  trackingProtectionPrivate.label      "사생활 보호 창에서만 사용하기">
 <!ENTITY  trackingProtectionPrivate.accesskey  "y">
 <!ENTITY  trackingProtectionNever.label        "항상 사용하지 않기">
 <!ENTITY  trackingProtectionNever.accesskey    "n">
@@ -22,7 +24,7 @@
 
 <!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
-<!ENTITY  doNotTrack.pre.label          "당신은 또한 ">
+<!ENTITY  doNotTrack.pre.label          "또한 ">
 <!ENTITY  doNotTrack.settings.label     "추적 차단 기능">
 <!ENTITY  doNotTrack.post.label         "을 관리할 수 있습니다.">
 
@@ -30,18 +32,17 @@
 
 <!ENTITY  locationBar.label             "주소창">
 
-<!ENTITY  locbar.suggest.label          "주소창에 표시할 추천 항목:">
-<!ENTITY  locbar.history.label          "방문 기록만">
+<!ENTITY  locbar.suggest2.label         "주소창에 무언가를 치고 있을 때 다음을 제안합니다.">
+<!ENTITY  locbar.history.label          "방문 기록">
 <!ENTITY  locbar.history.accesskey      "H">
-<!ENTITY  locbar.bookmarks.label        "북마크만">
+<!ENTITY  locbar.bookmarks.label        "북마크">
 <!ENTITY  locbar.bookmarks.accesskey    "k">
 <!ENTITY  locbar.openpage.label         "탭 열기">
 <!ENTITY  locbar.openpage.accesskey     "O">
 <!ENTITY  locbar.searches.label         "기본 검색 엔진에서 가져온 관련 검색어">
 <!ENTITY  locbar.searches.accesskey     "d">
 
-<!ENTITY  suggestionSettings.label      "검색 엔진 추천 설정 변경…">
-<!ENTITY  suggestionSettings.accesskey  "g">
+<!ENTITY  suggestionSettings2.label     "검색 엔진 추천 설정 변경">
 
 <!ENTITY  acceptCookies.label           "웹 사이트에서 제공하는 쿠키 허용">
 <!ENTITY  acceptCookies.accesskey       "A">
@@ -64,11 +65,11 @@
 <!ENTITY  showCookies.label             "쿠키 보기…">
 <!ENTITY  showCookies.accesskey         "S">
 
-<!ENTITY  historyHeader.pre.label          "&brandShortName; 작업 사항:">
-<!ENTITY  historyHeader.pre.accesskey      "w">
-<!ENTITY  historyHeader.remember.label     "방문 기록 저장">
-<!ENTITY  historyHeader.dontremember.label "방문 기록 저장 안 함">
-<!ENTITY  historyHeader.custom.label       "사용자 정의 설정">
+<!ENTITY  historyHeader2.pre.label         "&brandShortName;의 방문 기록을">
+<!ENTITY  historyHeader2.pre.accesskey     "w">
+<!ENTITY  historyHeader.remember.label     "남기기">
+<!ENTITY  historyHeader.dontremember.label "날리기">
+<!ENTITY  historyHeader.custom.label       "이렇게 하기">
 <!ENTITY  historyHeader.post.label         "">
 
 <!ENTITY  rememberDescription.label      "&brandShortName;는 웹 사이트 방문, 다운로드, 입력 및 검색 기록, 방문한 웹사이트가 제공한 쿠키 등을 저장합니다.">

@@ -7,7 +7,7 @@ Subject: Add a 2 minutes timeout on xpcshell tests
  1 file changed, 18 insertions(+), 3 deletions(-)
 
 diff --git a/testing/xpcshell/runxpcshelltests.py b/testing/xpcshell/runxpcshelltests.py
-index df90356d1f65..ed952f3b1c98 100755
+index f847882531a3..65a7e9a64f1e 100755
 --- a/testing/xpcshell/runxpcshelltests.py
 +++ b/testing/xpcshell/runxpcshelltests.py
 @@ -14,6 +14,7 @@ import os
@@ -18,7 +18,7 @@ index df90356d1f65..ed952f3b1c98 100755
  import shutil
  import signal
  import sys
-@@ -690,9 +691,23 @@ class XPCShellTestThread(Thread):
+@@ -694,9 +695,23 @@ class XPCShellTestThread(Thread):
              if self.interactive:
                  self.log.info("%s | Process ID: %d" % (name, self.proc_ident))
  

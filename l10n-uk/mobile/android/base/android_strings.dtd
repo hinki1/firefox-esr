@@ -10,12 +10,12 @@
 <!ENTITY firstrun_bookmarks_message "Ваші закладки прямо перед вами">
 <!ENTITY firstrun_bookmarks_subtext "Отримуйте результати зі своїх закладок та історії під час пошуку.">
 <!ENTITY firstrun_data_title "Дані">
-<!ENTITY firstrun_data_message "Менше даних, більше економії">
-<!ENTITY firstrun_data_subtext2 "Вимкніть зображення на відвідуваних сайтах для зменшення витрати даних.">
+<!ENTITY firstrun_data_message "Менше даних, більше заощаджень">
+<!ENTITY firstrun_data_subtext2 "Вимкніть зображення на відвідуваних сайтах, щоб зменшити споживання даних.">
 <!ENTITY firstrun_sync_title "Синхронізація">
-<!ENTITY firstrun_sync_message "&brandShortName;, завжди поруч з вами">
+<!ENTITY firstrun_sync_message "&brandShortName; завжди поруч з вами">
 <!ENTITY firstrun_sync_subtext "Синхронізуйте свої вкладки, паролі й інші дані всюди, де ви їх використовуєте.">
-<!ENTITY firstrun_signin_message "Підключайтеся й починайте">
+<!ENTITY firstrun_signin_message "Під’єднайтесь і вперед">
 <!ENTITY firstrun_signin_button "Увійти до Синхронізації">
 <!ENTITY  onboard_start_button_browser "Почати перегляд">
 <!ENTITY firstrun_button_notnow "Не зараз">
@@ -23,7 +23,7 @@
 
 <!ENTITY firstrun_tabqueue_title "Посилання">
 <!-- Localization note (firstrun_tabqueue_message): 'Tab queue' is a feature that allows users to queue up or save links from outside of Firefox (without switching apps) - these links will be loaded in Firefox the next time Firefox is opened. -->
-<!ENTITY firstrun_tabqueue_message_off "Увімкнути чергу вкладок">
+<!ENTITY firstrun_tabqueue_message_off "Увімкніть чергу вкладок">
 <!ENTITY firstrun_tabqueue_subtext_off "Зберігайте посилання на потім в &brandShortName; при відкритті їх з інших програм.">
 
 <!ENTITY firstrun_tabqueue_message_on "Успішно!">
@@ -31,11 +31,11 @@
 
 <!ENTITY firstrun_readerview_title "Статті">
 <!-- Localization note (firstrun_readerview_message): This is a casual way of describing getting rid of unnecessary things, and is referring to simplifying websites so only the article text and images are visible, removing unnecessary headers or ads. -->
-<!ENTITY firstrun_readerview_message "Прибрати сміття">
+<!ENTITY firstrun_readerview_message "Позбавтеся зайвого">
 <!ENTITY firstrun_readerview_subtext "Використовуйте режим читання, щоб зробити статті приємнішими для читання \u2014 навіть в автономному режимі.">
 
 <!-- Localization note (firstrun_devices_title): This is a casual way of addressing the user, somewhat referring to their online identity (which would include other devices, Firefox usage, accounts, etc). -->
-<!ENTITY firstrun_account_title "Ваш">
+<!ENTITY firstrun_account_title "Ви">
 <!ENTITY firstrun_account_message "Маєте &brandShortName; на іншому пристрої?">
 
 <!ENTITY  onboard_start_restricted1 "Залишайтеся в безпеці та на контролі з цією спрощеною версією &brandShortName;.">
@@ -75,6 +75,7 @@
 <!ENTITY bookmark_removed "Закладку вилучено">
 <!ENTITY bookmark_updated "Закладку оновлено">
 <!ENTITY bookmark_options "Налаштування">
+<!ENTITY bookmark_save "Зберегти">
 <!ENTITY screenshot_added_to_bookmarks "Знімок екрану додано до закладок">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
@@ -86,6 +87,8 @@
      in the folder. -->
 <!ENTITY bookmark_folder_items "&formatD; елементів">
 <!ENTITY bookmark_folder_one_item "1 елемент">
+<!ENTITY bookmark_parent_folder "Основна тека">
+<!ENTITY bookmark_add_folder "Додати нову теку">
 
 <!ENTITY reader_saved_offline "Збережено автономно">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -130,7 +133,7 @@
 <!ENTITY settings "Налаштування">
 <!ENTITY settings_title "Налаштування">
 <!ENTITY pref_category_general "Загальні">
-<!ENTITY pref_category_general_summary3 "Початкова сторінка, мова, черга вкладок">
+<!ENTITY pref_category_general_summary3 "Домівка, мова, черга вкладок">
 
 <!-- Localization note (pref_category_language) : This is the preferences
      section in which the user picks the locale in which to display Firefox
@@ -195,10 +198,10 @@
 <!-- Localization note (pref_category_advanced_summary3): “data saver” in this
      context means consuming less data, e.g. by not loading images, not
      “storing data”. -->
-<!ENTITY pref_category_advanced_summary3 "Відновлення вкладок, збереження даних, інструменти розробника">
+<!ENTITY pref_category_advanced_summary3 "Відновлення вкладок, використання даних, інструменти розробника">
 <!ENTITY pref_category_notifications "Сповіщення">
-<!ENTITY pref_category_notifications_summary "Нові можливості, оновлення сайту">
-<!ENTITY pref_content_notifications "Оновлення сайту">
+<!ENTITY pref_category_notifications_summary "Нові можливості, оновлення сайтів">
+<!ENTITY pref_content_notifications "Оновлення сайтів">
 <!ENTITY pref_content_notifications_summary2 "Знаходьте новий вміст з підтримуваних сайтів">
 <!ENTITY pref_developer_remotedebugging_usb "Віддалене зневадження через USB">
 <!ENTITY pref_developer_remotedebugging_wifi "Віддалене зневадження через Wi-Fi">
@@ -206,19 +209,22 @@
 <!ENTITY pref_remember_signons2 "Пам’ятати паролі">
 <!ENTITY pref_manage_logins "Керувати паролями">
 
-<!ENTITY pref_category_home "Початкова сторінка">
-<!ENTITY pref_category_home_summary "Налаштування початкової сторінки">
+<!ENTITY pref_category_home "Домівка">
+<!ENTITY pref_category_home_summary "Налаштування домівки">
 <!ENTITY pref_category_home_panels "Панелі">
 <!ENTITY pref_category_home_add_ons "Додатки">
 <!ENTITY pref_home_updates2 "Оновлення вмісту">
 <!ENTITY pref_home_updates_enabled "Увімкнено">
 <!ENTITY pref_home_updates_wifi "Лише через Wi-Fi">
-<!ENTITY pref_category_home_homepage "Початкова сторінка">
-<!ENTITY home_homepage_title "Встановити початкову сторінку">
+<!ENTITY pref_category_home_homepage "Домівка">
+<!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
+     home page will be use in every new tab. -->
+<!ENTITY home_homepage_every_new_tab "Також для нових вкладок">
+<!ENTITY home_homepage_title "Встановити домівку">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
      button for this string, they will use the built-in default Firefox homepage (about:home). -->
-<!ENTITY home_homepage_radio_default "Початкова сторінка &brandShortName;">
+<!ENTITY home_homepage_radio_default "Домівка &brandShortName;">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
      button for this string, a text field will appear below the radio button and allow the
@@ -249,7 +255,7 @@
 <!-- Localization note (pref_category_data_saver): “data saver” in this
      context means consuming less data, e.g. by not loading images, not
      “storing data”. -->
-<!ENTITY pref_category_data_saver "Збереження даних">
+<!ENTITY pref_category_data_saver "Використання даних">
 <!ENTITY pref_category_media "Медіа">
 <!ENTITY pref_category_developer_tools "Інструменти розробника">
 
@@ -258,7 +264,7 @@
 <!ENTITY pref_tap_to_load_images_data "Лише через Wi-Fi">
 <!ENTITY pref_tap_to_load_images_disabled2 "Заблоковано">
 
-<!ENTITY pref_show_web_fonts "Показувати веб-шрифти">
+<!ENTITY pref_show_web_fonts "Веб-шрифти">
 <!ENTITY pref_show_web_fonts_summary2 "Завантажувати віддалені шрифти при завантаженні сторінки">
 
 <!ENTITY pref_tracking_protection_title2 "Захист від стеження">
@@ -282,10 +288,16 @@
      For more see: https://developer.chrome.com/multidevice/android/customtabs -->
 <!ENTITY pref_custom_tabs "Власні вкладки">
 <!ENTITY pref_custom_tabs_summary3 "Дозволяти додаткам відкривати веб-сайти модифікованою версією &brandShortName;">
+<!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
+     default browser from user's preference, such as "Open in Firefox" -->
+<!ENTITY custom_tabs_menu_item_open_in "Відкрити в &formatS;">
+<!ENTITY custom_tabs_menu_footer "На базі &brandShortName;">
+<!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
+<!ENTITY custom_tabs_hint_url_copy "URL скопійовано">
 
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Потік активності">
-<!ENTITY pref_activity_stream_summary "Розширена візуальна стрічка історії та оновлений вигляд початкової сторінки дозволяють дуже просто знайти саме те, що ви шукаєте в &brandShortName;.">
+<!ENTITY pref_activity_stream_summary "Розширена візуальна стрічка історії та оновлений вигляд домівки дозволяють дуже просто знайти саме те, що ви шукаєте в &brandShortName;.">
 
 <!ENTITY tracking_protection_prompt_title "Тепер із захистом від стеження">
 <!ENTITY tracking_protection_prompt_text "Інтенсивне блокування елементів стеження, отже вам не потрібно хвилюватись.">
@@ -299,7 +311,7 @@
 <!ENTITY tab_queue_prompt_tip_text2 "Ви можете пізніше змінити це в налаштуваннях">
 <!-- Localization note (tab_queue_prompt_permit_drawing_over_apps): This additional text is shown if the
      user needs to enable an Android setting in order to enable tab queues. -->
-<!ENTITY tab_queue_prompt_permit_drawing_over_apps "Увімкнути дозвіл перетягування над іншими програмами">
+<!ENTITY tab_queue_prompt_permit_drawing_over_apps "Увімкніть дозвіл показувати вікна поверх інших програм">
 <!ENTITY tab_queue_prompt_positive_action_button "Увімкнути">
 <!ENTITY tab_queue_prompt_negative_action_button "Не зараз">
 <!-- Localization note (tab_queue_prompt_settings_button): This button is shown if the user needs to
@@ -350,30 +362,18 @@
 <!ENTITY pref_plugins_enabled "Увімкнено">
 <!ENTITY pref_plugins_tap_to_play2 "Торкнутися для відтворення">
 <!ENTITY pref_plugins_disabled "Вимкнено">
-<!ENTITY pref_text_size "Розмір тексту">
 <!ENTITY pref_restore_tabs "Відновлення вкладок">
 <!ENTITY pref_restore_always "Завжди відновлювати">
 <!ENTITY pref_restore_quit "Не відновлювати після виходу з &brandShortName;">
-<!ENTITY pref_font_size_tiny "Дрібний">
-<!ENTITY pref_font_size_small "Малий">
-<!ENTITY pref_font_size_medium "Середній">
-<!ENTITY pref_font_size_large "Великий">
-<!ENTITY pref_font_size_xlarge "Дуже великий">
-<!ENTITY pref_font_size_set "Встановити">
-<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
-(or combination of characters) is used to decrease the preview font size; a larger version of the
-same character/combination is used to increase the preview font size. It should be a concise
-representation of the language it is used in that will help show the text in the preview will change
-size. -->
-<!ENTITY pref_font_size_adjust_char "А">
 
-<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
-    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
-<!ENTITY pref_font_size_preview_text "Швидкий рудий лис перестрибне через ваші очікування з більшою швидкістю, гнучкістю та безпечністю. Як некомерційна організація, ми вільні творити заради вас без потреби йти на компроміси. Ми покращимо вашу роботу в інтернеті та зробимо його майбутнє світлим.">
+<!-- Localization note (pref_use_system_font_size, pref_use_system_font_size_summary):
+     Font size here refers to the name of the corresponding Android system setting. -->
+<!ENTITY pref_use_system_font_size "Системний розмір шрифту">
+<!ENTITY pref_use_system_font_size_summary "Масштабувати веб-вміст згідно з системним розміром шрифту">
 
-<!ENTITY pref_media_autoplay_enabled "Дозволити автовідтворення">
+<!ENTITY pref_media_autoplay_enabled "Автоматичне відтворення">
 <!ENTITY pref_media_autoplay_enabled_summary "Контроль автоматичного відтворення відео та іншого медіа-вмісту веб-сайтами">
-<!ENTITY pref_zoom_force_enabled "Дозволяти змінювати масштаб">
+<!ENTITY pref_zoom_force_enabled "Зміна масштабу">
 <!ENTITY pref_zoom_force_enabled_summary "Ігнорувати налаштування сайтів, щоб ви могли змінювати масштаб будь-якої сторінки">
 <!ENTITY pref_voice_input "Голосове введення">
 <!ENTITY pref_voice_input_summary2 "Дозволити голосове введення в панелі адреси">
@@ -407,8 +407,8 @@ size. -->
 <!ENTITY pref_vendor_faqs "Питання">
 <!ENTITY pref_vendor_feedback "Залишити відгук">
 
-<!ENTITY pref_dialog_set_default "Встановити типовим">
-<!ENTITY pref_dialog_default "Типовий">
+<!ENTITY pref_dialog_set_default "Встановити типово">
+<!ENTITY pref_dialog_default "Типово">
 <!ENTITY pref_dialog_remove "Вилучити">
 
 <!ENTITY pref_search_last_toast "Ви не можете вилучити чи вимкнути ваш останній засіб пошуку.">
@@ -500,6 +500,7 @@ size. -->
 <!ENTITY contextmenu_open_private_tab "Відкрити у приватній вкладці">
 <!ENTITY contextmenu_remove "Вилучити">
 <!ENTITY contextmenu_add_to_launcher "Додати на головний екран">
+<!ENTITY contextmenu_set_as_homepage "Встановити домівкою">
 <!ENTITY contextmenu_share "Поділитись">
 <!ENTITY contextmenu_pasteandgo "Вставити і перейти">
 <!ENTITY contextmenu_paste "Вставити">
@@ -525,11 +526,6 @@ size. -->
 <!ENTITY doorhanger_login_select_action_text "Вибрати інший пароль">
 <!ENTITY doorhanger_login_select_title "Копіювати пароль з">
 
-<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
-     whether or not the magnifying glass is disabled. -->
-<!ENTITY pref_magnifying_glass_enabled "Збільшувати малі ділянки">
-<!ENTITY pref_magnifying_glass_enabled_summary2 "Збільшувати посилання й поля форм при дотику біля них">
-
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
 <!ENTITY pref_scroll_title_bar2 "Повноекранний перегляд">
@@ -552,6 +548,7 @@ size. -->
 <!ENTITY bookmark_edit_name "Назва">
 <!ENTITY bookmark_edit_location "Адреса">
 <!ENTITY bookmark_edit_keyword "Ключове слово">
+<!ENTITY bookmark_select_folder "Обрати теку">
 
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
@@ -584,7 +581,7 @@ size. -->
 
 <!-- Localization note (home_title): This string should be kept in sync
      with the page title defined in aboutHome.dtd -->
-<!ENTITY home_title "Початкова &brandShortName;">
+<!ENTITY home_title "Домівка &brandShortName;">
 <!ENTITY home_history_title "Історія">
 <!ENTITY home_synced_devices_smartfolder "Синхронізовані пристрої">
 <!ENTITY home_synced_devices_number "&formatD; пристроїв">
@@ -600,7 +597,7 @@ size. -->
 <!ENTITY home_closed_tabs_number "&formatD; вкладок">
 <!-- Localization note (home_closed_tabs_one): This is the singular version of home_closed_tabs_number, referring to the number of recently closed tabs available. -->
 <!ENTITY home_closed_tabs_one "1 вкладка">
-<!ENTITY home_most_recent_empty "Тут з’являтимуться ваші найбільш відвідувані сайти.">
+<!ENTITY home_most_recent_empty "Тут з’являтимуться останні відвідані вами веб-сайти.">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
 <!ENTITY home_most_recent_emptyhint2 "Зверніть увагу: історія з &formatS1;Нової приватної вкладки&formatS2; не буде зберігатися.">
@@ -739,14 +736,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY colon ":">
 
-<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
-     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
-     This format string is typically used by getString method, in such method the percent sign
-     is a reserved caracter. In order to display one percent sign in the result of getString,
-     double percent signs must be inserted in the format string.
-     This entity is used in the zoomed view to display the zoom factor-->
-<!ENTITY percent "&formatS;&#37;&#37;">
-
 <!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->
 <!ENTITY actionbar_menu "Меню">
@@ -828,7 +817,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY whatsnew_notification_title "Маєте найновішу версію &brandShortName;">
 <!ENTITY whatsnew_notification_summary "Дізнайтеся, що нового в цій версії">
 
-<!ENTITY promotion_add_to_homescreen "Додати на домашній екран">
+<!ENTITY promotion_add_to_homescreen "Додати на головний екран">
 
 <!ENTITY helper_first_offline_bookmark_title "Читати автономно">
 <!ENTITY helper_first_offline_bookmark_message "Знаходьте елементи списку читання в закладках, навіть в автономному режимі.">
@@ -839,7 +828,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_button "Додати до закладок">
 
 <!ENTITY activity_stream_topsites "Популярні сайти">
-<!ENTITY activity_stream_highlights "Основні">
+<!ENTITY activity_stream_highlights "Найцікавіше">
 
 <!-- LOCALIZATION NOTE (activity_stream_highlight_label_bookmarked): This label is shown in the Activity
 Stream list for highlights sourced from th user's bookmarks. -->
@@ -851,8 +840,8 @@ Stream list for highlights sourced from th user's bookmarks. -->
 <!-- LOCALIZATION NOTE (activity_stream_dismiss): This label is shown in the Activity Stream context menu,
 and allows hiding a URL/page from highlights or topsites. The page remains in history/bookmarks, but
 is simply hidden from the Activity Stream panel. -->
-<!ENTITY activity_stream_dismiss "Сховати">
+<!ENTITY activity_stream_dismiss "Відхилити">
 <!ENTITY activity_stream_delete_history "Видалити з історії">
 
-<!ENTITY activity_stream_welcome_title "Вітаємо в Основному">
-<!ENTITY activity_stream_welcome_content1 "&brandShortName; тепер створює збірки основного, що ви переглядали в Інтернеті, щоб ви могли знову повернутися до чудових статей, відео, закладок, а також інших сторінок.">
+<!ENTITY activity_stream_welcome_title "Найцікавіші матеріали">
+<!ENTITY activity_stream_welcome_content1 "&brandShortName; тепер створює збірки найцікавіших матеріалів, які ви переглядали в Інтернеті, щоб ви могли знову повернутися до чудових статей, відео, закладок та інших сторінок.">

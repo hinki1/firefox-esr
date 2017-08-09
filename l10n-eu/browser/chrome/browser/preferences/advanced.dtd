@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Erabili korritze leuna">
 <!ENTITY useSmoothScrolling.accesskey    "u">
-<!ENTITY allowHWAccel.label              "Erabili hardware-azelerazioa erabilgarri dagoenean">
-<!ENTITY allowHWAccel.accesskey          "h">
 <!ENTITY checkUserSpelling.label         "Egiaztatu ortografia idatzi ahala">
 <!ENTITY checkUserSpelling.accesskey     "z">
 
@@ -82,24 +80,38 @@
 <!ENTITY overrideSmartCacheSize.accesskey "d">
 
 <!ENTITY updateTab.label                 "Eguneraketak">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 
 <!ENTITY updateApplication.label         "&brandShortName; eguneraketak">
-<!ENTITY updateAuto1.label               "Instalatu eguneraketak automatikoki (gomendatua: segurtasun hobea)">
-<!ENTITY updateAuto1.accesskey           "s">
-<!ENTITY updateCheckChoose.label         "Bilatu eguneraketak baina utzi aukeratzen instalatuko diren edo ez">
-<!ENTITY updateCheckChoose.accesskey     "B">
-<!ENTITY updateManual.label              "Ez bilatu eguneraketak inoiz (ez gomendatua: segurtasun arriskua)">
-<!ENTITY updateManual.accesskey          "n">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "​">
+<!ENTITY updateApplication.version.post  "bertsioa">
+<!ENTITY updateApplication.description   "Baimendu &brandShortName;(r)i">
+<!ENTITY updateAuto2.label               "Eguneraketak automatikoki instalatzen (gomendatua: segurtasun hobea)">
+<!ENTITY updateAuto2.accesskey           "E">
+<!ENTITY updateCheckChoose2.label        "Eguneraketak bilatzen baina utzi aukeratzen instalatuko diren edo ez">
+<!ENTITY updateCheckChoose2.accesskey    "b">
+<!ENTITY updateManual2.label             "Ez egiaztatu inoiz eguneraketarik dagoen (ez gomendatua)">
+<!ENTITY updateManual2.accesskey         "n">
 
-<!ENTITY updateHistory.label             "Erakutsi eguneraketen historia">
-<!ENTITY updateHistory.accesskey         "E">
+<!ENTITY updateHistory2.label            "Erakutsi eguneraketen historia…">
+<!ENTITY updateHistory2.accesskey        "E">
 
 <!ENTITY useService.label                "Erabili atzeko planoko zerbitzua eguneraketak instalatzeko">
 <!ENTITY useService.accesskey            "z">
 
-<!ENTITY autoUpdateOthers.label          "Eguneratu automatikoki">
-<!ENTITY enableSearchUpdate.label        "Bilaketa-motorrak">
-<!ENTITY enableSearchUpdate.accesskey    "m">
+<!ENTITY enableSearchUpdate2.label       "Eguneratu automatikoki bilaketa-motorrak">
+<!ENTITY enableSearchUpdate2.accesskey   "E">
+
+<!ENTITY reports.label                   "Txostenak">
 
 <!ENTITY offlineStorageNotify.label               "Abisatu webgune batek datuak biltegiratu nahi baditu lineaz kanpo erabiltzeko">
 <!ENTITY offlineStorageNotify.accesskey           "A">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Ezabatu lineaz kanpo erabiltzeko datuak">
 
 <!ENTITY certificateTab.label            "Ziurtagiriak">
-<!ENTITY certPersonal.label              "Eskaerak">
-<!ENTITY certPersonal.description        "Webgune batek nire ziurtagiri pertsonala eskatzen duenean:">
+<!ENTITY certPersonal2.description       "Webgune batek nire ziurtagiri pertsonala eskatzen duenean:">
 <!ENTITY selectCerts.auto                "Hautatu bat automatikoki">
 <!ENTITY selectCerts.auto.accesskey      "t">
 <!ENTITY selectCerts.ask                 "Galdetu beti">
@@ -125,3 +136,16 @@
 <!ENTITY viewCerts.accesskey             "k">
 <!ENTITY viewSecurityDevices.label       "Segurtasun-gailuak">
 <!ENTITY viewSecurityDevices.accesskey   "S">
+
+<!ENTITY performance.label               "Errendimendua">
+<!ENTITY useRecommendedPerformanceSettings2.label "Erabili gomendatutako errendimendu-ezarpenak">
+<!ENTITY useRecommendedPerformanceSettings2.description "Ezarpen hauek zure ordenagailuaren hardwareari eta sistema eragileari egokituta daude.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey "E">
+<!ENTITY performanceSettingsLearnMore.label "Argibide gehiago">
+<!ENTITY limitContentProcessOption.label "Eduki-prozesuen muga">
+<!ENTITY limitContentProcessOption.description "Eduki-prozesu gehigarriek errendimendua hobe dezakete hainbat fitxa erabiltzean baina memoria gehiago ere erabiliko du.">
+<!ENTITY limitContentProcessOption.accesskey   "m">
+<!ENTITY limitContentProcessOption.disabledDescription "Edukien prozesu kopurua multiprozesu moduko &brandShortName;(r)ekin alda daiteke soilik.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink "Argibide gehiago multiprozesu modua gaituta dagoen egiaztatzeko">
+<!ENTITY allowHWAccel.label              "Erabili hardware-azelerazioa erabilgarri dagoenean">
+<!ENTITY allowHWAccel.accesskey          "h">

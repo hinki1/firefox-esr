@@ -118,6 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "Visar versionsfakta för den här uppdateringen">
 <!ENTITY cmd.hideReleaseNotes.label           "Dölj versionsfakta">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Döljer versionsfakta för den här uppdateringen">
+<!ENTITY cmd.findReplacement.label            "Hitta en ersättare">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
@@ -185,6 +186,10 @@
 <!ENTITY addon.details.label                  "Mer">
 <!ENTITY addon.details.tooltip                "Visar fler detaljer om det här tillägget">
 <!ENTITY addon.unknownDate                    "Okänt">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "ÄLDRE">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -249,3 +254,9 @@
 
 <!ENTITY pluginDeprecation.description "Saknar du något? Vissa insticksmoduler stöds inte längre av &brandShortName;.">
 <!ENTITY pluginDeprecation.learnMore "Läs mer.">
+
+<!ENTITY legacyWarning.description "Saknar du något? Vissa tillägg stöds inte längre av &brandShortName;.">
+<!ENTITY legacyWarning.showLegacy "Visa äldre tillägg">
+<!ENTITY legacyExtensions.title "Äldre tillägg">
+<!ENTITY legacyExtensions.description "Dessa tillägg uppfyller inte nuvarande standarder i &brandShortName; så de har inaktiverats.">
+<!ENTITY legacyExtensions.learnMore "Läs mer om ändringar av tillägg">

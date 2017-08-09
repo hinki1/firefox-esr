@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey      "f">
 <!ENTITY engine.history.label       "Historikk">
 <!ENTITY engine.history.accesskey   "H">
-<!ENTITY engine.passwords.label     "Passord">
-<!ENTITY engine.passwords.accesskey "P">
+<!ENTITY engine.logins.label        "Innloggingar">
+<!ENTITY engine.logins.accesskey    "l">
 <!ENTITY engine.prefs.label         "Innstillingar">
 <!ENTITY engine.prefs.accesskey     "n">
 <!ENTITY engine.addons.label        "Utvidingar">
@@ -19,8 +19,8 @@
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Einingsnamn">
-<!ENTITY changeSyncDeviceName.label "Endre einingsnamn…">
-<!ENTITY changeSyncDeviceName.accesskey "E">
+<!ENTITY changeSyncDeviceName2.label "Endre einingsnamn…">
+<!ENTITY changeSyncDeviceName2.accesskey "E">
 <!ENTITY cancelChangeSyncDeviceName.label "Avbryt">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "A">
 <!ENTITY saveChangeSyncDeviceName.label "Lagre">
@@ -52,8 +52,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "Endre profilbilde">
 <!ENTITY verifiedManage.label        "Handter kontoen">
 <!ENTITY verifiedManage.accesskey    "k">
-<!ENTITY disconnect.label            "Kople frå…">
-<!ENTITY disconnect.accesskey        "K">
+<!ENTITY disconnect3.label           "Kople frå…">
+<!ENTITY disconnect3.accesskey       "f">
 <!ENTITY verify.label                "Stadfest e-post">
 <!ENTITY verify.accesskey            "S">
 <!ENTITY forget.label                "Gløym denne e-posten">
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "Logg inn">
 <!ENTITY signedOut.accountBox.signin.accesskey  "I">
 
-<!ENTITY signedIn.engines.label       "Sync på tvers av alle einingar">
+<!ENTITY signedIn.settings.label       "Sync-innstillingar">
+<!ENTITY signedIn.settings.description "Vel kva du vil synkronisere på einingane dine med &brandShortName;.">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

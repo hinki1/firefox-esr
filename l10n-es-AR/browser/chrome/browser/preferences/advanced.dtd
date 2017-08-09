@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Usar desplazamiento suave">
 <!ENTITY useSmoothScrolling.accesskey    "s">
-<!ENTITY allowHWAccel.label              "Usar aceleración por hardware cuando esté disponible">
-<!ENTITY allowHWAccel.accesskey          "h">
 <!ENTITY checkUserSpelling.label         "Verificar ortografía al escribir">
 <!ENTITY checkUserSpelling.accesskey     "t">
 
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Actualizaciones">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "Actualizaciones de &brandShortName;">
-<!ENTITY updateAuto1.label               "Instalar actualizaciones automáticamente (recomendado: seguridad mejorada)">
-<!ENTITY updateAuto1.accesskey           "a">
-<!ENTITY updateCheckChoose.label         "Buscar actualizaciones, pero dejarme elegir si deseo instalarlas">
-<!ENTITY updateCheckChoose.accesskey     "c">
-<!ENTITY updateManual.label              "Nunca buscar actualizaciones (no recomendado: riesgos de seguridad)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Versión ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Permitir que &brandShortName;">
+<!ENTITY updateAuto2.label               "Instalar actualizaciones automáticamente (recomendado para seguridad mejorada)">
+<!ENTITY updateAuto2.accesskey           "A">
+<!ENTITY updateCheckChoose2.label        "Buscar actualizaciones pero dejarme elegir si las instalo">
+<!ENTITY updateCheckChoose2.accesskey    "C">
+<!ENTITY updateManual2.label             "Nunca buscar actualizaciones (no recomendado)">
+<!ENTITY updateManual2.accesskey         "N">
 
-<!ENTITY updateHistory.label             "Mostar el historial de actualizaciones">
-<!ENTITY updateHistory.accesskey         "h">
+<!ENTITY updateHistory2.label            "Mostrar historial de actualizaciones…">
+<!ENTITY updateHistory2.accesskey        "h">
 
 <!ENTITY useService.label                "Usar un servicio en segundo plano para instalar actualizaciones">
 <!ENTITY useService.accesskey            "U">
 
-<!ENTITY autoUpdateOthers.label          "Actualizar automáticamente">
-<!ENTITY enableSearchUpdate.label        "Motores de búsqueda">
-<!ENTITY enableSearchUpdate.accesskey    "M">
+<!ENTITY enableSearchUpdate2.label       "Actualizar automáticamente los buscadores">
+<!ENTITY enableSearchUpdate2.accesskey   "e">
+
+<!ENTITY reports.label                   "Informes">
 
 <!ENTITY offlineStorageNotify.label               "Avisarme cuando un sitio pida guardar datos para usar sin conexión">
 <!ENTITY offlineStorageNotify.accesskey           "t">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Eliminar datos sin conexión">
 
 <!ENTITY certificateTab.label            "Certificados">
-<!ENTITY certPersonal.label              "Pedidos">
-<!ENTITY certPersonal.description        "Cuando un servidor solicite mi certificado personal:">
+<!ENTITY certPersonal2.description       "Cuando un servidor solicite el certificado personal">
 <!ENTITY selectCerts.auto                "Seleccionar uno automáticamente">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "Preguntarme cada vez">
@@ -125,3 +136,23 @@
 <!ENTITY viewCerts.accesskey             "s">
 <!ENTITY viewSecurityDevices.label       "Dispositivos de Seguridad">
 <!ENTITY viewSecurityDevices.accesskey   "D">
+
+<!ENTITY performance.label               "Rendimiento">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Uso configuración de rendimiento recomendada">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Esta configuración se ajusta al hardware y sistema operativo de su computadora.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "U">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Conocer más">
+<!ENTITY limitContentProcessOption.label "Límite de contenido de proceso">
+<!ENTITY limitContentProcessOption.description
+                                         "Los procesos de contenido adicionales pueden mejorar el rendimiento cuando se usan múltiples pestañas pero también consumirán más memoria.">
+<!ENTITY limitContentProcessOption.accesskey   "L">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Modificar el número de procesos contenidos sólo es posible con &brandShortName; multiproceso.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Aprender a comprobar si multiproceso está habilitado">
+<!ENTITY allowHWAccel.label              "Usar aceleración por hardware cuando esté disponible">
+<!ENTITY allowHWAccel.accesskey          "h">

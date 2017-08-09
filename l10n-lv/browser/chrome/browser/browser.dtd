@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "Uzklikšķiniet ar labo taustiņu un pavelciet uz leju, lai redzētu vēsturi">
 <!ENTITY backForwardButtonMenuMac.tooltip "Pavelciet uz leju, lai redzētu vēsturi">
 <!ENTITY reloadCmd.label              "Pārlādēt">
-<!ENTITY reloadButton.tooltip         "Pārlādēt pašreizējo lapu">
 <!ENTITY stopCmd.label                "Apturēt">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "Apturēt šīs lapas ielādi">
 <!ENTITY goEndCap.tooltip             "Pāriet uz adresi, kas redzama vietas joslā">
 <!ENTITY printButton.label            "Drukāt">
 <!ENTITY printButton.tooltip          "Drukāt šo lapu">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Atvērt paroles saglabāšanas ziņojumu paneli">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Pārvaldīt papildinājumu izmantošanu">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Izmainiet vai varat saņemt paziņojumus no šīs lapas">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Glabāt datus pastāvīgajā krātuvē">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Pārlūks tiek attālināti kontrolēts">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Pārvaldiet kameras un/vai mikrofona koplietošanu ar šo lapu">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Pārvaldiet mikrofona koplietošanu ar šo lapu">
@@ -231,14 +231,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "Atrašanās vietas informācijas koplietošana ar šo lapu ir bloķēta.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "Šīs lapas datu glabāšana ir bloķēta.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "Paziņojumu saņemšana no šīs lapas ir bloķēta.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "Datu glabāšana ir bloķēta šajā lapā.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Parādīt vēsturi">
 
-<!ENTITY urlbar.zoomReset.tooltip     "Atiestatīt palielinājumu">
-
 <!ENTITY searchItem.title             "Meklēt">
 
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 <!ENTITY homeButton.label             "Sākumlapa">
 
 <!ENTITY bookmarksButton.label          "Grāmatzīmes">
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Dzēst neseno vēsturi…">
 <!ENTITY appMenuHistory.restoreSession.label "Atjaunot iepriekšējo sesiju">
 <!ENTITY appMenuHistory.viewSidebar.label "Rādīt vēstures sānjoslu">
+<!ENTITY appMenuHelp.label "Palīdzība">
 <!ENTITY appMenuHelp.tooltip "Atvērt palīdzības izvēlni">
 
 <!ENTITY appMenuRemoteTabs.label "Sinhronizētās cilnes">
@@ -377,27 +377,44 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Sinhronizācijas iestatījumi">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Pierakstieties, lai redzētu šeit cilnes no šīm ierīcēm.">
 <!ENTITY appMenuRemoteTabs.signin.label "Pieslēgties Sync">
+<!ENTITY appMenuRemoteTabs.managedevices.label "Pārvaldīt ierīces…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Rādīt sinhronizēto cilņu sānu joslu">
 
 <!ENTITY customizeMenu.addToToolbar.label "Pievienot rīkjoslai">
 <!ENTITY customizeMenu.addToToolbar.accesskey "a">
 <!ENTITY customizeMenu.addToPanel.label "Pievienot izvēlnei">
 <!ENTITY customizeMenu.addToPanel.accesskey "n">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "Pievienot izvēlnei">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "I">
 <!ENTITY customizeMenu.moveToToolbar.label "Pārvietot uz rīkjoslu">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "o">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Pārvietot uz izvēlni">
 <!ENTITY customizeMenu.moveToPanel.accesskey "o">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "Pieslēgt izvēlnei">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "P">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Atslēgt no izvēlnes">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "A">
 <!ENTITY customizeMenu.removeFromToolbar.label "Aizvākt no rīkjoslas">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "r">
 <!ENTITY customizeMenu.removeFromMenu.label "Aizvākt no izvēlnes">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "z">
 <!ENTITY customizeMenu.addMoreItems.label "Pievienot citas lietas…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "a">
+
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+<!ENTITY moreMenu.label "Vairāk">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Ieraksti meklējamo tekstu vai mājas lapas adresi">
@@ -414,7 +431,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.enable "Jā">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "j">
 
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Padoms:">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "Lai vieglāk atrastu vajadzīgo, Meklējiet &#x1F50E; meklēšanas ieteikumos.">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "Mainītu opcijas…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "C">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "Mainīt iestatījumus…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "M">
+
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -526,6 +552,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "S">
 <!ENTITY bookmarkThisFrameCmd.label      "Pievienot šo ietvaru grāmatzīmēm">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "m">
+<!ENTITY copyURLCmd.label             "Kopēt adresi">
 <!ENTITY emailPageCmd.label           "Nosūtīt saiti…">
 <!ENTITY emailPageCmd.accesskey       "N">
 <!ENTITY savePageCmd.label            "Saglabāt lapu kā…">
@@ -651,6 +678,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.accesskey             "M">
 
 <!ENTITY sidebarCloseButton.tooltip     "Aizvērt sānu joslu">
+<!ENTITY sidebarMenuClose.label         "Aizvērt sānu joslu">
 
 <!ENTITY quitApplicationCmdWin2.label       "Iziet">
 <!ENTITY quitApplicationCmdWin2.accesskey   "z">
@@ -660,8 +688,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Iziet"> 
 <!ENTITY quitApplicationCmd.accesskey   "e">
 <!ENTITY quitApplicationCmdMac2.label   "Iziet no &brandShorterName;">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
+<!ENTITY quitApplicationCmd.key         "Q">
 
 <!ENTITY closeCmd.label                 "Aizvērt">  
 <!ENTITY closeCmd.key                   "W">  
@@ -713,6 +740,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Šī lapa ir saglabāta jūsu datorā.">
 <!ENTITY identity.connectionVerified2 "Jūsu savienojums ar šo lapu ir drošs, lapa pieder:">
 <!ENTITY identity.connectionInternal "Šī ir droša &brandShortName; lapa.">
+<!ENTITY identity.extensionPage "Šī lapa ir ielādēta no papildinājuma.">
 <!ENTITY identity.insecureLoginForms2 "Dati, ko ievadīsiet šajā lapā nav aizsargāti un var tikt pārtverti.">
 
 <!-- Strings for connection state warnings. -->
@@ -785,6 +813,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "Atvērt visu cilnēs">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "A">
+<!ENTITY syncedTabs.context.managedevices.label              "Pārvaldīt ierīces…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "D">
 
 
 <!ENTITY syncBrand.shortName.label    "Sinhronizēt">
@@ -809,8 +839,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "Gribat vairāk rīku?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Izvēlieties kādu no tūkstošiem papildinājumu">
 <!ENTITY customizeMode.restoreDefaults "Atjaunot noklusēto">
-<!ENTITY customizeMode.toolbars "Parādīt / paslēpt rīkjoslas">
+<!ENTITY customizeMode.done "Gatavs">
 <!ENTITY customizeMode.titlebar "Virsraksta josla">
+<!ENTITY customizeMode.toolbars2 "Rīkjoslas">
 <!ENTITY customizeMode.lwthemes "Tēmas">
 <!ENTITY customizeMode.lwthemes.myThemes "Manas tēmas">
 <!ENTITY customizeMode.lwthemes.recommended "Ieteiktās">
@@ -899,3 +930,36 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "Uzziniet vairāk par DRM…">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+<!ENTITY updateAvailable.message "Atjauniniet &brandShorterName; lai iegūtu par jaunāko ātrumā un privātumā.">
+<!ENTITY updateAvailable.whatsnew.label "Skatiet jaunumus.">
+<!ENTITY updateAvailable.header.message "Pieejams &brandShorterName; jauninājums.">
+<!ENTITY updateAvailable.acceptButton.label "Lejupielādēt atjauninājumu">
+<!ENTITY updateAvailable.acceptButton.accesskey "D">
+<!ENTITY updateAvailable.cancelButton.label "Ne tagad">
+<!ENTITY updateAvailable.cancelButton.accesskey "N">
+<!ENTITY updateAvailable.panelUI.label "Lejupielādē &brandShorterName; atjauninājumu">
+
+<!ENTITY updateManual.message "Lejupielādējiet jaunu &brandShorterName; versiju un mēs jums palīdzēsim, to instalēt.">
+<!ENTITY updateManual.whatsnew.label "Skatiet jaunumus.">
+<!ENTITY updateManual.header.message "&brandShorterName; nevar atjaunināt ar jaunāko versiju.">
+<!ENTITY updateManual.acceptButton.label "Lejupielādēt &brandShorterName;">
+<!ENTITY updateManual.acceptButton.accesskey "D">
+<!ENTITY updateManual.cancelButton.label "Ne tagad">
+<!ENTITY updateManual.cancelButton.accesskey "N">
+<!ENTITY updateManual.panelUI.label "Lejupielādējiet jaunu &brandShorterName; versiju">
+
+<!ENTITY updateRestart.message "Pēc ātra restarta &brandShorterName; atjaunos atvērtās cilnes un logus.">
+<!ENTITY updateRestart.header.message2 "Pārstartēt &brandShorterName;, lai atjauninātu.">
+<!ENTITY updateRestart.acceptButton.label "Pārstartēt un atjaunot">
+<!ENTITY updateRestart.acceptButton.accesskey "R">
+<!ENTITY updateRestart.cancelButton.label "Ne tagad">
+<!ENTITY updateRestart.cancelButton.accesskey "N">
+<!ENTITY updateRestart.panelUI.label2 "Pārstartēt &brandShorterName;, lai atjauninātu">
+
+<!ENTITY pageActionButton.tooltip "Lapas darbības">
+
+<!ENTITY sendToDevice.label "Sūtīt uz ierīci…">
+<!ENTITY sendToDevice.viewTitle "Sūtīt uz ierīci">
+<!ENTITY sendToDevice.fxaRequired.label "Obligāts">
+<!ENTITY sendToDevice.noDevices.label "Ierīces nav pieejamas">

@@ -51,8 +51,8 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "M">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Aktuális postafiók">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "A">
-<!ENTITY getNextNMsgCmd.label "A következő 500 üzenet letöltése">
-<!ENTITY getNextNMsgCmd.accesskey "v">
+
+
 <!ENTITY sendUnsentCmd.label "Postázandó üzenetek elküldése">
 <!ENTITY sendUnsentCmd.accesskey "P">
 <!ENTITY subscribeCmd.label "Feliratkozás…">
@@ -634,6 +634,9 @@
 
 <!ENTITY folderContextGetMessages.label "Üzenetek letöltése ">
 <!ENTITY folderContextGetMessages.accesskey "z">
+<!ENTITY folderContextPauseAllUpdates.label "Minden frissítés szüneteltetése">
+<!ENTITY folderContextPauseUpdates.label "Frissítések szüneteltetése">
+<!ENTITY folderContextPauseUpdates.accesskey "F">
 <!ENTITY folderContextOpenInNewWindow.label "Megnyitás új ablakban">
 <!ENTITY folderContextOpenInNewWindow.accesskey "a">
 <!ENTITY folderContextOpenNewTab.label "Megnyitás új lapon">

@@ -13,17 +13,16 @@
 <!ENTITY  prefWinMinSize.styleMac       "width: 47em; min-height: 40em;">
 <!ENTITY  prefWinMinSize.styleGNOME     "width: 45.5em; min-height: 40.5em;">
 
-<!ENTITY  paneGeneral.title       "Cheneral">
-<!ENTITY  paneTabs.title          "Pestanyas">
-<!ENTITY  paneSearch.title        "Mirar">
-<!ENTITY  paneContent.title       "Conteniu">
-<!ENTITY  paneApplications.title  "Aplicacions">
-<!ENTITY  panePrivacy.title       "Privacidat">
-<!ENTITY  paneContainers.title    "Pestanyas contenederas">
-<!ENTITY  paneSecurity.title      "Seguranza">
-<!ENTITY  paneAdvanced.title      "Abanzau">
-<!-- LOCALIZATION NOTE (paneSync.title): This should match syncBrand.shortName.label in ../syncBrand.dtd -->
+<!ENTITY  paneSearchResults.title       "Resultaus de buscar">
+<!ENTITY  paneGeneral.title             "Cheneral">
+<!ENTITY  paneFilesApplications.title   "Fichers &amp; Aplicacions">
+<!ENTITY  panePrivacySecurity.title     "Privacidat &amp; Seguranza">
+<!ENTITY  paneContainers.title          "Pestanyas contenederas">
+<!ENTITY  paneUpdates.title             "Actualizacions">
+<!-- LOCALIZATION NOTE (paneSync1.title): This should match syncBrand.fxAccount.label in ../syncBrand.dtd -->
 
-<!ENTITY  paneSync.title          "Sync">
+<!ENTITY  paneSync1.title          "Conto de Firefox">
 
-<!ENTITY  helpButton.label        "Aduya">
+<!ENTITY  helpButton2.label        "Soporte de &brandShortName;">
+
+<!ENTITY  searchInput.label        "Mirar">

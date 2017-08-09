@@ -4,8 +4,8 @@
 
 <!ENTITY  popups.label                "Изскачащи прозорци">
 
-<!ENTITY  blockPopups.label           "Блокиране на изскачащите прозорци">
-<!ENTITY  blockPopups.accesskey       "Б">
+<!ENTITY  blockPopups.label           "Спиране на изскачащите прозорци">
+<!ENTITY  blockPopups.accesskey       "С">
 
 <!ENTITY  notificationsPolicy.label            "Известия">
 <!ENTITY  notificationsPolicyLearnMore.label   "Научете повече">
@@ -21,10 +21,10 @@
 
 <!ENTITY  fontsAndColors.label        "Шрифтове и цветове">
 
-<!ENTITY  defaultFont.label           "Стандартен шрифт:">
-<!ENTITY  defaultFont.accesskey       "С">
-<!ENTITY  defaultSize.label           "Големина:">
-<!ENTITY  defaultSize.accesskey       "Г">
+<!ENTITY  defaultFont2.label          "Стандартен шрифт">
+<!ENTITY  defaultFont2.accesskey      "С">
+<!ENTITY  defaultSize2.label          "Големина">
+<!ENTITY  defaultSize2.accesskey      "Г">
 
 <!ENTITY  advancedFonts.label         "Разширени…">
 <!ENTITY  advancedFonts.accesskey     "Р">
@@ -38,7 +38,7 @@
 <!ENTITY chooseButton.label           "Избиране…">
 <!ENTITY chooseButton.accesskey       "И">
 
-<!ENTITY translateWebPages.label      "Превод на уеб съдържание">
+<!ENTITY translateWebPages.label      "Превеждане на съдържанието на страниците">
 <!ENTITY translateWebPages.accesskey  "П">
 <!ENTITY translateExceptions.label    "Изключения…">
 <!ENTITY translateExceptions.accesskey "з">

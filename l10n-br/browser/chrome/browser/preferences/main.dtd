@@ -4,14 +4,14 @@
 
 <!ENTITY startup.label             "Loc'hañ">
 
-<!ENTITY startupPage.label         "Pa loc'h &brandShortName; :">
-<!ENTITY startupPage.accesskey     "P">
+<!ENTITY startupPage2.label        "Pa loc'h &brandShortName;">
+<!ENTITY startupPage2.accesskey    "P">
 <!ENTITY startupUserHomePage.label "Diskouez ma fennbajennad">
 <!ENTITY startupBlankPage.label    "Diskouez ur bajenn wenn">
 <!ENTITY startupPrevSession.label  "Diskouez ma frenestroù hag ivinelloù evel ar wech diwezhañ">
 
-<!ENTITY homepage.label            "Pennbajennad :">
-<!ENTITY homepage.accesskey        "e">
+<!ENTITY homepage2.label           "Pennbajennad">
+<!ENTITY homepage2.accesskey       "e">
 <!ENTITY useCurrentPage.label      "Arverañ ar bajenn vremanel">
 <!ENTITY useCurrentPage.accesskey  "A">
 <!ENTITY useMultiple.label         "Arverañ ar pajennoù bremanel">
@@ -40,6 +40,7 @@
 
 <!ENTITY separateProfileMode.label        "Aotren &brandShortName; ha Firefox da erounit war un dro">
 <!ENTITY useFirefoxSync.label             "Tun : arveret e vo aeladoù disheñvel. Arverit Sync evit rannañ roadennoù etrezo.">
-<!ENTITY getStarted.label                 "Arverañ Sync…">
+<!ENTITY getStarted.notloggedin.label     "Kennaskañ ouzh &syncBrand.shortName.label;...">
+<!ENTITY getStarted.configured.label      "Digeriñ gwellvezioù &syncBrand.shortName.label;">
 
 <!ENTITY e10sEnabled.label                "Gweredekaat lies-araezad &brandShortName;">

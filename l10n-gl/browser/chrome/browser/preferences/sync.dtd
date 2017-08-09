@@ -9,8 +9,6 @@
 <!ENTITY engine.tabs.accesskey      "L">
 <!ENTITY engine.history.label       "Historial">
 <!ENTITY engine.history.accesskey   "r">
-<!ENTITY engine.passwords.label     "Contrasinais">
-<!ENTITY engine.passwords.accesskey "C">
 <!ENTITY engine.prefs.label         "Preferencias">
 <!ENTITY engine.prefs.accesskey     "s">
 <!ENTITY engine.addons.label        "Complementos">
@@ -18,7 +16,6 @@
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Nome do dispositivo">
-<!ENTITY changeSyncDeviceName.label "Cambiar nome do dispositivo…">
 <!ENTITY cancelChangeSyncDeviceName.label "Cancelar">
 <!ENTITY saveChangeSyncDeviceName.label "Gardar">
 
@@ -46,7 +43,6 @@ both, to better adapt this sentence to their language.
 <!ENTITY signIn.label                "Identificarse">
 <!ENTITY profilePicture.tooltip      "Cambiar a foto do perfil">
 <!ENTITY verifiedManage.label        "Xestionar conta">
-<!ENTITY disconnect.label            "Desconectar…">
 <!ENTITY verify.label                "Comprobar correo">
 <!ENTITY forget.label                "Esquecer este correo">
 
@@ -56,7 +52,6 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.create  "Crear unha conta">
 <!ENTITY signedOut.accountBox.signin  "Identificarse">
 
-<!ENTITY signedIn.engines.label       "Sincronizar en todos os dispositivos">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

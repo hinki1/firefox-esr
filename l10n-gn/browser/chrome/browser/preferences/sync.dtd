@@ -10,8 +10,8 @@
 
 <!ENTITY engine.history.label       "Tembiasakue">
 <!ENTITY engine.history.accesskey   "r">
-<!ENTITY engine.passwords.label     "Ñe'ẽñemi">
-<!ENTITY engine.passwords.accesskey "Ñ">
+
+
 <!ENTITY engine.prefs.label         "Jerohoryvéva">
 <!ENTITY engine.prefs.accesskey     "s">
 <!ENTITY engine.addons.label        "Moĩmbaha">
@@ -61,6 +61,7 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY signedOut.description        "Embojuehe nde rechaukaha, tembiasakue, tendayke, ñe'ẽñemi, moĩmbaha ha jerohoryvéva opaite nemba'e'oka rupi.">
 <!ENTITY signedOut.accountBox.title   "Eike &syncBrand.fxAccount.label; ndive">
+
 
 
 

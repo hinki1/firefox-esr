@@ -14,7 +14,7 @@
 <!ENTITY aboutNetworking.autoRefresh           "Opdater hvert 3. sekund">
 <!ENTITY aboutNetworking.hostname              "Værtsnavn">
 <!ENTITY aboutNetworking.port                  "Port">
-<!ENTITY aboutNetworking.spdy                  "SPDY">
+<!ENTITY aboutNetworking.http2                 "HTTP/2">
 <!ENTITY aboutNetworking.ssl                   "SSL">
 <!ENTITY aboutNetworking.active                "Aktiv">
 <!ENTITY aboutNetworking.idle                  "Inaktiv">
@@ -35,9 +35,14 @@
 <!ENTITY aboutNetworking.currentLogModules     "Aktuelle logmoduler:">
 <!ENTITY aboutNetworking.setLogFile            "Angiv logfil">
 <!ENTITY aboutNetworking.setLogModules         "Angiv logmoduler">
-<!ENTITY aboutNetworking.startLogging          "Start logging">
-<!ENTITY aboutNetworking.stopLogging           "Stop logging">
+<!ENTITY aboutNetworking.startLogging          "Start logning">
+<!ENTITY aboutNetworking.stopLogging           "Stop logning">
 <!ENTITY aboutNetworking.dnsLookup             "DNS-opslag">
 <!ENTITY aboutNetworking.dnsLookupButton       "Slå op">
 <!ENTITY aboutNetworking.dnsDomain             "Domæne">
 <!ENTITY aboutNetworking.dnsLookupTableColumn  "IP-adresser">
+<!ENTITY aboutNetworking.rcwn                  "RCWN-statistik">
+<!ENTITY aboutNetworking.rcwnStatus            "RCWN-status">
+<!ENTITY aboutNetworking.rcwnCacheWonCount     "Antal gange, cachen vandt">
+<!ENTITY aboutNetworking.rcwnNetWonCount       "Antal gange, netværket vandt">
+<!ENTITY aboutNetworking.totalNetworkRequests  "Totalt antal netværk-requests">

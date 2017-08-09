@@ -51,8 +51,8 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "A">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Denne kontoen">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "D">
-<!ENTITY getNextNMsgCmd.label "Hent neste 500 meldingar i nyhendegruppa">
-<!ENTITY getNextNMsgCmd.accesskey "H">
+<!ENTITY getNextNMsgCmd2.label "Hent neste nyheitsmelding">
+<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Send usende meldingar">
 <!ENTITY sendUnsentCmd.accesskey "u">
 <!ENTITY subscribeCmd.label "Meld inn…">
@@ -502,7 +502,7 @@
 <!ENTITY devToolboxCmd.commandkey "i">
 <!ENTITY addonDebugCmd.label "Feilsøking for utvidingar">
 <!ENTITY addonDebugCmd.accesskey "F">
-<!ENTITY tabsDebugCmd.label "Feilsøking for Debuggar">
+<!ENTITY tabsDebugCmd.label "Feilsøking for innhaldsramme">
 <!ENTITY tabsDebugCmd.accesskey "F">
 <!ENTITY errorConsoleCmd.label "Feilmeldingar">
 <!ENTITY errorConsoleCmd.accesskey "F">

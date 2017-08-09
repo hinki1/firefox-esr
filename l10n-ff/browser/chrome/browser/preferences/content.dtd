@@ -21,10 +21,10 @@
 
 <!ENTITY  fontsAndColors.label        "Ponte &amp; Nooneeji">
 
-<!ENTITY  defaultFont.label           "Fontere woowaande:">
-<!ENTITY  defaultFont.accesskey       "F">
-<!ENTITY  defaultSize.label           "Ɓetol:">
-<!ENTITY  defaultSize.accesskey       "Ɓ">
+<!ENTITY  defaultFont2.label          "Fontere woowaande:">
+<!ENTITY  defaultFont2.accesskey      "F">
+<!ENTITY  defaultSize2.label          "Ɓetol:">
+<!ENTITY  defaultSize2.accesskey      "Ɓ">
 
 <!ENTITY  advancedFonts.label         "Ceeɓtore…">
 <!ENTITY  advancedFonts.accesskey     "C">
@@ -53,6 +53,7 @@
 <!ENTITY translation.options.attribution.beforeLogo "Fulii ko">
 <!ENTITY translation.options.attribution.afterLogo "">
 
+<!ENTITY  drmContent.label             "Loowdi DRM">
 
 <!ENTITY  playDRMContent.label         "Tar loowdi DRM">
 <!ENTITY  playDRMContent.accesskey     "T">

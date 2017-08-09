@@ -14,7 +14,7 @@
 <!ENTITY aboutNetworking.autoRefresh           "ପ୍ରତ୍ୟେକ 3 ସେକେଣ୍ଡରେ ସ୍ୱୟଂଚାଳିତ ଭାବରେ ସତେଜ କରନ୍ତୁ">
 <!ENTITY aboutNetworking.hostname              "ହୋଷ୍ଟ ନାମ">
 <!ENTITY aboutNetworking.port                  "ପୋର୍ଟ">
-<!ENTITY aboutNetworking.spdy                  "SPDY">
+
 <!ENTITY aboutNetworking.ssl                   "SSL">
 <!ENTITY aboutNetworking.active                "ସକ୍ରିୟ">
 <!ENTITY aboutNetworking.idle                  "ନିଷ୍କ୍ରିୟ ହୋଇଛି">
@@ -29,6 +29,11 @@
 <!ENTITY aboutNetworking.messagesReceived      "ସନ୍ଦେଶଗୁଡ଼ିକୁ ପାଇଛି">
 <!ENTITY aboutNetworking.bytesSent             "ପଠାଯାଇଥିବା ବାଇଟ">
 <!ENTITY aboutNetworking.bytesReceived         "ପ୍ରାପ୍ତ ହୋଇଥିବା ବାଇଟ">
+
+
+
+
+
 
 
 

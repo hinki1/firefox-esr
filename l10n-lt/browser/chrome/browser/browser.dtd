@@ -198,10 +198,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY backForwardButtonMenu.tooltip "Spustelėję dešiniu pelės mygtuku arba palaikę nuspaustą kairįjį, pamatysite kortelės žurnalą">
 <!ENTITY backForwardButtonMenuMac.tooltip "Palaikę nuspaustą pelės mygtuką, pamatysite kortelės žurnalą">
 <!ENTITY reloadCmd.label              "Atsiųsti iš naujo">
-<!ENTITY reloadButton.tooltip         "Šį tinklalapį atsiųsti iš naujo">
 <!ENTITY stopCmd.label                "Stabdyti">
 <!ENTITY stopCmd.macCommandKey        ".">
-<!ENTITY stopButton.tooltip           "Stabdyti šio tinklalapio atsiuntimą">
 <!ENTITY goEndCap.tooltip             "Eiti į adreso lauke surinktą adresą">
 <!ENTITY printButton.label            "Spausdinti">
 <!ENTITY printButton.tooltip          "Spausdinti šį tinklalapį">
@@ -215,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Atverti slaptažodžio įrašymo pranešimo skydelį">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Valdyti papildinių naudojimą">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Pasirinkite, ar norite gauti pranešimus iš šios svetainės">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Saugoti duomenis išliekančioje atmintyje">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Naršyklė valdoma per nuotolį">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Tvarkyti kameros ir mikrofono naudojimą svetainėje">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Tvarkyti mikrofono naudojimą svetainėje">
@@ -231,13 +231,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "Šioje svetainėje esate užblokavę buvimo vietos informaciją.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "Šioje svetainėje esate užblokavę duomenų saugojimą.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "Šioje svetainėje esate užblokavę pranešimus.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "Šioje svetainėje esate užblokavę išliekančių duomenų saugojimą.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Rodyti žurnalą">
 
-<!ENTITY urlbar.zoomReset.tooltip     "Grąžinti pirminį mastelį">
-
 <!ENTITY searchItem.title             "Paieška">
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 
 <!ENTITY homeButton.label             "Pradžios tinklalapis">
 
@@ -352,6 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Valyti žurnalą…">
 <!ENTITY appMenuHistory.restoreSession.label "Atkurti paskiausiąjį seansą">
 <!ENTITY appMenuHistory.viewSidebar.label "Rodyti žurnalo parankinę">
+<!ENTITY appMenuHelp.label "Žinynas">
 <!ENTITY appMenuHelp.tooltip "Atverti žinyno meniu">
 
 <!ENTITY appMenuRemoteTabs.label "Sinchronizuotos kortelės">
@@ -377,27 +377,44 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Sinchronizavimo nuostatos">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Prisijunkite norėdami peržiūrėti kituose įrenginiuose esančias korteles.">
 <!ENTITY appMenuRemoteTabs.signin.label "Prisijungti prie „Sync“">
+<!ENTITY appMenuRemoteTabs.managedevices.label "Tvarkyti įrenginius…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Rodyti sinchronizuotų kortelių parankinę">
 
 <!ENTITY customizeMenu.addToToolbar.label "Pridėti į priemonių juostą">
 <!ENTITY customizeMenu.addToToolbar.accesskey "P">
 <!ENTITY customizeMenu.addToPanel.label "Pridėti į meniu">
 <!ENTITY customizeMenu.addToPanel.accesskey "m">
+<!-- LOCALIZATION NOTE (customizeMenu.addToOverflowMenu.label,
+     customizeMenu.pinToOverflowMenu.label, customizeMenu.unpinFromOverflowMenu.label)
+     The overflow menu is the menu that appears if you click the chevron (>> button)
+     in the location bar. These labels are only used in Photon, where you can put
+     items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "Pridėti į perpildymo meniu">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "m">
 <!ENTITY customizeMenu.moveToToolbar.label "Perkelti į priemonių juostą">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "P">
-<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
-     same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+<!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
+     can appear on the same context menu as menubarCmd and personalbarCmd,
+     so they should have different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Perkelti į meniu">
 <!ENTITY customizeMenu.moveToPanel.accesskey "P">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "Įsegti į perpildymo meniu">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "s">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Išsegti iš perpildymo meniu">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "I">
 <!ENTITY customizeMenu.removeFromToolbar.label "Pašalinti iš priemonių juostos">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "š">
 <!ENTITY customizeMenu.removeFromMenu.label "Pašalinti iš meniu">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "š">
 <!ENTITY customizeMenu.addMoreItems.label "Pridėti daugiau elementų…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "d">
+<!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
+    app (hamburger) menu. When clicked, it opens a subview that contains
+    secondary commands. -->
+
+<!ENTITY moreMenu.label "Daugiau">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Įveskite adresą arba paieškos žodžius">
@@ -413,7 +430,16 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.disable.accesskey "n">
 <!ENTITY urlbar.searchSuggestionsNotification.enable "Taip">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "t">
-<!-- 
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Patarimas:">
+<!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "Gaukite pagalbos ieškant! Prie paieškos siūlymų matysite &#x1F50E;.">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "Keisti nuostatas…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "t">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "Keisti nuostatas…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "t">
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -526,6 +552,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "d">
 <!ENTITY bookmarkThisFrameCmd.label      "Įtraukti kadrą į adresyną">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "d">
+<!ENTITY copyURLCmd.label             "Kopijuoti URL">
 <!ENTITY emailPageCmd.label           "Išsiųsti saitą el. paštu…">
 <!ENTITY emailPageCmd.accesskey       "ų">
 <!ENTITY savePageCmd.label            "Įrašyti kaip…">
@@ -652,6 +679,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.accesskey             "M">
 
 <!ENTITY sidebarCloseButton.tooltip     "Užverti parankinę">
+<!ENTITY sidebarMenuClose.label         "Užverti parankinę">
 
 <!ENTITY quitApplicationCmdWin2.label       "Baigti darbą">
 <!ENTITY quitApplicationCmdWin2.accesskey   "B">
@@ -661,8 +689,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Baigti darbą"> 
 <!ENTITY quitApplicationCmd.accesskey   "B">
 <!ENTITY quitApplicationCmdMac2.label   "Baigti „&brandShorterName;“ darbą">
-<!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
-<!ENTITY quitApplicationCmdUnix.key     "Q">
+<!ENTITY quitApplicationCmd.key         "Q">
 
 <!ENTITY closeCmd.label                 "Užverti">  
 <!ENTITY closeCmd.key                   "W">  
@@ -706,7 +733,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY spellAddDictionaries.label "Daugiau žodynų…">
 <!ENTITY spellAddDictionaries.accesskey "D">
 
-<!ENTITY editBookmark.done.label                     "Įrašyti">
+<!ENTITY editBookmark.done.label                     "Atlikta">
 <!ENTITY editBookmark.removeBookmark.accessKey       "š">
 
 <!ENTITY identity.connectionSecure "Saugus ryšys">
@@ -714,6 +741,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Šis tinklalapis yra įrašytas jūsų kompiuteryje.">
 <!ENTITY identity.connectionVerified2 "Esate saugiai prisijungę prie šios svetainės, kurią valdo:">
 <!ENTITY identity.connectionInternal "Tai yra saugus „&brandShortName;“ tinklalapis.">
+<!ENTITY identity.extensionPage "Šis tinklalapis yra įkeltas iš priedo.">
 <!ENTITY identity.insecureLoginForms2 "Šiame tinklalapyje įvesti prisijungimo duomenys gali būti perimti.">
 <!-- Strings for connection state warnings. -->
 
@@ -786,6 +814,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "Atverti viską kortelėse">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "A">
+<!ENTITY syncedTabs.context.managedevices.label              "Tvarkyti įrenginius…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "r">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">
@@ -810,8 +840,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "Norite daugiau priemonių?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Pasirinkite jas iš tūkstančių priedų">
 <!ENTITY customizeMode.restoreDefaults "Grąžinti numatytąją struktūrą">
-<!ENTITY customizeMode.toolbars "Rodyti / slėpti priemonių juostas">
+<!ENTITY customizeMode.done "Atlikta">
 <!ENTITY customizeMode.titlebar "Antraštės juosta">
+<!ENTITY customizeMode.toolbars2 "Priemonių juostos">
 <!ENTITY customizeMode.lwthemes "Grafiniai apvalkalai">
 <!ENTITY customizeMode.lwthemes.myThemes "Įdiegti apvalkalai">
 <!ENTITY customizeMode.lwthemes.recommended "Rekomenduojami">
@@ -900,3 +931,36 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY emeLearnMoreContextMenu.label            "Sužinokite daugiau apie DRM…">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
+
+<!ENTITY updateAvailable.message "Atnaujinę „&brandShorterName;“ turėsite paskiausius greičio ir privatumo patobulinimus.">
+<!ENTITY updateAvailable.whatsnew.label "Susipažinkite su naujovėmis.">
+<!ENTITY updateAvailable.header.message "Yra galimas „&brandShorterName;“ naujinimas.">
+<!ENTITY updateAvailable.acceptButton.label "Parsiųsti naujinimą">
+<!ENTITY updateAvailable.acceptButton.accesskey "P">
+<!ENTITY updateAvailable.cancelButton.label "Ne dabar">
+<!ENTITY updateAvailable.cancelButton.accesskey "N">
+<!ENTITY updateAvailable.panelUI.label "Parsiųsti „&brandShorterName;“ naujinimą">
+
+<!ENTITY updateManual.message "Parsisiųskite šviežią „&brandShorterName;“ kopiją, o mes jums padėsime ją įsidiegti.">
+<!ENTITY updateManual.whatsnew.label "Susipažinkite su naujovėmis.">
+<!ENTITY updateManual.header.message "„&brandShorterName;“ naujinimas nepavyko.">
+<!ENTITY updateManual.acceptButton.label "Parsiųsti „&brandShorterName;“">
+<!ENTITY updateManual.acceptButton.accesskey "P">
+<!ENTITY updateManual.cancelButton.label "Ne dabar">
+<!ENTITY updateManual.cancelButton.accesskey "N">
+<!ENTITY updateManual.panelUI.label "Parsiųsti šviežią „&brandShorterName;“ kopiją">
+
+<!ENTITY updateRestart.message "Po greito perleidimo, „&brandShorterName;“ atkurs visas jūsų atviras korteles ir langus.">
+<!ENTITY updateRestart.header.message2 "Perleiskite, norėdami atnaujinti „&brandShorterName;“">
+<!ENTITY updateRestart.acceptButton.label "Perleisti ir atkurti">
+<!ENTITY updateRestart.acceptButton.accesskey "P">
+<!ENTITY updateRestart.cancelButton.label "Ne dabar">
+<!ENTITY updateRestart.cancelButton.accesskey "N">
+<!ENTITY updateRestart.panelUI.label2 "Perleiskite, norėdami atnaujinti „&brandShorterName;“">
+
+<!ENTITY pageActionButton.tooltip "Tinklalapio veiksmai">
+
+<!ENTITY sendToDevice.label "Siųsti į įrenginį…">
+<!ENTITY sendToDevice.viewTitle "Siųsti į įrenginį">
+<!ENTITY sendToDevice.fxaRequired.label "Privaloma">
+<!ENTITY sendToDevice.noDevices.label "Įrenginių nėra">

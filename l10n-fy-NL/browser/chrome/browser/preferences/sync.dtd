@@ -10,8 +10,8 @@
 <!ENTITY engine.tabs.accesskey      "b">
 <!ENTITY engine.history.label       "Skiednis">
 <!ENTITY engine.history.accesskey   "n">
-<!ENTITY engine.passwords.label     "Wachwurden">
-<!ENTITY engine.passwords.accesskey "W">
+<!ENTITY engine.logins.label        "Oanmeldingen">
+<!ENTITY engine.logins.accesskey    "O">
 <!ENTITY engine.prefs.label         "Foarkarren">
 <!ENTITY engine.prefs.accesskey     "F">
 <!ENTITY engine.addons.label        "Add-ons">
@@ -19,8 +19,8 @@
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Apparaatnamme">
-<!ENTITY changeSyncDeviceName.label "Apparaatnamme wizigje…">
-<!ENTITY changeSyncDeviceName.accesskey "w">
+<!ENTITY changeSyncDeviceName2.label "Apparaatnamme wizigje…">
+<!ENTITY changeSyncDeviceName2.accesskey "p">
 <!ENTITY cancelChangeSyncDeviceName.label "Annulearje">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "e">
 <!ENTITY saveChangeSyncDeviceName.label "Bewarje">
@@ -52,8 +52,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "Profylôfbylding wizigje">
 <!ENTITY verifiedManage.label        "Account beheare">
 <!ENTITY verifiedManage.accesskey    "h">
-<!ENTITY disconnect.label            "Ofmelde…">
-<!ENTITY disconnect.accesskey        "O">
+<!ENTITY disconnect3.label           "Ferbining ferbrekke…">
+<!ENTITY disconnect3.accesskey       "b">
 <!ENTITY verify.label                "E-mail ferifiearje">
 <!ENTITY verify.accesskey            "E">
 <!ENTITY forget.label                "Ferjit dizze e-mail">
@@ -67,7 +67,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "Oanmelde">
 <!ENTITY signedOut.accountBox.signin.accesskey  "d">
 
-<!ENTITY signedIn.engines.label       "Syngronisearje op alle apparaten">
+<!ENTITY signedIn.settings.label       "Syngronisaasjeynstellingen">
+<!ENTITY signedIn.settings.description "Kieze wat jo syngronisearje wolle op jo apparaten dy't &brandShortName; brûke.">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

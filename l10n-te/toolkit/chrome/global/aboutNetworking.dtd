@@ -14,7 +14,7 @@
 <!ENTITY aboutNetworking.autoRefresh           "ప్రతి 3 క్షణాలకు స్వయంచాలకరీఫ్రెష్">
 <!ENTITY aboutNetworking.hostname              "అతిధేయపేరు">
 <!ENTITY aboutNetworking.port                  "పోర్టు">
-<!ENTITY aboutNetworking.spdy                  "SPDY">
+<!ENTITY aboutNetworking.http2                 "HTTP/2">
 <!ENTITY aboutNetworking.ssl                   "SSL">
 <!ENTITY aboutNetworking.active                "క్రియాశీలం">
 <!ENTITY aboutNetworking.idle                  "ఊరకవున్న">
@@ -41,3 +41,8 @@
 <!ENTITY aboutNetworking.dnsLookupButton       "పరిష్కరించు">
 <!ENTITY aboutNetworking.dnsDomain             "డొమైన్">
 <!ENTITY aboutNetworking.dnsLookupTableColumn  "IPs">
+<!ENTITY aboutNetworking.rcwn                  "RCWN గణాంకాలు">
+<!ENTITY aboutNetworking.rcwnStatus            "RCWN స్థితి">
+<!ENTITY aboutNetworking.rcwnCacheWonCount     "కాచే సంఖ్య గెలిచింది">
+<!ENTITY aboutNetworking.rcwnNetWonCount       "నెట్ గెలిచింది">
+<!ENTITY aboutNetworking.totalNetworkRequests  "మొత్తం నెట్వర్క్ అభ్యర్థన గణన">

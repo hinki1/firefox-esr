@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "ի">
 <!ENTITY useSmoothScrolling.label        "Օգտագործել կոկիկ թերթումը">
 <!ENTITY useSmoothScrolling.accesskey    "ո">
-<!ENTITY allowHWAccel.label              "Հնարավորության դեպքում օգտագործել սարքակազմի արագացումը ">
-<!ENTITY allowHWAccel.accesskey          "ր">
 <!ENTITY checkUserSpelling.label         "Տեքստ մուտքագրելիս ստուգել ուղղագրությունը">
 <!ENTITY checkUserSpelling.accesskey     "մ">
 
@@ -82,24 +80,38 @@
 <!ENTITY overrideSmartCacheSize.accesskey "Վ">
 
 <!ENTITY updateTab.label                 "Թարմացնել">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 
 <!ENTITY updateApplication.label         "&brandShortName;-ի թարմացումներ">
-<!ENTITY updateAuto1.label               "Թարմացումների ինքնավար տեղադրում (խորհուրդ է տրվում. լավարկում է անվտանգությունը)">
-<!ENTITY updateAuto1.accesskey           "Թ">
-<!ENTITY updateCheckChoose.label         "Ստուգել թարմացումները, բայց ընտրել, թե որը տեղադրել">
-<!ENTITY updateCheckChoose.accesskey     "Ս">
-<!ENTITY updateManual.label              "Երբեք չստուգել թարմացումները (խուրհուրդ չի տրվում. անվտանգության վտանգ)">
-<!ENTITY updateManual.accesskey          "Ե">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Տարբերակ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Թույլատրել &brandShortName;-ին">
+<!ENTITY updateAuto2.label               "Թարմացումների ինքնաբար տեղադրում (խորհուրդ է տրվում. լավարկում է անվտանգությունը)">
+<!ENTITY updateAuto2.accesskey           "Թ">
+<!ENTITY updateCheckChoose2.label        "Ստուգել թարմացումները, բայց ես կընտրեմ, թե որը տեղադրել">
+<!ENTITY updateCheckChoose2.accesskey    "Ս">
+<!ENTITY updateManual2.label             "Երբեք չստուգել թարմացումները (խորհուրդ չի տրվում)">
+<!ENTITY updateManual2.accesskey         "Ե">
 
-<!ENTITY updateHistory.label             "Ցուցադրել Թարմացումների Պատմությունը">
-<!ENTITY updateHistory.accesskey         "Ց">
+<!ENTITY updateHistory2.label            "Ցուցադրել Թարմացումների Պատմությունը...">
+<!ENTITY updateHistory2.accesskey        "ա">
 
 <!ENTITY useService.label                "Թարմացումները տեղադրելիս օգտվել խորքային ծառայությունից">
 <!ENTITY useService.accesskey            "խ">
 
-<!ENTITY autoUpdateOthers.label          "Ինքնաբար թարմացնել">
-<!ENTITY enableSearchUpdate.label        "Փնտրամեքենաներ">
-<!ENTITY enableSearchUpdate.accesskey    "ք">
+<!ENTITY enableSearchUpdate2.label       "Ինքնաբար թարմացնել որոնիչները">
+<!ENTITY enableSearchUpdate2.accesskey   "լ">
+
+<!ENTITY reports.label                   "Զեկույցներ">
 
 <!ENTITY offlineStorageNotify.label               "Տեղեկացնել, երբ վեբ կայքը խնդրում է պահել ֆայլեր՝ անցանց աշխատելու համար">
 <!ENTITY offlineStorageNotify.accesskey           "Տ">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Ջնջել անցանց ֆայլերը">
 
 <!ENTITY certificateTab.label            "Վկայագրեր">
-<!ENTITY certPersonal.label              "Հայցումներ">
-<!ENTITY certPersonal.description        "Երբ սպասարկիչը հարցնում է ձեր անձնական վկայագիրը`">
+<!ENTITY certPersonal2.description       "Երբ սպասարկիչը հարցնում է ձեր անձնական վկայագիրը">
 <!ENTITY selectCerts.auto                "Ընտրել ինքնաշխատ">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "Ամեն անգամ հարցնել">
@@ -125,3 +136,16 @@
 <!ENTITY viewCerts.accesskey             "վ">
 <!ENTITY viewSecurityDevices.label       "Անվտանգության Սարքեր">
 <!ENTITY viewSecurityDevices.accesskey   "Ս">
+
+<!ENTITY performance.label               "Արտադրողականություն">
+<!ENTITY useRecommendedPerformanceSettings2.label "Օգտ. արտադրողականության հանձնարարելի կարգավորումները">
+<!ENTITY useRecommendedPerformanceSettings2.description "Այս կարգավորումները հարմարեցված են ձեր համակարգչի սարքաշարին և օպերացիոն համակարգին:">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey "Օ">
+<!ENTITY performanceSettingsLearnMore.label "Իմանալ ավելին">
+<!ENTITY limitContentProcessOption.label "Բովանդակության ընթացքի սահմանափակում">
+<!ENTITY limitContentProcessOption.description "Բովանդակության լրացուցիչ ընթացքները կարող են լավարկել արտադրողականությունը, երբ օգտագործվում են բազմակի ներդիրներ, բայց միևնույն ժամանակ՝ դրանք ավելի շատ հիշողություն կխլեն:">
+<!ENTITY limitContentProcessOption.accesskey   "ս">
+<!ENTITY limitContentProcessOption.disabledDescription "Բովանդակության ընթացքների քանակի փոփոխումը հնարավոր է միայն բազմամշակիչ &brandShortName;-ի դեպքում:">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink "Իմանալ, թե ինչպես ստուգել՝ արդյոք բազմամշակիչը միացված է">
+<!ENTITY allowHWAccel.label              "Հնարավորության դեպքում օգտագործել սարքակազմի արագացումը ">
+<!ENTITY allowHWAccel.accesskey          "ր">

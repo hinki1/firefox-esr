@@ -6,11 +6,11 @@
 
 <!ENTITY generalTab.label                "Загальні">
 
-<!ENTITY accessibility.label             "Функції доступності">
+<!ENTITY accessibility.label             "Розширені можливості">
 
 <!ENTITY useCursorNavigation.label       "Завжди використовувати клавіші курсора для переміщення всередині сторінок">
 <!ENTITY useCursorNavigation.accesskey   "в">
-<!ENTITY searchOnStartTyping.label       "Шукати текст, коли ви починаєте вводити">
+<!ENTITY searchOnStartTyping.label       "Шукати текст під час його введення">
 <!ENTITY searchOnStartTyping.accesskey   "к">
 <!ENTITY blockAutoReload.label           "Попереджати при спробі сайтів перенаправити чи перезавантажити сторінку">
 <!ENTITY blockAutoReload.accesskey       "п">
@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "а">
 <!ENTITY useSmoothScrolling.label        "Використовувати плавне прокручування">
 <!ENTITY useSmoothScrolling.accesskey    "п">
-<!ENTITY allowHWAccel.label              "Використовувати апаратне прискорення, якщо можливо">
-<!ENTITY allowHWAccel.accesskey          "к">
 <!ENTITY checkUserSpelling.label         "Перевіряти орфографію при введенні">
 <!ENTITY checkUserSpelling.accesskey     "в">
 
@@ -83,23 +81,37 @@
 
 <!ENTITY updateTab.label                 "Оновлення">
 
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 <!ENTITY updateApplication.label         "Оновлення &brandShortName;">
-<!ENTITY updateAuto1.label               "Автоматично встановлювати оновлення (рекомендовано)">
-<!ENTITY updateAuto1.accesskey           "А">
-<!ENTITY updateCheckChoose.label         "Перевіряти оновлення, але дозволяти вам вирішувати чи встановлювати їх">
-<!ENTITY updateCheckChoose.accesskey     "П">
-<!ENTITY updateManual.label              "Не перевіряти оновлення (не рекомендовано)">
-<!ENTITY updateManual.accesskey          "Н">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Версія ">
+<!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Дозволити &brandShortName;">
+<!ENTITY updateAuto2.label               "Автоматично встановлювати оновлення (рекомендовано для покращення безпеки)">
+<!ENTITY updateAuto2.accesskey           "А">
+<!ENTITY updateCheckChoose2.label        "Перевіряти наявність оновлень, але дозволяти вам вирішувати чи встановлювати їх">
+<!ENTITY updateCheckChoose2.accesskey    "П">
+<!ENTITY updateManual2.label             "Ніколи не перевіряти наявність оновлень (не рекомендовано)">
+<!ENTITY updateManual2.accesskey         "Н">
 
-<!ENTITY updateHistory.label             "Показати журнал оновлень">
-<!ENTITY updateHistory.accesskey         "ж">
+<!ENTITY updateHistory2.label            "Показати історію оновлень…">
+<!ENTITY updateHistory2.accesskey        "с">
 
 <!ENTITY useService.label                "Використовувати фонову службу для встановлення оновлень">
 <!ENTITY useService.accesskey            "с">
 
-<!ENTITY autoUpdateOthers.label          "Оновлювати автоматично">
-<!ENTITY enableSearchUpdate.label        "Засоби пошуку">
-<!ENTITY enableSearchUpdate.accesskey    "о">
+<!ENTITY enableSearchUpdate2.label       "Автоматично оновлювати засоби пошуку">
+<!ENTITY enableSearchUpdate2.accesskey   "з">
+
+<!ENTITY reports.label                   "Звіти">
 
 <!ENTITY offlineStorageNotify.label               "Повідомляти, коли веб-сайт просить зберегти дані для автономного використання">
 <!ENTITY offlineStorageNotify.accesskey           "П">
@@ -113,8 +125,7 @@
 <!ENTITY offlineAppRemove.confirm        "Вилучити автономні дані">
 
 <!ENTITY certificateTab.label            "Сертифікати">
-<!ENTITY certPersonal.label              "Запити">
-<!ENTITY certPersonal.description        "Коли сервер вимагає мій особистий сертифікат:">
+<!ENTITY certPersonal2.description       "Коли сервер запитує ваш особистий сертифікат">
 <!ENTITY selectCerts.auto                "Обирати один автоматично">
 <!ENTITY selectCerts.auto.accesskey      "б">
 <!ENTITY selectCerts.ask                 "Питати щоразу">
@@ -125,3 +136,23 @@
 <!ENTITY viewCerts.accesskey             "с">
 <!ENTITY viewSecurityDevices.label       "Пристрої захисту">
 <!ENTITY viewSecurityDevices.accesskey   "з">
+
+<!ENTITY performance.label               "Швидкодія">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "Використовувати рекомендовані налаштування швидкодії">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "Ці налаштування підібрані для вашого комп'ютера й операційної системи.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "В">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Докладніше">
+<!ENTITY limitContentProcessOption.label "Обмеження процесів вмісту">
+<!ENTITY limitContentProcessOption.description
+                                         "Додаткова кількість процесів вмісту може пришвидшити роботу при використанні багатьох вкладок, але при цьому споживатиметься більше пам'яті.">
+<!ENTITY limitContentProcessOption.accesskey   "О">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Зміна числа процесів вмісту можлива лише в багатопроцесній версії &brandShortName;.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Дізнайтеся, як перевірити, чи увімкнено багатопроцесність">
+<!ENTITY allowHWAccel.label              "Використовувати апаратне прискорення, якщо можливо">
+<!ENTITY allowHWAccel.accesskey          "к">

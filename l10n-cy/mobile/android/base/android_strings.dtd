@@ -75,6 +75,7 @@
 <!ENTITY bookmark_removed "Tynnwyd Nod Tudalen">
 <!ENTITY bookmark_updated "Diweddarwyd Nod Tudalen">
 <!ENTITY bookmark_options "Dewisiadau">
+<!ENTITY bookmark_save "Cadw">
 <!ENTITY screenshot_added_to_bookmarks "Llun sgrin wedi ei ychwanegu i\u0027r nodau tudalen">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
@@ -86,6 +87,8 @@
 
 <!ENTITY bookmark_folder_items "Eitemau &formatD;">
 <!ENTITY bookmark_folder_one_item "1 eitem">
+<!ENTITY bookmark_parent_folder "Ffolder Rhiant">
+<!ENTITY bookmark_add_folder "Ychwanegu ffolder newydd">
 
 <!ENTITY reader_saved_offline "Cadwyd all-lein">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -214,6 +217,9 @@
 <!ENTITY pref_home_updates_enabled "Galluogwyd">
 <!ENTITY pref_home_updates_wifi "Hanes pori a llwytho i lawr">
 <!ENTITY pref_category_home_homepage "Tudalen Cartref">
+<!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
+     home page will be use in every new tab. -->
+<!ENTITY home_homepage_every_new_tab "Hefyd ar gyfer tabiau newydd">
 <!ENTITY home_homepage_title "Gosod fel y Dudalen Cartref">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
@@ -282,6 +288,12 @@
 
 <!ENTITY pref_custom_tabs "Tabiau Cyfaddas">
 <!ENTITY pref_custom_tabs_summary3 "Caniatewch i apiau agor gwefannau gan ddefnyddio fersiwn cyfaddasedig o &brandShortName;">
+<!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
+     default browser from user's preference, such as "Open in Firefox" -->
+<!ENTITY custom_tabs_menu_item_open_in "Agor yn &formatS;">
+<!ENTITY custom_tabs_menu_footer "Grym &brandShortName;">
+<!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
+<!ENTITY custom_tabs_hint_url_copy "URL wedi ei gopïo">
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "Ffrwd Gweithgaredd">
@@ -350,26 +362,14 @@
 <!ENTITY pref_plugins_enabled "Galluogwyd">
 <!ENTITY pref_plugins_tap_to_play2 "Cyffwrdd i chwarae">
 <!ENTITY pref_plugins_disabled "Analluogwyd">
-<!ENTITY pref_text_size "Maint testun">
 <!ENTITY pref_restore_tabs "Adfer tabiau">
 <!ENTITY pref_restore_always "Adfer bob tro">
 <!ENTITY pref_restore_quit "Peidio eu hadfer ar ôl gadael &brandShortName;">
-<!ENTITY pref_font_size_tiny "Bach Iawn">
-<!ENTITY pref_font_size_small "Bach">
-<!ENTITY pref_font_size_medium "Canolig">
-<!ENTITY pref_font_size_large "Mawr">
-<!ENTITY pref_font_size_xlarge "Mawr Iawn">
-<!ENTITY pref_font_size_set "Gosod">
-<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
-(or combination of characters) is used to decrease the preview font size; a larger version of the
-same character/combination is used to increase the preview font size. It should be a concise
-representation of the language it is used in that will help show the text in the preview will change
-size. -->
-<!ENTITY pref_font_size_adjust_char "A">
-<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
-    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
+<!-- Localization note (pref_use_system_font_size, pref_use_system_font_size_summary):
+     Font size here refers to the name of the corresponding Android system setting. -->
 
-<!ENTITY pref_font_size_preview_text "Mae\u0027r llwynog oren cyflym yn neidio dros eich disgwyliadau gan fod yn fwy cyflym, mwy hyblyg a mwy diogel. Fel corff ddim-er-elw rydym yn rhydd i fod yn ddyfeisgar ar eich rhan heb bwysau i gyfaddawdu. Mae hyn y golygu gwell profiad i chi a dyfodol mwy disglair i\u0027r We.">
+<!ENTITY pref_use_system_font_size "Defnyddio ffontiau maint y system">
+<!ENTITY pref_use_system_font_size_summary "Graddio cynnwys gwe yn ôl maint ffont y system">
 
 <!ENTITY pref_media_autoplay_enabled "Caniatáu awtochwarae">
 <!ENTITY pref_media_autoplay_enabled_summary "Rheoli os yw gwefannau yn awtochwarae fideos neu gynnwys cyfrwng arall">
@@ -500,6 +500,7 @@ size. -->
 <!ENTITY contextmenu_open_private_tab "Agor mewn Tab Preifat">
 <!ENTITY contextmenu_remove "Tynnu">
 <!ENTITY contextmenu_add_to_launcher "Ychwanegu i’r Sgrin Cartref">
+<!ENTITY contextmenu_set_as_homepage "Gosod fel y Dudalen Cartref">
 <!ENTITY contextmenu_share "Rhannu">
 <!ENTITY contextmenu_pasteandgo "Gludo a Mynd">
 <!ENTITY contextmenu_paste "Gludo">
@@ -524,11 +525,6 @@ size. -->
 <!ENTITY doorhanger_login_select_toast_copy "Copïo\u0027r cyfrinair i\u0027r clipfwrdd">
 <!ENTITY doorhanger_login_select_action_text "Dewis mewngofnod arall">
 <!ENTITY doorhanger_login_select_title "Copïo cyfrinair o">
-<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
-     whether or not the magnifying glass is disabled. -->
-
-<!ENTITY pref_magnifying_glass_enabled "Chwyddo ardaloedd bach">
-<!ENTITY pref_magnifying_glass_enabled_summary2 "Mwyhau dolenni a meysydd ffurflen wrth dapio yn eu hymyl">
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
 
@@ -552,6 +548,7 @@ size. -->
 <!ENTITY bookmark_edit_name "Enw">
 <!ENTITY bookmark_edit_location "Lleoliad">
 <!ENTITY bookmark_edit_keyword "Allweddair">
+<!ENTITY bookmark_select_folder "Dewis ffolder">
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
 
@@ -735,14 +732,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY ellipsis "…">
 
 <!ENTITY colon ":">
-<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
-     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
-     This format string is typically used by getString method, in such method the percent sign
-     is a reserved caracter. In order to display one percent sign in the result of getString,
-     double percent signs must be inserted in the format string.
-     This entity is used in the zoomed view to display the zoom factor-->
-
-<!ENTITY percent "&formatS;&#037;&#037;">
 <!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->
 

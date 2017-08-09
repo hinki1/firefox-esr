@@ -7,10 +7,10 @@ Subject: Make upstream build system create debian/installer/Makefile
  1 file changed, 2 insertions(+)
 
 diff --git a/moz.build b/moz.build
-index ca3d4838da30..9267f8a2489f 100644
+index 2d3b2116f0ef..b90ca0f791bf 100644
 --- a/moz.build
 +++ b/moz.build
-@@ -95,4 +95,6 @@ CONFIGURE_SUBST_FILES += ['.cargo/config']
+@@ -141,4 +141,6 @@ CONFIGURE_SUBST_FILES += ['.cargo/config']
  if not CONFIG['LIBXUL_SDK']:
      DIRS += ['debian/extra-stuff']
  

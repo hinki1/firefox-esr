@@ -2,6 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  applications.label       "برنامه‌ها">
+<!ENTITY  applications.description "نحوهٔ رفتار &brandShortName; با پرونده‌هایی که از طریق وب دریافت می‌کنید یا برنامه‌هایی که هنگام مرور استفاده می‌کنید را انتخاب کنید.">
+
 <!ENTITY  typeColumn.label        "نوع محتوا">
 <!ENTITY  typeColumn.accesskey    "ن">
 
@@ -11,4 +14,4 @@
 <!ENTITY  focusSearch1.key        "f">
 <!ENTITY  focusSearch2.key        "k">
 
-<!ENTITY  filter.emptytext        "جست‌وجو">
+<!ENTITY  filter2.emptytext        "جست‌وجو نوعِ پرونده‌ها یا برنامه‌ها">

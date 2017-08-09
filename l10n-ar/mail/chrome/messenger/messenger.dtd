@@ -10,7 +10,7 @@
 <!ENTITY newFolderCmd.accesskey "م">
 <!ENTITY closeTabCmd2.label "أغلِق اللسان">
 <!ENTITY closeTabCmd2.accesskey "غ">
-<!ENTITY closeOtherTabsCmd2.label "أغلِق الألسنة الأخرى">
+<!ENTITY closeOtherTabsCmd2.label "أغلق الألسنة الأخرى">
 <!ENTITY closeOtherTabsCmd2.accesskey "خ">
 <!ENTITY recentlyClosedTabsCmd.label "الألسنة المغلقة مؤخرًا">
 <!ENTITY recentlyClosedTabsCmd.accesskey "ر">
@@ -34,7 +34,7 @@
 <!ENTITY newIMAccountCmd.accesskey "ش">
 <!ENTITY newFeedAccountCmd.label "حساب تلقيمات…">
 <!ENTITY newFeedAccountCmd.accesskey "ت">
-<!ENTITY newIMContactCmd.label "متراسل دردشة…">
+<!ENTITY newIMContactCmd.label "جهة اتصال دردشة…">
 <!ENTITY newIMContactCmd.accesskey "ت">
 <!ENTITY openMessageFileCmd.label "افتح رسالة محفوظة…">
 <!ENTITY openMessageFileCmd.accesskey "ف">
@@ -51,8 +51,8 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "ج">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "الحساب الحالي">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "ي">
-<!ENTITY getNextNMsgCmd.label "اجلب رسائل الأخبار ال‍ 500 التالية">
-<!ENTITY getNextNMsgCmd.accesskey "ل">
+<!ENTITY getNextNMsgCmd2.label "اجلب رسائل الأخبار التالية">
+<!ENTITY getNextNMsgCmd2.accesskey "ل">
 <!ENTITY sendUnsentCmd.label "أرسِل الرسائل غير المرسَلة">
 <!ENTITY sendUnsentCmd.accesskey "ر">
 <!ENTITY subscribeCmd.label "اشترك…">
@@ -613,7 +613,7 @@
 <!-- AppMenu Popup -->
 
 <!ENTITY appmenuNewMsgCmd.label "رسالة جديدة">
-<!ENTITY appmenuNewContactCmd.label "متراسل دفتر العناوين…">
+<!ENTITY appmenuNewContactCmd.label "جهة اتصال دفتر العناوين…">
 <!ENTITY appmenuEditMenu.label "تحرير">
 <!ENTITY appmenuToolbarLayout.label "تنسيق شريط الأدوات…">
 <!ENTITY appmenuSelectThread.label "اختر نقاشًا">
@@ -634,6 +634,9 @@
 
 <!ENTITY folderContextGetMessages.label "اجلب الرسائل">
 <!ENTITY folderContextGetMessages.accesskey "ج">
+<!ENTITY folderContextPauseAllUpdates.label "ألبِث كل التحديثات">
+<!ENTITY folderContextPauseUpdates.label "ألبِث التحديثات">
+<!ENTITY folderContextPauseUpdates.accesskey "ت">
 <!ENTITY folderContextOpenInNewWindow.label "افتح في نافذه جديدة">
 <!ENTITY folderContextOpenInNewWindow.accesskey "ف">
 <!ENTITY folderContextOpenNewTab.label "افتح في لسان جديد">
@@ -880,16 +883,16 @@
 <!ENTITY AddToAddressBook.accesskey "د">
 <!ENTITY AddDirectlyToAddressBook.label "أضِف إلى دفتر العناوين">
 <!ENTITY AddDirectlyToAddressBook.accesskey "د">
-<!ENTITY EditContact1.label "حرّر المراسل">
+<!ENTITY EditContact1.label "حرّر جهة الاتصال">
 <!ENTITY EditContact1.accesskey "ح">
-<!ENTITY ViewContact.label "شاهِد معلومات المراسل">
+<!ENTITY ViewContact.label "شاهِد معلومات جهة الاتصال">
 <!ENTITY ViewContact.accesskey "ت">
 <!ENTITY SubscribeToNewsgroup.label "اشترك في مجموعة الأخبار">
 <!ENTITY SubscribeToNewsgroup.accesskey "ش">
 <!ENTITY SendMessageTo.label "اكتب رسالة إلى">
 <!ENTITY SendMessageTo.accesskey "ة">
-<!ENTITY CopyEmailAddress.label "انسخ عنوان البريد">
-<!ENTITY CopyEmailAddress.accesskey "ع">
+<!ENTITY CopyEmailAddress.label "انسخ عنوان البريد الإلكتروني">
+<!ENTITY CopyEmailAddress.accesskey "ن">
 <!ENTITY CopyNameAndEmailAddress.label "انسخ الاسم و عنوان البريد الإلكتروني">
 <!ENTITY CopyNameAndEmailAddress.accesskey "س">
 <!ENTITY CopyNewsgroupName.label "انسخ اسم مجموعة الأخبار">
@@ -914,8 +917,8 @@
 <!ENTITY copyLinkCmd.accesskey "ط">
 <!ENTITY copyImageAllCmd.label "انسخ الصورة">
 <!ENTITY copyImageAllCmd.accesskey "ص">
-<!ENTITY copyEmailCmd.label "انسخ البريد الإلكتروني">
-<!ENTITY copyEmailCmd.accesskey "ي">
+<!ENTITY copyEmailCmd.label "انسخ عنوان البريد الإلكتروني">
+<!ENTITY copyEmailCmd.accesskey "خ">
 <!ENTITY stopCmd.label "أوقِف">
 <!ENTITY stopCmd.accesskey "ف">
 <!ENTITY reloadCmd.label "أعِد التحميل">

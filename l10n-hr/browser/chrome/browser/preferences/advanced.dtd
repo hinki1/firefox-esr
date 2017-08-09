@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Koristi uglađeno klizanje">
 <!ENTITY useSmoothScrolling.accesskey    "u">
-<!ENTITY allowHWAccel.label              "Koristi hardversku akceleraciju kad je moguće">
-<!ENTITY allowHWAccel.accesskey          "h">
 
 
 
@@ -33,17 +31,17 @@
 <!ENTITY healthReportDesc.label          "Pomaže vam shvatiti performanse vašeg preglednika, te šalje podatke kako bi &vendorShortName; bila upoznata o zdravlju vašeg preglednika">
 <!ENTITY enableHealthReport.label        "Omogući &brandShortName; izvještaj zdravlja">
 <!ENTITY enableHealthReport.accesskey    "z">
-<!ENTITY healthReportLearnMore.label     "Saznajte više">
+
 
 <!ENTITY telemetryDesc.label             "Dijeli podatke o performansama, korištenju hardveru i prilagodbama vašeg preglednika, kako bi &vendorShortName; mogla unaprijediti &brandShortName;">
 
 
-<!ENTITY telemetryLearnMore.label        "Saznajte više">
+
 
 <!ENTITY crashReporterDesc2.label         "Izvještaji o rušenju pomažu &vendorShortName; da ispravi probleme i učini vaš preglednik stabilnijim i sigurnijim">
 <!ENTITY alwaysSubmitCrashReports.label   "Dopusti da &brandShortName; šalje izvještaje o rušenju u tvoje ime">
 <!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "Saznajte više">
+
 
 <!ENTITY networkTab.label                "Mreža">
 
@@ -80,22 +78,32 @@
 <!ENTITY overrideSmartCacheSize.accesskey "a">
 
 <!ENTITY updateTab.label                 "Nadogradnje">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.post  "">
 
-<!ENTITY updateAuto1.label               "Automatski instaliraj dopune (preporučeno: sigurnije)">
-<!ENTITY updateAuto1.accesskey           "A">
 
 
-<!ENTITY updateManual.label              "Nikada ne provjeravaj dostupnost dopuna (nije preporučeno: sigurnosni rizik)">
-<!ENTITY updateManual.accesskey          "N">
 
-<!ENTITY updateHistory.label             "Prikaži povijest nadogradnji">
-<!ENTITY updateHistory.accesskey         "d">
+
+
+
+
+
 
 <!ENTITY useService.label                "Koristi pozadinski servis za instalaciju dopuna">
 <!ENTITY useService.accesskey            "K">
 
-<!ENTITY enableSearchUpdate.label        "Pretraživače">
-<!ENTITY enableSearchUpdate.accesskey    "t">
+
+
 
 
 <!ENTITY offlineStorageNotifyExceptions.label     "Iznimke…">
@@ -108,7 +116,6 @@
 <!ENTITY offlineAppRemove.confirm        "Ukloni izvanmrežne podatke">
 
 <!ENTITY certificateTab.label            "Certifikati">
-<!ENTITY certPersonal.label              "Zahtjevi">
 
 <!ENTITY selectCerts.auto                "Automatski označi jednoga">
 
@@ -120,3 +127,13 @@
 <!ENTITY viewCerts.accesskey             "c">
 <!ENTITY viewSecurityDevices.label       "Sigurnosni uređaji">
 <!ENTITY viewSecurityDevices.accesskey   "S">
+
+
+
+
+
+
+
+
+<!ENTITY allowHWAccel.label              "Koristi hardversku akceleraciju kad je moguće">
+<!ENTITY allowHWAccel.accesskey          "h">

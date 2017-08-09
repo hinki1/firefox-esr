@@ -14,7 +14,7 @@
 <!ENTITY aboutNetworking.autoRefresh           "Samodejno osveži vsake 3 sekunde">
 <!ENTITY aboutNetworking.hostname              "Ime gostitelja">
 <!ENTITY aboutNetworking.port                  "Vrata">
-<!ENTITY aboutNetworking.spdy                  "SPDY">
+<!ENTITY aboutNetworking.http2                 "HTTP/2">
 <!ENTITY aboutNetworking.ssl                   "SSL">
 <!ENTITY aboutNetworking.active                "Aktivno">
 <!ENTITY aboutNetworking.idle                  "Mirovanje">
@@ -41,3 +41,8 @@
 <!ENTITY aboutNetworking.dnsLookupButton       "Razreši">
 <!ENTITY aboutNetworking.dnsDomain             "Domena">
 <!ENTITY aboutNetworking.dnsLookupTableColumn  "IP-ji">
+<!ENTITY aboutNetworking.rcwn                  "Statistika RCWN">
+<!ENTITY aboutNetworking.rcwnStatus            "Stanje RCWN">
+<!ENTITY aboutNetworking.rcwnCacheWonCount     "Število zmag predpomnilnika">
+<!ENTITY aboutNetworking.rcwnNetWonCount       "Število zmag omrežja">
+<!ENTITY aboutNetworking.totalNetworkRequests  "Skupno število zahtevkov omrežja">

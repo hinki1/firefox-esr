@@ -214,6 +214,9 @@
 <!ENTITY pref_home_updates_enabled "ဖွင့်ထားတယ်">
 <!ENTITY pref_home_updates_wifi "Wi-Fi ဖြင့်သာ">
 <!ENTITY pref_category_home_homepage "အဖွင့်စာမျက်နှာ">
+<!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
+     home page will be use in every new tab. -->
+<!ENTITY home_homepage_every_new_tab "တပ်ဗ်အသစ်များအတွက်လည်းသုံးပါ">
 <!ENTITY home_homepage_title "အဖွင့်စာမျက်နှာ သတ်မှတ်ရန်">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
@@ -282,6 +285,12 @@
      For more see: https://developer.chrome.com/multidevice/android/customtabs -->
 <!ENTITY pref_custom_tabs "စိတ်ကြိုက်တပ်ဗ်များ">
 <!ENTITY pref_custom_tabs_summary3 "ဝဘ်ဆိုက်များကို ဖွင့်ရာတွင် &brandShortName; ၏ စိတ်ကြိုက်ပြင်ဆင်ထားသော ဗားရှင်းကို အသုံးပြုရန် အက်ပ်များကို ခွင့်ပြုပါ">
+<!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
+     default browser from user's preference, such as "Open in Firefox" -->
+<!ENTITY custom_tabs_menu_item_open_in "&formatS; ဖြင့်ဖွင့်ပါ">
+<!ENTITY custom_tabs_menu_footer "&brandShortName; ဖြင့်ထောက်ပံ့ထားသော">
+<!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
+<!ENTITY custom_tabs_hint_url_copy "URL ကူးပြီး">
 
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "ကိစ္စအဖုံဖုံ">
@@ -350,26 +359,14 @@
 <!ENTITY pref_plugins_enabled "ဖွင့်ထားသည်">
 <!ENTITY pref_plugins_tap_to_play2 "ဖွင့်ရန် ထိပါ">
 <!ENTITY pref_plugins_disabled "ပိတ်ထားသည်">
-<!ENTITY pref_text_size "စာလုံး ဆိုဒ်">
 <!ENTITY pref_restore_tabs "တပ်ဗ်များကို ပြန်လည်အသုံးပြုရန်">
 <!ENTITY pref_restore_always "အမြဲ ပြန်ဖွင့်ပါ">
 <!ENTITY pref_restore_quit "&brandShortName; ပိတ်လိုက်ပါက အရင်ဖွင့်ထားသော အရာများ ပြန်မခေါ်ပါ">
-<!ENTITY pref_font_size_tiny "ခပ်သေးသေး">
-<!ENTITY pref_font_size_small "အသေး">
-<!ENTITY pref_font_size_medium "အလယ်အလတ်">
-<!ENTITY pref_font_size_large "ကြီးကြီး">
-<!ENTITY pref_font_size_xlarge "ခပ်ကြီးကြီး">
-<!ENTITY pref_font_size_set "အစု">
-<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
-(or combination of characters) is used to decrease the preview font size; a larger version of the
-same character/combination is used to increase the preview font size. It should be a concise
-representation of the language it is used in that will help show the text in the preview will change
-size. -->
-<!ENTITY pref_font_size_adjust_char "A">
 
-<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
-    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
-<!ENTITY pref_font_size_preview_text "The quick orange fox jumps over your expectations with more speed, more flexibility and more security. As a non-profit, we\u0027re free to innovate on your behalf without any pressure to compromise. That means a better experience for you and a brighter future for the Web.">
+<!-- Localization note (pref_use_system_font_size, pref_use_system_font_size_summary):
+     Font size here refers to the name of the corresponding Android system setting. -->
+<!ENTITY pref_use_system_font_size "စနစ်တွင် သတ်မှတ်ထားသည့် ဖောင့်အရွယ်အစားကို အသုံးပြုပါ">
+<!ENTITY pref_use_system_font_size_summary "ဝတ်ဘ်မျက်နှာပြင်အား စနစ် ၏ဖောင့်အရွယ်အစားအရပြောင်းလဲမည်">
 
 <!ENTITY pref_media_autoplay_enabled "အလိုအလျောက်ပြသခြင်း ခွင့်ပြုပါ">
 <!ENTITY pref_media_autoplay_enabled_summary "ဝဘ်ဆိုဒ်များက မီဒီယာ သို့မဟုတ် ရုပ်ရှင်များကို အလိုအလျောက်ပြသခွင့်ရှိမရှိ သတ်မှတ်ပါ">
@@ -500,6 +497,7 @@ size. -->
 <!ENTITY contextmenu_open_private_tab "တစ်ကိုယ်ရေသုံးတပ်ဗ်ဖွင့်">
 <!ENTITY contextmenu_remove "ဖယ်ရှားပါ">
 <!ENTITY contextmenu_add_to_launcher "ပင်မစာမျက်နှာသို့ ထည့်ပါ">
+<!ENTITY contextmenu_set_as_homepage "ပင်မစာမျက်နှာအဖြစ် သတ်မှတ်ပါ">
 <!ENTITY contextmenu_share "မျှ​ဝေရန်">
 <!ENTITY contextmenu_pasteandgo "ကူးထားပြီးနောက်သွားမည်။">
 <!ENTITY contextmenu_paste "ပွားပါ">
@@ -524,11 +522,6 @@ size. -->
 <!ENTITY doorhanger_login_select_toast_copy "စကားဝှက်ကို ကလစ်ဘုတ်သို့ ကူးယူပြီး">
 <!ENTITY doorhanger_login_select_action_text "အခြားဝင်ရောက်မှုကို ရွေးပါ">
 <!ENTITY doorhanger_login_select_title "စကားဝှက်ကို ကူးယူရန်">
-
-<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
-     whether or not the magnifying glass is disabled. -->
-<!ENTITY pref_magnifying_glass_enabled "သေးငယ်သော ဧရိယာများကို ချဲ့ပြပါ">
-<!ENTITY pref_magnifying_glass_enabled_summary2 "လင့်များနှင့် ဖောင်ဖြည့်ကွက်လပ်များအနားထိလျှင် ၄င်းတို့ကို ချဲ့ပြပါ">
 
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
@@ -735,14 +728,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY ellipsis "…">
 
 <!ENTITY colon ":">
-
-<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
-     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
-     This format string is typically used by getString method, in such method the percent sign
-     is a reserved caracter. In order to display one percent sign in the result of getString,
-     double percent signs must be inserted in the format string.
-     This entity is used in the zoomed view to display the zoom factor-->
-<!ENTITY percent "&formatS;&#037;&#037;">
 
 <!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->

@@ -2,7 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!-- LOCALIZATION NOTE (tapToPlayPlugin): Mobile (used for touch interfaces) only has one type of plugin possible. -->
-
 <!ENTITY tapToPlayPlugin                                     "प्लगिन सक्रिय करए कलेल एतय टैप करू.">
 <!ENTITY clickToActivatePlugin                               "प्लगिन सक्रिय करू.">
 <!ENTITY checkForUpdates                                     "अद्यतन कलेल जाँचू…">
@@ -29,3 +28,4 @@
 <!ENTITY plugin.file                                         "फ़ाइल">
 <!ENTITY plugin.mimeTypes                                    "MIME प्रकार">
 <!ENTITY plugin.flashProtectedMode.label                     "एडोब फ्लैश सुरक्षित मोड सक्रिय करू">
+

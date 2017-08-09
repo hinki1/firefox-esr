@@ -23,8 +23,6 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Cleachd sgroladh caoin">
 <!ENTITY useSmoothScrolling.accesskey    "o">
-<!ENTITY allowHWAccel.label              "Cleachd luathachadh a' bhathar-bhog ma bhios e ri làimh">
-<!ENTITY allowHWAccel.accesskey          "m">
 <!ENTITY checkUserSpelling.label         "Ceartaich an litreachadh is tu a’ sgrìobhadh rud">
 <!ENTITY checkUserSpelling.accesskey     "t">
 
@@ -82,24 +80,36 @@
 <!ENTITY overrideSmartCacheSize.accesskey "o">
 
 <!ENTITY updateTab.label                 "Ùraich">
+<!-- LOCALIZATION NOTE (updateApplication.label):
+  Strings from aboutDialog.dtd are displayed in this section of the preferences.
+  Please check for possible accesskey conflicts.
+-->
 
 <!ENTITY updateApplication.label         "Ùrachaidhean &brandShortName;">
-<!ENTITY updateAuto1.label               "Stàlaich na h-ùrachaidhean gu fèin-obrachail (mholamaid seo airson tèarainteachd na b' fhearr)">
-<!ENTITY updateAuto1.accesskey           "S">
-<!ENTITY updateCheckChoose.label         "Thoir sùil airson ùrachaidhean ann leig leam co-dhùnadh a bheil mi airson an stàladh">
-<!ENTITY updateCheckChoose.accesskey     "c">
-<!ENTITY updateManual.label              "Na thoir sùil airson ùrachaidhean idir (cha mholamaid seo oir adhbharaichidh seo cunnartan tèarainteachd)">
-<!ENTITY updateManual.accesskey          "N">
+<!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
+# is followed by a version number, keep the trailing space or replace it with a
+# different character as needed. updateApplication.version.post is displayed
+# after the version number, and is empty on purpose for English. You can use it
+# if required by your language.
+ -->
+<!ENTITY updateApplication.version.pre   "Tionndadh ">
+<!ENTITY updateApplication.version.post  "">
 
-<!ENTITY updateHistory.label             "Seall eachdraidh nan ùrachaidhean">
-<!ENTITY updateHistory.accesskey         "h">
+<!ENTITY updateAuto2.label               "Stàlaich na h-ùrachaidhean gu fèin-obrachail (mholamaid seo airson tèarainteachd nas fhearr)">
+<!ENTITY updateAuto2.accesskey           "S">
+<!ENTITY updateCheckChoose2.label        "Thoir sùil airson ùrachaidhean ann leig leam co-dhùnadh a bheil mi airson an stàladh">
+<!ENTITY updateCheckChoose2.accesskey    "c">
+<!ENTITY updateManual2.label             "Na thoir sùil airson ùrachaidhean idir (cha mholamaid seo)">
+<!ENTITY updateManual2.accesskey         "N">
+
+<!ENTITY updateHistory2.label            "Seall eachdraidh nan ùrachaidhean…">
+<!ENTITY updateHistory2.accesskey        "h">
 
 <!ENTITY useService.label                "Cleachd seirbheis a stàlaicheas na h-ùrachaidhean sa chùlaibh">
 <!ENTITY useService.accesskey            "C">
 
-<!ENTITY autoUpdateOthers.label          "Ùraich gu fèin-obrachail">
-<!ENTITY enableSearchUpdate.label        "Einnseanan-luirg">
-<!ENTITY enableSearchUpdate.accesskey    "E">
+
+
 
 <!ENTITY offlineStorageNotify.label               "Innis ma bhios làrach-lìn ag iarraidh dàta a stòradh a chum cleachdaidh far loidhne">
 <!ENTITY offlineStorageNotify.accesskey           "t">
@@ -113,8 +123,7 @@
 <!ENTITY offlineAppRemove.confirm        "Thoir air falbh an dàta far loidhne">
 
 <!ENTITY certificateTab.label            "Teisteanasan">
-<!ENTITY certPersonal.label              "Iarrtasan">
-<!ENTITY certPersonal.description        "Nuair a dh’iarras frithealaiche an teisteanas pearsanta agad:">
+
 <!ENTITY selectCerts.auto                "Taghar fear leis fhèin">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "Faighnich dhìot gach turas">
@@ -125,3 +134,13 @@
 <!ENTITY viewCerts.accesskey             "S">
 <!ENTITY viewSecurityDevices.label       "Uidheaman tèarainteachd">
 <!ENTITY viewSecurityDevices.accesskey   "n">
+
+
+
+
+
+
+
+
+<!ENTITY allowHWAccel.label              "Cleachd luathachadh a' bhathar-bhog ma bhios e ri làimh">
+<!ENTITY allowHWAccel.accesskey          "m">
