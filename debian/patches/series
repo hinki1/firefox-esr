@@ -1,5 +1,6 @@
 fixes/Allow-.js-preference-files-to-set-locked-prefs-with-.patch
 fixes/Bug-1373988-Make-webrtc-gtest-build-work-with-system.patch
+fixes/Bug-1388681-Disable-Wformat-security-where-Wformat-i.patch
 porting/Add-xptcall-support-for-SH4-processors.patch
 porting/NSS-Fix-FTBFS-on-Hurd-because-of-MAXPATHLEN.patch
 porting/Make-powerpc-not-use-static-page-sizes-in-mozjemallo.patch
