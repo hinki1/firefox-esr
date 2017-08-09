@@ -12,6 +12,10 @@ Build-Depends: autotools-dev,
 %if DIST == wheezy
                gcc-mozilla,
 %endif
+%if DIST == buster || DIST == experimental
+               gcc-6,
+               g++-6,
+%endif
                autoconf2.13,
                libx11-dev,
                libx11-xcb-dev,
