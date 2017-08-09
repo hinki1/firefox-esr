@@ -3,18 +3,22 @@ Date: Sat, 17 Jun 2017 07:17:24 +0900
 Subject: Add ppc64el target for rust code
 
 ---
- build/moz.configure/rust.configure | 1 +
- 1 file changed, 1 insertion(+)
+ build/moz.configure/rust.configure | 5 +++++
+ 1 file changed, 5 insertions(+)
 
 diff --git a/build/moz.configure/rust.configure b/build/moz.configure/rust.configure
-index 3443ec15d0d4..989caeba485a 100644
+index 3443ec15d0d4..3cd9000c9356 100644
 --- a/build/moz.configure/rust.configure
 +++ b/build/moz.configure/rust.configure
-@@ -151,6 +151,7 @@ def rust_triple_alias(host_or_target):
-             ('sparc64', 'Linux'): 'sparc64-unknown-linux-gnu',
-             ('x86', 'Linux'): 'i686-unknown-linux-gnu',
-             ('x86_64', 'Linux'): 'x86_64-unknown-linux-gnu',
-+            ('ppc64le', 'Linux'): 'powerpc64le-unknown-linux-gnu',
-             # OS X
-             ('x86', 'OSX'): 'i686-apple-darwin',
-             ('x86_64', 'OSX'): 'x86_64-apple-darwin',
+@@ -174,6 +174,11 @@ def rust_triple_alias(host_or_target):
+             ('sparc64', 'SunOS'): 'sparcv9-sun-solaris',
+         }.get((host_or_target.cpu, os_or_kernel), None)
+ 
++        if rustc_target is None:
++            rustc_target = {
++		('ppc64', 'little', 'Linux'): 'powerpc64le-unknown-linux-gnu',
++            }.get((host_or_target.cpu, host_or_target.endianness, os_or_kernel))
++
+         if rustc_target is None:
+             die("Don't know how to translate {} for rustc".format(host_or_target.alias))
+ 
