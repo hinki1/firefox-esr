@@ -39,8 +39,11 @@ UPSTREAM_RELEASE := $(firstword $(subst +, ,$(UPSTREAM_RELEASE)))
 # If the debian part of the version contains ~bpo or ~deb, it's a backport
 DEBIAN_RELEASE_EXTRA := $(word 2,$(subst ~, ,$(DEBIAN_RELEASE)))
 DIST = unknown
-ifneq (,$(filter testing% unstable,$(DEB_DISTRIBUTION)))
-DIST = stretch
+ifneq (,$(filter experimental,$(DEB_DISTRIBUTION)))
+DIST = experimental
+endif
+ifneq (,$(filter testing% buster% unstable sid,$(DEB_DISTRIBUTION)))
+DIST = buster
 endif
 ifneq (,$(filter bpo% deb%,$(DEBIAN_RELEASE_EXTRA)))
 DEBIAN_TARGET := $(subst bpo,,$(subst deb,,$(DEBIAN_RELEASE_EXTRA)))
@@ -52,6 +55,9 @@ DIST = jessie
 endif
 ifneq (,$(filter 9%,$(DEBIAN_TARGET)))
 DIST = stretch
+endif
+ifneq (,$(filter 10%,$(DEBIAN_TARGET)))
+DIST = buster
 endif
 endif
 
