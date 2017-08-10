@@ -82,7 +82,7 @@ impl Drop for Context {
 
 impl Context {
     #[cfg(feature = "pulse-dlopen")]
-    fn _new(name: *const i8) -> Result<Box<Self>> {
+    fn _new(name: *const c_char) -> Result<Box<Self>> {
         let libpulse = unsafe { open() };
         if libpulse.is_none() {
             return Err(cubeb::ERROR);
@@ -106,7 +106,7 @@ impl Context {
     }
 
     #[cfg(not(feature = "pulse-dlopen"))]
-    fn _new(name: *const i8) -> Result<Box<Self>> {
+    fn _new(name: *const c_char) -> Result<Box<Self>> {
         Ok(Box::new(Context {
                         ops: &PULSE_OPS,
                         mainloop: unsafe { pa_threaded_mainloop_new() },
