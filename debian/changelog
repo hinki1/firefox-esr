@@ -1,3 +1,14 @@
+firefox (55.0-2) unstable; urgency=medium
+
+  * ipc/chromium/src/base/message_pump_libevent.cc,
+    ipc/chromium/src/third_party/libevent/linux/event2/event-config.h:
+    Fix FTBFS on i386. bz#1388981.
+  * dom/base/nsWrapperCache.h: Fix FTBFS on powerpc64el. bz#1376277.
+  * media/libcubeb/cubeb-pulse-rs/src/backend/context.rs: Fix cubeb-pulse-rs
+    FTBFS on arm64.
+
+ -- Mike Hommey <glandium@debian.org>  Thu, 10 Aug 2017 14:29:21 +0900
+
 firefox (55.0-1) unstable; urgency=medium
 
   * New upstream release.
