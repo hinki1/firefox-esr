@@ -6,7 +6,7 @@
 
 DEFINES['CUBEB_GECKO_BUILD'] = True
 
-if CONFIG['CPU_ARCH'] != 'mips':
+if CONFIG['CPU_ARCH'] != 'mips32':
     GeckoCppUnitTests([
       'test_duplex',
       'test_record',
