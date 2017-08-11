@@ -30,3 +30,4 @@ debian-hacks/Force-use-the-i686-rust-target.patch
 debian-hacks/Set-program-name-from-the-remoting-name.patch
 debian-hacks/Build-against-system-libjsoncpp.patch
 debian-hacks/Use-the-Mozilla-Location-Service-key-when-the-Google.patch
+debian-hacks/Fixup-workaround-for-binutil-assertion-on-mips.patch
