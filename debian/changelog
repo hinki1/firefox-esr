@@ -1,3 +1,12 @@
+firefox (55.0.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+  * js/src/jit/ExecutableAllocator.h, js/src/jit/none/MacroAssembler-none.h:
+    Fix Spidermonkey build with no jit backend. bz#1376268.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 23 Aug 2017 09:41:36 +0900
+
 firefox (55.0-2) unstable; urgency=medium
 
   * ipc/chromium/src/base/message_pump_libevent.cc,
