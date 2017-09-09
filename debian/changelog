@@ -1,3 +1,11 @@
+firefox (55.0.3-1) unstable; urgency=medium
+
+  * New upstream release.
+
+  * debian/source/lintian-overrides: Add a lintian override for dotzlib.chm.
+
+ -- Mike Hommey <glandium@debian.org>  Sat, 09 Sep 2017 20:24:43 +0900
+
 firefox (55.0.2-1) unstable; urgency=medium
 
   * New upstream release.
