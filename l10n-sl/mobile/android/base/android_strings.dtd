@@ -295,6 +295,9 @@
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "Spletni naslov kopiran">
 
+<!ENTITY pref_pwa "Progresivne spletne aplikacije">
+<!ENTITY pref_pwa_summary "Dovoli dodajanje spletnih aplikacij na domač zaslon">
+
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Tok dejavnosti">
 <!ENTITY pref_activity_stream_summary "Bogat vizualni tok zgodovine in prenovljena domača stran naredita iskanje s &brandShortName;om preprostejše kot kadarkoli prej.">
@@ -545,6 +548,7 @@
 <!ENTITY page_removed "Stran odstranjena">
 
 <!ENTITY bookmark_edit_title "Uredi zaznamek">
+<!ENTITY bookmark_edit_folder_title "Uredi mapo">
 <!ENTITY bookmark_edit_name "Ime">
 <!ENTITY bookmark_edit_location "Naslov">
 <!ENTITY bookmark_edit_keyword "Ključna beseda">
@@ -621,6 +625,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Prikaži izbrane naprave">
+
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+<!ENTITY home_pinned_site "Pripeta stran">
+<!ENTITY home_unpinned_site "Odpeta stran">
 
 <!ENTITY remote_tabs_panel_moved_title "Kam so izginili moji zavihki?">
 <!ENTITY remote_tabs_panel_moved_desc "Vaši zavihki iz drugih naprav so bili premaknjeni na ploščo na vaši domači strani, ki je dostopna vedno, ko odprete nov zavihek.">

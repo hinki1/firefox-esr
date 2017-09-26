@@ -66,6 +66,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocesowe wokna">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Webwopśimjeśowe procese">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Kluc Google">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Kluc słužby póstajenja stojnišća Mozilla">
 
@@ -104,6 +106,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Pśistupnosć">
 <!ENTITY aboutSupport.a11yActivated "Aktiwěrowany">
 <!ENTITY aboutSupport.a11yForceDisabled "Bźezbarjernosći zajźowaś">
+<!ENTITY aboutSupport.a11yHandlerUsed "Pśistupny handler wužyty">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Bibliotekowe wersije">
 
@@ -134,3 +137,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Protokol rozsuźenja">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Funkcije, kótarež su se wót wowaleńskego stražnika znjemóžnili">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Nuzowe rozwězanja">
+
+<!ENTITY aboutSupport.mediaTitle "Medije">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Wudawańske rědy">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Zapódawańske rědy">
+<!ENTITY aboutSupport.mediaDeviceName "Mě">
+<!ENTITY aboutSupport.mediaDeviceGroup "Kupka">
+<!ENTITY aboutSupport.mediaDeviceVendor "Pśedawaŕ">
+<!ENTITY aboutSupport.mediaDeviceState "Status">
+<!ENTITY aboutSupport.mediaDevicePreferred "Preferěrowany">
+<!ENTITY aboutSupport.mediaDeviceFormat "Format">
+<!ENTITY aboutSupport.mediaDeviceChannels "Kanale">
+<!ENTITY aboutSupport.mediaDeviceRate "Rata">
+<!ENTITY aboutSupport.mediaDeviceLatency "Latenca">

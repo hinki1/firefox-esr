@@ -21,7 +21,7 @@
 <!ENTITY view.sort.label                "Susun">
 <!ENTITY view.sort.accesskey            "S">
 <!ENTITY view.unsorted.label            "Belum disusun">
-<!ENTITY view.unsorted.accesskey        "U">
+<!ENTITY view.unsorted.accesskey        "B">
 <!ENTITY view.sortAscending.label       "Tertib Susunan A> Z">
 <!ENTITY view.sortAscending.accesskey   "A">
 <!ENTITY view.sortDescending.label      "Tertib susunan Z > A">
@@ -36,10 +36,10 @@
 
 <!ENTITY cmd.backup.label               "Sandaran…">
 <!ENTITY cmd.backup.accesskey           "n">
-<!ENTITY cmd.restore2.label             "Kembalikan semula">
-<!ENTITY cmd.restore2.accesskey         "K">
+<!ENTITY cmd.restore2.label             "Pulih">
+<!ENTITY cmd.restore2.accesskey         "P">
 <!ENTITY cmd.restoreFromFile.label      "Pilih Fail...">
-<!ENTITY cmd.restoreFromFile.accesskey  "P">
+<!ENTITY cmd.restoreFromFile.accesskey  "F">
 
 <!ENTITY cmd.deleteDomainData.label     "Lupakan Laman Ini">
 <!ENTITY cmd.deleteDomainData.accesskey "L">
@@ -47,7 +47,7 @@
 <!ENTITY cmd.open.label                  "Buka">
 <!ENTITY cmd.open.accesskey              "k">
 <!ENTITY cmd.open_window.label           "Buka dalam Tetingkap Baru">
-<!ENTITY cmd.open_window.accesskey       "N">
+<!ENTITY cmd.open_window.accesskey       "B">
 <!ENTITY cmd.open_private_window.label     "Buka dalam Tetingkap Peribadi Baru">
 <!ENTITY cmd.open_private_window.accesskey "P">
 <!ENTITY cmd.open_tab.label              "Buka dalam Tab Baru">
@@ -60,7 +60,7 @@
 
 <!ENTITY cmd.sortby_name.label              "Susun mengikut Nama">
 <!ENTITY cmd.sortby_name.accesskey          "S">
-<!ENTITY cmd.context_sortby_name.accesskey  "r">
+<!ENTITY cmd.context_sortby_name.accesskey  "n">
 
 <!ENTITY cmd.new_bookmark.label            "Tandabuku Baru…">
 <!ENTITY cmd.new_bookmark.accesskey        "B">
@@ -85,8 +85,7 @@
 <!ENTITY col.dateadded.label     "Ditambah">
 <!ENTITY col.lastmodified.label  "Penyesuaian Terakhir">
 
-<!ENTITY search.label                              "Cari:">
-<!ENTITY search.accesskey                          "C">
+<!ENTITY search.placeholder  "Cari">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -104,8 +103,6 @@
 <!ENTITY detailsPane.less.accesskey "K">
 <!ENTITY detailsPane.selectAnItemText.description "Pilih satu item untuk dipapar dan diedit sifatnya">
 
-<!ENTITY find.label               "Cari:">
-<!ENTITY find.accesskey           "C">
 <!ENTITY view.label               "Papar">
 <!ENTITY view.accesskey           "a">
 <!ENTITY byDate.label             "Secara Tarikh">

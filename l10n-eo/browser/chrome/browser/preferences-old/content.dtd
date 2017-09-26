@@ -9,8 +9,8 @@
 
 <!ENTITY  notificationsPolicy.label            "Sciigoj">
 <!ENTITY  notificationsPolicyLearnMore.label   "Pli da informo">
-<!ENTITY  notificationsPolicyDesc3.label       "Elektu la retejojn, kiuj rajtas sendi sciigojn al vi">
-<!ENTITY  notificationsPolicyButton.accesskey  "h">
+<!ENTITY  notificationsPolicyDesc4.label       "Elektu la retejojn, kiuj rajtas sendi sciigojn al vi">
+<!ENTITY  notificationsPolicyButton.accesskey  "E">
 <!ENTITY  notificationsPolicyButton.label      "Elekti…">
 <!ENTITY  notificationsDoNotDisturb.label      "Ne ĝenu min">
 <!ENTITY  notificationsDoNotDisturb.accesskey  "N">

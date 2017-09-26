@@ -5,7 +5,7 @@
 
 <!ENTITY migrationWizard.title          "Amarag n ukter">
 
-<!ENTITY importFrom.label               "Kter iγewwaṛen, ticṛaḍ n isebtar, amazray, awalen uffiren d isefka nniḍen seg:">
+<!ENTITY importFrom.label               "Kter iɣewwaṛen, ticṛaḍ n isebtar, amazray, awalen uffiren d isefka nniḍen seg:">
 <!ENTITY importFromUnix.label           "Kter ismenyifen, ticṛaḍ n isebtar, amazray, awalen uffiren d isefka nniḍen seg: ">
 <!ENTITY importFromBookmarks.label      "Kter ticṛaḍ n isebtar seg: ">
 
@@ -28,19 +28,19 @@
 <!ENTITY importFrom360se.label          "360 Iminig aɣelsan">
 <!ENTITY importFrom360se.accesskey      "3">
 
-<!ENTITY noMigrationSources.label       "Ulac aseɣẓan ig gebren ticraḍ n isebtar, amazray, neɣ awalen uffiren ikelsen.">
+<!ENTITY noMigrationSources.label       "Ulac aseɣẓan i igebren ticraḍ n isebtar, amazray, neɣ awalen uffiren ikelsen.">
 
 <!ENTITY importSource.title             "Aktar n iɣewwaṛen d isefka">
 <!ENTITY importItems.title              "Iferdisen ara yeţwaketren">
 <!ENTITY importItems.label              "Fren iferdisen ara yeţwaketren ">
 
 <!ENTITY migrating.title                "Aktar…">
-<!ENTITY migrating.label                "Iferdisen-agi ad ttwaktaren aka tura…">
+<!ENTITY migrating.label                "Iferdisen-a la d-ttwaktaren akka tura…">
 
 <!ENTITY selectProfile.title            "Fren amaɣnu">
-<!ENTITY selectProfile.label            "Imaɣuten-agi heggan iwakken ad ttwaketren seg:">
+<!ENTITY selectProfile.label            "Imaɣnuten-a heggan iwakken ad ttwaketren seg:">
 
 <!ENTITY done.title                     "Aktar immed">
-<!ENTITY done.label                     "Iferdisen-agi ttwaketren akken iwata:">
+<!ENTITY done.label                     "Iferdisen-a ttwaketren akken iwata:">
 
 <!ENTITY closeSourceBrowser.label       "Ma ulac aɣilif, wali ma yella iminig inek yemdel send ad tedduḍ deg umahil-inek.">

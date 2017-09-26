@@ -3,3 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE the term "url-classifier" should not be translated. -->
+<!ENTITY aboutUrlClassifier.providerLastUpdateStatus    "Trạng thái cập nhật cuối">
+<!ENTITY aboutUrlClassifier.providerUpdateBtn           "Cập nhật">
+<!ENTITY aboutUrlClassifier.cacheRefreshBtn             "Làm mới">
+<!ENTITY aboutUrlClassifier.cacheClearBtn               "Xóa">
+<!ENTITY aboutUrlClassifier.debugTitle                  "Gỡ lỗi">

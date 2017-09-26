@@ -4,7 +4,7 @@
 
 <!ENTITY cutCmd.label "ამოჭრა">
 <!ENTITY cutCmd.accesskey "ა">
-<!ENTITY copyCmd.label "კოპირება">
+<!ENTITY copyCmd.label "დაკოპირება">
 <!ENTITY copyCmd.accesskey "კ">
 <!ENTITY pasteCmd.label "ჩასმა">
 <!ENTITY pasteCmd.accesskey "ჩ">
@@ -20,14 +20,14 @@
 <!ENTITY spellUndoAddToDictionary.label "ლექსიკონში დამატების გაუქმება">
 <!ENTITY spellUndoAddToDictionary.accesskey "n">
 <!ENTITY spellCheckToggle.label "მართლწერის შემოწმება">
-<!ENTITY spellCheckToggle.accesskey "ბ">
+<!ENTITY spellCheckToggle.accesskey "თ">
 <!ENTITY spellNoSuggestions.label "(მართლწერის შემოთავაზებები არაა)">
 <!ENTITY spellDictionaries.label "ენები">
 <!ENTITY spellDictionaries.accesskey "ე">
 
 <!ENTITY searchTextBox.clear.label "გასუფთავება">
 
-<!ENTITY fillLoginMenu.label          "შესვლის შევსება">
+<!ENTITY fillLoginMenu.label          "შესვლის მონაცემების შევსება">
 <!ENTITY fillLoginMenu.accesskey      "F">
 <!ENTITY fillPasswordMenu.label       "პაროლის შევსება">
 <!ENTITY fillPasswordMenu.accesskey   "F">

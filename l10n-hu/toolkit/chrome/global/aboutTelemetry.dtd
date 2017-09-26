@@ -4,25 +4,11 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Telemetriai adatok">
 
-<!ENTITY aboutTelemetry.changeDataChoices "  Változtatás">
-
-<!ENTITY aboutTelemetry.uploadEnabled "  Az FHR adatok feltöltése <span>engedélyezett</span>.">
-
-<!ENTITY aboutTelemetry.uploadDisabled "  Az FHR adatok feltöltése <span>tiltott</span>.">
-
-<!ENTITY aboutTelemetry.extendedRecordingEnabled "  A bővített telemetria-rögzítés <span>engedélyezett</span>.">
-
-<!ENTITY aboutTelemetry.extendedRecordingDisabled "  A bővített telemetria-rögzítés <span>tiltott</span>.">
-
 <!ENTITY aboutTelemetry.pingDataSource "Adatforrás pingelése:">
 
 <!ENTITY aboutTelemetry.showCurrentPingData "Aktuális ping adatok">
 
 <!ENTITY aboutTelemetry.showArchivedPingData "Archivált ping adatok">
-
-<!ENTITY aboutTelemetry.pingDataDisplay "Ping adatok megjelenítése:">
-
-<!ENTITY aboutTelemetry.structured "Strukturált">
 
 <!ENTITY aboutTelemetry.raw "Nyers JSON">
 
@@ -34,11 +20,25 @@
 
 <!ENTITY aboutTelemetry.showOlderPing "Régebbi ping &gt;&gt;">
 
-<!ENTITY aboutTelemetry.rawPingData "Nyers ping adatok…">
-
 <!ENTITY aboutTelemetry.archiveWeekHeader "Hét">
 
+<!ENTITY aboutTelemetry.archivePingType "
+Ping típusa
+">
+
 <!ENTITY aboutTelemetry.archivePingHeader "Ping">
+
+<!ENTITY aboutTelemetry.optionGroupToday "
+Ma
+">
+
+<!ENTITY aboutTelemetry.optionGroupYesterday "
+Tegnap
+">
+
+<!ENTITY aboutTelemetry.optionGroupOlder "
+Régebbi
+">
 
 <!ENTITY aboutTelemetry.generalDataSection "  Általános adatok">
 
@@ -72,12 +72,6 @@
 
 <!ENTITY aboutTelemetry.sessionInfoSection "  Munkamenet-információk">
 
-<!ENTITY aboutTelemetry.addonHistogramsSection "  Kiegészítők által gyűjtött hisztogramok">
-
-<!ENTITY aboutTelemetry.toggle "Kattintson a szakasz be/ki kapcsolásához">
-
-<!ENTITY aboutTelemetry.emptySection "  (Nincsenek összegyűjtött adatok)">
-
 <!ENTITY aboutTelemetry.fullSqlWarning "  MEGJEGYZÉS: A lassú SQL hibakeresés be van kapcsolva. Alább megjelenhetnek teljes SQL karakterláncok, de ezek nem kerülnek elküldésre a telemetriának.">
 
 <!ENTITY aboutTelemetry.fetchStackSymbols "  Függvénynevek lekérése a vermekhez">
@@ -87,5 +81,3 @@
 <!ENTITY aboutTelemetry.filterText "Szűrő (karakterláncok vagy /regexp/)">
 
 <!ENTITY aboutTelemetry.payloadChoiceHeader "  Terhelés">
-
-<!ENTITY aboutTelemetry.rawPayload "  Nyers terhelés">

@@ -65,7 +65,7 @@
 
 <!ENTITY url_bar_default_text2 "搜尋或輸入網址">
 
-<!ENTITY bookmark "書籤">
+<!ENTITY bookmark "加入書籤">
 <!ENTITY bookmark_remove "移除書籤">
 <!ENTITY bookmark_added "已加入書籤">
 <!-- Localization note (bookmark_already_added) : This string is
@@ -205,7 +205,7 @@
 <!ENTITY pref_content_notifications_summary2 "探索來自不同網站的新內容">
 <!ENTITY pref_developer_remotedebugging_usb "透過 USB 進行遠端除錯">
 <!ENTITY pref_developer_remotedebugging_wifi "透過 Wi-Fi 進行遠端除錯">
-<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "您的裝置需要安裝 QR 碼掃描程式才能使用 Wi-Fi 除錯。">
+<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "您的裝置需要安裝 QR Code 掃描程式才能使用 Wi-Fi 除錯。">
 <!ENTITY pref_remember_signons2 "記住登入資訊">
 <!ENTITY pref_manage_logins "管理登入密碼">
 
@@ -277,11 +277,11 @@
 <!ENTITY pref_tracking_protection_disabled "停用">
 
 <!ENTITY pref_whats_new_notification "&brandShortName; 有什麼新鮮事">
-<!ENTITY pref_whats_new_notification_summary "在更新後了解有那些新功能">
+<!ENTITY pref_whats_new_notification_summary "在更新後了解有哪些新功能推出">
 
 <!-- Localization note (pref_category_experimental): Title of a sub category in the 'advanced' category
      for experimental features. -->
-<!ENTITY pref_category_experimental "實驗中功能">
+<!ENTITY pref_category_experimental "實驗功能">
 
 <!-- Custom Tabs is an Android API for allowing third-party apps to open URLs in a customized UI.
      Instead of switching to the browser it appears as if the user stays in the third-party app.
@@ -295,8 +295,11 @@
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "已複製網址">
 
+<!ENTITY pref_pwa "Progressive Web Apps">
+<!ENTITY pref_pwa_summary "允許將 Web App 新增至裝置主畫面">
+
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
-<!ENTITY pref_activity_stream "活動流">
+<!ENTITY pref_activity_stream "Activity Stream">
 <!ENTITY pref_activity_stream_summary "將您的上網紀錄視覺化並重新發想首頁設計，讓您可以更簡單在 &brandShortName; 找到想找的東西。">
 
 <!ENTITY tracking_protection_prompt_title "現在開始提供追蹤保護功能">
@@ -358,10 +361,6 @@
 <!ENTITY pref_clear_on_exit_title3 "結束時，清除隱私資料">
 <!ENTITY pref_clear_on_exit_summary2 "&brandShortName; 將會在您選擇主選單中的「離開」時自動清除您的資料">
 <!ENTITY pref_clear_on_exit_dialog_title "選擇要清除的資料">
-<!ENTITY pref_plugins "外掛程式">
-<!ENTITY pref_plugins_enabled "啟用">
-<!ENTITY pref_plugins_tap_to_play2 "觸碰以顯示">
-<!ENTITY pref_plugins_disabled "停用">
 <!ENTITY pref_restore_tabs "還原分頁">
 <!ENTITY pref_restore_always "總是還原">
 <!ENTITY pref_restore_quit "不要在離開 &brandShortName; 後還原">
@@ -377,7 +376,7 @@
 <!ENTITY pref_zoom_force_enabled_summary "強制讓所有網頁都能縮放大小">
 <!ENTITY pref_voice_input "語音輸入">
 <!ENTITY pref_voice_input_summary2 "允許在網址列使用語音輸入">
-<!ENTITY pref_qrcode_enabled "QR 碼閱讀器">
+<!ENTITY pref_qrcode_enabled "QR Code 掃描器">
 <!ENTITY pref_qrcode_enabled_summary2 "允許在網址列使用 QR 碼掃描器">
 
 <!ENTITY pref_use_master_password "使用主控密碼">
@@ -473,7 +472,7 @@
 <!ENTITY page "頁面">
 <!ENTITY tools "工具">
 <!ENTITY new_tab "開新分頁">
-<!ENTITY new_private_tab "開新隱私瀏覽分頁">
+<!ENTITY new_private_tab "開新隱私分頁">
 <!ENTITY close_all_tabs "關閉所有分頁">
 <!ENTITY close_private_tabs "關閉隱私分頁">
 <!ENTITY tabs_normal "分頁">
@@ -497,20 +496,20 @@
 <!ENTITY media_stop "停止">
 
 <!ENTITY contextmenu_open_new_tab "用新分頁開啟">
-<!ENTITY contextmenu_open_private_tab "開啟於隱私分頁">
+<!ENTITY contextmenu_open_private_tab "用新隱私分頁開啟">
 <!ENTITY contextmenu_remove "移除">
 <!ENTITY contextmenu_add_to_launcher "新增至裝置主畫面">
 <!ENTITY contextmenu_set_as_homepage "設為首頁">
 <!ENTITY contextmenu_share "分享">
 <!ENTITY contextmenu_pasteandgo "貼上並瀏覽">
 <!ENTITY contextmenu_paste "貼上">
-<!ENTITY contextmenu_copyurl "複製地址">
+<!ENTITY contextmenu_copyurl "複製網址">
 <!ENTITY contextmenu_edit_bookmark "編輯">
 <!ENTITY contextmenu_subscribe "訂閱此頁面">
 <!ENTITY contextmenu_site_settings "編輯網站設定">
 <!ENTITY contextmenu_top_sites_edit "編輯">
-<!ENTITY contextmenu_top_sites_pin "釘選網站">
-<!ENTITY contextmenu_top_sites_unpin "解除釘選網站">
+<!ENTITY contextmenu_top_sites_pin "釘選">
+<!ENTITY contextmenu_top_sites_unpin "解除釘選">
 <!ENTITY contextmenu_add_search_engine "新增搜尋引擎">
 
 <!-- Localization note (doorhanger_login_no_username): This string is used in the save-login doorhanger
@@ -545,6 +544,7 @@
 <!ENTITY page_removed "已移除頁面">
 
 <!ENTITY bookmark_edit_title "編輯書籤">
+<!ENTITY bookmark_edit_folder_title "編輯資料夾">
 <!ENTITY bookmark_edit_name "名稱">
 <!ENTITY bookmark_edit_location "網址">
 <!ENTITY bookmark_edit_keyword "關鍵字">
@@ -600,7 +600,7 @@
 <!ENTITY home_most_recent_empty "您最近瀏覽的網頁將會顯示於此。">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
-<!ENTITY home_most_recent_emptyhint2 "噓！&formatS1;開新隱私瀏覽分頁&formatS2; 後將不會儲存您的瀏覽紀錄。">
+<!ENTITY home_most_recent_emptyhint2 "噓！&formatS1;開新隱私分頁&formatS2; 後將不會儲存您的瀏覽紀錄。">
 
 <!-- Localization note (home_default_empty): This string is used as the default text when there
      is no data to show in an about:home panel that was created by an add-on. -->
@@ -621,6 +621,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "取消隱藏選擇的裝置">
+
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+<!ENTITY home_pinned_site "已釘選網站">
+<!ENTITY home_unpinned_site "已取消釘選網站">
 
 <!ENTITY remote_tabs_panel_moved_title "我的分頁跑去哪了？">
 <!ENTITY remote_tabs_panel_moved_desc "我們將您其他裝置中開啟的分頁移到首頁中的面板，這樣您可以在開啟新分頁後快速開啟那些分頁。">
@@ -661,7 +666,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY doorhanger_tracking_state_enabled "已開啟">
 <!ENTITY doorhanger_tracking_state_disabled "已關閉">
 <!ENTITY doorhanger_tracking_message_enabled1 "已防止網站追蹤您的線上行為。">
-<!ENTITY doorhanger_tracking_message_disabled2 "此頁面中可能包含了會追蹤您的瀏覽行為的元素。">
+<!ENTITY doorhanger_tracking_message_disabled2 "此頁面中包含某些元素，可能會追蹤您的瀏覽行為。">
 
 <!-- Common mixed and tracking content strings in site identity popup -->
 <!ENTITY learn_more "更多資訊">
@@ -718,7 +723,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY guest_session_dialog_continue "繼續">
 <!ENTITY guest_session_dialog_cancel "取消">
 <!ENTITY new_guest_session_title "&brandShortName; 現在將會重新啟動">
-<!ENTITY new_guest_session_text2 "訪客將不會見到您的個人瀏覽資料（例如儲存的登入資訊、瀏覽紀錄或書籤）。\n\n當您的訪客用好之後，瀏覽資料將被清除，並還原您的瀏覽階段。">
+<!ENTITY new_guest_session_text2 "訪客將不會見到您的個人瀏覽資料（例如儲存的登入資訊、瀏覽紀錄或書籤）。\n\n當訪客使用完畢後，瀏覽資料將被清除，並還原瀏覽階段。">
 <!ENTITY guest_browsing_notification_title "已進入訪客瀏覽階段">
 <!ENTITY guest_browsing_notification_text "點擊此處結束">
 
@@ -771,7 +776,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      code has already been displayed by the client trying to connect (such as
      desktop Firefox via WebIDE), so you just need to aim this device at the QR
      code. -->
-<!ENTITY devtools_auth_scan_header "正在掃描另一台裝置上的 QR 碼">
+<!ENTITY devtools_auth_scan_header "正在掃描另一台裝置上的 QR Code">
 
 <!-- Restrictable features -->
 <!-- Localization note: These are features the device owner (e.g. parent) can enable or disable for
@@ -842,3 +847,4 @@ is simply hidden from the Activity Stream panel. -->
 
 <!ENTITY activity_stream_welcome_title "歡迎來到您的重點事項清單">
 <!ENTITY activity_stream_welcome_content1 "現在起，&brandShortName; 會為您在網路上發現的新事物建立重點事項清單，這樣您就可以快速地回到這些文章、影片、書籤等頁面。">
+<!ENTITY fullscreen_warning "已進入全螢幕模式">

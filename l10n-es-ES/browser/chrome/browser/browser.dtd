@@ -180,6 +180,7 @@
 <!ENTITY bookmarksMenuButton.mobile.label "Marcadores del móvil">
 <!ENTITY viewBookmarksSidebar2.label "Ver el panel lateral de marcadores">
 <!ENTITY viewBookmarksToolbar.label "Ver la barra de marcadores">
+<!ENTITY searchBookmarks.label "Buscar marcadores">
 <!ENTITY containersMenu.label "Contenedores">
 <!ENTITY bookmarksGtkCmd.commandkey "o">
 <!ENTITY bookmarksWinCmd.commandkey "i">
@@ -247,6 +248,8 @@
 <!ENTITY viewSidebarMenu.accesskey "e">
 <!ENTITY viewCustomizeToolbar.label "Personalizar…">
 <!ENTITY viewCustomizeToolbar.accesskey "P">
+<!ENTITY overflowCustomizeToolbar.label "Personalizar barra de herramientas…">
+<!ENTITY overflowCustomizeToolbar.accesskey "P">
 <!ENTITY historyMenu.label "Historial">
 <!ENTITY historyMenu.accesskey "s">
 <!ENTITY historyUndoMenu.label "Pestañas cerradas recientemente">
@@ -263,6 +266,7 @@
 <!ENTITY appMenuHistory.clearRecent.label "Limpiar el historial reciente…">
 <!ENTITY appMenuHistory.restoreSession.label "Restaurar sesión anterior">
 <!ENTITY appMenuHistory.viewSidebar.label "Ver panel lateral del historial">
+<!ENTITY appMenuHistory.recentHistory.label "Historial reciente">
 <!ENTITY appMenuHelp.label "Ayuda">
 <!ENTITY appMenuHelp.tooltip "Abrir menú de ayuda">
 <!ENTITY appMenuRemoteTabs.label "Pestañas sincronizadas">
@@ -323,6 +327,8 @@
 <!ENTITY searchFocusUnix.commandkey "j">
 <!ENTITY contentSearchInput.label "Criterios de búsqueda">
 <!ENTITY contentSearchSubmit.tooltip "Enviar búsqueda">
+<!ENTITY searchInput.placeholder "Buscar">
+<!ENTITY searchIcon.tooltip "Buscar">
 <!ENTITY searchFor.label "Buscar ">
 <!ENTITY searchWith.label " con:">
 <!ENTITY search.label "Buscar ">
@@ -609,6 +615,18 @@
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Conseguir más temas">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "C">
+<!ENTITY customizeMode.emptyOverflowList.description "Arrastre y suelte elementos aquí para conservarlos a mano pero fuera de su barra de herramientas…">
+<!ENTITY customizeMode.uidensity "Densidad">
+<!ENTITY customizeMode.uidensity.menuNormal.label "Normal">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Normal">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "N">
+<!ENTITY customizeMode.uidensity.menuCompact.label "Compacto">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Compacto">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "C">
+<!ENTITY customizeMode.uidensity.menuTouch.label "Tocar">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Tocar">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "T">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Use los toques en el modo tableta">
 <!ENTITY getUserMedia.selectCamera.label "Cámara para compartir:">
 <!ENTITY getUserMedia.selectCamera.accesskey "C">
 <!ENTITY getUserMedia.selectMicrophone.label "Micrófono para compartir:">
@@ -682,7 +700,7 @@
 <!ENTITY updateRestart.cancelButton.accesskey "N">
 <!ENTITY updateRestart.panelUI.label2 "Reinicie para actualizar &brandShorterName;">
 <!ENTITY pageActionButton.tooltip "Acciones con la página">
-<!ENTITY sendToDevice.label "Enviar al dispositivo…">
-<!ENTITY sendToDevice.viewTitle "Enviar al dispositivo">
-<!ENTITY sendToDevice.fxaRequired.label "Requerido">
-<!ENTITY sendToDevice.noDevices.label "No hay dispositivos disponibles">
+<!ENTITY pageAction.addToUrlbar.label "Añadir a la barra de direcciones">
+<!ENTITY pageAction.removeFromUrlbar.label "Eliminar de la barra de direcciones">
+<!ENTITY sendToDevice.label2 "Enviar al dispositivo">
+<!ENTITY sendToDevice.syncNotReady.label "Sincronizando dispositivos…">

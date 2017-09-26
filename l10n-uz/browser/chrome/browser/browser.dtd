@@ -213,7 +213,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Parolni saqlash xabari panelini ochish">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Plaginlarni boshqarishdan foydalanilmoqda">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Saytdan eslatma olish imkoniyatini o‘zgartirish">
-<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Ma’lumotlarni &quot;Doimiy xotira&quot;ga saqlash">
+
 <!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Brauzer nazorat ostida!">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Kamera yoki mikrofonni sayt bilan bo‘lishishni boshqarish">
@@ -231,11 +231,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "Bu sayt uchun joylashuv ma’lumotini bloklab qo‘ygansiz.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "Bu sayt uchun ma’lumotlarni saqlashni bloklab qo‘ygansiz.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "Bu saytdan bildirishnomalarni olishni bloklab qo‘ygansiz.">
-<!ENTITY urlbar.persistentStorageBlocked.tooltip "Bu sayt uchun &quot;Doimiy xotira&quot;ni bloklab qo‘ygansiz.">
+
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Tarixni ko‘rsatish">
 
-<!ENTITY searchItem.title             "Izlash">
 <!-- Toolbar items -->
 
 <!ENTITY homeButton.label             "Uy">
@@ -248,6 +247,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Mobil xatcho‘plar">
 <!ENTITY viewBookmarksSidebar2.label        "Xatcho‘plarni yon panelda ko‘rsatish">
 <!ENTITY viewBookmarksToolbar.label         "Xatcho‘plar panelini ko‘rsatish">
+
 
 <!ENTITY containersMenu.label "Konteynerlar">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
@@ -332,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewCustomizeToolbar.label       "Moslash…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "M">
 
+
+
 <!ENTITY historyMenu.label "Tarix">
 <!ENTITY historyMenu.accesskey "r">
 <!ENTITY historyUndoMenu.label "Yaqinda yopilgan ichki oynalar">
@@ -351,6 +353,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "So‘nggi tarixni tozalash">
 <!ENTITY appMenuHistory.restoreSession.label "Oldingi seansni tiklash">
 <!ENTITY appMenuHistory.viewSidebar.label "Tarixni yon panelda ko‘rsatish">
+
 <!ENTITY appMenuHelp.label "Yordam">
 <!ENTITY appMenuHelp.tooltip "Yordam menyusini ochish">
 
@@ -389,8 +392,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      The overflow menu is the menu that appears if you click the chevron (>> button)
      in the location bar. These labels are only used in Photon, where you can put
      items into this menu permanently (pinned). -->
-<!ENTITY customizeMenu.addToOverflowMenu.label "Qo‘shimcha menyuga qo‘shish">
-<!ENTITY customizeMenu.addToOverflowMenu.accesskey "m">
+
 <!ENTITY customizeMenu.moveToToolbar.label "Asboblar paneliga ko‘chirish">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "k">
 <!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
@@ -400,10 +402,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Menyuga ko‘chirish">
 <!ENTITY customizeMenu.moveToPanel.accesskey "k">
-<!ENTITY customizeMenu.pinToOverflowMenu.label "Qo‘shimcha menyuga qadash">
-<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "P">
-<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Qo‘shimcha menyudan ajratish">
-<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "U">
+
+
+
+
 <!ENTITY customizeMenu.removeFromToolbar.label "Asboblar panelidan o‘chirish">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "o">
 <!ENTITY customizeMenu.removeFromMenu.label "Menyudan o‘chirish">
@@ -414,13 +416,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
     app (hamburger) menu. When clicked, it opens a subview that contains
     secondary commands. -->
 
-<!ENTITY moreMenu.label "Yana">
-
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Izlang yoki manzilni kiriting">
 <!ENTITY urlbar.accesskey             "d">
 <!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
-<!ENTITY urlbar.extension.label       "Kengaytma:">
 <!ENTITY urlbar.switchToTab.label     "Ichki oynaga o‘tish:">
 
 <!ENTITY urlbar.searchSuggestionsNotification.question "Tavsiyalar yordamida izlash bo‘yicha tajribangizni oshirishni xohlaysizmi?">
@@ -431,8 +430,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.enable "Ha">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "y">
 <!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
-
-<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Maslahat:">
 <!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
 
 
@@ -468,6 +465,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY contentSearchInput.label     "Qidiruv so‘rovi">
 <!ENTITY contentSearchSubmit.tooltip  "Qidiruv so‘rovini jo‘natish">
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
@@ -617,8 +617,8 @@ items are mutually exclusive. -->
 <!ENTITY mediaPlaybackRate2.accesskey "I">
 <!ENTITY mediaPlaybackRate050x2.label "Sekin (0.5×)">
 <!ENTITY mediaPlaybackRate050x2.accesskey "S">
-<!ENTITY mediaPlaybackRate100x2.label "O‘rtacha">
-<!ENTITY mediaPlaybackRate100x2.accesskey "O">
+
+
 <!ENTITY mediaPlaybackRate125x2.label "Tez (1.25×)">
 <!ENTITY mediaPlaybackRate125x2.accesskey "T">
 <!ENTITY mediaPlaybackRate150x2.label "Tezroq (1.5×)">
@@ -847,6 +847,24 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Ko‘proq mavzular olish">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "G">
+
+
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+
+
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+
+
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+
+
+
 
 <!ENTITY getUserMedia.selectCamera.label "Bo‘lishiladigan kamera:">
 <!ENTITY getUserMedia.selectCamera.accesskey "k">

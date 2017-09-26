@@ -6,50 +6,44 @@
 
 <!ENTITY generalTab.label                "ทั่วไป">
 
-<!ENTITY accessibility.label             "การช่วยเข้าถึง">
-
 <!ENTITY useCursorNavigation.label       "ใช้ปุ่มลูกศรเพื่อนำทางภายในหน้าเสมอ">
 <!ENTITY useCursorNavigation.accesskey   "ก">
 <!ENTITY searchOnStartTyping.label       "ค้นหาข้อความเมื่อคุณเริ่มพิมพ์">
 <!ENTITY searchOnStartTyping.accesskey   "ว">
-<!ENTITY blockAutoReload.label           "เตือนคุณเมื่อเว็บไซต์พยายามจะเปลี่ยนเส้นทางหรือโหลดหน้าใหม่">
-<!ENTITY blockAutoReload.accesskey       "พ">
 <!ENTITY useOnScreenKeyboard.label       "แสดงแป้นพิมพ์แบบสัมผัสเมื่อจำเป็น">
 <!ENTITY useOnScreenKeyboard.accesskey   "ผ">
 
 <!ENTITY browsing.label                  "การท่องเว็บ">
 
 <!ENTITY useAutoScroll.label             "ใช้การเลื่อนหน้าอัตโนมัติ">
-<!ENTITY useAutoScroll.accesskey         "a">
+<!ENTITY useAutoScroll.accesskey         "ช">
 <!ENTITY useSmoothScrolling.label        "ใช้การเลื่อนหน้าแบบลื่นไหล">
-<!ENTITY useSmoothScrolling.accesskey    "m">
-<!ENTITY checkUserSpelling.label         "ตรวจสอบการสะกดของคุณเมื่อคุณพิมพ์">
+<!ENTITY useSmoothScrolling.accesskey    "ก">
+<!ENTITY checkUserSpelling.label         "ตรวจสอบการสะกดคำของคุณเมื่อคุณพิมพ์">
 <!ENTITY checkUserSpelling.accesskey     "จ">
 
 <!ENTITY dataChoicesTab.label            "ตัวเลือกข้อมูล">
 
-<!ENTITY healthReportDesc.label          "ช่วยให้คุณเข้าใจประสิทธิภาพเบราว์เซอร์ของคุณและแบ่งปันข้อมูลกับ &vendorShortName; เกี่ยวกับสุขภาพเบราว์เซอร์ของคุณ">
-<!ENTITY enableHealthReport.label        "เปิดใช้งานรายงานสุขภาพ &brandShortName;">
-<!ENTITY enableHealthReport.accesskey    "R">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+
+<!ENTITY enableHealthReport1.label       "อนุญาตให้ &brandShortName; ส่งข้อมูลทางเทคนิคและการโต้ตอบไปยัง Mozilla โดยอัตโนมัติ">
 <!ENTITY healthReportLearnMore.label     "เรียนรู้เพิ่มเติม">
 
-<!ENTITY telemetryDesc.label             "แบ่งปันข้อมูลประสิทธิภาพ, การใช้งาน, ฮาร์ดแวร์ และการปรับแต่งเกี่ยวกับเบราว์เซอร์ของคุณกับ &vendorShortName; เพื่อช่วยเราทำ &brandShortName; ให้ดีขึ้น">
-<!ENTITY enableTelemetryData.label       "แบ่งปันข้อมูลเพิ่มเติม (เช่น การวัดและส่งข้อมูลทางไกล)">
-<!ENTITY enableTelemetryData.accesskey   "T">
-<!ENTITY telemetryLearnMore.label        "เรียนรู้เพิ่มเติม">
+<!ENTITY dataCollection.label            "การเก็บรวบรวมและใช้ข้อมูล &brandShortName;">
+<!ENTITY dataCollectionPrivacyNotice.label    "ประกาศความเป็นส่วนตัว">
 
-<!ENTITY crashReporterDesc2.label         "รายงานข้อขัดข้องช่วยให้ &vendorShortName; แก้ไขปัญหาและทำให้เบราว์เซอร์ของคุณเสถียรและปลอดภัยขึ้น">
-<!ENTITY alwaysSubmitCrashReports.label   "อนุญาตให้ &brandShortName; ส่งรายงานข้อขัดข้องที่ค้างอยู่ในนามของคุณ">
-<!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "เรียนรู้เพิ่มเติม">
+<!ENTITY alwaysSubmitCrashReports1.label  "อนุญาตให้ &brandShortName; ส่งรายงานข้อขัดข้องไปยัง Mozilla">
+<!ENTITY crashReporterLearnMore.label    "เรียนรู้เพิ่มเติม">
 
 <!ENTITY networkTab.label                "เครือข่าย">
 
-<!ENTITY connection.label                "การเชื่อมต่อ">
+<!ENTITY networkProxy.label              "พร็อกซีเครือข่าย">
 
 <!ENTITY connectionDesc.label            "กำหนดค่าวิธีที่ &brandShortName; เชื่อมต่อกับอินเทอร์เน็ต">
 <!ENTITY connectionSettings.label        "การตั้งค่า…">
-<!ENTITY connectionSettings.accesskey    "e">
+<!ENTITY connectionSettings.accesskey    "ต">
 
 <!ENTITY httpCache.label                 "เนื้อหาเว็บที่ถูกแคชไว้">
 
@@ -58,9 +52,9 @@
 <!--  Site Data section manages sites using Storage API and is under Network -->
 <!ENTITY siteData.label                  "ข้อมูลไซต์">
 <!ENTITY clearSiteData.label             "ล้างข้อมูลทั้งหมด">
-<!ENTITY clearSiteData.accesskey         "l">
+<!ENTITY clearSiteData.accesskey         "ง">
 <!ENTITY siteDataSettings.label          "การตั้งค่า…">
-<!ENTITY siteDataSettings.accesskey      "i">
+<!ENTITY siteDataSettings.accesskey      "ต">
 <!ENTITY siteDataLearnMoreLink.label     "เรียนรู้เพิ่มเติม">
 
 <!-- LOCALIZATION NOTE:
@@ -70,14 +64,14 @@
   &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
 -->
 <!ENTITY limitCacheSizeBefore.label      "จำกัดแคชไว้ที่">
-<!ENTITY limitCacheSizeBefore.accesskey  "L">
+<!ENTITY limitCacheSizeBefore.accesskey  "ว">
 <!ENTITY limitCacheSizeAfter.label       "MB">
 <!ENTITY clearCacheNow.label             "ล้างตอนนี้">
-<!ENTITY clearCacheNow.accesskey         "C">
+<!ENTITY clearCacheNow.accesskey         "ล">
 <!ENTITY clearOfflineAppCacheNow.label   "ล้างตอนนี้">
-<!ENTITY clearOfflineAppCacheNow.accesskey "N">
+<!ENTITY clearOfflineAppCacheNow.accesskey "ล">
 <!ENTITY overrideSmartCacheSize.label    "เขียนทับการจัดการแคชอัตโนมัติ">
-<!ENTITY overrideSmartCacheSize.accesskey "O">
+<!ENTITY overrideSmartCacheSize.accesskey "ข">
 
 <!ENTITY updateTab.label                 "อัปเดต">
 
@@ -95,8 +89,8 @@
 <!ENTITY updateApplication.version.pre   "รุ่น ">
 <!ENTITY updateApplication.version.post  "">
 <!ENTITY updateApplication.description   "อนุญาตให้ &brandShortName;">
-<!ENTITY updateAuto2.label               "ติดตั้งการอัปเดตโดยอัตโนมัติ (แนะนำสำหรับความปลอดภัยที่เพิ่มขึ้น)">
-<!ENTITY updateAuto2.accesskey           "ด">
+<!ENTITY updateAuto3.label               "ติดตั้งการอัปเดตโดยอัตโนมัติ (แนะนำ)">
+<!ENTITY updateAuto3.accesskey           "ด">
 <!ENTITY updateCheckChoose2.label        "ตรวจสอบการอัปเดตแต่ให้คุณเลือกว่าจะติดตั้งหรือไม่">
 <!ENTITY updateCheckChoose2.accesskey    "ว">
 <!ENTITY updateManual2.label             "ไม่ตรวจสอบการอัปเดตเสมอ (ไม่แนะนำ)">
@@ -110,8 +104,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "อัปเดตเครื่องมือค้นหาโดยอัตโนมัติ">
 <!ENTITY enableSearchUpdate2.accesskey   "อ">
-
-<!ENTITY reports.label                   "รายงาน">
 
 <!ENTITY offlineStorageNotify.label               "แจ้งคุณเมื่อเว็บไซต์ขอจัดเก็บข้อมูลสำหรับใช้งานออฟไลน์">
 <!ENTITY offlineStorageNotify.accesskey           "T">
@@ -132,10 +124,8 @@
 <!ENTITY selectCerts.ask.accesskey       "A">
 <!ENTITY enableOCSP.label                "สืบค้นเซิร์ฟเวอร์ตอบกลับ OCSP เพื่อยืนยันความถูกต้องของใบรับรองปัจจุบัน">
 <!ENTITY enableOCSP.accesskey            "Q">
-<!ENTITY viewCerts.label                 "ดูใบรับรอง">
-<!ENTITY viewCerts.accesskey             "C">
-<!ENTITY viewSecurityDevices.label       "อุปกรณ์ความปลอดภัย">
-<!ENTITY viewSecurityDevices.accesskey   "D">
+<!ENTITY viewCerts2.label                "ดูใบรับรอง…">
+<!ENTITY viewSecurityDevices2.label      "อุปกรณ์ความปลอดภัย…">
 
 <!ENTITY performance.label               "ประสิทธิภาพ">
 <!ENTITY useRecommendedPerformanceSettings2.label
@@ -149,6 +139,6 @@
 <!ENTITY limitContentProcessOption.label "ขีดจำกัดโปรเซสเนื้อหา">
 <!ENTITY limitContentProcessOption.description
                                          "โปรเซสเนื้อหาที่เพิ่มขึ้นสามารถปรับปรุงประสิทธิภาพเมื่อใช้หลายแท็บ แต่จะใช้หน่วยความจำมากขึ้นเช่นกัน">
-<!ENTITY limitContentProcessOption.accesskey   "L">
+<!ENTITY limitContentProcessOption.accesskey   "ข">
 <!ENTITY allowHWAccel.label              "ใช้การเร่งความเร็วด้วยฮาร์ดแวร์เมื่อใช้งานได้">
-<!ENTITY allowHWAccel.accesskey          "r">
+<!ENTITY allowHWAccel.accesskey          "ง">

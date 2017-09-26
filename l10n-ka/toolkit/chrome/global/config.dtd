@@ -6,45 +6,45 @@
 
 <!-- about:config warning page -->
 <!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
-<!ENTITY aboutWarningTitle.label "ფრთხილად იყავით, ეს თოფი დატენილია!">
-<!ENTITY aboutWarningText.label "ამ დეტალური პარამეტრების შეცვლამ შესაძლოა პროგრამის სტაბილურობა, უდაფრთხოება და წარმადობა დააზიანოს. გააგრძელეთ მხოლოდ იმ შემთხვევაში, თუ დარწმუნებული ხართ იმაში რასაც აკეთებთ.">
+<!ENTITY aboutWarningTitle.label "ფრთხილად, ეს იარაღი დატენილია!">
+<!ENTITY aboutWarningText.label "ამ დამატებითი პარამეტრების ცვლილებამ შესაძლოა პროგრამის მდგრადობა, უსაფრთხოება და წარმადობა დააზიანოს. მხოლოდ იმ შემთხვევაში განაგრძეთ, თუ დარწმუნებული ხართ რომ იცით, რასაც აკეთებთ.">
 <!ENTITY aboutWarningButton2.label "ვცნობ რისკებს!">
-<!ENTITY aboutWarningCheckbox.label "ამ გაფრთხილების ჩვენება შემდგომ">
+<!ENTITY aboutWarningCheckbox.label "გაფრთხილების ჩვენება ყოველ ჯერზე">
 
 <!ENTITY searchPrefs.label "ძიება:">
-<!ENTITY searchPrefs.accesskey "r">
+<!ENTITY searchPrefs.accesskey "ძ">
 <!ENTITY focusSearch.key "r">
 <!ENTITY focusSearch2.key "f">
 
 <!-- Columns -->
 <!ENTITY prefColumn.label "პარამეტრი">
-<!ENTITY lockColumn.label "სტატუსი">
+<!ENTITY lockColumn.label "მდგომარეობა">
 <!ENTITY typeColumn.label "ტიპი">
 <!ENTITY valueColumn.label "მნიშვნელობა">
 
 <!-- Tooltips -->
-<!ENTITY prefColumnHeader.tooltip "დაწკაპეთ სორტირებისათვის"> 
-<!ENTITY columnChooser.tooltip "დაწკაპეთ სვეტების მოსანიშნად"> 
+<!ENTITY prefColumnHeader.tooltip "დააწკაპეთ დასალაგებლად"> 
+<!ENTITY columnChooser.tooltip "დააწკაპეთ სვეტების ასარჩევად"> 
 
 <!-- Context Menu -->
 <!ENTITY copyPref.key "C">
-<!ENTITY copyPref.label "კოპირება">
-<!ENTITY copyPref.accesskey "C">
-<!ENTITY copyName.label "სახელის კოპირება">
-<!ENTITY copyName.accesskey "N">
-<!ENTITY copyValue.label "მნიშვნელობის კოპირება">
-<!ENTITY copyValue.accesskey "V">
+<!ENTITY copyPref.label "დაკოპირება">
+<!ENTITY copyPref.accesskey "დ">
+<!ENTITY copyName.label "სახელის დაკოპირება">
+<!ENTITY copyName.accesskey "ს">
+<!ENTITY copyValue.label "მნიშვნელობის დაკოპირება">
+<!ENTITY copyValue.accesskey "მ">
 <!ENTITY modify.label "შეცვლა">
-<!ENTITY modify.accesskey "M">
+<!ENTITY modify.accesskey "შ">
 <!ENTITY toggle.label "გადართვა">
-<!ENTITY toggle.accesskey "T">
+<!ENTITY toggle.accesskey "თ">
 <!ENTITY reset.label "აღდგენა">
-<!ENTITY reset.accesskey "R">
+<!ENTITY reset.accesskey "ღ">
 <!ENTITY new.label "ახალი">
-<!ENTITY new.accesskey "w">
+<!ENTITY new.accesskey "ა">
 <!ENTITY string.label "ტექსტი">
-<!ENTITY string.accesskey "S">
+<!ENTITY string.accesskey "ტ">
 <!ENTITY integer.label "მთელი რიცხვი">
-<!ENTITY integer.accesskey "I">
+<!ENTITY integer.accesskey "რ">
 <!ENTITY boolean.label "ლოგიკური ოპერატორი">
-<!ENTITY boolean.accesskey "B">
+<!ENTITY boolean.accesskey "ლ">

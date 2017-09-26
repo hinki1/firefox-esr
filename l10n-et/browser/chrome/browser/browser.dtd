@@ -214,6 +214,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Halda pluginate kasutust">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Määra, kas soovid sellelt saidilt teavitusi saada">
 <!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Salvesta andmeid püsivalt">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Veebilehitseja on kaugjuhtimisel">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Halda kaamera ja/või mikrofoni jagamist saidiga">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Halda mikrofoni jagamist saidiga">
@@ -247,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Mobiilsed järjehoidjad">
 <!ENTITY viewBookmarksSidebar2.label        "Kuva järjehoidjate külgriba">
 <!ENTITY viewBookmarksToolbar.label         "Kuva järjehoidjariba">
+<!ENTITY searchBookmarks.label              "Otsi järjehoidjatest">
 
 <!ENTITY containersMenu.label "Konteinerid">
 
@@ -330,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "K">
 <!ENTITY viewCustomizeToolbar.label       "Kohanda..."> 
 <!ENTITY viewCustomizeToolbar.accesskey     "o">
+<!ENTITY overflowCustomizeToolbar.label       "Kohanda tööriistariba…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "h">
 
 <!ENTITY historyMenu.label "Ajalugu">
 <!ENTITY historyMenu.accesskey "A">
@@ -350,6 +354,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Kustuta hiljutine ajalugu…">
 <!ENTITY appMenuHistory.restoreSession.label "Taasta eelmine seanss">
 <!ENTITY appMenuHistory.viewSidebar.label "Kuva ajaloo külgriba">
+<!ENTITY appMenuHistory.recentHistory.label "Hiljutine ajalugu">
+<!ENTITY appMenuHelp.label "Abi">
 <!ENTITY appMenuHelp.tooltip "Ava abimenüü">
 
 <!ENTITY appMenuRemoteTabs.label "Sünkroniseeritud kaardid">
@@ -387,6 +393,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      The overflow menu is the menu that appears if you click the chevron (>> button)
      in the location bar. These labels are only used in Photon, where you can put
      items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "Lisa nurgatagusesse menüüsse">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "r">
 <!ENTITY customizeMenu.moveToToolbar.label "Liiguta tööriistaribale">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "i">
 <!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
@@ -396,6 +404,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Liiguta menüüsse">
 <!ENTITY customizeMenu.moveToPanel.accesskey "g">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "Liiguta nurgatagusesse menüüsse">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "r">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Eemalda nurgatagusest menüüst">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "m">
 <!ENTITY customizeMenu.removeFromToolbar.label "Eemalda tööriistaribalt">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "E">
 <!ENTITY customizeMenu.removeFromMenu.label "Eemalda menüüst">
@@ -424,7 +436,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "J">
 
 <!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Nipp:">
 <!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "Leia asju kergemini! Märka &#x1F50E; otsingusoovituste kõrval.">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "Muuda sätteid…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "M">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "Muuda eelistusi…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "M">
 
 <!--
   Comment duplicated from browser-sets.inc:
@@ -455,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "Otsingukast">
 <!ENTITY contentSearchSubmit.tooltip  "Soorita otsing">
+
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+<!ENTITY searchInput.placeholder      "Otsi">
+<!ENTITY searchIcon.tooltip           "Otsi">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -538,6 +561,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "n">
 <!ENTITY bookmarkThisFrameCmd.label      "Pane see paneel järjehoidjatesse">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "e">
+<!ENTITY copyURLCmd.label             "Kopeeri URL">
 <!ENTITY emailPageCmd.label           "Saada link e-postiga…">
 <!ENTITY emailPageCmd.accesskey       "d">
 <!ENTITY savePageCmd.label            "Salvesta veebileht kui…">
@@ -663,6 +687,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.accesskey             "u">
 
 <!ENTITY sidebarCloseButton.tooltip     "Sulge külgriba">
+<!ENTITY sidebarMenuClose.label         "Sulge külgriba">
 
 <!ENTITY quitApplicationCmdWin2.label       "Välju">
 <!ENTITY quitApplicationCmdWin2.accesskey   "j">
@@ -672,6 +697,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Välju"> 
 <!ENTITY quitApplicationCmd.accesskey   "j">
 <!ENTITY quitApplicationCmdMac2.label   "Välju &brandShorterName;ist">
+<!ENTITY quitApplicationCmd.key         "V">
 
 <!ENTITY closeCmd.label                 "Sulge">  
 <!ENTITY closeCmd.key                   "W">  
@@ -723,6 +749,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "See leht on loodud arvutisse salvestatud faili põhjal.">
 <!ENTITY identity.connectionVerified2 "Ühenduse selle saidiga on turvaline. Saidi omanik on ">
 <!ENTITY identity.connectionInternal "See on turvaline &brandShortName;i leht.">
+<!ENTITY identity.extensionPage "Selle lehe sisu pärineb laienduselt.">
 <!ENTITY identity.insecureLoginForms2 "Sellele lehele sisestatavad kasutajakonto andmed võivad ohus olla.">
 
 <!-- Strings for connection state warnings. -->
@@ -821,7 +848,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "Soovid rohkem tööriistu?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Vali tuhandete lisade seast">
 <!ENTITY customizeMode.restoreDefaults "Taasta vaikeväärtused">
+<!ENTITY customizeMode.done "Valmis">
 <!ENTITY customizeMode.titlebar "Tiitliriba">
+<!ENTITY customizeMode.toolbars2 "Tööriistaribad">
 <!ENTITY customizeMode.lwthemes "Teemad">
 <!ENTITY customizeMode.lwthemes.myThemes "Minu teemad">
 <!ENTITY customizeMode.lwthemes.recommended "Soovitatud">
@@ -829,6 +858,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "H">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Hangi rohkem teemasid">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "a">
+<!ENTITY customizeMode.emptyOverflowList.description "Lohista elemente siia, et hoida nad käeulatuses, aga mitte tööriistaribal…">
+<!ENTITY customizeMode.uidensity "Tihedus">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Tavaline">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Tavaline">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "T">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Kompaktne">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Kompaktne">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "K">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Puutetundlikule ekraanile">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Puutetundlikule ekraanile">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "P">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Puutetundliku ekraani tihedust kasutatakse tahvli režiimis">
 
 <!ENTITY getUserMedia.selectCamera.label "Jagatav kaamera:">
 <!ENTITY getUserMedia.selectCamera.accesskey "J">
@@ -935,6 +985,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.acceptButton.accesskey "T">
 <!ENTITY updateRestart.cancelButton.label "Mitte praegu">
 <!ENTITY updateRestart.cancelButton.accesskey "M">
+<!ENTITY updateRestart.panelUI.label2 "Uuendamiseks taaskäivita &brandShorterName;">
 
 <!ENTITY pageActionButton.tooltip "Lehe toimingud">
+<!ENTITY pageAction.addToUrlbar.label "Lisa aadressiribale">
+<!ENTITY pageAction.removeFromUrlbar.label "Eemalda aadressiribalt">
 
+<!ENTITY sendToDevice.label2 "Edasta seadmele">
+<!ENTITY sendToDevice.syncNotReady.label "Toimub seadmete sünkroniseerimine…">

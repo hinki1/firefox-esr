@@ -91,9 +91,9 @@
 <!ENTITY deleteMsgCmd.accesskey "ш">
 <!ENTITY undeleteMsgCmd.label "Хабарламаны өшіруді болдырмау">
 <!ENTITY undeleteMsgCmd.accesskey "б">
-<!ENTITY deleteMsgsCmd.label "Таңдалған хабарламаның өшіру">
+<!ENTITY deleteMsgsCmd.label "Таңдалған хабарламаларды өшіру">
 <!ENTITY deleteMsgsCmd.accesskey "ш">
-<!ENTITY undeleteMsgsCmd.label "Таңдалған хабарламаның өшіруін болдырмау">
+<!ENTITY undeleteMsgsCmd.label "Таңдалған хабарламалар өшіруін болдырмау">
 <!ENTITY undeleteMsgsCmd.accesskey "б">
 <!ENTITY deleteFolderCmd.label "Буманы өшіру">
 <!ENTITY deleteFolderCmd.accesskey "ш">
@@ -113,7 +113,7 @@
 <!ENTITY folderPropsCmd2.label "Қасиеттері">
 <!ENTITY folderPropsFolderCmd2.label "Бума қасиеттері">
 <!ENTITY folderPropsNewsgroupCmd2.label "Жаңалықтар тобының қасиеттері">
-<!ENTITY folderPropsCmd.accesskey "o">
+<!ENTITY folderPropsCmd.accesskey "м">
 <!ENTITY undoDeleteMsgCmd.label "Хабарламаны өшіруді болдырмау">
 <!ENTITY redoDeleteMsgCmd.label "Хабарламаны өшіруді қайталау">
 <!ENTITY undoMoveMsgCmd.label "Хабарламаны жылжытуды болдырмау">
@@ -554,7 +554,7 @@
 <!ENTITY mailViewsToolbarItem.title "Пошта көріністері">
 <!ENTITY folderLocationToolbarItem.title "Буманың орналасуы">
 <!ENTITY tagButton.label "Тег">
-<!ENTITY compactButton.label "Ықшам">
+<!ENTITY compactButton.label "Ықшамдау">
 <!ENTITY appmenuButton.label "Қолданба мәзірі">
 <!-- Mail Toolbar Tooltips-->
 
@@ -647,7 +647,7 @@
 <!ENTITY folderContextRename.accesskey "А">
 <!ENTITY folderContextRemove.label "Өшіру">
 <!ENTITY folderContextRemove.accesskey "ш">
-<!ENTITY folderContextCompact.label "Ықшам">
+<!ENTITY folderContextCompact.label "Ықшамдау">
 <!ENTITY folderContextCompact.accesskey "Ы">
 <!ENTITY folderContextEmptyTrash.label "Қоқыс шелегін тазарту">
 <!ENTITY folderContextEmptyTrash.accesskey "а">
@@ -864,7 +864,7 @@
      to get to the box faster. If the global indexer is disabled, the search
      box will be collapsed and the user will never see this message.
   -->
-<!ENTITY search.label.base1 "#1 іздеу">
+<!ENTITY search.label.base1 "Іздеу #1">
 <!-- LOCALIZATION NOTE (search.keyLabel.nonmac):
      The description of the key-binding to get into the global search box on
      windows and linux (which use the control key). We use the key defined in
@@ -952,3 +952,5 @@
 <!-- Mac OS X Dock Icon pop-up menu -->
 
 <!ENTITY dockOptions.label              "Қолданба таңбашасының баптаулары…">
+<!ENTITY writeNewMessageDock.label      "Жаңа хабарламаны жазу">
+<!ENTITY openAddressBookDock.label      "Адрестік кітапшаны ашу">

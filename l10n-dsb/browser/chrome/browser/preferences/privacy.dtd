@@ -3,8 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  trackingProtectionHeader2.label      "Slědowański šćit">
-<!ENTITY  trackingProtection.description       "Slědowanje jo, gaž pśedewześa daty wó was gromaźe, aby profil napórali a wopśimjeśe na zakłaźe wašogo pśeglědowanja a wósobinskich datow zwobraznili.">
-<!ENTITY  trackingProtection.radioGroupLabel   "Znate slědujuce pśedewześa pśi zwobraznjowanju wopśimjeśa zajźowaś">
+<!ENTITY  trackingProtection2.description      "Slědowanje jo gromaźenje wašych pśeglědowańskich datow pśez někotare websedła. Slědowanje dajo se wužywaś, aby profil twóriło a wopśimjeśe na zakłaźe wašych pśeglědowańskich a wósobinskich datow pokazało.">
+<!ENTITY  trackingProtection2.radioGroupLabel  "Slědowański šćit wužywaś, aby znate pśeslědowarje blokěrował">
 <!ENTITY  trackingProtectionAlways.label       "Pśecej">
 <!ENTITY  trackingProtectionAlways.accesskey   "c">
 <!ENTITY  trackingProtectionPrivate.label      "Jano w priwatnych woknach">
@@ -14,27 +14,29 @@
 <!ENTITY  trackingProtectionLearnMore.label    "Dalšne informacije">
 <!ENTITY  trackingProtectionExceptions.label   "Wuwześa…">
 <!ENTITY  trackingProtectionExceptions.accesskey "u">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM5.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to true. This currently happens on the release and beta channel. -->
 
-<!ENTITY tracking.label                 "Slědowanje">
 <!ENTITY trackingProtectionPBM5.label         "Slědowański šćit w priwatnych woknach wužywaś">
 <!ENTITY trackingProtectionPBM5.accesskey     "r">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM6.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to false. This currently happens on the nightly channel. -->
+<!ENTITY trackingProtectionPBM6.label         "Slědowański šćit w priwatnem modusu wužywaś, aby znate pśeslědowarje blokěrował">
+<!ENTITY trackingProtectionPBM6.accesskey     "r">
 <!ENTITY trackingProtectionPBMLearnMore.label "Dalšne informacije">
-<!ENTITY changeBlockList.label          "Blokěrowańsku lisćinu změniś">
-<!ENTITY changeBlockList.accesskey      "z">
-<!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
-<!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
+<!ENTITY changeBlockList2.label               "Blokěrowańsku lisćinu změniś…">
+<!ENTITY changeBlockList2.accesskey           "z">
 
-<!ENTITY  doNotTrack.pre.label          "Móžośo teke ">
-<!ENTITY  doNotTrack.settings.label     "swóje nastajenja za funkciju Njeslědowaś zastojaś">
-<!ENTITY  doNotTrack.post.label         ".">
+<!ENTITY  doNotTrack.description        "Websedłam signal “Njeslědowaś” pósłaś, až njocośo, až wóne was slěduju">
+<!ENTITY  doNotTrack.learnMore.label    "Dalšne informacije">
+<!ENTITY  doNotTrack.default.label      "Jano, gaž se slědowański šćit wužywa">
+<!ENTITY  doNotTrack.always.label       "Pśecej">
 
 <!ENTITY  history.label                 "Historija">
+<!ENTITY  permissions.label             "Pšawa">
 
-<!ENTITY  locationBar.label             "Adresowe pólo">
-
-<!ENTITY  locbar.suggest2.label         "Pśi wužywanju adresowego póla ma se naraźiś">
-<!ENTITY  locbar.history.label          "Historija">
-<!ENTITY  locbar.history.accesskey      "H">
+<!ENTITY  addressBar.label              "Adresowe pólo">
+<!ENTITY  addressBar.suggest.label      "Pśi wužywanju adresowego póla ma se naraźiś">
+<!ENTITY  locbar.history2.label         "Pśeglědowańska historija">
+<!ENTITY  locbar.history2.accesskey     "g">
 <!ENTITY  locbar.bookmarks.label        "Cytańske znamjenja">
 <!ENTITY  locbar.bookmarks.accesskey    "C">
 <!ENTITY  locbar.openpage.label         "Wócynjone rejtarki">
@@ -44,8 +46,8 @@
 
 <!ENTITY  suggestionSettings2.label     "Nastajenja za naraźenja pytnice změniś">
 
-<!ENTITY  acceptCookies.label           "Cookieje ze sedłow akceptěrowaś">
-<!ENTITY  acceptCookies.accesskey       "c">
+<!ENTITY  acceptCookies2.label          "Cookieje ze sedłow akceptěrowaś">
+<!ENTITY  acceptCookies2.accesskey      "c">
 
 <!ENTITY  acceptThirdParty.pre.label      "Cookieje tśeśich póbitowarjow akceptěrowaś:">
 <!ENTITY  acceptThirdParty.pre.accesskey  "t">
@@ -106,7 +108,6 @@
 <!ENTITY  clearOnCloseSettings.label     "Nastajenja…">
 <!ENTITY  clearOnCloseSettings.accesskey "N">
 
-<!ENTITY  browserContainersHeader.label         "Kontejnerowe rejtarki">
 <!ENTITY  browserContainersLearnMore.label      "Dalšne informacije">
 <!ENTITY  browserContainersEnabled.label        "Kontejnerowe rejtarki zmóžniś">
 <!ENTITY  browserContainersEnabled.accesskey    "m">

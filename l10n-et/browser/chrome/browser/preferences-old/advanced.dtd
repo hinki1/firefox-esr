@@ -28,6 +28,11 @@
 
 <!ENTITY dataChoicesTab.label            "Saadetavad andmed">
 
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "Selle kompileerimise konfiguratsiooniga on andmete raporteerimine keelatud">
+
 <!ENTITY healthReportDesc.label          "Aitab sul aru saada oma brauseri jõudlusest ja jagab andmeid brauseri seisundist &vendorShortName;ga">
 <!ENTITY enableHealthReport.label        "&brandShortName;i terviseraport lubatakse">
 <!ENTITY enableHealthReport.accesskey    "e">
@@ -124,5 +129,22 @@
 <!ENTITY viewSecurityDevices.label       "Turvaseadmed">
 <!ENTITY viewSecurityDevices.accesskey   "r">
 
+<!ENTITY performance.label               "Jõudlus">
+<!ENTITY useRecommendedPerformanceSettings.label
+                                         "Kasutatakse soovitatud jõudluse sätteid">
+<!ENTITY useRecommendedPerformanceSettings.description
+                                         "Need sätted on kohandatud sinu arvuti riistvarale ja operatsioonisüsteemile.">
+<!ENTITY useRecommendedPerformanceSettings.accesskey
+                                         "j">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "Rohkem teavet">
+<!ENTITY limitContentProcessOption.label "Sisu protsesside limiit">
+<!ENTITY limitContentProcessOption.description
+                                         "Täiendavad sisu protsessid võivad parandada võimekust mitme kaardi kasutamisel, aga kasutavad ka rohkem mälu.">
+<!ENTITY limitContentProcessOption.accesskey   "p">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Sisu protsesside arvu muutmine on võimalik ainult mitme protsessi toega &brandShortName;is.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Vaata, kuidas kontrollida, kas mitme protsessi tugi on lubatud">
 <!ENTITY allowHWAccel.label              "Võimalusel kasutatakse riistvaralist kiirendust">
 <!ENTITY allowHWAccel.accesskey          "i">

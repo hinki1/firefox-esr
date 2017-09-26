@@ -3,16 +3,19 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!-- Attn: Localization - some of the menus in this dialog directly affect mail also. -->
 <!-- File menu items -->
+
+
+<!ENTITY saveCmd.key "S">
 <!-- Edit menu items -->
 
 <!ENTITY pasteNoFormatting.label "Пішімдеусіз кірістіру">
 <!ENTITY pasteNoFormatting.accesskey "д">
-
+<!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAs.label "Қалайша кірістіру">
 <!ENTITY pasteAs.accesskey "а">
 <!ENTITY pasteAsQuotationCmd.label "Дәйексөз ретінде кірістіру">
 <!ENTITY pasteAsQuotationCmd.accesskey "Д">
-
+<!ENTITY pasteAsQuotationCmd.key "o">
 <!ENTITY findBarCmd.label "Табу…">
 <!ENTITY findReplaceCmd.label "Табу және алмастыру…">
 <!ENTITY enableInlineSpellChecker.label "Теру кезінде емлені тексеру">
@@ -27,8 +30,8 @@
 <!ENTITY insertLinkCmd2.label "Сілтеме…">
 <!ENTITY insertLinkCmd2.accesskey "л">
 <!ENTITY insertLinkCmd2.key "л">
-
-
+<!ENTITY insertAnchorCmd.label "Атауы бар байланыс…">
+<!ENTITY insertAnchorCmd.accesskey "а">
 <!ENTITY insertImageCmd.label "Сурет…">
 <!ENTITY insertImageCmd.accesskey "С">
 <!ENTITY insertHLineCmd.label "Горизонталды сызық">
@@ -37,16 +40,18 @@
 <!ENTITY insertTableCmd.accesskey "К">
 <!ENTITY insertHTMLCmd.label "HTML…">
 <!ENTITY insertHTMLCmd.accesskey "H">
-
-
-
-
-
-
+<!ENTITY insertMathCmd.label "Математика…">
+<!ENTITY insertMathCmd.accesskey "М">
+<!ENTITY insertCharsCmd.label "Таңбалар…">
+<!ENTITY insertCharsCmd.accesskey "Т">
+<!ENTITY insertBreakAllCmd.label "Суреттер астында ажырауды кірістіру">
+<!ENTITY insertBreakAllCmd.accesskey "р">
 <!-- Used just in context popup. -->
 
-
-
+<!ENTITY createLinkCmd.label "Сілтемені жасау…">
+<!ENTITY createLinkCmd.accesskey "С">
+<!ENTITY editLinkCmd.label "Сілтемені жаңа құрастырушыда түзету">
+<!ENTITY editLinkCmd.accesskey "е">
 <!-- Font Face SubMenu -->
 
 <!ENTITY FontFaceSelect.tooltip "Қаріпті таңдау">
@@ -98,7 +103,7 @@
 <!ENTITY styleBoldCmd.label "Жуан">
 <!ENTITY styleBoldCmd.accesskey "Ж">
 <!ENTITY styleBoldCmd.key "ж">
-<!ENTITY styleItalicCmd.label "Көлбеу">
+<!ENTITY styleItalicCmd.label "Курсив">
 <!ENTITY styleItalicCmd.accesskey "К">
 <!ENTITY styleItalicCmd.key "к">
 <!ENTITY styleUnderlineCmd.label "Асты сызылған">
@@ -106,38 +111,39 @@
 <!ENTITY styleUnderlineCmd.key "а">
 <!ENTITY styleStrikeThruCmd.label "Сызып тасталған">
 <!ENTITY styleStrikeThruCmd.accesskey "ы">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!ENTITY styleSuperscriptCmd.label "Жоғарғы индекс">
+<!ENTITY styleSuperscriptCmd.accesskey "р">
+<!ENTITY styleSubscriptCmd.label "Төменгі индекс">
+<!ENTITY styleSubscriptCmd.accesskey "Т">
+<!ENTITY styleNonbreakingCmd.label "Ажырамаусыз">
+<!ENTITY styleNonbreakingCmd.accesskey "ы">
+<!ENTITY styleEm.label "Ерекшелеу">
+<!ENTITY styleEm.accesskey "Е">
+<!ENTITY styleStrong.label "Қатаң ерекшелеу">
+<!ENTITY styleStrong.accesskey "т">
+<!ENTITY styleCite.label "Дәйексөз">
+<!ENTITY styleCite.accesskey "с">
+<!ENTITY styleAbbr.label "Аббревиатура">
+<!ENTITY styleAbbr.accesskey "А">
+<!ENTITY styleAcronym.label "Акроним">
+<!ENTITY styleAcronym.accesskey "р">
+<!ENTITY styleCode.label "Код">
+<!ENTITY styleCode.accesskey "о">
+<!ENTITY styleSamp.label "Шығыс мысалы">
+<!ENTITY styleSamp.accesskey "м">
 <!ENTITY styleVar.label "Айнымалы">
 <!ENTITY styleVar.accesskey "А">
 
 <!ENTITY formatFontColor.label "Мәтін түсі…">
 <!ENTITY formatFontColor.accesskey "с">
+<!ENTITY tableOrCellColor.label "Кесте не ұяшықтың фон түсі…">
+<!ENTITY tableOrCellColor.accesskey "ф">
 
-
-
-
-
-
-
+<!ENTITY formatRemoveStyles.key "Y">
+<!ENTITY formatRemoveLinks.key "K">
+<!ENTITY formatRemoveNamedAnchors.label "Атаулы байланыстарды өшіру">
+<!ENTITY formatRemoveNamedAnchors.accesskey "р">
+<!ENTITY formatRemoveNamedAnchors2.key "R">
 
 <!ENTITY paragraphMenu.label "Абзац">
 <!ENTITY paragraphMenu.accesskey "А">
@@ -161,31 +167,37 @@
 <!ENTITY paragraphPreformatCmd.accesskey "Б">
 <!-- List menu items -->
 
+<!ENTITY formatlistMenu.label "Тізім">
+<!ENTITY formatlistMenu.accesskey "Т">
 <!ENTITY noneCmd.label "Ештеме">
 <!ENTITY noneCmd.accesskey "Е">
+<!ENTITY listBulletCmd.label "Маркерленген">
+<!ENTITY listBulletCmd.accesskey "к">
+<!ENTITY listNumberedCmd.label "Нөмірленген">
+<!ENTITY listNumberedCmd.accesskey "м">
+<!ENTITY listTermCmd.label "Термин">
+<!ENTITY listTermCmd.accesskey "Т">
+<!ENTITY listDefinitionCmd.label "Анықтама">
+<!ENTITY listDefinitionCmd.accesskey "ы">
+<!ENTITY listPropsCmd.label "Тізім қасиеттері…">
+<!ENTITY listPropsCmd.accesskey "Т">
 
-
-
-
-
-
-
-
-
-
-
+<!ENTITY ParagraphSelect.tooltip "Абзац пішімін таңдау">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Дене мәтіні">
 <!ENTITY bodyTextCmd.accesskey "т">
 <!-- isn't used in menu now, but may be added in future -->
-
+<!ENTITY advancedPropertiesCmd.label "Кеңейтілген қасиеттері">
+<!ENTITY advancedPropertiesCmd.accesskey "й">
 <!-- Align menu items -->
 
+<!ENTITY alignMenu.label "Туралау">
+<!ENTITY alignMenu.accesskey "а">
 <!ENTITY alignLeft.label "Солға">
 <!ENTITY alignLeft.accesskey "С">
 <!ENTITY alignLeft.tooltip "Солға туралау">
-
-
+<!ENTITY alignCenter.label "Ортаға">
+<!ENTITY alignCenter.accesskey "О">
 <!ENTITY alignCenter.tooltip "Ортаға туралау">
 <!ENTITY alignRight.label "Оңға">
 <!ENTITY alignRight.accesskey "О">
@@ -217,11 +229,12 @@
 <!ENTITY tableSelectMenu.label "Таңдау">
 <!ENTITY tableSelectMenu.accesskey "а">
 
-
-
-
-
-
+<!ENTITY tableSelectMenu2.label "Кестені таңдау">
+<!ENTITY tableSelectMenu2.accesskey "т">
+<!ENTITY tableInsertMenu2.label "Кестені кірістіру">
+<!ENTITY tableInsertMenu2.accesskey "к">
+<!ENTITY tableDeleteMenu2.label "Кестені өшіру">
+<!ENTITY tableDeleteMenu2.accesskey "ш">
 <!-- Insert SubMenu -->
 
 <!ENTITY tableInsertMenu.label "Енгізу">
@@ -229,30 +242,30 @@
 <!ENTITY tableTable.label "Кесте">
 <!ENTITY tableTable.accesskey "К">
 <!ENTITY tableRow.label "Жол">
-
+<!ENTITY tableRows.label "Жол(дар)">
 <!ENTITY tableRow.accesskey "Ж">
-
-
-
-
+<!ENTITY tableRowAbove.label "Үстінен жолды">
+<!ENTITY tableRowAbove.accesskey "ж">
+<!ENTITY tableRowBelow.label "Астынан жолды">
+<!ENTITY tableRowBelow.accesskey "ы">
 <!ENTITY tableColumn.label "Баған">
-
+<!ENTITY tableColumns.label "Баған(дар)">
 <!ENTITY tableColumn.accesskey "Б">
-
-
-
-
+<!ENTITY tableColumnBefore.label "Бағанды алдынан">
+<!ENTITY tableColumnBefore.accesskey "Б">
+<!ENTITY tableColumnAfter.label "Бағанды артынан">
+<!ENTITY tableColumnAfter.accesskey "а">
 <!ENTITY tableCell.label "Ұяшық">
-
+<!ENTITY tableCells.label "Ұяшық(тар)">
 <!ENTITY tableCell.accesskey "я">
-
-
-
-
-
-
-
-
+<!ENTITY tableCellContents.label "Ұяшықтың құрамасы">
+<!ENTITY tableCellContents.accesskey "м">
+<!ENTITY tableAllCells.label "Барлық ұяшықтар">
+<!ENTITY tableAllCells.accesskey "а">
+<!ENTITY tableCellBefore.label "Ұяшықты алдынан">
+<!ENTITY tableCellBefore.accesskey "я">
+<!ENTITY tableCellAfter.label "Ұяшықты артынан">
+<!ENTITY tableCellAfter.accesskey "а">
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Өшіру">
 <!ENTITY tableDeleteMenu.accesskey "р">
@@ -262,10 +275,12 @@
      But value must be set here for accesskey to draw properly
 -->
 
-
-
-
-
+<!ENTITY tableJoinCells.label "j">
+<!ENTITY tableJoinCells.accesskey "j">
+<!ENTITY tableSplitCell.label "Ұяшықты бөліп жіберу">
+<!ENTITY tableSplitCell.accesskey "я">
+<!ENTITY convertToTable.label "Таңдаудан кестені жасау">
+<!ENTITY convertToTable.accesskey "ж">
 <!ENTITY tableProperties.label "Кесте қасиеттері…">
 <!ENTITY tableProperties.accesskey "и">
 <!-- Toolbar-only items -->
@@ -283,7 +298,7 @@
 <!ENTITY spellToolbarCmd.tooltip "Таңдалғанның немесе толық парақтың емлесін тексеру">
 <!ENTITY imageToolbarCmd.label "Сурет">
 <!ENTITY imageToolbarCmd.tooltip "Жаңа суретті енгізу немесе таңдалған суреттің қасиеттерін түзету">
-
+<!ENTITY hruleToolbarCmd.label "Гориз. сызық">
 <!ENTITY hruleToolbarCmd.tooltip "Горизонталды сызықты енгізу немесе таңдалған сызықтың қасиеттерін түзету">
 <!ENTITY tableToolbarCmd.label "Кесте">
 <!ENTITY tableToolbarCmd.tooltip "Жаңа кестені енгізу немесе таңдалған кестенің қасиеттерін түзету">
@@ -301,7 +316,7 @@
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Кішірек қаріп">
 <!ENTITY increaseFontSizeToolbarCmd.tooltip "Үлкенірек қаріп">
 <!ENTITY boldToolbarCmd.tooltip "Жуан">
-<!ENTITY italicToolbarCmd.tooltip "Көлбеу">
+<!ENTITY italicToolbarCmd.tooltip "Курсив">
 <!ENTITY underlineToolbarCmd.tooltip "Асты сызылған">
 <!ENTITY bulletListToolbarCmd.tooltip "Маркерленген тізімді іске қосу/өшіру">
 <!ENTITY numberListToolbarCmd.tooltip "Нөмірленген тізімді іске қосу/өшіру">

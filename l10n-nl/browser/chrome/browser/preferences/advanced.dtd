@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Algemeen">
 
-<!ENTITY accessibility.label             "Toegankelijkheid">
-
 <!ENTITY useCursorNavigation.label       "Altijd de pijltoetsen gebruiken om binnen pagina’s te navigeren">
 <!ENTITY useCursorNavigation.accesskey   "o">
 <!ENTITY searchOnStartTyping.label       "Naar tekst zoeken wanneer u begint met typen">
 <!ENTITY searchOnStartTyping.accesskey   "t">
-<!ENTITY blockAutoReload.label           "Waarschuwen wanneer websites proberen de pagina door te sturen of te herladen">
-<!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "Een schermtoetsenbord tonen wanneer nodig">
 <!ENTITY useOnScreenKeyboard.accesskey   "c">
 
@@ -28,24 +24,26 @@
 
 <!ENTITY dataChoicesTab.label            "Gegevenskeuzes">
 
-<!ENTITY healthReportDesc.label          "Helpt u uw browserprestaties te begrijpen en deelt gegevens met &vendorShortName; over uw browserstatus">
-<!ENTITY enableHealthReport.label        "&brandShortName;-statusrapport inschakelen">
-<!ENTITY enableHealthReport.accesskey    "s">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "Gegevensrapportage is uitgeschakeld voor deze buildconfiguratie">
+
+<!ENTITY enableHealthReport1.label       "&brandShortName; toestaan om automatisch technische en interactiegegevens naar Mozilla te verzenden">
+<!ENTITY enableHealthReport1.accesskey   "r">
 <!ENTITY healthReportLearnMore.label     "Meer info">
 
-<!ENTITY telemetryDesc.label             "Deelt gegevens over prestaties, hardware, gebruik en aanpassingen van uw browser met &vendorShortName; om &brandShortName; te helpen verbeteren">
-<!ENTITY enableTelemetryData.label       "Aanvullende gegevens delen (d.w.z. Telemetry)">
-<!ENTITY enableTelemetryData.accesskey   "T">
-<!ENTITY telemetryLearnMore.label        "Meer info">
+<!ENTITY dataCollection.label            "&brandShortName;-gegevensverzameling en -gebruik">
+<!ENTITY dataCollectionDesc.label        "We streven ernaar u keuzes te bieden en alleen te verzamelen wat we nodig hebben om &brandShortName; voor iedereen beschikbaar te maken en te verbeteren. We vragen altijd toestemming voordat we persoonlijke gegevens ontvangen.">
+<!ENTITY dataCollectionPrivacyNotice.label    "Privacyverklaring">
 
-<!ENTITY crashReporterDesc2.label         "Crashrapporten helpen &vendorShortName; problemen te verhelpen en maken uw browser stabieler en veiliger">
-<!ENTITY alwaysSubmitCrashReports.label   "&brandShortName; toestaan namens u achterstallige crashrapporten te verzenden">
-<!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "Meer info">
+<!ENTITY alwaysSubmitCrashReports1.label  "&brandShortName; toestaan om crashrapporten naar Mozilla te verzenden">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "c">
+<!ENTITY crashReporterLearnMore.label    "Meer info">
 
 <!ENTITY networkTab.label                "Netwerk">
 
-<!ENTITY connection.label                "Verbinding">
+<!ENTITY networkProxy.label              "Netwerkproxy">
 
 <!ENTITY connectionDesc.label            "Configureren hoe &brandShortName; verbinding maakt met het internet">
 <!ENTITY connectionSettings.label        "Instellingen…">
@@ -92,11 +90,13 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+ <!ENTITY updateApplicationDescription.label
+                                         "Houd &brandShortName; up-to-date voor de beste prestaties, stabiliteit en beveiliging.">
 <!ENTITY updateApplication.version.pre   "Versie ">
 <!ENTITY updateApplication.version.post  "">
 <!ENTITY updateApplication.description   "&brandShortName; mag">
-<!ENTITY updateAuto2.label               "Updates automatisch installeren (aanbevolen voor verbeterde beveiliging)">
-<!ENTITY updateAuto2.accesskey           "U">
+<!ENTITY updateAuto3.label               "Updates automatisch installeren (aanbevolen)">
+<!ENTITY updateAuto3.accesskey           "U">
 <!ENTITY updateCheckChoose2.label        "Controleren op updates, maar u laten kiezen of u deze wilt installeren">
 <!ENTITY updateCheckChoose2.accesskey    "C">
 <!ENTITY updateManual2.label             "Nooit controleren op updates (niet aanbevolen)">
@@ -110,8 +110,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "Zoekmachines automatisch bijwerken">
 <!ENTITY enableSearchUpdate2.accesskey   "Z">
-
-<!ENTITY reports.label                   "Rapporten">
 
 <!ENTITY offlineStorageNotify.label               "Vertellen wanneer een website vraagt gegevens op te slaan voor offlinegebruik">
 <!ENTITY offlineStorageNotify.accesskey           "e">
@@ -132,10 +130,10 @@
 <!ENTITY selectCerts.ask.accesskey       "E">
 <!ENTITY enableOCSP.label                "OCSP-responderservers vragen om de huidige geldigheid van certificaten te bevestigen">
 <!ENTITY enableOCSP.accesskey            "v">
-<!ENTITY viewCerts.label                 "Certificaten bekijken">
-<!ENTITY viewCerts.accesskey             "C">
-<!ENTITY viewSecurityDevices.label       "Beveiligingsapparaten">
-<!ENTITY viewSecurityDevices.accesskey   "B">
+<!ENTITY viewCerts2.label                "Certificaten bekijken…">
+<!ENTITY viewCerts2.accesskey            "C">
+<!ENTITY viewSecurityDevices2.label      "Beveiligingsapparaten…">
+<!ENTITY viewSecurityDevices2.accesskey  "B">
 
 <!ENTITY performance.label               "Prestaties">
 <!ENTITY useRecommendedPerformanceSettings2.label

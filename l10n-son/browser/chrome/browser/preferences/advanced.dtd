@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Hayakul">
 
-<!ENTITY accessibility.label             "Duwandiyan">
-
 <!ENTITY useCursorNavigation.label       "Waati kul ma moo dirandikaw kufaley ka naaru moɲey ra">
 <!ENTITY useCursorNavigation.accesskey   "d">
 <!ENTITY searchOnStartTyping.label       "Hantum ceeci waati kaŋ ay šintin ka hantum">
 <!ENTITY searchOnStartTyping.accesskey   "H">
-<!ENTITY blockAutoReload.label           "War yaamar waati kaŋ Interneti nungey ga wiri ka moɲoo bisandi wala k'a zumandi taaga">
-<!ENTITY blockAutoReload.accesskey       "n">
 <!ENTITY useOnScreenKeyboard.label       "Maate walha cebe nd'a ga hima">
 <!ENTITY useOnScreenKeyboard.accesskey   "h">
 
@@ -27,25 +23,21 @@
 <!ENTITY checkUserSpelling.accesskey     "h">
 
 <!ENTITY dataChoicesTab.label            "Bayhaya suubarey">
-
-<!ENTITY healthReportDesc.label          "Ga war gaa ka faham ceecikaa goysahãa se nda ka bayhaya žemni war ceecikaa baanoo ga nda &vendorShortName;">
-<!ENTITY enableHealthReport.label        "&brandShortName; baani bayrandikaa tunandi">
-<!ENTITY enableHealthReport.accesskey    "r">
-
-
-<!ENTITY telemetryDesc.label             "Goysahã, goyfondo, jinay šenda nda boŋse hanseyan bayhayey žemni war ceecikaa ga nda &vendorShortName; k'ir gaa ka &brandShortName; boryandi">
-<!ENTITY enableTelemetryData.label       "Bayhaya tontonantey žemna (sanda mooray neešiyan)">
-<!ENTITY enableTelemetryData.accesskey   "T">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
 
 
-<!ENTITY crashReporterDesc2.label         "Kaŋyan bayrandey ga &vendorShortName; faaba ka harasawey hanse nda ka war ceecijinaa tabatandi nda saajaw">
-<!ENTITY alwaysSubmitCrashReports.label   "Naŋ &brandShortName; ma kaŋyan bayrandi margantey sanba war se">
-<!ENTITY alwaysSubmitCrashReports.accesskey "c">
+
+
+
+
+
+
 
 
 <!ENTITY networkTab.label                "Sankay">
 
-<!ENTITY connection.label                "Ciyari">
 
 <!ENTITY connectionDesc.label            "Hanse taka kaŋ nda &brandShortName; ga Interneti ciya">
 <!ENTITY connectionSettings.label        "Kayandiyaney…">
@@ -92,10 +84,11 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+
 <!ENTITY updateApplication.version.post  "">
 <!ENTITY updateApplication.description   "Naŋ &brandShortName; ma">
-<!ENTITY updateAuto2.label               "Taagandirey sinji ngi boŋse (woo yaamarandi saajaw tontoni se)">
-<!ENTITY updateAuto2.accesskey           "a">
+
+
 <!ENTITY updateCheckChoose2.label        "Taagandirey guna, amma naŋ ma sinji dogoo suuba">
 <!ENTITY updateCheckChoose2.accesskey    "g">
 <!ENTITY updateManual2.label             "Ma ši taagandirey ceeci abada (ši yaamarandi)">
@@ -109,8 +102,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "Ceecijinawey ma taagandi ngi boŋ se">
 <!ENTITY enableSearchUpdate2.accesskey   "a">
-
-<!ENTITY reports.label                   "Bayrandey">
 
 <!ENTITY offlineStorageNotify.label               "Har war se waati kaŋ interneti nungu ga hãa ka bayhayey jiši bila nda interneti-ciyari">
 <!ENTITY offlineStorageNotify.accesskey           "H">
@@ -131,10 +122,10 @@
 <!ENTITY selectCerts.ask.accesskey       "A">
 <!ENTITY enableOCSP.label                "Hayyan OCSP zaabi feršikey ka sohõda tabatandi tiira booriyanoo cimandi.">
 <!ENTITY enableOCSP.accesskey            "H">
-<!ENTITY viewCerts.label                 "Tabatiyan-tiirawey guna">
-<!ENTITY viewCerts.accesskey             "a">
-<!ENTITY viewSecurityDevices.label       "Saajaw jinawey">
-<!ENTITY viewSecurityDevices.accesskey   "w">
+
+
+
+
 
 <!ENTITY performance.label               "Teeyan sahã">
 <!ENTITY useRecommendedPerformanceSettings2.label "Goy nda goy sahã kayandiyan yaamarantey">
@@ -144,5 +135,7 @@
 <!ENTITY limitContentProcessOption.label "Gundekuna goyandiyan adadu">
 
 <!ENTITY limitContentProcessOption.accesskey   "d">
+
+
 <!ENTITY allowHWAccel.label              "Goy nda jinay šenda cahãndikaw nd'a ga bara">
 <!ENTITY allowHWAccel.accesskey          "j">

@@ -85,8 +85,7 @@
 <!ENTITY col.dateadded.label     "એડ-ઓનયું">
 <!ENTITY col.lastmodified.label  "છેલ્લે સુધારાયું">
 
-<!ENTITY search.label                              "શોધો:">
-<!ENTITY search.accesskey                          "S">
+<!ENTITY search.placeholder  "શોધો">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -104,8 +103,6 @@
 <!ENTITY detailsPane.less.accesskey "e">
 <!ENTITY detailsPane.selectAnItemText.description "વસ્તુના ગુણધર્મો જોવા અને તેમાં ફેરફાર કરવા માટે તેને પસંદ કરો">
 
-<!ENTITY find.label               "શોધો:">
-<!ENTITY find.accesskey           "S">
 <!ENTITY view.label               "દૃશ્ય">
 <!ENTITY view.accesskey           "w">
 <!ENTITY byDate.label             "તારીખ પ્રમાણે">

@@ -17,14 +17,14 @@
 <!ENTITY useMultiple.label         "Gunakan Halaman Semasa">
 <!ENTITY chooseBookmark.label      "Guna Tandabuku…">
 <!ENTITY chooseBookmark.accesskey  "B">
-<!ENTITY restoreDefault.label      "Kembalikan kepada Piawai">
-<!ENTITY restoreDefault.accesskey  "a">
+<!ENTITY restoreDefault.label      "Pulih Piawai">
+<!ENTITY restoreDefault.accesskey  "P">
 
 <!ENTITY downloads.label     "Muat Turun">
 
 <!ENTITY saveTo.label "Simpan fail ke">
 <!ENTITY saveTo.accesskey "n">
-<!ENTITY chooseFolderWin.label        "Lungsur…">
+<!ENTITY chooseFolderWin.label        "Cari…">
 <!ENTITY chooseFolderWin.accesskey    "r">
 <!ENTITY chooseFolderMac.label        "Pilih…">
 <!ENTITY chooseFolderMac.accesskey    "P">
@@ -33,8 +33,8 @@
 
 <!ENTITY alwaysCheckDefault2.label        "Sentiasa semak samada &brandShortName; adalah pelayar piawai anda">
 <!ENTITY alwaysCheckDefault2.accesskey    "y">
-<!ENTITY setAsMyDefaultBrowser2.label     "Jadikan Piawai">
-<!ENTITY setAsMyDefaultBrowser2.accesskey "D">
+<!ENTITY setAsMyDefaultBrowser3.label     "Jadikan Piawai…">
+<!ENTITY setAsMyDefaultBrowser3.accesskey "P">
 <!ENTITY isDefault.label                  "&brandShortName; kini adalah pelayar piawai anda">
 <!ENTITY isNotDefault.label               "&brandShortName; bukan pelayar piawai anda">
 

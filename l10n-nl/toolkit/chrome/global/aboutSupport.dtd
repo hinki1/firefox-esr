@@ -70,6 +70,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess-vensters">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Webinhoudsprocessen">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Google-sleutel">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Mozilla-locatieservicesleutel">
 
@@ -108,6 +110,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Toegankelijkheid">
 <!ENTITY aboutSupport.a11yActivated "Geactiveerd">
 <!ENTITY aboutSupport.a11yForceDisabled "Toegankelijkheid voorkomen">
+<!ENTITY aboutSupport.a11yHandlerUsed "Accessible-handler gebruikt">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Bibliotheekversies">
 
@@ -138,3 +141,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Beslissingenlogboek">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Door crashbeveiliging uitgeschakelde functies">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Workarounds">
+
+<!ENTITY aboutSupport.mediaTitle "Media">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Uitvoerapparaten">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Invoerapparaten">
+<!ENTITY aboutSupport.mediaDeviceName "Naam">
+<!ENTITY aboutSupport.mediaDeviceGroup "Groep">
+<!ENTITY aboutSupport.mediaDeviceVendor "Leverancier">
+<!ENTITY aboutSupport.mediaDeviceState "Status">
+<!ENTITY aboutSupport.mediaDevicePreferred "Voorkeur">
+<!ENTITY aboutSupport.mediaDeviceFormat "Indeling">
+<!ENTITY aboutSupport.mediaDeviceChannels "Kanalen">
+<!ENTITY aboutSupport.mediaDeviceRate "Frequentie">
+<!ENTITY aboutSupport.mediaDeviceLatency "Latentie">

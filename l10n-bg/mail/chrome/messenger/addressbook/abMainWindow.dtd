@@ -11,8 +11,8 @@
 <!ENTITY fileMenu.accesskey                             "Ф">
 <!ENTITY newMenu.label                                  "Нови">
 <!ENTITY newMenu.accesskey                              "Н">
-<!ENTITY newContact.label                               "Визитка в адресника…">
-<!ENTITY newContact.accesskey                           "В">
+<!ENTITY newContact.label                               "Контакт от адресника…">
+<!ENTITY newContact.accesskey                           "К">
 <!ENTITY newContact.key                                 "N">
 <!ENTITY newListCmd.label                               "Пощенски списък…">
 <!ENTITY newListCmd.accesskey                           "щ">
@@ -60,9 +60,9 @@
 <!ENTITY pasteCmd.key                                   "V">
 <!ENTITY pasteCmd.accesskey                             "в">
 <!ENTITY deleteCmd.label                                "Изтриване">
-<!ENTITY deleteCmd.accesskey                            "з">
-<!ENTITY deleteAbCmd.label                              "Изтриване на адресник">
-<!ENTITY deleteContactCmd.label                         "Изтриване на визитка">
+<!ENTITY deleteCmd.accesskey                            "р">
+<!ENTITY deleteAbCmd.label                              "Премахване на адресник">
+<!ENTITY deleteContactCmd.label                         "Премахване на контакт">
 <!ENTITY deleteContactsCmd.label                        "Изтриване на визитки">
 <!ENTITY deleteListCmd.label                            "Изтриване на списък">
 <!ENTITY deleteListsCmd.label                           "Изтриване на списъци">
@@ -95,7 +95,7 @@
 <!ENTITY menubarCmd.accesskey                           "м">
 <!ENTITY showAbToolbarCmd.label                         "Лента на адресника">
 <!ENTITY showAbToolbarCmd.accesskey                     "а">
-<!ENTITY showTaskbarCmd.label                           "Лента състояние">
+<!ENTITY showTaskbarCmd.label                           "Лента на състоянието">
 <!ENTITY showTaskbarCmd.accesskey                       "Л">
 <!ENTITY customizeToolbar.label                         "Настройване…">
 <!ENTITY customizeToolbar.accesskey                     "Н">
@@ -109,10 +109,10 @@
 <!ENTITY menu_ShowNameAs.accesskey                      "и">
 <!-- LOCALIZATION NOTE (firstLastCmd2.label): We're not including a comma here
 because displayed names don't have the comma in between. -->
-<!ENTITY firstLastCmd2.label                            "Първи последен">
-<!ENTITY firstLastCmd2.accesskey                        "ъ">
-<!ENTITY lastFirstCmd.label                             "Последен, първи">
-<!ENTITY lastFirstCmd.accesskey                         "о">
+<!ENTITY firstLastCmd2.label                            "Име Фамилия">
+<!ENTITY firstLastCmd2.accesskey                        "е">
+<!ENTITY lastFirstCmd.label                             "Фамилия, Име">
+<!ENTITY lastFirstCmd.accesskey                         "а">
 <!ENTITY displayNameCmd.label                           "Показвано име">
 <!ENTITY displayNameCmd.accesskey                       "и">
 <!ENTITY sortMenu.label                                 "Подреждане по">

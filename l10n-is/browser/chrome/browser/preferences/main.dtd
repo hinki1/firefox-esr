@@ -33,8 +33,8 @@
 
 <!ENTITY alwaysCheckDefault2.label        "Alltaf athuga hvort &brandShortName; sé sjálfgefin vafri">
 <!ENTITY alwaysCheckDefault2.accesskey    "l">
-<!ENTITY setAsMyDefaultBrowser2.label     "Gera sjálfgefið">
-<!ENTITY setAsMyDefaultBrowser2.accesskey "G">
+<!ENTITY setAsMyDefaultBrowser3.label     "Gera sjálfgefið…">
+<!ENTITY setAsMyDefaultBrowser3.accesskey "s">
 <!ENTITY isDefault.label                  "&brandShortName; er núna sjálfgefinn vafri">
 <!ENTITY isNotDefault.label               "&brandShortName; er ekki sjálfgefinn vafri">
 

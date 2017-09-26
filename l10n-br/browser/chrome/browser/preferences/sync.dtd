@@ -10,17 +10,21 @@
 <!ENTITY engine.tabs.accesskey      "D">
 <!ENTITY engine.history.label       "Roll istor">
 <!ENTITY engine.history.accesskey   "R">
-<!ENTITY engine.logins.label        "Titouroù kennaskañ">
-<!ENTITY engine.logins.accesskey    "T">
+
+
 <!ENTITY engine.prefs.label         "Gwellvezioù">
 <!ENTITY engine.prefs.accesskey     "G">
 <!ENTITY engine.addons.label        "Askouezhioù">
 <!ENTITY engine.addons.accesskey    "A">
+
+
+
+
 <!-- Device Settings -->
 
 <!ENTITY fxaSyncDeviceName.label       "Anv an trevnad">
-<!ENTITY changeSyncDeviceName2.label "Kemmañ anv an trevnad…">
-<!ENTITY changeSyncDeviceName2.accesskey "K">
+
+
 <!ENTITY cancelChangeSyncDeviceName.label "Nullañ">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "N">
 <!ENTITY saveChangeSyncDeviceName.label "Enrollañ">
@@ -50,10 +54,10 @@ both, to better adapt this sentence to their language.
 <!ENTITY signIn.label                "Kennaskañ">
 <!ENTITY signIn.accesskey            "a">
 <!ENTITY profilePicture.tooltip      "Kemmañ ar skeudenn aelad">
-<!ENTITY verifiedManage.label        "Ardeiñ ar gont">
-<!ENTITY verifiedManage.accesskey    "g">
-<!ENTITY disconnect3.label           "Digennaskañ…">
-<!ENTITY disconnect3.accesskey       "D">
+
+
+
+
 <!ENTITY verify.label                "Gwiriañ ar chomlec'h postel">
 <!ENTITY verify.accesskey            "w">
 <!ENTITY forget.label                "Ankouaat ar chomlec'h postel-mañ">
@@ -67,8 +71,7 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "Kennaskañ">
 <!ENTITY signedOut.accountBox.signin.accesskey  "K">
 
-<!ENTITY signedIn.settings.label       "Arventennoù goubredañ">
-<!ENTITY signedIn.settings.description "Dibab petra goubredan war ho trevnadoù gant &brandShortName;.">
+
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.
      The resulting sentence in English is: "Download Firefox for

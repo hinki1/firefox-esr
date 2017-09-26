@@ -3,8 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  trackingProtectionHeader2.label      "Beskerming tsjin folgjen">
-<!ENTITY  trackingProtection.description       "Folgjen hâldt yn dat bedriuwen gegevens oer jo sammelje om in profyl op te bouwen en ynhâld wer te jaan op basis fan jo persoanlike en sneupgegevens.">
-<!ENTITY  trackingProtection.radioGroupLabel   "Werjaan fan ynhâld troch bekende bedriuwen dy't folgje blokkearje">
+<!ENTITY  trackingProtection2.description      "Folgjen is it sammeljen fan jo sneupgegevens op mear websites. Folgjen kin brûkt wurde om in profyl op te bouwen en ynhâld wer te jaan op basis fan jo persoanlike en sneupgegevens.">
+<!ENTITY  trackingProtection2.radioGroupLabel  "Beskerming tsjin folgjen brûke om bekende folgers te blokkearjen">
 <!ENTITY  trackingProtectionAlways.label       "Altyd">
 <!ENTITY  trackingProtectionAlways.accesskey   "A">
 <!ENTITY  trackingProtectionPrivate.label      "Allinnich yn priveefinsters">
@@ -15,26 +15,28 @@
 <!ENTITY  trackingProtectionExceptions.label   "Utsûnderingen…">
 <!ENTITY  trackingProtectionExceptions.accesskey "i">
 
-<!ENTITY tracking.label                 "Folgjen">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM5.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to true. This currently happens on the release and beta channel. -->
 <!ENTITY trackingProtectionPBM5.label         "Beskerming tsjin folgjen brûke yn priveefinsters">
 <!ENTITY trackingProtectionPBM5.accesskey     "v">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM6.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to false. This currently happens on the nightly channel. -->
+<!ENTITY trackingProtectionPBM6.label         "Beskerming tsjin folgjen brûke yn Priveenavigaasje om bekende folgers te blokkearjen">
+<!ENTITY trackingProtectionPBM6.accesskey     "f">
 <!ENTITY trackingProtectionPBMLearnMore.label "Mear ynfo">
-<!ENTITY changeBlockList.label          "Blokkearlist wizigje">
-<!ENTITY changeBlockList.accesskey      "k">
+<!ENTITY changeBlockList2.label               "Blokkearlist wizigje…">
+<!ENTITY changeBlockList2.accesskey           "B">
 
-<!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
-<!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
-<!ENTITY  doNotTrack.pre.label          "Jo kinne ek ">
-<!ENTITY  doNotTrack.settings.label     "jo ynstellingen foar Net folgje beheare">
-<!ENTITY  doNotTrack.post.label         ".">
+<!ENTITY  doNotTrack.description        "Websites in ‘Net folgje’-sinjaal stjoere om litte te witten dat jo net folge wurde wolle">
+<!ENTITY  doNotTrack.learnMore.label    "Mear ynfo">
+<!ENTITY  doNotTrack.default.label      "Allinnich by gebrûk fan Beskerming tsjin folgjen">
+<!ENTITY  doNotTrack.always.label       "Altyd">
 
 <!ENTITY  history.label                 "Skiednis">
+<!ENTITY  permissions.label             "Tastimmingen">
 
-<!ENTITY  locationBar.label             "Lokaasjebalke">
-
-<!ENTITY  locbar.suggest2.label         "By gebrûk fan de lokaasjebalke, suggestjes werjaan út">
-<!ENTITY  locbar.history.label          "Skiednis">
-<!ENTITY  locbar.history.accesskey      "S">
+<!ENTITY  addressBar.label              "Adresbalke">
+<!ENTITY  addressBar.suggest.label      "By gebrûk fan de adresbalke, suggestjes werjaan út">
+<!ENTITY  locbar.history2.label         "Navigaasjeskiednis">
+<!ENTITY  locbar.history2.accesskey     "N">
 <!ENTITY  locbar.bookmarks.label        "Blêdwizers">
 <!ENTITY  locbar.bookmarks.accesskey    "d">
 <!ENTITY  locbar.openpage.label         "Iepen ljeplêden">
@@ -44,8 +46,8 @@
 
 <!ENTITY  suggestionSettings2.label     "Foarkarren foar sykmasinesuggestjes wizigje">
 
-<!ENTITY  acceptCookies.label           "Cookies fan websites akseptearje">
-<!ENTITY  acceptCookies.accesskey       "C">
+<!ENTITY  acceptCookies2.label          "Cookies fan websites akseptearje">
+<!ENTITY  acceptCookies2.accesskey      "C">
 
 <!ENTITY  acceptThirdParty.pre.label      "Cookies fan tredden akseptearje:">
 <!ENTITY  acceptThirdParty.pre.accesskey  "o">
@@ -106,7 +108,6 @@
 <!ENTITY  clearOnCloseSettings.label     "Ynstellingen…">
 <!ENTITY  clearOnCloseSettings.accesskey "Y">
 
-<!ENTITY  browserContainersHeader.label         "Kontenerljepblêden">
 <!ENTITY  browserContainersLearnMore.label      "Mear ynfo">
 <!ENTITY  browserContainersEnabled.label        "Kontenerljepblêden ynskeakelje">
 <!ENTITY  browserContainersEnabled.accesskey    "n">

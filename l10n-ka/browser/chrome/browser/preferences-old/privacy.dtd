@@ -17,20 +17,20 @@
 <!ENTITY trackingProtectionPBM5.label         "თვალთვალისგან დაცვა პირადი ფანჯრით სარგებლობისას">
 <!ENTITY trackingProtectionPBM5.accesskey     "რ">
 <!ENTITY trackingProtectionPBMLearnMore.label "შეიტყვეთ მეტი">
-<!ENTITY changeBlockList.label          "დაბლოკილთა სიის შეცვლა">
+<!ENTITY changeBlockList.label          "შეზღუდულთა სიის ჩასწორება">
 <!ENTITY changeBlockList.accesskey      "შ">
 
 <!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
 <!ENTITY  doNotTrack.pre.label          "თქვენ ასევე შეგიძლიათ ">
-<!ENTITY  doNotTrack.settings.label     "გამართოთ თქვენი თვალთალისგან ასარიდებელი პარამეტრები">
+<!ENTITY  doNotTrack.settings.label     '"არ მითვალთვალო" პარამეტრის მითითება'>
 <!ENTITY  doNotTrack.post.label         ".">
 
 <!ENTITY  history.label                 "ისტორია">
 
 <!ENTITY  locationBar.label             "მისამართების ზოლი">
 
-<!ENTITY  locbar.suggest.label          "მისამართების ზოლის გამოყენებისას, შემოთავაზებული იქნეს:">
+<!ENTITY  locbar.suggest.label          "მისამართების ზოლის გამოყენებისას, შემოთავაზებებში გამოჩნდება:">
 <!ENTITY  locbar.history.label          "ისტორია">
 <!ENTITY  locbar.history.accesskey      "ი">
 <!ENTITY  locbar.bookmarks.label        "სანიშნეები">
@@ -43,8 +43,8 @@
 <!ENTITY  suggestionSettings.label      "საძიებო სისტემის შემოთავაზებების პარამეტრები…">
 <!ENTITY  suggestionSettings.accesskey  "თ">
 
-<!ENTITY  acceptCookies.label           "ფუნთუშების მიღება საიტებიდან">
-<!ENTITY  acceptCookies.accesskey       "მ">
+<!ENTITY  acceptCookies2.label          "ფუნთუშების მიღება საიტებიდან">
+<!ENTITY  acceptCookies2.accesskey      "ფ">
 
 <!ENTITY  acceptThirdParty.pre.label      "მესამე მხარის ფუნთუშების მიღება:">
 <!ENTITY  acceptThirdParty.pre.accesskey  "ღ">
@@ -55,14 +55,14 @@
 <!ENTITY  keepUntil.label               "შენახვა სანამ:">
 <!ENTITY  keepUntil.accesskey           "ს">
 
-<!ENTITY  expire.label                  "ვადა გაუვათ">
+<!ENTITY  expire.label                  "ვადა გაუვა">
 <!ENTITY  close.label                   "&brandShortName; დაიხურება">
 
 <!ENTITY  cookieExceptions.label        "გამონაკლისები…">
 <!ENTITY  cookieExceptions.accesskey    "გ">
 
 <!ENTITY  showCookies.label             "ფუნთუშების ნახვა…">
-<!ENTITY  showCookies.accesskey         "ჩ">
+<!ENTITY  showCookies.accesskey         "ფ">
 
 <!ENTITY  historyHeader.pre.label          "&brandShortName; ბრაუზერი:">
 <!ENTITY  historyHeader.pre.accesskey      "ზ">
@@ -71,7 +71,7 @@
 <!ENTITY  historyHeader.custom.label       "ისარგებლებს თქვენი მითითებებით">
 <!ENTITY  historyHeader.post.label         "">
 
-<!ENTITY  rememberDescription.label      "&brandShortName; დაიმახსოვრებს დათვალიერებული გვერდების, ჩამოტვირთვების, ველების და ძიების ისტორიას, ასევე შეინახავს ნაჭდევებს მონახულებული საიტებიდან.">
+<!ENTITY  rememberDescription.label      "&brandShortName; დაიმახსოვრებს დათვალიერებული გვერდების, ჩამოტვირთვების, ველების და ძიების ისტორიას, ასევე შეინახავს ფუნთუშებს, მონახულებული საიტებიდან.">
 
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
@@ -82,7 +82,7 @@
 <!ENTITY  rememberActions.removeCookies.label "ცალკეული ფუნთუშების წაშლა">
 <!ENTITY  rememberActions.post.label          ".">
 
-<!ENTITY  dontrememberDescription.label  "&brandShortName; ბრაუზერი ისარგებლებს იგივე პარამეტრებით, რაც პირადი სეანსებისთვის და არ შეინახვს თქვენი მონახულებული საიტების ისტორიას.">
+<!ENTITY  dontrememberDescription.label  "&brandShortName; ბრაუზერი ისარგებლებს პირადი ფანჯრის პარამეტრებით და არ შეინახვს თქვენ მიერ მონახულებული საიტების ისტორიას.">
 
 <!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
@@ -105,7 +105,9 @@
 <!ENTITY  clearOnCloseSettings.label     "პარამეტრები…">
 <!ENTITY  clearOnCloseSettings.accesskey "ტ">
 
-<!ENTITY  browserContainersHeader.label         "სათავსო ჩანართები">
+<!ENTITY  browserContainersHeader.label         "სათავსი ჩანართები">
 <!ENTITY  browserContainersLearnMore.label      "შეიტყვეთ მეტი">
-<!ENTITY  browserContainersEnabled.label        "სათავსო ჩანართების ჩართვა">
+<!ENTITY  browserContainersEnabled.label        "სათავსი ჩანართების ჩართვა">
 <!ENTITY  browserContainersEnabled.accesskey    "ჩ">
+<!ENTITY  browserContainersSettings.label        "პარამეტრები…">
+<!ENTITY  browserContainersSettings.accesskey    "პ">

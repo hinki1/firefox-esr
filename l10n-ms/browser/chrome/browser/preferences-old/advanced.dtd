@@ -6,7 +6,7 @@
 
 <!ENTITY generalTab.label                "Umum">
 
-<!ENTITY accessibility.label             "Aksesibiliti">
+<!ENTITY accessibility.label             "Ketercapaian">
 
 <!ENTITY useCursorNavigation.label       "Sentiasa gunakan kunci kursor untuk navigasi antara halaman">
 <!ENTITY useCursorNavigation.accesskey   "c">
@@ -17,7 +17,7 @@
 <!ENTITY useOnScreenKeyboard.label       "Papar papan kekunci sentuh apabila perlu">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
-<!ENTITY browsing.label                  "Melungsur">
+<!ENTITY browsing.label                  "Menyemak">
 
 <!ENTITY useAutoScroll.label             "Guna autoskrol">
 <!ENTITY useAutoScroll.accesskey         "a">
@@ -28,9 +28,14 @@
 
 <!ENTITY dataChoicesTab.label            "Pilihan Data">
 
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "Laporan data dinyahdayakan bagi konfigurasi binaan ini">
+
 <!ENTITY healthReportDesc.label          "Membantu anda memahami prestasi pelayar dan berkongsi data dengan &vendorShortName; mengenai keupayaan pelayar anda ini">
-<!ENTITY enableHealthReport.label        "Dayakan &brandShortName; Laporan Sistem">
-<!ENTITY enableHealthReport.accesskey    "R">
+<!ENTITY enableHealthReport.label        "Dayakan Laporan Kesihatan &brandShortName;">
+<!ENTITY enableHealthReport.accesskey    "L">
 <!ENTITY healthReportLearnMore.label     "Ketahui Selanjutnya">
 
 <!ENTITY telemetryDesc.label             "Kongsi data prestasi, penggunaan, perkakasan dan pelangganan berkaitan pelayar anda dengan &vendorShortName; untuk membantu kami menjadikan &brandShortName; lebih baik">
@@ -72,10 +77,10 @@
 <!ENTITY limitCacheSizeBefore.label      "Had cache kepada">
 <!ENTITY limitCacheSizeBefore.accesskey  "d">
 <!ENTITY limitCacheSizeAfter.label       "MB daripada ruang">
-<!ENTITY clearCacheNow.label             "Padam Sekarang">
-<!ENTITY clearCacheNow.accesskey         "g">
-<!ENTITY clearOfflineAppCacheNow.label   "Padam Sekarang">
-<!ENTITY clearOfflineAppCacheNow.accesskey "N">
+<!ENTITY clearCacheNow.label             "Buang Sekarang">
+<!ENTITY clearCacheNow.accesskey         "B">
+<!ENTITY clearOfflineAppCacheNow.label   "Buang Sekarang">
+<!ENTITY clearOfflineAppCacheNow.accesskey "S">
 <!ENTITY overrideSmartCacheSize.label    "Sampukan automatik pengurusan cache">
 <!ENTITY overrideSmartCacheSize.accesskey "O">
 
@@ -106,9 +111,9 @@
 
 <!ENTITY offlineAppsList2.label          "Laman web yang berikut telah dibenarkan untuk menyimpan data untuk digunakan ketika luar talian:">
 <!ENTITY offlineAppsList.height          "7em">
-<!ENTITY offlineAppsListRemove.label     "Alih keluar…">
-<!ENTITY offlineAppsListRemove.accesskey "R">
-<!ENTITY offlineAppRemove.confirm        "Alih keluar data luar talian">
+<!ENTITY offlineAppsListRemove.label     "Buang…">
+<!ENTITY offlineAppsListRemove.accesskey "B">
+<!ENTITY offlineAppRemove.confirm        "Buang data luar talian">
 
 <!ENTITY certificateTab.label            "Sijil">
 <!ENTITY certPersonal.label              "Permintaan">

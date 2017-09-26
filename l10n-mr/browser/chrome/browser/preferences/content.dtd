@@ -2,14 +2,13 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  popups.label                "पॉप-अप्स">
+<!ENTITY  permissions.label           "परवानग्या">
 
 <!ENTITY  blockPopups.label           "पॉपअप विंडो अडवा">
 <!ENTITY  blockPopups.accesskey       "B">
 
-<!ENTITY  notificationsPolicy.label            "सूचना">
 <!ENTITY  notificationsPolicyLearnMore.label   "आणखी शिका">
-<!ENTITY  notificationsPolicyDesc3.label       "कोणते संकेतस्थळ आपल्याला सूचना पाठवू शकतात ते निवडा">
+<!ENTITY  notificationsPolicyDesc4.label       "कोणत्या संकेतस्थळाने आपल्याला सुचना पाठवाव्या ते निवडा">
 <!ENTITY  notificationsPolicyButton.accesskey  "h">
 <!ENTITY  notificationsPolicyButton.label      "निवडा…">
 <!ENTITY  notificationsDoNotDisturb.label      "व्यत्यय आणू नका">
@@ -33,7 +32,7 @@
 <!ENTITY  colors.accesskey            "C">
 
 
-<!ENTITY languages.label              "भाषा">
+<!ENTITY language2.label              "भाषा">
 <!ENTITY chooseLanguage.label         "पृष्ठ दाखवण्याकरिता सूचविलेली भाषा निवडा">
 <!ENTITY chooseButton.label           "निवडा…">
 <!ENTITY chooseButton.accesskey       "o">
@@ -42,6 +41,7 @@
 <!ENTITY translateWebPages.accesskey  "T">
 <!ENTITY translateExceptions.label    "अपवाद…">
 <!ENTITY translateExceptions.accesskey "x">
+
 <!-- LOCALIZATION NOTE (translation.options.attribution.beforeLogo,
   -                     translation.options.attribution.afterLogo):
   -  These 2 strings are displayed before and after a 'Microsoft Translator'
@@ -49,12 +49,11 @@
   -  The translations for these strings should match the translations in
   -  browser/translation.dtd
   -->
-
 <!ENTITY translation.options.attribution.beforeLogo "तर्फे भाषांतरीत">
 <!ENTITY translation.options.attribution.afterLogo "‌">
 
-<!ENTITY  drmContent.label             "DRM मजकूर">
+<!ENTITY  drmContent2.label              "डिजिटल हक्क व्यवस्थापन (डीआरएम) मजकूर">
 
-<!ENTITY  playDRMContent.label         "DRM मजकूर चालू करा">
-<!ENTITY  playDRMContent.accesskey     "P">
+<!ENTITY  playDRMContent2.label          "डीआरएम-नियंत्रित मजकूर चालवा">
+<!ENTITY  playDRMContent2.accesskey      "P">
 <!ENTITY  playDRMContent.learnMore.label "आणखी शिका">

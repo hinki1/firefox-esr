@@ -118,7 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "Diskouez an notennoù handelv evit an hizivadur-mañ">
 <!ENTITY cmd.hideReleaseNotes.label           "Kuzhat an notennoù handelv">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Kuzhat an notennoù handelv evit an hizivadur-mañ">
-<!ENTITY cmd.findReplacement.label            "Kavout un erlec'hiadenn">
+
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
@@ -189,7 +189,6 @@
 <!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
      to the add-on name for extensions that are not webextensions, which
      will stop working in Firefox 57. -->
-<!ENTITY addon.legacy.label                   "DIAMZERET">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -255,8 +254,7 @@
 <!ENTITY pluginDeprecation.description "Mankout 'ra un dra bennak? Ul lodenn eus an enlugelladoù n'int ket skoret gant &brandShortName; ken.">
 <!ENTITY pluginDeprecation.learnMore "Gouzout hiroc'h.">
 
-<!ENTITY legacyWarning.description "Mankout 'ra un dra bennak? Ul lodenn eus an askouezhioù n'int ket skoret gant &brandShortName; ken.">
-<!ENTITY legacyWarning.showLegacy "Diskouez an askouezhioù diamzeret">
-<!ENTITY legacyExtensions.title "Askouezhioù diamzeret">
-<!ENTITY legacyExtensions.description "Diweredekaet eo bet an askouezhioù-mañ dre ma ne glotent ket gant skouerieg &brandShortName;.">
-<!ENTITY legacyExtensions.learnMore "Gouzout hiroc'h diwar-benn kemmoù an askouezhioù">
+
+
+
+

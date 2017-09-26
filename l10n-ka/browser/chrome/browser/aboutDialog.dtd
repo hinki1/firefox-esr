@@ -3,6 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/.  -->
 <!ENTITY aboutDialog.title          "&brandFullName;-ის შესახებ">
 
+<!-- LOCALIZATION NOTE (update.*):
+# These strings are also used in the update pane of preferences.
+# See about:preferences#advanced.
+-->
 <!-- LOCALIZATION NOTE (update.checkForUpdatesButton.*, update.updateButton.*):
 # Only one button is present at a time.
 # The button when displayed is located directly under the Firefox version in
@@ -10,13 +14,14 @@
 -->
 <!ENTITY update.checkForUpdatesButton.label       "განახლებების შემოწმება">
 <!ENTITY update.checkForUpdatesButton.accesskey   "გ">
+<!ENTITY update.updateButton.label3               "&brandShorterName;-ის გასაახლებლად გაუშვით ხელახლა">
 <!ENTITY update.updateButton.accesskey            "ხ">
 
 
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
-<!ENTITY warningDesc.version        "&brandShortName; ექსპერიმენტულია და შესაძლოა არასტაბილურად იმუშაოს.">
+<!ENTITY warningDesc.version        "&brandShortName; საცდელია და შესაძლოა არამდგრადი იყოს.">
 <!-- LOCALIZATION NOTE (warningDesc.telemetryDesc): This is a notification that Nightly/Aurora builds automatically send Telemetry data back to Mozilla. It is only shown in those versions. "It" refers to brandShortName. -->
-<!ENTITY warningDesc.telemetryDesc  "ის ავტომატურად უგზავნის &vendorShortName;-ს ინფორმაციას წარმადობის, აპარატურლი უზრუნველყოფის და თქვენი ბრაუზერის გამართვის შესახებ, რათა მოხდეს &brandShortName;-ის გაუმჯობესება.">
+<!ENTITY warningDesc.telemetryDesc  "იგი ავტომატურად უგზავნის &vendorShortName; -ს ინფორმაციას წარმადობის, აპარატურის, მორგებისა და გამოყენების შესახებ &brandShortName; -ის გასაუმჯობესებლად.">
 
 <!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
 <!ENTITY community.exp.start        "">
@@ -24,20 +29,20 @@
 <!ENTITY community.exp.mozillaLink  "&vendorShortName;">
 <!ENTITY community.exp.middle       " არის ">
 <!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
-<!ENTITY community.exp.creditsLink  "გლობალური საზოგადოება">
-<!ENTITY community.exp.end          " რომელიც მუშაობს იმაზე, რომ ინტერნეტი დარჩეს ღია, საზოგადოებრივი და ყველასათვის ხელმისაწვდომი.">
+<!ENTITY community.exp.creditsLink  "გლობალური ერთობა">
+<!ENTITY community.exp.end          " რომელიც მუშაობს იმისთვის, რომ ინტერნეტი დარჩეს გახსნილი, საჯარო და ყველასთვის ხელმისაწვდომი.">
 
 <!ENTITY community.start2           "&brandShortName; შექმნილია">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
 <!ENTITY community.mozillaLink      "&vendorShortName;">
 <!ENTITY community.middle2          " — ">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
-<!ENTITY community.creditsLink      "გლობალური საზოგადოება">
-<!ENTITY community.end3             " რომელიც მუშაობს იმაზე, რომ ინტერნეტი დარჩეს ღია, საზოგადოებრივი და ყველასათვის ხელმისაწვდომი.">
+<!ENTITY community.creditsLink      "გლობალური ერთობა">
+<!ENTITY community.end3             " რომელიც მუშაობს იმისთვის, რომ ინტერნეტი დარჩეს გახსნილი, საჯარო და ყველასთვის ხელმისაწვდომი.">
 
-<!ENTITY helpus.start               "გსურს დაგვეხმარო? ">
+<!ENTITY helpus.start               "გსურთ დახმარება? ">
 <!-- LOCALIZATION NOTE (helpus.donateLink): This is a link title that links to https://sendto.mozilla.org/page/contribute/Give-Now?source=mozillaorg_default_footer&ref=firefox_about&utm_campaign=firefox_about&utm_source=firefox&utm_medium=referral&utm_content=20140929_FireFoxAbout. -->
-<!ENTITY helpus.donateLink          "გააკეთე შეწირულება">
+<!ENTITY helpus.donateLink          "გააკეთეთ შემოწირულება">
 <!ENTITY helpus.middle              " ან ">
 <!-- LOCALIZATION NOTE (helpus.getInvolvedLink): This is a link title that links to http://www.mozilla.org/contribute/. -->
 <!ENTITY helpus.getInvolvedLink     "შემოგვიერთდი!">
@@ -52,7 +57,7 @@
 <!ENTITY bottomLinks.rights         "მომხმარებლის უფლებები">
 
 <!-- LOCALIZATION NOTE (bottomLinks.privacy): This is a link title that links to https://www.mozilla.org/legal/privacy/. -->
-<!ENTITY bottomLinks.privacy        "პრივატულობის პოლიტიკა">
+<!ENTITY bottomLinks.privacy        "პირადი მონაცემების დაცვის დებულება">
 
 <!-- LOCALIZATION NOTE (update.checkingForUpdates): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.checkingForUpdates  "მიმდინარეობს განახლებების შემოწმება...">
@@ -61,7 +66,7 @@
 <!-- LOCALIZATION NOTE (update.adminDisabled): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.adminDisabled       "განახლებები აკრძალულია თქვენი სისტემური ადმინისტრატორის მიერ">
 <!-- LOCALIZATION NOTE (update.otherInstanceHandlingUpdates): try to make the localized text short -->
-<!ENTITY update.otherInstanceHandlingUpdates "&brandShortName; უკვე ნახლდება სხვა ინსტანციით">
+<!ENTITY update.otherInstanceHandlingUpdates "&brandShortName;-ის განახლება უკვე მიმდინარეობს">
 <!ENTITY update.restarting          "ეშვება ხელახლა…">
 
 <!-- LOCALIZATION NOTE (update.failed.start,update.failed.linkText,update.failed.end):
@@ -69,7 +74,7 @@
      one line with linkText being wrapped in an anchor that links to a site to download
      the latest version of Firefox (e.g. http://www.firefox.com). As this is all in
      one line, try to make the localized text short (see bug 596813 for screenshots). -->
-<!ENTITY update.failed.start        "განახლება ჩაიშალა. ">
+<!ENTITY update.failed.start        "განახლება ვერ მოხერხდა. ">
 <!ENTITY update.failed.linkText     "უახლესი ვერსიის ჩამოტვირთვა">
 <!ENTITY update.failed.end          "">
 
@@ -90,7 +95,7 @@
 <!ENTITY update.unsupported.linkText "გაიგეთ მეტი">
 <!ENTITY update.unsupported.end      "">
 
-<!-- LOCALIZATION NOTE (update.downloading.start,update.downloading.end): update.downloading.start and 
+<!-- LOCALIZATION NOTE (update.downloading.start,update.downloading.end): update.downloading.start and
      update.downloading.end all go into one line, with the amount downloaded inserted in between. As this
      is all in one line, try to make the localized text short (see bug 596813 for screenshots). The — is
      the "em dash" (long dash).

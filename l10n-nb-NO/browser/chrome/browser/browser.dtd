@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Mobile bokmerker">
 <!ENTITY viewBookmarksSidebar2.label        "Vis bokmerkesidestolpen">
 <!ENTITY viewBookmarksToolbar.label         "Vis bokmerkeverktøylinje">
+<!ENTITY searchBookmarks.label              "Søk i bokmerker">
 
 <!ENTITY containersMenu.label "Beholdere">
 
@@ -331,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "d">
 <!ENTITY viewCustomizeToolbar.label       "Tilpass …"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "T">
+<!ENTITY overflowCustomizeToolbar.label       "Tilpass verktøylinje…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "T">
 
 <!ENTITY historyMenu.label "Historikk">
 <!ENTITY historyMenu.accesskey "s">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Tøm nylig historikk …">
 <!ENTITY appMenuHistory.restoreSession.label "Gjenopprett forrige programøkt">
 <!ENTITY appMenuHistory.viewSidebar.label "Vis historikksidestolpe">
+<!ENTITY appMenuHistory.recentHistory.label "Nylig historikk">
 <!ENTITY appMenuHelp.label "Hjelp">
 <!ENTITY appMenuHelp.tooltip "Åpne hjelpemeny">
 
@@ -470,6 +474,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY contentSearchInput.label     "Søkeforespørsel">
 <!ENTITY contentSearchSubmit.tooltip  "Send søk">
 
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+<!ENTITY searchInput.placeholder      "Søk">
+<!ENTITY searchIcon.tooltip           "Søk">
+
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
@@ -497,7 +506,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY changeSearchSettings.tooltip "Endre søkeinnstillinger">
 
 <!ENTITY searchInNewTab.label         "Søk i ny fane">
-<!ENTITY searchInNewTab.accesskey     "T">
+<!ENTITY searchInNewTab.accesskey     "f">
 <!ENTITY searchSetAsDefault.label     "Bruk som standard søkemotor">
 <!ENTITY searchSetAsDefault.accesskey "B">
 
@@ -849,6 +858,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "B">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Hent flere temaer">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "H">
+<!ENTITY customizeMode.emptyOverflowList.description "Dra og slipp elementer her for å ha dem innen rekkevidde, men ute av verktøylinja…">
+<!ENTITY customizeMode.uidensity "Tetthet">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Normal">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Normal">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "N">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Kompakt">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Kompakt">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "K">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Berøring">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Berøring">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "B">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Bruk berøring for nettbrettmodus">
 
 <!ENTITY getUserMedia.selectCamera.label "Kamera som deles:">
 <!ENTITY getUserMedia.selectCamera.accesskey "K">
@@ -940,14 +970,14 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateAvailable.cancelButton.accesskey "n">
 <!ENTITY updateAvailable.panelUI.label "Last ned &brandShorterName;-oppdatering">
 
-<!ENTITY updateManual.message "Last ned en frisk kopi av &brandShorterName; og vi vil hjelpe deg med å installere den.">
+<!ENTITY updateManual.message "Last ned en ny kopi av &brandShorterName; og vi vil hjelpe deg med å installere den.">
 <!ENTITY updateManual.whatsnew.label "Se hva som er nytt.">
 <!ENTITY updateManual.header.message "&brandShorterName; kan ikke oppdateres til den seneste versjonen.">
 <!ENTITY updateManual.acceptButton.label "Last ned &brandShorterName;">
 <!ENTITY updateManual.acceptButton.accesskey "L">
 <!ENTITY updateManual.cancelButton.label "Ikke nå">
 <!ENTITY updateManual.cancelButton.accesskey "n">
-<!ENTITY updateManual.panelUI.label "Last ned en frisk kopi av &brandShorterName;">
+<!ENTITY updateManual.panelUI.label "Last ned en ny kopi av &brandShorterName;">
 
 <!ENTITY updateRestart.message "Etter en rask omstart, vil &brandShorterName; gjenopprette alle dine åpne faner og vinduer.">
 <!ENTITY updateRestart.header.message2 "Start på nytt for å oppdatere &brandShorterName;.">
@@ -958,8 +988,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2 "Start om for å oppdatere &brandShorterName;">
 
 <!ENTITY pageActionButton.tooltip "Sidehandlinger">
+<!ENTITY pageAction.addToUrlbar.label "Legg til i adresselinjen">
+<!ENTITY pageAction.removeFromUrlbar.label "Fjern fra adresselinjen">
 
-<!ENTITY sendToDevice.label "Send til enhet…">
-<!ENTITY sendToDevice.viewTitle "Send til enhet">
-<!ENTITY sendToDevice.fxaRequired.label "Nødvendig">
-<!ENTITY sendToDevice.noDevices.label "Ingen enheter tilgjengelig">
+<!ENTITY sendToDevice.label2 "Send til enhet">
+<!ENTITY sendToDevice.syncNotReady.label "Synkroniserer enheter…">

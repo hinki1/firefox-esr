@@ -21,9 +21,10 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "সংস্করণ">
 <!ENTITY aboutSupport.extensionId "ID">
 
-
-
-
+<!ENTITY aboutSupport.featuresTitle "&brandShortName; বৈশিষ্ট্যসমূহ">
+<!ENTITY aboutSupport.featureName "নাম">
+<!ENTITY aboutSupport.featureVersion "সংস্করণ">
+<!ENTITY aboutSupport.featureId "ID">
 
 <!ENTITY aboutSupport.experimentsTitle "পরীক্ষামূলক বৈশিষ্ট্য">
 <!ENTITY aboutSupport.experimentName "নাম">
@@ -65,6 +66,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "মাল্টিপ্রসেস উইন্ডো">
 
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Google Key">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Mozilla লোকেশন সার্ভিস Key">
 
@@ -104,6 +106,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yActivated "সক্রিয়">
 <!ENTITY aboutSupport.a11yForceDisabled "অভিগম্যতা প্রতিরোধ">
 
+
 <!ENTITY aboutSupport.libraryVersionsTitle "লাইব্রেরী সংস্করণসমূহ">
 
 <!ENTITY aboutSupport.installationHistoryTitle "ইনস্টলেশনের ইতিহাস">
@@ -133,3 +136,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "সিদ্ধান্ত লগ">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Crash Guard নিষ্ক্রিয় বৈশিষ্ট্য">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "কাজ করা হবে">
+
+
+
+
+
+
+
+
+
+
+
+

@@ -17,18 +17,18 @@
 <!ENTITY messages.label     "Mesej">
 <!ENTITY messages.accesskey "M">
 <!ENTITY clear.label        "Buang">
-<!ENTITY clear.accesskey    "n">
+<!ENTITY clear.accesskey    "B">
 <!ENTITY codeEval.label     "Kod:">
 <!ENTITY codeEval.accesskey "o">
 <!ENTITY evaluate.label     "Menilai">
 <!ENTITY evaluate.accesskey "e">
 <!ENTITY filter2.label      "Tapis:">
-<!ENTITY filter2.accesskey  "s">
+<!ENTITY filter2.accesskey  "T">
 
 <!ENTITY copyCmd.label       "Salin">  
 <!ENTITY copyCmd.accesskey   "a"> 
 <!ENTITY copyCmd.commandkey  "C"> 
-<!ENTITY sortFirst.label     "Pertama > Tertib Susunan Terkhir">
+<!ENTITY sortFirst.label     "Pertama > Tertib Susunan Terakhir">
 <!ENTITY sortFirst.accesskey "h">
 <!ENTITY sortLast.label      "Terakhir > Tertib Susunan Pertama">
 <!ENTITY sortLast.accesskey  "s">

@@ -294,6 +294,9 @@
 <!ENTITY custom_tabs_menu_footer "&brandShortName; समर्थित">
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "URL ची प्रत बनवली">
+
+<!ENTITY pref_pwa "प्रगतीशील वेब अॅप्स">
+<!ENTITY pref_pwa_summary "वेब अॅप्सला मुख्य पडद्यावर जोडण्यासाठी परवानगी द्या">
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "उपक्रम मालिका">
@@ -358,10 +361,6 @@
 <!ENTITY pref_clear_on_exit_title3 "बाहेर पडताना खाजगी माहिती पुसुन टाका">
 <!ENTITY pref_clear_on_exit_summary2 "जेव्हा आपण मुख्य मेनू मधून \u0022बंद\u0022 निवडाल तेव्हा &brandShortName; आपोआप आपली माहिती पुसेल">
 <!ENTITY pref_clear_on_exit_dialog_title "कोणती माहिती पुसायची ते निवडा">
-<!ENTITY pref_plugins "प्लगइन्स">
-<!ENTITY pref_plugins_enabled "कार्यान्वीत">
-<!ENTITY pref_plugins_tap_to_play2 "प्ले करण्यासाठी स्पर्श करा">
-<!ENTITY pref_plugins_disabled "निष्क्रिय">
 <!ENTITY pref_restore_tabs "टॅब्स मूळस्थितीत आणा">
 <!ENTITY pref_restore_always "नेहमी पूर्वस्थित करा">
 <!ENTITY pref_restore_quit "&brandShortName; बंद केल्यावर पूर्वस्थित करु नका">
@@ -545,6 +544,7 @@
 <!ENTITY page_removed "पान काढले गेले">
 
 <!ENTITY bookmark_edit_title "वाचनखूण संपादीत करा">
+
 <!ENTITY bookmark_edit_name "नाव">
 <!ENTITY bookmark_edit_location "स्थळ">
 <!ENTITY bookmark_edit_keyword "संकेतशब्द">
@@ -621,6 +621,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "निवडलेले पर्याय दाखवा">
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+
+<!ENTITY home_pinned_site "पिन केलेली साईट">
+<!ENTITY home_unpinned_site "पिन काढलेली साईट">
 
 <!ENTITY remote_tabs_panel_moved_title "माझ्या टॅब्स कुठे गेल्या ?">
 <!ENTITY remote_tabs_panel_moved_desc "आम्ही आपले इतर उपकरणावरील टॅब आपल्या मुख्यपृष्ठावर एका पॅनेलमध्ये हलवले आहेत जेणेकरून प्रत्येक वेळी नवीन टॅब उघडताना ते सहज उपलब्ध होतील.">

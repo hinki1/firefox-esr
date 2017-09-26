@@ -28,6 +28,11 @@
 
 <!ENTITY dataChoicesTab.label            "Выбар дадзеных">
 
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "Адпраўка дадзеных адключана для гэтай канфігурацыі зборкі">
+
 <!ENTITY healthReportDesc.label          "Дапамагае зразумець, як працуе ваш браўзер, і адпраўляе дадзеныя аб яго працаздольнасці ў &vendorShortName;">
 <!ENTITY enableHealthReport.label        "Дазволіць справаздачу пра стан &brandShortName;">
 <!ENTITY enableHealthReport.accesskey    "с">
@@ -81,7 +86,7 @@
 
 <!ENTITY updateTab.label                 "Абнаўленне">
 
-<!ENTITY updateApplication.label         "&brandShortName; абнаўленні">
+<!ENTITY updateApplication.label         "Абнаўленні &brandShortName;">
 <!ENTITY updateAuto1.label               "Аўтаматычнае ўсталяванне абнаўленняў (рэкамендуецца: палепшаная бяспека)">
 <!ENTITY updateAuto1.accesskey           "с">
 <!ENTITY updateCheckChoose.label         "Правяраць абнаўленні, але пытацца, ці ўсталёўваць іх">

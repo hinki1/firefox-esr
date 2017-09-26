@@ -6,7 +6,7 @@
 <!ENTITY  pageInfoWindow.height "550">
 
 <!ENTITY  copy.key              "C">
-<!ENTITY  copy.label            "კოპირება">
+<!ENTITY  copy.label            "დაკოპირება">
 <!ENTITY  copy.accesskey        "კ">
 <!ENTITY  selectall.key         "A">
 <!ENTITY  selectall.label       "ყველაფრის მონიშვნა">
@@ -15,6 +15,7 @@
 
 <!ENTITY  generalTab            "ზოგადი">
 <!ENTITY  generalTab.accesskey  "ზ">
+<!ENTITY  generalTitle          "სათაური:">
 <!ENTITY  generalURL            "მისამართი:">
 <!ENTITY  generalType           "ტიპი:">
 <!ENTITY  generalMode           "ასახვის რეჟიმი:">
@@ -35,13 +36,13 @@
 <!ENTITY  mediaType             "ტიპი">
 <!ENTITY  mediaSize             "ზომა">
 <!ENTITY  mediaCount            "რაოდენობა">
-<!ENTITY  mediaDimension        "ზომები:">
-<!ENTITY  mediaLongdesc         "დეტალური აღწერა:">
+<!ENTITY  mediaDimension        "სიგრძე/სიგანე:">
+<!ENTITY  mediaLongdesc         "ვრცელი აღწერა:">
 <!ENTITY  mediaBlockImage.accesskey "ბ">
 <!ENTITY  mediaSaveAs           "შენახვა როგორც…">
 <!ENTITY  mediaSaveAs.accesskey "რ">
 <!ENTITY  mediaSaveAs2.accesskey "ე">
-<!ENTITY  mediaPreview          "მედიის წინასწარი ნახვა:">
+<!ENTITY  mediaPreview          "გამოსახულების გადახედვა:">
 
 <!ENTITY  feedTab               "ლენტები">
 <!ENTITY  feedTab.accesskey     "ლ">
@@ -51,10 +52,10 @@
 <!ENTITY  permTab               "ნებართვები">
 <!ENTITY  permTab.accesskey     "ნ">
 <!ENTITY  permUseDefault        "ტიპობრივი">
-<!ENTITY  permAskAlways         "ყოველთვის კითხვა">
+<!ENTITY  permAskAlways         "შეკითხვა ყოველ ჯერზე">
 <!ENTITY  permAllow             "დაშვება">
 <!ENTITY  permAllowSession      "დაშვება სეანსზე">
-<!ENTITY  permBlock             "დაბლოკვა">
+<!ENTITY  permBlock             "აკრძალვა">
 <!ENTITY  permissionsFor        "უფლებები საიტისთვის:">
 <!ENTITY  permPlugins           "მოდულების გააქტიურება">
 
@@ -72,16 +73,17 @@
 <!ENTITY  securityView.identity.owner    "მფლობელი: ">
 <!ENTITY  securityView.identity.domain   "საიტი:">
 <!ENTITY  securityView.identity.verifier "დამმოწმებელი: ">
+<!ENTITY  securityView.identity.validity "ვადის გასვლის დრო:">
 
-<!ENTITY  securityView.privacy.header                   "პრივატულობა და ისტორია">
-<!ENTITY  securityView.privacy.history                  "ამ საიტზე დღემდე ნამყოფი ვარ?">
-<!ENTITY  securityView.privacy.cookies                  "ინახავს ეს საიტი ჩემს კომპიუტერში ინფორმაციას (ფუნთუშებს)?">
+<!ENTITY  securityView.privacy.header                   "პირადულობა და ისტორია">
+<!ENTITY  securityView.privacy.history                  "ამ საიტზე აქამდე ნამყოფი ვარ?">
+<!ENTITY  securityView.privacy.cookies                  "ინახავს ეს საიტი ჩემს კომპიუტერში მონაცემებს (ფუნთუშებს)?">
 <!ENTITY  securityView.privacy.viewCookies              "ფუნთუშების ნახვა">
 <!ENTITY  securityView.privacy.viewCookies.accessKey    "ფ">
 <!ENTITY  securityView.privacy.passwords                "ამ საიტისთვის პაროლები შენახული მაქვს?">
 <!ENTITY  securityView.privacy.viewPasswords            "შენახული პაროლების ნახვა">
 <!ENTITY  securityView.privacy.viewPasswords.accessKey  "პ">
 
-<!ENTITY  securityView.technical.header                 "ტექნიკური დეტალები">
+<!ENTITY  securityView.technical.header                 "ტექნიკური მონაცემები">
 
 <!ENTITY  helpButton.label                              "დახმარება">

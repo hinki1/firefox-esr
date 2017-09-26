@@ -9,7 +9,7 @@
 
 <!ENTITY  notificationsPolicy.label            "Notifikasi">
 <!ENTITY  notificationsPolicyLearnMore.label   "Ketahui selanjutnya">
-<!ENTITY  notificationsPolicyDesc3.label       "Pilih laman yang diberi izin untuk menghantar notifikasi">
+<!ENTITY  notificationsPolicyDesc4.label       "Pilih laman web yang diberi izin untuk menghantar notifikasi">
 <!ENTITY  notificationsPolicyButton.accesskey  "h">
 <!ENTITY  notificationsPolicyButton.label      "Pilih…">
 <!ENTITY  notificationsDoNotDisturb.label      "Jangan ganggu saya">
@@ -19,15 +19,15 @@
 <!ENTITY  popupExceptions.label       "Pengecualian…">
 <!ENTITY  popupExceptions.accesskey   "E">
 
-<!ENTITY  fontsAndColors.label        "Font &amp; Warna">
+<!ENTITY  fontsAndColors.label        "Fon &amp; Warna">
 
-<!ENTITY  defaultFont.label           "Font piawai:">
-<!ENTITY  defaultFont.accesskey       "p">
+<!ENTITY  defaultFont.label           "Fon piawai:">
+<!ENTITY  defaultFont.accesskey       "F">
 <!ENTITY  defaultSize.label           "Saiz:">
 <!ENTITY  defaultSize.accesskey       "S">
 
 <!ENTITY  advancedFonts.label         "Lanjutan…">
-<!ENTITY  advancedFonts.accesskey     "A">
+<!ENTITY  advancedFonts.accesskey     "L">
 
 <!ENTITY  colors.label                "Warna…">
 <!ENTITY  colors.accesskey            "W">
@@ -56,5 +56,5 @@
 <!ENTITY  drmContent.label             "Kandungan DRM">
 
 <!ENTITY  playDRMContent.label         "Main kandungan DRM">
-<!ENTITY  playDRMContent.accesskey     "a">
+<!ENTITY  playDRMContent.accesskey     "M">
 <!ENTITY  playDRMContent.learnMore.label "Ketahui selanjutnya">

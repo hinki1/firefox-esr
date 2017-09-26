@@ -11,7 +11,7 @@
 <!ENTITY editBookmarkOverlay.siteLocation.label              "Tansa n usmel:">
 <!ENTITY editBookmarkOverlay.siteLocation.accesskey          "a">
 <!ENTITY editBookmarkOverlay.folder.label                    "Akaram:">
-<!ENTITY editBookmarkOverlay.foldersExpanderDown.tooltip     "Sken akk ticraḍ n isebtar n ikaramen">
+<!ENTITY editBookmarkOverlay.foldersExpanderDown.tooltip     "Sken akk ikaramen n tecraḍ n isebtar">
 <!ENTITY editBookmarkOverlay.expanderUp.tooltip              "Ffer">
 <!ENTITY editBookmarkOverlay.tags.label                      "Tabzimt:">
 <!ENTITY editBookmarkOverlay.tags.accesskey                  "m">
@@ -21,7 +21,7 @@
 <!ENTITY editBookmarkOverlay.keyword.label                   "Awal n tsaruţAwalrutt">
 <!ENTITY editBookmarkOverlay.keyword.accesskey               "s">
 <!ENTITY editBookmarkOverlay.tagsExpanderDown.tooltip        "Sken akk tibzimin">
-<!ENTITY editBookmarkOverlay.loadInSidebar.label             "Sali-d tacreṭ agi n usebter ɣef ugalis adisan">
+<!ENTITY editBookmarkOverlay.loadInSidebar.label             "Sali-d tacreṭ-a n usebter ɣef ugalis adisan">
 <!ENTITY editBookmarkOverlay.loadInSidebar.accesskey         "g">
 <!ENTITY editBookmarkOverlay.choose.label                    "Fren...">
 <!ENTITY editBookmarkOverlay.newFolderButton.label           "Rnu Akaram">

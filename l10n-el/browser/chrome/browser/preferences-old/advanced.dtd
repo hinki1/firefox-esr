@@ -28,6 +28,11 @@
 
 <!ENTITY dataChoicesTab.label            "Επιλογές δεδομένων">
 
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "Η αναφορά δεδομένων είναι ανενεργή για αυτή την έκδοση">
+
 <!ENTITY healthReportDesc.label          "Σάς βοηθάει να κατανοήσετε τις επιδόσεις του προγράμματος περιήγησής σας και αποστέλλει δεδομένα στη &vendorShortName; σχετικά με την υγεία του">
 <!ENTITY enableHealthReport.label        "Ενεργοποίηση αναφορών υγείας του &brandShortName;">
 <!ENTITY enableHealthReport.accesskey    "φ">
@@ -40,7 +45,7 @@
 
 <!ENTITY crashReporterDesc2.label         "Οι αναφορές καταρρεύσεων βοηθούν τη &vendorShortName; να διορθώνει προβλήματα και να κάνει το πρόγραμμα περιήγησής σας πιο σταθερό και ασφαλές">
 <!ENTITY alwaysSubmitCrashReports.label   "Να επιτρέπεται στο &brandShortName; να στέλνει εκ μέρους σας αναφορές καταρρεύσεων">
-<!ENTITY alwaysSubmitCrashReports.accesskey "c">
+<!ENTITY alwaysSubmitCrashReports.accesskey "κ">
 <!ENTITY crashReporterLearnMore.label     "Μάθετε περισσότερα">
 
 <!ENTITY networkTab.label                "Δίκτυο">
@@ -58,7 +63,7 @@
 <!--  Site Data section manages sites using Storage API and is under Network -->
 <!ENTITY siteData.label                  "Δεδομένα ιστοσελίδας">
 <!ENTITY clearSiteData.label             "Εκκαθάριση όλων των δεδομένων">
-<!ENTITY clearSiteData.accesskey         "φ">
+<!ENTITY clearSiteData.accesskey         "κ">
 <!ENTITY siteDataSettings.label          "Ρυθμίσεις…">
 <!ENTITY siteDataSettings.accesskey      "ι">
 <!ENTITY siteDataLearnMoreLink.label     "Μάθετε περισσότερα">
@@ -70,14 +75,14 @@
   &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
 -->
 <!ENTITY limitCacheSizeBefore.label      "Περιορισμός cache έως">
-<!ENTITY limitCacheSizeBefore.accesskey  "ρ">
+<!ENTITY limitCacheSizeBefore.accesskey  "Π">
 <!ENTITY limitCacheSizeAfter.label       "MB χώρου">
 <!ENTITY clearCacheNow.label             "Εκκαθάριση τώρα">
-<!ENTITY clearCacheNow.accesskey         "ι">
+<!ENTITY clearCacheNow.accesskey         "Ε">
 <!ENTITY clearOfflineAppCacheNow.label   "Εκκαθάριση τώρα">
-<!ENTITY clearOfflineAppCacheNow.accesskey "τ">
+<!ENTITY clearOfflineAppCacheNow.accesskey "Τ">
 <!ENTITY overrideSmartCacheSize.label    "Παράκαμψη αυτόματης διαχείρισης cache">
-<!ENTITY overrideSmartCacheSize.accesskey "ψ">
+<!ENTITY overrideSmartCacheSize.accesskey "Π">
 
 <!ENTITY updateTab.label                 "Ενημέρωση">
 
@@ -137,5 +142,9 @@
 <!ENTITY limitContentProcessOption.description
                                          "Οι επιπρόσθετες διεργασίες περιεχομένου μπορούν να βελτιώσουν τις επιδόσεις κατά τη χρήση πολλαπλών καρτελών, αλλά θα χρησιμοποιούν περισσότερη μνήμη.">
 <!ENTITY limitContentProcessOption.accesskey   "Ο">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Η τροποποίηση του αριθμού των διεργασιών περιεχομένου είναι δυνατή μόνο στο &brandShortName; με τη δυνατότητα πολλαπλών διεργασιών.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Μάθετε πώς μπορείτε να ελέγξετε εάν είναι ενεργοποιημένη η λειτουργία πολλαπλών διεργασιών">
 <!ENTITY allowHWAccel.label              "Χρήση επιτάχυνσης υλικού όταν είναι διαθέσιμη">
 <!ENTITY allowHWAccel.accesskey          "h">

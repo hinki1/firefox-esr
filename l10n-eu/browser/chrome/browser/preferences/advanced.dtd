@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Orokorra">
 
-<!ENTITY accessibility.label             "Erabilgarritasuna">
-
 <!ENTITY useCursorNavigation.label       "Erabili beti kurtsore-teklak orriak nabigatzeko">
 <!ENTITY useCursorNavigation.accesskey   "k">
 <!ENTITY searchOnStartTyping.label       "Bilatu testua idazten hasi bezain laster">
 <!ENTITY searchOnStartTyping.accesskey   "B">
-<!ENTITY blockAutoReload.label           "Abisatu webguneek orria berritu edo beste norabait birbideratu nahi badute">
-<!ENTITY blockAutoReload.accesskey       "A">
 <!ENTITY useOnScreenKeyboard.label       "Beharrezkoa denean, erakutsi ukipen-teklatua">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
@@ -27,25 +23,27 @@
 <!ENTITY checkUserSpelling.accesskey     "z">
 
 <!ENTITY dataChoicesTab.label            "Datu-aukerak">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
 
-<!ENTITY healthReportDesc.label          "Nabigatzailearen errendimendua ulertzen laguntzen dizu eta nabigatzailearen osasunaren inguruko datuak partekatzen ditu &vendorShortName;(r)ekin">
-<!ENTITY enableHealthReport.label        "Gaitu &brandShortName;(r)en osasun-txostena">
-<!ENTITY enableHealthReport.accesskey    "o">
+<!ENTITY healthReportingDisabled.label   "Datuen berri ematea desgaituta dago eraikitze-konfigurazio honetarako">
+
+<!ENTITY enableHealthReport1.label       "Baimendu &brandShortName;(r)i datu tekniko eta interakziozkoak automatikoki Mozillara bidaltzea">
+<!ENTITY enableHealthReport1.accesskey   "r">
 <!ENTITY healthReportLearnMore.label     "Argibide gehiago">
 
-<!ENTITY telemetryDesc.label             "Nabigatzailearen errendimenduaren, erabilpenaren, hardwarearen eta pertsonalizazioen inguruko datuak partekatzen ditu &vendorShortName;(r)ekin &brandShortName; hobetzen laguntzeko">
-<!ENTITY enableTelemetryData.label       "Partekatu datu gehigarriak (adib. Telemetry)">
-<!ENTITY enableTelemetryData.accesskey   "T">
-<!ENTITY telemetryLearnMore.label        "Argibide gehiago">
+<!ENTITY dataCollection.label            "&brandShortName; datuen bilketa eta erabilera">
+<!ENTITY dataCollectionDesc.label        "Aukerak ematen ahalegintzen gara &brandShortName; denontzat hobetzeko behar ditugun datuak soilik biltzeko. Informazio pertsonala jaso aurretik zure baimena eskatzen dugu beti.">
+<!ENTITY dataCollectionPrivacyNotice.label    "Pribatutasun-oharra">
 
-<!ENTITY crashReporterDesc2.label         "Hutsegite-txostenek arazoak konpondu eta zure nabigatzailea egonkor eta seguruagoa egiten laguntzen diote &vendorShortName;(r)i">
-<!ENTITY alwaysSubmitCrashReports.label   "Baimendu &brandShortName;(r)i atzeratutako hutsegite-txostenak zuregatik bidaltzea">
-<!ENTITY alwaysSubmitCrashReports.accesskey "B">
-<!ENTITY crashReporterLearnMore.label     "Argibide gehiago">
+<!ENTITY alwaysSubmitCrashReports1.label  "Baimendu &brandShortName;(r)i hutsegite-txostenak Mozillara bidaltzea">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "h">
+<!ENTITY crashReporterLearnMore.label    "Argibide gehiago">
 
 <!ENTITY networkTab.label                "Sarea">
 
-<!ENTITY connection.label                "Konexioa">
+<!ENTITY networkProxy.label              "Sareko proxya">
 
 <!ENTITY connectionDesc.label            "Konfiguratu &brandShortName; nola konektatzen den Internetera">
 <!ENTITY connectionSettings.label        "Ezarpenak…">
@@ -92,11 +90,12 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+<!ENTITY updateApplicationDescription.label "Mantendu &brandShortName; eguneratuta errendimendu, egonkortasun eta segurtasun onena bermatzeko.">
 <!ENTITY updateApplication.version.pre   "​">
-<!ENTITY updateApplication.version.post  "bertsioa">
+<!ENTITY updateApplication.version.post  " bertsioa">
 <!ENTITY updateApplication.description   "Baimendu &brandShortName;(r)i">
-<!ENTITY updateAuto2.label               "Eguneraketak automatikoki instalatzen (gomendatua: segurtasun hobea)">
-<!ENTITY updateAuto2.accesskey           "E">
+<!ENTITY updateAuto3.label               "Instalatu eguneraketak automatikoki (gomendatua)">
+<!ENTITY updateAuto3.accesskey           "a">
 <!ENTITY updateCheckChoose2.label        "Eguneraketak bilatzen baina utzi aukeratzen instalatuko diren edo ez">
 <!ENTITY updateCheckChoose2.accesskey    "b">
 <!ENTITY updateManual2.label             "Ez egiaztatu inoiz eguneraketarik dagoen (ez gomendatua)">
@@ -110,8 +109,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "Eguneratu automatikoki bilaketa-motorrak">
 <!ENTITY enableSearchUpdate2.accesskey   "E">
-
-<!ENTITY reports.label                   "Txostenak">
 
 <!ENTITY offlineStorageNotify.label               "Abisatu webgune batek datuak biltegiratu nahi baditu lineaz kanpo erabiltzeko">
 <!ENTITY offlineStorageNotify.accesskey           "A">
@@ -132,10 +129,10 @@
 <!ENTITY selectCerts.ask.accesskey       "G">
 <!ENTITY enableOCSP.label                "Galdetu OCSP erantzule-zerbitzariei ziurtagiriak baliozkoak diren egiaztatzeko">
 <!ENTITY enableOCSP.accesskey            "G">
-<!ENTITY viewCerts.label                 "Ikusi ziurtagiriak">
-<!ENTITY viewCerts.accesskey             "k">
-<!ENTITY viewSecurityDevices.label       "Segurtasun-gailuak">
-<!ENTITY viewSecurityDevices.accesskey   "S">
+<!ENTITY viewCerts2.label                "Ikusi ziurtagiriak…">
+<!ENTITY viewCerts2.accesskey            "k">
+<!ENTITY viewSecurityDevices2.label      "Segurtasun-gailuak…">
+<!ENTITY viewSecurityDevices2.accesskey  "S">
 
 <!ENTITY performance.label               "Errendimendua">
 <!ENTITY useRecommendedPerformanceSettings2.label "Erabili gomendatutako errendimendu-ezarpenak">

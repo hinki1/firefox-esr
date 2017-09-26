@@ -4,13 +4,13 @@
 
 <!ENTITY  general.label                 "Általános">
 
-<!ENTITY  warnOnAddonInstall.label        "Figyelmeztetés kiegészítők telepítése előtt">
-<!ENTITY  warnOnAddonInstall.accesskey    "F">
+<!ENTITY  warnOnAddonInstall2.label       "Figyelmeztetés kiegészítők telepítése előtt">
+<!ENTITY  warnOnAddonInstall2.accesskey   "F">
+
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
   https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
 -->
-
 <!ENTITY  enableSafeBrowsing.label        "Veszélyes és félrevezető tartalom blokkolása">
 <!ENTITY  enableSafeBrowsing.accesskey    "V">
 
@@ -26,8 +26,8 @@
 
 <!ENTITY  logins.label                  "Bejelentkezések">
 
-<!ENTITY  rememberLogins.label          "Bejelentkezések megjegyzése az oldalakon">
-<!ENTITY  rememberLogins.accesskey      "m">
+<!ENTITY  rememberLogins2.label         "Bejelentkezések megjegyzése a webhelyekhez">
+<!ENTITY  rememberLogins2.accesskey     "m">
 <!ENTITY  passwordExceptions.label      "Kivételek…">
 <!ENTITY  passwordExceptions.accesskey  "v">
 

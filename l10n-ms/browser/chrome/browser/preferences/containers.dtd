@@ -5,9 +5,9 @@
 <!ENTITY addButton.label      "Tambah Penyimpan Baru">
 <!ENTITY addButton.accesskey  "A">
 <!ENTITY preferencesButton.label "Keutamaan">
-<!ENTITY removeButton.label   "Alihkeluar">
+<!ENTITY removeButton.label   "Buang">
 <!-- &#171; is &laquo; however it's not defined in XML -->
-<!ENTITY backLink.label       "&#171; Pergi ke Privasi">
+<!ENTITY backLink2.label      "&#171; Undur">
 
 <!ENTITY window.title         "Tambah Penyimpan Baru">
 <!ENTITY window.width         "45em">

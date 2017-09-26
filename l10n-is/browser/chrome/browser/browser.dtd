@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Bókamerki farsíma">
 <!ENTITY viewBookmarksSidebar2.label        "Birta bókamerki í hliðslá">
 <!ENTITY viewBookmarksToolbar.label         "Skoða bókamerkjaslá">
+<!ENTITY searchBookmarks.label              "Leita í bókamerkjum">
 
 <!ENTITY containersMenu.label "Geymir">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
@@ -332,6 +333,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewCustomizeToolbar.label       "Sérsníða…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "S">
 
+
+
 <!ENTITY historyMenu.label "Ferill">
 <!ENTITY historyMenu.accesskey "F">
 <!ENTITY historyUndoMenu.label "Nýlega lokaðir flipar">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Hreinsa nýlega ferla…">
 <!ENTITY appMenuHistory.restoreSession.label "Sækja fyrri vafralotu">
 <!ENTITY appMenuHistory.viewSidebar.label "Birta feril í hliðslá">
+
 <!ENTITY appMenuHelp.label "Hjálp">
 <!ENTITY appMenuHelp.tooltip "Opna hjálparvalmynd">
 
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY contentSearchInput.label     "Leitar fyrirspurn">
 <!ENTITY contentSearchSubmit.tooltip  "Senda leit">
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+
+<!ENTITY searchInput.placeholder      "Leita">
+<!ENTITY searchIcon.tooltip           "Leita">
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
@@ -850,6 +859,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Ná í fleiri þemu">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "G">
+<!ENTITY customizeMode.emptyOverflowList.description "Dragðu og slepptu hlutum hérna til að hafa þau við hendina en ekki á verkfæraslánni…">
+<!ENTITY customizeMode.uidensity "Þéttleiki">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Venjulegt">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Venjulegt">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "n">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Þjappað">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Þjappað">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "Þ">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Snertiskjár">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Snertiskjár">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "t">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Nota snertiskjá fyrir spjaldtölvu">
 
 <!ENTITY getUserMedia.selectCamera.label "Myndavél til að deila:">
 <!ENTITY getUserMedia.selectCamera.accesskey "y">
@@ -858,7 +888,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY getUserMedia.audioCapture.label "Hljóð frá flipa verður deilt.">
 <!ENTITY getUserMedia.allWindowsShared.message "Öllum sýnilegum gluggum á skjánum verður deilt.">
 
-<!ENTITY trackingProtection.title "Vörn gegn því að fylgst sé með þér">
+<!ENTITY trackingProtection.title "Vörn gegn gagnasöfnun">
 <!ENTITY trackingProtection.detectedBlocked3 "&brandShortName; hefur lokað á suma hluta af þessari síðu sem gætu verið að fylgjast með vafra.">
 <!ENTITY trackingProtection.detectedNotBlocked3 "Þessi síða inniheldur hluti sem gætu fylgst með þér. Þú hefur tekið af vörnina að fylgst sé með þér.">
 <!ENTITY trackingProtection.notDetected3 "Engir hlutir sem fylgjast með þér fundust á þessari síðu.">
@@ -875,7 +905,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingProtection.block2.label "Virkja vernd">
 <!ENTITY trackingProtection.block2.accesskey "e">
 
-<!ENTITY trackingContentBlocked.message "Fylgjast með">
+<!ENTITY trackingContentBlocked.message "Gagnasöfnun">
 <!ENTITY trackingContentBlocked.moreinfo "Lokað var á suma hluta af síðunni sem fylgjast með notkun þinni á netinu.">
 <!ENTITY trackingContentBlocked.learnMore "Vita meira">
 <!ENTITY trackingContentBlocked.options "Valkostir">
@@ -883,7 +913,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingContentBlocked.unblock2.accesskey "S">
 <!ENTITY trackingContentBlocked.block.label "Virkja vernd">
 <!ENTITY trackingContentBlocked.block.accesskey "e">
-<!ENTITY trackingContentBlocked.disabled.message "Vörn gegn því að fylgst sé með þér er óvirk">
+<!ENTITY trackingContentBlocked.disabled.message "Vörn gegn gagnasöfnun er óvirk">
 
 <!ENTITY pluginNotification.showAll.label "Sýna allt">
 <!ENTITY pluginNotification.showAll.accesskey "S">
@@ -960,7 +990,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY pageActionButton.tooltip "Síðu aðgerðir">
 
-<!ENTITY sendToDevice.label "Senda í tæki…">
-<!ENTITY sendToDevice.viewTitle "Senda í tæki">
-<!ENTITY sendToDevice.fxaRequired.label "Nauðsynlegt">
-<!ENTITY sendToDevice.noDevices.label "Engin tæki tiltæk">
+
+
+<!ENTITY sendToDevice.syncNotReady.label "Samstilli tæki…">

@@ -232,7 +232,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "इतिहास देखाउ">
 
-<!ENTITY searchItem.title             "खोज">
 <!-- Toolbar items -->
 
 <!ENTITY homeButton.label             "घर">
@@ -245,6 +244,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY viewBookmarksSidebar2.label        "पुस्तकचिह्न अओजारपट्टी देखू">
 <!ENTITY viewBookmarksToolbar.label         "पुस्तकचिह्न अओजारपट्टी देखू">
+
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
@@ -328,6 +328,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewCustomizeToolbar.label       "मनपसिन्न बनाउ…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "C">
 
+
+
 <!ENTITY historyMenu.label "इतिहास">
 <!ENTITY historyMenu.accesskey "s">
 <!ENTITY historyUndoMenu.label "हाल मे बंद टैब">
@@ -347,6 +349,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "हालक इतिहास साफ करू…">
 <!ENTITY appMenuHistory.restoreSession.label "पछिला सत्र फेर बहाल करू">
 <!ENTITY appMenuHistory.viewSidebar.label "इतिहास बाज़ूपट्टी देखाबू">
+
 
 <!ENTITY appMenuHelp.tooltip "मदति मेनू खोलू">
 
@@ -452,6 +455,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY contentSearchInput.label     "सवाल ताकू">
 <!ENTITY contentSearchSubmit.tooltip  "खोज सुपुर्द करू">
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
@@ -823,6 +829,24 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">
 <!ENTITY customizeMode.lwthemes.menuGetMore "नव प्रसंग प्राप्त करू">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "G">
+
+
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+
+
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+
+
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+
+
+
 
 <!ENTITY getUserMedia.selectCamera.label "साझा करब लेल कैमरा (C):">
 <!ENTITY getUserMedia.selectCamera.accesskey "C">

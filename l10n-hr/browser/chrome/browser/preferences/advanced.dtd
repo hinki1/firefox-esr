@@ -6,12 +6,8 @@
 
 <!ENTITY generalTab.label                "Općenito">
 
-<!ENTITY accessibility.label             "Pristupačnost">
-
 <!ENTITY useCursorNavigation.label       "Uvijek koristi tipke pokazivača za navigaciju unutar stranica">
 <!ENTITY useCursorNavigation.accesskey   "c">
-
-
 
 
 <!ENTITY useOnScreenKeyboard.label       "Prikaži tipkovnicu na zaslonu kada je potrebno">
@@ -27,25 +23,21 @@
 
 
 <!ENTITY dataChoicesTab.label            "Izbori podataka">
-
-<!ENTITY healthReportDesc.label          "Pomaže vam shvatiti performanse vašeg preglednika, te šalje podatke kako bi &vendorShortName; bila upoznata o zdravlju vašeg preglednika">
-<!ENTITY enableHealthReport.label        "Omogući &brandShortName; izvještaj zdravlja">
-<!ENTITY enableHealthReport.accesskey    "z">
-
-
-<!ENTITY telemetryDesc.label             "Dijeli podatke o performansama, korištenju hardveru i prilagodbama vašeg preglednika, kako bi &vendorShortName; mogla unaprijediti &brandShortName;">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
 
 
 
 
-<!ENTITY crashReporterDesc2.label         "Izvještaji o rušenju pomažu &vendorShortName; da ispravi probleme i učini vaš preglednik stabilnijim i sigurnijim">
-<!ENTITY alwaysSubmitCrashReports.label   "Dopusti da &brandShortName; šalje izvještaje o rušenju u tvoje ime">
-<!ENTITY alwaysSubmitCrashReports.accesskey "c">
+
+
+
+
 
 
 <!ENTITY networkTab.label                "Mreža">
 
-<!ENTITY connection.label                "Veza">
 
 <!ENTITY connectionDesc.label            "Postavi kako se &brandShortName; spaja na Internet">
 <!ENTITY connectionSettings.label        "Postavke...">
@@ -88,6 +80,7 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+
 <!ENTITY updateApplication.version.post  "">
 
 
@@ -101,7 +94,6 @@
 
 <!ENTITY useService.label                "Koristi pozadinski servis za instalaciju dopuna">
 <!ENTITY useService.accesskey            "K">
-
 
 
 
@@ -123,10 +115,12 @@
 
 <!ENTITY enableOCSP.label                "Upitajte OCSP poslužitelje da biste potvrdili validnost certifikata">
 <!ENTITY enableOCSP.accesskey            "U">
-<!ENTITY viewCerts.label                 "Prikaz certifikata">
-<!ENTITY viewCerts.accesskey             "c">
-<!ENTITY viewSecurityDevices.label       "Sigurnosni uređaji">
-<!ENTITY viewSecurityDevices.accesskey   "S">
+
+
+
+
+
+
 
 
 

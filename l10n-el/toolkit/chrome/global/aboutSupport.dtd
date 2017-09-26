@@ -70,6 +70,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Παράθυρα πολυδιεργασιών">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Διεργασίες διαδικτυακού περιεχομένου">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Κλειδί Google">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Κλειδί υπηρεσίας τοποθεσίας Mozilla">
 
@@ -108,6 +110,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Προσιτότητα">
 <!ENTITY aboutSupport.a11yActivated "Ενεργοποιήθηκε">
 <!ENTITY aboutSupport.a11yForceDisabled "Να μην επιτρέπεται η προσιτότητα">
+<!ENTITY aboutSupport.a11yHandlerUsed "Προσβάσιμο όνομα χρήστη σε χρήση">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Εκδόσεις βιβλιοθήκης">
 
@@ -138,3 +141,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Αρχείο καταγραφής αποφάσεων">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Απενεργοποιημένες λειτουργίες φύλαξης κατάρρευσης">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Λύσεις">
+
+<!ENTITY aboutSupport.mediaTitle "Πολυμέσα">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Συσκευές εξόδου">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Συσκευές εισόδου">
+<!ENTITY aboutSupport.mediaDeviceName "Όνομα">
+<!ENTITY aboutSupport.mediaDeviceGroup "Ομάδα">
+<!ENTITY aboutSupport.mediaDeviceVendor "Κατασκευαστής">
+<!ENTITY aboutSupport.mediaDeviceState "Κατάσταση">
+<!ENTITY aboutSupport.mediaDevicePreferred "Προτίμηση">
+<!ENTITY aboutSupport.mediaDeviceFormat "Τύπος">
+<!ENTITY aboutSupport.mediaDeviceChannels "Κανάλια">
+<!ENTITY aboutSupport.mediaDeviceRate "Ρυθμός">
+<!ENTITY aboutSupport.mediaDeviceLatency "Καθυστέρηση">

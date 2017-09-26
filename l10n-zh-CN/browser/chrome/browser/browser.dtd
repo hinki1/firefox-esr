@@ -158,7 +158,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY bookmarksMenu.label "书签">
 <!ENTITY bookmarksMenu.accesskey "B">
-<!ENTITY bookmarkThisPageCmd.label "将此页加为书签">
+<!ENTITY bookmarkThisPageCmd.label "为此页添加书签">
 <!ENTITY editThisBookmarkCmd.label "编辑此书签">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
 <!-- LOCALIZATION NOTE (findShareServices.label):
@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "移动版书签">
 <!ENTITY viewBookmarksSidebar2.label        "显示书签侧栏">
 <!ENTITY viewBookmarksToolbar.label         "查看书签工具栏">
+<!ENTITY searchBookmarks.label              "在书签中搜索">
 
 <!ENTITY containersMenu.label "身份">
 
@@ -287,7 +288,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY newNavigatorCmd.label        "新建窗口">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "N">
-<!ENTITY newPrivateWindow.label     "新建隐私浏览窗口">
+<!ENTITY newPrivateWindow.label     "新建隐私窗口">
 <!ENTITY newPrivateWindow.accesskey "W">
 <!ENTITY newNonRemoteWindow.label   "新建单进程窗口">
 
@@ -331,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "e">
 <!ENTITY viewCustomizeToolbar.label       "定制…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "C">
+<!ENTITY overflowCustomizeToolbar.label       "自定义工具栏…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "C">
 
 <!ENTITY historyMenu.label "历史">
 <!ENTITY historyMenu.accesskey "s">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "清除最近的历史记录…">
 <!ENTITY appMenuHistory.restoreSession.label "恢复上一次会话">
 <!ENTITY appMenuHistory.viewSidebar.label "查看历史记录侧栏">
+<!ENTITY appMenuHistory.recentHistory.label "近期历史记录">
 <!ENTITY appMenuHelp.label "帮助">
 <!ENTITY appMenuHelp.tooltip "打开帮助菜单">
 
@@ -470,6 +474,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY contentSearchInput.label     "搜索查询">
 <!ENTITY contentSearchSubmit.tooltip  "提交搜索">
 
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+<!ENTITY searchInput.placeholder      "搜索">
+<!ENTITY searchIcon.tooltip           "搜索">
+
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
@@ -505,7 +514,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openLinkCmdInTab.accesskey   "T">
 <!ENTITY openLinkCmd.label            "在新窗口中打开">
 <!ENTITY openLinkCmd.accesskey        "W">
-<!ENTITY openLinkInPrivateWindowCmd.label "在新的隐私浏览窗口中打开链接">
+<!ENTITY openLinkInPrivateWindowCmd.label "在新的隐私窗口中打开链接">
 <!ENTITY openLinkInPrivateWindowCmd.accesskey "P">
 <!ENTITY openLinkCmdInCurrent.label     "打开链接">
 <!ENTITY openLinkCmdInCurrent.accesskey "O">
@@ -804,7 +813,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.context.openInNewTab.accesskey           "w">
 <!ENTITY syncedTabs.context.openInNewWindow.label            "在新窗口中打开">
 <!ENTITY syncedTabs.context.openInNewWindow.accesskey        "N">
-<!ENTITY syncedTabs.context.openInNewPrivateWindow.label     "在新的隐私浏览窗口中打开">
+<!ENTITY syncedTabs.context.openInNewPrivateWindow.label     "在新的隐私窗口中打开">
 <!ENTITY syncedTabs.context.openInNewPrivateWindow.accesskey "P">
 <!ENTITY syncedTabs.context.bookmarkSingleTab.label          "为此标签页添加书签…">
 <!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "B">
@@ -849,6 +858,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">
 <!ENTITY customizeMode.lwthemes.menuGetMore "获取更多主题">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "G">
+<!ENTITY customizeMode.emptyOverflowList.description "按钮可以拖放到这里，方便使用、不占用工具栏空间">
+<!ENTITY customizeMode.uidensity "密度">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "普通">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "普通">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "N">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "紧凑">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "紧凑">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "C">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "触控">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "触控">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "T">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "在平板模式下使用为触控优化的界面">
 
 <!ENTITY getUserMedia.selectCamera.label "共享的摄像头：">
 <!ENTITY getUserMedia.selectCamera.accesskey "C">
@@ -958,8 +988,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2 "重启 &brandShorterName; 以更新">
 
 <!ENTITY pageActionButton.tooltip "页面动作">
+<!ENTITY pageAction.addToUrlbar.label "添加到地址栏">
+<!ENTITY pageAction.removeFromUrlbar.label "从地址栏移除">
 
-<!ENTITY sendToDevice.label "发送到设备…">
-<!ENTITY sendToDevice.viewTitle "发送到设备">
-<!ENTITY sendToDevice.fxaRequired.label "必填">
-<!ENTITY sendToDevice.noDevices.label "无可用设备">
+<!ENTITY sendToDevice.label2 "发送到设备">
+<!ENTITY sendToDevice.syncNotReady.label "正在同步设备…">

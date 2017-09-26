@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (places.library.title): use "Library", "Archive" or "Repository" -->
-<!ENTITY places.library.title  "Archív">
+<!ENTITY places.library.title  "Knižnica">
 <!ENTITY places.library.width  "760">
 <!ENTITY places.library.height "500">
 <!ENTITY organize.label        "Usporiadať">
@@ -85,8 +85,7 @@
 <!ENTITY col.dateadded.label     "Pridané">
 <!ENTITY col.lastmodified.label  "Posledná úprava">
 
-<!ENTITY search.label                              "Hľadať:">
-<!ENTITY search.accesskey                          "a">
+<!ENTITY search.placeholder  "Hľadať">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -104,8 +103,6 @@
 <!ENTITY detailsPane.less.accesskey "M">
 <!ENTITY detailsPane.selectAnItemText.description "Vyberte položku, ktorej vlastnosti chcete zobraziť alebo upraviť">
 
-<!ENTITY find.label               "Hľadať:">
-<!ENTITY find.accesskey           "H">
 <!ENTITY view.label               "Zobraziť">
 <!ENTITY view.accesskey           "b">
 <!ENTITY byDate.label             "podľa dátumu">

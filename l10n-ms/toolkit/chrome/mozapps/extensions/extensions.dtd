@@ -33,7 +33,7 @@
 
 <!-- global warnings -->
 <!ENTITY warning.safemode.label                    "Semua add-ons telah dinyahdayakan oleh mod selamat.">
-<!ENTITY warning.checkcompatibility.label          "Pemeriksaan kesesuaian add-on telah dimatikan. Anda mungkin mempunya add-on yang tidak sesuai.">
+<!ENTITY warning.checkcompatibility.label          "Pemeriksaan kesesuaian add-on telah dinyahdayakan. Anda mungkin mempunyai add-on yang tidak sesuai.">
 <!ENTITY warning.checkcompatibility.enable.label   "Dayakan">
 <!ENTITY warning.checkcompatibility.enable.tooltip "Dayakan semakan kesesuaian add-on">
 <!ENTITY warning.updatesecurity.label              "Semakan keselamatan kemaskini add-on telah dinyahdayakan. Anda mungkin terdedah kepada bahaya ketika mengemaskini.">
@@ -104,7 +104,7 @@
 <!ENTITY cmd.stateMenu.tooltip                "Tukar semasa add-on ini digunakan">
 <!ENTITY cmd.installAddon.label               "Pasang">
 <!ENTITY cmd.installAddon.accesskey           "g">
-<!ENTITY cmd.uninstallAddon.label             "Alih keluar">
+<!ENTITY cmd.uninstallAddon.label             "Buang">
 <!ENTITY cmd.uninstallAddon.accesskey         "R">
 <!ENTITY cmd.showPreferencesWin.label         "Pilihan">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Tukar pilihan add-on ini">
@@ -124,9 +124,9 @@
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
 <!ENTITY discover.title                       "Apakah Add-ons?">
-<!ENTITY discover.description2                "Add-ons ialah paklikasi yang membolehkan anda menyesuai &brandShortName; dengan
+<!ENTITY discover.description2                "Add-ons ialah aplikasi yang membolehkan anda menyesuaikan &brandShortName; dengan
   fungsi atau gaya tambahan. Cuba bar sisi jimat-masa, pemaklum cuaca, atau tema yang menjadikan &brandShortName;
-  kepunyaan anda sendiri.">
+  milik anda.">
 <!ENTITY discover.footer                      "Apabila anda telah disambungkan ke internet, anak tetingkap ini akan  memaparkan beberapa aplikasi tambahan yang menarik dan popular untuk anda cuba.">
 
 <!-- detail view -->
@@ -141,9 +141,9 @@
 <!ENTITY detail.updateType                    "Kemaskini automatik">
 <!ENTITY detail.updateDefault.label           "Piawai">
 <!ENTITY detail.updateDefault.tooltip         "Pasang kemaskini secara automatik hanya jika itulah piawai">
-<!ENTITY detail.updateAutomatic.label         "Hidupkan">
+<!ENTITY detail.updateAutomatic.label         "Aktif">
 <!ENTITY detail.updateAutomatic.tooltip       "Pasang kemaskini secara automatik">
-<!ENTITY detail.updateManual.label            "Matikan">
+<!ENTITY detail.updateManual.label            "Nyahaktif">
 <!ENTITY detail.updateManual.tooltip          "Jangan pasang kemaskini secara automatik">
 <!ENTITY detail.home                          "Halaman utama">
 <!ENTITY detail.repository                    "Profil add-on">
@@ -180,7 +180,7 @@
 
 <!ENTITY search.filter2.label                 "Cari:">
 <!ENTITY search.filter2.installed.label       "Add-ons saya">
-<!ENTITY search.filter2.installed.tooltip     "Papar add-ons terpasang">
+<!ENTITY search.filter2.installed.tooltip     "Papar add-ons yang dipasang">
 <!ENTITY search.filter2.available.label       "Add-ons Tersedia">
 <!ENTITY search.filter2.available.tooltip     "Papar add-ons yang sedia untuk dipasang">
 
@@ -201,9 +201,9 @@
      "<Addon name> <1.1> Update". It is fine to use constructs like brackets if
      necessary -->
 <!ENTITY addon.update.postfix                 "Kemaskini">
-<!ENTITY addon.undoAction.label               "Kembali Asal">
-<!ENTITY addon.undoAction.tooltip             "Membatalkan tindakan ini">
-<!ENTITY addon.undoRemove.label               "Kembali Asal">
+<!ENTITY addon.undoAction.label               "Batal">
+<!ENTITY addon.undoAction.tooltip             "Batal tindakan ini">
+<!ENTITY addon.undoRemove.label               "Batal">
 <!ENTITY addon.undoRemove.tooltip             "Kekalkan pemasangan add-on ini">
 <!ENTITY addon.restartNow.label               "Mula semula sekarang">
 <!ENTITY addon.install.label                  "Pasang">
@@ -254,7 +254,7 @@
 <!ENTITY disabledUnsigned.devInfo.linkToManual "manual">
 <!ENTITY disabledUnsigned.devInfo.end ".">
 
-<!ENTITY pluginDeprecation.description "Ada sesuatu yang tidak kena? Ada plugin tidak lagi disokong oleh &brandShortName;.">
+<!ENTITY pluginDeprecation.description "Ada sesuatu yang tidak kena? Ada plugin yang tidak lagi disokong oleh &brandShortName;.">
 <!ENTITY pluginDeprecation.learnMore "Ketahui Selanjutnya.">
 
 <!ENTITY legacyWarning.description "Ada sesuatu yang tidak kena? Ada ekstensi tidak lagi disokong oleh &brandShortName;.">

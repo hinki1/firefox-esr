@@ -10,10 +10,16 @@
 <!ENTITY engine.tabs.accesskey      "T">
 <!ENTITY engine.history.label       "la cronologia">
 <!ENTITY engine.history.accesskey   "r">
+<!ENTITY engine.logins.label        "Infurmaziuns d'annunzia">
+<!ENTITY engine.logins.accesskey    "I">
 <!ENTITY engine.prefs.label         "las preferenzas">
 <!ENTITY engine.prefs.accesskey     "a">
 <!ENTITY engine.addons.label        "ils supplements">
 <!ENTITY engine.addons.accesskey    "S">
+<!ENTITY engine.addresses.label     "Adressas">
+<!ENTITY engine.addresses.accesskey "e">
+<!ENTITY engine.creditcards.label   "Cartas da credit">
+<!ENTITY engine.creditcards.accesskey "C">
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Num da l'apparat">

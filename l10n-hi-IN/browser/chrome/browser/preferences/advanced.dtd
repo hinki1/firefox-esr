@@ -1,19 +1,15 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!-- Note: each tab panel must contain unique accesskeys -->
 
-
 <!ENTITY generalTab.label                "सामान्य">
-
-<!ENTITY accessibility.label             "पहुँच">
 
 <!ENTITY useCursorNavigation.label       "पृष्ठ के अंदर संचरण के लिए हमेशा कर्सर का प्रयोग करें">
 <!ENTITY useCursorNavigation.accesskey   "c">
 <!ENTITY searchOnStartTyping.label       "जब टाइप करना शुरू करते हैं तभी पाठ के लिए खोजें">
 <!ENTITY searchOnStartTyping.accesskey   "x">
-<!ENTITY blockAutoReload.label           "आपको चेतावनी दें जब वेबसाइट पृष्ठ को पुनर्निर्देशित या पुनर्लोड करना चाहते हैं">
-<!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "आवश्यकता अनुसार स्पर्श वाला कीबोर्ड दिखाएँ">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
@@ -28,24 +24,21 @@
 
 <!ENTITY dataChoicesTab.label            "आँकड़ा पसंद">
 
-<!ENTITY healthReportDesc.label          "आपके ब्राउज़र प्रदर्शन को समझने में मदद करता है और &vendorShortName; के साथ आपके ब्राउज़र के स्वास्थ्य संबंधी आँकड़ा साझा करता है">
-<!ENTITY enableHealthReport.label        "&brandShortName; स्थास्थ्य रिपोर्ट सक्रिय करें">
-<!ENTITY enableHealthReport.accesskey    "R">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+
+<!ENTITY enableHealthReport1.accesskey   "r">
 <!ENTITY healthReportLearnMore.label     "अधिक जानें">
 
-<!ENTITY telemetryDesc.label             "&vendorShortName; के साथ &brandShortName; को बेहतर बनाने के लिए प्रदर्शन, प्रयोग, हार्डवेयर और पसंदीदाकरण आँकड़े को अपने ब्राउज़र के साथ साझा करते हैं">
-<!ENTITY enableTelemetryData.label       "अतिरिक्त आँकड़ा साझा करें (यानी, टेलीमिति)">
-<!ENTITY enableTelemetryData.accesskey   "T">
-<!ENTITY telemetryLearnMore.label        "अधिक जानें">
+<!ENTITY dataCollectionPrivacyNotice.label    "गोपनीयता नीति">
 
-<!ENTITY crashReporterDesc2.label         "क्रेश विवरण &vendorShortName; समस्याएँ ठीक करने और आपके ब्राउज़र को ज्यादा स्थायी और सुरक्षित रखने में मदद करता है ">
-<!ENTITY alwaysSubmitCrashReports.label   "आपके निमित्त कार्यसंचित क्रेश विवरण भेजने हेतु &brandShortName; को अनुमति दें">
-<!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "अधिक जानें">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "c">
+<!ENTITY crashReporterLearnMore.label    "अधिक जानें">
 
 <!ENTITY networkTab.label                "संजाल">
 
-<!ENTITY connection.label                "कनेक्शन">
+<!ENTITY networkProxy.label              "नेटवर्क प्रॉक्सी">
 
 <!ENTITY connectionDesc.label            "विन्यस्त करें कि कैसे &brandShortName; इंटरनेट से जुड़ता है">
 <!ENTITY connectionSettings.label        "सेटिंग…">
@@ -54,21 +47,21 @@
 <!ENTITY httpCache.label                 "कैश्च वेब कंटेंट">
 
 <!ENTITY offlineStorage2.label           "ऑफ़ाइल वेबकंटेंट और उपयोक्ता आँकड़े">
-<!--  Site Data section manages sites using Storage API and is under Network -->
 
+<!--  Site Data section manages sites using Storage API and is under Network -->
 <!ENTITY siteData.label                  "साइट आँकड़ा">
 <!ENTITY clearSiteData.label             "सभी आँकड़े साफ करें">
 <!ENTITY clearSiteData.accesskey         "l">
 <!ENTITY siteDataSettings.label          "सेटिंग…">
 <!ENTITY siteDataSettings.accesskey      "i">
 <!ENTITY siteDataLearnMoreLink.label     "अधिक जानें">
+
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
 
   &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
 -->
-
 <!ENTITY limitCacheSizeBefore.label      "इसमें कैश परिसीमित करें">
 <!ENTITY limitCacheSizeBefore.accesskey  "L">
 <!ENTITY limitCacheSizeAfter.label       "MB स्थान">
@@ -80,11 +73,11 @@
 <!ENTITY overrideSmartCacheSize.accesskey "O">
 
 <!ENTITY updateTab.label                 "अद्यतन">
+
 <!-- LOCALIZATION NOTE (updateApplication.label):
   Strings from aboutDialog.dtd are displayed in this section of the preferences.
   Please check for possible accesskey conflicts.
 -->
-
 <!ENTITY updateApplication.label         "&brandShortName; अद्यतन">
 <!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
 # is followed by a version number, keep the trailing space or replace it with a
@@ -95,8 +88,7 @@
 <!ENTITY updateApplication.version.pre   "संस्करण">
 <!ENTITY updateApplication.version.post  "‌">
 <!ENTITY updateApplication.description   "के लिए &brandShortName; को अनुमति दें">
-<!ENTITY updateAuto2.label               "अद्यतन स्वतः संस्थापित करें (बेहतर सुरक्षा हेतु अनुशंसित)">
-<!ENTITY updateAuto2.accesskey           "A">
+<!ENTITY updateAuto3.accesskey           "A">
 <!ENTITY updateCheckChoose2.label        "अद्यतन हेतु जाँचें; लेकिन आपको उन्हें संस्थापित करने के लिए चुनने दें">
 <!ENTITY updateCheckChoose2.accesskey    "C">
 <!ENTITY updateManual2.label             "अद्यतन के लिए कभी मत जाँचें (अनुशंसित नहीं)">
@@ -110,8 +102,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "स्वचालित रूप से खोज इंजन का अद्यतन करें">
 <!ENTITY enableSearchUpdate2.accesskey   "e">
-
-<!ENTITY reports.label                   "रिपोर्ट">
 
 <!ENTITY offlineStorageNotify.label               "आपको बताएँ कि कब वेबसाइट ऑफ़लाइन प्रयोग के लिए आँकड़ा जमा करने के लिए पूछता है">
 <!ENTITY offlineStorageNotify.accesskey           "T">
@@ -132,20 +122,19 @@
 <!ENTITY selectCerts.ask.accesskey       "A">
 <!ENTITY enableOCSP.label                "Query OCSP responder servers to confirm the current validity of certificates">
 <!ENTITY enableOCSP.accesskey            "Q">
-<!ENTITY viewCerts.label                 "प्रमाणपत्र देखें">
-<!ENTITY viewCerts.accesskey             "C">
-<!ENTITY viewSecurityDevices.label       "सुरक्षा युक्ति">
-<!ENTITY viewSecurityDevices.accesskey   "D">
+<!ENTITY viewCerts2.accesskey            "C">
+<!ENTITY viewSecurityDevices2.accesskey  "D">
 
 <!ENTITY performance.label               "प्रदर्शन">
-<!ENTITY useRecommendedPerformanceSettings2.label "अनुशंसित प्रदर्शन सेटिंग्स का उपयोग करें">
-
-<!ENTITY useRecommendedPerformanceSettings2.accesskey "U">
-<!ENTITY performanceSettingsLearnMore.label "और जानें">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "अनुशंसित प्रदर्शन सेटिंग्स का उपयोग करें">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "U">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "और जानें">
 <!ENTITY limitContentProcessOption.label "सामग्री प्रक्रिया सीमा">
-<!ENTITY limitContentProcessOption.description "एक से अधिक टैब का उपयोग करते समय अतिरिक्त सामग्री प्रक्रियाओं के प्रदर्शन में सुधार हो सकता है, लेकिन यह अधिक मेमोरी का भी उपयोग करेगा.">
+<!ENTITY limitContentProcessOption.description
+                                         "एक से अधिक टैब का उपयोग करते समय अतिरिक्त सामग्री प्रक्रियाओं के प्रदर्शन में सुधार हो सकता है, लेकिन यह अधिक मेमोरी का भी उपयोग करेगा.">
 <!ENTITY limitContentProcessOption.accesskey   "l">
-
-
 <!ENTITY allowHWAccel.label              "उपलब्ध होने पर हार्ड त्वरण का उपयोग करें">
 <!ENTITY allowHWAccel.accesskey          "r">

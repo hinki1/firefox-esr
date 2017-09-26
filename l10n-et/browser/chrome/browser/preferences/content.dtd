@@ -2,14 +2,13 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  popups.label                "Hüpikaknad">
+<!ENTITY  permissions.label           "Õigused">
 
 <!ENTITY  blockPopups.label           "Hüpikaknad blokitakse">
 <!ENTITY  blockPopups.accesskey       "H">
 
-<!ENTITY  notificationsPolicy.label            "Teavitused">
 <!ENTITY  notificationsPolicyLearnMore.label   "Rohkem teavet">
-<!ENTITY  notificationsPolicyDesc3.label       "Vali, millised saidid võivad teavitusi saata">
+<!ENTITY  notificationsPolicyDesc4.label       "Vali, millised saidid võivad teavitusi saata">
 <!ENTITY  notificationsPolicyButton.accesskey  "a">
 <!ENTITY  notificationsPolicyButton.label      "Vali…">
 <!ENTITY  notificationsDoNotDisturb.label      "Keela teavitused ajutiselt">
@@ -33,7 +32,7 @@
 <!ENTITY  colors.accesskey            "d">
 
 
-<!ENTITY languages.label              "Keeled">
+<!ENTITY language2.label              "Keel">
 <!ENTITY chooseLanguage.label         "Vali oma eelistatud keel veebilehtede kuvamiseks">
 <!ENTITY chooseButton.label           "Vali…">
 <!ENTITY chooseButton.accesskey       "i">
@@ -53,8 +52,8 @@
 <!ENTITY translation.options.attribution.beforeLogo "Tõlkijaks on">
 <!ENTITY translation.options.attribution.afterLogo "">
 
-<!ENTITY  drmContent.label             "DRM-sisu">
+<!ENTITY  drmContent2.label              "Autoriõiguse digitaalkaitsega (DRM) sisu">
 
-<!ENTITY  playDRMContent.label         "DRM-sisu esitamine lubatakse">
-<!ENTITY  playDRMContent.accesskey     "M">
+<!ENTITY  playDRMContent2.label          "DRMiga kaitstud sisu esitamine lubatakse">
+<!ENTITY  playDRMContent2.accesskey      "D">
 <!ENTITY  playDRMContent.learnMore.label "Rohkem teavet">

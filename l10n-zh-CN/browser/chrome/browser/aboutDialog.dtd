@@ -21,7 +21,7 @@
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
 <!ENTITY warningDesc.version        "&brandShortName; 是实验性的测试版本，可能不够稳定。">
 <!-- LOCALIZATION NOTE (warningDesc.telemetryDesc): This is a notification that Nightly/Aurora builds automatically send Telemetry data back to Mozilla. It is only shown in those versions. "It" refers to brandShortName. -->
-<!ENTITY warningDesc.telemetryDesc  "它会自动回传有关性能、硬件、使用及定制情况的信息到 &vendorShortName; 以帮助改善 &brandShortName;。">
+<!ENTITY warningDesc.telemetryDesc  "它会自动向 &vendorShortName; 回传有关性能、硬件、使用及定制情况的信息，以帮助改善 &brandShortName;。">
 
 <!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
 <!ENTITY community.exp.start        "">
@@ -42,13 +42,13 @@
 
 <!ENTITY helpus.start               "想帮忙吗？">
 <!-- LOCALIZATION NOTE (helpus.donateLink): This is a link title that links to https://sendto.mozilla.org/page/contribute/Give-Now?source=mozillaorg_default_footer&ref=firefox_about&utm_campaign=firefox_about&utm_source=firefox&utm_medium=referral&utm_content=20140929_FireFoxAbout. -->
-<!ENTITY helpus.donateLink          "捐赠">
+<!ENTITY helpus.donateLink          "向我们捐赠">
 <!ENTITY helpus.middle              "或者">
 <!-- LOCALIZATION NOTE (helpus.getInvolvedLink): This is a link title that links to http://www.mozilla.org/contribute/. -->
 <!ENTITY helpus.getInvolvedLink     "一起来参与！">
 <!ENTITY helpus.end                 "">
 
-<!ENTITY releaseNotes.link          "最近更新">
+<!ENTITY releaseNotes.link          "新版变化">
 
 <!-- LOCALIZATION NOTE (bottomLinks.license): This is a link title that links to about:license. -->
 <!ENTITY bottomLinks.license        "授权信息">
@@ -82,8 +82,8 @@
      all go into one line and have an anchor in between with text that is the same as the link to a site
      to download the latest version of Firefox (e.g. http://www.firefox.com). As this is all in one line,
      try to make the localized text short (see bug 596813 for screenshots). -->
-<!ENTITY update.manual.start        "更新可用，在 ">
-<!ENTITY update.manual.end          "">
+<!ENTITY update.manual.start        "可访问 ">
+<!ENTITY update.manual.end          " 下载更新">
 
 <!-- LOCALIZATION NOTE (update.unsupported.start,update.unsupported.linkText,update.unsupported.end):
      update.unsupported.start, update.unsupported.linkText, and

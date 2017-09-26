@@ -11,7 +11,7 @@
 
 <!ENTITY update.checkForUpdatesButton.label       "Жаңартуларды тексеру">
 <!ENTITY update.checkForUpdatesButton.accesskey   "к">
-<!ENTITY update.updateButton.label3               "&brandShorterName; жаңарту үшін қайта іске қосыңыз">
+<!ENTITY update.updateButton.label3               "&brandShorterName; жаңарту үшін қайта іске қосу">
 <!ENTITY update.updateButton.accesskey            "й">
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly builds. It is only shown in this version. -->
 
@@ -72,7 +72,7 @@
 
 <!ENTITY update.failed.start        "Жаңарту сәтсіз. ">
 <!ENTITY update.failed.linkText     "Соңғы нұсқасын жүктеп алу">
-<!ENTITY update.failed.end          "">
+<!ENTITY update.failed.end          "‌">
 <!-- LOCALIZATION NOTE (update.manual.start,update.manual.end): update.manual.start and update.manual.end
      all go into one line and have an anchor in between with text that is the same as the link to a site
      to download the latest version of Firefox (e.g. http://www.firefox.com). As this is all in one line,
@@ -80,7 +80,7 @@
 
 <!ENTITY update.manual.start        "Жүктеп алу ">
 <!ENTITY update.manual.linkText     "соңғы нұсқасы">
-<!ENTITY update.manual.end          "">
+<!ENTITY update.manual.end          "‌">
 <!-- LOCALIZATION NOTE (update.unsupported.start,update.unsupported.linkText,update.unsupported.end):
      update.unsupported.start, update.unsupported.linkText, and
      update.unsupported.end all go into one line with linkText being wrapped in

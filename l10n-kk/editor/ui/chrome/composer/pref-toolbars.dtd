@@ -4,6 +4,7 @@
 
 <!ENTITY pref.toolbars.title    "Саймандар панельдері">
 
+<!ENTITY composition.caption    "Бұл батырмаларды құрастыру саймандар панелінде көрсету:">
 
 <!ENTITY new.label              "Жаңа">
 <!ENTITY open.label             "Ашу">
@@ -16,18 +17,19 @@
 <!ENTITY print.label            "Баспаға шығару">
 <!ENTITY find.label             "Табу">
 <!ENTITY image.label            "Сурет">
-
+<!ENTITY hline.label            "Гориз. сызық">
 <!ENTITY table.label            "Кесте">
 <!ENTITY link.label             "Сілтеме">
 <!ENTITY anchor.label           "Байланыс">
 
+<!ENTITY formatting.caption     "Бұл батырмаларды пішімдеу саймандар панелінде көрсету:">
 
 <!ENTITY smaller.label          "Кішірек">
 <!ENTITY larger.label           "Үлкенірек">
 <!ENTITY bold.label             "Жуан">
 <!ENTITY bullets.label          "Маркерлер">
 <!ENTITY numbers.label          "Сандар">
-<!ENTITY italic.label           "Көлбеу">
+<!ENTITY italic.label           "Курсив">
 <!ENTITY outdent.label          "Тартпасы">
 <!ENTITY indent.label           "Шегiнiс">
 <!ENTITY underline.label        "Асты сызылған">

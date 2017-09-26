@@ -27,6 +27,11 @@
 <!ENTITY checkUserSpelling.accesskey     "t">
 
 <!ENTITY dataChoicesTab.label            "Escolhas de dados">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+
+<!ENTITY healthReportingDisabled.label   "Relato de dados está desativado para a configuração desta compilação">
 
 <!ENTITY healthReportDesc.label          "Ajuda-lhe a compreender o desempenho do seu navegador e partilha dados com a &vendorShortName; acerca do estado do seu navegador">
 <!ENTITY enableHealthReport.label        "Ativar o relatório de estado do &brandShortName;">
@@ -115,7 +120,7 @@
 <!ENTITY certPersonal.description        "Quando um servidor solicitar o meu certificado pessoal:">
 <!ENTITY selectCerts.auto                "Selecionar um automaticamente">
 <!ENTITY selectCerts.auto.accesskey      "S">
-<!ENTITY selectCerts.ask                 "Perguntar-lhe sempre">
+<!ENTITY selectCerts.ask                 "Perguntar-me sempre">
 <!ENTITY selectCerts.ask.accesskey       "A">
 <!ENTITY enableOCSP.label                "Consultar os servidores de resposta OCSP para confirmar a validade de certificados">
 <!ENTITY enableOCSP.accesskey            "O">

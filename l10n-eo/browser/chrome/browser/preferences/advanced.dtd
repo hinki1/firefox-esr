@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Ĝenerala">
 
-<!ENTITY accessibility.label             "Alirebleco">
-
 <!ENTITY useCursorNavigation.label       "Ĉiam uzi la moviĝoklavojn por moviĝi ene de paĝoj">
 <!ENTITY useCursorNavigation.accesskey   "m">
 <!ENTITY searchOnStartTyping.label       "Serĉi tekston kiam vi ektajpas">
 <!ENTITY searchOnStartTyping.accesskey   "t">
-<!ENTITY blockAutoReload.label           "Averti min kiam retejoj provas redirekti aŭ reŝargi la paĝon">
-<!ENTITY blockAutoReload.accesskey       "m">
 <!ENTITY useOnScreenKeyboard.label       "Montri tuŝklavaron se necesas">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
@@ -28,24 +24,26 @@
 
 <!ENTITY dataChoicesTab.label            "Elektado de datumoj">
 
-<!ENTITY healthReportDesc.label          "Tiu raporto helpas vin kompreni la efikecon de via retumilo kaj dividas datumojn kun &vendorShortName; pri la sano de via retumilo">
-<!ENTITY enableHealthReport.label        "Aktivigi la sanraporton de &brandShortName;">
-<!ENTITY enableHealthReport.accesskey    "R">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "La raporto de datumoj estas malŝaltita pro la agordoj de konstruo">
+
+<!ENTITY enableHealthReport1.label       "Permesi al &brandShortName; aŭtomate sendi teĥnikajn kaj interagajn datumojn al Mozilla">
+<!ENTITY enableHealthReport1.accesskey   "A">
 <!ENTITY healthReportLearnMore.label     "Pli da informo">
 
-<!ENTITY telemetryDesc.label             "Tio dividas kun &vendorShortName; datumojn pri efikeco, uzado, aparataro kaj personaj agordoj de via restesplorilo, por helpi nin plibonigi &brandShortName;.">
-<!ENTITY enableTelemetryData.label       "Dividi aldonajn datumojn (ekzemple telemezuro)">
-<!ENTITY enableTelemetryData.accesskey   "D">
-<!ENTITY telemetryLearnMore.label        "Pli da informo">
+<!ENTITY dataCollection.label            "Kolekto kaj uzo de datumojn de &brandShortName;">
+<!ENTITY dataCollectionDesc.label        "Ni penas doni al vi plurajn eblojn, kaj kolekti nur tion, kion ni bezonas por fari kaj plibonigi &brandShortName; por ĉiuj. Ni ĉiam petos permeson antaŭ ol ricevi personajn informojn.">
+<!ENTITY dataCollectionPrivacyNotice.label    "Rimarko pri privateco">
 
-<!ENTITY crashReporterDesc2.label         "La raportoj pri paneoj helpas &vendorShortName; solvi problemojn kaj igi vian retumilon pli stabila kaj sekura">
-<!ENTITY alwaysSubmitCrashReports.label   "Permesi al &brandShortName; sendi nome via antaŭe registritajn raportojn pri paneo">
-<!ENTITY alwaysSubmitCrashReports.accesskey "P">
-<!ENTITY crashReporterLearnMore.label     "Pli da informo">
+<!ENTITY alwaysSubmitCrashReports1.label  "Permesi al &brandShortName; sendi al Mozilla raportojn pri paneo">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "p">
+<!ENTITY crashReporterLearnMore.label    "Pli da informo">
 
 <!ENTITY networkTab.label                "Reto">
 
-<!ENTITY connection.label                "Konektado">
+<!ENTITY networkProxy.label              "Retperanto">
 
 <!ENTITY connectionDesc.label            "Agordi la manieron kiel &brandShortName; konektiĝas al la reto">
 <!ENTITY connectionSettings.label        "Agordoj…">
@@ -92,11 +90,13 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+<!ENTITY updateApplicationDescription.label
+                                         "Tenu &brandShortName; ĝisdatigita por havi la plej bonan efikecon, stabilecon kaj sekurecon.">
 <!ENTITY updateApplication.version.pre   "Versio ">
 <!ENTITY updateApplication.version.post  "">
 <!ENTITY updateApplication.description   "Permesi al &brandShortName;">
-<!ENTITY updateAuto2.label               "Aŭtomate instali ĝisdatigojn (konsilinda por plibonigi sekurecon)">
-<!ENTITY updateAuto2.accesskey           "A">
+<!ENTITY updateAuto3.label               "Aŭtomate instali ĝisdatigojn (rekomendita)">
+<!ENTITY updateAuto3.accesskey           "A">
 <!ENTITY updateCheckChoose2.label        "Kontroli ĉu estas ĝisdatigoj, sed ebligi al uzanto elekti ĉu ilin instali">
 <!ENTITY updateCheckChoose2.accesskey    "K">
 <!ENTITY updateManual2.label             "Neniam kontroli ĉu estas ĝisdatigoj (malkonsilinda)">
@@ -110,8 +110,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "Aŭtomate ĝisdatigi serĉilojn">
 <!ENTITY enableSearchUpdate2.accesskey   "t">
-
-<!ENTITY reports.label                   "Raportoj">
 
 <!ENTITY offlineStorageNotify.label               "Diri al mi kiam retejoj petas konservi datumojn por uzi malkonektite">
 <!ENTITY offlineStorageNotify.accesskey           "r">
@@ -132,10 +130,10 @@
 <!ENTITY selectCerts.ask.accesskey       "D">
 <!ENTITY enableOCSP.label                "Peti al OCSP respondaj serviloj konfirmon pri la nuna valideco de atestiloj">
 <!ENTITY enableOCSP.accesskey            "P">
-<!ENTITY viewCerts.label                 "Vidi atestilojn">
-<!ENTITY viewCerts.accesskey             "a">
-<!ENTITY viewSecurityDevices.label       "Sekurecaj aparatoj">
-<!ENTITY viewSecurityDevices.accesskey   "s">
+<!ENTITY viewCerts2.label                "Vidi atestilojn…">
+<!ENTITY viewCerts2.accesskey            "a">
+<!ENTITY viewSecurityDevices2.label      "Sekurecaj aparatoj…">
+<!ENTITY viewSecurityDevices2.accesskey  "S">
 
 <!ENTITY performance.label               "Efikeco">
 <!ENTITY useRecommendedPerformanceSettings2.label
@@ -143,16 +141,16 @@
 <!ENTITY useRecommendedPerformanceSettings2.description
                                          "Tiuj ĉi agordoj estas alĝustigitaj al la mastruma sistemo kaj aparataro de via komputilo.">
 <!ENTITY useRecommendedPerformanceSettings2.accesskey
-                                         "T">
+                                         "k">
 <!ENTITY performanceSettingsLearnMore.label
                                          "Pli da informo">
 <!ENTITY limitContentProcessOption.label "Maksimuma nombro de enhavaj taskoj">
 <!ENTITY limitContentProcessOption.description
                                          "Pli da enhavaj taskoj povas plibonigi efikecon dum uzo de pluraj langetoj, sed ili ankaŭ uzos pli da memoro.">
-<!ENTITY limitContentProcessOption.accesskey   "P">
+<!ENTITY limitContentProcessOption.accesskey   "M">
 <!ENTITY limitContentProcessOption.disabledDescription
                                          "Nur eblas modifi la nombron de enhavaj taskoj en plurproceza &brandShortName;.">
 <!ENTITY limitContentProcessOption.disabledDescriptionLink
-                                         "Informo pri kiel eltrovi ĉu plurprocezo estas aktiva">
+                                         "Pli da informo, pri kiel eltrovi ĉu plurprocezo estas aktiva">
 <!ENTITY allowHWAccel.label              "Uzi aparatan akceladon se tio disponeblas">
 <!ENTITY allowHWAccel.accesskey          "d">

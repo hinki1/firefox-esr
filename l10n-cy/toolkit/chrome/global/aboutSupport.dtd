@@ -66,6 +66,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Ffenestri Amlbroses">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Prosesau Cynnwys Gwe">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Allwedd Google">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Mozilla Location Service Key">
 
@@ -104,6 +106,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Hygyrchedd">
 <!ENTITY aboutSupport.a11yActivated "Gweithredu">
 <!ENTITY aboutSupport.a11yForceDisabled "Atal Hygyrchedd">
+<!ENTITY aboutSupport.a11yHandlerUsed "Defnyddiwyd Trinydd Mynediadwy">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Fersiynau Llyfrgell">
 
@@ -134,3 +137,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Cofnod Penderfynnu">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Nodweddion Crash Guard wedi ei Analluogi">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Dulliau Datrys">
+
+<!ENTITY aboutSupport.mediaTitle "Cyfrwng">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Dyfeisiau Allbwn">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Dyfeisiau Mewnbwn">
+<!ENTITY aboutSupport.mediaDeviceName "Enw">
+<!ENTITY aboutSupport.mediaDeviceGroup "Grŵp">
+<!ENTITY aboutSupport.mediaDeviceVendor "Gwerthwr">
+<!ENTITY aboutSupport.mediaDeviceState "Cyflwr">
+<!ENTITY aboutSupport.mediaDevicePreferred "Amgen">
+<!ENTITY aboutSupport.mediaDeviceFormat "Fformat">
+<!ENTITY aboutSupport.mediaDeviceChannels "Sianeli">
+<!ENTITY aboutSupport.mediaDeviceRate "Cyfradd">
+<!ENTITY aboutSupport.mediaDeviceLatency "Cuddni">

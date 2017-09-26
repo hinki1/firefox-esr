@@ -66,6 +66,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Margþráða gluggi">
 
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Google lykill">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Mozilla Location Service lykill">
 
@@ -104,6 +105,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Auðveldað aðgengi">
 <!ENTITY aboutSupport.a11yActivated "Virkt">
 <!ENTITY aboutSupport.a11yForceDisabled "Koma í veg fyrir aðgengi">
+<!ENTITY aboutSupport.a11yHandlerUsed "Aðgengishjálpari notaður">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Útgáfa forritasafns">
 
@@ -134,3 +136,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Atburðaskrá fyrir ákvarðanir">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Óvirkar stillingar fyrir hrunvara">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Leiðir framhjá villum">
+
+
+
+
+
+
+
+
+
+
+
+

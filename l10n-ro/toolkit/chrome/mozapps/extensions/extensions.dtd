@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY addons.windowTitle                   "Managerul de suplimente">
 
-<!ENTITY search.placeholder                   "Caută în toate suplimentele">
+<!ENTITY search.placeholder                   "Caută toate suplimentele">
 <!ENTITY search.buttonlabel                   "Căutare">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
@@ -118,7 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "Arată notele privind lansarea pentru această actualizare">
 <!ENTITY cmd.hideReleaseNotes.label           "Ascunde notele privind lansarea">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Ascunde notele privind lansarea pentru această actualizare">
-
+<!ENTITY cmd.findReplacement.label            "Găsești o extensie înlocuitoare">
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
@@ -159,7 +159,7 @@
 <!-- ratings -->
 
 
-<!ENTITY rating2.label                        "Apreciere">
+<!ENTITY rating2.label                        "Evaluare">
 <!-- download/install progress -->
 
 <!ENTITY progress.pause.tooltip               "Pauză">
@@ -189,6 +189,7 @@
 <!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
      to the add-on name for extensions that are not webextensions, which
      will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "OBSOLET">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -216,10 +217,10 @@
 
 <!ENTITY addon.createdBy.label                "Creat de ">
 
-<!ENTITY eula.title                           "Acord de licențiere cu utilizatorul">
+<!ENTITY eula.title                           "Acord de licență pentru utilizatorul final">
 <!ENTITY eula.width                           "560px">
 <!ENTITY eula.height                          "400px">
-<!ENTITY eula.accept                          "Accept, instalează…">
+<!ENTITY eula.accept                          "Acceptă și instalează…">
 
 <!ENTITY settings.path.button.label           "Răsfoiește…">
 <!-- LOCALIZATION NOTE (experiment.info.label): The strings related to
@@ -247,14 +248,15 @@
 <!-- LOCALIZATION NOTE (disabledUnsigned.devInfo.start, disabledUnsigned.devInfo.linkToManual, disabledUnsigned.devInfo.end):
      These entities form a sentence, with disabledUnsigned.devInfo.linkToManual
      being a link to an external site. -->
-<!ENTITY disabledUnsigned.devInfo.start "Dezvoltatorii interesați în obținerea verificării pentru suplimente pot continua să citească ">
+<!ENTITY disabledUnsigned.devInfo.start "Dezvoltatorii interesați în obținerea verificării suplimentelor lor pot continua să citească ">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "manual">
 <!ENTITY disabledUnsigned.devInfo.end ".">
 
 <!ENTITY pluginDeprecation.description "Lipsește ceva? Unele pluginuri nu mai sunt suportate de &brandShortName;.">
 <!ENTITY pluginDeprecation.learnMore "Află mai multe">
 
-
-
-
-
+<!ENTITY legacyWarning.description "Lipsește ceva? Unele extensii nu mai sunt suportate de &brandShortName;.">
+<!ENTITY legacyWarning.showLegacy "Afișează extensiile obsolete">
+<!ENTITY legacyExtensions.title "Extensii obsolete">
+<!ENTITY legacyExtensions.description "Aceste extensii nu îndeplinesc standardele actuale ale &brandShortName; astfel încât au fost dezactivate.">
+<!ENTITY legacyExtensions.learnMore "Află despre schimbările aduse suplimentelor">

@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Generelt">
 
-<!ENTITY accessibility.label             "Tilgjengelighet">
-
 <!ENTITY useCursorNavigation.label       "Alltid bruk piltaster for å navigere innenfor nettsider">
 <!ENTITY useCursorNavigation.accesskey   "A">
 <!ENTITY searchOnStartTyping.label       "Søk etter tekst når jeg begynner å skrive">
 <!ENTITY searchOnStartTyping.accesskey   "k">
-<!ENTITY blockAutoReload.label           "Varsle deg når nettsider forsøker å omdirigere eller laste siden på nytt">
-<!ENTITY blockAutoReload.accesskey       "V">
 <!ENTITY useOnScreenKeyboard.label       "Vis et touch-tastatur når nødvendig">
 <!ENTITY useOnScreenKeyboard.accesskey   "t">
 
@@ -28,24 +24,26 @@
 
 <!ENTITY dataChoicesTab.label            "Datainnstillinger">
 
-<!ENTITY healthReportDesc.label          "Hjelper deg å forstå nettleserytelsen, og deler data med &vendorShortName; om helsen til nettleseren din">
-<!ENTITY enableHealthReport.label        "Slå på &brandShortName; Helserapport">
-<!ENTITY enableHealthReport.accesskey    "S">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "Datarapportering er deaktivert for denne byggekonfigurasjonen">
+
+<!ENTITY enableHealthReport1.label       "Tillat &brandShortName; å automatisk sende teknisk- og interaksjonsdata til Mozilla">
+<!ENTITY enableHealthReport1.accesskey   "r">
 <!ENTITY healthReportLearnMore.label     "Les mer">
 
-<!ENTITY telemetryDesc.label             "Deler data om ytelse, bruksmønster, maskinvare og utvidelser med &vendorShortName;, for å hjelpe oss gjøre &brandShortName; bedre">
-<!ENTITY enableTelemetryData.label       "Del ekstra data (f.eks. Telemetry)">
-<!ENTITY enableTelemetryData.accesskey   "l">
-<!ENTITY telemetryLearnMore.label        "Les mer">
+<!ENTITY dataCollection.label            "Datainnsamling og bruk for &brandShortName;">
+<!ENTITY dataCollectionDesc.label        "Vi prøver alltid å gi deg valg og samler bare det vi trenger for å levere og forbedre &brandShortName; for alle. Vi ber alltid om tillatelse før vi aksepterer personopplysninger.">
+<!ENTITY dataCollectionPrivacyNotice.label    "Personvernbestemmelser">
 
-<!ENTITY crashReporterDesc2.label         "Krasjrapporter hjelper &vendorShortName; å løse problemer og gjøre nettleseren mer stabil og sikker">
-<!ENTITY alwaysSubmitCrashReports.label   "Tillat &brandShortName; å sende etterslepne krasjrapporter på dine vegne">
-<!ENTITY alwaysSubmitCrashReports.accesskey "e">
-<!ENTITY crashReporterLearnMore.label     "Les mer">
+<!ENTITY alwaysSubmitCrashReports1.label  "Tillat &brandShortName; å sende krasjrapporter til Mozilla">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "T">
+<!ENTITY crashReporterLearnMore.label    "Les mer">
 
 <!ENTITY networkTab.label                "Nettverk">
 
-<!ENTITY connection.label                "Tilkobling">
+<!ENTITY networkProxy.label              "Nettverksproxy">
 
 <!ENTITY connectionDesc.label            "Konfigurer hvordan &brandShortName; kobler til Internett">
 <!ENTITY connectionSettings.label        "Innstillinger …">
@@ -92,11 +90,13 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+<!ENTITY updateApplicationDescription.label
+                                         "Hold &brandShortName; oppdatert for beste ytelse, stabilitet og sikkerhet.">
 <!ENTITY updateApplication.version.pre   "Versjon ">
 <!ENTITY updateApplication.version.post  "">
 <!ENTITY updateApplication.description   "Tillat &brandShortName; å">
-<!ENTITY updateAuto2.label               "Installer oppdateringer automatisk (anbefales for forbedret sikkerhet)">
-<!ENTITY updateAuto2.accesskey           "a">
+<!ENTITY updateAuto3.label               "Installer oppdateringer automatisk (anbefalt)">
+<!ENTITY updateAuto3.accesskey           "a">
 <!ENTITY updateCheckChoose2.label        "Se etter oppdateringer, men la meg velge om jeg vil installere dem">
 <!ENTITY updateCheckChoose2.accesskey    "S">
 <!ENTITY updateManual2.label             "Se aldri etter oppdateringer (anbefales ikke)">
@@ -110,8 +110,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "Oppdater søkemotorer automatisk">
 <!ENTITY enableSearchUpdate2.accesskey   "e">
-
-<!ENTITY reports.label                   "Rapporter">
 
 <!ENTITY offlineStorageNotify.label               "Fortell deg når et nettsted ber om å lagre data for frakoblet bruk">
 <!ENTITY offlineStorageNotify.accesskey           "F">
@@ -132,10 +130,10 @@
 <!ENTITY selectCerts.ask.accesskey       "A">
 <!ENTITY enableOCSP.label                "Spør OCSP-servere om å bekrefte gyldigheten til sertifikater">
 <!ENTITY enableOCSP.accesskey            "O">
-<!ENTITY viewCerts.label                 "Vis sertifikater">
-<!ENTITY viewCerts.accesskey             "V">
-<!ENTITY viewSecurityDevices.label       "Sikkerhetsenheter">
-<!ENTITY viewSecurityDevices.accesskey   "k">
+<!ENTITY viewCerts2.label                "Vis sertifikater…">
+<!ENTITY viewCerts2.accesskey            "s">
+<!ENTITY viewSecurityDevices2.label      "Sikkerhetsenheter…">
+<!ENTITY viewSecurityDevices2.accesskey  "e">
 
 <!ENTITY performance.label               "Ytelse">
 <!ENTITY useRecommendedPerformanceSettings2.label
@@ -149,7 +147,7 @@
 <!ENTITY limitContentProcessOption.label "Grense for innholdsprosesser">
 <!ENTITY limitContentProcessOption.description
                                          "Ytterligere innholdsprosesser kan forbedre ytelsen når du bruker flere faner, men vil også bruke mer minne.">
-<!ENTITY limitContentProcessOption.accesskey   "Y">
+<!ENTITY limitContentProcessOption.accesskey   "G">
 <!ENTITY limitContentProcessOption.disabledDescription
                                          "Endring av antall innholdsprosesser kan bare gjøres med multiprosess &brandShortName;.">
 <!ENTITY limitContentProcessOption.disabledDescriptionLink

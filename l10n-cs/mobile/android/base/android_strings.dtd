@@ -157,14 +157,14 @@
      "to bookmark", not the noun "a bookmark". -->
 <!ENTITY overlay_share_bookmark_btn_label "Přidat do záložek">
 <!ENTITY overlay_share_bookmark_btn_label_already "Již přidána">
-<!ENTITY overlay_share_send_other "Odeslat do jiného zařízení">
+<!ENTITY overlay_share_send_other "Odeslat do jiných zařízení">
 
 <!ENTITY overlay_share_open_browser_btn_label "Otevřít v aplikaci &brandShortName;">
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
      to. -->
-<!ENTITY overlay_share_send_tab_btn_label "Odeslat do jiného zařízení">
+<!ENTITY overlay_share_send_tab_btn_label "Do jiného zařízení">
 <!ENTITY overlay_share_no_url "V tomto sdílení nebyl nalezen žádný odkaz">
 <!ENTITY overlay_share_select_device "Volba zařízení">
 <!-- Localization note (overlay_no_synced_devices) : Used when the menu option
@@ -294,6 +294,9 @@
 <!ENTITY custom_tabs_menu_footer "Pohání &brandShortName;">
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "Adresa URL zkopírována">
+
+<!ENTITY pref_pwa "Progresivní webové aplikace">
+<!ENTITY pref_pwa_summary "Povolit webovým aplikacím přidání na domovskou obrazovku">
 
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Tok událostí">
@@ -545,6 +548,7 @@
 <!ENTITY page_removed "Stránka odebrána">
 
 <!ENTITY bookmark_edit_title "Upravit záložku">
+<!ENTITY bookmark_edit_folder_title "Upravit složku">
 <!ENTITY bookmark_edit_name "Název">
 <!ENTITY bookmark_edit_location "Adresa">
 <!ENTITY bookmark_edit_keyword "Klíčové slovo">
@@ -600,7 +604,7 @@
 <!ENTITY home_most_recent_empty "Webové stránky, které jste nedávno navštívili, se zobrazí zde.">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
-<!ENTITY home_most_recent_emptyhint2 "Mimochodem: při používání &formatS1;Nový anonymní panel&formatS2; nebude vaše historie ukládána.">
+<!ENTITY home_most_recent_emptyhint2 "Mimochodem: při používání &formatS1;nového anonymního panelu&formatS2; nebude vaše historie ukládána.">
 
 <!-- Localization note (home_default_empty): This string is used as the default text when there
      is no data to show in an about:home panel that was created by an add-on. -->
@@ -621,6 +625,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Odkrýt zvolená zařízení">
+
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+<!ENTITY home_pinned_site "Připnutá stránka">
+<!ENTITY home_unpinned_site "Odepnutá stránka">
 
 <!ENTITY remote_tabs_panel_moved_title "Kam zmizely moje panely?">
 <!ENTITY remote_tabs_panel_moved_desc "Panely z vašich dalších zařízení jsme přesunuli do panelu na vaší domovské stránce, která se zobrazí při každém otevření nového panelu.">
@@ -837,7 +846,7 @@ Stream list for highlights sourced from th user's bookmarks. -->
 <!-- LOCALIZATION NOTE (activity_stream_dismiss): This label is shown in the Activity Stream context menu,
 and allows hiding a URL/page from highlights or topsites. The page remains in history/bookmarks, but
 is simply hidden from the Activity Stream panel. -->
-<!ENTITY activity_stream_dismiss "Odmítnout">
+<!ENTITY activity_stream_dismiss "Skrýt">
 <!ENTITY activity_stream_delete_history "Smazat z historie">
 
 <!ENTITY activity_stream_welcome_title "Vítejte ve vašich Vybraných">

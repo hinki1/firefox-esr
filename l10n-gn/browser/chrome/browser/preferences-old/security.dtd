@@ -4,17 +4,21 @@
 
 <!ENTITY  general.label                 "Tuichakue">
 
-
+<!ENTITY  warnOnAddonInstall2.label       "Ehechakuaa oĩ jave ñanduti renda omohendaséva moĩmbaha">
+<!ENTITY  warnOnAddonInstall2.accesskey   "E">
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
   https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
 -->
 
+<!ENTITY  enableSafeBrowsing.label        "Ejoko tetepy kyhyjerã ha imarãkuaáva">
+<!ENTITY  enableSafeBrowsing.accesskey    "E">
 
 <!ENTITY  blockDownloads.label            "Ejoko ñemboguejy kyhyjerãva">
 <!ENTITY  blockDownloads.accesskey        "d">
 
-
+<!ENTITY  blockUncommonAndUnwanted.label     "Ejesareko software oiko'ỹva ha ojekuaa'ỹva">
+<!ENTITY  blockUncommonAndUnwanted.accesskey "c">
 
 <!ENTITY  addonExceptions.label         "Oĩ'ỹva…">
 <!ENTITY  addonExceptions.accesskey     "E">
@@ -22,8 +26,8 @@
 
 <!ENTITY  logins.label                  "Emoñepyrũ tembiapo">
 
-<!ENTITY  rememberLogins.label          "Nemandu'áke mba'éicha eikéta tendakuérape">
-<!ENTITY  rememberLogins.accesskey      "R">
+<!ENTITY  rememberLogins2.label         "Nemandu'áke tembiapo ñepyrũ ñanduti renda pegua">
+<!ENTITY  rememberLogins2.accesskey     "N">
 <!ENTITY  passwordExceptions.label      "Oĩ'ỹva">
 <!ENTITY  passwordExceptions.accesskey  "x">
 

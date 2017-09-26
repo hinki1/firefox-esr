@@ -43,8 +43,8 @@
 <!ENTITY  suggestionSettings.label      "Muuda otsingumootorite soovituste sätteid…">
 <!ENTITY  suggestionSettings.accesskey  "u">
 
-<!ENTITY  acceptCookies.label           "Küpsised lubatakse">
-<!ENTITY  acceptCookies.accesskey       "K">
+<!ENTITY  acceptCookies2.label          "Küpsised lubatakse">
+<!ENTITY  acceptCookies2.accesskey      "p">
 
 <!ENTITY  acceptThirdParty.pre.label      "Kolmanda osapoole küpsised lubatakse:">
 <!ENTITY  acceptThirdParty.pre.accesskey  "o">

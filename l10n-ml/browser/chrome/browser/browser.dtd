@@ -232,7 +232,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "നാള്‍വഴി കാണിക്കുക">
 
-<!ENTITY searchItem.title             "തിരയുക">
 <!-- Toolbar items -->
 
 <!ENTITY homeButton.label             "പൂമുഖം">
@@ -245,6 +244,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY viewBookmarksSidebar2.label        "അടയാളക്കുറിപ്പുകള്‍ക്കുള്ള ടൂള്‍ബാര്‍ കാണുക">
 <!ENTITY viewBookmarksToolbar.label         "അടയാളക്കുറിപ്പുകള്‍ക്കുള്ള ടൂള്‍ബാര്‍ കാണുക">
+
 
 <!ENTITY containersMenu.label "കണ്ടെയിനറുകള്‍">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
@@ -329,6 +329,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewCustomizeToolbar.label       "ഇച്ഛാനുസൃതമാക്കുക..."> 
 <!ENTITY viewCustomizeToolbar.accesskey     "C">
 
+
+
 <!ENTITY historyMenu.label "നാള്‍വഴി">
 <!ENTITY historyMenu.accesskey "s">
 <!ENTITY historyUndoMenu.label "അടുത്തിടെ അടച്ച റ്റാബുകള്‍">
@@ -348,6 +350,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "ഏറ്റവും പുതിയ നാള്‍വഴി വെടിപ്പാക്കുക…">
 <!ENTITY appMenuHistory.restoreSession.label "മുമ്പുള്ള സെഷന്‍ വീണ്ടെടുക്കുക">
 <!ENTITY appMenuHistory.viewSidebar.label "നാള്‍വഴി സൈഡ്ബാര്‍ കാണുക.">
+
 
 <!ENTITY appMenuHelp.tooltip "സഹായ മെനു തുറക്കുക">
 
@@ -457,6 +460,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY contentSearchInput.label     "തെരച്ചില്‍ പദം">
 <!ENTITY contentSearchSubmit.tooltip  "തിരയല്‍ സമർപ്പിയ്ക്കുക">
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
@@ -606,8 +612,8 @@ items are mutually exclusive. -->
 <!ENTITY mediaPlaybackRate2.accesskey "ത">
 <!ENTITY mediaPlaybackRate050x2.label "പതുക്കെ (0.5×)">
 <!ENTITY mediaPlaybackRate050x2.accesskey "പ">
-<!ENTITY mediaPlaybackRate100x2.label "സാധാരണ">
-<!ENTITY mediaPlaybackRate100x2.accesskey "സ">
+
+
 <!ENTITY mediaPlaybackRate125x2.label "വേഗത്തില്‍ (1.25×)">
 <!ENTITY mediaPlaybackRate125x2.accesskey "വ">
 <!ENTITY mediaPlaybackRate150x2.label "വേഗത്തില്‍ (1.5×)">
@@ -835,6 +841,24 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">
 <!ENTITY customizeMode.lwthemes.menuGetMore "കൂടുതല്‍ തീമുകള്‍ ലഭ്യമാക്കുക">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "G">
+
+
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+
+
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+
+
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+
+
+
 
 <!ENTITY getUserMedia.selectCamera.label "പങ്കിടുവാനുള്ള ക്യാമറ:">
 <!ENTITY getUserMedia.selectCamera.accesskey "മ">

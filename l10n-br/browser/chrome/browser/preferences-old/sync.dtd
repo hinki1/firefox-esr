@@ -10,12 +10,16 @@
 <!ENTITY engine.tabs.accesskey      "D">
 <!ENTITY engine.history.label       "Roll istor">
 <!ENTITY engine.history.accesskey   "R">
-<!ENTITY engine.logins.label        "Titouroù kennaskañ">
-<!ENTITY engine.logins.accesskey    "T">
+
+
 <!ENTITY engine.prefs.label         "Gwellvezioù">
 <!ENTITY engine.prefs.accesskey     "G">
 <!ENTITY engine.addons.label        "Askouezhioù">
 <!ENTITY engine.addons.accesskey    "A">
+
+
+
+
 <!-- Device Settings -->
 
 <!ENTITY fxaSyncDeviceName.label       "Anv an trevnad">

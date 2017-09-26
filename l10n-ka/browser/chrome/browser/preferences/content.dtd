@@ -2,14 +2,13 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  popups.label                "ამომხტომები">
+<!ENTITY  permissions.label           "უფლებები">
 
-<!ENTITY  blockPopups.label           "ამომხტომი ფანჯრების დაბლოკვა">
+<!ENTITY  blockPopups.label           "ამომხტომი ფირნიშების შეზღუდვა">
 <!ENTITY  blockPopups.accesskey       "დ">
 
-<!ENTITY  notificationsPolicy.label            "შეტყობინებები">
 <!ENTITY  notificationsPolicyLearnMore.label   "შეიტყვეთ მეტი">
-<!ENTITY  notificationsPolicyDesc3.label       "საიტები, რომელთაგანაც შეტყობინებების მიღება დაშვებულია">
+<!ENTITY  notificationsPolicyDesc4.label       "საიტები, რომელთაგანაც შეტყობინებების მიღება დაშვებულია">
 <!ENTITY  notificationsPolicyButton.accesskey  "რ">
 <!ENTITY  notificationsPolicyButton.label      "არჩევა…">
 <!ENTITY  notificationsDoNotDisturb.label      "არ შემაწუხოთ">
@@ -21,6 +20,10 @@
 
 <!ENTITY  fontsAndColors.label        "შრიფტები &amp; ფერები">
 
+<!ENTITY  defaultFont2.label          "ნაგულისხმევი შრიფტი">
+<!ENTITY  defaultFont2.accesskey      "ნ">
+<!ENTITY  defaultSize2.label          "ზომა">
+<!ENTITY  defaultSize2.accesskey      "ზ">
 
 <!ENTITY  advancedFonts.label         "დამატებითი…">
 <!ENTITY  advancedFonts.accesskey     "დ">
@@ -29,12 +32,12 @@
 <!ENTITY  colors.accesskey            "ფ">
 
 
-<!ENTITY languages.label              "ენები">
+<!ENTITY language2.label              "ენა">
 <!ENTITY chooseLanguage.label         "მიუთითეთ სასურველი ენა გვერდების საჩვენებლად">
 <!ENTITY chooseButton.label           "არჩევა…">
 <!ENTITY chooseButton.accesskey       "ა">
 
-<!ENTITY translateWebPages.label      "ვებ-შიგთავსის გადათარგმნა">
+<!ENTITY translateWebPages.label      "ვებშიგთავსის გადათარგმნა">
 <!ENTITY translateWebPages.accesskey  "გ">
 <!ENTITY translateExceptions.label    "გამონაკლისები…">
 <!ENTITY translateExceptions.accesskey "ნ">
@@ -49,8 +52,8 @@
 <!ENTITY translation.options.attribution.beforeLogo "თარგმანი ეკუთვნის">
 <!ENTITY translation.options.attribution.afterLogo "">
 
-<!ENTITY  drmContent.label             "DRM შიგთავსი">
+<!ENTITY  drmContent2.label              "ციფრული უფლებების მართვის (DRM) შიგთავსი">
 
-<!ENTITY  playDRMContent.label         "DRM შიგთავსის დაკვრა">
-<!ENTITY  playDRMContent.accesskey     "დ">
+<!ENTITY  playDRMContent2.label          "DRM-ით რეგულირებული შიგთავსის გაშვება">
+<!ENTITY  playDRMContent2.accesskey      "D">
 <!ENTITY  playDRMContent.learnMore.label "შეიტყვეთ მეტი">

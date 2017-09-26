@@ -28,6 +28,11 @@
 
 <!ENTITY dataChoicesTab.label            "Datu izvēle">
 
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "Datu ziņošana ir atspējota šajā būvējuma konfigurācija">
+
 <!ENTITY healthReportDesc.label          "Palīdz izprast jūsu pārlūka veiktspēju un sūta šos datus par pārlūka stāvokli &vendorShortName;">
 <!ENTITY enableHealthReport.label        "Aktivēt &brandShortName; stāvokļa ziņojumu">
 <!ENTITY enableHealthReport.accesskey    "v">

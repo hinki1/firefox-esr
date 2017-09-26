@@ -70,6 +70,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocesová okna">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Procesy pro webový obsah">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Klíč Google">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Klíč Mozilla Location Service">
 
@@ -108,6 +110,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Přístupnost">
 <!ENTITY aboutSupport.a11yActivated "Aktivována">
 <!ENTITY aboutSupport.a11yForceDisabled "Zakázána">
+<!ENTITY aboutSupport.a11yHandlerUsed "Použito ovládání přístupnosti">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Verze knihoven">
 
@@ -138,3 +141,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Protokol rozhodování">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Zakázat funkce Crash Guard">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Možná řešení">
+
+<!ENTITY aboutSupport.mediaTitle "Média">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Výstupní zařízení">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Vstupní zařízení">
+<!ENTITY aboutSupport.mediaDeviceName "Název">
+<!ENTITY aboutSupport.mediaDeviceGroup "Skupina">
+<!ENTITY aboutSupport.mediaDeviceVendor "Výrobce">
+<!ENTITY aboutSupport.mediaDeviceState "Stav">
+<!ENTITY aboutSupport.mediaDevicePreferred "Preferováno">
+<!ENTITY aboutSupport.mediaDeviceFormat "Formát">
+<!ENTITY aboutSupport.mediaDeviceChannels "Kanály">
+<!ENTITY aboutSupport.mediaDeviceRate "Vzorkování">
+<!ENTITY aboutSupport.mediaDeviceLatency "Prodleva">

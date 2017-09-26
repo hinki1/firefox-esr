@@ -38,7 +38,7 @@
 <!ENTITY newIMContactCmd.accesskey "ت">
 <!ENTITY openMessageFileCmd.label "افتح رسالة محفوظة…">
 <!ENTITY openMessageFileCmd.accesskey "ف">
-<!ENTITY saveAsMenu.label "احفظ ك‍">
+<!ENTITY saveAsMenu.label "احفظ باسم">
 <!ENTITY saveAsMenu.accesskey "ظ">
 <!ENTITY saveAsFileCmd.label "ملف">
 <!ENTITY saveAsFileCmd.accesskey "م">
@@ -785,7 +785,7 @@
      Watch Thread. Localizers can pick a suitable key
   -->
 <!ENTITY contextWatchThreadMenu.accesskey "">
-<!ENTITY contextSaveAs.label "احفظ ك‍…">
+<!ENTITY contextSaveAs.label "احفظ باسم…">
 <!ENTITY contextSaveAs.accesskey "ح">
 <!ENTITY contextPrint.label "اطبع…">
 <!ENTITY contextPrint.accesskey "ط">
@@ -885,8 +885,8 @@
 <!ENTITY AddDirectlyToAddressBook.accesskey "د">
 <!ENTITY EditContact1.label "حرّر جهة الاتصال">
 <!ENTITY EditContact1.accesskey "ح">
-<!ENTITY ViewContact.label "شاهِد معلومات جهة الاتصال">
-<!ENTITY ViewContact.accesskey "ت">
+<!ENTITY ViewContact.label "أعرض جهة الاتصال">
+<!ENTITY ViewContact.accesskey "ع">
 <!ENTITY SubscribeToNewsgroup.label "اشترك في مجموعة الأخبار">
 <!ENTITY SubscribeToNewsgroup.accesskey "ش">
 <!ENTITY SendMessageTo.label "اكتب رسالة إلى">
@@ -909,10 +909,10 @@
 <!ENTITY spellAddDictionaries.accesskey "س">
 <!-- Content Pane Context Menu -->
 
-<!ENTITY saveLinkAsCmd.label "احفظ الرابط ك‍…">
-<!ENTITY saveLinkAsCmd.accesskey "ك">
-<!ENTITY saveImageAsCmd.label "احفظ الصورة ك‍…">
-<!ENTITY saveImageAsCmd.accesskey "ظ">
+<!ENTITY saveLinkAsCmd.label "احفظ الرابط باسم…">
+<!ENTITY saveLinkAsCmd.accesskey "س">
+<!ENTITY saveImageAsCmd.label "احفظ الصورة باسم…">
+<!ENTITY saveImageAsCmd.accesskey "ر">
 <!ENTITY copyLinkCmd.label "انسخ مكان الرابط">
 <!ENTITY copyLinkCmd.accesskey "ط">
 <!ENTITY copyImageAllCmd.label "انسخ الصورة">
@@ -952,3 +952,5 @@
 <!-- Mac OS X Dock Icon pop-up menu -->
 
 <!ENTITY dockOptions.label              "خيارات أيقونة التطبيق…">
+<!ENTITY writeNewMessageDock.label      "اكتب رسالة جديدة">
+<!ENTITY openAddressBookDock.label      "افتح دفتر العناوين">

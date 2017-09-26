@@ -66,6 +66,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "نوافذ متعددة السيرورات">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "سيرورة محتوى الوب">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "مفتاح جوجل">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "مفتاح خدمة التموضع من موزيلا">
 
@@ -104,6 +106,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "الإتاحة">
 <!ENTITY aboutSupport.a11yActivated "مفعّلة">
 <!ENTITY aboutSupport.a11yForceDisabled "امنع الإتاحة">
+<!ENTITY aboutSupport.a11yHandlerUsed "مُعالج الإتاحة المستخدم">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "إصدارات المكتبات">
 
@@ -134,3 +137,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "سجل القرارات">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "خصائص حامي التحطم المعطَّلة">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "الحلول الالتفافية">
+
+<!ENTITY aboutSupport.mediaTitle "الوسائط">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "أجهزة الخَرْج">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "أجهزة الدَخْل">
+<!ENTITY aboutSupport.mediaDeviceName "الاسم">
+<!ENTITY aboutSupport.mediaDeviceGroup "المجموعة">
+<!ENTITY aboutSupport.mediaDeviceVendor "المُنتِج">
+<!ENTITY aboutSupport.mediaDeviceState "الحالة">
+<!ENTITY aboutSupport.mediaDevicePreferred "مفضّل">
+<!ENTITY aboutSupport.mediaDeviceFormat "التنسيق">
+<!ENTITY aboutSupport.mediaDeviceChannels "القنوات">
+<!ENTITY aboutSupport.mediaDeviceRate "المعدل">
+<!ENTITY aboutSupport.mediaDeviceLatency "الكمون">

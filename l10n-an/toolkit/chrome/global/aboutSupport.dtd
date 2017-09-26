@@ -66,6 +66,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Finestras multiproceso">
 
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Google Key">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Clau d'o servicio de plazamiento de Mozilla">
 
@@ -105,6 +106,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yActivated "Activau">
 <!ENTITY aboutSupport.a11yForceDisabled "Privar accesibilidat">
 
+
 <!ENTITY aboutSupport.libraryVersionsTitle "Versions d'a biblioteca">
 
 <!ENTITY aboutSupport.installationHistoryTitle "Historial d'instalacions">
@@ -134,3 +136,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Rechistro de decisions">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Caracteristicas Crash Guard desactivadas">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Solucions temporals">
+
+
+
+
+
+
+
+
+
+
+
+

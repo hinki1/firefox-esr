@@ -214,7 +214,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Sukari goyyan juwal">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Barmay wala war ga hin ka duu bangandiyaney nungoo ga">
 <!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Bayhayey jiši jišiyan duumante ra">
-
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Ceecijaw goo juwal moora cire">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "War bii nda/wala jindezaahaya žemnayanoo nda nungoo juwal">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "War jindezaahayaa žemnayanoo nda nungoo juwal">
@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Doo-šilbay dirantey">
 <!ENTITY viewBookmarksSidebar2.label        "Doo-šilbawey goyjinay zuu">
 <!ENTITY viewBookmarksToolbar.label         "Doo-šilbawey goyjinay žeeri">
+<!ENTITY searchBookmarks.label              "Doo-šilbawey ceeci">
 
 <!ENTITY containersMenu.label "Diikey">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
@@ -303,7 +304,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY cutCmd.key             "X">  
 <!ENTITY cutCmd.accesskey         "D"> 
 <!ENTITY copyCmd.label            "Berandi">  
-
+<!ENTITY copyCmd.key            "C">  
 <!ENTITY copyCmd.accesskey          "B"> 
 <!ENTITY pasteCmd.label           "Dobu">  
 <!ENTITY pasteCmd.key           "V">  
@@ -332,6 +333,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewCustomizeToolbar.label       "Hanse war boŋ se…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "H">
 
+
+
 <!ENTITY historyMenu.label "Taariki">
 <!ENTITY historyMenu.accesskey "T">
 <!ENTITY historyUndoMenu.label "Kanjey kaŋ kokor ka daaba">
@@ -352,6 +355,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.restoreSession.label "Goywaati bisantaa yeeti">
 <!ENTITY appMenuHistory.viewSidebar.label "Taariki ceraw zuu cebe">
 
+<!ENTITY appMenuHelp.label "Faaba">
 <!ENTITY appMenuHelp.tooltip "Faaba šilbayboŋ feeri">
 
 <!ENTITY appMenuRemoteTabs.label "Kanji hangantey">
@@ -463,6 +467,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY contentSearchInput.label     "Ceeci hãayan">
 <!ENTITY contentSearchSubmit.tooltip  "Ceeciyan sanba">
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
@@ -612,8 +619,8 @@ items are mutually exclusive. -->
 <!ENTITY mediaPlaybackRate2.accesskey "i">
 <!ENTITY mediaPlaybackRate050x2.label "Mosso (0.5×)">
 <!ENTITY mediaPlaybackRate050x2.accesskey "s">
-<!ENTITY mediaPlaybackRate100x2.label "Hankul">
-<!ENTITY mediaPlaybackRate100x2.accesskey "H">
+
+
 <!ENTITY mediaPlaybackRate125x2.label "Cahã (1.25×)">
 <!ENTITY mediaPlaybackRate125x2.accesskey "C">
 <!ENTITY mediaPlaybackRate150x2.label "Cahã ka tonton (1.5×)">
@@ -843,6 +850,24 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Furari tontoney guna">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "G">
+
+
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+
+
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+
+
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+
+
+
 
 <!ENTITY getUserMedia.selectCamera.label "Biizaahaya žemna:">
 <!ENTITY getUserMedia.selectCamera.accesskey "z">

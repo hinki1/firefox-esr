@@ -5,12 +5,12 @@
 <!ENTITY window.title                 "Excepziuns">
 <!ENTITY window.width                 "45em">
 
-<!ENTITY treehead.sitename.label      "Website">
+<!ENTITY treehead.sitename2.label     "Website">
 <!ENTITY treehead.status.label        "Status">
-<!ENTITY removepermission.label       "Allontanar questa website da la glista">
-<!ENTITY removepermission.accesskey   "n">
-<!ENTITY removeallpermissions.label   "Allontanar tut las websites da la glista">
-<!ENTITY removeallpermissions.accesskey "a">
+<!ENTITY removepermission2.label      "Allontanar la website">
+<!ENTITY removepermission2.accesskey  "l">
+<!ENTITY removeallpermissions2.label  "Allontanar tut las websites">
+<!ENTITY removeallpermissions2.accesskey "t">
 <!ENTITY address.label                "Adressa da la website">
 <!ENTITY address.accesskey            "d">
 <!ENTITY block.label                  "Bloccar">

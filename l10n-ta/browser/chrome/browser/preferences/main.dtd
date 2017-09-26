@@ -11,7 +11,7 @@
 <!ENTITY startupPrevSession.label  "கடைசி நேரத்திலிருந்த உங்களுடைய சாளரங்கள் மற்றும் கீற்றுகளைக் காட்டவும்">
 
 <!ENTITY homepage2.label           "முகப்பு பக்கம்">
-<!ENTITY homepage2.accesskey       "P">
+<!ENTITY homepage2.accesskey       "p">
 <!ENTITY useCurrentPage.label      "நடப்பு பக்கத்தை பயன்படுத்து">
 <!ENTITY useCurrentPage.accesskey  "ப">
 <!ENTITY useMultiple.label         "நடப்பு பக்கங்களை பயன்படுத்து">
@@ -33,14 +33,14 @@
 
 <!ENTITY alwaysCheckDefault2.label        "துவக்கத்தில் &brandShortName; முன்னிருப்பு உலாவியாக இருக்கிறதா என்று எப்போதும் சரி பார்">
 <!ENTITY alwaysCheckDefault2.accesskey    "y">
-<!ENTITY setAsMyDefaultBrowser2.label     "முன்னிருப்பாக்கு">
-<!ENTITY setAsMyDefaultBrowser2.accesskey "D">
+<!ENTITY setAsMyDefaultBrowser3.label     "முன்னிருப்பாக்கு…">
+<!ENTITY setAsMyDefaultBrowser3.accesskey "D">
 <!ENTITY isDefault.label                  "&brandShortName; தற்போது உங்களுடைய இயல்புநிலை உலாவியாக உள்ளது">
 <!ENTITY isNotDefault.label               "&brandShortName; உங்களுடைய முன்னிருப்பு உலாவியாக இல்லை">
 
 <!ENTITY separateProfileMode.label        "பயர்பாக்ஸ்சும் &brandShortName; ம் ஒரே நேரத்தில் இயங்க அனுமதி">
 <!ENTITY useFirefoxSync.label             "குறிப்பு: தனித்தனி சுயவிவரங்களைப் பயன்படுத்துகிறது. ஒத்திசைவு மூலம் அவைகளுக்கிடையே தரவை பகிரவும்.">
-
-
+<!ENTITY getStarted.notloggedin.label     "&syncBrand.shortName.label; உள்நுழைக…">
+<!ENTITY getStarted.configured.label      "&syncBrand.shortName.label; முன்னுரிமைகளைத் திற">
 
 <!ENTITY e10sEnabled.label                "பற்செயல்பாடுகளை &brandShortName; செயல்படுத்து">

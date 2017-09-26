@@ -214,6 +214,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "จัดการการใช้ปลั๊กอิน">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "เลือกว่าคุณสามารถรับการแจ้งเตือนจากไซต์ได้หรือไม่">
 <!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "จัดเก็บข้อมูลในที่เก็บข้อมูลถาวร">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "เบราว์เซอร์อยู่ภายใต้การควบคุมระยะไกล">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "จัดการการแบ่งปันกล้องและ/หรือไมโครโฟนของคุณกับไซต์">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "จัดการการแบ่งปันไมโครโฟนของคุณกับไซต์">
@@ -247,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "ที่คั่นหน้าบนมือถือ">
 <!ENTITY viewBookmarksSidebar2.label        "ดูแถบข้างที่คั่นหน้า">
 <!ENTITY viewBookmarksToolbar.label         "ดูแถบเครื่องมือที่คั่นหน้า">
+<!ENTITY searchBookmarks.label              "ค้นหาที่คั่นหน้า">
 
 <!ENTITY containersMenu.label "การแยกข้อมูล">
 
@@ -330,6 +332,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "บ">
 <!ENTITY viewCustomizeToolbar.label       "ปรับแต่ง…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "ป">
+<!ENTITY overflowCustomizeToolbar.label       "ปรับแต่งแถบเครื่องมือ…">
 
 <!ENTITY historyMenu.label "ประวัติ">
 <!ENTITY historyMenu.accesskey "ป">
@@ -350,6 +353,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "ล้างประวัติเมื่อเร็ว ๆ นี้…">
 <!ENTITY appMenuHistory.restoreSession.label "เรียกคืนวาระที่แล้ว">
 <!ENTITY appMenuHistory.viewSidebar.label "ดูแถบข้างประวัติ">
+<!ENTITY appMenuHistory.recentHistory.label "ประวัติเมื่อเร็ว ๆ นี้">
 <!ENTITY appMenuHelp.label "ช่วยเหลือ">
 <!ENTITY appMenuHelp.tooltip "เปิดเมนูช่วยเหลือ">
 
@@ -388,6 +392,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      The overflow menu is the menu that appears if you click the chevron (>> button)
      in the location bar. These labels are only used in Photon, where you can put
      items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "เพิ่มไปยังเมนูล้น">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "พ">
 <!ENTITY customizeMenu.moveToToolbar.label "ย้ายไปยังแถบเครื่องมือ">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "ย">
 <!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
@@ -397,6 +403,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "ย้ายไปยังเมนู">
 <!ENTITY customizeMenu.moveToPanel.accesskey "ย">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "ปักหมุดไปยังเมนูล้น">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "ป">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "ถอดหมุดจากเมนูล้น">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "ถ">
 <!ENTITY customizeMenu.removeFromToolbar.label "เอาออกจากแถบเครื่องมือ">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "อ">
 <!ENTITY customizeMenu.removeFromMenu.label "เอาออกจากเมนู">
@@ -416,7 +426,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.extension.label       "ส่วนขยาย:">
 <!ENTITY urlbar.switchToTab.label     "สลับไปยังแท็บ:">
 
-<!ENTITY urlbar.searchSuggestionsNotification.question "คุณต้องการปรับปรุงประสบการณ์การค้นหาของคุณด้วยคำแนะนำหรือไม่?">
+<!ENTITY urlbar.searchSuggestionsNotification.question "คุณต้องการปรับปรุงประสบการณ์การค้นหาของคุณด้วยข้อเสนอแนะหรือไม่?">
 <!ENTITY urlbar.searchSuggestionsNotification.learnMore "เรียนรู้เพิ่มเติม…">
 <!ENTITY urlbar.searchSuggestionsNotification.learnMore.accesskey "ร">
 <!ENTITY urlbar.searchSuggestionsNotification.disable "ไม่">
@@ -461,6 +471,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "คำค้นหา">
 <!ENTITY contentSearchSubmit.tooltip  "ค้นหา">
+
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+<!ENTITY searchInput.placeholder      "ค้นหา">
+<!ENTITY searchIcon.tooltip           "ค้นหา">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -840,6 +855,26 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "จ">
 <!ENTITY customizeMode.lwthemes.menuGetMore "รับชุดตกแต่งเพิ่มเติม">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "ร">
+<!ENTITY customizeMode.uidensity "ความหนาแน่น">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "ปกติ">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "ปกติ">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "ป">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "กะทัดรัด">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "กะทัดรัด">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "ก">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "สัมผัส">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "สัมผัส">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "ส">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "ใช้การสัมผัสสำหรับโหมดแท็บเล็ต">
 
 <!ENTITY getUserMedia.selectCamera.label "กล้องที่แบ่งปัน:">
 <!ENTITY getUserMedia.selectCamera.accesskey "ก">
@@ -950,5 +985,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY pageActionButton.tooltip "การดำเนินการของหน้า">
 
-<!ENTITY sendToDevice.label "ส่งไปยังอุปกรณ์…">
+<!ENTITY sendToDevice.label2 "ส่งไปยังอุปกรณ์">
 <!ENTITY sendToDevice.viewTitle "ส่งไปยังอุปกรณ์">
+<!ENTITY sendToDevice.syncNotReady.label "กำลังซิงค์อุปกรณ์…">

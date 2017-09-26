@@ -16,7 +16,7 @@
 <!ENTITY landscape.label     "პეიზაჟი">
 <!ENTITY landscape.accesskey "ზ">
 
-<!ENTITY scale.label         "მასშტაბი:">
+<!ENTITY scale.label         "ზომის ცვლილება:">
 <!ENTITY scale.accesskey     "მ">
 <!ENTITY scalePercent        "&#037;">
 
@@ -28,7 +28,7 @@
 <!ENTITY printBG.label       "ფონის დაბეჭდვა (ფერები და სურათები)">
 <!ENTITY printBG.accesskey   "ფ">
 
-<!ENTITY advanced.tab        "მინდვრები და ზედა კოლონტიტული/Footer">
+<!ENTITY advanced.tab        "მინდვრები &amp; ზედა/ქვედა კოლონტიტული">
 
 <!ENTITY marginGroup.label   "საზღვრები (#1)">
 <!ENTITY marginUnits.inches  "დუიმებში">
@@ -50,12 +50,12 @@
 <!ENTITY headerLeft.tip      "მარცხენა თავსართი">
 <!ENTITY headerCenter.tip    "შუა თავსართი">
 <!ENTITY headerRight.tip     "მარჯვენა თავსართი">
-<!ENTITY footerLeft.tip      "მარცხენა ქვესართი">
+<!ENTITY footerLeft.tip      "მარცხენა ბოლოსართი">
 <!ENTITY footerCenter.tip    "შუა ქვესართი">
 <!ENTITY footerRight.tip     "მარჯვხენა ქვესართი">
 
 <!ENTITY hfTitle             "სათაური">
-<!ENTITY hfURL               "მისამართი">
+<!ENTITY hfURL               "URL">
 <!ENTITY hfDateAndTime       "თარიღი">
 <!ENTITY hfPage              "გვერდი #">
 <!ENTITY hfPageAndTotal      "გვერდი # სულ #">

@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Mobiel-bladwijzers">
 <!ENTITY viewBookmarksSidebar2.label        "Bladwijzerzijbalk weergeven">
 <!ENTITY viewBookmarksToolbar.label         "Bladwijzerwerkbalk weergeven">
+<!ENTITY searchBookmarks.label              "Bladwijzers doorzoeken">
 
 <!ENTITY containersMenu.label "Containers">
 
@@ -309,13 +310,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY pasteCmd.key           "V">  
 <!ENTITY pasteCmd.accesskey         "P"> 
 <!ENTITY deleteCmd.label          "Verwijderen">  
-<!ENTITY deleteCmd.key            "d">  
+<!ENTITY deleteCmd.key            "D">  
 <!ENTITY deleteCmd.accesskey        "V"> 
 <!ENTITY selectAllCmd.label         "Alles selecteren">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "A"> 
 <!ENTITY preferencesCmd2.label       "Opties">
-<!ENTITY preferencesCmd2.accesskey     "O"> 
+<!ENTITY preferencesCmd2.accesskey     "O">
 <!ENTITY preferencesCmdUnix.label       "Voorkeuren">
 <!ENTITY preferencesCmdUnix.accesskey     "V">
 
@@ -330,7 +331,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.label "Zijbalk">
 <!ENTITY viewSidebarMenu.accesskey "Z">
 <!ENTITY viewCustomizeToolbar.label       "Aanpassen…"> 
-<!ENTITY viewCustomizeToolbar.accesskey     "A"> 
+<!ENTITY viewCustomizeToolbar.accesskey     "A">
+<!ENTITY overflowCustomizeToolbar.label       "Werkbalk aanpassen…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "a">
 
 <!ENTITY historyMenu.label "Geschiedenis">
 <!ENTITY historyMenu.accesskey "G">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Recente geschiedenis wissen…">
 <!ENTITY appMenuHistory.restoreSession.label "Vorige sessie herstellen">
 <!ENTITY appMenuHistory.viewSidebar.label "Geschiedeniszijbalk weergeven">
+<!ENTITY appMenuHistory.recentHistory.label "Recente geschiedenis">
 <!ENTITY appMenuHelp.label "Help">
 <!ENTITY appMenuHelp.tooltip "Menu Help openen">
 
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "Zoekterm">
 <!ENTITY contentSearchSubmit.tooltip  "Zoekopdracht verzenden">
+
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+<!ENTITY searchInput.placeholder      "Zoeken">
+<!ENTITY searchIcon.tooltip           "Zoeken">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -849,6 +858,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "B">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Meer thema’s verkrijgen">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "M">
+<!ENTITY customizeMode.emptyOverflowList.description "Sleep items hiernaartoe om ze binnen handbereik maar buiten uw werkbalk te houden…">
+<!ENTITY customizeMode.uidensity "Dichtheid">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Normaal">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Normaal">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "N">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Compact">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Compact">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "C">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Touch">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Touch">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "T">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Touch voor tabletmodus gebruiken">
 
 <!ENTITY getUserMedia.selectCamera.label "Te delen camera:">
 <!ENTITY getUserMedia.selectCamera.accesskey "c">
@@ -958,8 +988,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2 "Herstart om &brandShorterName; bij te werken">
 
 <!ENTITY pageActionButton.tooltip "Pagina-acties">
+<!ENTITY pageAction.addToUrlbar.label "Toevoegen aan adresbalk">
+<!ENTITY pageAction.removeFromUrlbar.label "Verwijderen van adresbalk">
 
-<!ENTITY sendToDevice.label "Verzenden naar apparaat…">
-<!ENTITY sendToDevice.viewTitle "Verzenden naar apparaat">
-<!ENTITY sendToDevice.fxaRequired.label "Vereist">
-<!ENTITY sendToDevice.noDevices.label "Geen apparaten beschikbaar">
+<!ENTITY sendToDevice.label2 "Verzenden naar apparaat">
+<!ENTITY sendToDevice.syncNotReady.label "Apparaten synchroniseren…">

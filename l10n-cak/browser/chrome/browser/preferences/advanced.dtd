@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Chijun">
 
-<!ENTITY accessibility.label             "Okel">
-
 <!ENTITY useCursorNavigation.label       "Junelïk ke'awokisaj ri taq rupitz'b'al retal ch'oy richin yatok pa taq ruxaq k'amaya'l">
 <!ENTITY useCursorNavigation.accesskey   "c">
 <!ENTITY searchOnStartTyping.label       "Tikanöx taq rucholajem tzij toq tajin yatz'ib'an">
 <!ENTITY searchOnStartTyping.accesskey   "t">
-<!ENTITY blockAutoReload.label           "Tiya' rutzijol chi re toq jun ruxaq k'amaya'l nrajo' yiruk'waj juk'an chik chuqa' toq nujïk' jub'ey chik re ruxaq k'amaya'l re'.">
-<!ENTITY blockAutoReload.accesskey       "m">
 <!ENTITY useOnScreenKeyboard.label       "Tik'ut pe ri na'onel pitzb'äl toq xtik'atzin">
 <!ENTITY useOnScreenKeyboard.accesskey   "p">
 
@@ -27,25 +23,27 @@
 <!ENTITY checkUserSpelling.accesskey     "n">
 
 <!ENTITY dataChoicesTab.label            "Kicha'ik taq tzij">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
 
-<!ENTITY healthReportDesc.label          "Xkaruto' richin niq'ax pan awi' rub'eyal nisamäj ri owokik'amaya'l chuqa' nukomonij taq tzij rik'in &vendorShortName; chi rij ri raxnaqil">
-<!ENTITY enableHealthReport.label        "Rutzijol Raxnaqil &brandShortName;">
-<!ENTITY enableHealthReport.accesskey    "R">
+<!ENTITY healthReportingDisabled.label   "Chupül ri kitzijol taq tzij richin nib'an kinuk'ulem re taq alk'walaxinem re'">
+
+<!ENTITY enableHealthReport1.label       "Tiya' q'ij chi re &brandShortName; richin nitaq pa ruyonil etamatel taq tzij chuqa' jutzijonem rik'in Mozilla">
+<!ENTITY enableHealthReport1.accesskey   "r">
 <!ENTITY healthReportLearnMore.label     "Tetamäx ch'aqa' chik">
 
-<!ENTITY telemetryDesc.label             "Takomonij ri na'oj pa ruwi' rub'eyal nisamäj, ri rokisaxik, ch'akulakem chuqa' richinaxik awokik'amaya'l rik'in &vendorShortName; richin chi ri &brandShortName; nel ütz">
-<!ENTITY enableTelemetryData.label       "Tikomonïx kitz'aqat taq tzij (achi'el, Telemetry)">
-<!ENTITY enableTelemetryData.accesskey   "T">
-<!ENTITY telemetryLearnMore.label        "Tetamäx ch'aqa' chik">
+<!ENTITY dataCollection.label            "&brandShortName; Kimolik chuqa' Kokisaxik taq Tzij">
+<!ENTITY dataCollectionDesc.label        "Niqatïj qaq'ij richin yeqasüj taq cha'oj chawe chuqa' yeqamöl xa xe ri niqajo' niqaq'axaj chawe chuqa' ri niqutzilaj &brandShortName; kichin konojel. Junelïk naqak'utuj qij chuwäch niqak'ül ri awetamab'al.">
+<!ENTITY dataCollectionPrivacyNotice.label    "Rutzijol Ichinanem">
 
-<!ENTITY crashReporterDesc2.label         "Ri rutzijol taq sachoj &vendorShortName; yeruchojmirisaj taq k'ayewal chuqa' nub'än chi k'o ruchuq'a' chuqa' jikil ri awokik'amaya'l">
-<!ENTITY alwaysSubmitCrashReports.label   "Tiya' q'ij chi re &brandShortName; nutäq backlogged pan ab'i' ri rutzijol taq sachoj">
-<!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "Tetamäx ch'aqa' chik">
+<!ENTITY alwaysSubmitCrashReports1.label  "Tiya' q'ij chi re &brandShortName; richin nutäq kitzijol taq k'ayewal chi re Mozilla">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "k">
+<!ENTITY crashReporterLearnMore.label    "Tetamäx ch'aqa' chik">
 
 <!ENTITY networkTab.label                "K'amab'ey">
 
-<!ENTITY connection.label                "Okem pa k'amaya'l:">
+<!ENTITY networkProxy.label              "Ruproxi K'amab'ey">
 
 <!ENTITY connectionDesc.label            "Tanuk'samajij ri rub'eyal nok ri &brandShortName; pa k'amaya'l">
 <!ENTITY connectionSettings.label        "Tinuk'…">
@@ -92,11 +90,12 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+<!ENTITY updateApplicationDescription.label "Junelïk tik'ex ri &brandShortName; richin ütz nisamäj, jikïl, chuqa' jikon.">
 <!ENTITY updateApplication.version.pre   "Ruwäch ">
 <!ENTITY updateApplication.version.post  "">
 <!ENTITY updateApplication.description   "Tiya' q'ij &brandShortName; chi re">
-<!ENTITY updateAuto2.label               "Keyak pa ruyonil taq k'exoj ruwäch (chilab'en richin nrutzilaj ri jikomal)">
-<!ENTITY updateAuto2.accesskey           "r">
+<!ENTITY updateAuto3.label               "Ruyonil keyak taq k'exoj (echilab'en)">
+<!ENTITY updateAuto3.accesskey           "R">
 <!ENTITY updateCheckChoose2.label        "Kenik'öx taq k'exoj ruwäch, xa xe chi tiya' q'ij chwe richin nincha' we yenyäk">
 <!ENTITY updateCheckChoose2.accesskey    "K">
 <!ENTITY updateManual2.label             "Majub'ey kekanöx taq k'exoj ruwäch (we man echilab'en ta)">
@@ -111,8 +110,6 @@
 <!ENTITY enableSearchUpdate2.label       "Pa yonil k'exoj chuqa' ruk'wayöl kanob'äl">
 <!ENTITY enableSearchUpdate2.accesskey   "x">
 
-<!ENTITY reports.label                   "Kitzijol taq samaj">
-
 <!ENTITY offlineStorageNotify.label               "Taya' rutzijol we k'o jun k'amaya'l nrajo' nuyäk taq tzij richin nrokisaj toq majun okem pa k'amaya'l">
 <!ENTITY offlineStorageNotify.accesskey           "T">
 <!ENTITY offlineStorageNotifyExceptions.label     "Taq man relik ta…">
@@ -124,7 +121,7 @@
 <!ENTITY offlineAppsListRemove.accesskey "T">
 <!ENTITY offlineAppRemove.confirm        "Tiyuj el na'oj pa rub'eyal majun okem pa k'amaya'l">
 
-<!ENTITY certificateTab.label            "Taq ruwujil b'i'aj:">
+<!ENTITY certificateTab.label            "Taq ruwujil b'i'aj">
 <!ENTITY certPersonal2.description       "Toq jun ruk'u'x samaj nuk'utuj pe ri ruwujil ab'i'">
 <!ENTITY selectCerts.auto                "Pa ruyonil ticha' jun">
 <!ENTITY selectCerts.auto.accesskey      "S">
@@ -132,10 +129,10 @@
 <!ENTITY selectCerts.ask.accesskey       "J">
 <!ENTITY enableOCSP.label                "Rutzolixik rutzij ri OCSP peyon tzij, ri ruk'u'x taq samaj nikijikib'a' ri kutzil ri taq ruwujil rub'i'">
 <!ENTITY enableOCSP.accesskey            "p">
-<!ENTITY viewCerts.label                 "Titz'et taq ruwujil b'i'aj">
-<!ENTITY viewCerts.accesskey             "r">
-<!ENTITY viewSecurityDevices.label       "Taq okisaxel richin jikomal">
-<!ENTITY viewSecurityDevices.accesskey   "o">
+<!ENTITY viewCerts2.label                "Titz'et taq Ruwujil b'i'aj…">
+<!ENTITY viewCerts2.accesskey            "R">
+<!ENTITY viewSecurityDevices2.label      "Kokisaxel taq jikomal…">
+<!ENTITY viewSecurityDevices2.accesskey  "K">
 
 <!ENTITY performance.label               "Rub'eyal nisamäj">
 <!ENTITY useRecommendedPerformanceSettings2.label "Tokisäx runuk'ulem rub'eyal nisamäj chilab'en pe">

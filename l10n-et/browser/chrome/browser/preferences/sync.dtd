@@ -10,10 +10,16 @@
 <!ENTITY engine.tabs.accesskey      "r">
 <!ENTITY engine.history.label       "ajalugu">
 <!ENTITY engine.history.accesskey   "a">
+<!ENTITY engine.logins.label        "Kasutajakontod">
+<!ENTITY engine.logins.accesskey    "K">
 <!ENTITY engine.prefs.label         "eelistused">
 <!ENTITY engine.prefs.accesskey     "e">
 <!ENTITY engine.addons.label        "lisad">
 <!ENTITY engine.addons.accesskey    "i">
+<!ENTITY engine.addresses.label     "Aadressid">
+<!ENTITY engine.addresses.accesskey "d">
+<!ENTITY engine.creditcards.label   "Krediitkaardid">
+<!ENTITY engine.creditcards.accesskey "t">
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Seadme nimi">

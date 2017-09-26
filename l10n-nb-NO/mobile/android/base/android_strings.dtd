@@ -295,6 +295,9 @@
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "URL kopiert">
 
+<!ENTITY pref_pwa "Progressive nettapper">
+<!ENTITY pref_pwa_summary "Tillat at nettapper blir lagt til på startskjermen">
+
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Aktivitetsstrøm">
 <!ENTITY pref_activity_stream_summary "En utvidet visuell historikk gjør det enklere enn noen sinne  finne akkurat det du leter etter i &brandShortName;.">
@@ -499,7 +502,7 @@
 <!ENTITY contextmenu_open_new_tab "Åpne i ny fane">
 <!ENTITY contextmenu_open_private_tab "Åpne i privat fane">
 <!ENTITY contextmenu_remove "Slett">
-<!ENTITY contextmenu_add_to_launcher "Legg til på forsiden">
+<!ENTITY contextmenu_add_to_launcher "Legg til på startskjermen">
 <!ENTITY contextmenu_set_as_homepage "Angi som startside">
 <!ENTITY contextmenu_share "Del">
 <!ENTITY contextmenu_pasteandgo "Lim inn og åpne">
@@ -545,6 +548,7 @@
 <!ENTITY page_removed "Siden fjernet">
 
 <!ENTITY bookmark_edit_title "Rediger bokmerke">
+<!ENTITY bookmark_edit_folder_title "Rediger mappe">
 <!ENTITY bookmark_edit_name "Navn">
 <!ENTITY bookmark_edit_location "Adresse">
 <!ENTITY bookmark_edit_keyword "Nøkkelord">
@@ -621,6 +625,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Opphev skjuling av enheter">
+
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+<!ENTITY home_pinned_site "Låst nettsted">
+<!ENTITY home_unpinned_site "Ulåst nettsted">
 
 <!ENTITY remote_tabs_panel_moved_title "Hvor forsvant fanene mine?">
 <!ENTITY remote_tabs_panel_moved_desc "Vi har flyttet fanene dine fra andre enheter til et panel på startsiden, som du enkelt kan få tilgang til hver gang du åpner en ny fane.">

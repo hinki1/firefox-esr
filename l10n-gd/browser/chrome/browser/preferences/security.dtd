@@ -2,8 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  warnOnAddonInstall.label        "Thoir rabhadh nuair a dh’fheuchas làraichean ri tuilleadan a stàladh">
-<!ENTITY  warnOnAddonInstall.accesskey    "T">
+<!ENTITY  security.label                 "Tèarainteachd">
+<!ENTITY  phishingProtection.label       "Dìon o fhiasgach">
+
+
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
   https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
@@ -21,6 +23,8 @@
 <!ENTITY  addonExceptions.label         "Eisgeachdan…">
 <!ENTITY  addonExceptions.accesskey     "E">
 
+
+<!ENTITY  formsAndPasswords.label       "Foirmean ⁊ faclan-faire">
 
 
 <!ENTITY  passwordExceptions.label      "Eisgeachdan…">

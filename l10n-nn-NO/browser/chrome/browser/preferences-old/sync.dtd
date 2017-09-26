@@ -16,10 +16,14 @@
 <!ENTITY engine.prefs.accesskey     "n">
 <!ENTITY engine.addons.label        "Utvidingar">
 <!ENTITY engine.addons.accesskey    "U">
+<!ENTITY engine.addresses.label     "Adresser">
+<!ENTITY engine.addresses.accesskey "e">
+<!ENTITY engine.creditcards.label   "Kredittkort">
+<!ENTITY engine.creditcards.accesskey "K">
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Einingsnamn">
-<!ENTITY changeSyncDeviceName.label "Endre einingsnamn…">
+<!ENTITY changeSyncDeviceName.label "Endre namn på eininga…">
 <!ENTITY changeSyncDeviceName.accesskey "E">
 <!ENTITY cancelChangeSyncDeviceName.label "Avbryt">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "A">

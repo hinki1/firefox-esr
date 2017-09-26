@@ -3,8 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  trackingProtectionHeader2.label      "Seurannan suojaus">
-<!ENTITY  trackingProtection.description       "Seuranta on sitä, kun yritykset keräävät tietoja sinusta luodakseen profiilin ja näyttääkseen sisältöä selaus- ja henkilötietojesi perusteella.">
-<!ENTITY  trackingProtection.radioGroupLabel   "Estä tunnetusti liikkeitäsi seuraavia yrityksiä näyttämästä sisältöä">
+<!ENTITY  trackingProtection2.description      "Seuranta on selaustietojen keräämistä useiden sivustojen yli. Seurantaa voidaan käyttää profilointiin ja näyttämään sisältöä selaus- ja henkilötietojesi perusteella.">
+<!ENTITY  trackingProtection2.radioGroupLabel  "Käytä seurannan suojausta estämään tunnettuja seurantamenetelmiä">
 <!ENTITY  trackingProtectionAlways.label       "Aina">
 <!ENTITY  trackingProtectionAlways.accesskey   "n">
 <!ENTITY  trackingProtectionPrivate.label      "Vain yksityisen selaamisen ikkunoissa">
@@ -15,26 +15,28 @@
 <!ENTITY  trackingProtectionExceptions.label   "Poikkeukset…">
 <!ENTITY  trackingProtectionExceptions.accesskey "P">
 
-<!ENTITY tracking.label                 "Seurantatiedot">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM5.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to true. This currently happens on the release and beta channel. -->
 <!ENTITY trackingProtectionPBM5.label         "Käytä seurannan suojausta yksityisen selaamisen ikkunoissa">
 <!ENTITY trackingProtectionPBM5.accesskey     "y">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM6.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to false. This currently happens on the nightly channel. -->
+<!ENTITY trackingProtectionPBM6.label         "Käytä seurannan suojausta yksityisessä selauksessa estämään tunnettuja seurantamenetelmiä">
+<!ENTITY trackingProtectionPBM6.accesskey     "m">
 <!ENTITY trackingProtectionPBMLearnMore.label "Lue lisää">
-<!ENTITY changeBlockList.label          "Muuta estolistaa">
-<!ENTITY changeBlockList.accesskey      "M">
+<!ENTITY changeBlockList2.label               "Muuta estolistaa…">
+<!ENTITY changeBlockList2.accesskey           "M">
 
-<!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
-<!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
-<!ENTITY  doNotTrack.pre.label          "Voit myös ">
-<!ENTITY  doNotTrack.settings.label     "muokata Älä seuraa -asetuksia">
-<!ENTITY  doNotTrack.post.label         ".">
+<!ENTITY  doNotTrack.description        "Lähetä sivustoille Älä seuraa -signaali, että et halua sinua seurattavan">
+<!ENTITY  doNotTrack.learnMore.label    "Lue lisää">
+<!ENTITY  doNotTrack.default.label      "Vain käytettäessä seurannan suojausta">
+<!ENTITY  doNotTrack.always.label       "Aina">
 
 <!ENTITY  history.label                 "Historiatiedot">
+<!ENTITY  permissions.label             "Oikeudet">
 
-<!ENTITY  locationBar.label             "Osoitepalkki">
-
-<!ENTITY  locbar.suggest2.label         "Ehdota osoitepalkissa sivuja">
-<!ENTITY  locbar.history.label          "sivuhistoriasta">
-<!ENTITY  locbar.history.accesskey      "s">
+<!ENTITY  addressBar.label              "Osoitepalkki">
+<!ENTITY  addressBar.suggest.label      "Ehdota osoitepalkissa sivuja">
+<!ENTITY  locbar.history2.label         "selaushistoriasta">
+<!ENTITY  locbar.history2.accesskey     "h">
 <!ENTITY  locbar.bookmarks.label        "kirjanmerkeistä">
 <!ENTITY  locbar.bookmarks.accesskey    "k">
 <!ENTITY  locbar.openpage.label         "avoimista välilehdistä">
@@ -44,8 +46,8 @@
 
 <!ENTITY  suggestionSettings2.label     "Muuta hakukoneiden ehdotusten asetuksia">
 
-<!ENTITY  acceptCookies.label           "Sivustot saavat asettaa evästeitä">
-<!ENTITY  acceptCookies.accesskey       "v">
+<!ENTITY  acceptCookies2.label          "Sivustot saavat asettaa evästeitä">
+<!ENTITY  acceptCookies2.accesskey      "v">
 
 <!ENTITY  acceptThirdParty.pre.label      "Salli kolmannen osapuolen evästeet:">
 <!ENTITY  acceptThirdParty.pre.accesskey  "m">
@@ -106,7 +108,6 @@
 <!ENTITY  clearOnCloseSettings.label     "Asetukset…">
 <!ENTITY  clearOnCloseSettings.accesskey "u">
 
-<!ENTITY  browserContainersHeader.label         "Luokitellut välilehdet">
 <!ENTITY  browserContainersLearnMore.label      "Lue lisää">
 <!ENTITY  browserContainersEnabled.label        "Käytä luokiteltuja välilehtiä">
 <!ENTITY  browserContainersEnabled.accesskey    "v">

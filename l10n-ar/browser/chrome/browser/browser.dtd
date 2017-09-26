@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "علامات المحمول">
 <!ENTITY viewBookmarksSidebar2.label        "أظهِر شريط العلامات الجانبي">
 <!ENTITY viewBookmarksToolbar.label         "أظهِر شريط أدوات العلامات">
+<!ENTITY searchBookmarks.label              "ابحث في العلامات">
 
 <!ENTITY containersMenu.label "الحاويات">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
@@ -331,8 +332,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "ط">
 <!ENTITY viewCustomizeToolbar.label       "خصص…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "ص">
+<!ENTITY overflowCustomizeToolbar.label       "خصّص شريط الأدوات…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "ش">
 
-<!ENTITY historyMenu.label "تأريخ">
+<!ENTITY historyMenu.label "التأريخ">
 <!ENTITY historyMenu.accesskey "ت">
 <!ENTITY historyUndoMenu.label "الألسنة المُغلقة مؤخرًا">
 <!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "امسح التأريخ الحالي…">
 <!ENTITY appMenuHistory.restoreSession.label "استعد الجلسة السابقة">
 <!ENTITY appMenuHistory.viewSidebar.label "أظهر شريط التأريخ الجانبي">
+<!ENTITY appMenuHistory.recentHistory.label "التأريخ القريب">
 <!ENTITY appMenuHelp.label "مساعدة">
 <!ENTITY appMenuHelp.tooltip "افتح قائمة المساعدة">
 
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY contentSearchInput.label     "استعلام بحث">
 <!ENTITY contentSearchSubmit.tooltip  "أرسل البحث">
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+
+<!ENTITY searchInput.placeholder      "ابحث">
+<!ENTITY searchIcon.tooltip           "ابحث">
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
@@ -850,6 +859,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "ر">
 <!ENTITY customizeMode.lwthemes.menuGetMore "احصل على مزيد من السِمات">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "ح">
+<!ENTITY customizeMode.emptyOverflowList.description "اسحب و أفلت العناصر هنا لإبقائهم في متناول يدك لكن خارج شريط الأدوات…">
+<!ENTITY customizeMode.uidensity "الكثافة">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "عادية">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "عادية">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "ع">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "مضغوطة">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "مضغوطة">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "ط">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "لمس">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "لمس">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "ل">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "استخدم كثافة اللمس لنمط اللوح">
 
 <!ENTITY getUserMedia.selectCamera.label "الكمرة التي ستُشارك:">
 <!ENTITY getUserMedia.selectCamera.accesskey "م">
@@ -959,8 +989,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2 "أعد التشغيل لتحديث &brandShorterName;">
 
 <!ENTITY pageActionButton.tooltip "إجراءات الصفحة">
+<!ENTITY pageAction.addToUrlbar.label "أضف إلى شريط العناوين">
+<!ENTITY pageAction.removeFromUrlbar.label "أزل من شريط العناوين">
 
-<!ENTITY sendToDevice.label "أرسِل إلى جهاز…">
-<!ENTITY sendToDevice.viewTitle "أرسِل إلى جهاز">
-<!ENTITY sendToDevice.fxaRequired.label "مطلوب">
-<!ENTITY sendToDevice.noDevices.label "لا تتوفر أي أجهزة">
+<!ENTITY sendToDevice.label2 "أرسِل إلى جهاز">
+<!ENTITY sendToDevice.syncNotReady.label "يُزامن الأجهزة…">

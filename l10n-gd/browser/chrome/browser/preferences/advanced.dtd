@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Coitcheann">
 
-<!ENTITY accessibility.label             "Inntrigeachd">
-
 <!ENTITY useCursorNavigation.label       "Cleachd na putanan-saigheid gus gluasad am broinn nan duilleagan an-còmhnaidh">
 <!ENTITY useCursorNavigation.accesskey   "C">
 <!ENTITY searchOnStartTyping.label       "Lorg teacsa cho luath ’s a thòisicheas tu air sgrìobhadh">
 <!ENTITY searchOnStartTyping.accesskey   "L">
-<!ENTITY blockAutoReload.label           "Thoir rabhadh nuair a dh’fheuchas làraichean-lìn ri m’ ath-sheòladh no ris an duilleag ath-luchdadh">
-<!ENTITY blockAutoReload.accesskey       "f">
 <!ENTITY useOnScreenKeyboard.label       "Seall meur-chlàr suathaidh ma bhios feum air">
 <!ENTITY useOnScreenKeyboard.accesskey   "m">
 
@@ -27,25 +23,27 @@
 <!ENTITY checkUserSpelling.accesskey     "t">
 
 <!ENTITY dataChoicesTab.label            "Roghainnean dàta">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
 
-<!ENTITY healthReportDesc.label          "Bheir seo fiosrachadh dhut air dèanadas a' bhrabhsair agad agus cuiridh e dàta air slàinte a' bhrabhsair agad dha &vendorShortName;">
-<!ENTITY enableHealthReport.label        "Cuir an comas aithisg slàinte &brandShortName;">
-<!ENTITY enableHealthReport.accesskey    "s">
+<!ENTITY healthReportingDisabled.label   "Tha aithriseadh dàta à comas airson rèiteachadh a’ bhuild seo">
+
+<!ENTITY enableHealthReport1.label       "Leig le &brandShortName; dàta teicnigeach is dàta mu eadar-ghabhail a chur gu Mozilla gu fèin-obrachail">
+<!ENTITY enableHealthReport1.accesskey   "r">
 <!ENTITY healthReportLearnMore.label     "Barrachd fiosrachaidh">
 
-<!ENTITY telemetryDesc.label             "Cuiridh seo dàta air dèanadas, cleachdadh, bathar-cruaidh agus gnàthachadh a' bhrabhsair agad dha &vendorShortName; ach an urrainn dhuinn &brandShortName; a dhèanamh nas fhearr">
-<!ENTITY enableTelemetryData.label       "Co-roinn dàta a bharrachd (m.e. telemeatraidh)">
-<!ENTITY enableTelemetryData.accesskey   "t">
-<!ENTITY telemetryLearnMore.label        "Barrachd fiosrachaidh">
+<!ENTITY dataCollection.label            "Cruinneachadh is cleachdadh dàta le &brandShortName;">
+<!ENTITY dataCollectionDesc.label        "Tha sinn ag obair gu cruaidh airson an dà chuid roghainnean a thoirt dhut agus dìreach an dàta a chruinneachadh a dh’fheumas sinn airson &brandShortName; a sholar dhan a h-uile duine agus airson a leasachadh. Iarraidh sinn cead ort uair sam bith ma bhios feum air dàta pearsanta.">
+<!ENTITY dataCollectionPrivacyNotice.label    "Sanas prìobhaideachd">
 
-<!ENTITY crashReporterDesc2.label         "Cuidichidh aithisgean tuislidh &vendorShortName; a’ càradh duilgheadasan is nì iad am brabhsair agad nas seasmhaiche agus nas tèarainte">
-<!ENTITY alwaysSubmitCrashReports.label   "Leig le &brandShortName; aithisgean tuislidh a chàirn roimhe as do leth">
-<!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "Barrachd fiosrachaidh">
+<!ENTITY alwaysSubmitCrashReports1.label  "Leig le &brandShortName; aithisgean mu thuislidhean a chur gu Mozilla">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "c">
+<!ENTITY crashReporterLearnMore.label    "Barrachd fiosrachaidh">
 
 <!ENTITY networkTab.label                "Lìonra">
 
-<!ENTITY connection.label                "Ceangal">
+<!ENTITY networkProxy.label              "Progsaidh lìonraidh">
 
 <!ENTITY connectionDesc.label            "Rèitich mar a cheanglas &brandShortName; ris an lìon">
 <!ENTITY connectionSettings.label        "Roghainnean…">
@@ -92,11 +90,12 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+<!ENTITY updateApplicationDescription.label "Cum &brandShortName; ùraichte airson dèanadas, seasmhachd is tèarainteachd as fhearr.">
 <!ENTITY updateApplication.version.pre   "Tionndadh ">
 <!ENTITY updateApplication.version.post  "">
-
-<!ENTITY updateAuto2.label               "Stàlaich na h-ùrachaidhean gu fèin-obrachail (mholamaid seo airson tèarainteachd nas fhearr)">
-<!ENTITY updateAuto2.accesskey           "S">
+<!ENTITY updateApplication.description   "Thoir cead dha &brandShortName;">
+<!ENTITY updateAuto3.label               "Stàlaich ùrachaidhean gu fèin-obrachail (mholamaid seo)">
+<!ENTITY updateAuto3.accesskey           "a">
 <!ENTITY updateCheckChoose2.label        "Thoir sùil airson ùrachaidhean ann leig leam co-dhùnadh a bheil mi airson an stàladh">
 <!ENTITY updateCheckChoose2.accesskey    "c">
 <!ENTITY updateManual2.label             "Na thoir sùil airson ùrachaidhean idir (cha mholamaid seo)">
@@ -108,8 +107,8 @@
 <!ENTITY useService.label                "Cleachd seirbheis a stàlaicheas na h-ùrachaidhean sa chùlaibh">
 <!ENTITY useService.accesskey            "C">
 
-
-
+<!ENTITY enableSearchUpdate2.label       "na h-einnseanan-luirg ùrachadh gu fèin-obrachail">
+<!ENTITY enableSearchUpdate2.accesskey   "e">
 
 <!ENTITY offlineStorageNotify.label               "Innis ma bhios làrach-lìn ag iarraidh dàta a stòradh a chum cleachdaidh far loidhne">
 <!ENTITY offlineStorageNotify.accesskey           "t">
@@ -123,24 +122,27 @@
 <!ENTITY offlineAppRemove.confirm        "Thoir air falbh an dàta far loidhne">
 
 <!ENTITY certificateTab.label            "Teisteanasan">
-
+<!ENTITY certPersonal2.description       "Nuair a dh’iarras frithealaiche an teisteanas pearsanta agad">
 <!ENTITY selectCerts.auto                "Taghar fear leis fhèin">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "Faighnich dhìot gach turas">
 <!ENTITY selectCerts.ask.accesskey       "A">
 <!ENTITY enableOCSP.label                "Cuir iarrtas gu frithealaichean OCSP Responder gus dligheachd nan teisteanasan làithreach a dhearbhadh">
 <!ENTITY enableOCSP.accesskey            "C">
-<!ENTITY viewCerts.label                 "Seall na teisteanasan">
-<!ENTITY viewCerts.accesskey             "S">
-<!ENTITY viewSecurityDevices.label       "Uidheaman tèarainteachd">
-<!ENTITY viewSecurityDevices.accesskey   "n">
+<!ENTITY viewCerts2.label                "Seall na teisteanasan...">
+<!ENTITY viewCerts2.accesskey            "S">
+<!ENTITY viewSecurityDevices2.label      "Uidheaman tèarainteachd...">
+<!ENTITY viewSecurityDevices2.accesskey  "n">
 
-
-
-
-
-
-
-
+<!ENTITY performance.label               "Dèanadas">
+<!ENTITY useRecommendedPerformanceSettings2.label "Cleachd na roghainnean dèanadais a mholamaid-ne">
+<!ENTITY useRecommendedPerformanceSettings2.description "Chaidh na roghainnean seo a thaghadh airson ’s gum freagair iad air bathar-cruaidh agus siostam-obrachaidh a’ choimpiutair agad.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey "o">
+<!ENTITY performanceSettingsLearnMore.label "Barrachd fiosrachaidh">
+<!ENTITY limitContentProcessOption.label "Crìoch pròiseasadh na susbaint">
+<!ENTITY limitContentProcessOption.description "Ma cheadaicheas tu pròiseasan susbaint a bharrachd, dh﻿﻿’fhaoidte gum faigh thu dèanadas nas fhearr ach feumaidh e barrachd cuimhne aig an aon àm.">
+<!ENTITY limitContentProcessOption.accesskey   "n">
+<!ENTITY limitContentProcessOption.disabledDescription "Chan urrainn dhut àireamh nam pròiseasan susbaint atharrachadh ach ann am &brandShortName; ioma-phròiseasach.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink "Mar a dh’fhiosraicheas tu a bheil ioma-phròiseasadh an comas">
 <!ENTITY allowHWAccel.label              "Cleachd luathachadh a' bhathar-bhog ma bhios e ri làimh">
 <!ENTITY allowHWAccel.accesskey          "m">

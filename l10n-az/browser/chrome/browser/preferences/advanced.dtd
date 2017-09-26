@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Ümumi">
 
-<!ENTITY accessibility.label             "Əlçatanlıq">
-
 <!ENTITY useCursorNavigation.label       "Səhifələrdə hərəkət edərkən yazi kursorundan istifadə et">
 <!ENTITY useCursorNavigation.accesskey   "S">
 <!ENTITY searchOnStartTyping.label       "Yazmağa başladığınız zaman söz axtarılsın">
 <!ENTITY searchOnStartTyping.accesskey   "x">
-<!ENTITY blockAutoReload.label           "Saytlar sizi yönləndirməyə və ya səhifəni yeniləməyə çalışdıqda xəbərdar olun">
-<!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "Lazım olduqda toxunmalı klaviaturanı göstər">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
@@ -28,26 +24,28 @@
 
 <!ENTITY dataChoicesTab.label            "Məlumat seçimi">
 
-<!ENTITY healthReportDesc.label          "Sizə səyyahınızın performansı barədə daha çox məlumat əldə etməyə köməklik edir və səyahətinizin sağlamlığı haqqında məlumatı &vendorShortName; ilə bölüşür">
-<!ENTITY enableHealthReport.label        "&brandShortName; İş qabiliyyəti hesabatını aktiv et">
-<!ENTITY enableHealthReport.accesskey    "h">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "Bu quraşdırmanın konfiqurasiyasında məlumat xəbərdarlığı söndürülüb">
+
+<!ENTITY enableHealthReport1.label       "&brandShortName; səyyahına avtomatik Mozillaya texniki və qarşılıqlı əlaqə məlumatlarını göndərməyə icazə ver">
+<!ENTITY enableHealthReport1.accesskey   "r">
 <!ENTITY healthReportLearnMore.label     "Ətraflı">
 
-<!ENTITY telemetryDesc.label             "&brandShortName; səyyahınızı yaxşılaşdırmağımıza kömək etmək üçün səyyahınız haqqında olan performans, istifadə, avadanlıq və fərdiləşdirmə məlumatlarını &vendorShortName; ilə paylaşır">
-<!ENTITY enableTelemetryData.label       "Ətraflı məlumat paylaş (məs. Telemetriya)">
-<!ENTITY enableTelemetryData.accesskey   "T">
-<!ENTITY telemetryLearnMore.label        "Ətraflı">
+<!ENTITY dataCollection.label            "&brandShortName; məlumat toplama və istifadəsi">
+<!ENTITY dataCollectionDesc.label        "&brandShortName; səyyahını hamı üçün yaxşılaşdırmağa lazım olacaq məlumatları yığıb sizi ən yaxşı seçimlərlə təmin etmək üçün işləyirik. Şəxsi məlumatları almazdan əvvəl hər dəfə sizdən icazə istəyirik.">
+<!ENTITY dataCollectionPrivacyNotice.label    "Məxfilik Bildirişi">
 
-<!ENTITY crashReporterDesc2.label         "Xəta məlumatları &vendorShortName; tərəfinə xətaları düzəltməyə, səyyahınızı daha stabil və güvənilir etməyə kömək edir">
-<!ENTITY alwaysSubmitCrashReports.label   "&brandShortName; səyyahına arxada sizin adınıza xəta məlumatlarını göndərməsinə icazə ver">
-<!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "Daha Ətraflı">
+<!ENTITY alwaysSubmitCrashReports1.label  "&brandShortName; səyyahına Mozillaya xəta hesabatlarını göndərməyə icazə ver">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "c">
+<!ENTITY crashReporterLearnMore.label    "Daha Ətraflı">
 
 <!ENTITY networkTab.label                "Şəbəkə">
 
-<!ENTITY connection.label                "Bağlantı">
+<!ENTITY networkProxy.label              "Şəbəkə Proksisi">
 
-<!ENTITY connectionDesc.label            "&brandShortName;-un internetə necə bağlanacağını nizamlayın">
+<!ENTITY connectionDesc.label            "&brandShortName; səyyahının internetə necə qoşulacağını nizamlayın">
 <!ENTITY connectionSettings.label        "Nizamlar…">
 <!ENTITY connectionSettings.accesskey    "a">
 
@@ -111,8 +109,6 @@
 <!ENTITY enableSearchUpdate2.label       "Axtarış mühərriklərini avtomatik yenilə">
 <!ENTITY enableSearchUpdate2.accesskey   "e">
 
-<!ENTITY reports.label                   "Raportlar">
-
 <!ENTITY offlineStorageNotify.label               "Sayt oflayn istifadə üçün məlumat saxlamaq istədiyində mənə bildir">
 <!ENTITY offlineStorageNotify.accesskey           "T">
 <!ENTITY offlineStorageNotifyExceptions.label     "İstisnalar…">
@@ -150,5 +146,9 @@
 <!ENTITY limitContentProcessOption.description
                                          "Əlavə məzmun prosesləri çox vərəq işlətdikdə məhsuldarlığı artıra bilərlər, amma daha çox yaddaş işlədəcəklər.">
 <!ENTITY limitContentProcessOption.accesskey   "L">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "Məzmun proseslərinin sayısının dəyişdirilməsi ancaq çox-prosesli &brandShortName; ilə mümkündür.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "Çox-prosesliliyin aktiv olmasını necə yoxlayacağınızı görün">
 <!ENTITY allowHWAccel.label              "Mümkün olduğu vaxt təchizat sürətlənməsindən istifadə et">
 <!ENTITY allowHWAccel.accesskey          "d">

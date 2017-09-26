@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Jikelele">
 
-<!ENTITY accessibility.label             "Ufikelelo">
-
 <!ENTITY useCursorNavigation.label       "Sebenzisa qho amaqhosha ekheza ukufunisela kumakhasi">
 <!ENTITY useCursorNavigation.accesskey   "a">
 <!ENTITY searchOnStartTyping.label       "Khangela iteksti xa uqalisa ukuchwetheza">
 <!ENTITY searchOnStartTyping.accesskey   "t">
-<!ENTITY blockAutoReload.label           "Ndikulumkise xa iiwebhusayithi zizama ukwalathisa okanye ukulayisha iphepha">
-<!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "Bonisa ukuphatha nekhibhodi xa kuyimfuneko">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
@@ -27,25 +23,23 @@
 <!ENTITY checkUserSpelling.accesskey     "u">
 
 <!ENTITY dataChoicesTab.label            "Okukhethwayo kwengcombolo">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
 
-<!ENTITY healthReportDesc.label          "Kukunceda ukuqonde ukusebenza kwebhrawuza yakho kwaye wabelane ngengcombolo yakho ne-&vendorShortName; malungi nempilo yebhrawuza yakho">
-<!ENTITY enableHealthReport.label        "Yenza isebenze i-&brandShortName; iNgxelo yeMpilo">
-<!ENTITY enableHealthReport.accesskey    "y">
-
-
-<!ENTITY telemetryDesc.label             "Yabelana ngomsebenzi, usetyenziso, ihadiwe kunye nolungiselelo lwengcombolo emalunga nebhrawuza yakho ye-&vendorShortName; ukusinceda ekwenzeni i-&brandShortName; ibe ngcono">
-<!ENTITY enableTelemetryData.label       "Yabelana ngeNgcombolo eyoNgezelelweyo (oko kukuthi yi-Telemetry)">
-<!ENTITY enableTelemetryData.accesskey   "T">
+<!ENTITY healthReportingDisabled.label   "Ukuxelwa kwedatha kuyekisiwe ngenxa yolu lwakheko">
 
 
-<!ENTITY crashReporterDesc2.label         "Uncedo lweengxelo zokukhresha &vendorShortName; lungisa iingxaki wenze ibhrawuza yakho izinze ngakumbi kwaye ikhuseleke">
-<!ENTITY alwaysSubmitCrashReports.label   "Vumela &brandShortName; lithumele iingxelo ezifumbileyo egameni lakho">
-<!ENTITY alwaysSubmitCrashReports.accesskey "f">
+<!ENTITY healthReportLearnMore.label     "Funda okungakumbi">
 
+
+
+
+
+<!ENTITY crashReporterLearnMore.label    "Funda okungakumbi">
 
 <!ENTITY networkTab.label                "Inethiwekhi">
 
-<!ENTITY connection.label                "Umdibaniso">
 
 <!ENTITY connectionDesc.label            "Lungiselela indlela i-&brandShortName; enxibelela ngayo kwi-Intanethi">
 <!ENTITY connectionSettings.label        "Isetingi…">
@@ -61,7 +55,7 @@
 <!ENTITY clearSiteData.accesskey         "i">
 <!ENTITY siteDataSettings.label          "Iietingi…">
 <!ENTITY siteDataSettings.accesskey      "e">
-
+<!ENTITY siteDataLearnMoreLink.label     "Funda okungakumbi">
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
@@ -92,22 +86,24 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+<!ENTITY updateApplication.version.pre   "Uhlobo ">
 <!ENTITY updateApplication.version.post  "">
+<!ENTITY updateApplication.description   "Vumela i-&brandShortName; ukuba">
 
 
+<!ENTITY updateCheckChoose2.label        "Khangela uhlaziyo, kodwa ikuvumela ukuba ukhethe ukuba ungazifaka na">
+<!ENTITY updateCheckChoose2.accesskey    "K">
+<!ENTITY updateManual2.label             "Ungaze ukhangele uhlaziyo (akunconyelwa)">
+<!ENTITY updateManual2.accesskey         "U">
 
-
-
-
-
-
-
+<!ENTITY updateHistory2.label            "Bonisa iMbali yoHlaziyo…">
+<!ENTITY updateHistory2.accesskey        "l">
 
 <!ENTITY useService.label                "Sebenzisa inkonzo yokungasemva ukufakela uhlaziyo">
 <!ENTITY useService.accesskey            "y">
 
-
-
+<!ENTITY enableSearchUpdate2.label       "Ngokuzenzekelayo hlaziya iinjini zokukhangela">
+<!ENTITY enableSearchUpdate2.accesskey   "e">
 
 <!ENTITY offlineStorageNotify.label               "Iyakuxelela xa iwebhusayithi icela ukugcina iingcombolo ezinokusetyenziswa xa ingekho kwinethiwekhi">
 <!ENTITY offlineStorageNotify.accesskey           "I">
@@ -121,24 +117,27 @@
 <!ENTITY offlineAppRemove.confirm        "Shenxisa ingcombolo yangaphandle kweintanethi">
 
 <!ENTITY certificateTab.label            "Izatifikethi">
-
+<!ENTITY certPersonal2.description       "Xa iseva icela isatifikethi sakho">
 <!ENTITY selectCerts.auto                "Khetha esinye ngokuzenzekela">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "Iyakubuza ngawo onke amaxesha">
 <!ENTITY selectCerts.ask.accesskey       "A">
 <!ENTITY enableOCSP.label                "Buza iiseva zomphenduli ze-OCSP ukuqinisekisa ukugqibelela kwangoku kwezatifikethi">
 <!ENTITY enableOCSP.accesskey            "B">
-<!ENTITY viewCerts.label                 "Bona izatifikethi">
-<!ENTITY viewCerts.accesskey             "i">
-<!ENTITY viewSecurityDevices.label       "Izixhobo zokhuseleko">
-<!ENTITY viewSecurityDevices.accesskey   "z">
 
 
 
 
 
-
-
-
+<!ENTITY performance.label               "Ukusebenza">
+<!ENTITY useRecommendedPerformanceSettings2.label "Sebenzisa iisetingi ezinconyelwayo zokusebenza">
+<!ENTITY useRecommendedPerformanceSettings2.description "Ezi setingi zilungiselelwe ihadwe nenkqubo yokusebenza yekhompyutha yakho.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey "S">
+<!ENTITY performanceSettingsLearnMore.label "Funda okungakumbi">
+<!ENTITY limitContentProcessOption.label "Inkqubo yesiqulatho nomlinganiselo">
+<!ENTITY limitContentProcessOption.description "Iinkqubo ezongezelelekileyo zesiqulatho zinokuphucula ukusebenza xa usebenzisa iithebhu ezininzi, kodwa iya kusebenzisa imemori engakumbi.">
+<!ENTITY limitContentProcessOption.accesskey   "l">
+<!ENTITY limitContentProcessOption.disabledDescription "Ukuphucula inani leenkqubo zeziqulatho kunokwenzeka kuphela ngeenkqubo ezininzi ze-&brandShortName;.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink "Funda indlela yokuhlola ukuba zivuliwe iinkqubo ezininzi">
 <!ENTITY allowHWAccel.label              "Sebenzisa ukhawuleziso lwehadiwe xa lufumaneka">
 <!ENTITY allowHWAccel.accesskey          "d">

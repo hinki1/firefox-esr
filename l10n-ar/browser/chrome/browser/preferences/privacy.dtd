@@ -3,8 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  trackingProtectionHeader2.label      "الحماية من التعقّب">
-<!ENTITY  trackingProtection.description       "التعقب هو جمع الشركات للمعلومات لبناء تصوّر لك و عرض المحتوى بناء على تصفحك و بياناتك الشخصية.">
-<!ENTITY  trackingProtection.radioGroupLabel   "احجب شركات التعقب المعروفة من عرض المحتوى">
+<!ENTITY  trackingProtection2.description      "التعقب هو جمع بيانات تصفحك عبر عدة مواقع. يمكن استخدام التعقب لتكوين ملف عنك و عرض المحتوى تبعًا لما تتصفحه و معلوماتك الشخصية الأخرى.">
+<!ENTITY  trackingProtection2.radioGroupLabel  "استخدم الحماية من التعقب لحظر المتعقبات المعروفة">
 <!ENTITY  trackingProtectionAlways.label       "دائمًا">
 <!ENTITY  trackingProtectionAlways.accesskey   "د">
 <!ENTITY  trackingProtectionPrivate.label      "في النوافذ الخاصة فقط">
@@ -14,27 +14,29 @@
 <!ENTITY  trackingProtectionLearnMore.label    "اطّلع على المزيد">
 <!ENTITY  trackingProtectionExceptions.label   "الاستثناءات…">
 <!ENTITY  trackingProtectionExceptions.accesskey "س">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM5.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to true. This currently happens on the release and beta channel. -->
 
-<!ENTITY tracking.label                 "التعقب">
 <!ENTITY trackingProtectionPBM5.label         "استخدم الحماية من التعقّب في النوافذ الخاصة">
 <!ENTITY trackingProtectionPBM5.accesskey     "ص">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM6.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to false. This currently happens on the nightly channel. -->
+<!ENTITY trackingProtectionPBM6.label         "استخدم الحماية من التعقب في التصفح الخاص لحظر المتعقبات المعروفة">
+<!ENTITY trackingProtectionPBM6.accesskey     "ص">
 <!ENTITY trackingProtectionPBMLearnMore.label "اطّلع على المزيد">
-<!ENTITY changeBlockList.label          "غيّر قائمة الحجب">
-<!ENTITY changeBlockList.accesskey      "غ">
-<!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
-<!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
+<!ENTITY changeBlockList2.label               "غيّر قائمة الحجب…">
+<!ENTITY changeBlockList2.accesskey           "غ">
 
-<!ENTITY  doNotTrack.pre.label          "يمكنك أيضًا ">
-<!ENTITY  doNotTrack.settings.label     "إدارة تفضيلات خاصية عدم التعقب">
-<!ENTITY  doNotTrack.post.label         ".">
+<!ENTITY  doNotTrack.description        "أرسل للمواقع إشارة ”لا تتعقبني“ بأنك لا تريد أن يتعقبوك">
+<!ENTITY  doNotTrack.learnMore.label    "اطّلع على المزيد">
+<!ENTITY  doNotTrack.default.label      "عند استخدام الحماية من التعقب فقط">
+<!ENTITY  doNotTrack.always.label       "دائمًا">
 
 <!ENTITY  history.label                 "التأريخ">
+<!ENTITY  permissions.label             "الصلاحيات">
 
-<!ENTITY  locationBar.label             "شريط العناوين">
-
-<!ENTITY  locbar.suggest2.label         "عند استخدام شريط العناوين، اقترح">
-<!ENTITY  locbar.history.label          "التأريخ">
-<!ENTITY  locbar.history.accesskey      "ت">
+<!ENTITY  addressBar.label              "شريط العناوين">
+<!ENTITY  addressBar.suggest.label      "عند استخدام شريط العناوين، اقترح">
+<!ENTITY  locbar.history2.label         "تأريخ التصفح">
+<!ENTITY  locbar.history2.accesskey     "ص">
 <!ENTITY  locbar.bookmarks.label        "العلامات">
 <!ENTITY  locbar.bookmarks.accesskey    "ع">
 <!ENTITY  locbar.openpage.label         "الألسنة المفتوحة">
@@ -44,8 +46,8 @@
 
 <!ENTITY  suggestionSettings2.label     "غيّر تفضيلات اقتراحات محرّك البحث">
 
-<!ENTITY  acceptCookies.label           "اقبل الكعكات من المواقع">
-<!ENTITY  acceptCookies.accesskey       "ق">
+<!ENTITY  acceptCookies2.label          "اقبل الكعكات من مواقع الوِب">
+<!ENTITY  acceptCookies2.accesskey      "ق">
 
 <!ENTITY  acceptThirdParty.pre.label      "اقبل الكعكات من أطراف أخرى:">
 <!ENTITY  acceptThirdParty.pre.accesskey  "ب">
@@ -106,7 +108,6 @@
 <!ENTITY  clearOnCloseSettings.label     "إعدادات…">
 <!ENTITY  clearOnCloseSettings.accesskey "د">
 
-<!ENTITY  browserContainersHeader.label         "الألسنة الحاوية">
 <!ENTITY  browserContainersLearnMore.label      "اطّلع على المزيد">
 <!ENTITY  browserContainersEnabled.label        "فعل الألسنة الحاوية">
 <!ENTITY  browserContainersEnabled.accesskey    "ف">

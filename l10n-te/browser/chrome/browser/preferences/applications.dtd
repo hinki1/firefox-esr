@@ -3,7 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  applications.label       "అనువర్తనాలు">
-<!ENTITY  applications.description "&brandShortName; మీరు వెబ్ నుండి డౌన్లోడ్ చేస్తున్న ఫైళ్ళను లేదా బ్రౌజింగ్ సమయంలో మీరు ఉపయోగించే అనువర్తనాలను ఎలా నిర్వహిస్తుందో ఎంచుకోండి.">
 
 <!ENTITY  typeColumn.label        "విషయాంశ రకం">
 <!ENTITY  typeColumn.accesskey    "T">

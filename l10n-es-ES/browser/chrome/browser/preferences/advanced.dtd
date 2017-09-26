@@ -3,13 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY generalTab.label "General">
-<!ENTITY accessibility.label "Accesibilidad">
 <!ENTITY useCursorNavigation.label "Usar siempre las teclas del cursor para navegar dentro de las páginas">
 <!ENTITY useCursorNavigation.accesskey "c">
 <!ENTITY searchOnStartTyping.label "Buscar texto cuando comience a escribir">
 <!ENTITY searchOnStartTyping.accesskey "x">
-<!ENTITY blockAutoReload.label "Advertirle cuando los sitios web intenten redirigir o recargar la página">
-<!ENTITY blockAutoReload.accesskey "d">
 <!ENTITY useOnScreenKeyboard.label "Mostrar un teclado táctil cuando sea necesario">
 <!ENTITY useOnScreenKeyboard.accesskey "s">
 <!ENTITY browsing.label "Navegación">
@@ -20,20 +17,18 @@
 <!ENTITY checkUserSpelling.label "Revisar la ortografía según escribe">
 <!ENTITY checkUserSpelling.accesskey "v">
 <!ENTITY dataChoicesTab.label "Elección de datos">
-<!ENTITY healthReportDesc.label "Le ayuda a entender el rendimiento de su navegador y comparte datos con &vendorShortName; sobre la salud de éste">
-<!ENTITY enableHealthReport.label "Activar el informe de salud de &brandShortName;">
-<!ENTITY enableHealthReport.accesskey "R">
+<!ENTITY healthReportingDisabled.label "La recopilación de datos está deshabilitada en esta configuración de compilación">
+<!ENTITY enableHealthReport1.label "Permitir a &brandShortName; enviar automáticamente datos técnicos y de interacción a Mozilla">
+<!ENTITY enableHealthReport1.accesskey "r">
 <!ENTITY healthReportLearnMore.label "Saber más">
-<!ENTITY telemetryDesc.label "Comparte datos de rendimiento, uso, hardware y personalizaciones sobre su navegador con &vendorShortName; para ayudar a hacer &brandShortName; mejor">
-<!ENTITY enableTelemetryData.label "Compartir datos adicionales (i.e., Telemetry)">
-<!ENTITY enableTelemetryData.accesskey "C">
-<!ENTITY telemetryLearnMore.label "Saber más">
-<!ENTITY crashReporterDesc2.label "Los informes de fallos ayudan a &vendorShortName; a solucionar problemas y a hacer su navegador más estable y seguro">
-<!ENTITY alwaysSubmitCrashReports.label "Permitir a &brandShortName; enviar informes de fallos registrados en nombre suyo">
-<!ENTITY alwaysSubmitCrashReports.accesskey "P">
+<!ENTITY dataCollection.label "Recopilación y uso de datos de &brandShortName;">
+<!ENTITY dataCollectionDesc.label "Nos esforzamos en proporcionarle opciones y recopilamos solo lo que necesitamos para proporcionarle y mejorar &brandShortName; para todos. Siempre pedimos permiso antes de recibir información personal.">
+<!ENTITY dataCollectionPrivacyNotice.label "Aviso sobre privacidad">
+<!ENTITY alwaysSubmitCrashReports1.label "Permitir a &brandShortName; enviar informes de fallos a Mozilla">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "P">
 <!ENTITY crashReporterLearnMore.label "Saber más">
 <!ENTITY networkTab.label "Red">
-<!ENTITY connection.label "Conexión">
+<!ENTITY networkProxy.label "Proxy de red">
 <!ENTITY connectionDesc.label "Configurar cómo &brandShortName; se conecta a Internet">
 <!ENTITY connectionSettings.label "Configuración…">
 <!ENTITY connectionSettings.accesskey "o">
@@ -56,11 +51,12 @@
 <!ENTITY overrideSmartCacheSize.accesskey "g">
 <!ENTITY updateTab.label "Actualizar">
 <!ENTITY updateApplication.label "Actualizaciones de &brandShortName;">
+<!ENTITY updateApplicationDescription.label "Mantenga &brandShortName; actualizado para un rendimiento, estabilidad y seguridad óptimos.">
 <!ENTITY updateApplication.version.pre "Versión">
 <!ENTITY updateApplication.version.post "">
 <!ENTITY updateApplication.description "Permitir a &brandShortName;">
-<!ENTITY updateAuto2.label "Instalar actualizaciones automáticamente (recomendado para mejorar la seguridad)">
-<!ENTITY updateAuto2.accesskey "I">
+<!ENTITY updateAuto3.label "Instalar actualizaciones automáticamente (recomendado)">
+<!ENTITY updateAuto3.accesskey "I">
 <!ENTITY updateCheckChoose2.label "Buscar actualizaciones, pero permitirle elegir si instalarlas">
 <!ENTITY updateCheckChoose2.accesskey "B">
 <!ENTITY updateManual2.label "No buscar actualizaciones (no recomendado)">
@@ -71,7 +67,6 @@
 <!ENTITY useService.accesskey "p">
 <!ENTITY enableSearchUpdate2.label "Actualizar automáticamente los buscadores">
 <!ENTITY enableSearchUpdate2.accesskey "A">
-<!ENTITY reports.label "Informes">
 <!ENTITY offlineStorageNotify.label "Avisarle cuando un sitio web solicite guardar datos para su uso sin conexión">
 <!ENTITY offlineStorageNotify.accesskey "v">
 <!ENTITY offlineStorageNotifyExceptions.label "Excepciones…">
@@ -89,10 +84,10 @@
 <!ENTITY selectCerts.ask.accesskey "P">
 <!ENTITY enableOCSP.label "Consultar a los servidores respondedores OCSP para confirmar la validez actual de los certificados">
 <!ENTITY enableOCSP.accesskey "u">
-<!ENTITY viewCerts.label "Ver certificados">
-<!ENTITY viewCerts.accesskey "e">
-<!ENTITY viewSecurityDevices.label "Dispositivos de seguridad">
-<!ENTITY viewSecurityDevices.accesskey "o">
+<!ENTITY viewCerts2.label "Ver certificados…">
+<!ENTITY viewCerts2.accesskey "e">
+<!ENTITY viewSecurityDevices2.label "Dispositivos de seguridad…">
+<!ENTITY viewSecurityDevices2.accesskey "D">
 <!ENTITY performance.label "Rendimiento">
 <!ENTITY useRecommendedPerformanceSettings2.label "Usar configuración de rendimiento recomendada">
 <!ENTITY useRecommendedPerformanceSettings2.description "Esta configuración está ajustada al hardware y sistema operativo de su equipo.">

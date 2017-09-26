@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Général">
 
-<!ENTITY accessibility.label             "Accessibilité">
-
 <!ENTITY useCursorNavigation.label       "Toujours utiliser les touches de navigation pour se déplacer à l’intérieur d’une page">
 <!ENTITY useCursorNavigation.accesskey   "T">
 <!ENTITY searchOnStartTyping.label       "Lancer la recherche lors de la saisie de texte">
 <!ENTITY searchOnStartTyping.accesskey   "c">
-<!ENTITY blockAutoReload.label           "Prévenir lorsque des sites web tentent de rediriger ou de recharger la page">
-<!ENTITY blockAutoReload.accesskey       "P">
 <!ENTITY useOnScreenKeyboard.label       "Afficher un clavier virtuel lorsque nécessaire">
 <!ENTITY useOnScreenKeyboard.accesskey   "A">
 
@@ -28,24 +24,26 @@
 
 <!ENTITY dataChoicesTab.label            "Données collectées">
 
-<!ENTITY healthReportDesc.label          "Vous aide à comprendre les performances de votre navigateur et envoie à &vendorShortName; des informations concernant la santé de votre navigateur">
-<!ENTITY enableHealthReport.label        "Activer le bilan de santé de &brandShortName;">
-<!ENTITY enableHealthReport.accesskey    "c">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "L’envoi de données est désactivé pour cette configuration de compilation">
+
+<!ENTITY enableHealthReport1.label       "Autoriser &brandShortName; à envoyer automatiquement des données techniques et des données d’interaction à Mozilla">
+<!ENTITY enableHealthReport1.accesskey   "A">
 <!ENTITY healthReportLearnMore.label     "En savoir plus">
 
-<!ENTITY telemetryDesc.label             "Envoie des informations sur les performances, le matériel, l’utilisation et les personnalisations à &vendorShortName; pour aider à améliorer &brandShortName;">
-<!ENTITY enableTelemetryData.label       "Envoyer des données supplémentaires (c.-à-d. des données télémétriques)">
-<!ENTITY enableTelemetryData.accesskey   "E">
-<!ENTITY telemetryLearnMore.label        "En savoir plus">
+<!ENTITY dataCollection.label            "Collecte de données par &brandShortName; et utilisation">
+<!ENTITY dataCollectionDesc.label        "Nous nous efforçons de vous laisser le choix et de recueillir uniquement les informations dont nous avons besoin pour proposer et améliorer &brandShortName; pour tout le monde. Nous demandons toujours votre permission avant de recevoir des données personnelles.">
+<!ENTITY dataCollectionPrivacyNotice.label    "Politique de confidentialité">
 
-<!ENTITY crashReporterDesc2.label         "Les rapports de plantages aident &vendorShortName; à corriger les problèmes et à rendre votre navigateur plus stable et sécurisé">
-<!ENTITY alwaysSubmitCrashReports.label   "Autoriser &brandShortName; à envoyer pour vous les rapports de plantages en attente">
-<!ENTITY alwaysSubmitCrashReports.accesskey "u">
-<!ENTITY crashReporterLearnMore.label     "En savoir plus">
+<!ENTITY alwaysSubmitCrashReports1.label  "Autoriser &brandShortName; à envoyer les rapports de plantage à Mozilla">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "u">
+<!ENTITY crashReporterLearnMore.label    "En savoir plus">
 
 <!ENTITY networkTab.label                "Réseau">
 
-<!ENTITY connection.label                "Connexion">
+<!ENTITY networkProxy.label              "Proxy réseau">
 
 <!ENTITY connectionDesc.label            "Configurer la façon dont &brandShortName; se connecte à Internet">
 <!ENTITY connectionSettings.label        "Paramètres…">
@@ -92,11 +90,13 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+<!ENTITY updateApplicationDescription.label
+                                         "Conservez &brandShortName; à jour pour bénéficier des dernières avancées en matière de performances, de stabilité et de sécurité.">
 <!ENTITY updateApplication.version.pre   "Version ">
 <!ENTITY updateApplication.version.post  "">
 <!ENTITY updateApplication.description   "Autoriser &brandShortName; à">
-<!ENTITY updateAuto2.label               "Installer automatiquement les mises à jour (recommandé pour votre sécurité)">
-<!ENTITY updateAuto2.accesskey           "A">
+<!ENTITY updateAuto3.label               "Installer les mises à jour automatiquement (recommandé)">
+<!ENTITY updateAuto3.accesskey           "I">
 <!ENTITY updateCheckChoose2.label        "Vérifier l’existence de mises à jour, mais vous laisser décider de leur installation">
 <!ENTITY updateCheckChoose2.accesskey    "C">
 <!ENTITY updateManual2.label             "Ne jamais vérifier les mises à jour (déconseillé)">
@@ -110,8 +110,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "Mettre à jour automatiquement les moteurs de recherche">
 <!ENTITY enableSearchUpdate2.accesskey   "r">
-
-<!ENTITY reports.label                   "Rapports">
 
 <!ENTITY offlineStorageNotify.label               "Avertir lorsqu’un site souhaite conserver des données pour une utilisation hors connexion">
 <!ENTITY offlineStorageNotify.accesskey           "T">
@@ -132,10 +130,10 @@
 <!ENTITY selectCerts.ask.accesskey       "V">
 <!ENTITY enableOCSP.label                "Interroger le répondeur OCSP pour confirmer la validité de vos certificats">
 <!ENTITY enableOCSP.accesskey            "I">
-<!ENTITY viewCerts.label                 "Afficher les certificats">
-<!ENTITY viewCerts.accesskey             "A">
-<!ENTITY viewSecurityDevices.label       "Périphériques de sécurité">
-<!ENTITY viewSecurityDevices.accesskey   "P">
+<!ENTITY viewCerts2.label                "Afficher les certificats…">
+<!ENTITY viewCerts2.accesskey            "A">
+<!ENTITY viewSecurityDevices2.label      "Périphériques de sécurité…">
+<!ENTITY viewSecurityDevices2.accesskey  "P">
 
 <!ENTITY performance.label               "Performances">
 <!ENTITY useRecommendedPerformanceSettings2.label

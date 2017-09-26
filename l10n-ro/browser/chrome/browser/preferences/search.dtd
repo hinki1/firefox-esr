@@ -4,18 +4,18 @@
 
 <!ENTITY defaultSearchEngine.label             "Motor de căutare implicit">
 
-<!ENTITY chooseYourDefaultSearchEngine.label   "Alege motorul de căutare implicit. &brandShortName; îl folosește în bara de adresă, bara de căutare și pagina de start.">
+<!ENTITY chooseYourDefaultSearchEngine2.label   "Alege motorul de căutare implicit pentru a fi folosit în bara de adresă și în bara de căutare.">
 
 <!ENTITY provideSearchSuggestions.label        "Furnizează sugestii de căutare">
 <!ENTITY provideSearchSuggestions.accesskey    "s">
 
-<!ENTITY showURLBarSuggestions.label           "Arată sugestiile de căutare în rezultatele din bara de adrese.">
-<!ENTITY showURLBarSuggestions.accesskey       "l">
+<!ENTITY showURLBarSuggestions2.label           "Afișează sugestiile de căutare în rezultatele din bara de adresă">
+<!ENTITY showURLBarSuggestions2.accesskey       "l">
 <!ENTITY urlBarSuggestionsPermanentPB.label    "Sugestiile de căutare nu vor fi afișate în rezultatele din bara de adrese deoarece ai configurat &brandShortName; ca să nu țină minte niciodată istoricul.">
 
 <!ENTITY oneClickSearchEngines.label           "Motoare de căutare la un clic distanță">
 
-<!ENTITY chooseWhichOneToDisplay.label         "Bara de căutare îți permite să cauți direct cu diferite motoare de căutare. Alege motoarele de căutare cu care să cauți.">
+<!ENTITY chooseWhichOneToDisplay2.label         "Alege motoarele de căutare alternative care apar sub bara de adresă și bara de căutare atunci când începi să introduci un cuvânt cheie.">
 
 <!ENTITY engineNameColumn.label                "Motor de căutare">
 <!ENTITY engineKeywordColumn.label             "Cuvânt cheie">
@@ -26,4 +26,4 @@
 <!ENTITY removeEngine.label                    "Elimină">
 <!ENTITY removeEngine.accesskey                "R">
 
-<!ENTITY addMoreSearchEngines2.label           "Adaugă mai multe motoare de căutare…">
+<!ENTITY findMoreSearchEngines.label           "Găsește mai multe motoare de căutare">

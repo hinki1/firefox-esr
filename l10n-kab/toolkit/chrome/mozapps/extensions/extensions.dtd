@@ -124,8 +124,8 @@
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
 <!ENTITY discover.title                       "D acu i d-izegrar?">
-<!ENTITY discover.description2                "Izegrar d isnasen ak yeǧǧen ad tsagneḍ &brandShortName; s  tmahilin neɣ iɣunab isemmadanen. Fares tagwnitt s ugalis adisan, qaṛeɛ tagnawt neɣ snifel arwes n &brandShortName; akken tebɣiḍ. ">
-<!ENTITY discover.footer                      "Ticki tuqqna yinek ɣer Internet termed, agalis-agi ad k-d-isken kra n izegrar ifazen d wid yettwassnen aṭas.">
+<!ENTITY discover.description2                "Izegrar d isnasen a k-yeǧǧen ad tsagneḍ &brandShortName; s  tmahilin neɣ iɣunab isemmadanen. Faṛes tagnitt s ugalis adisan, qaṛeɛ tagnawt neɣ snifel arwes n &brandShortName; akken tebɣiḍ. ">
+<!ENTITY discover.footer                      "Ticki tuqqna-inek ɣer Internet termed, agalis-a ad k-d-isken kra n izegrar ifazen d wid yettwassnen aṭas.">
 
 <!-- detail view -->
 <!ENTITY detail.version.label                 "Lqem">
@@ -259,4 +259,4 @@
 <!ENTITY legacyWarning.showLegacy "Sken akk iseɣzaf iqburen">
 <!ENTITY legacyExtensions.title "Iseγzaf iqburen">
 <!ENTITY legacyExtensions.description "Iseγzaf-agi ur sεin ara ilugan n &brandShortName; imiranen γef aya ittwasensen.">
-<!ENTITY legacyExtensions.learnMore "Issin ugar γef usnifel γer izegrar">
+<!ENTITY legacyExtensions.learnMore "Issin ugar ɣef usnifel ɣer izegrar">

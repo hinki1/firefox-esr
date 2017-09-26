@@ -295,6 +295,9 @@
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "URL copiada">
 
+<!ENTITY pref_pwa "Aplicaciones web progresivas">
+<!ENTITY pref_pwa_summary "Permitir que las aplicaciones se agreguen a la pantalla de inicio">
+
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Flujo de actividad">
 <!ENTITY pref_activity_stream_summary "Una vista enriquecida del historial y una página de inicio reimaginada hacen más fácil que nunca encontrar exactamente lo que estás buscando en &brandShortName;.">
@@ -358,10 +361,6 @@
 <!ENTITY pref_clear_on_exit_title3 "Borrar datos privados al salir">
 <!ENTITY pref_clear_on_exit_summary2 "&brandShortName; limpiará automáticamente tus datos cuando elijás \u0022Salir\u0022 del menú principal">
 <!ENTITY pref_clear_on_exit_dialog_title "Seleccionar que datos limpiar">
-<!ENTITY pref_plugins "Plugins">
-<!ENTITY pref_plugins_enabled "Habilitado">
-<!ENTITY pref_plugins_tap_to_play2 "Tocar para reproducir">
-<!ENTITY pref_plugins_disabled "Deshabilitado">
 <!ENTITY pref_restore_tabs "Restaurar pestañas">
 <!ENTITY pref_restore_always "Siempre restaurar">
 <!ENTITY pref_restore_quit "No restaurar después de salir de &brandShortName;">
@@ -545,6 +544,7 @@
 <!ENTITY page_removed "Página eliminada">
 
 <!ENTITY bookmark_edit_title "Editar marcador">
+<!ENTITY bookmark_edit_folder_title "Editar carpeta">
 <!ENTITY bookmark_edit_name "Nombre">
 <!ENTITY bookmark_edit_location "Dirección">
 <!ENTITY bookmark_edit_keyword "Palabra clave">
@@ -621,6 +621,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Hacer visible los dispositivos seleccionados">
+
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+<!ENTITY home_pinned_site "Sitio pegado">
+<!ENTITY home_unpinned_site "Sitio despegado">
 
 <!ENTITY remote_tabs_panel_moved_title "¿A donde fueron mis pestañas?">
 <!ENTITY remote_tabs_panel_moved_desc "Movimos las pestañas de tus otros dispositivos a un panel en tu página de inicio que puede accederse fácilmente cada vez que abrás una nueva pestaña.">
@@ -845,3 +850,4 @@ is simply hidden from the Activity Stream panel. -->
 
 <!ENTITY activity_stream_welcome_title "Bienvenido a tus destacados">
 <!ENTITY activity_stream_welcome_content1 "&brandShortName; ahora crea elementos destacados que al visitar se hayan descubierto en la web así se pueden encontrar nuevamente grandes artículos, videos, marcadores y otras páginas.">
+<!ENTITY fullscreen_warning "Se pasó a pantalla completa">

@@ -10,7 +10,7 @@
 <!ENTITY  copy.accesskey        "a">
 <!ENTITY  selectall.key         "A">
 <!ENTITY  selectall.label       "Pilih Semua">
-<!ENTITY  selectall.accesskey   "A">
+<!ENTITY  selectall.accesskey   "S">
 <!ENTITY  closeWindow.key       "w">
 
 <!ENTITY  generalTab            "Umum">
@@ -53,14 +53,14 @@
 <!ENTITY  permTab.accesskey     "P">
 <!ENTITY  permUseDefault        "Guna Piawai">
 <!ENTITY  permAskAlways         "sentiasa menanya">
-<!ENTITY  permAllow             "Benarkan">
-<!ENTITY  permAllowSession      "Sesi ini dibenarkan">
+<!ENTITY  permAllow             "Izinkan">
+<!ENTITY  permAllowSession      "Izinkan Sesi ini">
 <!ENTITY  permBlock             "Sekat">
 <!ENTITY  permissionsFor        "Keizinan untuk:">
 <!ENTITY  permPlugins           "Plugin Aktif">
 
-<!ENTITY  permClearStorage           "Bersihkan Storan">
-<!ENTITY  permClearStorage.accesskey "C">
+<!ENTITY  permClearStorage           "Buang Storan">
+<!ENTITY  permClearStorage.accesskey "S">
 
 <!ENTITY  securityTab           "Keselamatan">
 <!ENTITY  securityTab.accesskey "S">
@@ -73,6 +73,7 @@
 <!ENTITY  securityView.identity.owner    "Pemilik:">
 <!ENTITY  securityView.identity.domain   "Laman Web:">
 <!ENTITY  securityView.identity.verifier "Disahkan oleh:">
+<!ENTITY  securityView.identity.validity "Luput pada:">
 
 <!ENTITY  securityView.privacy.header                   "Peribadi &amp; Sejarah">
 <!ENTITY  securityView.privacy.history                  "Adakah saya pernah lawati laman web ini sebelum ini?">

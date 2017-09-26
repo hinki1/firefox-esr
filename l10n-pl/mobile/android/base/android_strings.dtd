@@ -214,6 +214,9 @@
 <!ENTITY custom_tabs_menu_footer "Funkcja programu &brandShortName;">
 <!ENTITY custom_tabs_hint_url_copy "Skopiowano adres">
 
+<!ENTITY pref_pwa "Nowoczesne aplikacje internetowe">
+<!ENTITY pref_pwa_summary "Umożliwia dodawanie aplikacji internetowych do ekranu głównego">
+
 <!ENTITY pref_activity_stream "Activity Stream">
 <!ENTITY pref_activity_stream_summary "Wizualna historia i nowa strona domowa, ułatwiające wyszukiwanie treści w przeglądarce &brandShortName;.">
 
@@ -251,10 +254,6 @@
 <!ENTITY pref_clear_on_exit_title3 "Czyszczenie przy wyłączaniu">
 <!ENTITY pref_clear_on_exit_summary2 "&brandShortName; zawsze będzie czyścił prywatne dane po wybraniu opcji \u201eZakończ\u201d z głównego menu">
 <!ENTITY pref_clear_on_exit_dialog_title "Wybierz dane, które chcesz czyścić">
-<!ENTITY pref_plugins "Wtyczki">
-<!ENTITY pref_plugins_enabled "Włączone">
-<!ENTITY pref_plugins_tap_to_play2 "Dotknięcie, aby odtworzyć">
-<!ENTITY pref_plugins_disabled "Wyłączone">
 <!ENTITY pref_restore_tabs "Przywracanie kart">
 <!ENTITY pref_restore_always "Zawsze">
 <!ENTITY pref_restore_quit "Nigdy">
@@ -398,6 +397,7 @@
 <!ENTITY page_removed "Usunięto stronę">
 
 <!ENTITY bookmark_edit_title "Edytuj zakładkę">
+<!ENTITY bookmark_edit_folder_title "Edytuj folder">
 <!ENTITY bookmark_edit_name "Nazwa">
 <!ENTITY bookmark_edit_location "Adres URL">
 <!ENTITY bookmark_edit_keyword "Słowo kluczowe">
@@ -450,6 +450,9 @@
 <!ENTITY home_remote_tabs_many_hidden_devices "Liczba ukrytych urządzeń: &formatD;">
 <!ENTITY home_remote_tabs_hidden_devices_title "Ukryte urządzenia">
 <!ENTITY home_remote_tabs_unhide_selected_devices "Ujawnij wybrane urządzenia">
+
+<!ENTITY home_pinned_site "Przypięto stronę">
+<!ENTITY home_unpinned_site "Odpięto stronę">
 
 <!ENTITY remote_tabs_panel_moved_title "Gdzie zniknęły moje karty?">
 <!ENTITY remote_tabs_panel_moved_desc "Przenieśliśmy twoje karty z innych urządzeń do panelu na stronie domowej, gdzie możesz je łatwo znaleźć przy otwieraniu nowej karty.">
@@ -594,7 +597,7 @@
 <!ENTITY activity_stream_highlight_label_bookmarked "Zakładka">
 <!ENTITY activity_stream_highlight_label_visited "Odwiedzone">
 
-<!ENTITY activity_stream_dismiss "Odrzuć">
+<!ENTITY activity_stream_dismiss "Zamknij">
 <!ENTITY activity_stream_delete_history "Usuń z historii">
 
 <!ENTITY activity_stream_welcome_title "Witaj na liście wyróżnień">

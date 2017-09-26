@@ -3,8 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  trackingProtectionHeader2.label      "Sporingsbeskyttelse">
-<!ENTITY  trackingProtection.description       "Sporing er når selskaper samler inn informasjon om deg for å bygge en profil og vise innhold basert på din surfing og personlige data.">
-<!ENTITY  trackingProtection.radioGroupLabel   "Blokker kjente sporingsselskaper fra å vise innhold">
+<!ENTITY  trackingProtection2.description      "Sporing er en innsamling av dine nettleserdata fra flere nettsider. Sporing kan brukes til å bygge en profil, og for å vise innhold basert på surfingen din og din egen personlige informasjon.">
+<!ENTITY  trackingProtection2.radioGroupLabel  "Bruk sporingsbeskyttelse til å blokkere kjente sporere">
 <!ENTITY  trackingProtectionAlways.label       "Alltid">
 <!ENTITY  trackingProtectionAlways.accesskey   "l">
 <!ENTITY  trackingProtectionPrivate.label      "Bare i private vinduer">
@@ -15,26 +15,28 @@
 <!ENTITY  trackingProtectionExceptions.label   "Unntak …">
 <!ENTITY  trackingProtectionExceptions.accesskey "U">
 
-<!ENTITY tracking.label                 "Sporing">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM5.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to true. This currently happens on the release and beta channel. -->
 <!ENTITY trackingProtectionPBM5.label         "Bruk sporingsbeskyttelse i private vinduer">
 <!ENTITY trackingProtectionPBM5.accesskey     "u">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM6.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to false. This currently happens on the nightly channel. -->
+<!ENTITY trackingProtectionPBM6.label         "Bruk sporingsbeskyttelse i privat nettlesing for å blokkere kjente sporere">
+<!ENTITY trackingProtectionPBM6.accesskey     "v">
 <!ENTITY trackingProtectionPBMLearnMore.label "Les mer">
-<!ENTITY changeBlockList.label          "Endre blokkeringsliste">
-<!ENTITY changeBlockList.accesskey      "b">
+<!ENTITY changeBlockList2.label               "Endre blokkeringsliste…">
+<!ENTITY changeBlockList2.accesskey           "b">
 
-<!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
-<!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
-<!ENTITY  doNotTrack.pre.label          "Du kan også ">
-<!ENTITY  doNotTrack.settings.label     "behandle Ikke Spor-innstillinger">
-<!ENTITY  doNotTrack.post.label         ".">
+<!ENTITY  doNotTrack.description        "Send nettsider et «Ikke spor»-signal om at du ikke vil bli sporet">
+<!ENTITY  doNotTrack.learnMore.label    "Les mer">
+<!ENTITY  doNotTrack.default.label      "Berre når du bruker sporingsbeskyttelse">
+<!ENTITY  doNotTrack.always.label       "Alltid">
 
 <!ENTITY  history.label                 "Historikk">
+<!ENTITY  permissions.label             "Tillatelser">
 
-<!ENTITY  locationBar.label             "Adresselinje">
-
-<!ENTITY  locbar.suggest2.label         "Når du bruker adressefeltet, foreslå">
-<!ENTITY  locbar.history.label          "Historikk">
-<!ENTITY  locbar.history.accesskey      "H">
+<!ENTITY  addressBar.label              "Adresselinje">
+<!ENTITY  addressBar.suggest.label      "Når du bruker adresselinjen, føreslå">
+<!ENTITY  locbar.history2.label         "Nettleserhistorikk">
+<!ENTITY  locbar.history2.accesskey     "h">
 <!ENTITY  locbar.bookmarks.label        "Bokmerker">
 <!ENTITY  locbar.bookmarks.accesskey    "k">
 <!ENTITY  locbar.openpage.label         "Åpne faner">
@@ -44,8 +46,8 @@
 
 <!ENTITY  suggestionSettings2.label     "Endre innstillinger for søkeforslag">
 
-<!ENTITY  acceptCookies.label           "Tillat infokapsler">
-<!ENTITY  acceptCookies.accesskey       "n">
+<!ENTITY  acceptCookies2.label          "Tillat infokapsler fra nettsteder">
+<!ENTITY  acceptCookies2.accesskey      "T">
 
 <!ENTITY  acceptThirdParty.pre.label      "Tillat infokapsler fra tredjepart:">
 <!ENTITY  acceptThirdParty.pre.accesskey  "l">
@@ -106,7 +108,6 @@
 <!ENTITY  clearOnCloseSettings.label     "Innstillinger …">
 <!ENTITY  clearOnCloseSettings.accesskey "I">
 
-<!ENTITY  browserContainersHeader.label         "Innholdsfaner">
 <!ENTITY  browserContainersLearnMore.label      "Les mer">
 <!ENTITY  browserContainersEnabled.label        "Aktiver innholdsfaner">
 <!ENTITY  browserContainersEnabled.accesskey    "k">

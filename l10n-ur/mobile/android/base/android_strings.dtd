@@ -87,8 +87,8 @@
 
 <!ENTITY bookmark_folder_items "&formatD; شہ">
 <!ENTITY bookmark_folder_one_item "۱ شہ">
-
-
+<!ENTITY bookmark_parent_folder "جد پوشہ">
+<!ENTITY bookmark_add_folder "نئے پوشہ کا اضافہ کریں">
 
 <!ENTITY reader_saved_offline "آف لائن محفوظ کردیا گیا">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -219,6 +219,7 @@
 <!ENTITY pref_category_home_homepage "ابتدائی صفحہ">
 <!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
      home page will be use in every new tab. -->
+<!ENTITY home_homepage_every_new_tab "نئے ٹیبس کے لیئے بھی استعمال کریں">
 <!ENTITY home_homepage_title "ابتدائی صفحہ پر سیٹ کرے">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
@@ -291,6 +292,8 @@
      default browser from user's preference, such as "Open in Firefox" -->
 
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
+
+
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "سرگرمی سٹریم">
@@ -355,10 +358,6 @@
 <!ENTITY pref_clear_on_exit_title3 "نجی کوائف صاف کریں خروج پر">
 <!ENTITY pref_clear_on_exit_summary2 "&brandShortName; خود بخود آپ کے کوائف صاف کردے گا جب بھی آپ مرکزی مینیو سے \u0022Quit\u0022  منتخب کریں گے">
 <!ENTITY pref_clear_on_exit_dialog_title "منتخب کریں کون سے کوائف خالی کرنے ہیں">
-<!ENTITY pref_plugins "پلگ ان">
-<!ENTITY pref_plugins_enabled "اہل">
-<!ENTITY pref_plugins_tap_to_play2 "کھیلنے کیلئے ٹچ کریں">
-<!ENTITY pref_plugins_disabled "نا اہل">
 <!ENTITY pref_restore_tabs "ٹیبیں بحال کریں">
 <!ENTITY pref_restore_always "ہمیشہ بحال کریں">
 <!ENTITY pref_restore_quit "&brandShortName; کو بند کرنے کے بعد بحال نا کریں">
@@ -495,7 +494,7 @@
 <!ENTITY contextmenu_open_private_tab "نجی ٹیب میں کھولیں">
 <!ENTITY contextmenu_remove "ہٹائیں">
 <!ENTITY contextmenu_add_to_launcher "ابتدائی سکرین میں ڈالیں">
-
+<!ENTITY contextmenu_set_as_homepage "ابتدائی صفحہ پر سیٹ کرے">
 <!ENTITY contextmenu_share "شیئر">
 <!ENTITY contextmenu_pasteandgo "چسپاں کریں &amp; جائیں">
 <!ENTITY contextmenu_paste "جوڑیں">
@@ -540,10 +539,11 @@
 <!ENTITY page_removed "صفحہ ہٹا دیا گیا">
 
 <!ENTITY bookmark_edit_title "نشانی تدوین کریں">
+
 <!ENTITY bookmark_edit_name "نام">
 <!ENTITY bookmark_edit_location "محل وقوع">
 <!ENTITY bookmark_edit_keyword "کلیدی لفظ">
-
+<!ENTITY bookmark_select_folder "پوشہ کو منتخب کریں">
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
 
@@ -565,7 +565,7 @@
 <!ENTITY button_yes "ہاں">
 <!ENTITY button_no "نہیں">
 <!ENTITY button_clear_data "کوائف خالی کریں">
-
+<!ENTITY button_set "سیٹ کریں">
 <!ENTITY button_clear "صاف کریں">
 <!ENTITY button_copy "نقل کریں">
 
@@ -616,6 +616,9 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "منتخب آلات چھپانا ختم کریں">
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+
 
 <!ENTITY remote_tabs_panel_moved_title "میرے ٹیب کہاں گئے؟">
 <!ENTITY remote_tabs_panel_moved_desc "ہم نے دیگر آلات سے آپ کی ٹیبیں آپ کے ابتدائی صفحہ کے ایک پینل میں منتقل کر دیے ہیں جو کہ آپ کے نئے ٹیب کھولنے پر آسانی سے رسائی پذیر ہے۔">

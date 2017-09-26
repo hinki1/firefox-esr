@@ -39,12 +39,12 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.prettyPrint): This is the tooltip for the
   -  button that pretty prints the selected source. -->
-<!ENTITY debuggerUI.sources.prettyPrint "Prettify Source">
+<!ENTITY debuggerUI.sources.prettyPrint "Mencantikkan Sumber">
 
 <!-- LOCALIZATION NOTE (debuggerUI.autoPrettyPrint): This is the label for the
   -  checkbox that toggles auto pretty print. -->
-<!ENTITY debuggerUI.autoPrettyPrint     "Auto Prettify Minified Sources">
-<!ENTITY debuggerUI.autoPrettyPrint.accesskey "P">
+<!ENTITY debuggerUI.autoPrettyPrint     "Auto-Mencantikkan Sumber Mini">
+<!ENTITY debuggerUI.autoPrettyPrint.accesskey "M">
 
 <!-- LOCALIZATION NOTE (debuggerUI.sources.toggleBreakpoints): This is the tooltip for the
   -  button that toggles all breakpoints for all sources. -->
@@ -76,7 +76,7 @@
 <!-- LOCALIZATION NOTE (debuggerUI.showVarsFilter): This is the label for the
   -  checkbox that toggles visibility of a designated variables filter box. -->
 <!ENTITY debuggerUI.showVarsFilter           "Papar Kotak Penapis Pembolehubah">
-<!ENTITY debuggerUI.showVarsFilter.accesskey "V">
+<!ENTITY debuggerUI.showVarsFilter.accesskey "P">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showOnlyEnum): This is the label for the
   -  checkbox that toggles visibility of hidden (non-enumerable) variables and
@@ -103,7 +103,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchFile): This is the text that appears
   -  in the source editor's context menu for the scripts search operation. -->
-<!ENTITY debuggerUI.searchFile           "Filter Scripts">
+<!ENTITY debuggerUI.searchFile           "Tapis Skrip">
 <!ENTITY debuggerUI.searchFile.key       "P">
 <!ENTITY debuggerUI.searchFile.altkey    "O">
 <!ENTITY debuggerUI.searchFile.accesskey "P">
@@ -129,12 +129,12 @@
 <!-- LOCALIZATION NOTE (debuggerUI.searchLine): This is the text that appears
   -  in the source editor's context menu for the line search operation. -->
 <!ENTITY debuggerUI.searchGoToLine           "Pergi ke Baris…">
-<!ENTITY debuggerUI.searchGoToLine.key       "L">
-<!ENTITY debuggerUI.searchGoToLine.accesskey "L">
+<!ENTITY debuggerUI.searchGoToLine.key       "B">
+<!ENTITY debuggerUI.searchGoToLine.accesskey "B">
 
 <!-- LOCALIZATION NOTE (debuggerUI.searchVariable): This is the text that appears
   -  in the source editor's context menu for the variables search operation. -->
-<!ENTITY debuggerUI.searchVariable           "Penapis Pembolehubah">
+<!ENTITY debuggerUI.searchVariable           "Tapis Pembolehubah">
 <!ENTITY debuggerUI.searchVariable.key       "V">
 <!ENTITY debuggerUI.searchVariable.accesskey "V">
 
@@ -185,7 +185,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.removeWatch): This is the text that
   -  appears in the watch expressions context menu for removing all expressions. -->
-<!ENTITY debuggerUI.removeAllWatch           "Alih keluar All Watch Expressions">
+<!ENTITY debuggerUI.removeAllWatch           "Buang All Watch Expressions">
 <!ENTITY debuggerUI.removeAllWatch.key       "E">
 <!ENTITY debuggerUI.removeAllWatch.accesskey "E">
 
@@ -208,5 +208,5 @@
   -  on the context menu that copies the selected request's url. This should be
   -  the same as netmonitorUI.context.copyUrl -->
 <!ENTITY debuggerUI.context.copyUrl           "Salin URL">
-<!ENTITY debuggerUI.context.copyUrl.accesskey "C">
+<!ENTITY debuggerUI.context.copyUrl.accesskey "S">
 <!ENTITY debuggerUI.context.copyUrl.key "C">

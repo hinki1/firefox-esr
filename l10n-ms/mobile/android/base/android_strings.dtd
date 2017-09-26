@@ -7,7 +7,7 @@
 <!ENTITY firstrun_urlbar_message "Selamat Datang ke &brandShortName;">
 <!ENTITY firstrun_urlbar_subtext "Cari maklumat lebih pantas dengan pintasan cadangan carian yang amat berguna.">
 <!ENTITY firstrun_bookmarks_title "Sejarah">
-<!ENTITY firstrun_bookmarks_message "Kegemaran anda, hadapan dan tengah">
+<!ENTITY firstrun_bookmarks_message "Kegemaran anda, sentiasa menjadi tumpuan">
 <!ENTITY firstrun_bookmarks_subtext "Dapatkan hasil carian daripada tandabuku dan sejarah apabila anda buat carian.">
 <!ENTITY firstrun_data_title "Data">
 <!ENTITY firstrun_data_message "Kurang data, lebih penjimatan">
@@ -66,21 +66,21 @@
 <!ENTITY url_bar_default_text2 "Cari atau masukkan alamat">
 
 <!ENTITY bookmark "Tandabuku">
-<!ENTITY bookmark_remove "Alih keluar tandabuku">
+<!ENTITY bookmark_remove "Buang tandabuku">
 <!ENTITY bookmark_added "Tandabuku ditambah">
 <!-- Localization note (bookmark_already_added) : This string is
      used as a label in a toast. It is the verb "to bookmark", not
      the noun "a bookmark". -->
 <!ENTITY bookmark_already_added "Sudah ditandabuku">
-<!ENTITY bookmark_removed "Tandabuku dialih keluar">
+<!ENTITY bookmark_removed "Tandabuku dibuang">
 <!ENTITY bookmark_updated "Tandabuku dikemaskini">
 <!ENTITY bookmark_options "Pilihan">
 <!ENTITY bookmark_save "Simpan">
-<!ENTITY screenshot_added_to_bookmarks "Skrinshot ditambah ke tandabuku">
+<!ENTITY screenshot_added_to_bookmarks "Skrinsyot ditambah ke tandabuku">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
      and is labeled by this String. -->
-<!ENTITY screenshot_folder_label_in_bookmarks "Skrinshot">
+<!ENTITY screenshot_folder_label_in_bookmarks "Skrinsyot">
 <!ENTITY readinglist_smartfolder_label_in_bookmarks "Senarai Bacaan">
 
 <!-- Localization note (bookmark_folder_items): The variable is replaced by the number of items
@@ -174,7 +174,7 @@
 
 <!ENTITY pref_category_search3 "Cari">
 <!ENTITY pref_category_search_summary2 "Tambah, set piawai, papar cadangan">
-<!ENTITY pref_category_accessibility "Aksesibiliti">
+<!ENTITY pref_category_accessibility "Ketercapaian">
 <!ENTITY pref_category_accessibility_summary2 "Saiz teks, zum, input suara">
 <!ENTITY pref_category_privacy_short "Privasi">
 <!ENTITY pref_category_privacy_summary4 "Penjejakan, log masuk, pilihan data">
@@ -185,9 +185,9 @@
 <!ENTITY pref_learn_more "Ketahui selanjutnya">
 <!ENTITY pref_category_installed_search_engines "Enjin carian dipasang">
 <!ENTITY pref_category_add_search_providers "Tambah lagi penyedia carian">
-<!ENTITY pref_category_search_restore_defaults "Kembalikan semula enjin carian">
-<!ENTITY pref_search_restore_defaults "Kembalikan semula piawai">
-<!ENTITY pref_search_restore_defaults_summary "Kembalikan semula piawai">
+<!ENTITY pref_category_search_restore_defaults "Pulih enjin carian">
+<!ENTITY pref_search_restore_defaults "Pulih piawai">
+<!ENTITY pref_search_restore_defaults_summary "Pulih piawai">
 <!-- Localization note (pref_search_hint) : "TIP" as in "hint", "clue" etc. Displayed as an
      advisory message on the customise search providers settings page explaining how to add new
      search providers.
@@ -198,7 +198,7 @@
 <!-- Localization note (pref_category_advanced_summary3): “data saver” in this
      context means consuming less data, e.g. by not loading images, not
      “storing data”. -->
-<!ENTITY pref_category_advanced_summary3 "Kembalikan semula tab, penjimat data, alatan pembangun">
+<!ENTITY pref_category_advanced_summary3 "Pulih semula tab, penjimat data, alatan pembangun">
 <!ENTITY pref_category_notifications "Notifikasi">
 <!ENTITY pref_category_notifications_summary "Ciri baru, kemaskini laman web">
 <!ENTITY pref_content_notifications "Kemaskini laman web">
@@ -241,7 +241,7 @@
 <!ENTITY pref_header_general "Umum">
 <!ENTITY pref_header_search "Cari">
 <!ENTITY pref_header_privacy_short "Privasi">
-<!ENTITY pref_header_accessibility "Aksesibiliti">
+<!ENTITY pref_header_accessibility "Ketercapaian">
 <!ENTITY pref_header_notifications "Notifikasi">
 <!ENTITY pref_header_advanced "Lanjutan">
 <!ENTITY pref_header_help "Bantuan">
@@ -295,6 +295,9 @@
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "URL disalin">
 
+<!ENTITY pref_pwa "Aplikasi Web Progresif">
+<!ENTITY pref_pwa_summary "Benarkan aplikasi web untuk diletakkan di skrin utama">
+
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Strim Aktiviti">
 <!ENTITY pref_activity_stream_summary "Halaman utama &brandShortName; yang penuh dengan suapan visual sejarah dan dikemaskini semula menjadikannya lebih mudah untuk anda menemukan apa yang anda cari.">
@@ -302,7 +305,7 @@
 <!ENTITY tracking_protection_prompt_title "Kini dengan Pelindungan Penjejakan">
 <!ENTITY tracking_protection_prompt_text "Menyekat elemen penjejakan secara aktif supaya anda tidak rasa bimbang.">
 <!ENTITY tracking_protection_prompt_tip_text "Lawati tetapan privasi untuk mengetahui lebih lanjut">
-<!ENTITY tracking_protection_prompt_action_button "Dah dapat!">
+<!ENTITY tracking_protection_prompt_action_button "Faham!">
 
 <!ENTITY tab_queue_toast_message3 "Tab disimpan di &brandShortName;">
 <!ENTITY tab_queue_toast_action "Buka sekarang">
@@ -356,15 +359,11 @@
      The action is shown below a header saying "Clear private data"; See pref_clear_private_data -->
 <!ENTITY pref_clear_private_data_now_tablet "Buang sekarang">
 <!ENTITY pref_clear_on_exit_title3 "Buang data perbadi apabila keluar">
-<!ENTITY pref_clear_on_exit_summary2 "&brandShortName; akan memadam data anda secara automatik apabila anda memilih \u0022Berhenti\u0022 daripada menu utama">
+<!ENTITY pref_clear_on_exit_summary2 "&brandShortName; akan memadam data anda secara automatik apabila anda memilih \&quot;Berhenti\&quot; daripada menu utama">
 <!ENTITY pref_clear_on_exit_dialog_title "Pilih data yang mahu dibuang">
-<!ENTITY pref_plugins "Plugin">
-<!ENTITY pref_plugins_enabled "Dayakan">
-<!ENTITY pref_plugins_tap_to_play2 "Sentuh untuk memainkan">
-<!ENTITY pref_plugins_disabled "Dinyahdayakan">
-<!ENTITY pref_restore_tabs "Kembalikan semula tab">
-<!ENTITY pref_restore_always "Sentiasa kembalikan semula">
-<!ENTITY pref_restore_quit "Jangan kembalikan semula selepas keluar &brandShortName;">
+<!ENTITY pref_restore_tabs "Pulih tab">
+<!ENTITY pref_restore_always "Sentiasa pulih">
+<!ENTITY pref_restore_quit "Jangan pulih selepas keluar &brandShortName;">
 
 <!-- Localization note (pref_use_system_font_size, pref_use_system_font_size_summary):
      Font size here refers to the name of the corresponding Android system setting. -->
@@ -402,14 +401,14 @@
 <!ENTITY pref_private_data_syncedTabs "Tab sync">
 
 <!ENTITY pref_default_browser "Jadikan pelayar piawai">
-<!ENTITY pref_default_browser_mozilla_support_tablet "Lawati Mozilla Support">
+<!ENTITY pref_default_browser_mozilla_support_tablet "Lawati Sokongan Mozilla">
 <!ENTITY pref_about_firefox "Perihal &brandShortName;">
 <!ENTITY pref_vendor_faqs "FAQs">
 <!ENTITY pref_vendor_feedback "Beri maklum balas">
 
 <!ENTITY pref_dialog_set_default "Tetapkan sebagai piawai">
 <!ENTITY pref_dialog_default "Piawai">
-<!ENTITY pref_dialog_remove "Alih keluar">
+<!ENTITY pref_dialog_remove "Buang">
 
 <!ENTITY pref_search_last_toast "Anda tidak boleh mengalih keluar atau menyahdayakan enjin carian terakhir anda.">
 
@@ -443,8 +442,8 @@
 <!-- Localization note (datareporting_crashreporter_title_short) : This string matches
      (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
 <!ENTITY datareporting_crashreporter_title_short "Pelapor Ranap">
-<!ENTITY datareporting_wifi_title2 "&vendorShortName; Lokasi Perkhidmatan">
-<!ENTITY datareporting_wifi_geolocation_summary4 "Bantu &vendorShortName; memetai dunia! Kongsi lokasi Wi-Fi dan talian peranti anda untuk memperbaikkan perkhidmatan geolokasi kami.">
+<!ENTITY datareporting_wifi_title2 "Perkhidmatan Lokasi &vendorShortName;">
+<!ENTITY datareporting_wifi_geolocation_summary4 "Bantu &vendorShortName; memeta dunia! Kongsi lokasi Wi-Fi dan talian peranti anda untuk memperbaik perkhidmatan geolokasi kami.">
 <!-- Localization note (pref_update_autodownload2) : This should mention downloading
      specifically, since the pref only prevents automatic downloads and not the
      actual notification that an update is available. -->
@@ -496,13 +495,13 @@
 <!ENTITY media_pause "Jeda">
 <!ENTITY media_stop "Berhenti">
 
-<!ENTITY contextmenu_open_new_tab "Buka di Tab Baru">
+<!ENTITY contextmenu_open_new_tab "Buka dalam Tab Baru">
 <!ENTITY contextmenu_open_private_tab "Buka dalam Tab Peribadi">
-<!ENTITY contextmenu_remove "Alih keluar">
+<!ENTITY contextmenu_remove "Buang">
 <!ENTITY contextmenu_add_to_launcher "Tambah ke Skrin Halaman utama">
 <!ENTITY contextmenu_set_as_homepage "Tetapkan sebagai Halaman Utama">
 <!ENTITY contextmenu_share "Kongsi">
-<!ENTITY contextmenu_pasteandgo "Tampal &amp; Laksanakan">
+<!ENTITY contextmenu_pasteandgo "Tampal &amp; Lancarkan">
 <!ENTITY contextmenu_paste "Tampal">
 <!ENTITY contextmenu_copyurl "Salin Alamat">
 <!ENTITY contextmenu_edit_bookmark "Edit">
@@ -536,15 +535,16 @@
 
 <!-- Localization note (pref_compact_tabs): Label for setting that controls whether 1 wide column or
      2 narrower (compact) columns are used for tabs in the tabs tray in portrait mode on phones. -->
-<!ENTITY pref_compact_tabs "Compact tabs">
+<!ENTITY pref_compact_tabs "Padatan tab">
 <!ENTITY pref_compact_tabs_summary2 "Susun tab dua lajur dalam mod potret">
 
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
      bookmarks, or reading list. -->
-<!ENTITY page_removed "Halaman dialih keluar">
+<!ENTITY page_removed "Halaman telah dibuang">
 
 <!ENTITY bookmark_edit_title "Edit Tandabuku">
+<!ENTITY bookmark_edit_folder_title "Edit Folder">
 <!ENTITY bookmark_edit_name "Nama">
 <!ENTITY bookmark_edit_location "Lokasi">
 <!ENTITY bookmark_edit_keyword "Kata kunci">
@@ -561,7 +561,7 @@
 <!ENTITY page_action_dropmarker_description "Tindakan Tambahan">
 
 <!ENTITY masterpassword_create_title "Cipta Kata Laluan Induk">
-<!ENTITY masterpassword_remove_title "Alih keluar Kata laluan Induk">
+<!ENTITY masterpassword_remove_title "Buang Kata laluan Induk">
 <!ENTITY masterpassword_password "Kata laluan">
 <!ENTITY masterpassword_confirm "Sahkan kata laluan">
 
@@ -589,18 +589,18 @@
 <!ENTITY home_synced_devices_one "1 peranti">
 <!ENTITY home_history_back_to2 "Kembali ke Sejarah penuh">
 <!ENTITY home_clear_history_button "Buang sejarah pelayaran">
-<!ENTITY home_clear_history_confirm "Adakah anda pasti anda mahu membuang sejarah anda?">
+<!ENTITY home_clear_history_confirm "Adakah anda pasti mahu membuang sejarah anda?">
 <!ENTITY home_bookmarks_empty "Tandabuku yang anda simpan dipaparkan di sini.">
 <!ENTITY home_closed_tabs_title2 "Terkini ditutup">
 <!ENTITY home_last_tabs_empty "Tab terkini anda dipaparkan di sini.">
-<!ENTITY home_restore_all "Ambil semula semua">
+<!ENTITY home_restore_all "Pulih semua">
 <!ENTITY home_closed_tabs_number "&formatD; tab">
 <!-- Localization note (home_closed_tabs_one): This is the singular version of home_closed_tabs_number, referring to the number of recently closed tabs available. -->
 <!ENTITY home_closed_tabs_one "1 tab">
 <!ENTITY home_most_recent_empty "Laman web terkini yang anda kerap lawati akan dipaparkan di sini.">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
-<!ENTITY home_most_recent_emptyhint2 "Psst: menggunakan &formatS1; Tab Peribadi Baru&formatS2; tidak akan menyimpan sejarah anda.">
+<!ENTITY home_most_recent_emptyhint2 "Psst: gunakan &formatS1;Tab Peribadi Baru&formatS2; yang tidak akan menyimpan sejarah anda.">
 
 <!-- Localization note (home_default_empty): This string is used as the default text when there
      is no data to show in an about:home panel that was created by an add-on. -->
@@ -621,6 +621,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Nyahsorok peranti dipilih">
+
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+<!ENTITY home_pinned_site "Laman dipin">
+<!ENTITY home_unpinned_site "Laman buang-pin">
 
 <!ENTITY remote_tabs_panel_moved_title "Di mana tab saya?">
 <!ENTITY remote_tabs_panel_moved_desc "Kami telah memindahkan tab anda daripada peranti lain ke panel pada halaman utama anda yang mudah dicapai setiap kali anda membuka tab baru.">
@@ -721,12 +726,12 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY guest_session_dialog_continue "Sambung">
 <!ENTITY guest_session_dialog_cancel "Batal">
 <!ENTITY new_guest_session_title "&brandShortName; akan mula semula sekarang">
-<!ENTITY new_guest_session_text2 "Pelawat yang menggunakannya tidak akan dapat melihat data pelayaran peribadi anda (seperti log masuk tersimpan, sejaran atau tandabuku).\n\n Apabila pelawat anda keluar, data pelayaran mereka akan dihapuskan dan sesi anda dikembalikan semula.">
+<!ENTITY new_guest_session_text2 "Pengguna yang menggunakannya tidak akan dapat  melihat data pelayaran peribadi anda (seperti log masuk, sejarah atau tandabuku anda).\n\nApabila sudah siap, data pelayaran mereka akan dihapuskan dan sesi anda akan dipulihkan.">
 <!ENTITY guest_browsing_notification_title "Pelayaran pelawat didayakan">
 <!ENTITY guest_browsing_notification_text "Tap untuk keluar">
 
 <!ENTITY exit_guest_session_title "&brandShortName; akan mula semula sekarang">
-<!ENTITY exit_guest_session_text "Data pelayaran sesi ini akan dihapuskan.">
+<!ENTITY exit_guest_session_text "Data pelayaran sesi ini akan dibuang.">
 
 <!-- Miscellaneous -->
 <!-- LOCALIZATION NOTE (ellipsis): This text is appended to a piece of text that does not fit in the
@@ -784,7 +789,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY restrictable_feature_private_browsing "Pelayaran peribadi">
 <!ENTITY restrictable_feature_private_browsing_description "Izinkan ahli keluarga melayar tanpa menyimpan maklumat laman dan halaman yang mereka lawati.">
 <!ENTITY restrictable_feature_clear_history "Buang Sejarah">
-<!ENTITY restrictable_feature_clear_history_description "Izinkan ahli keluarga menghapus maklumat laman dan halaman yang mereka lawati.">
+<!ENTITY restrictable_feature_clear_history_description "Izinkan ahli keluarga menghapuskan maklumat laman dan halaman yang mereka lawati.">
 <!ENTITY restrictable_feature_advanced_settings "Tetapan Lanjutan">
 <!ENTITY restrictable_feature_advanced_settings_description "Ini termasuk mengimport tandabuku, mengembalikan semula tab dan kemaskini automatik. Nyahaktifkan tetapan ringkas yang sesuai untuk ahli keluarga.">
 <!ENTITY restrictable_feature_camera_microphone "Kamera &amp; Mikrofon">
@@ -841,7 +846,8 @@ Stream list for highlights sourced from th user's bookmarks. -->
 and allows hiding a URL/page from highlights or topsites. The page remains in history/bookmarks, but
 is simply hidden from the Activity Stream panel. -->
 <!ENTITY activity_stream_dismiss "Abai">
-<!ENTITY activity_stream_delete_history "Hapuskan dari Sejarah">
+<!ENTITY activity_stream_delete_history "Buang daripada Sejarah">
 
 <!ENTITY activity_stream_welcome_title "Welcome to your Highlights">
 <!ENTITY activity_stream_welcome_content1 "&brandShortName; now creates highlights of things you\&apos;ve discovered on the web so you can find your way back to great articles, videos, bookmarks, and other pages.">
+<!ENTITY fullscreen_warning "Masuk skrin penuh">

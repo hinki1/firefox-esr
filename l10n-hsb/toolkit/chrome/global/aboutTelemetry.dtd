@@ -4,25 +4,11 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Telemetrijne daty">
 
-<!ENTITY aboutTelemetry.changeDataChoices "  Změnić">
-
-<!ENTITY aboutTelemetry.uploadEnabled "  Nahraće FHR-datow je <span>zmóžnjene</span>.">
-
-<!ENTITY aboutTelemetry.uploadDisabled "  Nahraće FHR-datow je <span>znjemóžnjene</span>.">
-
-<!ENTITY aboutTelemetry.extendedRecordingEnabled "  Rozšerjene telemetrijowe natočenje je <span>zmóžnjene</span>.">
-
-<!ENTITY aboutTelemetry.extendedRecordingDisabled "  Rozšerjene telemetrijowe natočenje je <span>znjemóžnjene</span>.">
-
 <!ENTITY aboutTelemetry.pingDataSource "Žórło pingdatow:">
 
 <!ENTITY aboutTelemetry.showCurrentPingData "Aktualne pingdaty">
 
 <!ENTITY aboutTelemetry.showArchivedPingData "Archiwowane pingdaty">
-
-<!ENTITY aboutTelemetry.pingDataDisplay "Pingdaty pokazać:">
-
-<!ENTITY aboutTelemetry.structured "Strukturowany">
 
 <!ENTITY aboutTelemetry.raw "Hruby JSON">
 
@@ -34,11 +20,17 @@
 
 <!ENTITY aboutTelemetry.showOlderPing "Starši ping &gt;&gt;">
 
-<!ENTITY aboutTelemetry.rawPingData "Hrube pingdaty…">
-
 <!ENTITY aboutTelemetry.archiveWeekHeader "Tydźeń">
 
+<!ENTITY aboutTelemetry.archivePingType "Ping-typ">
+
 <!ENTITY aboutTelemetry.archivePingHeader "Ping">
+
+<!ENTITY aboutTelemetry.optionGroupToday "Dźensa">
+
+<!ENTITY aboutTelemetry.optionGroupYesterday "Wčera">
+
+<!ENTITY aboutTelemetry.optionGroupOlder "Starši">
 
 <!ENTITY aboutTelemetry.generalDataSection "  Powšitkowne daty">
 
@@ -72,12 +64,6 @@
 
 <!ENTITY aboutTelemetry.sessionInfoSection "  Posedźenske informacije">
 
-<!ENTITY aboutTelemetry.addonHistogramsSection "  Histogramy zběrane přez přidatki">
-
-<!ENTITY aboutTelemetry.toggle "  Klikńće, zo byšće wotrězk přepinał">
-
-<!ENTITY aboutTelemetry.emptySection "  (Žane daty zběrane)">
-
 <!ENTITY aboutTelemetry.fullSqlWarning "  KEDŹBU: Pytanje za zmylkami za pomałe SQL-přikazy je zmóžnjene. Dospołne znamješkowe rjećazki SQL hodźa so deleka zwobraznić, ale njebudu so do telemetrije přenošować.">
 
 <!ENTITY aboutTelemetry.fetchStackSymbols "  Funkciske mjena za staple wotwołać">
@@ -87,5 +73,3 @@
 <!ENTITY aboutTelemetry.filterText "  Filter (znamješkowe rjećazki abo /regexp/)">
 
 <!ENTITY aboutTelemetry.payloadChoiceHeader "  Wužitna ćeža">
-
-<!ENTITY aboutTelemetry.rawPayload "  Hrube wužiwanske daty">

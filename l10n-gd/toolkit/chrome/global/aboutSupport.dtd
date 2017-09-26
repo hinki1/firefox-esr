@@ -21,9 +21,10 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Tionndadh">
 <!ENTITY aboutSupport.extensionId "ID">
 
-
-
-
+<!ENTITY aboutSupport.featuresTitle "Gleusan &brandShortName;">
+<!ENTITY aboutSupport.featureName "Ainm">
+<!ENTITY aboutSupport.featureVersion "Tionndadh">
+<!ENTITY aboutSupport.featureId "ID">
 
 <!ENTITY aboutSupport.experimentsTitle "Gleusan deuchainneach">
 <!ENTITY aboutSupport.experimentName "Ainm">
@@ -65,6 +66,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Uinneagan ioma-phròiseasaidh">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Pròiseasan susbaint-lìn">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Google Key">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Iuchair seirbheis nan ionad aig Mozilla">
 
@@ -103,6 +106,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Inntrigeachd">
 <!ENTITY aboutSupport.a11yActivated "Air gnìomhachadh">
 <!ENTITY aboutSupport.a11yForceDisabled "Casg air so-inntrigeachd">
+<!ENTITY aboutSupport.a11yHandlerUsed "Làimhsichear na so-inntrigeachd a chaidh a chleachdadh">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Tionndaidhean leabharlainn">
 
@@ -133,3 +137,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Loga nan co-dhùnaidhean">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Gleusan a chuir freiceadan nan tuislidhean à comas">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Workarounds">
+
+<!ENTITY aboutSupport.mediaTitle "Meadhanan">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Uidheaman às-chuir">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Uidheaman ion-chuir">
+<!ENTITY aboutSupport.mediaDeviceName "Ainm">
+<!ENTITY aboutSupport.mediaDeviceGroup "Buidheann">
+<!ENTITY aboutSupport.mediaDeviceVendor "Reiceadair">
+<!ENTITY aboutSupport.mediaDeviceState "Staid">
+<!ENTITY aboutSupport.mediaDevicePreferred "As fhearr">
+<!ENTITY aboutSupport.mediaDeviceFormat "Fòrmat">
+<!ENTITY aboutSupport.mediaDeviceChannels "Seanailean">
+<!ENTITY aboutSupport.mediaDeviceRate "Reat">
+<!ENTITY aboutSupport.mediaDeviceLatency "Latency">

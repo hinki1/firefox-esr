@@ -66,6 +66,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multi-processamento de janelas">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Processos de conteúdo web">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Chave Google">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Chave do serviço de localização da Mozilla">
 
@@ -104,6 +106,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Acessibilidade">
 <!ENTITY aboutSupport.a11yActivated "Ativa">
 <!ENTITY aboutSupport.a11yForceDisabled "Impedir acessibilidade">
+<!ENTITY aboutSupport.a11yHandlerUsed "Gestor acessível utilizado">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Versões da biblioteca">
 
@@ -134,3 +137,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Registo de decisões">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Funcionalidades desativadas do Crash Guard">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Alternativas">
+
+<!ENTITY aboutSupport.mediaTitle "Multimédia">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Dispositivos de saída">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Dispositivos de entrada">
+<!ENTITY aboutSupport.mediaDeviceName "Nome">
+<!ENTITY aboutSupport.mediaDeviceGroup "Grupo">
+<!ENTITY aboutSupport.mediaDeviceVendor "Vendedor">
+<!ENTITY aboutSupport.mediaDeviceState "Estado">
+<!ENTITY aboutSupport.mediaDevicePreferred "Preferido">
+<!ENTITY aboutSupport.mediaDeviceFormat "Formato">
+<!ENTITY aboutSupport.mediaDeviceChannels "Canais">
+<!ENTITY aboutSupport.mediaDeviceRate "Taxa">
+<!ENTITY aboutSupport.mediaDeviceLatency "Latência">

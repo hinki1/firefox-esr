@@ -3,6 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (tapToPlayPlugin): Mobile (used for touch interfaces) only has one type of plugin possible. -->
+<!ENTITY pluginActivationWarning                             "Questa pagina fa diever dad in plug-in che po render pli plaun &brandShortName;.">
 <!ENTITY tapToPlayPlugin                                     "Smatga qua per activar il plug-in.">
 <!ENTITY clickToActivatePlugin                               "Activar il plug-in.">
 <!ENTITY checkForUpdates                                     "Tschertgar actualisaziuns…">
@@ -29,3 +30,4 @@
 <!ENTITY plugin.file                                         "Datoteca">
 <!ENTITY plugin.mimeTypes                                    "Tips da MIME">
 <!ENTITY plugin.flashProtectedMode.label                     "Activar il modus da protecziun dad Adobe Flash">
+<!ENTITY plugin.enableBlocklists.label                       "Bloccar cuntegn da Flash privlus e mulestus">

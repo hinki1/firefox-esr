@@ -230,6 +230,8 @@
      default browser from user's preference, such as "Open in Firefox" -->
 
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
+
+
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 
@@ -274,10 +276,6 @@
 
 <!-- Localization note (pref_clear_private_data_now_tablet): This action to clear private data is only shown on tablets.
      The action is shown below a header saying "Clear private data"; See pref_clear_private_data -->
-
-
-
-<!ENTITY pref_plugins "Inproppe">
 
 
 
@@ -431,6 +429,7 @@
      any page is removed frome about:home. This includes pages that are in history,
      bookmarks, or reading list. -->
 
+
 <!ENTITY bookmark_edit_name "Naam">
 <!ENTITY bookmark_edit_location "Ligging">
 <!ENTITY bookmark_edit_keyword "Sleutelwoord">
@@ -487,6 +486,9 @@
      title of a dialog; we expect more than one device. -->
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+
 
 
 

@@ -180,6 +180,7 @@
 <!ENTITY bookmarksMenuButton.mobile.label "Segnalibri da dispositivi mobile">
 <!ENTITY viewBookmarksSidebar2.label "Visualizza barra laterale segnalibri">
 <!ENTITY viewBookmarksToolbar.label "Visualizza Barra dei segnalibri">
+<!ENTITY searchBookmarks.label "Cerca nei segnalibri">
 <!ENTITY containersMenu.label "Contenitori">
 <!ENTITY bookmarksGtkCmd.commandkey "o">
 <!ENTITY bookmarksWinCmd.commandkey "i">
@@ -247,6 +248,8 @@
 <!ENTITY viewSidebarMenu.accesskey "e">
 <!ENTITY viewCustomizeToolbar.label "Personalizza…">
 <!ENTITY viewCustomizeToolbar.accesskey "P">
+<!ENTITY overflowCustomizeToolbar.label "Personalizza barra degli strumenti…">
+<!ENTITY overflowCustomizeToolbar.accesskey "z">
 <!ENTITY historyMenu.label "Cronologia">
 <!ENTITY historyMenu.accesskey "C">
 <!ENTITY historyUndoMenu.label "Schede chiuse di recente">
@@ -263,6 +266,7 @@
 <!ENTITY appMenuHistory.clearRecent.label "Cancella la cronologia recente…">
 <!ENTITY appMenuHistory.restoreSession.label "Ripristina la sessione precedente">
 <!ENTITY appMenuHistory.viewSidebar.label "Visualizza barra laterale cronologia">
+<!ENTITY appMenuHistory.recentHistory.label "Cronologia recente">
 <!ENTITY appMenuHelp.label "Aiuto">
 <!ENTITY appMenuHelp.tooltip "Apri la guida">
 <!ENTITY appMenuRemoteTabs.label "Schede sincronizzate">
@@ -323,6 +327,8 @@
 <!ENTITY searchFocusUnix.commandkey "j">
 <!ENTITY contentSearchInput.label "Chiave di ricerca">
 <!ENTITY contentSearchSubmit.tooltip "Avvia ricerca">
+<!ENTITY searchInput.placeholder "Cerca">
+<!ENTITY searchIcon.tooltip "Cerca">
 <!ENTITY searchFor.label "Cerca ">
 <!ENTITY searchWith.label " con:">
 <!ENTITY searchWithHeader.label "Cerca con:">
@@ -609,6 +615,18 @@
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "G">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Ottieni altri temi">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "O">
+<!ENTITY customizeMode.emptyOverflowList.description "Trascina e rilascia elementi in quest’area per tenerli a portata di clic ma fuori dalla barra degli strumenti…">
+<!ENTITY customizeMode.uidensity "Densità">
+<!ENTITY customizeMode.uidensity.menuNormal.label "Normale">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Normale">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "N">
+<!ENTITY customizeMode.uidensity.menuCompact.label "Compatta">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Compatta">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "C">
+<!ENTITY customizeMode.uidensity.menuTouch.label "Touch">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Touch">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "T">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Utilizza Touch per la modalità tablet">
 <!ENTITY getUserMedia.selectCamera.label "Fotocamera da condividere:">
 <!ENTITY getUserMedia.selectCamera.accesskey "F">
 <!ENTITY getUserMedia.selectMicrophone.label "Microfono da condividere:">
@@ -682,7 +700,7 @@
 <!ENTITY updateRestart.cancelButton.accesskey "N">
 <!ENTITY updateRestart.panelUI.label2 "Riavvia per aggiornare &brandShorterName;">
 <!ENTITY pageActionButton.tooltip "Azioni per questa pagina">
-<!ENTITY sendToDevice.label "Invia a dispositivo…">
-<!ENTITY sendToDevice.viewTitle "Invia a dispositivo">
-<!ENTITY sendToDevice.fxaRequired.label "Necessario">
-<!ENTITY sendToDevice.noDevices.label "Nessun dispositivo disponibile">
+<!ENTITY pageAction.addToUrlbar.label "Aggiungi alla barra degli indirizzi">
+<!ENTITY pageAction.removeFromUrlbar.label "Rimuovi dalla barra degli indirizzi">
+<!ENTITY sendToDevice.label2 "Invia a dispositivo">
+<!ENTITY sendToDevice.syncNotReady.label "Sincronizzazione dispositivi…">

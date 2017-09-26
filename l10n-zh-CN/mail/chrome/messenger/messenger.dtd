@@ -22,7 +22,7 @@
      -->
 <!ENTITY moveToNewWindow.label "移动到新窗口">
 <!ENTITY moveToNewWindow.accesskey "W">
-<!ENTITY newVirtualFolderCmd.label "已保存搜索…">
+<!ENTITY newVirtualFolderCmd.label "即时搜索…">
 <!ENTITY newVirtualFolderCmd.accesskey "S">
 <!ENTITY newOtherAccountsCmd.label "其他帐户...">
 <!ENTITY newOtherAccountsCmd.accesskey "O">
@@ -952,3 +952,4 @@
 
 <!-- Mac OS X Dock Icon pop-up menu -->
 <!ENTITY dockOptions.label              "应用图标选项…">
+<!ENTITY writeNewMessageDock.label      "撰写新邮件">

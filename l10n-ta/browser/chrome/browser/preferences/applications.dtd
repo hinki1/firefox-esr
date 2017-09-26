@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  applications.label       "பயன்பாடுகள்">
-<!ENTITY  applications.description "நீங்கள் உலாவும்பொருட்டு இணையத்திலிருந்தும் பயன்பாடுகளிலிருந்தும் பதிவிற்க்கும் கோப்புகளை &brandShortName; உலாவி எவ்வாறு செயல்பட வேண்டும் என்பதைத் தேர்.">
+
 
 <!ENTITY  typeColumn.label        "உள்ளடக்க வகை">
 <!ENTITY  typeColumn.accesskey    "T">

@@ -118,7 +118,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "ఈ నవీకరణ కొరకు విడుదల నోట్స్ చూపు">
 <!ENTITY cmd.hideReleaseNotes.label           "విడుదల నోట్స్ మరుగుపరచు">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "ఈ నవీకరణ కొరకు విడుదల నోట్స్ మరుగుపరచు">
-<!ENTITY cmd.findReplacement.label            "ప్రత్యామ్నాయాన్ని కనుగొనండి">
+<!ENTITY cmd.findReplacement.label            "ప్రత్యామ్నాయాలు కనుగొను">
 
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
@@ -258,5 +258,6 @@
 
 <!ENTITY legacyWarning.description "ఏదైనా లేదా? కొన్ని పొడగింతలను &brandShortName; ఇకపై తోడ్పాటు లేదు.">
 <!ENTITY legacyWarning.showLegacy "లెగసీ పొడగింతలను చూపించు">
-<!ENTITY legacyExtensions.title "లెగసీ ఎక్స్టెన్షన్స్">
-<!ENTITY legacyExtensions.learnMore "యాడ్-ఆన్ల మార్పుల గురించి తెలుసుకోండి">
+<!ENTITY legacyExtensions.title "లెగసీ పొడిగింతలు">
+<!ENTITY legacyExtensions.description "ఈ పొడిగింతలు ప్రస్తుత &brandShortName; ప్రమాణాలను చేరుకోవు కాబట్టి అవి క్రియారహితం చేయబడ్డాయి.">
+<!ENTITY legacyExtensions.learnMore "పొడిగింతల మార్పుల గురించి తెలుసుకోండి">

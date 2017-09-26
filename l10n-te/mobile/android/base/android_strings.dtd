@@ -295,6 +295,9 @@
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "URL కాపీ అయ్యింది">
 
+<!ENTITY pref_pwa "ప్రగతిశీల వెబ్ ఆప్స్">
+<!ENTITY pref_pwa_summary "ముందు తెరకు జోడించడం కోసం వెబ్ ఆప్స్‌ని అనుమతించండి">
+
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "కార్యాచరణ స్ట్రీమ్">
 <!ENTITY pref_activity_stream_summary "ఘనమైన దృశ్య చరిత్రలో ఫీడ్ మరియు ఒక హోమ్ పేజీ మీరు &brandShortName; కోసం చూస్తున్నారా ఖచ్చితంగా కనుగొనడాన్ని గతంలో కంటే సులభం.">
@@ -356,12 +359,8 @@
      The action is shown below a header saying "Clear private data"; See pref_clear_private_data -->
 <!ENTITY pref_clear_private_data_now_tablet "ఇప్పుడే చెరిపివేయి">
 <!ENTITY pref_clear_on_exit_title3 "మూసివేయునప్పుడు ప్రైవేట్ డేటాను క్లియర్ చేయండి">
-<!ENTITY pref_clear_on_exit_summary2 "ముఖ్య మెనూ నుండి మీరు \u0022Quit\u0022 ను ఎంచినప్పుడు &brandShortName; స్వయంచాలకంగా మీ డేటాను శుభ్రంచేయును">
+<!ENTITY pref_clear_on_exit_summary2 "ముఖ్య మెనూ నుండి మీరు \&quot;Quit\&quot; ను ఎంచినప్పుడు &brandShortName; స్వయంచాలకంగా మీ డేటాను శుభ్రంచేయును">
 <!ENTITY pref_clear_on_exit_dialog_title "ఏఏ డేటాను తుడిచివేయాలో ఎంచుకోండి">
-<!ENTITY pref_plugins "ప్లగిన్లు">
-<!ENTITY pref_plugins_enabled "చేతనం">
-<!ENTITY pref_plugins_tap_to_play2 "ఆడటానికి తాకండి">
-<!ENTITY pref_plugins_disabled "అచేతనం">
 <!ENTITY pref_restore_tabs "ట్యాబుల పునరుద్ధరణ">
 <!ENTITY pref_restore_always "ఎప్పుడూ పునరుద్ధరించు">
 <!ENTITY pref_restore_quit "&brandShortName; నుండి నిష్క్రమించిన తర్వాత పునరుద్ధరించవద్దు">
@@ -545,6 +544,7 @@
 <!ENTITY page_removed "పేజీ తీసివేయబడెను">
 
 <!ENTITY bookmark_edit_title "ఇష్టాంశాన్ని సవరించు">
+<!ENTITY bookmark_edit_folder_title "సంచికను సవరించు">
 <!ENTITY bookmark_edit_name "పేరు">
 <!ENTITY bookmark_edit_location "ప్రాంతం">
 <!ENTITY bookmark_edit_keyword "కీపదం">
@@ -621,6 +621,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "ఎంపికైన పరికరాలు కనబరచు">
+
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+<!ENTITY home_pinned_site "పిన్‌చేసిన సైట్">
+<!ENTITY home_unpinned_site "పిన్ తీసిన సైట్">
 
 <!ENTITY remote_tabs_panel_moved_title "నా ట్యాబులు ఎక్కడికి వెళ్ళాయి?">
 <!ENTITY remote_tabs_panel_moved_desc "మేము మీ టాబ్‌లను ఇతర పరికరాలనుండి మీ ముంగిలిపేజీ పైని ప్యానల్‌కు మార్చాము మీరు కొత్త టాబ్ తెరిచిన ప్రతిసారి మీరు వాటిని సులువుగా ఏక్సెస్ చేయవచ్చు.">
@@ -845,3 +850,4 @@ is simply hidden from the Activity Stream panel. -->
 
 <!ENTITY activity_stream_welcome_title "మీ ముఖ్యాంశాలకు స్వాగతం">
 <!ENTITY activity_stream_welcome_content1 "&brandShortName; ఇప్పుడు మీరు వెబ్లో కనుగొన్న విషయాలను ముఖ్యాంశాలుగా సృష్టిస్తుంది కాబట్టి మీరు గొప్ప వ్యాసాలు, వీడియోలు, బుక్మార్క్లు మరియు ఇతర పేజీలకు తిరిగి మీ మార్గాన్ని కనుగొనగలరు.">
+<!ENTITY fullscreen_warning "నిండు తెరలో చూస్తున్నారు">

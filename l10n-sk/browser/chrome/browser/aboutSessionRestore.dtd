@@ -6,7 +6,7 @@
 
 <!-- LOCALIZATION NOTE: The title is intended to be apologetic and disarming, expressing dismay
      and regret that we are unable to restore the session for the user -->
-<!ENTITY restorepage.errorTitle     "Tak toto je nepríjemné">
+<!ENTITY restorepage.errorTitle     "Tak toto je nepríjemné.">
 <!ENTITY restorepage.problemDesc    "&brandShortName; má problémy s obnovením vašich naposledy otvorených okien a kariet. Toto zvyčajne spôsobuje posledná načítaná webová stránka.">
 <!ENTITY restorepage.tryThis        "Môžete skúsiť:">
 <!ENTITY restorepage.restoreSome    "Odstrániť jednu alebo viacero kariet, ktoré by mohli spôsobovať problémy">
@@ -34,8 +34,8 @@
 <!ENTITY welcomeback2.pageTitle     "Úspech!">
 <!ENTITY welcomeback2.pageInfo1     "&brandShortName; je pripravený.">
 
-<!ENTITY welcomeback2.label.restoreAll  "Obnoviť všetky okná a karty">
-<!ENTITY welcomeback2.label.restoreSome "Obnoviť len zvolené karty">
+<!ENTITY welcomeback2.restoreAll.label  "Obnoviť všetky okná a karty">
+<!ENTITY welcomeback2.restoreSome.label "Obnoviť len zvolené karty">
 
 
 <!-- LOCALIZATION NOTE (welcomeback2.beforelink.pageInfo2,

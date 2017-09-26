@@ -302,7 +302,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "А"> 
 <!ENTITY viewSidebarMenu.label "Странична лента">
 <!ENTITY viewSidebarMenu.accesskey "н">
-<!ENTITY viewCustomizeToolbar.label       "Прилагодете…"> 
+<!ENTITY viewCustomizeToolbar.label       "Прилагоди…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "р">
 
 <!ENTITY historyMenu.label "Историја">
@@ -315,7 +315,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllHistoryCmd2.label "Прикажи ја сета историја">
 <!ENTITY showAllHistoryCmd.commandkey "H">
 
-<!ENTITY appMenuCustomize.label "Прилагодете">
+<!ENTITY appMenuCustomize.label "Прилагоди">
 <!ENTITY appMenuCustomize.tooltip "Прилагодете ги менијата и алатниците">
 <!ENTITY appMenuCustomizeExit.label "Готово">
 <!ENTITY appMenuCustomizeExit.tooltip "Завршете со прилагодувањето">
@@ -406,6 +406,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (contentSearchInput.label):
      This is set as the aria-label attribute for the search input box in the
      in-content search UI, to be used by screen readers. -->
+
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -702,6 +705,15 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.myThemes "Мои теми">
 <!ENTITY customizeMode.lwthemes.recommended "Препорачани">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Земете повеќе теми">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
 
 <!ENTITY getUserMedia.selectCamera.label "Камера што се споделува:">
 <!ENTITY getUserMedia.selectCamera.accesskey "П">

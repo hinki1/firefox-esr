@@ -14,20 +14,20 @@
 <!ENTITY firstrun_data_subtext2 "გამორთეთ გამოსახულებები ნებისმიერ საიტზე ნაკლები მონაცემის დასახარჯად.">
 <!ENTITY firstrun_sync_title "სინქრონიზაცია">
 <!ENTITY firstrun_sync_message "&brandShortName;, ყოველთვის თქვენ გვერდით">
-<!ENTITY firstrun_sync_subtext "დაასინქრონეთ თქვენი ჩანართები, პაროლები და მეტი ყველგან, სადაც მათ გამოიყენებთ.">
+<!ENTITY firstrun_sync_subtext "დაასინქრონეთ თქვენი ჩანართები, პაროლები და ა.შ. ყველგან, სადაც გსურთ მათი გამოყენება.">
 <!ENTITY firstrun_signin_message "დაუკავშირდით და დაიწყეთ">
 <!ENTITY firstrun_signin_button "Sync-ში შესვლა">
-<!ENTITY  onboard_start_button_browser "დაიწყეთ სერფინგი">
+<!ENTITY  onboard_start_button_browser "დაიწყეთ მოგზაურობა ინტერნეტში">
 <!ENTITY firstrun_button_notnow "ახლა არა">
 <!ENTITY firstrun_button_next "შემდეგი">
 
 <!ENTITY firstrun_tabqueue_title "ბმულები">
 <!-- Localization note (firstrun_tabqueue_message): 'Tab queue' is a feature that allows users to queue up or save links from outside of Firefox (without switching apps) - these links will be loaded in Firefox the next time Firefox is opened. -->
 <!ENTITY firstrun_tabqueue_message_off "ჩანართების რიგის ჩართვა">
-<!ENTITY firstrun_tabqueue_subtext_off "შეინახეთ ბმულები შემდეგისთვის &brandShortName;-ში სხვა აპებში მათზე შეხებით">
+<!ENTITY firstrun_tabqueue_subtext_off "ერთი შეხებით შეინახეთ ბმულები სხვადასხვა პროგრამებიდან, &brandShortName;-ში მოგვიანებით სანახავად.">
 
 <!ENTITY firstrun_tabqueue_message_on "კარგია!">
-<!ENTITY firstrun_tabqueue_subtext_on "ამის გამორთვა ყოველთვის შეგიძლიათ &settings;-ში &pref_category_general; სექციაში">
+<!ENTITY firstrun_tabqueue_subtext_on "ამის გამორთვა ყოველთვის შეგიძლიათ &settings;-ში &pref_category_general; განყოფილებაში.">
 
 <!ENTITY firstrun_readerview_title "სტატიები">
 <!-- Localization note (firstrun_readerview_message): This is a casual way of describing getting rid of unnecessary things, and is referring to simplifying websites so only the article text and images are visible, removing unnecessary headers or ads. -->
@@ -50,16 +50,16 @@
 <!-- Localization note: Shown in a snackbar when tab is loaded from cache while device was offline. -->
 <!ENTITY  tab_offline_version "ნაჩვენებია კავშირგარეშე ვერსია">
 
-<!ENTITY  crash_reporter_title "&brandShortName; პრობლემის პატაკი">
+<!ENTITY  crash_reporter_title "&brandShortName; ავარიული დახურვის მომხსენებელი">
 <!ENTITY  crash_message2 "&brandShortName; მუშაობა შეწყდა. თქვენი დაფები &brandShortName;-ის ხელახლა გახსნისას საწყის გვერდზე უნდა აისახოს.">
 <!ENTITY  crash_send_report_message3 "აცნობეთ &vendorShortName;-ს ამ პრობლემის შესახებ">
 <!ENTITY  crash_include_url2 "თან დაერთოს გვერდის მისამართი, რომელზეც ვიყავი">
 <!ENTITY  crash_sorry "ძალიან ვწუხვართ">
 <!ENTITY  crash_comment "კომენტარის დამატება (ხილულია საზოგადოდ)">
-<!ENTITY  crash_allow_contact2 "ნებართვა &vendorShortName;-ს დამიკავშირდეს ამ პატაკის შესახებ">
+<!ENTITY  crash_allow_contact2 "ნების დართვა &vendorShortName;-სთვის გამომეხმაუროს მოხსენების შესახებ">
 <!ENTITY  crash_email "თქვენი ელფოსტა">
-<!ENTITY  crash_closing_alert "გამოვიდე შეცდომის პატაკის გაგზავნის გარეშე?">
-<!ENTITY  sending_crash_report "შეცდომის პატაკის გაგზავნა\u2026">
+<!ENTITY  crash_closing_alert "გსურთ გამოსვლა, ავარიული დახურვის მოხსენების გადაგზავნის გარეშე?">
+<!ENTITY  sending_crash_report "ავარიული დახურვის მოხსენება იგზავნება\u2026">
 <!ENTITY  crash_close_label "დახურვა">
 <!ENTITY  crash_restart_label "&brandShortName; გადატვირთვა">
 
@@ -67,15 +67,16 @@
 
 <!ENTITY bookmark "სანიშნე">
 <!ENTITY bookmark_remove "სანიშნის ამოღება">
-<!ENTITY bookmark_added "სანიშნე დაემატა">
+<!ENTITY bookmark_added "სანიშნე დამატებულია">
 <!-- Localization note (bookmark_already_added) : This string is
      used as a label in a toast. It is the verb "to bookmark", not
      the noun "a bookmark". -->
 <!ENTITY bookmark_already_added "უკვე ჩანიშნულია">
-<!ENTITY bookmark_removed "სანიშნე ამოღებული">
-<!ENTITY bookmark_updated "სანიშნე განახლდა">
+<!ENTITY bookmark_removed "სანიშნე ამოღებულია">
+<!ENTITY bookmark_updated "სანიშნე განახლებულია">
 <!ENTITY bookmark_options "პარამეტრები">
-<!ENTITY screenshot_added_to_bookmarks "ანაბეჭდი დაემატა სანიშნეებს">
+<!ENTITY bookmark_save "შენახვა">
+<!ENTITY screenshot_added_to_bookmarks "ეკრანის სურათი დაემატა სანიშნეებში">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
      and is labeled by this String. -->
@@ -86,6 +87,8 @@
      in the folder. -->
 <!ENTITY bookmark_folder_items "&formatD; ელემენტი">
 <!ENTITY bookmark_folder_one_item "1 ელემენტი">
+<!ENTITY bookmark_parent_folder "საქაღალდე">
+<!ENTITY bookmark_add_folder "ახალი საქაღალდის დამატება">
 
 <!ENTITY reader_saved_offline "შენახულია კავშირგარეშე">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -130,7 +133,7 @@
 <!ENTITY settings "პარამეტრები">
 <!ENTITY settings_title "პარამეტრები">
 <!ENTITY pref_category_general "ზოგადი">
-<!ENTITY pref_category_general_summary3 "სახლი, ენა, ჩანართების რიგი">
+<!ENTITY pref_category_general_summary3 "მთავარი, ენა, ჩანართების რიგი">
 
 <!-- Localization note (pref_category_language) : This is the preferences
      section in which the user picks the locale in which to display Firefox
@@ -156,6 +159,7 @@
 <!ENTITY overlay_share_bookmark_btn_label_already "უკვე ჩანიშნულია">
 <!ENTITY overlay_share_send_other "სხვა მოწყობილობებზე გაგზავნა">
 
+<!ENTITY overlay_share_open_browser_btn_label "&brandShortName;-ში გახსნა">
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
@@ -172,11 +176,11 @@
 <!ENTITY pref_category_search_summary2 "დამატება, ნაგულისხმევად დაყენება, შემოთავაზებების ჩვენება">
 <!ENTITY pref_category_accessibility "დამხმარე საშუალებები">
 <!ENTITY pref_category_accessibility_summary2 "ტექსტის ზომა, მასშტაბი, ხმოვანი შეყვანა">
-<!ENTITY pref_category_privacy_short "პრივატულობა">
-<!ENTITY pref_category_privacy_summary4 "თვალთვალი, შესვლები, მონაცემთა არჩევანი">
+<!ENTITY pref_category_privacy_short "პირადულობა">
+<!ENTITY pref_category_privacy_summary4 "თვალთვალი, შესვლები, მონაცემთა შერჩევა">
 <!ENTITY pref_category_vendor2 "&vendorShortName; &brandShortName;">
-<!ENTITY pref_category_vendor_summary2 "&brandShortName;-იშ შესახენ. ხდკ, უკუკავშირი">
-<!ENTITY pref_category_datareporting "მონაცემთა არჩევნი">
+<!ENTITY pref_category_vendor_summary2 "&brandShortName;-ის შესახებ, ხ.დ.კ. უკუკავშირი">
+<!ENTITY pref_category_datareporting "მონაცემთა შერჩევა">
 <!ENTITY pref_category_logins "შესვლები">
 <!ENTITY pref_learn_more "შეიტყვეთ მეტი">
 <!ENTITY pref_category_installed_search_engines "დაყენებული საძიებო სისტემები">
@@ -189,7 +193,7 @@
      search providers.
      The &formatI; in the string will be replaced by a small image of the icon described, and can be moved to wherever
      it is applicable. -->
-<!ENTITY pref_search_hint2 "რჩევა: დაამატეთ ნებისმიერი ვებ-საიტი თქვენს საძიებო პროვაიდერებს მის საძიებო ველზე დაჭერით შემდეგ კი &formatI; ხატულაზე შეხებით.">
+<!ENTITY pref_search_hint2 "რჩევა: დაამატეთ ნებისმიერი ვებსაიტი თქვენს საძიებო პროვაიდერებს მის საძიებო ველზე დაჭერით შემდეგ კი &formatI; ხატულაზე შეხებით.">
 <!ENTITY pref_category_advanced "დამატებითი">
 <!-- Localization note (pref_category_advanced_summary3): “data saver” in this
      context means consuming less data, e.g. by not loading images, not
@@ -201,25 +205,26 @@
 <!ENTITY pref_content_notifications_summary2 "აღმოაჩინეთ ახალი შიგთავსი მხარდაჭერილი საიტებიდან">
 <!ENTITY pref_developer_remotedebugging_usb "დისტანციური გამართვა USB-ით">
 <!ENTITY pref_developer_remotedebugging_wifi "დისტანციური გამართვა Wi-Fi-ით">
-<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "Wi-Fi გამართვა მოითხოვს, რომ თქვენს მოწყობილობაზე ინსტალირებული იყოს QR კოდის წამკითხავი.">
+<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "Wi-Fi გამართვისთვის საჭიროა დაყენებული იყოს QR კოდის წამკითხავი.">
 <!ENTITY pref_remember_signons2 "შესვლების შენახვა">
-<!ENTITY pref_manage_logins "შესვლების გამართვა">
+<!ENTITY pref_manage_logins "შესვლების მართვა">
 
-<!ENTITY pref_category_home "სახლი">
+<!ENTITY pref_category_home "მთავარი">
 <!ENTITY pref_category_home_summary "მოირგეთ თქვენი საწყისი გვერდი">
 <!ENTITY pref_category_home_panels "პანელები">
 <!ENTITY pref_category_home_add_ons "დამატებები">
 <!ENTITY pref_home_updates2 "შიგთავსის განახლებები">
-<!ENTITY pref_home_updates_enabled "ჩართული">
+<!ENTITY pref_home_updates_enabled "ჩართულია">
 <!ENTITY pref_home_updates_wifi "მხოლოდ Wi-Fi-ით">
 <!ENTITY pref_category_home_homepage "საწყისი გვერდი">
 <!-- Localization note (home_homepage_every_new_tab): The user will see a switch to determine if the
      home page will be use in every new tab. -->
+<!ENTITY home_homepage_every_new_tab "ახალ ჩანართებზეც">
 <!ENTITY home_homepage_title "საწყისი გვერდის დაყენება">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
      button for this string, they will use the built-in default Firefox homepage (about:home). -->
-<!ENTITY home_homepage_radio_default "&brandShortName; სახლი">
+<!ENTITY home_homepage_radio_default "&brandShortName; მთავარი">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
      button for this string, a text field will appear below the radio button and allow the
@@ -235,7 +240,7 @@
 <!-- Localization note: These are shown in the left sidebar on tablets -->
 <!ENTITY pref_header_general "საერთო">
 <!ENTITY pref_header_search "ძიება">
-<!ENTITY pref_header_privacy_short "პრივატულობა">
+<!ENTITY pref_header_privacy_short "პირადულობა">
 <!ENTITY pref_header_accessibility "დამხმარე საშუალებები">
 <!ENTITY pref_header_notifications "ცნობები">
 <!ENTITY pref_header_advanced "დამატებითი">
@@ -257,54 +262,60 @@
 <!ENTITY pref_tap_to_load_images_title2 "სურათების ჩვენება">
 <!ENTITY pref_tap_to_load_images_enabled "ყოველთვის">
 <!ENTITY pref_tap_to_load_images_data "მხოლოდ Wi-Fi-თ">
-<!ENTITY pref_tap_to_load_images_disabled2 "დაბლოკილი">
+<!ENTITY pref_tap_to_load_images_disabled2 "არასდროს">
 
-<!ENTITY pref_show_web_fonts "ვებ-შრიფტების ჩვენება">
+<!ENTITY pref_show_web_fonts "ვებშრიფტების ჩვენება">
 <!ENTITY pref_show_web_fonts_summary2 "დისტანციური შრიფტების ჩამოტვირთვა გვერდის ჩატვირთვისას">
 
 <!ENTITY pref_tracking_protection_title2 "თვალთვალისგან დაცვა">
 <!ENTITY pref_tracking_protection_summary3 "ჩართული პირად დათვალიერებაში">
 <!ENTITY pref_donottrack_title "არ მითვალთვალო">
-<!ENTITY pref_donottrack_summary "&brandShortName; ეტყვის საიტებს, რომ არ გსურთ, გითვალთვალონ">
+<!ENTITY pref_donottrack_summary "&brandShortName; მიუთითებს საიტებს, რომ არ გსურთ, გითვალთვალონ">
 
-<!ENTITY pref_tracking_protection_enabled "ჩართული">
-<!ENTITY pref_tracking_protection_enabled_pb "ჩართული პირად დათვალიერებაში">
-<!ENTITY pref_tracking_protection_disabled "გამორთული">
+<!ENTITY pref_tracking_protection_enabled "ჩართულია">
+<!ENTITY pref_tracking_protection_enabled_pb "ჩართულია პირად დათვალიერებაში">
+<!ENTITY pref_tracking_protection_disabled "გამორთულია">
 
 <!ENTITY pref_whats_new_notification "რა არის ახალი &brandShortName;-ში">
 <!ENTITY pref_whats_new_notification_summary "გაიგეთ ახალ ფუნქციებზე განახლების შემდეგ">
 
 <!-- Localization note (pref_category_experimental): Title of a sub category in the 'advanced' category
      for experimental features. -->
-<!ENTITY pref_category_experimental "ექსპერიმენტული ფუნქციები">
+<!ENTITY pref_category_experimental "საცდელი ფუნქციები">
 
 <!-- Custom Tabs is an Android API for allowing third-party apps to open URLs in a customized UI.
      Instead of switching to the browser it appears as if the user stays in the third-party app.
      For more see: https://developer.chrome.com/multidevice/android/customtabs -->
 <!ENTITY pref_custom_tabs "მორგებული ჩანართები">
-<!ENTITY pref_custom_tabs_summary3 "ნება დართვა აპებისთვის გახსნან ვებსაიტები &brandShortName;-ის მორგებული ვერსიის გამოყენებით">
+<!ENTITY pref_custom_tabs_summary3 "ნებართვა აპებისთვის გახსნან ვებსაიტები &brandShortName;-ის მორგებული ვერსიის გამოყენებით">
 <!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
      default browser from user's preference, such as "Open in Firefox" -->
+<!ENTITY custom_tabs_menu_item_open_in "&formatS;-ში გახსნა">
+<!ENTITY custom_tabs_menu_footer "უზრუნველყოფილია &brandShortName;-ის მიერ">
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
+<!ENTITY custom_tabs_hint_url_copy "URL დაკოპირდა">
+
+<!ENTITY pref_pwa "მზარდი ვებაპლიკაციები">
+<!ENTITY pref_pwa_summary "ვებაპლიკაციების მთავარ გვერდზე დამატების დაშვება">
 
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
-<!ENTITY pref_activity_stream "აქტიურობის ნაკადი">
-<!ENTITY pref_activity_stream_summary "ისტორიის მდიდარი ვიზუალური ლენტი და საშინაო გვერდის განახლებული ხედი გეხმარებათ, &brandShortName;-ში უფრო მარტივად იპოვოთ ის, რასაც ეძებთ.">
+<!ENTITY pref_activity_stream "მოქმედებების აღრიცხვა">
+<!ENTITY pref_activity_stream_summary "განახლებული საწყისი გვერდი, სადაც მოცემული იქნება ყველა საჭირო და მნიშვნელოვანი მონაკვეთი მონახულებული გვერდების ისტორიიდან, რაც გაგიმარტივებთ საჭირო და ზუსტი ინფორმაციის მოძიებას &brandShortName;-ში.">
 
 <!ENTITY tracking_protection_prompt_title "ახლა უკვე თვალთვალისგან დაცვით">
-<!ENTITY tracking_protection_prompt_text "მოთვალთვალე ელემენტების ინსტენსიური ბლოკვა, რათა თქვენ არ იდარდოთ.">
-<!ENTITY tracking_protection_prompt_tip_text "მეტის გასაგებად ეწვიეთ პრივატულობის პარამეტრებს">
+<!ENTITY tracking_protection_prompt_text "მოთვალთვალე ელემენტები იზღუდება მუდმივად, ასე რომ, შეგიძლიათ არ იდარდოთ.">
+<!ENTITY tracking_protection_prompt_tip_text "მეტის გასაგებად ეწვიეთ პირადი მონაცემების პარამეტრებს">
 <!ENTITY tracking_protection_prompt_action_button "გასაგებია!">
 
-<!ENTITY tab_queue_toast_message3 "ჩანართი შეინახა &brandShortName;-ში">
-<!ENTITY tab_queue_toast_action "გახსნა ახლავე">
+<!ENTITY tab_queue_toast_message3 "ჩანართი შენახულია &brandShortName;-ში">
+<!ENTITY tab_queue_toast_action "ახლავე გახსნა">
 <!ENTITY tab_queue_prompt_title "რამდენიმე ბმულს ხსნით?">
-<!ENTITY tab_queue_prompt_text4 "მათი შენახვა &brandShortName;-ის მომდევნო გახსნამდე.">
-<!ENTITY tab_queue_prompt_tip_text2 "ამის შეცვლა პარამეტრებში შეგიძლიათ.">
+<!ENTITY tab_queue_prompt_text4 "შეინახეთ &brandShortName;-ის მომდევნო გაშვებისთვის.">
+<!ENTITY tab_queue_prompt_tip_text2 "ამის შეცვლა შეგეძლებათ პარამეტრებიდან.">
 <!-- Localization note (tab_queue_prompt_permit_drawing_over_apps): This additional text is shown if the
      user needs to enable an Android setting in order to enable tab queues. -->
-<!ENTITY tab_queue_prompt_permit_drawing_over_apps "სხვა აპებზე გადავლების ნებართვის ჩართვა">
-<!ENTITY tab_queue_prompt_positive_action_button "ჩართვა">
+<!ENTITY tab_queue_prompt_permit_drawing_over_apps "სხვა აპების გადაფარვაზე ნების დართვა">
+<!ENTITY tab_queue_prompt_positive_action_button "ნებართვა">
 <!ENTITY tab_queue_prompt_negative_action_button "ახლა არა">
 <!-- Localization note (tab_queue_prompt_settings_button): This button is shown if the user needs to
      enable a permission in Android's setting in order to enable tab queues. -->
@@ -314,14 +325,14 @@
      formatD is replaced with the number of tabs queued.  The
      number of tabs queued is always more than one.  We can't use
      Android plural forms, sadly. See Bug #753859. -->
-<!ENTITY tab_queue_notification_text_plural2 "&formatD; ჩანართი იცდის">
+<!ENTITY tab_queue_notification_text_plural2 "&formatD; დაყოვნებული ჩანართები">
 <!-- Localization note (tab_queue_notification_text_singular2) : This is the
      text of a notification; we expect only one tab queued. -->
-<!ENTITY tab_queue_notification_text_singular2 "1 ჩანართი იცდის">
+<!ENTITY tab_queue_notification_text_singular2 "1 ჩანართი დაყოვნებულია">
 
 <!-- Localization note (tab_queue_notification_settings): This notification text is shown if a tab
      has been queued but we are missing the system permission to show an overlay. -->
-<!ENTITY tab_queue_notification_settings "\&quot;ბევრი ბმულის გასახსნელად\&quot;, მიეცით &brandShortName;-ს \&apos;სხვა აპებზე გადავლების\&apos; უფლება">
+<!ENTITY tab_queue_notification_settings "\&quot;ბევრი ბმულის გასახსნელად\&quot;, დართეთ &brandShortName;-ს \&apos;სხვა აპების გადაფარვის\&apos; ნება">
 
 <!ENTITY content_notification_summary "&brandShortName;">
 <!-- Localization note (content_notification_title_plural): &formatD; will be replaced with the number of websites that
@@ -348,11 +359,11 @@
      The action is shown below a header saying "Clear private data"; See pref_clear_private_data -->
 <!ENTITY pref_clear_private_data_now_tablet "ახლავე გასუფთავება">
 <!ENTITY pref_clear_on_exit_title3 "პირადი მონაცემების გასუფთავება გამოსვლისას">
-<!ENTITY pref_clear_on_exit_summary2 "&brandShortName; ავტომატურად გაასუფთავებს თქვენს მონაცემებს მთავრი მენიუდან \u0022გასვლის\u0022 არჩევის დროს">
-<!ENTITY pref_clear_on_exit_dialog_title "აირჩიეთ გასასუფთავებელი მონაცემები">
+<!ENTITY pref_clear_on_exit_summary2 "&brandShortName; ავტომატურად გაასუფთავებს თქვენს მონაცემებს მთავარი მენიუდან \u0022გასვლის\u0022 დროს">
+<!ENTITY pref_clear_on_exit_dialog_title "აირჩიეთ მონაცემები">
 <!ENTITY pref_plugins "მოდულები">
 <!ENTITY pref_plugins_enabled "ჩართულია">
-<!ENTITY pref_plugins_tap_to_play2 "შეეხეთ დასაკრავად">
+<!ENTITY pref_plugins_tap_to_play2 "შეხებით გაშვება">
 <!ENTITY pref_plugins_disabled "ამორთულია">
 <!ENTITY pref_restore_tabs "ჩანართების აღდგენა">
 <!ENTITY pref_restore_always "აღდგენა ყოველთვის">
@@ -360,10 +371,12 @@
 
 <!-- Localization note (pref_use_system_font_size, pref_use_system_font_size_summary):
      Font size here refers to the name of the corresponding Android system setting. -->
+<!ENTITY pref_use_system_font_size "შრიფტის სისტემური ზომის გამოყენება">
+<!ENTITY pref_use_system_font_size_summary "ვებშიგთავსის ზომების ცვლილება, სისტემის შრიფტის ზომის მიხედვით">
 
-<!ENTITY pref_media_autoplay_enabled "ავტო-დაკვრის დაშვება">
-<!ENTITY pref_media_autoplay_enabled_summary "ვებ-საიტის ვიდეოების და სხვა მედია შიგთავსის ავტო-დაკვრის კონტროლი">
-<!ENTITY pref_zoom_force_enabled "ყოველთვის ჩაირთოს მასშტაბი">
+<!ENTITY pref_media_autoplay_enabled "ნებართვა თვით-გაშვებაზე">
+<!ENTITY pref_media_autoplay_enabled_summary "ვებსაიტის უფლებების მართვა, ვიდეოებისა და სხვა მედია შიგთავსის ავტომატურ გაშვებაზე">
+<!ENTITY pref_zoom_force_enabled "მასშტაბირების ჩართვა ყველგან">
 <!ENTITY pref_zoom_force_enabled_summary "უგულებელყოფს საიტების პარამეტრებს, რათა ყველა გვერდზე შეცვალოთ მასშტაბი">
 <!ENTITY pref_voice_input "ხმოვანი შეყვანა">
 <!ENTITY pref_voice_input_summary2 "ხმოვანი კარნახის დაშვება URL ზოლში">
@@ -375,17 +388,18 @@
 <!ENTITY pref_sync_summary2 "დაასინქრონეთ თქვენი ჩანართები, სანიშნეები, შესვლები, ისტორია">
 <!ENTITY pref_search_suggestions "ძიების შემოთავაზების ჩვენება">
 <!ENTITY pref_history_search_suggestions "ძიების ისტორიის ჩვენება">
-<!ENTITY pref_import_options "შემოტანის პარამეტრები">
-<!ENTITY pref_import_android_summary "შემოიტანეთ სანიშნეები და ისტორია თქვენი ადგილობრივი ბრაუზერიდან">
+<!ENTITY pref_import_options "გადმოტანის პარამეტრები">
+<!ENTITY pref_import_android_summary "გადმოიტანეთ სანიშნეები და ისტორია სხვა ბრაუზერებიდან">
 <!-- Localization note (pref_private_data_openTabs): Open tabs is an option in
      the Clear Private Data  dialog and refers to currently open tabs. -->
+<!ENTITY pref_private_data_openTabs "გახსნილი ჩანართები">
 <!ENTITY pref_private_data_history2 "დათვალიერების ისტორია">
 <!ENTITY pref_private_data_searchHistory "ძიების ისტორია">
-<!ENTITY pref_private_data_formdata2 "ისტორიიდან">
-<!ENTITY pref_private_data_cookies2 "ფუნთუშები და სეანსები ავტორიზაციით">
+<!ENTITY pref_private_data_formdata2 "ველები">
+<!ENTITY pref_private_data_cookies2 "ფუნთუშები და მიმდინარე შესვლები">
 <!ENTITY pref_private_data_passwords2 "შენახული შესვლები">
 <!ENTITY pref_private_data_cache "ბუფერი">
-<!ENTITY pref_private_data_offlineApps "ავტონომიურად შენახული მონაცემები">
+<!ENTITY pref_private_data_offlineApps "საიტების კავშირგარეშე მონაცემები">
 <!ENTITY pref_private_data_siteSettings2 "საიტის პარამეტრები">
 <!ENTITY pref_private_data_downloadFiles2 "ჩამოტვირთვები">
 <!ENTITY pref_private_data_syncedTabs "სინქრონიზებული ჩანართები">
@@ -393,7 +407,7 @@
 <!ENTITY pref_default_browser "ნაგულისხმევი ბრაუზერი">
 <!ENTITY pref_default_browser_mozilla_support_tablet "ეწვიეთ Mozilla მხარდაჭერას">
 <!ENTITY pref_about_firefox "&brandShortName; ინფორმაცია">
-<!ENTITY pref_vendor_faqs "ფ.ა.კ.">
+<!ENTITY pref_vendor_faqs "ხ.დ.კ.">
 <!ENTITY pref_vendor_feedback "გამოხმაურება">
 
 <!ENTITY pref_dialog_set_default "ნაგულისხმევად დაყენება">
@@ -423,16 +437,16 @@
      en-US/chrome/browser/preferences/advanced.dtd (healthReportSection.label,
      healthReportDesc.label, telemetrySection.label, telemetryDesc.label,
      crashReporterDesc.label). -->
-<!ENTITY datareporting_fhr_title "&brandShortName; დიაგნოსტიკა">
+<!ENTITY datareporting_fhr_title "&brandShortName; გამართულობის შესახებ მოხსენება">
 <!ENTITY datareporting_fhr_summary2 "მონაცემთა გაზიარება &vendorShortName;-სთან თქვენი ბრაუზერის შესახებ მისი წარმადობის გაგებაში დაგეხმარებათ">
-<!ENTITY datareporting_abouthr_title "ჩემი პატაკის ჩვენება">
+<!ENTITY datareporting_abouthr_title "წარმადობის მოხსენების ნახვა">
 <!ENTITY datareporting_telemetry_title "ტელემეტრია">
 <!ENTITY datareporting_telemetry_summary "გაუზიარებს წარმადობის, გამოყენების, მოწყობილობის, და პარამეტრების მონაცემებს &vendorShortName;-ს, რათა &brandShortName; ბრაუზერი კიდევ უფრო დაიხვეწოს">
-<!ENTITY datareporting_crashreporter_summary "&brandShortName; შეცდომის პატაკს გაგზავნის, რათა &vendorShortName;-მ იგი კიდევ უფრო სტაბილური და უსაფრთხო გახადოს">
+<!ENTITY datareporting_crashreporter_summary "&brandShortName; აგზავნის ავარიული დახურვის მოხსენებებს, რაც &vendorShortName;-ს თქვენი ბრაუზერის მდგრადობის და უსაფრთხოების გაუმჯობესებაში ეხმარება.">
 <!-- Localization note (datareporting_crashreporter_title_short) : This string matches
      (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
-<!ENTITY datareporting_crashreporter_title_short "შეცდომების მოპატაკე">
-<!ENTITY datareporting_wifi_title2 "&vendorShortName; მდებარეობის სერვისი">
+<!ENTITY datareporting_crashreporter_title_short "ავარიული დახურვის მომხსენებელი">
+<!ENTITY datareporting_wifi_title2 "&vendorShortName; მდებარეობა">
 <!ENTITY datareporting_wifi_geolocation_summary4 "დაეხმარე &vendorShortName;-ს მსოფლიოს დაგეგმარებაში! გააზიარეთ თქვენი მოწყობილობის მიახლოებითი Wi-Fi და მობილური მდებარეობა ჩვენი გეოლოკაციის მომსახურების გასაუმჯობესებლად.">
 <!-- Localization note (pref_update_autodownload2) : This should mention downloading
      specifically, since the pref only prevents automatic downloads and not the
@@ -458,12 +472,12 @@
 <!ENTITY save_as_pdf "შენახვა PDF ფორმატში">
 <!ENTITY print "დაბეჭდვა">
 <!ENTITY find_in_page "პოვნა გვერდზე">
-<!ENTITY desktop_mode "საიტის სული ვერსია">
+<!ENTITY desktop_mode "საიტის სრული ვერსია">
 <!ENTITY page "გვერდი">
 <!ENTITY tools "ხელსაწყოები">
 <!ENTITY new_tab "ახალი ჩანართი">
 <!ENTITY new_private_tab "ახალი პირადი ჩანართი">
-<!ENTITY close_all_tabs "ყველა ჩანართის დახურვა">
+<!ENTITY close_all_tabs "ყველას დახურვა">
 <!ENTITY close_private_tabs "პირადი ჩანართების დახურვა">
 <!ENTITY tabs_normal "დაფები">
 <!ENTITY tabs_private "პირადი">
@@ -489,6 +503,7 @@
 <!ENTITY contextmenu_open_private_tab "გახსნა პირად ჩანართში">
 <!ENTITY contextmenu_remove "ამოღება">
 <!ENTITY contextmenu_add_to_launcher "საშინაო გვერდზე დამატება">
+<!ENTITY contextmenu_set_as_homepage "საწყისი გვერდად დაყენება">
 <!ENTITY contextmenu_share "გაზიარება">
 <!ENTITY contextmenu_pasteandgo "ჩასმა და გადასვლა">
 <!ENTITY contextmenu_paste "ჩასმა">
@@ -512,7 +527,7 @@
 <!ENTITY doorhanger_login_select_message "დაკოპირდეს პაროლი &formatS;-დან?">
 <!ENTITY doorhanger_login_select_toast_copy "პაროლი დაკოპირდა ბუფერში">
 <!ENTITY doorhanger_login_select_action_text "აირჩიეთ სხვა შესვლა">
-<!ENTITY doorhanger_login_select_title "პაროლის კოპირება - ">
+<!ENTITY doorhanger_login_select_title "პაროლის დაკოპირება - ">
 
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
@@ -520,20 +535,24 @@
 <!ENTITY pref_scroll_title_bar_summary2 "&brandShortName;-ს ხელსაწყოთა ზოლის დამალვა გვერდზე მოძრაობისას">
 
 <!ENTITY pref_tab_queue_title3 "ჩანართების რიგი">
-<!ENTITY pref_tab_queue_summary4 "ბმულების შენახვა &brandShortName;-ში მომდევნო შესვლამდე">
+<!ENTITY pref_tab_queue_summary4 "ბმულების შენახვა &brandShortName;-ში მომდევნო გაშვებისთვის">
 
 <!-- Localization note (pref_compact_tabs): Label for setting that controls whether 1 wide column or
      2 narrower (compact) columns are used for tabs in the tabs tray in portrait mode on phones. -->
+<!ENTITY pref_compact_tabs "ჩანართების შემჭიდროება">
+<!ENTITY pref_compact_tabs_summary2 "ჩანართების ორ რიგად დალაგება შვეულად ჩვენებისას">
 
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
      bookmarks, or reading list. -->
 <!ENTITY page_removed "გვერდი ამოიშალა">
 
-<!ENTITY bookmark_edit_title "სანიშნეს რედაქტირება">
+<!ENTITY bookmark_edit_title "სანიშნის ჩასწორება">
+<!ENTITY bookmark_edit_folder_title "საქაღალდის ჩასწორება">
 <!ENTITY bookmark_edit_name "სახელი">
 <!ENTITY bookmark_edit_location "მისამართი">
 <!ENTITY bookmark_edit_keyword "საკვანძო სიტყვა">
+<!ENTITY bookmark_select_folder "საქაღალდის მითითება">
 
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
@@ -557,9 +576,9 @@
 <!ENTITY button_clear_data "მონაცემთა გასუფთავება">
 <!ENTITY button_set "მითითება">
 <!ENTITY button_clear "გასუფთავება">
-<!ENTITY button_copy "კოპირება">
+<!ENTITY button_copy "დაკოპირება">
 
-<!ENTITY home_top_sites_title "ხშირი საიტები">
+<!ENTITY home_top_sites_title "რჩეული საიტები">
 <!-- Localization note (home_top_sites_add): This string is used as placeholder
      text underneath empty thumbnails in the Top Sites page on about:home. -->
 <!ENTITY home_top_sites_add "საიტი დამატება">
@@ -582,10 +601,10 @@
 <!ENTITY home_closed_tabs_number "&formatD; ჩანართი">
 <!-- Localization note (home_closed_tabs_one): This is the singular version of home_closed_tabs_number, referring to the number of recently closed tabs available. -->
 <!ENTITY home_closed_tabs_one "1 ჩანართი">
-<!ENTITY home_most_recent_empty "თქვენ მიერ ყველაზე ბოლოს მონახულებული ვებ-საიტები აქ გამოჩნდება.">
+<!ENTITY home_most_recent_empty "ბოლოს მონახულებული ვებსაიტები გამოჩნდება აქ.">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
-<!ENTITY home_most_recent_emptyhint2 "ფსტ: &formatS1;ახალი პირადი ჩანართის&formatS2; გამოყენება თქვენს ისტორიას არ შეინახავს.">
+<!ENTITY home_most_recent_emptyhint2 "ჩშუუ: &formatS1;ახალი პირადი ჩანართი&formatS2; თქვენს ისტორიას არ შეინახავს.">
 
 <!-- Localization note (home_default_empty): This string is used as the default text when there
      is no data to show in an about:home panel that was created by an add-on. -->
@@ -607,11 +626,16 @@
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "არჩეული მოწყობილობების გამოჩენა">
 
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+<!ENTITY home_pinned_site "მიმაგრებული საიტები">
+<!ENTITY home_unpinned_site "მოხსნილი საიტები">
+
 <!ENTITY remote_tabs_panel_moved_title "სად წავიდა ჩემი ჩანართები?">
 <!ENTITY remote_tabs_panel_moved_desc "თქვენი სხვა მოწყობილობების ჩანართები გადავიტანეთ თქვენი საწყისი გვერდის პანელში, რათა მარტივად გქონდეთ მათზე წვდომა ახალი ჩანართის გახსნისას.">
 <!ENTITY remote_tabs_panel_moved_link "მაჩვენეთ ახალი პანელი.">
 
-<!ENTITY pin_site_dialog_hint "შეიყვანეთ საძიებო საკვანძო სიტყვა">
+<!ENTITY pin_site_dialog_hint "შეიყვანეთ საძიებო სიტყვა">
 
 <!ENTITY filepicker_title "ფაილის შერჩევა">
 <!ENTITY filepicker_audio_title "ხმოვანი სიგნალის შერჩევა ან ჩაწერა">
@@ -636,16 +660,16 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_connection_chromeui "ეს &brandShortName;-ის დაცული გვერდია">
 
 <!-- Mixed content notifications in site identity popup -->
-<!ENTITY mixed_content_blocked_all1 "&brandShortName;-მა ამ გვერდზე დაუცველი შიგთავსი დაბლოკა.">
-<!ENTITY mixed_content_blocked_some1 "&brandShortName;-მა ამ გვერდზე გარკვეული დაუცველი შიგთავსი დაბლოკა.">
+<!ENTITY mixed_content_blocked_all1 "&brandShortName;-მა ამ გვერდზე დაუცველი შიგთავსი შეზღუდა.">
+<!ENTITY mixed_content_blocked_some1 "&brandShortName;-მა ამ გვერდზე დაუცველი შიგთავსის ნაწილი შეზღუდა.">
 <!ENTITY mixed_content_display_loaded1 "ამ გვერდის ნაწილები დაუცველია (მაგალითად სურათები).">
 <!ENTITY mixed_content_protection_disabled1 "თქვენ ამ გვერდზე დაუცველი სიგთავსისგან დაცვა გამორთეთ.">
 
 <!-- Tracking content notifications in site identity popup -->
 <!ENTITY doorhanger_tracking_title2 "თვალთვალისგან დაცვა">
-<!ENTITY doorhanger_tracking_state_enabled "ჩართული">
-<!ENTITY doorhanger_tracking_state_disabled "გამორთული">
-<!ENTITY doorhanger_tracking_message_enabled1 "ინტერნეტში თქვენი მოქმედების თვალთვალის მცდელობა დაიბლოკა.">
+<!ENTITY doorhanger_tracking_state_enabled "ჩართულია">
+<!ENTITY doorhanger_tracking_state_disabled "გამორთულია">
+<!ENTITY doorhanger_tracking_message_enabled1 "ინტერნეტში თქვენს მოქმედებებზე თვალთვალის მცდელობა აღიკვეთა.">
 <!ENTITY doorhanger_tracking_message_disabled2 "ეს გვერდი შეიცავს ელემენტებს, რომელთაც შესაძლოა გითვალთვალონ.">
 
 <!-- Common mixed and tracking content strings in site identity popup -->
@@ -654,14 +678,14 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY disable_protection "დაცვის ამორთვა">
 
 <!ENTITY private_data_success "პირადი მონაცემები გასუფთავდა">
-<!ENTITY private_data_fail "ზოგი პირადი მონაცემების გასუფთავება ვერ ხერხდება">
+<!ENTITY private_data_fail "ზოგიერთი პირადი მონაცემის გასუფთავება ვერ ხერხდება">
 
-<!ENTITY bookmarkhistory_button_import "იმპორტი">
-<!ENTITY bookmarkhistory_import_both "სანიშნეებისა და ისტორიის იმპორტი
+<!ENTITY bookmarkhistory_button_import "გადმოტანა">
+<!ENTITY bookmarkhistory_import_both "სანიშნეებისა და ისტორიის გადმოტანა
                                       Android-იდან">
-<!ENTITY bookmarkhistory_import_bookmarks "სანიშნეების იმპორტი
+<!ENTITY bookmarkhistory_import_bookmarks "სანიშნეების გადმოტანა
                                            Android-იდან">
-<!ENTITY bookmarkhistory_import_history "ისტორიის იმპორტი
+<!ENTITY bookmarkhistory_import_history "ისტორიის გადმოტანა
                                          Android-იდან">
 <!ENTITY bookmarkhistory_import_wait "გთხოვთ დაიცადოთ...">
 
@@ -690,6 +714,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY updater_downloading_select2 "შეეხეთ ჩამოტვირთვისთანავე განსაახლებლად">
 <!ENTITY updater_downloading_retry2 "შეეხეთ ხელახლა მცდელობისთვის">
 
+<!ENTITY updater_apply_title3 "&brandShortName;-ის განახლება ჩამოტვირთულია">
+<!ENTITY updater_apply_select3 "შეეხეთ დაყენებისთვის">
 
 <!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
      if the app requires a runtime permission to download updates. Currently, the updater only sees
@@ -703,12 +729,12 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY exit_guest_session "გამოსვლა სტუმრის სეანსიდან">
 <!ENTITY guest_session_dialog_continue "გაგრძელება">
 <!ENTITY guest_session_dialog_cancel "გაუქმება">
-<!ENTITY new_guest_session_title "&brandShortName; ხელახლა ჩაიტვირთება">
-<!ENTITY new_guest_session_text2 "ადამიანი, რომელიც ამას გამოიყენებს, ვერ ნახვავს თქვენს პირად მონაცემებს (როგორიცაა შენახული შესვლები, ისტორია ან სანიშნეები)..\n\nროდესაც სტუმარი მორჩება, მისი დათვალიერების მონაცემები წაიშლება და თქვენი სესია აღდგება.">
-<!ENTITY guest_browsing_notification_title "სასტუმრო დათვალიერების რეჟიმი ჩართულია">
+<!ENTITY new_guest_session_title "&brandShortName; გაეშვება ხელახლა">
+<!ENTITY new_guest_session_text2 "ვინც, ამით ისარგებლდებს, ვერ ნახავს თქვენს პირად მონაცემებს (შენახულ შესვლებს, ისტორიას და სანიშნეებს)..\n\nროდესაც სტუმარი თავის საქმეს დაასრულებს, მისი დათვალიერების მონაცემები წაიშლება და თქვენი სეანსი აღდგება.">
+<!ENTITY guest_browsing_notification_title "სტუმრის რეჟიმი ჩართულია">
 <!ENTITY guest_browsing_notification_text "შეეხეთ გამოსასვლელად">
 
-<!ENTITY exit_guest_session_title "&brandShortName; ხელახლა ჩაიტვირთება">
+<!ENTITY exit_guest_session_title "&brandShortName; გაეშვება ხელახლა">
 <!ENTITY exit_guest_session_text "ამ სეანსისზე გახსნილი საიტების მონაცემები წაიშლება.">
 
 <!-- Miscellaneous -->
@@ -749,7 +775,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      We don't have control over the style of this dialog and it looks
      unpolished when this string is longer than one line so ideally keep it
      short! -->
-<!ENTITY intent_uri_private_browsing_multiple_match_title "გამოხვალთ პირადი დათვალიერებიდან?">
+<!ENTITY intent_uri_private_browsing_multiple_match_title "გსურთ, პირადი თვალიერების რეჟიმის დატოვება?">
 
 <!-- DevTools Authentication -->
 <!-- LOCALIZATION NOTE (devtools_auth_scan_header): This header text appears
@@ -764,16 +790,16 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      a restricted profile (e.g. child). Used inside the Android settings UI. -->
 <!ENTITY restrictable_feature_addons_installation "დამატებები">
 <!ENTITY restrictable_feature_addons_installation_description "დაამატეთ ფუნქციები და შესაძლებლობები Firefox-ს. შენიშვნა: დამატებებს გარკვეული შეზღუდვების გამორთვა ძალუძთ.">
-<!ENTITY restrictable_feature_private_browsing "პირადი დათვალიერება">
+<!ENTITY restrictable_feature_private_browsing "პირადი თვალიერების რეჟიმი">
 <!ENTITY restrictable_feature_private_browsing_description "ოჯახის წევრებს საშულაებას აძლევს დაათვალიერონ ინტერნეტი მათ მიერ მონახულებული საიტების და გვერდების შენახვის გარეშე.">
 <!ENTITY restrictable_feature_clear_history "ისტორიის გასუფთავება">
 <!ENTITY restrictable_feature_clear_history_description "ოჯახის წევრებს მათ მიერ მონახულებული საიტების და გვერდების შესახებ ინფორმაციის წაშლის საშუალებას აძლევს.">
 <!ENTITY restrictable_feature_advanced_settings "დამატებითი პარამეტრები">
-<!ENTITY restrictable_feature_advanced_settings_description "ეს შეიცავს სანიშნეების შემოტანას, ჩანართების აღდგენას და ავტომატურ განახლებებს. გამორთულია გამარტივებული პარამეტრებისთვის, რომელიც ოჯახის ნებისმიერ წევრს შეეფერება.">
+<!ENTITY restrictable_feature_advanced_settings_description "ეს მოიცავს სანიშნეების გადმოტანას, ჩანართების აღდგენას და ავტომატურ განახლებებს. შეგიძლიათ გამორთოთ, პარამეტრების გასამარტივებლად ოჯახის დანარჩენი წევრებისთვის.">
 <!ENTITY restrictable_feature_camera_microphone "კამერა და მიკროფონი">
-<!ENTITY restrictable_feature_camera_microphone_description "ოჯახის წევრებს ვებ-საიტებზე რეალური დროის კომუნიკაციის საშუალებას აძლევს.">
-<!ENTITY restrictable_feature_block_list "დაბლოკილი სია">
-<!ENTITY restrictable_feature_block_list_description "ვებ-საიტების დაბლოკვა, რომლებიც მგრძნობიარე შიგთავსს შეიცავენ.">
+<!ENTITY restrictable_feature_camera_microphone_description "ოჯახის წევრებს ვებსაიტებზე რეალური დროის კომუნიკაციის საშუალებას აძლევს.">
+<!ENTITY restrictable_feature_block_list "შეზღუდულთა სია">
+<!ENTITY restrictable_feature_block_list_description "ვებსაიტების შეზღუდვა, რომლებიც პირად მონაცემებს შეიცავენ.">
 
 <!-- Default Bookmarks titles-->
 <!-- LOCALIZATION NOTE (bookmarks_about_browser): link title for about:fennec -->
@@ -803,14 +829,14 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY promotion_add_to_homescreen "საშინაო გვერდზე დამატება">
 
 <!ENTITY helper_first_offline_bookmark_title "კავშირგარეშე წაკითხვა">
-<!ENTITY helper_first_offline_bookmark_message "იპოვეთ კითხვის ხედის ელემენტები სანიშნეებში კავშირგარეშე რეჟიმისასაც.">
+<!ENTITY helper_first_offline_bookmark_message "იპოვეთ წასაკითხი ელემენტები სანიშნეებში, კავშირგარეშე რეჟიმის დროსაც.">
 <!ENTITY helper_first_offline_bookmark_button "სანიშნეებზე გადასვლა">
 
 <!ENTITY helper_triple_readerview_open_title "კავშირგარეშე წვდომა">
 <!ENTITY helper_triple_readerview_open_message "ჩაინიშნეთ წაკითხვის რეჟიმის ელემენტები მათზე კავშირგარეშე წვდომისათვის.">
-<!ENTITY helper_triple_readerview_open_button "სანიშნებში დამატება">
+<!ENTITY helper_triple_readerview_open_button "ჩანიშვნა">
 
-<!ENTITY activity_stream_topsites "ტოპ საიტები">
+<!ENTITY activity_stream_topsites "რჩეული საიტები">
 <!ENTITY activity_stream_highlights "შესამჩნევები">
 
 <!-- LOCALIZATION NOTE (activity_stream_highlight_label_bookmarked): This label is shown in the Activity
@@ -826,3 +852,5 @@ is simply hidden from the Activity Stream panel. -->
 <!ENTITY activity_stream_dismiss "დათხოვნა">
 <!ENTITY activity_stream_delete_history "ისტორიიდან წაშლა">
 
+<!ENTITY activity_stream_welcome_title "ყველაზე საინტერესო თქვენთვის">
+<!ENTITY activity_stream_welcome_content1 "&brandShortName; ცალკე გამოჰყოფს ინტერნეტში თქვენ მიერ ნანახიდან ყველაზე მნიშვნელოვანს, ასე რომ, მარტივად შეგეძლებათ დაუბრუნდეთ საინტერესო სტატიებს, ვიდეოებს, სანიშნეებს და სხვ.">

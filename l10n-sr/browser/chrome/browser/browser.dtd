@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Мобилне забелешке">
 <!ENTITY viewBookmarksSidebar2.label        "Прикажи у бочној палети">
 <!ENTITY viewBookmarksToolbar.label         "Прикажи траку са забелешкама">
+<!ENTITY searchBookmarks.label              "Претражи забелешке">
 
 <!ENTITY containersMenu.label "Контејнери">
 
@@ -329,8 +330,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "А"> 
 <!ENTITY viewSidebarMenu.label "Бочна палета">
 <!ENTITY viewSidebarMenu.accesskey "Б">
-<!ENTITY viewCustomizeToolbar.label       "Подешавања…"> 
+<!ENTITY viewCustomizeToolbar.label       "Прилагоди…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "ш">
+<!ENTITY overflowCustomizeToolbar.label       "Прилагоди алатну траку…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "г">
 
 <!ENTITY historyMenu.label "Историјат">
 <!ENTITY historyMenu.accesskey "И">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Обриши историјат…">
 <!ENTITY appMenuHistory.restoreSession.label "Обнови претходну сесију">
 <!ENTITY appMenuHistory.viewSidebar.label "Прикажи палету историјата">
+<!ENTITY appMenuHistory.recentHistory.label "Недавни историјат">
 <!ENTITY appMenuHelp.label "Помоћ">
 <!ENTITY appMenuHelp.tooltip "Отвори мени за помоћ">
 
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "Упит претраге">
 <!ENTITY contentSearchSubmit.tooltip  "Пошаљи претрагу">
+
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+<!ENTITY searchInput.placeholder      "Претражи">
+<!ENTITY searchIcon.tooltip           "Претрага">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -849,6 +858,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "У">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Набавите теме">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "Н">
+<!ENTITY customizeMode.emptyOverflowList.description "Превуците и спустите ставке овде како бисте их држали близу али ван алатне траке…">
+<!ENTITY customizeMode.uidensity "Збијеност">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Обична">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Обична">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "О">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Компактна">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Компактна">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "К">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "На додир">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "На додир">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "Н">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Користи На додир у режиму таблета">
 
 <!ENTITY getUserMedia.selectCamera.label "Камера за дељење:">
 <!ENTITY getUserMedia.selectCamera.accesskey "К">
@@ -921,7 +951,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY panicButton.view.deleteTabsAndWindows    "Затворити све <html:strong>језичке</html:strong> и <html:strong>прозоре</html:strong>">
 <!ENTITY panicButton.view.openNewWindow           "Отворити нови прозор">
 
-<!ENTITY panicButton.view.undoWarning             "Ова радња не може да се поништи.">
+<!ENTITY panicButton.view.undoWarning             "Ова радња се не може опозвати.">
 <!ENTITY panicButton.view.forgetButton            "Заборави!">
 
 <!ENTITY panicButton.thankyou.msg1                "Недавна историја је обрисана.">
@@ -959,7 +989,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY pageActionButton.tooltip "Радње странице">
 
-<!ENTITY sendToDevice.label "Пошаљи на уређај…">
+<!ENTITY sendToDevice.label2 "Пошаљи на уређај">
 <!ENTITY sendToDevice.viewTitle "Пошаљи на уређај">
-<!ENTITY sendToDevice.fxaRequired.label "Обавезно">
-<!ENTITY sendToDevice.noDevices.label "Нема доступних уређаја">
+<!ENTITY sendToDevice.syncNotReady.label "Синхронизујем уређаје…">

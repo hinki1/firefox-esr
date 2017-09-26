@@ -66,6 +66,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 
 
+
 <!ENTITY aboutSupport.appBasicsSafeMode "सुरक्षित मोड">
 
 <!ENTITY aboutSupport.showDir.label "खुलल निर्देशिका">
@@ -100,6 +101,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yActivated "सक्रिय करू ">
 <!ENTITY aboutSupport.a11yForceDisabled "पहुँच रोकू">
 
+
 <!ENTITY aboutSupport.libraryVersionsTitle "लाइब्रेरी संस्करण">
 
 <!ENTITY aboutSupport.installationHistoryTitle "संस्थापन इतिहास">
@@ -120,6 +122,18 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.safeModeTitle "सुरक्षित मोड मे कोसिस करू">
 <!ENTITY aboutSupport.restartInSafeMode.label "निष्क्रिय सहयुक्तिक सँग फेर आरंभ करू ...">
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

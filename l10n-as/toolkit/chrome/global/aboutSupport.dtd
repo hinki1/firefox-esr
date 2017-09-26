@@ -63,6 +63,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 
 
+
 <!ENTITY aboutSupport.showDir.label "ডাইৰেকটৰি খোলক">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
@@ -95,6 +96,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yActivated "সক্ৰিয়">
 <!ENTITY aboutSupport.a11yForceDisabled "অভিগম্যতা প্ৰতিৰোধ কৰক">
 
+
 <!ENTITY aboutSupport.libraryVersionsTitle "লাইব্ৰেৰী সংস্কৰণসমূহ">
 
 <!ENTITY aboutSupport.installationHistoryTitle "ইনস্টল ইতিহাস">
@@ -104,6 +106,18 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "ৰ' তথ্যক ক্লিপবৰ্ডলে কপি কৰক">
 
 <!ENTITY aboutSupport.sandboxTitle "চেণ্ডবক্স">
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

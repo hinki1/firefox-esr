@@ -66,6 +66,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Rutzuwach k'ïy tajin">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Rutajinik Rupam Ajk'amaya'l">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Google pitz'b'äl">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Mozilla k'ojlib'äl ewan rutzij samaj">
 
@@ -104,6 +106,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Okel">
 <!ENTITY aboutSupport.a11yActivated "Tzijïl">
 <!ENTITY aboutSupport.a11yForceDisabled "Tichajïx apo ri okel">
+<!ENTITY aboutSupport.a11yHandlerUsed "Handler Etz'ab'al Okisan">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Taq ruwäch richin wujb'äl">
 
@@ -134,3 +137,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Runa'oj tz'ib'anïk">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Tzaqoj Chajïy q'ajon taq b'anikil">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Tz'aqat taq soloj">
+
+<!ENTITY aboutSupport.mediaTitle "Q'ojom">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Elem taq Okisaxel">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Okib'äl taq Okisaxel">
+<!ENTITY aboutSupport.mediaDeviceName "B'i'aj">
+<!ENTITY aboutSupport.mediaDeviceGroup "Molaj">
+<!ENTITY aboutSupport.mediaDeviceVendor "K'ayinel">
+<!ENTITY aboutSupport.mediaDeviceState "Amaq'">
+<!ENTITY aboutSupport.mediaDevicePreferred "Ichinanel">
+<!ENTITY aboutSupport.mediaDeviceFormat "B'anikil">
+<!ENTITY aboutSupport.mediaDeviceChannels "Taq b'ey">
+<!ENTITY aboutSupport.mediaDeviceRate "Rajil">
+<!ENTITY aboutSupport.mediaDeviceLatency "Rub'anikil k'o wi">

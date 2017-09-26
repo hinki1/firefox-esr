@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Yleiset">
 
-<!ENTITY accessibility.label             "Esteettömyystoiminnot">
-
 <!ENTITY useCursorNavigation.label       "Liiku sivuilla nuolinäppäimillä">
 <!ENTITY useCursorNavigation.accesskey   "s">
 <!ENTITY searchOnStartTyping.label       "Ala etsiä tekstistä heti kirjoitettaessa">
 <!ENTITY searchOnStartTyping.accesskey   "A">
-<!ENTITY blockAutoReload.label           "Varoita, kun sivustot yrittävät päivittää sivua tai uudelleenohjata toiselle sivulle">
-<!ENTITY blockAutoReload.accesskey       "r">
 <!ENTITY useOnScreenKeyboard.label       "Näytä kosketusnäppäimistö tarvittaessa">
 <!ENTITY useOnScreenKeyboard.accesskey   "N">
 
@@ -28,24 +24,26 @@
 
 <!ENTITY dataChoicesTab.label            "Kerätyt tiedot">
 
-<!ENTITY healthReportDesc.label          "Antaa sinulle tietoa selaimesi suorituskyvystä ja jakaa tiedot selaimesi tilasta &vendorShortName;n kanssa">
-<!ENTITY enableHealthReport.label        "&brandShortName;in terveydentilaraportti käytössä">
-<!ENTITY enableHealthReport.accesskey    "F">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "Tietojen kerääminen ei ole käytössä tässä koostamiskokoonpanossa">
+
+<!ENTITY enableHealthReport1.label       "Salli, että &brandShortName; lähettää teknisiä ja käyttötilastoja Mozillalle automaattisesti">
+<!ENTITY enableHealthReport1.accesskey   "ö">
 <!ENTITY healthReportLearnMore.label     "Lue lisää">
 
-<!ENTITY telemetryDesc.label             "Lähetä &vendorShortName;lle tietoja selaimen suorituskyvystä, käytöstä, muokkauksista ja käytetystä laitteistosta auttaaksesi meitä kehittämään &brandShortName;ia">
-<!ENTITY enableTelemetryData.label       "Jaa muita tietoja (so. kaukomittaustietoja)">
-<!ENTITY enableTelemetryData.accesskey   "k">
-<!ENTITY telemetryLearnMore.label        "Lue lisää">
+<!ENTITY dataCollection.label            "&brandShortName;in tietojen keräys ja käyttö">
+<!ENTITY dataCollectionDesc.label        "Pyrimme antamaan sinulle vapauden valita ja keräämään vain tietoja, joita tarvitsemme voidaksemme tarjota &brandShortName;in kaikille ja parantaa sitä. Kysymme aina lupaa ennen kuin vastaanotamme henkilötietoja.">
+<!ENTITY dataCollectionPrivacyNotice.label    "Tietosuojakäytäntö">
 
-<!ENTITY crashReporterDesc2.label         "Kaatumisilmoitusten ansiosta &vendorShortName; voi korjata ongelmia ja tehdä selaimestasi vakaamman ja turvallisemman">
-<!ENTITY alwaysSubmitCrashReports.label   "Salli, että &brandShortName; lähettää lähettämättömät kaatumisilmoitukset puolestasi">
-<!ENTITY alwaysSubmitCrashReports.accesskey "S">
-<!ENTITY crashReporterLearnMore.label     "Lue lisää">
+<!ENTITY alwaysSubmitCrashReports1.label  "Salli, että &brandShortName; lähettää kaatumisilmoitukset Mozillalle">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "e">
+<!ENTITY crashReporterLearnMore.label    "Lue lisää">
 
 <!ENTITY networkTab.label                "Verkko">
 
-<!ENTITY connection.label                "Yhteys">
+<!ENTITY networkProxy.label              "Verkon välityspalvelin">
 
 <!ENTITY connectionDesc.label            "Muokkaa &brandShortName;in verkkoyhteysasetuksia">
 <!ENTITY connectionSettings.label        "Asetukset…">
@@ -92,13 +90,15 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+<!ENTITY updateApplicationDescription.label
+                                         "Pidä &brandShortName; ajan tasalla parhaan suorituskyvyn, vakauden ja turvallisuuden vuoksi.">
 <!ENTITY updateApplication.version.pre   "Versio ">
 <!ENTITY updateApplication.version.post  "">
 <!ENTITY updateApplication.description   "&brandShortName;in päivitystapa">
-<!ENTITY updateAuto2.label               "Asenna päivitykset automaattisesti (suositellaan paremman turvallisuuden vuoksi)">
-<!ENTITY updateAuto2.accesskey           "A">
+<!ENTITY updateAuto3.label               "Asenna päivitykset automaattisesti (suositellaan)">
+<!ENTITY updateAuto3.accesskey           "A">
 <!ENTITY updateCheckChoose2.label        "Hae päivitykset, mutta anna sinun päättää asennetaanko ne">
-<!ENTITY updateCheckChoose2.accesskey    "H">
+<!ENTITY updateCheckChoose2.accesskey    "e">
 <!ENTITY updateManual2.label             "Älä hae päivityksiä (ei suositella)">
 <!ENTITY updateManual2.accesskey         "Ä">
 
@@ -110,8 +110,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "Päivitä hakukoneet automaattisesti">
 <!ENTITY enableSearchUpdate2.accesskey   "k">
-
-<!ENTITY reports.label                   "Raportit">
 
 <!ENTITY offlineStorageNotify.label               "Näytä ilmoitus, kun sivusto pyytää lupaa tallentaa tietoa yhteydetöntä tilaa varten">
 <!ENTITY offlineStorageNotify.accesskey           "N">
@@ -132,10 +130,10 @@
 <!ENTITY selectCerts.ask.accesskey       "k">
 <!ENTITY enableOCSP.label                "Vahvista varmenteiden kelpoisuus OCSP-vastaajapalvelimilta">
 <!ENTITY enableOCSP.accesskey            "C">
-<!ENTITY viewCerts.label                 "Näytä varmenteet">
-<!ENTITY viewCerts.accesskey             "N">
-<!ENTITY viewSecurityDevices.label       "Turvallisuuslaitteet">
-<!ENTITY viewSecurityDevices.accesskey   "T">
+<!ENTITY viewCerts2.label                "Näytä varmenteet…">
+<!ENTITY viewCerts2.accesskey            "y">
+<!ENTITY viewSecurityDevices2.label      "Turvallisuuslaitteet…">
+<!ENTITY viewSecurityDevices2.accesskey  "T">
 
 <!ENTITY performance.label               "Suorituskyky">
 <!ENTITY useRecommendedPerformanceSettings2.label

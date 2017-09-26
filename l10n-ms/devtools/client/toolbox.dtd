@@ -25,7 +25,7 @@
 <!-- LOCALIZATION NOTE (options.showUserAgentStyles.label): This is the label
   -  for the checkbox option to show user agent styles in the Inspector
   -  panel. -->
-<!ENTITY options.showUserAgentStyles.label "Papar Browser Styles">
+<!ENTITY options.showUserAgentStyles.label "Papar Gaya Pelayar">
 <!ENTITY options.showUserAgentStyles.tooltip "Mengaktifkan ini akan dapat memaparkan gaya piawai yang dimuatkan oleh pelayar.">
 
 <!-- LOCALIZATION NOTE (options.collapseAttrs.label): This is the label
@@ -81,12 +81,6 @@
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Dayakan menyahpepijat jauh">
 <!ENTITY options.enableRemote.tooltip2  "Mengaktifkan pilihan ini akan membolehkan alatan pembangun menyahpepijat tika remote seperti Firefox OS">
-
-<!-- LOCALIZATION NOTE (options.enableWorkers.label): This is the label for the
-  -  checkbox that toggles worker debugging, i.e. devtools.debugger.workers
-  -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableWorkers.label    "Dayakan worker debugging (dalam pembangunan)">
-<!ENTITY options.enableWorkers.tooltip  "Mengaktifkan pilihan ini akan membolehkan alatan pembangun menyahpepijat workers">
 
 <!-- LOCALIZATION NOTE (options.disableJavaScript.label,
   -  options.disableJavaScript.tooltip): This is the options panel label and
@@ -158,7 +152,7 @@
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->
-<!ENTITY options.styleeditor.label            "Style Editor">
+<!ENTITY options.styleeditor.label            "Editor Gaya">
 
 <!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
    - label for the checkbox that toggles showing original sources in the Style Editor -->
@@ -167,13 +161,13 @@
 
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
    - label for the checkbox that toggles autocompletion of css in the Style Editor -->
-<!ENTITY options.stylesheetAutocompletion.label      "Autocomplete CSS">
-<!ENTITY options.stylesheetAutocompletion.tooltip    "Ciri, nilai dan pemilih autocomplete CSS dalam Editor Gaya sebaik sahaja anda menaip">
+<!ENTITY options.stylesheetAutocompletion.label      "CSS Auto-lengkap">
+<!ENTITY options.stylesheetAutocompletion.tooltip    "Ciri, nilai dan pemilih auto-lengkap CSS dalam Editor Gaya sebaik sahaja anda menaip">
 
 <!-- LOCALIZATION NOTE (options.screenshot.label): This is the label for the
    -  heading of the group of Screenshot preferences in the options
    -  panel. -->
-<!ENTITY options.screenshot.label            "Tingkahlaku Skrinsyot">
+<!ENTITY options.screenshot.label            "Perilaku Skrinsyot">
 
 <!-- LOCALIZATION NOTE (options.screenshot.clipboard.label): This is the
    - label for the checkbox that toggles screenshot to clipboard feature. -->
@@ -188,7 +182,7 @@
 <!-- LOCALIZATION NOTE (options.commonprefs): This is the label for the heading
       of all preferences that affect both the Web Console and the Network
       Monitor -->
-<!ENTITY options.commonPrefs.label           "Keutamaan Kebiasaan">
+<!ENTITY options.commonPrefs.label           "Keutamaan Lazim">
 
 <!-- LOCALIZATION NOTE (options.enablePersistentLogs.label): This is the
   -  label for the checkbox that toggles persistent logs in the Web Console and
@@ -216,7 +210,7 @@ simbol platfom Gecko">
 <!ENTITY options.sourceeditor.expandtab.label           "Inden menggunakan ruang">
 <!ENTITY options.sourceeditor.expandtab.tooltip         "Gunakan ruang dan bukannya aksara tab">
 <!ENTITY options.sourceeditor.tabsize.label             "Saiz tab">
-<!ENTITY options.sourceeditor.tabsize.accesskey         "T">
+<!ENTITY options.sourceeditor.tabsize.accesskey         "S">
 <!ENTITY options.sourceeditor.keybinding.label          "Keybindings">
 <!ENTITY options.sourceeditor.keybinding.accesskey      "K">
 <!ENTITY options.sourceeditor.keybinding.default.label  "Piawai">

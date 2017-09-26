@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Všeobecné">
 
-<!ENTITY accessibility.label             "Zjednodušenie ovládania">
-
 <!ENTITY useCursorNavigation.label       "Vždy používať kurzorové klávesy na navigáciu na stránkach">
 <!ENTITY useCursorNavigation.accesskey   "V">
 <!ENTITY searchOnStartTyping.label       "Povoliť vyhľadávanie textu počas písania">
 <!ENTITY searchOnStartTyping.accesskey   "x">
-<!ENTITY blockAutoReload.label           "Upozorniť, ak sa webová stránka pokúša o presmerovanie alebo obnovenie">
-<!ENTITY blockAutoReload.accesskey       "U">
 <!ENTITY useOnScreenKeyboard.label       "Zobraziť dotykovú klávesnicu, keď je to potrebné">
 <!ENTITY useOnScreenKeyboard.accesskey   "d">
 
@@ -28,24 +24,26 @@
 
 <!ENTITY dataChoicesTab.label            "Odosielanie údajov">
 
-<!ENTITY healthReportDesc.label          "Pomáha Vám porozumieť výkonnosti Vášho prehliadača a zdieľa so spoločnosťou &vendorShortName; údaje o jeho kondícii.">
-<!ENTITY enableHealthReport.label        "Povoliť správy o kondícii prehliadača &brandShortName;">
-<!ENTITY enableHealthReport.accesskey    "o">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "Odosielanie údajov je v konfigurácii tohto zostavenia zakázané">
+
+<!ENTITY enableHealthReport1.label       "Povoliť aplikácii &brandShortName; automaticky odosielať Mozille technické údaje a údaje o interakciách">
+<!ENTITY enableHealthReport1.accesskey   "r">
 <!ENTITY healthReportLearnMore.label     "Ďalšie informácie">
 
-<!ENTITY telemetryDesc.label             "Zdieľa údaje o výkonnosti, využívaní funkcií, hardvérovej konfigurácii a prispôsobení prehliadača so spoločnosťou &vendorShortName; s cieľom urobiť &brandShortName; lepším.">
-<!ENTITY enableTelemetryData.label       "Zdieľať ďalšie údaje (napr. telemetriu)">
-<!ENTITY enableTelemetryData.accesskey   "t">
-<!ENTITY telemetryLearnMore.label        "Ďalšie informácie">
+<!ENTITY dataCollection.label            "Zber a použitie údajov o aplikácii &brandShortName;">
+<!ENTITY dataCollectionDesc.label        "Keď sa jedná o údaje, dávame vám vždy na výber. Zbierame len údaje, ktoré nám pomôžu aplikáciu &brandShortName; naďalej zlepšovať. Pred odoslaním osobných údajov vždy žiadame o váš súhlas.">
+<!ENTITY dataCollectionPrivacyNotice.label    "Zásady ochrany súkromia">
 
-<!ENTITY crashReporterDesc2.label         "Správy o zlyhaní pomáhajú spoločnosti &vendorShortName; opravovať chyby a robiť prehliadač stabilnejším a bezpečnejším">
-<!ENTITY alwaysSubmitCrashReports.label   "Povoliť prehliadaču &brandShortName; odosielať vo vašom mene správy o zlyhaní">
-<!ENTITY alwaysSubmitCrashReports.accesskey "p">
-<!ENTITY crashReporterLearnMore.label     "Ďalšie informácie">
+<!ENTITY alwaysSubmitCrashReports1.label  "Odosielať Mozille správy o zlyhaní aplikácie &brandShortName;">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "c">
+<!ENTITY crashReporterLearnMore.label    "Ďalšie informácie">
 
 <!ENTITY networkTab.label                "Sieť">
 
-<!ENTITY connection.label                "Pripojenie">
+<!ENTITY networkProxy.label              "Nastavenie pripojenia">
 
 <!ENTITY connectionDesc.label            "Nastaviť spôsob, akým sa &brandShortName; pripája k sieti Internet">
 <!ENTITY connectionSettings.label        "Nastavenia…">
@@ -92,11 +90,13 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+<!ENTITY updateApplicationDescription.label
+                                         "Najvyšší výkon, stabilitu a bezpečnosť dosiahnete tak, že budete udržovať aplikáciu &brandShortName; neustále aktuálnu.">
 <!ENTITY updateApplication.version.pre   "Verzia ">
 <!ENTITY updateApplication.version.post  "">
 <!ENTITY updateApplication.description   "Povoliť aplikácii &brandShortName;">
-<!ENTITY updateAuto2.label               "Automaticky inštalovať aktualizácie (odporúčané z dôvodu vyššej bezpečnosti)">
-<!ENTITY updateAuto2.accesskey           "A">
+<!ENTITY updateAuto3.label               "Automaticky inštalovať aktualizácie (odporúčané)">
+<!ENTITY updateAuto3.accesskey           "A">
 <!ENTITY updateCheckChoose2.label        "Vyhľadávať aktualizácie, ale poskytnúť možnosť zvoliť, či sa nainštalujú">
 <!ENTITY updateCheckChoose2.accesskey    "k">
 <!ENTITY updateManual2.label             "Nevyhľadávať aktualizácie (neodporúča sa)">
@@ -110,8 +110,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "Automaticky aktualizovať vyhľadávacie moduly">
 <!ENTITY enableSearchUpdate2.accesskey   "e">
-
-<!ENTITY reports.label                   "Hlásenia">
 
 <!ENTITY offlineStorageNotify.label               "Upozorniť, ak chce stránka uložiť údaje na použitie v režime offline">
 <!ENTITY offlineStorageNotify.accesskey           "U">
@@ -132,10 +130,10 @@
 <!ENTITY selectCerts.ask.accesskey       "V">
 <!ENTITY enableOCSP.label                "Aktuálnu platnosť certifikátov overovať na serveroch OCSP">
 <!ENTITY enableOCSP.accesskey            "A">
-<!ENTITY viewCerts.label                 "Zobraziť certifikáty">
-<!ENTITY viewCerts.accesskey             "c">
-<!ENTITY viewSecurityDevices.label       "Bezpečnostné zariadenia">
-<!ENTITY viewSecurityDevices.accesskey   "z">
+<!ENTITY viewCerts2.label                "Zobraziť certifikáty…">
+<!ENTITY viewCerts2.accesskey            "c">
+<!ENTITY viewSecurityDevices2.label      "Bezpečnostné zariadenia…">
+<!ENTITY viewSecurityDevices2.accesskey  "d">
 
 <!ENTITY performance.label               "Výkon">
 <!ENTITY useRecommendedPerformanceSettings2.label

@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Мобильді бетбелгілер">
 <!ENTITY viewBookmarksSidebar2.label        "Бүйір панелін қарау">
 <!ENTITY viewBookmarksToolbar.label         "Бетбелгілер панелін қарау">
+<!ENTITY searchBookmarks.label              "Бетбелгілер ішінен іздеу">
 
 <!ENTITY containersMenu.label "Контейнерлер">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
@@ -331,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "Б">
 <!ENTITY viewCustomizeToolbar.label       "Баптау…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "а">
+<!ENTITY overflowCustomizeToolbar.label       "Саймандар панелін баптау…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "б">
 
 <!ENTITY historyMenu.label "Тарихы">
 <!ENTITY historyMenu.accesskey "х">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Жуырдағы тарихты өшіру…">
 <!ENTITY appMenuHistory.restoreSession.label "Алдыңғы сессияны қалпына келтіру">
 <!ENTITY appMenuHistory.viewSidebar.label "Тарихтың бүйір панелін көрсету">
+<!ENTITY appMenuHistory.recentHistory.label "Жуырдағы тарихы">
 <!ENTITY appMenuHelp.label "Көмек">
 <!ENTITY appMenuHelp.tooltip "Көмек мәзірін ашу">
 
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY contentSearchInput.label     "Іздеу сұранымы">
 <!ENTITY contentSearchSubmit.tooltip  "Іздеуді жіберу">
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+
+<!ENTITY searchInput.placeholder      "Іздеу">
+<!ENTITY searchIcon.tooltip           "Іздеу">
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
@@ -850,6 +859,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "м">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Көбірек темаларды алу">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "л">
+<!ENTITY customizeMode.emptyOverflowList.description "Нәрселерді қолжетерлік, бірақ саймандар панелінен тыс ұстау үшін, оларды осында тартып апарыңыз…">
+<!ENTITY customizeMode.uidensity "Тығыздығы">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Қалыпты">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Қалыпты">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "л">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Ықшам">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Ықшам">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "Ы">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Тию">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Тию">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "Т">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Планшет режимі үшін тиюді қолдану">
 
 <!ENTITY getUserMedia.selectCamera.label "Бөлісу үшін камера:">
 <!ENTITY getUserMedia.selectCamera.accesskey "м">
@@ -959,8 +989,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2 "&brandShorterName; жаңарту үшін қайта іске қосу">
 
 <!ENTITY pageActionButton.tooltip "Бет әрекеттері">
+<!ENTITY pageAction.addToUrlbar.label "Адрес жолағына қосу">
+<!ENTITY pageAction.removeFromUrlbar.label "Адрес жолағынан алып тастау">
 
-<!ENTITY sendToDevice.label "Құрылғыға жіберу…">
-<!ENTITY sendToDevice.viewTitle "Құрылғыға жіберу">
-<!ENTITY sendToDevice.fxaRequired.label "Міндетті">
-<!ENTITY sendToDevice.noDevices.label "Қолжетерлік құрылғылар жоқ">
+<!ENTITY sendToDevice.label2 "Құрылғыға жіберу">
+<!ENTITY sendToDevice.syncNotReady.label "Құрылғыларды синхрондау…">

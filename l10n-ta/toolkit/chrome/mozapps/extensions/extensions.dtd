@@ -15,7 +15,7 @@
 <!ENTITY listEmpty.recentUpdates.label        "நீங்கள் எந்த கூடுதல் இணைப்புகளையும் சமீபத்தில் புதுப்பிக்கவில்லை">
 <!ENTITY listEmpty.findUpdates.label          "புதுப்பித்தல்களுக்கு சரி பார்க்கவும்">
 <!ENTITY listEmpty.search.label               "பொருந்தும் எந்த கூடுதல் இணைப்புகளையும் காண முடியவில்லை">
-<!ENTITY listEmpty.button.label               "கூடுதல் இணைப்புகள் பற்றி மேலும் அறிய">
+<!ENTITY listEmpty.button.label               "துணை நிரல்கள் பற்றி மேலும் அறிய">
 <!ENTITY installAddonFromFile.label           "கோப்பிலிருந்து நீட்சிகள் நிறுவுகிறது…">
 <!ENTITY installAddonFromFile.accesskey       "க">
 <!ENTITY toolsMenu.tooltip                    "அனைத்து கூடுதல் இணைப்புகளுக்குமான கருவிகள்">
@@ -67,7 +67,7 @@
 <!ENTITY updates.resetUpdatesToManual.label          "கைமுறையாக புதுப்பிக்க அனைத்து கூடுதல் இணைப்புகளையும் மறுஅமை">
 <!ENTITY updates.resetUpdatesToManual.accesskey      "R">
 <!ENTITY updates.updating.label               "கூடுதல் இணைப்புகளை புதுப்பிக்கிறது">
-<!ENTITY updates.installed.label              "உங்கள் கூடுதல் இணைப்புகள் புதுப்பிக்கப்பட்டன.">
+<!ENTITY updates.installed.label              "உங்களின் துணை நிரல்கள் புதுப்பிக்கப்பட்டன.">
 <!ENTITY updates.downloaded.label             "உங்கள் கூடுதல் இணைப்பு பதிவிறக்கப்பட்டன.">
 <!ENTITY updates.restart.label                "நிறுவலை முடிக்க மறுதுவக்கவும்">
 <!ENTITY updates.noneFound.label              "புதுப்பித்தல்கள் எதுவும் காணப்படவில்லை">
@@ -118,13 +118,13 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "இந்த புதுப்பித்தலின் வெளியீட்டு அறிக்கையைக் காட்டு">
 <!ENTITY cmd.hideReleaseNotes.label           "வெளியீட்டு அறிக்கையை மறை">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "இந்த புதுப்பித்தலின் வெளியீட்டு அறிக்கையை மறை">
-
+<!ENTITY cmd.findReplacement.label            "ஒரு மாற்றைக் கண்டுபிடி">
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
 
 <!ENTITY discover.title                       "கூடுதல் இணைப்பு என்றால் என்ன?">
-<!ENTITY discover.description2                "கூடுதல் இணைப்பு என்பது கூடுதல் செயல்பாடு அல்லது பாணியுடன் &brandShortName;-ஐ தனிப்பட்டதாக்கும் பயன்பாடுகள் ஆகும். ஒரு நேரம் சேமிக்கும் பக்கப்பட்டை, ஒரு வானிலை அறிவிப்பி அல்லது உங்களுக்கு சொந்தமாக உள்ள &brandShortName; -இன் தீம்மை முயற்சிக்கவும்.">
+<!ENTITY discover.description2                "துணை நிரல்கள் என்பது கூடுதல் செயல்பாடு அல்லது பாணியுடன் &brandShortName; விருப்பமைக்க உதவும் பயன்பாடுகள் ஆகும். நேரம் சேமிக்கும் ஒரு பக்கப்பட்டை, ஒரு வானிலை அறிவிப்பி அல்லது உங்களுக்கு சொந்தமாக உள்ள &brandShortName; கருப்பொருளை முயற்சிக்கவும்.">
 <!ENTITY discover.footer                      "நீங்கள் இணையத்தில் இணைக்கப்படும் போது, இந்த பலகம் உங்களுக்கு மிகவும் பிரபலமான கூடுதல் இணைப்புகளை நீங்கள் முயற்சிக்க காட்டும்.">
 <!-- detail view -->
 
@@ -179,7 +179,7 @@
 <!ENTITY search.filter2.label                 "தேடு:">
 <!ENTITY search.filter2.installed.label       "எனது நிரல்கள்">
 <!ENTITY search.filter2.installed.tooltip     "நிறுவப்பட்ட கூடுதல் இணைப்புகளை காட்டு">
-<!ENTITY search.filter2.available.label       "இருக்கும் கூடுதல் இணைப்புகள்">
+<!ENTITY search.filter2.available.label       "இருக்கும் துணை நிரல்கள்">
 <!ENTITY search.filter2.available.tooltip     "நிறுவ இருக்கும் கூடுதல் இணைப்புகளை காட்டு">
 
 <!ENTITY addon.homepage                       "முதன்மை பக்கம்">
@@ -189,6 +189,7 @@
 <!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
      to the add-on name for extensions that are not webextensions, which
      will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "மரபு">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -249,11 +250,13 @@
      being a link to an external site. -->
 <!ENTITY disabledUnsigned.devInfo.start "தங்கள் கூடுதல் இணைப்புகளை உறுதிப்படுத்த விரும்பும் உருவாக்குநர்கள் வாசிப்பதின் மூலம் தொடரலாம்">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "கையேடு">
+<!ENTITY disabledUnsigned.devInfo.end ".">
 
-
+<!ENTITY pluginDeprecation.description "ஏதோ ஒன்று இல்லையா? சில நீட்டிப்புகள் &brandShortName; உலாவியால் ஆதரிக்கப்படாது.">
 <!ENTITY pluginDeprecation.learnMore "மேலும் அறிய.">
 
-
-
-
-
+<!ENTITY legacyWarning.description "ஏதோ ஒன்று இல்லையா? சில நீட்டிப்புகள் &brandShortName; உலாவியால் ஆதரிக்கப்படாது.">
+<!ENTITY legacyWarning.showLegacy "மரபு நீட்சிகளைக் காண்பி">
+<!ENTITY legacyExtensions.title "மரபு நீட்சிகள்">
+<!ENTITY legacyExtensions.description "தற்போதைய &brandShortName; தரத்துடன் இல்லாததால் இந்த நீட்சிகள் முடக்கி வைக்கப்படும்.">
+<!ENTITY legacyExtensions.learnMore "துணை நிரல்களுக்கான மாற்றங்களை அறியுங்கள்">

@@ -10,17 +10,21 @@
 <!ENTITY engine.tabs.accesskey      "T">
 <!ENTITY engine.history.label       "ইতিহাস">
 <!ENTITY engine.history.accesskey   "r">
-
-
+<!ENTITY engine.logins.label        "লগইন">
+<!ENTITY engine.logins.accesskey    "L">
 <!ENTITY engine.prefs.label         "পছন্দসমূহ">
 <!ENTITY engine.prefs.accesskey     "s">
 <!ENTITY engine.addons.label        "অ্যাড-অন">
 <!ENTITY engine.addons.accesskey    "A">
+
+
+
+
 <!-- Device Settings -->
 
 <!ENTITY fxaSyncDeviceName.label       "ডিভাইসের নাম">
-
-
+<!ENTITY changeSyncDeviceName2.label "ডিভাইসের নাম পরিবর্তন…">
+<!ENTITY changeSyncDeviceName2.accesskey "h">
 <!ENTITY cancelChangeSyncDeviceName.label "বাতিল">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "n">
 <!ENTITY saveChangeSyncDeviceName.label "সংরক্ষণ">
@@ -50,10 +54,10 @@ both, to better adapt this sentence to their language.
 <!ENTITY signIn.label                "সাইন ইন">
 <!ENTITY signIn.accesskey            "g">
 <!ENTITY profilePicture.tooltip      "প্রোফাইলের ছবি পরিবর্তন করুন">
-<!ENTITY verifiedManage.label        "অ্যাকাউন্ট পরিচালনা">
-<!ENTITY verifiedManage.accesskey    "o">
 
 
+<!ENTITY disconnect3.label           "বিচ্ছিন্ন…">
+<!ENTITY disconnect3.accesskey       "D">
 <!ENTITY verify.label                "ইমেল যাচাই">
 <!ENTITY verify.accesskey            "V">
 <!ENTITY forget.label                "এই ইমেইল ভুলে যাও">
@@ -67,7 +71,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "সাইন ইন">
 <!ENTITY signedOut.accountBox.signin.accesskey  "I">
 
-
+<!ENTITY signedIn.settings.label       "সিঙ্ক সেটিং">
+<!ENTITY signedIn.settings.description "&brandShortName; দিয়ে আপনার ডিভাইসে কি কি সিঙ্ক্রোনাইজ করা হবে তা নির্বাচন করুন।">
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.
      The resulting sentence in English is: "Download Firefox for

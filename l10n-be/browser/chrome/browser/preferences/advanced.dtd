@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Асноўныя">
 
-<!ENTITY accessibility.label             "Даступнасць">
-
 <!ENTITY useCursorNavigation.label       "Заўсёды ўжываць клавішы-стрэлкі для перамяшчэння ў старонках">
 <!ENTITY useCursorNavigation.accesskey   "с">
 <!ENTITY searchOnStartTyping.label       "Шукаць тэкст, калі вы пачынаеце набор">
 <!ENTITY searchOnStartTyping.accesskey   "ч">
-<!ENTITY blockAutoReload.label           "Папярэджваць, калі вэб-сайт спрабуе перанакіраваць ці перагрузіць старонку">
-<!ENTITY blockAutoReload.accesskey       "і">
 <!ENTITY useOnScreenKeyboard.label       "Паказваць экранную клавіятуру, калі неабходна">
 <!ENTITY useOnScreenKeyboard.accesskey   "л">
 
@@ -28,24 +24,26 @@
 
 <!ENTITY dataChoicesTab.label            "Выбар дадзеных">
 
-<!ENTITY healthReportDesc.label          "Дапамагае зразумець, як працуе ваш браўзер, і адпраўляе дадзеныя аб яго працаздольнасці ў &vendorShortName;">
-<!ENTITY enableHealthReport.label        "Дазволіць справаздачу пра стан &brandShortName;">
-<!ENTITY enableHealthReport.accesskey    "с">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "Адпраўка дадзеных адключана для гэтай канфігурацыі зборкі">
+
+<!ENTITY enableHealthReport1.label       "Дазволіць &brandShortName; аўтаматычна адпраўляць тэхнічныя звесткі і звесткі ўзаемадзеяння ў Mozilla">
+<!ENTITY enableHealthReport1.accesskey   "а">
 <!ENTITY healthReportLearnMore.label     "Даведацца больш">
 
-<!ENTITY telemetryDesc.label             "Дзяліцца дадзенымі пра прадукцыйнасць, выкарыстанне, апаратнае забеспячэнне і налады вашага браўзера з &vendorShortName;, каб дапамагчы ўдасканаліць &brandShortName;">
-<!ENTITY enableTelemetryData.label       "Абагуліць дадатковыя звесткі (г.зн., тэлеметрыю)">
-<!ENTITY enableTelemetryData.accesskey   "т">
-<!ENTITY telemetryLearnMore.label        "Падрабязней">
+<!ENTITY dataCollection.label            "Збор і выкарыстанне звестак &brandShortName;">
+<!ENTITY dataCollectionDesc.label        "Мы імкнёмся даць вам выбар і збіраць толькі тое, што патрэбна для ўсіх для выпуску і паляпшэння &brandShortName;. Мы заўсёды пытаемся дазволу, перш чым атрымаць асабістую інфармацыю.">
+<!ENTITY dataCollectionPrivacyNotice.label    "Паведамленне аб прыватнасці">
 
-<!ENTITY crashReporterDesc2.label         "Справаздачы аб памылках дапамагаюць &vendorShortName; выпраўляць праблемы і рабіць ваш браўзер больш стабільным і бяспечным">
-<!ENTITY alwaysSubmitCrashReports.label   "Дазволіць &brandShortName; адпраўляць назапашаныя справаздачы аб памылках ад вашага імя">
-<!ENTITY alwaysSubmitCrashReports.accesskey "с">
-<!ENTITY crashReporterLearnMore.label     "Даведацца больш">
+<!ENTITY alwaysSubmitCrashReports1.label  "Дазволіць &brandShortName; адпраўляць справаздачы пра падзенні ў Mozilla">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "п">
+<!ENTITY crashReporterLearnMore.label    "Даведацца больш">
 
 <!ENTITY networkTab.label                "Сетка">
 
-<!ENTITY connection.label                "Злучэнне">
+<!ENTITY networkProxy.label              "Проксі-сервер">
 
 <!ENTITY connectionDesc.label            "Наладзіць, як &brandShortName; мусіць злучацца з Інтэрнэтам">
 <!ENTITY connectionSettings.label        "Налады…">
@@ -85,18 +83,20 @@
   Strings from aboutDialog.dtd are displayed in this section of the preferences.
   Please check for possible accesskey conflicts.
 -->
-<!ENTITY updateApplication.label         "&brandShortName; абнаўленні">
+<!ENTITY updateApplication.label         "Абнаўленні &brandShortName;">
 <!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
 # is followed by a version number, keep the trailing space or replace it with a
 # different character as needed. updateApplication.version.post is displayed
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+<!ENTITY updateApplicationDescription.label
+                                         "Трымайце &brandShortName; абноўленым для лепшай прадукцыйнасці, стабільнасці і бяспекі.">
 <!ENTITY updateApplication.version.pre   "Версія ">
 <!ENTITY updateApplication.version.post  "">
 <!ENTITY updateApplication.description   "Дазволіць &brandShortName;">
-<!ENTITY updateAuto2.label               "Аўтаматычна ўсталёўваць абнаўленні (рэкамендуецца для паляпшэння бяспекі)">
-<!ENTITY updateAuto2.accesskey           "А">
+<!ENTITY updateAuto3.label               "Аўтаматычна ўсталёўваць абнаўленні (рэкамендуецца)">
+<!ENTITY updateAuto3.accesskey           "А">
 <!ENTITY updateCheckChoose2.label        "Правяраць наяўнасць абнаўленняў, але даваць вам выбар, ці ўсталёўваць іх">
 <!ENTITY updateCheckChoose2.accesskey    "П">
 <!ENTITY updateManual2.label             "Ніколі не правяраць наяўнасць абнаўленняў (не рэкамендуецца)">
@@ -110,8 +110,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "Аўтаматычна абнаўляць пашукавікі">
 <!ENTITY enableSearchUpdate2.accesskey   "а">
-
-<!ENTITY reports.label                   "Справаздачы">
 
 <!ENTITY offlineStorageNotify.label               "Паведамляць, калі вэб-сайт пытае дазвол на захоўванне звестак для пазасеткавага выкарыстання">
 <!ENTITY offlineStorageNotify.accesskey           "П">
@@ -132,10 +130,10 @@
 <!ENTITY selectCerts.ask.accesskey       "П">
 <!ENTITY enableOCSP.label                "Звяртацца да сервера OCSP за пацверджаннем дзейснасці сертыфікатаў">
 <!ENTITY enableOCSP.accesskey            "З">
-<!ENTITY viewCerts.label                 "Паказаць сертыфікаты">
-<!ENTITY viewCerts.accesskey             "П">
-<!ENTITY viewSecurityDevices.label       "Прылады бяспекі">
-<!ENTITY viewSecurityDevices.accesskey   "б">
+<!ENTITY viewCerts2.label                "Паказаць сертыфікаты…">
+<!ENTITY viewCerts2.accesskey            "с">
+<!ENTITY viewSecurityDevices2.label      "Прылады бяспекі…">
+<!ENTITY viewSecurityDevices2.accesskey  "б">
 
 <!ENTITY performance.label               "Прадукцыйнасць">
 <!ENTITY useRecommendedPerformanceSettings2.label

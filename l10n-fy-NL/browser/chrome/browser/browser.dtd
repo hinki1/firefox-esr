@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Mobyl-blêdwizers">
 <!ENTITY viewBookmarksSidebar2.label        "Blêdwizersydbalke werjaan">
 <!ENTITY viewBookmarksToolbar.label         "Blêdwizerarkbalke werjaan">
+<!ENTITY searchBookmarks.label              "Blêdwizers trochsykje">
 
 <!ENTITY containersMenu.label "Konteners">
 
@@ -331,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "S">
 <!ENTITY viewCustomizeToolbar.label       "Oanpasse…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "O">
+<!ENTITY overflowCustomizeToolbar.label       "Arkbalke wizigje…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "A">
 
 <!ENTITY historyMenu.label "Skiednis">
 <!ENTITY historyMenu.accesskey "S">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Resinte skiednis wiskje…">
 <!ENTITY appMenuHistory.restoreSession.label "Foarige sesje werom bringe">
 <!ENTITY appMenuHistory.viewSidebar.label "Skiednissydbalke werjaaan">
+<!ENTITY appMenuHistory.recentHistory.label "Resinte skiednis">
 <!ENTITY appMenuHelp.label "Help">
 <!ENTITY appMenuHelp.tooltip "Menu Help iepenje">
 
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "Sykterm">
 <!ENTITY contentSearchSubmit.tooltip  "Sykopdracht ferstjoere">
+
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+<!ENTITY searchInput.placeholder      "Sykje">
+<!ENTITY searchIcon.tooltip           "Sykje">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -849,6 +858,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "B">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Krij mear tema's">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "K">
+<!ENTITY customizeMode.emptyOverflowList.description "Sleep items hjirnei ta om se deunby mar bûten jo arkbalke te hâlden…">
+<!ENTITY customizeMode.uidensity "Tichtens">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Normaal">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Normaal">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "N">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Kompakt">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Kompakt">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "K">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Oanraking">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Oanraking">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "O">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Brûk oanraking foar tabletmodus">
 
 <!ENTITY getUserMedia.selectCamera.label "Kamera om te dielen:">
 <!ENTITY getUserMedia.selectCamera.accesskey "K">
@@ -958,8 +988,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2 "Start &brandShorterName; opnij om te fernijen">
 
 <!ENTITY pageActionButton.tooltip "Side-aksjes">
+<!ENTITY pageAction.addToUrlbar.label "Tafoegje oan adresbalke">
+<!ENTITY pageAction.removeFromUrlbar.label "Fuortsmite fan adresbalke">
 
-<!ENTITY sendToDevice.label "Ferstjoere nei apparaat…">
-<!ENTITY sendToDevice.viewTitle "Ferstjoere nei apparaat">
-<!ENTITY sendToDevice.fxaRequired.label "Fereaske">
-<!ENTITY sendToDevice.noDevices.label "Gjin apparaten beskikber">
+<!ENTITY sendToDevice.label2 "Ferstjoere nei apparaat">
+<!ENTITY sendToDevice.syncNotReady.label "Apparaten syngronisearje…">

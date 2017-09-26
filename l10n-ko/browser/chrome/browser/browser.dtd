@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "모바일 북마크">
 <!ENTITY viewBookmarksSidebar2.label        "북마크 탐색창 보기">
 <!ENTITY viewBookmarksToolbar.label         "도구 모음에 표시">
+<!ENTITY searchBookmarks.label              "즐겨찾기 검색">
 
 <!ENTITY containersMenu.label "컨테이너">
 
@@ -331,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "e">
 <!ENTITY viewCustomizeToolbar.label       "사용자 지정…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "C">
+<!ENTITY overflowCustomizeToolbar.label       "툴바 개인화…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "C">
 
 <!ENTITY historyMenu.label "이동">
 <!ENTITY historyMenu.accesskey "s">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "최근 방문 기록 삭제…">
 <!ENTITY appMenuHistory.restoreSession.label "이전 세션 복원">
 <!ENTITY appMenuHistory.viewSidebar.label "방문 기록 탐색창 보기">
+<!ENTITY appMenuHistory.recentHistory.label "최근 기록">
 <!ENTITY appMenuHelp.label "도움말">
 <!ENTITY appMenuHelp.tooltip "도움말 메뉴 열기">
 
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "검색 질의어">
 <!ENTITY contentSearchSubmit.tooltip  "검색하기">
+
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+<!ENTITY searchInput.placeholder      "검색">
+<!ENTITY searchIcon.tooltip           "검색">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -849,6 +858,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">
 <!ENTITY customizeMode.lwthemes.menuGetMore "더 많은 테마 구하기">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "G">
+<!ENTITY customizeMode.emptyOverflowList.description "툴바에서는 빼지만 계속 사용할 수 있게 항목을 드래그앤 드롭 하세요…">
+<!ENTITY customizeMode.uidensity "밀도">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "보통">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "보통">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "N">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "조밀함">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "조밀함">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "C">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "터치">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "터치">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "T">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "태블릿 모드에서 터치 사용">
 
 <!ENTITY getUserMedia.selectCamera.label "공유할 카메라:">
 <!ENTITY getUserMedia.selectCamera.accesskey "C">
@@ -949,7 +979,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateManual.cancelButton.accesskey "N">
 <!ENTITY updateManual.panelUI.label "&brandShorterName; 의 새 복사본 다운로드">
 
-<!ENTITY updateRestart.message "&brandShorterName;를 빠르게 다시 시작하고 나면, 열려있던 모든 탭과 창이 그대로 다시 열립니다.">
+<!ENTITY updateRestart.message "바로 재시작 하고 나면 &brandShorterName;에 열려있던 탭과 창은 복원됩니다.">
 <!ENTITY updateRestart.header.message2 "&brandShorterName;를 닫고 다시 열어 업데이트를 합니다.">
 <!ENTITY updateRestart.acceptButton.label "재시작하여 복원하기">
 <!ENTITY updateRestart.acceptButton.accesskey "R">
@@ -958,8 +988,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2 "&brandShorterName; 업데이트를 위해 재시작">
 
 <!ENTITY pageActionButton.tooltip "페이지로 할 수 있는 일">
+<!ENTITY pageAction.addToUrlbar.label "주소 표시줄에 추가">
+<!ENTITY pageAction.removeFromUrlbar.label "주소 표시줄에서 제거">
 
-<!ENTITY sendToDevice.label "기기로 보내기…">
-<!ENTITY sendToDevice.viewTitle "기기로 보내기">
-<!ENTITY sendToDevice.fxaRequired.label "필수항목">
-<!ENTITY sendToDevice.noDevices.label "사용 가능한 장치가 없음">
+<!ENTITY sendToDevice.label2 "기기로 전송">
+<!ENTITY sendToDevice.syncNotReady.label "기기를 동기화하고 있습니다…">

@@ -5,12 +5,12 @@
 <!ENTITY window.title                 "Nuk'unel wachb'äl">
 <!ENTITY window.width                 "45em">
 
-<!ENTITY treehead.sitename.label      "Ruxaq k'amaya'l">
+<!ENTITY treehead.sitename2.label     "Ruxaq Ajk'amaya'l">
 <!ENTITY treehead.status.label        "B'anikil:">
-<!ENTITY removepermission.label       "Tiyüj el ri ruxaq k'amaya'l">
-<!ENTITY removepermission.accesskey   "T">
-<!ENTITY removeallpermissions.label   "Keyuj el konojel ri taq ruxaq k'amaya'l">
-<!ENTITY removeallpermissions.accesskey "y">
+<!ENTITY removepermission2.label      "Tiyuj Ruxaq Ajk'amaya'l">
+<!ENTITY removepermission2.accesskey  "T">
+<!ENTITY removeallpermissions2.label  "Keyuj el konojel ri Taq Ruxaq Ajk'amaya'l">
+<!ENTITY removeallpermissions2.accesskey "y">
 <!ENTITY address.label                "Rochochib'al ri ruxaq k'amaya'l:">
 <!ENTITY address.accesskey            "o">
 <!ENTITY block.label                  "Tiq'eleb'ëx">

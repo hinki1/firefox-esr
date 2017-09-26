@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Cheneral">
 
-<!ENTITY accessibility.label             "Accesibilidat">
-
 <!ENTITY useCursorNavigation.label       "Fer servir siempre as teclas d'o cursor ta navegar endentro d'as pachinas">
 <!ENTITY useCursorNavigation.accesskey   "c">
 <!ENTITY searchOnStartTyping.label       "Mirar textos malas que s'escomienza a tecliar">
 <!ENTITY searchOnStartTyping.accesskey   "x">
-<!ENTITY blockAutoReload.label           "Alvertir-me quan una pachina web mire de reendrezar-me u de recargar a pachina">
-<!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "Amostrar un teclau tactil quan siga necesario">
 <!ENTITY useOnScreenKeyboard.accesskey   "t">
 
@@ -27,25 +23,21 @@
 <!ENTITY checkUserSpelling.accesskey     "t">
 
 <!ENTITY dataChoicesTab.label            "Triga de datos">
-
-<!ENTITY healthReportDesc.label          "Li aduya a entender o rendimiento d'o suyo navegador y comparte datos con &vendorShortName; sobre a salut d'o suyo navegador">
-<!ENTITY enableHealthReport.label        "Activar l'informe de salut de &brandShortName;">
-<!ENTITY enableHealthReport.accesskey    "r">
-
-
-<!ENTITY telemetryDesc.label             "Comparte datos de rendimiento, uso, hardware y personalizacions sobre o suyo navegador con &vendorShortName; ta aduyar a amillorar o &brandShortName;">
-<!ENTITY enableTelemetryData.label       "Compartir datos adicionals (p. eix., Telemetría)">
-<!ENTITY enableTelemetryData.accesskey   "T">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
 
 
-<!ENTITY crashReporterDesc2.label         "Los reportes de fallos aduyan a &vendorShortName; a apanyar los problems y fer mas estable y seguro lo suyo navegador">
-<!ENTITY alwaysSubmitCrashReports.label   "Permitir que &brandShortName; ninvie de partes suya los reportes de fallos rechistraus previament">
-<!ENTITY alwaysSubmitCrashReports.accesskey "c">
+
+
+
+
+
+
 
 
 <!ENTITY networkTab.label                "Ret">
 
-<!ENTITY connection.label                "Connexión">
 
 <!ENTITY connectionDesc.label            "Configurar cómo o &brandShortName; se connecta ta Internet">
 <!ENTITY connectionSettings.label        "Configuración…">
@@ -92,10 +84,11 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+
 <!ENTITY updateApplication.version.post  "">
 <!ENTITY updateApplication.description   "Permitir a &brandShortName;">
-<!ENTITY updateAuto2.label               "Instalar las actualizacions automaticament (ye la opción recomendada, por seguranza)">
-<!ENTITY updateAuto2.accesskey           "a">
+
+
 <!ENTITY updateCheckChoose2.label        "Comprebar as actualizacions, pero deixar-me trigar si las quiero instalar">
 <!ENTITY updateCheckChoose2.accesskey    "C">
 <!ENTITY updateManual2.label             "No comprebar nunca las actualizacions">
@@ -109,8 +102,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "Esviellar automaticament los motors de busca">
 <!ENTITY enableSearchUpdate2.accesskey   "e">
-
-<!ENTITY reports.label                   "Reportes">
 
 <!ENTITY offlineStorageNotify.label               "Alvertir-me si garra puesto denanda almagazenar datos ta usar-los en modo sin connexión">
 <!ENTITY offlineStorageNotify.accesskey           "t">
@@ -131,10 +122,10 @@
 <!ENTITY selectCerts.ask.accesskey       "m">
 <!ENTITY enableOCSP.label                "Consultar a os servidors respondedors OCSP ta confirmar a valideza actual d'os certificaus">
 <!ENTITY enableOCSP.accesskey            "u">
-<!ENTITY viewCerts.label                 "Veyer os Certificaus">
-<!ENTITY viewCerts.accesskey             "C">
-<!ENTITY viewSecurityDevices.label       "Dispositivos de seguranza">
-<!ENTITY viewSecurityDevices.accesskey   "o">
+
+
+
+
 
 <!ENTITY performance.label               "Rendimiento">
 <!ENTITY useRecommendedPerformanceSettings2.label "Usar las caracteristicas de rendimiento recomendadas">
@@ -144,5 +135,7 @@
 <!ENTITY limitContentProcessOption.label "Limite de procesado de conteniu">
 
 <!ENTITY limitContentProcessOption.accesskey   "L">
+
+
 <!ENTITY allowHWAccel.label              "Usar l'acceleración d'hardware quan sía disponible">
 <!ENTITY allowHWAccel.accesskey          "r">

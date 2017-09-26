@@ -42,7 +42,7 @@
 <!-- Localization note: These are used as the titles of different pages on the home screen.
      They are automatically converted to all caps by the Android platform. -->
 
-<!ENTITY  bookmarks_title "Yakäl taq yaketal">
+<!ENTITY  bookmarks_title "Taq yaketal">
 <!ENTITY  history_title "Natab\u0027äl">
 
 <!ENTITY  switch_to_tab "Tiq\u0027asäx pa ri ruwi\u0027">
@@ -67,13 +67,13 @@
 
 <!ENTITY bookmark "Yaketal">
 <!ENTITY bookmark_remove "Tiyuj el ri yaketal">
-<!ENTITY bookmark_added "Yakäl etal tz\u0027aqatisan">
+<!ENTITY bookmark_added "Yaketal tz\u0027aqatisan">
 <!-- Localization note (bookmark_already_added) : This string is
      used as a label in a toast. It is the verb "to bookmark", not
      the noun "a bookmark". -->
 <!ENTITY bookmark_already_added "K\u0027o chik pa taq yaketal">
-<!ENTITY bookmark_removed "Yakäl etal elesan el">
-<!ENTITY bookmark_updated "Yakäl etal k\u0027exon ruwäch">
+<!ENTITY bookmark_removed "Yaketal elesan el">
+<!ENTITY bookmark_updated "Yaketal k\u0027exon ruwäch">
 <!ENTITY bookmark_options "Taq cha\u0027oj">
 <!ENTITY bookmark_save "Tiyak">
 <!ENTITY screenshot_added_to_bookmarks "Xtz\u0027aqatisäx pa taq yaketal ri chapoj ruwäch">
@@ -267,13 +267,13 @@
 <!ENTITY pref_show_web_fonts "Kek\u0027ut aj k\u0027amaya\u0027l ruwäch taq tz\u0027ib\u0027">
 <!ENTITY pref_show_web_fonts_summary2 "Keqasäx näj taq tz\u0027ib\u0027 toq nitikirisäx jun ruxaq">
 
-<!ENTITY pref_tracking_protection_title2 "Chajinem chuwäch kanoxïk">
-<!ENTITY pref_tracking_protection_summary3 "Tzijïl pa Ichinam Okem pa K\u0027amaya\u0027l">
+<!ENTITY pref_tracking_protection_title2 "Chajinïk chuwäch Ojqanïk">
+<!ENTITY pref_tracking_protection_summary3 "Tzijïl pa Ichinan Okem pa K\u0027amaya\u0027l">
 <!ENTITY pref_donottrack_title "Mani nikanöx">
 <!ENTITY pref_donottrack_summary "&brandShortName; xtub\u0027ij chi ke ri taq ruxaq k\u0027amaya\u0027l chi man ninwajo\u0027 ta chi kikanöx">
 
 <!ENTITY pref_tracking_protection_enabled "Tzijïl">
-<!ENTITY pref_tracking_protection_enabled_pb "Tzijïl pa Ichinam Okem pa K\u0027amaya\u0027l">
+<!ENTITY pref_tracking_protection_enabled_pb "Tzijïl pa Ichinan Okem pa K\u0027amaya\u0027l">
 <!ENTITY pref_tracking_protection_disabled "Man jaqäl ta">
 
 <!ENTITY pref_whats_new_notification "Achike ri k\u0027ak\u0027a\u0027 k\u0027o pa &brandShortName;">
@@ -294,12 +294,15 @@
 <!ENTITY custom_tabs_menu_footer "Samajib\u0027en ruma &brandShortName;">
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "Wachib\u0027en URL">
+
+<!ENTITY pref_pwa "K\u0027iyirisanelal Ajk\u0027amaya\u0027l Chokoy">
+<!ENTITY pref_pwa_summary "Tiya\u0027 q\u0027ij chi ke ri ajk\u0027amaya\u0027l taq chokoy chi ketz\u0027aqatisäx pa ri ruwa tikirib\u0027äl">
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "Ruk\u0027isib\u0027al taq samaj">
 <!ENTITY pref_activity_stream_summary "Jun jeb\u0027ël b\u0027anob\u0027äl ütz chi re ri awäch chuqa\u0027 jun rutikirib\u0027al ruxaq ri wachib\u0027en nub\u0027än chi man k\u0027ayew ta nawïl ri tajin nakanoj pan etal chuqa\u0027 pa &brandShortName;.">
 
-<!ENTITY tracking_protection_prompt_title "Wakami rik\u0027in chajinem chuwäch kanoxïk">
+<!ENTITY tracking_protection_prompt_title "Wakami rik\u0027in Chajinïk chuwäch Ojqanïk">
 <!ENTITY tracking_protection_prompt_text "Q\u0027aton wakami ruch\u0027akulal kanoxïk, ruma ri\u0027 majun achike tamäy.">
 <!ENTITY tracking_protection_prompt_tip_text "Katok chupam ri runuk\u0027ulem ichinanem richin nawetamaj ch\u0027aqa\u0027 chik">
 <!ENTITY tracking_protection_prompt_action_button "¡K\u0027o chik wik\u0027in!">
@@ -358,10 +361,6 @@
 <!ENTITY pref_clear_on_exit_title3 "Kejosq\u0027ïx ri ichinan taq tzij toq nib\u0027an elem">
 <!ENTITY pref_clear_on_exit_summary2 "&brandShortName; ruyonil xkeruyüj ri taq tzij junelïk toq xtacha\u0027 \u0022Tel\u0022 pa ri nimaläj k\u0027utüy samaj">
 <!ENTITY pref_clear_on_exit_dialog_title "Ke\u0027acha\u0027 ri taq tzij nawajo\u0027 ye\u0027ayüj el">
-<!ENTITY pref_plugins "Taq nak\u0027ab\u0027äl">
-<!ENTITY pref_plugins_enabled "Tzijon">
-<!ENTITY pref_plugins_tap_to_play2 "Tachapa\u0027 qa richin natzïj">
-<!ENTITY pref_plugins_disabled "Man jaqäl ta">
 <!ENTITY pref_restore_tabs "Ketzolïx kiwäch ri taq ruwi\u0027">
 <!ENTITY pref_restore_always "Junelïk titzolïx ruwäch">
 <!ENTITY pref_restore_quit "Man titzolïx chik ruwäch toq nel el pa &brandShortName;">
@@ -469,7 +468,7 @@
 <!ENTITY save_as_pdf "Tiyak achi\u0027el jun PDF">
 <!ENTITY print "Titz\u0027ajb\u0027äx">
 <!ENTITY find_in_page "Tikanöx pa ruxaq">
-<!ENTITY desktop_mode "Tik\u0027utüx ruxaq k\u0027amayal richin tzub\u0027al">
+<!ENTITY desktop_mode "Tik\u0027utüx jun ruk\u0027ojlib\u0027al ri kematz\u0027ib\u0027ab\u0027äl">
 <!ENTITY page "Ruxaq">
 <!ENTITY tools "Taq samajib\u0027äl">
 <!ENTITY new_tab "K’ak’a’ ruwi’">
@@ -529,7 +528,7 @@
      whether or not the dynamic toolbar is enabled. -->
 
 <!ENTITY pref_scroll_title_bar2 "Okem pa k\u0027amaya\u0027l pa chijun ruwa kematz\u0027ib\u0027">
-<!ENTITY pref_scroll_title_bar_summary2 "Tewäx &brandShortName; ri rukajtz\u0027ik b\u0027i\u0027aj toq xtiqasäx pa jun ruxaq">
+<!ENTITY pref_scroll_title_bar_summary2 "Tewäx ri rumolsamajib\u0027al &brandShortName; toq xkaqa pa jun ruxaq">
 
 <!ENTITY pref_tab_queue_title3 "Rucholajem ruwi\u0027">
 <!ENTITY pref_tab_queue_summary4 "Ke\u0027ayaka\u0027 kan taq ximonel, k\u0027a richin toq xtajäq chik ri &brandShortName;">
@@ -544,7 +543,8 @@
 
 <!ENTITY page_removed "Yujun ruxaq">
 
-<!ENTITY bookmark_edit_title "Tinuk\u0027 ri yakäl etal">
+<!ENTITY bookmark_edit_title "Tinuk\u0027 ri yaketal">
+<!ENTITY bookmark_edit_folder_title "Tinuk\u0027 Molyakb\u0027äl">
 <!ENTITY bookmark_edit_name "B\u0027i\u0027aj">
 <!ENTITY bookmark_edit_location "Rochochib\u0027al">
 <!ENTITY bookmark_edit_keyword "Ewan tzij">
@@ -590,7 +590,7 @@
 <!ENTITY home_history_back_to2 "Jumul chik ri tz\u0027aqät Natab\u0027äl">
 <!ENTITY home_clear_history_button "Tiyuj el runatab\u0027al ri okik\u0027amaya\u0027l">
 <!ENTITY home_clear_history_confirm "¿La kan nawajo\u0027 nayüj el rupam ri natab\u0027äl?">
-<!ENTITY home_bookmarks_empty "Ri taq yakäl etal xe\u0027aköl, xkeq\u0027alajin pe wawe\u0027.">
+<!ENTITY home_bookmarks_empty "Ri taq yaketal xe\u0027aköl, xkeq\u0027alajin pe wawe\u0027.">
 <!ENTITY home_closed_tabs_title2 "Nimakol titz\u0027apïx">
 <!ENTITY home_last_tabs_empty "Ri k\u0027ak\u0027a\u0027 taq ruwi\u0027 awichin, xkeq\u0027alajin pe wawe\u0027.">
 <!ENTITY home_restore_all "Titzolïx ronojel">
@@ -621,6 +621,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Man ke\u0027ewäx chik ri ewan taq okisaxel">
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+
+<!ENTITY home_pinned_site "Jikib\u0027an ruxaq k\u0027amaya\u0027l">
+<!ENTITY home_unpinned_site "Man jikib\u0027an ta ruxaq k\u0027amaya\u0027l">
 
 <!ENTITY remote_tabs_panel_moved_title "¿Ri taq nuwi\u0027 k\u0027a?">
 <!ENTITY remote_tabs_panel_moved_desc "Xeqasiloj el ri taq ruwi\u0027 kichin ch\u0027aqa\u0027 chik taq okisaxel pa jun pas pa ri ruxaq atikirib\u0027al, achoj chupam chanin xkatok toq xtajaqala\u0027 jun k\u0027ak\u0027a\u0027 ruwi\u0027.">
@@ -657,7 +662,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY mixed_content_protection_disabled1 "Xachüp ruwäch ri chajinïk chuwäch itzel rupam.">
 <!-- Tracking content notifications in site identity popup -->
 
-<!ENTITY doorhanger_tracking_title2 "Chajinem chuwäch Kanoxïk">
+<!ENTITY doorhanger_tracking_title2 "Chajinïk chuwäch Ojqanïk">
 <!ENTITY doorhanger_tracking_state_enabled "Tzijon">
 <!ENTITY doorhanger_tracking_state_disabled "Man jaqon ta">
 <!ENTITY doorhanger_tracking_message_enabled1 "Ri rutojtob\u0027exik richin nikanöx ri ab\u0027anikil pa k\u0027amab\u0027ey xeq\u0027at.">
@@ -673,7 +678,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY bookmarkhistory_button_import "Tijik\u0027 pe">
 <!ENTITY bookmarkhistory_import_both "Kejik\u0027 pe ri taq yaketal chuqa\u0027 natab\u0027äl pan Android">
-<!ENTITY bookmarkhistory_import_bookmarks "Kek\u0027wäx el ri taq yakäl etal chuwäch ri Android">
+<!ENTITY bookmarkhistory_import_bookmarks "Kek\u0027wäx el ri taq yaketal chuwäch ri Android">
 <!ENTITY bookmarkhistory_import_history "Tijik\u0027 pe ri natab\u0027äl pan Android">
 <!ENTITY bookmarkhistory_import_wait "Tab\u0027ana\u0027 utzil, tawoyob\u0027ej...">
 
@@ -755,7 +760,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      clicks a link that will open an external Android application. "&formatS;"
      will be replaced with the name of the application that will be opened. -->
 
-<!ENTITY intent_uri_private_browsing_prompt "Re ximonel re\u0027 xtujäq pa &formatS;. ¿At jikïl chi nawajo\u0027 yatel el chupam ri Ichinam Okem pa k\u0027amaya\u0027l?">
+<!ENTITY intent_uri_private_browsing_prompt "Re ximonel re\u0027 xtujäq pa &formatS;. ¿At jikïl chi nawajo\u0027 yatel el chupam ri Ichinan Okem pa K\u0027amaya\u0027l?">
 <!-- LOCALIZATION NOTE (intent_uri_private_browsing_multiple_match_title): This
      string will appear as the title of an alert when a user, who is currently
      in private browsing, clicks a link that will open an external Android
@@ -778,7 +783,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY restrictable_feature_addons_installation "Taq tz\u0027aqat">
 <!ENTITY restrictable_feature_addons_installation_description "Ketz\u0027aqatisäx taq kib\u0027anikil chuqa\u0027 taq samaj pa Firefox. Rutzijol: Ri taq tz\u0027aqat yetikïr nikichäp kiwäch jujun taq q\u0027atoj.">
-<!ENTITY restrictable_feature_private_browsing "Ichinam Okem pa K\u0027amaya\u0027l">
+<!ENTITY restrictable_feature_private_browsing "Ichinan Okem pa K\u0027amaya\u0027l">
 <!ENTITY restrictable_feature_private_browsing_description "Nuya\u0027 q\u0027ij chi ke ri awach\u0027alal ye\u0027ok pa k\u0027amaya\u0027l akuchi\u0027 majun yakoj nub\u0027än kan chi re ri ketamab\u0027al chuqa\u0027 ri taq ruxaq xekitz\u0027ët.">
 <!ENTITY restrictable_feature_clear_history "Tiyuj el ri natab\u0027äl">
 <!ENTITY restrictable_feature_clear_history_description "Nuya\u0027 q\u0027ij chi ke ri awach\u0027alal nikiyüj el ri taq retal ruxaq chuqa\u0027 taq ruxaq xekitz\u0027etela\u0027.">

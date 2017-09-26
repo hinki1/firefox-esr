@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (places.library.title): use "Library", "Archive" or "Repository" -->
-<!ENTITY places.library.title  "Bogmærker og historik">
+<!ENTITY places.library.title  "Arkiv">
 <!ENTITY places.library.width  "700">
 <!ENTITY places.library.height "500">
 <!ENTITY organize.label        "Organiser">
@@ -85,8 +85,7 @@
 <!ENTITY col.dateadded.label     "Tilføjet">
 <!ENTITY col.lastmodified.label  "Sidst ændret">
 
-<!ENTITY search.label                              "Søg:">
-<!ENTITY search.accesskey                          "S">
+<!ENTITY search.placeholder  "Søg">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -104,8 +103,6 @@
 <!ENTITY detailsPane.less.accesskey "e">
 <!ENTITY detailsPane.selectAnItemText.description "Vælg et element til visning og redigering af dets egenskaber">
 
-<!ENTITY find.label               "Søg:">
-<!ENTITY find.accesskey           "S">
 <!ENTITY view.label               "Vis">
 <!ENTITY view.accesskey           "V">
 <!ENTITY byDate.label             "efter dato">

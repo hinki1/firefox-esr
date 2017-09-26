@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Kannettavan laitteen kirjanmerkit">
 <!ENTITY viewBookmarksSidebar2.label        "Näytä kirjanmerkkien sivupaneeli">
 <!ENTITY viewBookmarksToolbar.label         "Näytä kirjanmerkkipalkki">
+<!ENTITY searchBookmarks.label              "Etsi kirjanmerkeistä">
 
 <!ENTITY containersMenu.label "Luokitukset">
 
@@ -331,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "p">
 <!ENTITY viewCustomizeToolbar.label       "Muokkaa…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "M">
+<!ENTITY overflowCustomizeToolbar.label       "Muokkaa työkalupalkkia…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "M">
 
 <!ENTITY historyMenu.label "Sivuhistoria">
 <!ENTITY historyMenu.accesskey "S">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Poista viimeaikaisia historiatietoja…">
 <!ENTITY appMenuHistory.restoreSession.label "Palauta edellinen istunto">
 <!ENTITY appMenuHistory.viewSidebar.label "Näytä sivuhistoriapaneeli">
+<!ENTITY appMenuHistory.recentHistory.label "Viimeaikainen historia">
 <!ENTITY appMenuHelp.label "Ohje">
 <!ENTITY appMenuHelp.tooltip "Avaa ohjevalikko">
 
@@ -403,7 +407,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY customizeMenu.pinToOverflowMenu.label "Kiinnitä ylivuotovalikkoon">
 <!ENTITY customizeMenu.pinToOverflowMenu.accesskey "y">
 <!ENTITY customizeMenu.unpinFromOverflowMenu.label "Poista ylivuotovalikosta">
-<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "P">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "o">
 <!ENTITY customizeMenu.removeFromToolbar.label "Poista työkalupalkista">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "P">
 <!ENTITY customizeMenu.removeFromMenu.label "Poista valikosta">
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "Hakutermit">
 <!ENTITY contentSearchSubmit.tooltip  "Lähetä haku">
+
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+<!ENTITY searchInput.placeholder      "Haku">
+<!ENTITY searchIcon.tooltip           "Haku">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -849,6 +858,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Lataa lisää teemoja">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "L">
+<!ENTITY customizeMode.emptyOverflowList.description "Vedä ja pudota kohteita tänne pitääksesi ne käden ulottuvissa mutta poissa työkalupalkista…">
+<!ENTITY customizeMode.uidensity "Tiiviys">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Tavallinen">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Tavallinen">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "T">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Tiivis">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Tiivis">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "v">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Kosketusoptimoitu">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Kosketusoptimoitu">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "K">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Käytä kosketusoptimoitua tablettitilassa">
 
 <!ENTITY getUserMedia.selectCamera.label "Jaettava kamera:">
 <!ENTITY getUserMedia.selectCamera.accesskey "k">
@@ -958,8 +988,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2 "Päivitä käynnistämällä &brandShorterName; uudestaan">
 
 <!ENTITY pageActionButton.tooltip "Sivun toiminnot">
+<!ENTITY pageAction.addToUrlbar.label "Lisää osoitepalkkiin">
+<!ENTITY pageAction.removeFromUrlbar.label "Poista osoitepalkista">
 
-<!ENTITY sendToDevice.label "Lähetä laitteeseen…">
-<!ENTITY sendToDevice.viewTitle "Lähetä laitteeseen">
-<!ENTITY sendToDevice.fxaRequired.label "Pakollinen">
-<!ENTITY sendToDevice.noDevices.label "Ei laitteita">
+<!ENTITY sendToDevice.label2 "Lähetä laitteeseen">
+<!ENTITY sendToDevice.syncNotReady.label "Synkronoidaan laitteita…">
