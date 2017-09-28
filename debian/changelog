@@ -1,3 +1,18 @@
+firefox-esr (52.4.0esr-1~deb9u1) stretch-security; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2017-22, also known as:
+    CVE-2017-7793, CVE-2017-7818, CVE-2017-7819, CVE-2017-7824,
+    CVE-2017-7805, CVE-2017-7814, CVE-2017-7823, CVE-2017-7810.
+  * debian/rules: Really build with gcc 6 on unstable. Closes: #871583.
+
+  * js/src/jsmath.cpp: Add GETRANDOM_NR definition for powerpc and mips.
+    bz#1389281.
+  * media/libcubeb/tests/moz.build: Fixup workaround for binutil assertion on
+    mips.
+
+ -- Mike Hommey <glandium@debian.org>  Fri, 29 Sep 2017 06:02:52 +0900
+
 firefox-esr (52.3.0esr-1~deb9u1) stretch-security; urgency=medium
 
   * New upstream release.

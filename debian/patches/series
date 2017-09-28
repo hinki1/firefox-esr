@@ -11,6 +11,7 @@ porting/Work-around-Debian-bug-844357.patch
 porting/Bug-1352236-Work-around-missing-GETRANDOM_NR-when-bu.patch
 porting/Bug-1357874-Define-GETRANDOM_NR-macro-for-AArch64.-r.patch
 porting/Bug-1012232-Only-use-the-perf-opcode-on-mips-arches-.patch
+porting/Bug-1389281-Add-GETRANDOM_NR-definition-for-powerpc-.patch
 prefs/Set-javascript.options.showInConsole.patch
 prefs/Set-DPI-to-system-settings.patch
 prefs/Don-t-auto-disable-extensions-in-system-directories.patch
@@ -29,3 +30,4 @@ debian-hacks/Force-use-the-i686-rust-target.patch
 debian-hacks/Set-program-name-from-the-remoting-name.patch
 debian-hacks/Build-against-system-libjsoncpp.patch
 debian-hacks/Use-the-Mozilla-Location-Service-key-when-the-Google.patch
+debian-hacks/Fixup-workaround-for-binutil-assertion-on-mips.patch

@@ -1,0 +1,21 @@
+From: Mike Hommey <mh@glandium.org>
+Date: Fri, 11 Aug 2017 18:16:13 +0900
+Subject: Fixup workaround for binutil assertion on mips
+
+---
+ media/libcubeb/tests/moz.build | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/media/libcubeb/tests/moz.build b/media/libcubeb/tests/moz.build
+index a292b63bbf38..5c6d85e8e285 100644
+--- a/media/libcubeb/tests/moz.build
++++ b/media/libcubeb/tests/moz.build
+@@ -6,7 +6,7 @@
+ 
+ DEFINES['CUBEB_GECKO_BUILD'] = True
+ 
+-if CONFIG['CPU_ARCH'] != 'mips':
++if CONFIG['CPU_ARCH'] != 'mips32':
+     GeckoCppUnitTests([
+       'test_duplex',
+       'test_record',

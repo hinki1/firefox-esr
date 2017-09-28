@@ -37,7 +37,7 @@ ifeq ($(DIST),wheezy)
 CC := /usr/lib/gcc-mozilla/bin/gcc
 CXX := /usr/lib/gcc-mozilla/bin/g++
 endif
-ifeq (,$(filter-out $(DIST),buster experimental))
+ifeq (,$(filter-out buster experimental,$(DIST)))
 CC := gcc-6
 CXX := g++-6
 endif
