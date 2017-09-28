@@ -1,3 +1,21 @@
+firefox (56.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2017-21, also known as:
+    CVE-2017-7793, CVE-2017-7818, CVE-2017-7819, CVE-2017-7824,
+    CVE-2017-7812, CVE-2017-7814, CVE-2017-7813, CVE-2017-7815,
+    CVE-2017-7816, CVE-2017-7821, CVE-2017-7823, CVE-2017-7822,
+    CVE-2017-7820, CVE-2017-7811, CVE-2017-7810.
+
+  * debian/control*:
+    - Bump nspr, nss, rustc and cargo build dependencies.
+    - Build depend on llvm-4.0-dev, libclang-4.0-dev and clang-4.0.
+  * debian/rules: Update ICU_DATA_FILE version.
+  * debian/browser.mozconfig.in, debian/google.key: Add the Google API key
+    from the chromium package for safebrowsing. Thanks Francois Marier.
+
+ -- Mike Hommey <glandium@debian.org>  Fri, 29 Sep 2017 07:51:07 +0900
+
 firefox (55.0.3-1) unstable; urgency=medium
 
   * New upstream release.
