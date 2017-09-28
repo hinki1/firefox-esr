@@ -9,6 +9,7 @@ ac_add_options --enable-default-toolkit=cairo-gtk3
 %else
 ac_add_options --enable-default-toolkit=cairo-gtk2
 %endif
+ac_add_options --with-google-api-keyfile=$topsrcdir/debian/google.key
 ac_add_options --with-mozilla-api-keyfile=$topsrcdir/debian/mls.key
 %if USE_SYSTEM_ZLIB
 ac_add_options --with-system-zlib # MOZ_SYSTEM_ZLIB=1
