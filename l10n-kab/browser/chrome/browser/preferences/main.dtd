@@ -4,7 +4,7 @@
 
 <!ENTITY startup.label             "Asenker">
 
-<!ENTITY startupPage2.label        "Di tnekra n &brandShortName;">
+<!ENTITY startupPage2.label        "Deg tnekra n &brandShortName;">
 <!ENTITY startupPage2.accesskey    "m">
 <!ENTITY startupUserHomePage.label "Sken asebter-iw agejdan ">
 <!ENTITY startupBlankPage.label    "Sken asebter ilem">
@@ -33,8 +33,8 @@
 
 <!ENTITY alwaysCheckDefault2.label        "Senqed yal tikelt ma yella &brandShortName; d iminig-ik amezwar">
 <!ENTITY alwaysCheckDefault2.accesskey    "S">
-<!ENTITY setAsMyDefaultBrowser2.label     "Sbadut d amezwar">
-<!ENTITY setAsMyDefaultBrowser2.accesskey "b">
+<!ENTITY setAsMyDefaultBrowser3.label     "Sbadut d amezwar…">
+<!ENTITY setAsMyDefaultBrowser3.accesskey "G">
 <!ENTITY isDefault.label                  "&brandShortName; d iminig-inek amezwar">
 <!ENTITY isNotDefault.label               "&brandShortName; mačči d iminig-inek amezwer">
 

@@ -5,7 +5,7 @@
 <!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
 %brandDTD;
 
-<!ENTITY loadError.label "გვერდის ჩატვირთვის შეცდომა">
+<!ENTITY loadError.label "შეცდომა გვერდის ჩატვირთვისას">
 <!ENTITY retry.label "ხელახლა ცდა">
 
 <!-- Specific error messages -->
@@ -13,35 +13,36 @@
 <!ENTITY connectionFailure.title "დაკავშირება ვერ მოხერხდა">
 <!ENTITY connectionFailure.longDesc2 "&sharedLongDesc3;">
 
-<!ENTITY deniedPortAccess.title "უსაფრთხოების მიზნით პორტი აკრძალულია">
+<!ENTITY deniedPortAccess.title "უსაფრთხოების მიზნით მისამართი შეზღუდულია">
 <!ENTITY deniedPortAccess.longDesc "">
 
-<!ENTITY dnsNotFound.title "სერვერი ვერ მოიძებნა">
+<!ENTITY dnsNotFound.title "გვერდი ვერ მოიძებნა">
 <!-- LOCALIZATION NOTE (dnsNotFound.longDesc4) This string contains markup including widgets for searching
      or enabling wifi connections. The text inside tags should be localized.  Do not change the ids. -->
 <!ENTITY dnsNotFound.longDesc4 "
 <ul>
-  <li>შეამოწმეთ მისამართი აკრეფის შეცდომებზე, როგორიცაა
-    <strong>ww</strong>.example.com ნაცვლად სწორი ფორმისა
+  <li>შეამოწმეთ აკრეფილი მისამართის სისწორე. მაგალითად
+    <strong>ww</strong>.example.com-ის ნაცვლად უნდა იყოს
     <strong>www</strong>.example.com</li>
     <div id='searchbox'>
       <input id='searchtext' type='search'></input>
       <button id='searchbutton'>ძიება</button>
     </div>
-  <li>თუ ვერცერთ გვერდს ვერ ტვირთავთ, შეამოწმეთ თქვენი მოწყობილობის მონაცემებთან ან Wi-Fi-ზე წვდომა .
+  <li>თუ ვერცერთი საიტის გახსნას ვერ ახერხებთ, შეამოწმეთ მოწყობილობის მობილურ, ან Wi-Fi ინტერნეტთან კავშირი.
     <button id='wifi'>Wi-Fi-ს ჩართვა</button>
   </li>
-</ul>">
+</ul>
+">
 
 <!ENTITY fileNotFound.title "ფაილი ვერ მოიძებნა">
 <!ENTITY fileNotFound.longDesc "
 <ul>
-  <li>შეამოწმეთ ფაილის სახელი მთავრულების გათვალისწინებით ან სხვა შეცდომებზე.</li>
-  <li>შეამოწმეთ, ხომ არაა ფაილი გადატანილი, გადარქმეული ან წაშლილი.</li>
+  <li>შეამოწმეთ ფაილის სახელი მთავრულის გათვალისწინებით ან სხვა შეცდომებზე.</li>
+  <li>შეამოწმეთ, ხომ არაა ფაილის გადაადგილებული, გადარქმეული ან წაშლილი.</li>
 </ul>
 ">
 
-<!ENTITY fileAccessDenied.title "ფაილთან წვდომა დაუშვებელია">
+<!ENTITY fileAccessDenied.title "ფაილთან წვდომა აკრძალულია">
 <!ENTITY fileAccessDenied.longDesc "
 <ul>
   <li>ის შესაძლოა წაშლილიყო, გადატანილიყო ან ფაილის უფლებები წვდომას არ უშვებს.</li>
@@ -58,13 +59,13 @@
      or enabling wifi connections. The text inside the tags should be localized. Do not touch the ids. -->
 <!ENTITY malformedURI.longDesc2 "
 <ul>
-  <li>ჩვეულებრივ, ვებ მისამართები იწერება ასე
+  <li>საიტის მისამართები, ჩვეულებრივ, ასე იწერება
     <strong>http://www.example.com/</strong></li>
     <div id='searchbox'>
       <input id='searchtext' type='search'></input>
       <button id='searchbutton'>ძიება</button>
     </div>
-  <li>დარწმუნდით, რომ წინ გადახრილ ხაზს იყენებთ (მაგ.
+  <li>დარწმუნდით, რომ წინ გადახრილ ხაზებს იყენებთ (ასეთს:
     <strong>/</strong>).</li>
 </ul>
 ">
@@ -103,7 +104,7 @@
 <!ENTITY netReset.title "კავშირი გაწყდა">
 <!ENTITY netReset.longDesc2 "&sharedLongDesc3;">
 
-<!ENTITY netTimeout.title "კავშირის ვადა გავიდა">
+<!ENTITY netTimeout.title "დაკავშირების დრო ამოიწურა">
 <!ENTITY netTimeout.longDesc2 "&sharedLongDesc3;">
 
 <!ENTITY unknownProtocolFound.title "მისამართის გაგება ვერ მოხერხდა">
@@ -136,8 +137,8 @@
 <!ENTITY redirectLoop.title "ეს გვერდი მცდარად გადამისამართდა">
 <!ENTITY redirectLoop.longDesc "
 <ul>
-  <li>ეს პრობლემა ზოგჯერ წარმოიქმნება ფუნთუშების მიღების ამორთვის ან უარყოფის
-    დროს.</li>
+  <li>ამ ხარვეზს, ზოგჯერ იწვევს უარყოფა, ან გამორთვა
+    ფუნთუშების.</li>
 </ul>
 ">
 
@@ -153,18 +154,18 @@
 <!ENTITY nssFailure2.title "უსაფრთხო დაკავშირება ვერ მოხერხდა">
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>თქვენ მიერ მოთხოვნილი გვერდის ნახვა შეუძლებელია, ვინაიდანაც მიღებული მონაცემების ნამდვილობა ვერ დასტურდება.</li>
-  <li>გთხოვთ დაუკავშირდით ვებ-საიტის მფლობელებს და შატყობინეთ ეს პრობლემა.</li>
+  <li>თქვენ მიერ მოთხოვნილი გვერდის ნახვა შეუძლებელია, ვინაიდან მიღებული მონაცემების ნამდვილობა ვერ დასტურდება.</li>
+  <li>გთხოვთ, დაუკავშირდეთ ვებსაიტის მფლობელებს და შეატყობინოთ ეს პრობლემა.</li>
 </ul>
 ">
 
 <!ENTITY nssBadCert.title "უსაფრთხო დაკავშირება ვერ ხერხდება">
 <!ENTITY nssBadCert.longDesc2 "
 <ul>
-  <li>ეს შესაძლოა სერვერის კონფიგურაციის პრობლემა იყოს ან 
-ვინმე მის შეცვლას ცდილობს.</li>
-  <li>თუ სერვერს მანამდე წარმატებით დაუკავშირდით, შეცდომა შესაძლოა დროებითია 
-და მოგვიანებით შეგიძლიათ კვლავ სცადოთ.</li>
+  <li>ეს შესაძლოა, საიტის გაუმართაობის ბრალი იყოს, ან
+ვინმე მის შეცვლას ცდილობდეს.</li>
+  <li>თუ ამ საიტს მანამდე წარმატებით უკავშირდებოდით, ხარვეზი შესაძლოა
+დროებითი იყოს და მოგვიანებით შეგიძლიათ კვლავ სცადოთ.</li>
 </ul>
 ">
 
@@ -178,14 +179,14 @@
   </li>
 </ul>">
 
-<!ENTITY cspBlocked.title "დაბლოკილია, შიგთავსის უსაფრთხოების დებულების შესაბამისად.">
+<!ENTITY cspBlocked.title "შეზღუდულია, შიგთავსის უსაფრთხოების დებულების შესაბამისად.">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName;-მა შეზღუდა გვერდის ჩატვირთვა, რადგან შეიცავს შიგთავსს, რომელიც მიუღებელია უსაფრთხოების დებულების შესაბამისად.</p>">
 
 <!ENTITY corruptedContentErrorv2.title "დაზიანებული შიგთავსის შეცდომა">
 <!ENTITY corruptedContentErrorv2.longDesc "<p>გერდი, რომლის ნახვასაც თქვენ ცდილობთ ვერ გამოჩნდება, რადგან მონაცემთა გადაცემაში დაფიქსირდა შეცოდმა.</p><ul><li>გთხოვთ დაუკავშირდით საიტის მფლობელებს და შეატყობინეთ ამ შეცდომაზე.</li></ul>">
 
 <!ENTITY securityOverride.linkText "ან გამონაკლისის დამატება შეგიძლიათ…">
-<!ENTITY securityOverride.getMeOutOfHereButton "გამაშორე აქაურობას!">
+<!ENTITY securityOverride.getMeOutOfHereButton "აქედან გასვლა!">
 <!ENTITY securityOverride.exceptionButtonLabel "გამონაკლისის დამატება…">
 
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
@@ -208,7 +209,7 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
      "SSL_ERROR_UNSUPPORTED_VERSION". -->
 <!ENTITY sslv3Used.longDesc "დამატებითი ინფორმაცია: SSL_ERROR_UNSUPPORTED_VERSION">
 
-<!ENTITY weakCryptoUsed.title "თქვენი კავშირი დაცული არაა">
+<!ENTITY weakCryptoUsed.title "კავშირი დაუცველია">
 <!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc) - Do not translate
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
 <!ENTITY weakCryptoUsed.longDesc "დამატებითი ინფორმაცია: SSL_ERROR_NO_CYPHER_OVERLAP">

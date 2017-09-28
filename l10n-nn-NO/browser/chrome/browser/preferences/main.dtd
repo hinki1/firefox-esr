@@ -7,7 +7,7 @@
 <!ENTITY startupPage2.label        "Når &brandShortName; startar">
 <!ENTITY startupPage2.accesskey    "s">
 <!ENTITY startupUserHomePage.label "Vis startsida">
-<!ENTITY startupBlankPage.label    "Vis tom side">
+<!ENTITY startupBlankPage.label    "Vis ei tom side">
 <!ENTITY startupPrevSession.label  "Vis vindauge og faner som vart brukte sist">
 
 <!ENTITY homepage2.label           "Startside">
@@ -31,10 +31,10 @@
 <!ENTITY alwaysAskWhere.label         "Spør alltid kvar eg vil lagre filer">
 <!ENTITY alwaysAskWhere.accesskey     "a">
 
-<!ENTITY alwaysCheckDefault2.label        "Kontroller alltid om &brandShortName; er standardnettlesar">
+<!ENTITY alwaysCheckDefault2.label        "Kontroller alltid om &brandShortName; er standard-nettlesar">
 <!ENTITY alwaysCheckDefault2.accesskey    "a">
-<!ENTITY setAsMyDefaultBrowser2.label     "Bruk som standard">
-<!ENTITY setAsMyDefaultBrowser2.accesskey "B">
+<!ENTITY setAsMyDefaultBrowser3.label     "Bruk som standard…">
+<!ENTITY setAsMyDefaultBrowser3.accesskey "S">
 <!ENTITY isDefault.label                  "&brandShortName; er standard nettlesar">
 <!ENTITY isNotDefault.label               "&brandShortName; er ikkje standard nettlesar">
 

@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Taq ruyaketal oyonib'äl">
 <!ENTITY viewBookmarksSidebar2.label        "Titz'et ri ajxikin kipas taq yaketal">
 <!ENTITY viewBookmarksToolbar.label         "Titz'et rukatz'ik taq yaketal">
+<!ENTITY searchBookmarks.label              "Kekanöx taq yaketal">
 
 <!ENTITY containersMenu.label "Taq k'ojlib'äl:">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
@@ -331,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "C">
 <!ENTITY viewCustomizeToolbar.label       "Tichinäx…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "T">
+<!ENTITY overflowCustomizeToolbar.label       "Tichinäx ri kikajtz'ik taq samajib'äl…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "T">
 
 <!ENTITY historyMenu.label "Natab'äl">
 <!ENTITY historyMenu.accesskey "t">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Tiyuj ri k'ak'a' natab'äl…">
 <!ENTITY appMenuHistory.restoreSession.label "Titzolin pa ri molojri'ïl xik'o">
 <!ENTITY appMenuHistory.viewSidebar.label "Titz'et runatab'al Sidebar">
+<!ENTITY appMenuHistory.recentHistory.label "K'ak'a' Natab'äl">
 <!ENTITY appMenuHelp.label "To'ïk">
 <!ENTITY appMenuHelp.tooltip "Tijaq K'utsamaj richin tob'äl">
 
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY contentSearchInput.label     "Tikanöx k'ulb'enïk">
 <!ENTITY contentSearchSubmit.tooltip  "Titaq el ri xkanöx">
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+
+<!ENTITY searchInput.placeholder      "Tikanöx">
+<!ENTITY searchIcon.tooltip           "Tikanöx">
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
@@ -618,8 +627,8 @@ items are mutually exclusive. -->
 <!ENTITY mediaPlaybackRate2.accesskey "t">
 <!ENTITY mediaPlaybackRate050x2.label "Eqal (0.5×)">
 <!ENTITY mediaPlaybackRate050x2.accesskey "E">
-<!ENTITY mediaPlaybackRate100x2.label "Kan ke ri'">
-<!ENTITY mediaPlaybackRate100x2.accesskey "K">
+<!ENTITY mediaPlaybackRate100x2.label "Relik">
+<!ENTITY mediaPlaybackRate100x2.accesskey "R">
 <!ENTITY mediaPlaybackRate125x2.label "Aninäq (1.25×)">
 <!ENTITY mediaPlaybackRate125x2.accesskey "A">
 <!ENTITY mediaPlaybackRate150x2.label "Yalan aninäq (1.5×)">
@@ -850,6 +859,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "T">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Ke'ilitäj ch'aqa' chik taq wachinel">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "K">
+<!ENTITY customizeMode.emptyOverflowList.description "Tiqirirëx chuqa' tosq'opïx wawe' ri ch'akulal richin nik'oje' naqaj xa xe chi man chupam ta rumolsamajib'al…">
+<!ENTITY customizeMode.uidensity "Alalel">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Relik">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Relik">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "R">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Tz'aqatz'öj">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Tz'aqatz'öj">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "T">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Chapoj">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Chapoj">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "C">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Tokisäx Chapoj richin Rub'eyal Na'onel Kematz'ib'">
 
 <!ENTITY getUserMedia.selectCamera.label "Rutaluxik elesäy wachib'äl">
 <!ENTITY getUserMedia.selectCamera.accesskey "e">
@@ -959,8 +989,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2 "Titikirisäx chik richin nik'ex &brandShorterName;">
 
 <!ENTITY pageActionButton.tooltip "Taq rub'anoj ruxaq">
+<!ENTITY pageAction.addToUrlbar.label "Titz'aqatisäx ri Kikajtz'ik Ochochib'äl">
+<!ENTITY pageAction.removeFromUrlbar.label "Tiyuj el chupam ri Kikajtz'ik Ochoch">
 
-<!ENTITY sendToDevice.label "Titaq pa Okisaxel…">
-<!ENTITY sendToDevice.viewTitle "Titaq pan Okisaxel">
-<!ENTITY sendToDevice.fxaRequired.label "Ajowan">
-<!ENTITY sendToDevice.noDevices.label "Majun okisaxel k'o">
+<!ENTITY sendToDevice.label2 "Titaq pan Okisaxel">
+<!ENTITY sendToDevice.syncNotReady.label "Tajin yexim ri taq Okisaxel…">

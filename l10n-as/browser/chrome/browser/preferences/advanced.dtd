@@ -6,12 +6,8 @@
 
 <!ENTITY generalTab.label                "সাধাৰণ">
 
-<!ENTITY accessibility.label             "অভিগম্যতা">
-
 <!ENTITY useCursorNavigation.label       "পৃষ্ঠাৰ মাজত ব্ৰাউছ কৰিবলৈ সদায়ে কাৰ্চাৰ চাবি ব্যৱহাৰ কৰিব">
 <!ENTITY useCursorNavigation.accesskey   "c">
-
-
 
 
 
@@ -27,13 +23,11 @@
 
 
 <!ENTITY dataChoicesTab.label            "তথ্যৰ পছন্দসমূহ">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
 
-<!ENTITY healthReportDesc.label          "আপোনাক আপোনাৰ ব্ৰাউছাৰৰ পৰিৱেশন বুজি পোৱাত সহায় কৰে আৰু আপোনাৰ ব্ৰাউছাৰৰ স্বাস্থ্য বিষয়ে তথ্য &vendorShortName; ৰ সৈতে অংশীদাৰী কৰে">
-<!ENTITY enableHealthReport.label        "&brandShortName; স্বাস্থ্য সংবাদ">
-<!ENTITY enableHealthReport.accesskey    "R">
 
-
-<!ENTITY telemetryDesc.label             "আপোনাৰ ব্ৰাউছাৰৰ বিষয়ে পৰিৱেশন, ব্যৱহাৰ, হাৰ্ডৱেৰ আৰু স্বনিৰ্বাচন তথ্য &vendorShortName; ৰ সৈতে অংশীদাৰী কৰে যাতে আমি &brandShortName; উন্নত কৰিব পাৰো">
 
 
 
@@ -44,7 +38,6 @@
 
 <!ENTITY networkTab.label                "নেটৱাৰ্ক">
 
-<!ENTITY connection.label                "সংযোগ">
 
 <!ENTITY connectionDesc.label            "&brandShortName; কেনেদৰে ইন্টাৰনেটলৈ সংযোগ কৰে সংৰূপণ কৰক">
 <!ENTITY connectionSettings.label        "পছন্দসমূহ…">
@@ -87,6 +80,7 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+
 <!ENTITY updateApplication.version.post  "">
 
 
@@ -100,7 +94,6 @@
 
 <!ENTITY useService.label                "আপডেইটসমূহ ইনস্টল কৰিবলে এটা পটভূমি সেৱা ব্যৱহাৰ কৰক">
 <!ENTITY useService.accesskey            "b">
-
 
 
 
@@ -122,10 +115,12 @@
 
 <!ENTITY enableOCSP.label                "প্ৰমাণপত্ৰসমূহৰ বৰ্তমান বৈধতা সুনিশ্চিত কৰিবলে OCSP ৰেস্পণ্ডাৰক প্ৰশ্ন কৰক">
 <!ENTITY enableOCSP.accesskey            "Q">
-<!ENTITY viewCerts.label                 "প্ৰমাণপত্ৰসমূহ চাওক">
-<!ENTITY viewCerts.accesskey             "C">
-<!ENTITY viewSecurityDevices.label       "সুৰক্ষা ডিভাইচসমূহ">
-<!ENTITY viewSecurityDevices.accesskey   "D">
+
+
+
+
+
+
 
 
 

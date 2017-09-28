@@ -15,14 +15,17 @@
 
 <!ENTITY  paneSearchResults.title       "Meklēšanas rezultāti">
 <!ENTITY  paneGeneral.title             "Galvenie">
+<!ENTITY  paneSearch.title              "Meklēt">
 <!ENTITY  paneFilesApplications.title   "Faili un programmas">
 <!ENTITY  panePrivacySecurity.title     "Privātums un drošība">
 <!ENTITY  paneContainers.title          "Saturošās cilnes">
 <!ENTITY  paneUpdates.title             "Atjauninājumi">
 
+<!ENTITY  languageAndAppearance.label   "Valoda un izskats">
+<!ENTITY  filesAndApplications.label    "Faili un programmas">
+<!ENTITY  browserPrivacy.label          "Pārlūka privātums">
+
 <!-- LOCALIZATION NOTE (paneSync1.title): This should match syncBrand.fxAccount.label in ../syncBrand.dtd -->
 <!ENTITY  paneSync1.title          "Firefox konts">
 
 <!ENTITY  helpButton2.label        "&brandShortName; atbalsts">
-
-<!ENTITY  searchInput.label        "Meklēšana">

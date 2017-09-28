@@ -3,14 +3,15 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  security.label                 "Biztonság">
+<!ENTITY  phishingProtection.label       "Adathalászat elleni védelem">
 
-<!ENTITY  warnOnAddonInstall.label        "Figyelmeztetés kiegészítők telepítése előtt">
-<!ENTITY  warnOnAddonInstall.accesskey    "F">
+<!ENTITY  warnOnAddonInstall2.label       "Figyelmeztetés kiegészítők telepítése előtt">
+<!ENTITY  warnOnAddonInstall2.accesskey   "F">
+
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
   https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
 -->
-
 <!ENTITY  enableSafeBrowsing.label        "Veszélyes és félrevezető tartalom blokkolása">
 <!ENTITY  enableSafeBrowsing.accesskey    "V">
 
@@ -26,8 +27,8 @@
 
 <!ENTITY  formsAndPasswords.label       "Űrlapok és jelszavak">
 
-<!ENTITY  rememberLogins1.label          "Felhasználónevek és jelszavak megjegyzése az oldalakhoz">
-<!ENTITY  rememberLogins1.accesskey      "F">
+<!ENTITY  rememberLogins2.label         "Felhasználónevek és jelszavak megjegyzése az oldalakhoz">
+<!ENTITY  rememberLogins2.accesskey     "m">
 <!ENTITY  passwordExceptions.label      "Kivételek…">
 <!ENTITY  passwordExceptions.accesskey  "v">
 

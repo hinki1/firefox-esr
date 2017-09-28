@@ -294,6 +294,9 @@
 <!ENTITY custom_tabs_menu_footer "Spěchowany wot &brandShortName;">
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "URL je kopěrowany">
+
+<!ENTITY pref_pwa "Postupne webnałoženja">
+<!ENTITY pref_pwa_summary "Dowolće, zo so webnałoženja startowej wobrazowce přidawaja">
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "Prud aktiwity">
@@ -358,10 +361,6 @@
 <!ENTITY pref_clear_on_exit_title3 "Priwatne daty při kónčenju zhašeć">
 <!ENTITY pref_clear_on_exit_summary2 "&brandShortName; waše daty awtomatiscé zhaša, hdyžkuli \u0022Skónčić\u0022 z hłowneho menija wuběraće">
 <!ENTITY pref_clear_on_exit_dialog_title "Wubjerće, kotre daty maja so zhašeć">
-<!ENTITY pref_plugins "Tykače">
-<!ENTITY pref_plugins_enabled "Zmóžnjeny">
-<!ENTITY pref_plugins_tap_to_play2 "Podótkńće so, zo byšće wothrał">
-<!ENTITY pref_plugins_disabled "Znjemóžnjeny">
 <!ENTITY pref_restore_tabs "Rajtarki wobnowić">
 <!ENTITY pref_restore_always "Přeco wobnowić">
 <!ENTITY pref_restore_quit "Po startowanju &brandShortName; njewobnowić">
@@ -545,6 +544,7 @@
 <!ENTITY page_removed "Strona je so wotstroniła">
 
 <!ENTITY bookmark_edit_title "Zapołožku wobdźěłać">
+<!ENTITY bookmark_edit_folder_title "Rjadowak wobdźěłać">
 <!ENTITY bookmark_edit_name "Mjeno">
 <!ENTITY bookmark_edit_location "Městno">
 <!ENTITY bookmark_edit_keyword "Klučowe słowo">
@@ -621,6 +621,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Wubrane graty pokazać">
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+
+<!ENTITY home_pinned_site "Připjate sydło">
+<!ENTITY home_unpinned_site "Wotpjate sydło">
 
 <!ENTITY remote_tabs_panel_moved_title "Hdźe su moje rajtarki?">
 <!ENTITY remote_tabs_panel_moved_desc "Smy waše rajtarki z druhich grato do pola na wašej startowej stronje přesunyli, na kotrež maće lochki přistup, kóždy raz, hdyž nowy rajtark wočinjeće.">

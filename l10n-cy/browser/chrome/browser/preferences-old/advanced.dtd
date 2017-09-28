@@ -27,10 +27,15 @@
 <!ENTITY checkUserSpelling.accesskey     "G">
 
 <!ENTITY dataChoicesTab.label            "Dewisiadau Data">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+
+<!ENTITY healthReportingDisabled.label   "Mae adrodd ar ddata wedi ei analluogi ar gyfer ffurfweddiad yr adeiledd hwn">
 
 <!ENTITY healthReportDesc.label          "Mae'n eich cynorthwyo i ddeall berfformiad eich porwr ac yn rhannu data gyda &vendorShortName; am iechyd eich porwr">
 <!ENTITY enableHealthReport.label        "Galluogi Adroddiad Iechyd &brandShortName;">
-<!ENTITY enableHealthReport.accesskey    "A">
+<!ENTITY enableHealthReport.accesskey    "I">
 <!ENTITY healthReportLearnMore.label     "Dysgu rhagor">
 
 <!ENTITY telemetryDesc.label             "Mae'n rhannu data perfformiad, defnydd, caledwedd a chyfaddasu eich porwr gyda &vendorShortName; er mwyn gwella &brandShortName;">
@@ -132,7 +137,7 @@
 <!ENTITY limitContentProcessOption.label "Terfyn proses cynnwys">
 <!ENTITY limitContentProcessOption.description "Mae modd gwella perfformiad prosesau cynnwys ychwanegol wrth ddefnyddio tabiau lluosog, ond fydd hefyd yn defnyddio rhagor o gof.">
 <!ENTITY limitContentProcessOption.accesskey   "T">
-<!ENTITY limitContentProcessOption.disabledDescription "Dim ond yn y fersiwn amlbroses o &brandShortName; y mae newid y nifer o brosesau cynnwys yn bosib.">
+<!ENTITY limitContentProcessOption.disabledDescription "Dim ond yn y ferwin amlbroses o &brandShortName; y mae newid y nifer o brosesau cynnwys yn bosib.">
 <!ENTITY limitContentProcessOption.disabledDescriptionLink "Dysgwch sut i weld os yw aml-brosesu wedi ei alluogi">
 <!ENTITY allowHWAccel.label              "Defnyddio cyflymu caledwedd pan fydd ar gael">
 <!ENTITY allowHWAccel.accesskey          "e">

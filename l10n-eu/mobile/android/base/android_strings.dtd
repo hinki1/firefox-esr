@@ -294,6 +294,9 @@
 <!ENTITY custom_tabs_menu_footer "&brandShortName; nabigatzaileak hornitua">
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "URLa kopiatu da">
+
+<!ENTITY pref_pwa "Web aplikazio aurrerakoiak">
+<!ENTITY pref_pwa_summary "Baimendu hasierako pantailan web aplikazioak gehitzea">
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "Jardueren korrontea">
@@ -358,10 +361,6 @@
 <!ENTITY pref_clear_on_exit_title3 "Garbitu datu pribatuak irtetean">
 <!ENTITY pref_clear_on_exit_summary2 "&brandShortName;(e)k zure datuak automatikoki garbituko ditu menu nagusitik \u0022Irten\u0022 hautatzen duzun bakoitzean">
 <!ENTITY pref_clear_on_exit_dialog_title "Hautatu garbitu beharreko datuak">
-<!ENTITY pref_plugins "Pluginak">
-<!ENTITY pref_plugins_enabled "Gaituta">
-<!ENTITY pref_plugins_tap_to_play2 "Ukitu erreproduzitzeko">
-<!ENTITY pref_plugins_disabled "Desgaituta">
 <!ENTITY pref_restore_tabs "Berreskuratu fitxak">
 <!ENTITY pref_restore_always "Berreskuratu beti">
 <!ENTITY pref_restore_quit "Ez berreskuratu &brandShortName;(e)tik irten ondoren">
@@ -545,6 +544,7 @@
 <!ENTITY page_removed "Orria kenduta">
 
 <!ENTITY bookmark_edit_title "Editatu laster-marka">
+<!ENTITY bookmark_edit_folder_title "Editatu karpeta">
 <!ENTITY bookmark_edit_name "Izena">
 <!ENTITY bookmark_edit_location "Helbidea">
 <!ENTITY bookmark_edit_keyword "Gako-hitza">
@@ -621,6 +621,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Erakutsi hautatutako gailuak">
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+
+<!ENTITY home_pinned_site "Gunea ainguratuta">
+<!ENTITY home_unpinned_site "Gunea desainguratuta">
 
 <!ENTITY remote_tabs_panel_moved_title "Nora joan dira nire fitxak?">
 <!ENTITY remote_tabs_panel_moved_desc "Zure beste gailuetako fitxak hasiera-orriko panel batera aldatu ditugu lekuz, fitxa berri bat irekitzen duzun bakoitzean eskura izan ditzazun.">

@@ -55,8 +55,8 @@
 <!ENTITY  crash_send_report_message3 "Notifică &vendorShortName; despre această defecțiune astfel încât să o poată remedia">
 <!ENTITY  crash_include_url2 "Include adresa paginii pe care am fost">
 <!ENTITY  crash_sorry "Ne pare rău">
-<!ENTITY  crash_comment "Adaugă un comentariu (comentariile sunt vizibile publicului)">
-<!ENTITY  crash_allow_contact2 "Permite &vendorShortName; să mă contacteze referitor la acest raport">
+<!ENTITY  crash_comment "Adaugă un comentariu (comentariile sunt vizibile public)">
+<!ENTITY  crash_allow_contact2 "Permite &vendorShortName; să mă contacteze cu privire la acest raport">
 <!ENTITY  crash_email "E-mailul tău">
 <!ENTITY  crash_closing_alert "Ieși fără să trimiți un raport de defecțiune?">
 <!ENTITY  sending_crash_report "Se trimite raportul de defecțiune\u2026">
@@ -213,7 +213,7 @@
 <!ENTITY pref_category_home_summary "Personalizează pagina de start">
 <!ENTITY pref_category_home_panels "Panouri">
 <!ENTITY pref_category_home_add_ons "Suplimente">
-<!ENTITY pref_home_updates2 "Actualizări de conținut">
+<!ENTITY pref_home_updates2 "Actualizări privind conținutul">
 <!ENTITY pref_home_updates_enabled "Activate">
 <!ENTITY pref_home_updates_wifi "Doar prin Wi-Fi">
 <!ENTITY pref_category_home_homepage "Pagină de start">
@@ -294,6 +294,8 @@
 <!ENTITY custom_tabs_menu_footer "Sprijinit de &brandShortName;">
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "URL copiat">
+
+
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "Flux de activități">
@@ -358,10 +360,6 @@
 <!ENTITY pref_clear_on_exit_title3 "Șterge datele private la ieșire">
 <!ENTITY pref_clear_on_exit_summary2 "&brandShortName; va șterge automat datele de fiecare dată când selectezi \u201EIeși\u201D din meniul principal">
 <!ENTITY pref_clear_on_exit_dialog_title "Selectează ce date să ștergi">
-<!ENTITY pref_plugins "Pluginuri">
-<!ENTITY pref_plugins_enabled "Activate">
-<!ENTITY pref_plugins_tap_to_play2 "Atinge pentru redare">
-<!ENTITY pref_plugins_disabled "Dezactivate">
 <!ENTITY pref_restore_tabs "Restaurează filele">
 <!ENTITY pref_restore_always "Restaurează întotdeauna">
 <!ENTITY pref_restore_quit "Nu le restaura după ce ies din &brandShortName;">
@@ -384,7 +382,7 @@
 <!ENTITY pref_sync2 "Autentificare">
 <!ENTITY pref_sync_summary2 "Sincronizează filele, semnele de carte, autentificările, istoricul">
 <!ENTITY pref_search_suggestions "Arată sugestii de căutare">
-<!ENTITY pref_history_search_suggestions "Arată istoricul căutărilor">
+<!ENTITY pref_history_search_suggestions "Afișează istoricul căutărilor">
 <!ENTITY pref_import_options "Opțiuni de importare">
 <!ENTITY pref_import_android_summary "Importă semnele de carte și istoricul din browserul nativ">
 <!-- Localization note (pref_private_data_openTabs): Open tabs is an option in
@@ -545,6 +543,7 @@
 <!ENTITY page_removed "Pagină eliminată">
 
 <!ENTITY bookmark_edit_title "Editează semnul de carte">
+
 <!ENTITY bookmark_edit_name "Nume">
 <!ENTITY bookmark_edit_location "Locație">
 <!ENTITY bookmark_edit_keyword "Cuvânt cheie">
@@ -621,6 +620,9 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Nu mai ascunde dispozitivele selectate">
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+
 
 <!ENTITY remote_tabs_panel_moved_title "Unde au dispărut filele mele?">
 <!ENTITY remote_tabs_panel_moved_desc "Am mutat filele tale de pe alte dispozitive într-un panou pe pagina de start care poate fi accesat ușor de fiecare dată când deschizi o filă nouă.">
@@ -822,7 +824,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY helper_triple_readerview_open_title "Disponibil offline">
 <!ENTITY helper_triple_readerview_open_message "Însemnează elementele pentru modul lectură pentru a le citi offline.">
-<!ENTITY helper_triple_readerview_open_button "Mergi la semnele de carte">
+<!ENTITY helper_triple_readerview_open_button "Adaugă la semne de carte">
 
 <!ENTITY activity_stream_topsites "Site-uri de top">
 <!ENTITY activity_stream_highlights "Evidențieri">

@@ -5,7 +5,7 @@
 <!ENTITY  trackingProtectionHeader.label       "使用跟踪保护">
 <!ENTITY  trackingProtectionAlways.label       "始终">
 <!ENTITY  trackingProtectionAlways.accesskey   "y">
-<!ENTITY  trackingProtectionPrivate.label      "只在隐私浏览窗口中">
+<!ENTITY  trackingProtectionPrivate.label      "只在隐私窗口中">
 <!ENTITY  trackingProtectionPrivate.accesskey  "l">
 <!ENTITY  trackingProtectionNever.label        "永不">
 <!ENTITY  trackingProtectionNever.accesskey    "n">
@@ -14,7 +14,7 @@
 <!ENTITY  trackingProtectionExceptions.accesskey "x">
 
 <!ENTITY tracking.label                 "跟踪防护">
-<!ENTITY trackingProtectionPBM5.label         "在隐私浏览窗口中使用跟踪保护">
+<!ENTITY trackingProtectionPBM5.label         "在隐私窗口中使用跟踪保护">
 <!ENTITY trackingProtectionPBM5.accesskey     "v">
 <!ENTITY trackingProtectionPBMLearnMore.label "详细了解">
 <!ENTITY changeBlockList.label          "更换拦截列表">
@@ -43,8 +43,8 @@
 <!ENTITY  suggestionSettings.label      "更改搜索引擎建议的首选项…">
 <!ENTITY  suggestionSettings.accesskey  "g">
 
-<!ENTITY  acceptCookies.label           "接受来自站点的 Cookie">
-<!ENTITY  acceptCookies.accesskey       "A">
+<!ENTITY  acceptCookies2.label          "接受来自网站的 Cookie">
+<!ENTITY  acceptCookies2.accesskey      "A">
 
 <!ENTITY  acceptThirdParty.pre.label      "接受第三方 Cookie：">
 <!ENTITY  acceptThirdParty.pre.accesskey  "C">

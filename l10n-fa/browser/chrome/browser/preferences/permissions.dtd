@@ -5,12 +5,12 @@
 <!ENTITY window.title                 "استثناها">
 <!ENTITY window.width                 "45em">
 
-<!ENTITY treehead.sitename.label      "سایت">
+<!ENTITY treehead.sitename2.label     "پایگاه اینترنتی">
 <!ENTITY treehead.status.label        "وضعیت">
-<!ENTITY removepermission.label       "حذف پایگاه">
-<!ENTITY removepermission.accesskey   "ح">
-<!ENTITY removeallpermissions.label   "حذف همهٔ پایگاه‌ها">
-<!ENTITY removeallpermissions.accesskey "ه">
+<!ENTITY removepermission2.label      "حذف پایگاه اینترنتی">
+<!ENTITY removepermission2.accesskey  "R">
+<!ENTITY removeallpermissions2.label  "حذف تمامی پایگاه‌های اینترنتی">
+<!ENTITY removeallpermissions2.accesskey "e">
 <!ENTITY address.label                "نشانی پایگاه وب">
 <!ENTITY address.accesskey            "ن">
 <!ENTITY block.label                  "باز داشتن">

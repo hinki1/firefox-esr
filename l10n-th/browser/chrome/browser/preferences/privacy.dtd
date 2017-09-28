@@ -3,8 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  trackingProtectionHeader2.label      "การป้องกันการตามรอย">
-<!ENTITY  trackingProtection.description       "การติดตามคือบริษัทได้เก็บข้อมูลเกี่ยวกับคุณเพื่อสร้างโปรไฟล์และแสดงเนื้อหาที่อยู่บนข้อมูลส่วนตัวและการท่องเว็บของคุณ">
-<!ENTITY  trackingProtection.radioGroupLabel   "ปิดกั้นบริษัทติดตามที่เป็นที่รู้จักจากการแสดงเนื้อหา">
+<!ENTITY  trackingProtection2.radioGroupLabel  "ใช้การป้องกันการตามรอยเพื่อปิดกั้นตัวติดตามที่รู้จัก">
 <!ENTITY  trackingProtectionAlways.label       "เสมอ">
 <!ENTITY  trackingProtectionAlways.accesskey   "ส">
 <!ENTITY  trackingProtectionPrivate.label      "เฉพาะในหน้าต่างส่วนตัว">
@@ -15,26 +14,25 @@
 <!ENTITY  trackingProtectionExceptions.label   "ข้อยกเว้น…">
 <!ENTITY  trackingProtectionExceptions.accesskey "อ">
 
-<!ENTITY tracking.label                 "การตามรอย">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM5.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to true. This currently happens on the release and beta channel. -->
 <!ENTITY trackingProtectionPBM5.label         "ใช้การป้องกันการตามรอยในหน้าต่างส่วนตัว">
 <!ENTITY trackingProtectionPBM5.accesskey     "v">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM6.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to false. This currently happens on the nightly channel. -->
+<!ENTITY trackingProtectionPBM6.label         "ใช้การป้องกันการตามรอยในการท่องเว็บแบบส่วนตัวเพื่อปิดกั้นตัวติดตามที่รู้จัก">
 <!ENTITY trackingProtectionPBMLearnMore.label "เรียนรู้เพิ่มเติม">
-<!ENTITY changeBlockList.label          "เปลี่ยนรายการการปิดกั้น">
-<!ENTITY changeBlockList.accesskey      "ป">
+<!ENTITY changeBlockList2.label               "เปลี่ยนรายการการปิดกั้น…">
 
-<!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
-<!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
-<!ENTITY  doNotTrack.pre.label          "คุณยังสามารถ ">
-<!ENTITY  doNotTrack.settings.label     "จัดการการตั้งค่าอย่าตามรอยของคุณ">
-<!ENTITY  doNotTrack.post.label         "">
+<!ENTITY  doNotTrack.learnMore.label    "เรียนรู้เพิ่มเติม">
+<!ENTITY  doNotTrack.default.label      "เฉพาะเมื่อใช้การป้องกันการตามรอย">
+<!ENTITY  doNotTrack.always.label       "เสมอ">
 
 <!ENTITY  history.label                 "ประวัติ">
+<!ENTITY  permissions.label             "การอนุญาต">
 
-<!ENTITY  locationBar.label             "แถบตำแหน่งที่ตั้ง">
-
-<!ENTITY  locbar.suggest2.label         "เมื่อใช้แถบตำแหน่งที่ตั้ง เสนอแนะ">
-<!ENTITY  locbar.history.label          "ประวัติ">
-<!ENTITY  locbar.history.accesskey      "ป">
+<!ENTITY  addressBar.label              "แถบที่อยู่">
+<!ENTITY  addressBar.suggest.label      "เมื่อใช้แถบที่อยู่ เสนอแนะ">
+<!ENTITY  locbar.history2.label         "ประวัติการท่องเว็บ">
+<!ENTITY  locbar.history2.accesskey     "ป">
 <!ENTITY  locbar.bookmarks.label        "ที่คั่นหน้า">
 <!ENTITY  locbar.bookmarks.accesskey    "ท">
 <!ENTITY  locbar.openpage.label         "แท็บที่เปิด">
@@ -42,7 +40,7 @@
 <!ENTITY  locbar.searches.label         "การค้นหาที่เกี่ยวข้องจากเครื่องมือค้นหาเริ่มต้น">
 <!ENTITY  locbar.searches.accesskey     "d">
 
-<!ENTITY  suggestionSettings2.label     "เปลี่ยนค่ากำหนดคำแนะนำจากเครื่องมือค้นหา">
+<!ENTITY  suggestionSettings2.label     "เปลี่ยนค่ากำหนดข้อเสนอแนะจากเครื่องมือค้นหา">
 
 <!ENTITY  acceptCookies.label           "ยอมรับคุกกี้จากไซต์">
 <!ENTITY  acceptCookies.accesskey       "ย">
@@ -106,9 +104,8 @@
 <!ENTITY  clearOnCloseSettings.label     "การตั้งค่า…">
 <!ENTITY  clearOnCloseSettings.accesskey "ก">
 
-<!ENTITY  browserContainersHeader.label         "แท็บแยกข้อมูล">
 <!ENTITY  browserContainersLearnMore.label      "เรียนรู้เพิ่มเติม">
 <!ENTITY  browserContainersEnabled.label        "เปิดใช้งานแท็บแยกข้อมูล">
-<!ENTITY  browserContainersEnabled.accesskey    "n">
+<!ENTITY  browserContainersEnabled.accesskey    "ย">
 <!ENTITY  browserContainersSettings.label        "การตั้งค่า…">
-<!ENTITY  browserContainersSettings.accesskey    "i">
+<!ENTITY  browserContainersSettings.accesskey    "ต">

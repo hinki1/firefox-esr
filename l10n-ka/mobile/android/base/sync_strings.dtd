@@ -29,10 +29,10 @@
 <!ENTITY sync.default.client.name '&formatS1; &formatS2; მოწყობილობაზე '>
 
 <!-- Bookmark folder strings -->
-<!ENTITY bookmarks.folder.menu.label 'სანიშნეთა მენიუ'>
+<!ENTITY bookmarks.folder.menu.label 'სანიშნეების მენიუ'>
 <!ENTITY bookmarks.folder.places.label ''>
 <!ENTITY bookmarks.folder.tags.label 'ჭდეები'>
-<!ENTITY bookmarks.folder.toolbar.label 'სანიშნეთა პულტი'>
+<!ENTITY bookmarks.folder.toolbar.label 'სანიშნეების ხელსაწყოები'>
 <!ENTITY bookmarks.folder.other.label 'სხვა სანიშნეები'>
 <!ENTITY bookmarks.folder.desktop.label 'კომპიუტერის სანიშნეები'>
 <!ENTITY bookmarks.folder.mobile.label 'მობილურის სანიშნეები'>
@@ -47,7 +47,7 @@
 <!ENTITY fxaccount_back_to_browsing 'დათვალიერებაზე დაბრუნება'>
 
 <!ENTITY fxaccount_getting_started_welcome_to_sync 'მოგესალმებათ &syncBrand.shortName.label;'>
-<!ENTITY fxaccount_getting_started_description2 'შედით სისტემაში თქვენი ჩანართების, სანიშნეების, პაროლების და მეტის სინქრონიზაციისთვის.'>
+<!ENTITY fxaccount_getting_started_description2 'შედით სისტემაში თქვენი ჩანართების, სანიშნეების, პაროლების და ა.შ. დასინქრონებისთვის.'>
 <!ENTITY fxaccount_getting_started_get_started 'დაიწყეთ'>
 <!ENTITY fxaccount_getting_started_old_firefox '&syncBrand.shortName.label;-ის ძველ ვერსიას იყენებთ?'>
 
@@ -60,7 +60,7 @@
 <!ENTITY fxaccount_status_sync_server 'სინქრონიზციის სერვერი'>
 <!ENTITY fxaccount_status_sync '&syncBrand.shortName.label;'>
 <!ENTITY fxaccount_status_sync_enabled '&syncBrand.shortName.label; ჩართულია'>
-<!ENTITY fxaccount_status_needs_verification2 'თქვენს ანგარიშს გადამოწმება სჭირდება. შეეხეთ გადამოწმების ელ-ფოსტის ხელახლა გამოსაგზავნად.'>
+<!ENTITY fxaccount_status_needs_verification2 'თქვენს ანგარიშს დამოწმება სჭირდება. შეეხეთ, დასამოწმებელი წერილის ხელახლა გამოსაგზავნად.'>
 <!ENTITY fxaccount_status_needs_credentials 'დაკავშირება ვერ მოხერხდა. შეეხეთ შესასვლელად.'>
 <!ENTITY fxaccount_status_needs_upgrade 'შესასვლელად უნდა განაახლოთ &brandShortName;.'>
 <!ENTITY fxaccount_status_needs_master_sync_automatically_enabled '&syncBrand.shortName.label; გამართულია, მაგრამ ავტომატურად არ სინქრონირდება. შეამოწმეთ \&quot;ავტომატური სინქრონიზაცია\&quot; მისამართზე Android-ის პარამეტრები &gt; მონაცემების გამოყენება.'>
@@ -80,10 +80,14 @@
 <!ENTITY fxaccount_status_more 'მეტი&ellipsis;'>
 <!ENTITY fxaccount_remove_account 'გამოთიშვა&ellipsis;'>
 
+<!ENTITY fxaccount_remove_account_dialog_title2 'შეწყდეს Sync-თან კავშირი?'>
+<!ENTITY fxaccount_remove_account_dialog_message2 'მონახულებული გვერდების მონაცემები ამ მოწყობილობაზე დარჩება, მაგრამ აღარ დასინქრონდება თქვენს ანგარიშთან.'>
 <!-- Localization note: format string below will be replaced
      with the Firefox Account's email address. -->
+<!ENTITY fxaccount_remove_account_toast2 '&formatS; Firefox ანგარიშთან კავშირი შეწყვეტილია.'>
 <!-- Localization note (fxaccount_remove_account_dialog_action_confirm): This is the label for the
  confirm button in the dialog that shows up when disconnecting from sync. -->
+<!ENTITY fxaccount_remove_account_dialog_action_confirm 'კავშირის შეწყვეტა'>
 
 <!ENTITY fxaccount_enable_debug_mode 'გამართვის რეჟიმის ჩართვა'>
 
@@ -106,8 +110,8 @@
 
 <!-- Localization note: the format string will be fxaccount_sign_in_button_label, linkified. -->
 <!ENTITY fxaccount_remote_error_ATTEMPT_TO_CREATE_AN_ACCOUNT_THAT_ALREADY_EXISTS_2 'ანგარიში უკვე არსებობს. &formatS1;'>
-<!ENTITY fxaccount_remote_error_ATTEMPT_TO_ACCESS_AN_ACCOUNT_THAT_DOES_NOT_EXIST 'არასწორი ელ-ფოსტა ან პაროლი'>
-<!ENTITY fxaccount_remote_error_INCORRECT_PASSWORD 'არასწორი ელ-ფოსტა ან პაროლი'>
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_ACCESS_AN_ACCOUNT_THAT_DOES_NOT_EXIST 'არასწორი ელფოსტა ან პაროლი'>
+<!ENTITY fxaccount_remote_error_INCORRECT_PASSWORD 'არასწორი ელფოსტა ან პაროლი'>
 <!ENTITY fxaccount_remote_error_ATTEMPT_TO_OPERATE_ON_AN_UNVERIFIED_ACCOUNT 'ანგარიში არაა გადამოწმებული'>
 <!ENTITY fxaccount_remote_error_CLIENT_HAS_SENT_TOO_MANY_REQUESTS 'სერვერი დაკავებულია, სცადეთ ხელახლა მალე'>
 <!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD 'სერვერი დაკავებულია, სცადეთ ხელახლა მალე'>

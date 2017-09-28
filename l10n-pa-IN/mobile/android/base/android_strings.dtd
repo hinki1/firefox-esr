@@ -295,6 +295,9 @@
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "URL ਕਾਪੀ ਕੀਤਾ">
 
+<!ENTITY pref_pwa "ਸਿਲਸਿਲੇਵਾਰ ਵੈੱਬ ਐਪਾਂ">
+<!ENTITY pref_pwa_summary "ਵੈੱਬ ਐਪਾਂ ਨੂੰ ਮੁੱਖ ਸਕਰੀਨ \&apos;ਤੇ ਜੋੜਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ">
+
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "ਸਰਗਰਮੀ ਸਟਰੀਮ">
 <!ENTITY pref_activity_stream_summary "ਭਰਪੂਰ ਦਿੱਖ ਅਤੀਤ ਫੀਡ ਅਤੇ ਮੁੜ-ਤਿਆਰ ਕੀਤੇ ਮੁੱਖ ਸਫ਼ੇ ਨਾਲ &brandShortName; ਵਿੱਚ ਤੁਹਾਡੇ ਵਲੋਂ ਲੱਭਣੇ ਜਾਣ ਵਾਲਾ ਹੋਰ ਵੀ ਸੌਖਾ ਹੋ ਗਿਆ ਹੈ।">
@@ -448,7 +451,7 @@
 <!-- Localization note (pref_update_autodownload2) : This should mention downloading
      specifically, since the pref only prevents automatic downloads and not the
      actual notification that an update is available. -->
-<!ENTITY pref_update_autodownload3 "ਆਟੋਮੈਟਿਕ ਹੀ ਅੱਪਡੇਟ ਕਰੋ">
+<!ENTITY pref_update_autodownload3 "ਆਪਣੇ-ਆਪ ਹੀ ਅੱਪਡੇਟ ਕਰੋ">
 <!ENTITY pref_update_autodownload_wifi "ਸਿਰਫ਼ Wi-Fi ਤੇ ਹੀ">
 <!ENTITY pref_update_autodownload_never "ਕਦੇ ਨਹੀਂ">
 <!ENTITY pref_update_autodownload_always "ਹਮੇਸ਼ਾ">
@@ -510,7 +513,7 @@
 <!ENTITY contextmenu_site_settings "ਸਾਈਟ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਨੂੰ ਸੋਧੋ">
 <!ENTITY contextmenu_top_sites_edit "ਸੋਧੋ">
 <!ENTITY contextmenu_top_sites_pin "ਸਾਈਟ ਨੂੰ ਪਿੰਨ ਕਰੋ">
-<!ENTITY contextmenu_top_sites_unpin "ਸਾਈਟ ਦੇ ਪਿੰਨ ਨੂ ਹਟਾਓ">
+<!ENTITY contextmenu_top_sites_unpin "ਸਾਈਟ ਦੇ ਪਿੰਨ ਨੂੰ ਹਟਾਓ">
 <!ENTITY contextmenu_add_search_engine "ਖੋਜ ਇੰਜਣ ਵਜੋਂ ਜੋੜੋ">
 
 <!-- Localization note (doorhanger_login_no_username): This string is used in the save-login doorhanger
@@ -545,6 +548,7 @@
 <!ENTITY page_removed "ਸਫ਼ਾ ਹਟਾਇਆ">
 
 <!ENTITY bookmark_edit_title "ਬੁੱਕਮਾਰਕ ਨੂੰ ਸੋਧੋ">
+<!ENTITY bookmark_edit_folder_title "ਫੋਲਡਰ ਸੋਧੋ">
 <!ENTITY bookmark_edit_name "ਨਾਂ">
 <!ENTITY bookmark_edit_location "ਟਿਕਾਣਾ">
 <!ENTITY bookmark_edit_keyword "ਸ਼ਬਦ">
@@ -587,7 +591,7 @@
 <!ENTITY home_synced_devices_number "&formatD; ਡਿਵਾਈਸ">
 <!-- Localization note (home_synced_devices_one_device): This is the singular version of home_synced_devices_number, referring to the number of devices a user has synced. -->
 <!ENTITY home_synced_devices_one "1 ਡਿਵਾਈਸ">
-<!ENTITY home_history_back_to2 "ਪੂੇ ਅਤੀਤ ਤੇ ਜਾਓ">
+<!ENTITY home_history_back_to2 "ਪੂਰੇ ਅਤੀਤ ਤੇ ਜਾਓ">
 <!ENTITY home_clear_history_button "ਬਰਾਊਜ਼ਿੰਗ ਦੇ ਅਤੀਤ ਨੂੰ ਸਾਫ਼ ਕਰੋ">
 <!ENTITY home_clear_history_confirm "ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਬਰਾਊਜ਼ ਕਰਨ ਦੇ ਅਤੀਤ ਨੂੰ ਸਾਫ਼ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?">
 <!ENTITY home_bookmarks_empty "ਤੁਹਾਡੇ ਸੰਭਾਲੇ ਬੁੱਕਮਾਰਕਾਂ ਨੂੰ ਇੱਥੇ ਦਿਖਾਇਆ ਜਾਵੇਗਾ।">
@@ -621,6 +625,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "ਚੁਣੇ ਡਿਵਾਈਸਾਂ ਨੂੰ ਨਾ-ਲੁਕਾਓ">
+
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+<!ENTITY home_pinned_site "ਪਿੰਨ ਕੀਤੀ ਸਾਈਟ">
+<!ENTITY home_unpinned_site "ਨਾ-ਪਿੰਨ ਕੀਤੀ ਸਾਈਟ">
 
 <!ENTITY remote_tabs_panel_moved_title "ਮੇਰੀਆਂ ਟੈਬਾਂ ਕਿੱਥੇ ਗਈਆਂ?">
 <!ENTITY remote_tabs_panel_moved_desc "ਅਸੀਂ ਹੋਰ ਡਿਵਾਈਸਾਂ ਤੋਂ ਤੁਹਾਡੀਆਂ ਟੈਬਾਂ ਨੂੰ ਤੁਹਾਡੇ ਮੁੱਖ ਸਫ਼ੇ ਉੱਤੇ ਪੈਨਲ ਵਿੱਚ ਭੇਜ ਦਿੱਤੀਆਂ ਹਨ ਤਾਂ ਕਿ ਤੁਹਾਡੇ ਵਲੋਂ ਨਵੀਂ ਟੈਬ ਖੋਲ੍ਹਣ ਉੱਤੇ ਤੁਹਾਡੇ ਕੋਲ ਸੌਖੀ ਤਰ੍ਹਾਂ ਮੌਜੂਦ ਰਹਿਣ।">
@@ -827,8 +836,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_message "ਰੀਡਰ ਝਲਕ ਆਈਤਮਾਂ ਨੂੰ ਆਫ਼ਲਾਈਨ ਪੜ੍ਹਨ ਵਾਸਤੇ ਬੁੱਕਮਾਰਕ ਕਰੋ।">
 <!ENTITY helper_triple_readerview_open_button "ਬੁੱਕਮਾਰਕ ਵਿੱਚ ਜੋੜੋ">
 
-<!ENTITY activity_stream_topsites "Top Sites">
-<!ENTITY activity_stream_highlights "Highlights">
+<!ENTITY activity_stream_topsites "ਚੋਟੀ ਦੀਆਂ ਸਟਾਈਆਂ">
+<!ENTITY activity_stream_highlights "ਸੁਰਖੀਆਂ">
 
 <!-- LOCALIZATION NOTE (activity_stream_highlight_label_bookmarked): This label is shown in the Activity
 Stream list for highlights sourced from th user's bookmarks. -->

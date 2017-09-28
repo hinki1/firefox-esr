@@ -102,7 +102,7 @@
 <!ENTITY history_older_section3 "Níos sine ná 6 mhí">
 
 <!ENTITY search "Cuardaigh">
-<!ENTITY reload "Athluchtaigh">
+<!ENTITY reload "Athlódáil">
 <!ENTITY forward "Ar Aghaidh">
 <!ENTITY menu "Roghchlár">
 <!ENTITY back "Siar">
@@ -294,6 +294,9 @@
 <!ENTITY custom_tabs_menu_footer "Á chumhachtú ag &brandShortName;">
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "Cóipeáladh an URL">
+
+<!ENTITY pref_pwa "Aipeanna Gréasáin Forásacha">
+<!ENTITY pref_pwa_summary "Ceadaigh aipeanna Gréasáin ar an scáileán baile">
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "Sruth Gníomhaíochta">
@@ -358,10 +361,6 @@
 <!ENTITY pref_clear_on_exit_title3 "Glan ag am scortha">
 <!ENTITY pref_clear_on_exit_summary2 "Bánófar &brandShortName; do chuid sonraí pearsanta nuair a roghnóidh tú \u0022Scoir\u0022 ón bpríomhroghchlár">
 <!ENTITY pref_clear_on_exit_dialog_title "Roghnaigh na sonraí le glanadh">
-<!ENTITY pref_plugins "Forlíontáin">
-<!ENTITY pref_plugins_enabled "Cumasaithe">
-<!ENTITY pref_plugins_tap_to_play2 "Brúigh agus spraoi">
-<!ENTITY pref_plugins_disabled "Díchumasaithe">
 <!ENTITY pref_restore_tabs "Athchóirigh cluaisíní">
 <!ENTITY pref_restore_always "Athchóirigh i gcónaí">
 <!ENTITY pref_restore_quit "Ná hathchóirigh tar éis scor ó &brandShortName;">
@@ -398,7 +397,7 @@
 <!ENTITY pref_private_data_cache "Taisce">
 <!ENTITY pref_private_data_offlineApps "Sonraí suíomhanna as líne">
 <!ENTITY pref_private_data_siteSettings2 "Socruithe an tsuímh">
-<!ENTITY pref_private_data_downloadFiles2 "Íosluchtuithe">
+<!ENTITY pref_private_data_downloadFiles2 "Íoslódálacha">
 <!ENTITY pref_private_data_syncedTabs "Cluaisíní sioncronaithe">
 
 <!ENTITY pref_default_browser "Déan brabhsálaí réamhshocraithe de">
@@ -460,7 +459,7 @@
 
 <!ENTITY addons "Breiseáin">
 <!ENTITY logins "Focail Fhaire">
-<!ENTITY downloads "Íosluchtuithe">
+<!ENTITY downloads "Íoslódálacha">
 <!ENTITY char_encoding "Ionchódú Carachtar">
 
 <!ENTITY share "Roinn">
@@ -509,8 +508,8 @@
 <!ENTITY contextmenu_subscribe "Liostáil leis an Leathanach">
 <!ENTITY contextmenu_site_settings "Cuir Socruithe an tSuímh in Eagar">
 <!ENTITY contextmenu_top_sites_edit "Eagar">
-<!ENTITY contextmenu_top_sites_pin "Feistigh an suíomh seo">
-<!ENTITY contextmenu_top_sites_unpin "Dífheistigh an suíomh seo">
+<!ENTITY contextmenu_top_sites_pin "Pionnáil an suíomh seo">
+<!ENTITY contextmenu_top_sites_unpin "Díphionnáil an suíomh seo">
 <!ENTITY contextmenu_add_search_engine "Cuir Inneall Cuardaigh Leis">
 <!-- Localization note (doorhanger_login_no_username): This string is used in the save-login doorhanger
      where normally a username would be displayed. In this case, no username was found, and this placeholder
@@ -545,6 +544,7 @@
 <!ENTITY page_removed "Leathanach bainte">
 
 <!ENTITY bookmark_edit_title "Cuir Leabharmharc in Eagar">
+<!ENTITY bookmark_edit_folder_title "Cuir an Fillteán in eagar">
 <!ENTITY bookmark_edit_name "Ainm">
 <!ENTITY bookmark_edit_location "Suíomh">
 <!ENTITY bookmark_edit_keyword "Lorgfhocal">
@@ -621,6 +621,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Dífholaigh na gléasanna roghnaithe">
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+
+<!ENTITY home_pinned_site "Suíomh pionnáilte">
+<!ENTITY home_unpinned_site "Suíomh díphionnáilte">
 
 <!ENTITY remote_tabs_panel_moved_title "Cá bhfuil mo chuid cluaisíní?">
 <!ENTITY remote_tabs_panel_moved_desc "Bhogamar na cluaisíní ó do ghléasanna eile go painéal nua ar do leathanach baile ar féidir teacht air go héasca nuair a osclóidh tú cluaisín nua.">
@@ -695,11 +700,11 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- Updater notifications --> 
 
 <!ENTITY updater_start_title2 "Nuashonrú ar fáil: &brandShortName;">
-<!ENTITY updater_start_select2 "Tapáil chun íosluchtú">
+<!ENTITY updater_start_select2 "Tapáil chun íoslódáil">
 
-<!ENTITY updater_downloading_title2 "&brandShortName; á íosluchtú">
-<!ENTITY updater_downloading_title_failed2 "Theip ar íosluchtú">
-<!ENTITY updater_downloading_select2 "Tapáil chun an nuashonrú a chur i bhfeidhm tar éis íosluchtaithe">
+<!ENTITY updater_downloading_title2 "&brandShortName; á íoslódáil">
+<!ENTITY updater_downloading_title_failed2 "Theip ar íoslódáil">
+<!ENTITY updater_downloading_select2 "Tapáil chun an nuashonrú a chur i bhfeidhm tar éis duit é a íoslódáil">
 <!ENTITY updater_downloading_retry2 "Tapáil chun iarracht eile a dhéanamh">
 
 <!ENTITY updater_apply_title3 "Nuashonrú íoslódáilte: &brandShortName;">
@@ -708,7 +713,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      if the app requires a runtime permission to download updates. Currently, the updater only sees
      remotely advertised updates in the Nightly and Aurora channels. -->
 
-<!ENTITY updater_permission_text "Le comhaid agus nuashonruithe a íosluchtú, tabhair cead rochtana ar an stóras do &brandShortName;">
+<!ENTITY updater_permission_text "Le comhaid agus nuashonruithe a íoslódáil, tabhair cead rochtana ar an stóras do &brandShortName;.">
 <!-- LOCALIZATION NOTE (updater_permission_allow): This action is shown in a snackbar along with updater_permission_text. -->
 <!ENTITY updater_permission_allow "Ceadaigh">
 <!-- Guest mode -->    
@@ -804,7 +809,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      the Android version of this device. the formatS1 is replaced by the CPU ABI (e.g., ARMv7); the formatS2 is
      replaced by the Android OS version (e.g., 14)-->
 
-<!ENTITY unsupported_sdk_version "Ár leithscéal! Ní fheidhmíonn an leagan seo de &brandShortName; ar an ngléas seo (&formatS1;, &formatS2;). Ní mór duit an leagan ceart a íosluchtú.">
+<!ENTITY unsupported_sdk_version "Ár leithscéal! Ní fheidhmíonn an leagan seo de &brandShortName; ar an ngléas seo (&formatS1;, &formatS2;). Ní mór duit an leagan ceart a íoslódáil.">
 
 <!ENTITY eol_notification_title2 "Ní nuashonróidh &brandShortName; a thuilleadh">
 <!ENTITY eol_notification_summary "Tapáil anseo chun tuilleadh eolais a fháil">

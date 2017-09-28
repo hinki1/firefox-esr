@@ -28,7 +28,7 @@
 <!ENTITY projectMenu_manageComponents_accesskey "G">
 <!ENTITY projectMenu_refreshTabs_label "Atualizar separadores">
 
-<!ENTITY runtimeMenu_label "Ambiente de execução">
+<!ENTITY runtimeMenu_label "Runtime">
 <!ENTITY runtimeMenu_accesskey "n">
 <!ENTITY runtimeMenu_disconnect_label "Desligar">
 <!ENTITY runtimeMenu_disconnect_accesskey "D">
@@ -90,7 +90,6 @@
 <!ENTITY details_location "Localização">
 <!ENTITY details_manifestURL "ID da aplicação">
 <!ENTITY details_removeProject_button "Remover projeto">
-<!ENTITY details_showPrepackageLog_button "Mostrar registo pré-pacote">
 <!-- New App -->
 
 <!ENTITY newAppWindowTitle "Nova aplicação">

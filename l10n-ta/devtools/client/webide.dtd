@@ -35,7 +35,7 @@
 <!ENTITY runtimeMenu_takeScreenshot_label "திரைப்பிடிப்பு">
 <!ENTITY runtimeMenu_takeScreenshot_accesskey "S">
 <!ENTITY runtimeMenu_showDetails_label "இயக்க நேரம் தகவல்">
-
+<!ENTITY runtimeMenu_showDetails_accesskey "E">
 <!ENTITY runtimeMenu_showMonitor_label "கண்காணிப்பு">
 <!ENTITY runtimeMenu_showMonitor_accesskey "M">
 <!ENTITY runtimeMenu_showDevicePrefs_label "சாதன முன்னுரிமைகள்">
@@ -90,7 +90,6 @@
 <!ENTITY details_location "இடம்">
 <!ENTITY details_manifestURL "செயலி அடையாளம்">
 <!ENTITY details_removeProject_button "செயற்திட்டத்தை நீக்கு">
-
 <!-- New App -->
 
 <!ENTITY newAppWindowTitle "புதிய செயலி">
@@ -105,7 +104,7 @@
 <!-- Addons -->
 
 <!ENTITY addons_title "கூடுதல் கூறுகள்">
-<!ENTITY addons_aboutaddons "கூடுதல் இணைப்புகள் மேலாளரை திற">
+<!ENTITY addons_aboutaddons "துணை நிரல் மேலாளரை திற">
 <!-- Prefs -->
 
 <!ENTITY prefs_title "முன்னுரிமைகள்">

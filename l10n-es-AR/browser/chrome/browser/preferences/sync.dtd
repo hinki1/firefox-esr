@@ -6,7 +6,7 @@
 
 <!ENTITY engine.bookmarks.label     "Marcadores">
 <!ENTITY engine.bookmarks.accesskey "M">
-<!ENTITY engine.tabs.label2         "Abrir pestañas">
+<!ENTITY engine.tabs.label2         "Pestañas abiertas">
 <!ENTITY engine.tabs.accesskey      "t">
 <!ENTITY engine.history.label       "Historial">
 <!ENTITY engine.history.accesskey   "r">
@@ -16,11 +16,15 @@
 <!ENTITY engine.prefs.accesskey     "s">
 <!ENTITY engine.addons.label        "Complementos">
 <!ENTITY engine.addons.accesskey    "o">
+<!ENTITY engine.addresses.label     "Direcciones">
+<!ENTITY engine.addresses.accesskey "e">
+<!ENTITY engine.creditcards.label   "Tarjetas de crédito">
+<!ENTITY engine.creditcards.accesskey "C">
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Nombre de dispositivo">
 <!ENTITY changeSyncDeviceName2.label "Cambie el nombre del dispositivo …">
-<!ENTITY changeSyncDeviceName2.accesskey "h">
+<!ENTITY changeSyncDeviceName2.accesskey "d">
 <!ENTITY cancelChangeSyncDeviceName.label "Cancelar">
 <!ENTITY cancelChangeSyncDeviceName.accesskey "n">
 <!ENTITY saveChangeSyncDeviceName.label "Guardar">
@@ -52,7 +56,7 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "Cambiar imagen de perfil">
 <!ENTITY verifiedManage.label        "Administrar cuenta">
 <!ENTITY verifiedManage.accesskey    "u">
-<!ENTITY disconnect3.label           "Desconecte...">
+<!ENTITY disconnect3.label           "Desconectar…">
 <!ENTITY disconnect3.accesskey       "D">
 <!ENTITY verify.label                "Verificar correo">
 <!ENTITY verify.accesskey            "V">

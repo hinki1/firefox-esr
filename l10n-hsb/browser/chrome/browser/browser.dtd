@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Mobilne zapołožki">
 <!ENTITY viewBookmarksSidebar2.label        "Lajstu zapołožkow pokazać">
 <!ENTITY viewBookmarksToolbar.label         "Lajstu zapołožkow pokazać">
+<!ENTITY searchBookmarks.label              "Zapołožki pytać">
 
 <!ENTITY containersMenu.label "Kontejnery">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
@@ -331,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "B">
 <!ENTITY viewCustomizeToolbar.label       "Přiměrić…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "m">
+<!ENTITY overflowCustomizeToolbar.label       "Symbolowu lajstu přiměrić…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "S">
 
 <!ENTITY historyMenu.label "Historija">
 <!ENTITY historyMenu.accesskey "s">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Aktualnu historiju wuprózdnić…">
 <!ENTITY appMenuHistory.restoreSession.label "Předchadne posedźenje wobnowić">
 <!ENTITY appMenuHistory.viewSidebar.label "Bóčnicu historije pokazać">
+<!ENTITY appMenuHistory.recentHistory.label "Najnowša historija">
 <!ENTITY appMenuHelp.label "Pomoc">
 <!ENTITY appMenuHelp.tooltip "Meni Pomoc wočinić">
 
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY contentSearchInput.label     "Pytanske naprašowanje">
 <!ENTITY contentSearchSubmit.tooltip  "Pytanje startować">
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+
+<!ENTITY searchInput.placeholder      "Pytać">
+<!ENTITY searchIcon.tooltip           "Pytać">
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
@@ -618,7 +627,7 @@ items are mutually exclusive. -->
 <!ENTITY mediaPlaybackRate2.accesskey "h">
 <!ENTITY mediaPlaybackRate050x2.label "Pomału (0.5×)">
 <!ENTITY mediaPlaybackRate050x2.accesskey "P">
-<!ENTITY mediaPlaybackRate100x2.label "Normalna">
+<!ENTITY mediaPlaybackRate100x2.label "Normalny">
 <!ENTITY mediaPlaybackRate100x2.accesskey "N">
 <!ENTITY mediaPlaybackRate125x2.label "Spěšna (1.25×)">
 <!ENTITY mediaPlaybackRate125x2.accesskey "S">
@@ -850,6 +859,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "R">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Dalše drasty wobstarać">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "D">
+<!ENTITY customizeMode.emptyOverflowList.description "Přesuńće zapiski sem, zo byšće je w dosahu, ale zwonka wašeje symboloweje lajsty dźeržał…">
+<!ENTITY customizeMode.uidensity "Hustosć">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Normalny">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Normalny">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "N">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Kompaktny">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Kompaktny">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "K">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Dótknjenje">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Dótknjenje">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "D">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Dótknjenje za tabletowy modus wužiwać">
 
 <!ENTITY getUserMedia.selectCamera.label "Kamera, kotraž ma so hromadźe wužiwać:">
 <!ENTITY getUserMedia.selectCamera.accesskey "K">
@@ -959,8 +989,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2 "Startujće znowa, zo byšće &brandShorterName; aktualizował">
 
 <!ENTITY pageActionButton.tooltip "Akcije strony">
+<!ENTITY pageAction.addToUrlbar.label "Adresowemu polu přidać">
+<!ENTITY pageAction.removeFromUrlbar.label "Z adresoweho pola wotstronić">
 
-<!ENTITY sendToDevice.label "Na grat pósłać…">
-<!ENTITY sendToDevice.viewTitle "Na grat pósłać">
-<!ENTITY sendToDevice.fxaRequired.label "Trěbny">
-<!ENTITY sendToDevice.noDevices.label "Žane graty k dispoziciji">
+<!ENTITY sendToDevice.label2 "Na grat pósłać">
+<!ENTITY sendToDevice.syncNotReady.label "Graty so synchronizuja…">

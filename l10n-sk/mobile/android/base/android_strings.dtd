@@ -170,7 +170,7 @@
 <!-- Localization note (overlay_no_synced_devices) : Used when the menu option
      to send a tab to a synced device is pressed and no other synced devices
      are found. -->
-<!ENTITY overlay_no_synced_devices "Nebolo nájdené žiadne zariadenie pripojené k účtu Firefox Account">
+<!ENTITY overlay_no_synced_devices "Nebolo nájdené žiadne zariadenie pripojené k účtu Firefox">
 
 <!ENTITY pref_category_search3 "Vyhľadávanie">
 <!ENTITY pref_category_search_summary2 "Pridať, nastaviť predvolené, zobrazovať návrhy">
@@ -295,6 +295,9 @@
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "Adresa bola skopírovaná">
 
+<!ENTITY pref_pwa "Progresívne webové aplikácie">
+<!ENTITY pref_pwa_summary "Umožňuje webovým aplikáciám, aby boli pridané na domovskú obrazovku">
+
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Activity Stream">
 <!ENTITY pref_activity_stream_summary "Bohatý vizuálny výpis z histórie a upravená domovská stránka robia vyhľadávanie v prehliadači &brandShortName; príťažlivejšie než kedykoľvek predtým.">
@@ -329,7 +332,7 @@
 
 <!-- Localization note (tab_queue_notification_settings): This notification text is shown if a tab
      has been queued but we are missing the system permission to show an overlay. -->
-<!ENTITY tab_queue_notification_settings "Ak chcete \u0022otvoriť viacero odkazov naraz\u0022, povoľte pre &brandShortName; oprávnenie \&apos;Vykresľovať nad ostatné aplikácie\&apos;">
+<!ENTITY tab_queue_notification_settings "Ak chcete \&quot;otvoriť viacero odkazov naraz\&quot;, povoľte pre &brandShortName; oprávnenie \&apos;Vykresľovať nad ostatné aplikácie\&apos;">
 
 <!ENTITY content_notification_summary "&brandShortName;">
 <!-- Localization note (content_notification_title_plural): &formatD; will be replaced with the number of websites that
@@ -356,12 +359,8 @@
      The action is shown below a header saying "Clear private data"; See pref_clear_private_data -->
 <!ENTITY pref_clear_private_data_now_tablet "Vymazať teraz">
 <!ENTITY pref_clear_on_exit_title3 "Vymazať súkromné údaje pri ukončení">
-<!ENTITY pref_clear_on_exit_summary2 "&brandShortName; bude automaticky vymazávať vaše údaje zakaždým, keď v hlavnej ponuke zvolíte položku \u0022Ukončiť\u0022">
+<!ENTITY pref_clear_on_exit_summary2 "&brandShortName; bude automaticky vymazávať vaše údaje zakaždým, keď v hlavnej ponuke zvolíte položku \&quot;Ukončiť\&quot;">
 <!ENTITY pref_clear_on_exit_dialog_title "Zvoľte údaje, ktoré chcete vymazať">
-<!ENTITY pref_plugins "Zásuvné moduly">
-<!ENTITY pref_plugins_enabled "Povolené">
-<!ENTITY pref_plugins_tap_to_play2 "Ťuknutím prehrať">
-<!ENTITY pref_plugins_disabled "Zakázané">
 <!ENTITY pref_restore_tabs "Obnoviť karty">
 <!ENTITY pref_restore_always "Vždy obnoviť karty">
 <!ENTITY pref_restore_quit "Neobnovovať po ukončení prehliadača &brandShortName;">
@@ -545,6 +544,7 @@
 <!ENTITY page_removed "Stránka odstránená">
 
 <!ENTITY bookmark_edit_title "Úprava záložky">
+<!ENTITY bookmark_edit_folder_title "Upraviť priečinok">
 <!ENTITY bookmark_edit_name "Názov">
 <!ENTITY bookmark_edit_location "Umiestnenie">
 <!ENTITY bookmark_edit_keyword "Kľúčové slovo">
@@ -621,6 +621,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Odkryť zvolené zariadenia">
+
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+<!ENTITY home_pinned_site "Pripnutá stránka">
+<!ENTITY home_unpinned_site "Odopnutá stránka">
 
 <!ENTITY remote_tabs_panel_moved_title "Kam zmizli moje karty?">
 <!ENTITY remote_tabs_panel_moved_desc "Karty z vašich ďalších zariadení sme presunuli do panela na vašej domovskej stránke, ktorá sa zobrazí zakaždým, keď otvoríte novú kartu.">
@@ -842,3 +847,4 @@ is simply hidden from the Activity Stream panel. -->
 
 <!ENTITY activity_stream_welcome_title "Vitajte vo vybraných stránkach">
 <!ENTITY activity_stream_welcome_content1 "&brandShortName; odteraz vytvára výber vecí, ktoré ste na webe objavili. Ľahko sa tak môžete dostať naspäť k zaujímavým článkom, videám, záložkám a iným stránkam.">
+<!ENTITY fullscreen_warning "Bol spustený režim celej obrazovky">

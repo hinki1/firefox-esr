@@ -43,8 +43,8 @@
 <!ENTITY  suggestionSettings.label      "Izmainiet meklētāju iestatījumus…">
 <!ENTITY  suggestionSettings.accesskey  "m">
 
-<!ENTITY  acceptCookies.label           "Pieņemt sīkdatnes no lapām">
-<!ENTITY  acceptCookies.accesskey       "l">
+<!ENTITY  acceptCookies2.label          "Pieņemt sīkdatnes no lapām">
+<!ENTITY  acceptCookies2.accesskey      "A">
 
 <!ENTITY  acceptThirdParty.pre.label      "Pieņemt trešo pušu sīkdatnes:">
 <!ENTITY  acceptThirdParty.pre.accesskey  "t">

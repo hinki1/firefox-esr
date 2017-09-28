@@ -92,7 +92,7 @@ void PREF_InitParseState(PrefParseState *ps, PrefReader reader,
  *
  * @param ps
  *        PrefParseState instance.
- */        
+ */
 void PREF_FinalizeParseState(PrefParseState *ps);
 
 /**

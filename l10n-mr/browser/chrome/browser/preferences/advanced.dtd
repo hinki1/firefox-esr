@@ -1,19 +1,15 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!-- Note: each tab panel must contain unique accesskeys -->
 
-
 <!ENTITY generalTab.label                "सामान्य">
-
-<!ENTITY accessibility.label             "प्रवेश">
 
 <!ENTITY useCursorNavigation.label       "पृष्ठाच्या आत संचार करण्याकरता नेहमी कर्सर कळचा वापर करा">
 <!ENTITY useCursorNavigation.accesskey   "c">
 <!ENTITY searchOnStartTyping.label       "लिहीण्यास सुरूवात केल्यावर मजकुर शोधा">
 <!ENTITY searchOnStartTyping.accesskey   "x">
-<!ENTITY blockAutoReload.label           "संकेतस्थळ पृष्ठ पुन्हनिर्देशीत किंवा पुन्हदाखल करतेवेळी मला सतर्क करा">
-<!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "जेव्हा आवश्यक असेल तेव्हा टच कीबोर्ड दाखवा">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
@@ -28,24 +24,26 @@
 
 <!ENTITY dataChoicesTab.label            "माहिती पर्याय">
 
-<!ENTITY healthReportDesc.label          "ब्राउझर कामगिरी समझण्यास आपली मदत करतो व ब्राउझरची प्रकृती &vendorShortName; सह शेअर करतो">
-<!ENTITY enableHealthReport.label        "&brandShortName; Health Report सुरू करा">
-<!ENTITY enableHealthReport.accesskey    "R">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "माहिती अहवाल देणे या बांधणी संरचनेमध्ये निष्क्रिय केलेले आहे">
+
+<!ENTITY enableHealthReport1.label       "Mozilla ला आपोआप तांत्रिक आणि परस्परसंवादाबद्दल माहिती पाठवण्याची &brandShortName; ला परवानगी द्या.">
+<!ENTITY enableHealthReport1.accesskey   "r">
 <!ENTITY healthReportLearnMore.label     "आणखी जाणा">
 
-<!ENTITY telemetryDesc.label             "ब्राउझरची कामगिरी, वापर, हार्डवेअर व पसंतीकरण माहिती &vendorShortName;सह शेअर करतो व &brandShortName;ला उत्तम बनवतो">
-<!ENTITY enableTelemetryData.label       "अधीक डाटा शेअर करा (म्हणजेच Telemetry)">
-<!ENTITY enableTelemetryData.accesskey   "T">
-<!ENTITY telemetryLearnMore.label        "आणखी जाणा">
+<!ENTITY dataCollection.label            "&brandShortName; माहिती संग्रह आणि वापर">
+<!ENTITY dataCollectionDesc.label        "आम्ही आपल्याला पर्याय उपलब्ध करण्यासाठी प्रयत्न करतो आणि सर्वांसाठी &brandShortName; उपलब्ध होण्यासाठी आणि सुधारण्यासाठी गरजेपुरतेच गोळा करतो. वैयक्तिक माहिती घेण्याआधी आम्ही नेहमी परवानगी विचारतो.">
+<!ENTITY dataCollectionPrivacyNotice.label    "गोपनीयता सूचना">
 
-<!ENTITY crashReporterDesc2.label         "क्रॅश अहवाल &vendorShortName; ला आपल्या अडचणी सोडविण्यासाठी आणि ब्राउझर अधिक स्थिर व सुरक्षित ठेवण्यासाठी मदत करतो">
-<!ENTITY alwaysSubmitCrashReports.label   "&brandShortName; ला आपल्या वतीने अनुशेषित क्रॅश अहवाल पाठविण्याची परवानगी द्या">
-<!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "आणखी जाणा">
+<!ENTITY alwaysSubmitCrashReports1.label  "Mozilla ला क्रॅश रिपोर्ट्स पाठवण्याची परवानगी &brandShortName; ला द्या">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "c">
+<!ENTITY crashReporterLearnMore.label    "आणखी जाणा">
 
 <!ENTITY networkTab.label                "नेटवर्क">
 
-<!ENTITY connection.label                "जोडणी">
+<!ENTITY networkProxy.label              "नेटवर्क प्रॉक्सी">
 
 <!ENTITY connectionDesc.label            "&brandShortName; ची इंटरनेटशी जुळणीकरता संरचना करा">
 <!ENTITY connectionSettings.label        "सेटिंग्ज…">
@@ -54,21 +52,21 @@
 <!ENTITY httpCache.label                 "कॅश्ड् वेब कंटेंट">
 
 <!ENTITY offlineStorage2.label           "ऑफलाइन वेब कंटेंट व वापरकर्ता डाटा">
-<!--  Site Data section manages sites using Storage API and is under Network -->
 
+<!--  Site Data section manages sites using Storage API and is under Network -->
 <!ENTITY siteData.label                  "साइटची माहिती">
 <!ENTITY clearSiteData.label             "सर्व माहिती पुसून टाका">
 <!ENTITY clearSiteData.accesskey         "l">
 <!ENTITY siteDataSettings.label          "सेटिंग्स…">
 <!ENTITY siteDataSettings.accesskey      "i">
 <!ENTITY siteDataLearnMoreLink.label     "आणखी जाणा">
+
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
 
   &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
 -->
-
 <!ENTITY limitCacheSizeBefore.label      "कॅशेला असे मर्यादित करा">
 <!ENTITY limitCacheSizeBefore.accesskey  "L">
 <!ENTITY limitCacheSizeAfter.label       "MB मध्ये जागा">
@@ -80,11 +78,11 @@
 <!ENTITY overrideSmartCacheSize.accesskey "O">
 
 <!ENTITY updateTab.label                 "सुधारित आवृत्ती">
+
 <!-- LOCALIZATION NOTE (updateApplication.label):
   Strings from aboutDialog.dtd are displayed in this section of the preferences.
   Please check for possible accesskey conflicts.
 -->
-
 <!ENTITY updateApplication.label         "&brandShortName; सुधारणा">
 <!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
 # is followed by a version number, keep the trailing space or replace it with a
@@ -92,11 +90,13 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+<!ENTITY updateApplicationDescription.label
+                                         "सर्वोत्तम कामगिरी, स्थिरता आणि सुरक्षिततेसाठी &brandShortName; अद्ययावत ठेवा.">
 <!ENTITY updateApplication.version.pre   "आवृत्ती">
 <!ENTITY updateApplication.version.post  "‌">
 <!ENTITY updateApplication.description   "&brandShortName; ला परवानगी द्या">
-<!ENTITY updateAuto2.label               "स्वयंरित्या सुधारणा इंस्टॉल करा (सुधारित सुरक्षेसाठी शिफारसीय)">
-<!ENTITY updateAuto2.accesskey           "A">
+<!ENTITY updateAuto3.label               "स्वयं अद्ययावत करा (शिफारस)">
+<!ENTITY updateAuto3.accesskey           "A">
 <!ENTITY updateCheckChoose2.label        "सुधारणांकरिता तपासणी करा, परंतु प्रतिष्ठापन करायचे की नाही ते मला ठरवू द्या">
 <!ENTITY updateCheckChoose2.accesskey    "C">
 <!ENTITY updateManual2.label             "सुधारणांकरिता कधीच तपासणी करू नका (शिफारसीय नाही)">
@@ -110,8 +110,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "शोध इंजिन आपोआप अद्ययावत करा">
 <!ENTITY enableSearchUpdate2.accesskey   "e">
-
-<!ENTITY reports.label                   "अहवाल">
 
 <!ENTITY offlineStorageNotify.label               "ऑफलाइन वापरासाठी माहिती केंव्हा साठवली जाते, ते कळवा">
 <!ENTITY offlineStorageNotify.accesskey           "T">
@@ -132,20 +130,27 @@
 <!ENTITY selectCerts.ask.accesskey       "A">
 <!ENTITY enableOCSP.label                "क्वेरी OCSP रेसपाँडर सध्याच्या प्रमाणपत्रांची वैधताची खात्री करते">
 <!ENTITY enableOCSP.accesskey            "Q">
-<!ENTITY viewCerts.label                 "प्रमाणपत्रे पहा">
-<!ENTITY viewCerts.accesskey             "C">
-<!ENTITY viewSecurityDevices.label       "सुरक्षा साधने">
-<!ENTITY viewSecurityDevices.accesskey   "D">
+<!ENTITY viewCerts2.label                "प्रमाणपत्र पहा…">
+<!ENTITY viewCerts2.accesskey            "C">
+<!ENTITY viewSecurityDevices2.label      "सुरक्षा साधने…">
+<!ENTITY viewSecurityDevices2.accesskey  "D">
 
 <!ENTITY performance.label               "कार्यक्षमता">
-<!ENTITY useRecommendedPerformanceSettings2.label "शिफारस केलेले कार्यक्षमता सेटिंग वापरा">
-<!ENTITY useRecommendedPerformanceSettings2.description "हे सेटिंग आपल्या संगणकाच्या हार्डवेअर आणि ऑपरेटिंग प्रणाली साठी अनुरूप होतील अशा प्रकारे बनवले आहेत.">
-<!ENTITY useRecommendedPerformanceSettings2.accesskey "U">
-<!ENTITY performanceSettingsLearnMore.label "आणखी जाणा">
+<!ENTITY useRecommendedPerformanceSettings2.label
+                                         "शिफारस केलेले कार्यक्षमता सेटिंग वापरा">
+<!ENTITY useRecommendedPerformanceSettings2.description
+                                         "हे सेटिंग आपल्या संगणकाच्या हार्डवेअर आणि ऑपरेटिंग प्रणाली साठी अनुरूप होतील अशा प्रकारे बनवले आहेत.">
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "U">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "आणखी जाणा">
 <!ENTITY limitContentProcessOption.label "मजकूर प्रक्रिया मर्यादा">
-<!ENTITY limitContentProcessOption.description "अनेक टॅब वापरल्यास, अतिरिक्त मजकूर प्रक्रिया कार्यक्षमता वाढवू  शकतात, पण त्या अधिक मेमरी देखील वापरातील.">
+<!ENTITY limitContentProcessOption.description
+                                         "अनेक टॅब वापरल्यास, अतिरिक्त मजकूर प्रक्रिया कार्यक्षमता वाढवू  शकतात, पण त्या अधिक मेमरी देखील वापरातील.">
 <!ENTITY limitContentProcessOption.accesskey   "l">
-<!ENTITY limitContentProcessOption.disabledDescription "मजकूर प्रक्रियांची गणना बदलणे फक्त मल्टिप्रोसेस &brandShortName; सोबत शक्य आहे.">
-<!ENTITY limitContentProcessOption.disabledDescriptionLink "मल्टिप्रोसेस कार्यान्वित आहेत की नाही कसे तपासायचे ते जाणा">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "मजकूर प्रक्रियांची गणना बदलणे फक्त मल्टिप्रोसेस &brandShortName; सोबत शक्य आहे.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "मल्टिप्रोसेस कार्यान्वित आहेत की नाही कसे तपासायचे ते जाणा">
 <!ENTITY allowHWAccel.label              "उपलब्ध असल्यावर हार्डवेअर ॲक्सिलरेशनचा वापर करा">
 <!ENTITY allowHWAccel.accesskey          "r">

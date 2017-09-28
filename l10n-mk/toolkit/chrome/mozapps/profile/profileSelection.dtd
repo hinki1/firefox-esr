@@ -10,7 +10,7 @@
 <!ENTITY            profilename.label      "Име на профилот:">
 
 <!ENTITY            start.label            "Стартувај го &brandShortName;">
-<!ENTITY            exit.label             "Излези">
+<!ENTITY            exit.label             "Излез">
 
 <!ENTITY            availprofiles.label    "Достапни профили">
 

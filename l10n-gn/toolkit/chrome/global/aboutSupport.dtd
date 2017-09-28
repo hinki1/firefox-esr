@@ -66,6 +66,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Windows rembiapoita">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Ñanduti Retepy Rembiapo">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Google ñe'ẽñemi">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Mozilla mba'epytyvõrã rendaite rehegua">
 
@@ -104,6 +106,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Jeikekuaa">
 <!ENTITY aboutSupport.a11yActivated "Myandypyre">
 <!ENTITY aboutSupport.a11yForceDisabled "Jeikekuaa jejoko">
+<!ENTITY aboutSupport.a11yHandlerUsed "Handler ipurupyréva">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Arandukaty peteĩchagua">
 
@@ -114,13 +117,13 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "mba'ekuaarã hi'akýva mbohasa kuatiajokohápe">
 
 <!ENTITY aboutSupport.sandboxTitle "Sandbox">
-
+<!ENTITY aboutSupport.sandboxSyscallLogTitle "Ñehenói apopyvusu guive oike'ỹva">
 <!ENTITY aboutSupport.sandboxSyscallIndex "#">
 <!ENTITY aboutSupport.sandboxSyscallAge "Angete oiko">
 <!ENTITY aboutSupport.sandboxSyscallPID "PID">
 <!ENTITY aboutSupport.sandboxSyscallTID "TID">
-
-
+<!ENTITY aboutSupport.sandboxSyscallProcType "Mba'eapo peteĩchagua">
+<!ENTITY aboutSupport.sandboxSyscallNumber "Ñehenói pumbyrýpe">
 <!ENTITY aboutSupport.sandboxSyscallArgs "Je'ekuaaite">
 
 <!ENTITY aboutSupport.safeModeTitle "Eipuru teko jerovia">
@@ -134,3 +137,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Jehaipy ñemboaje">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Hesegua ojokóva Apopyvusu je'a Ñangarekoha ">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Ñemyatyrõ sapy'agua">
+
+<!ENTITY aboutSupport.mediaTitle "Marandu myasãiha">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Mba'e'oka osẽha">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Mba'e'oka oikeha">
+<!ENTITY aboutSupport.mediaDeviceName "Téra">
+<!ENTITY aboutSupport.mediaDeviceGroup "Aty">
+<!ENTITY aboutSupport.mediaDeviceVendor "Vendaha">
+<!ENTITY aboutSupport.mediaDeviceState "Tekotee">
+<!ENTITY aboutSupport.mediaDevicePreferred "Ojehecharamovéva">
+<!ENTITY aboutSupport.mediaDeviceFormat "Ysaja">
+<!ENTITY aboutSupport.mediaDeviceChannels "Mbohapeha">
+<!ENTITY aboutSupport.mediaDeviceRate "Mba'erepy">
+<!ENTITY aboutSupport.mediaDeviceLatency "Tekoteete">

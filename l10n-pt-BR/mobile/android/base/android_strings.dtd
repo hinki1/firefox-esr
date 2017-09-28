@@ -198,7 +198,7 @@
 <!-- Localization note (pref_category_advanced_summary3): “data saver” in this
      context means consuming less data, e.g. by not loading images, not
      “storing data”. -->
-<!ENTITY pref_category_advanced_summary3 "Restaurar abas, proteção de dados, ferramentas do desenvolvedor">
+<!ENTITY pref_category_advanced_summary3 "Restaurar abas, economia de dados, ferramentas do desenvolvedor">
 <!ENTITY pref_category_notifications "Notificações">
 <!ENTITY pref_category_notifications_summary "Novas funcionalidades, atualizações de sites">
 <!ENTITY pref_content_notifications "Atualizações de sites">
@@ -255,7 +255,7 @@
 <!-- Localization note (pref_category_data_saver): “data saver” in this
      context means consuming less data, e.g. by not loading images, not
      “storing data”. -->
-<!ENTITY pref_category_data_saver "Proteção de dados">
+<!ENTITY pref_category_data_saver "Economia de dados">
 <!ENTITY pref_category_media "Mídia">
 <!ENTITY pref_category_developer_tools "Ferramentas do desenvolvedor">
 
@@ -294,6 +294,9 @@
 <!ENTITY custom_tabs_menu_footer "Desenvolvido por &brandShortName;">
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "URL copiado">
+
+<!ENTITY pref_pwa "Aplicativos Web progressivos">
+<!ENTITY pref_pwa_summary "Permitir que aplicativos web sejam adicionados à tela inicial">
 
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Fluxo de atividade">
@@ -358,10 +361,6 @@
 <!ENTITY pref_clear_on_exit_title3 "Limpar dados ao sair">
 <!ENTITY pref_clear_on_exit_summary2 "&brandShortName; irá limpar automaticamente os seus dados sempre que selecionar \u0022Sair\u0022 no menu principal">
 <!ENTITY pref_clear_on_exit_dialog_title "Selecionar quais dados limpar">
-<!ENTITY pref_plugins "Plugins">
-<!ENTITY pref_plugins_enabled "Habilitado">
-<!ENTITY pref_plugins_tap_to_play2 "Tocar para reproduzir">
-<!ENTITY pref_plugins_disabled "Desabilitado">
 <!ENTITY pref_restore_tabs "Restaurar abas">
 <!ENTITY pref_restore_always "Restaurar sempre">
 <!ENTITY pref_restore_quit "Não restaurar após sair do &brandShortName;">
@@ -545,6 +544,7 @@
 <!ENTITY page_removed "Página removida">
 
 <!ENTITY bookmark_edit_title "Editar favorito">
+<!ENTITY bookmark_edit_folder_title "Editar Pasta">
 <!ENTITY bookmark_edit_name "Nome">
 <!ENTITY bookmark_edit_location "Endereço">
 <!ENTITY bookmark_edit_keyword "Palavra-chave">
@@ -621,6 +621,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Mostrar dispositivos selecionados">
+
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+<!ENTITY home_pinned_site "Site fixo">
+<!ENTITY home_unpinned_site "Site desafixado">
 
 <!ENTITY remote_tabs_panel_moved_title "Onde estão as minhas abas?">
 <!ENTITY remote_tabs_panel_moved_desc "Movemos as suas abas de outros dispositivos para um painel na sua página inicial que pode ser facilmente acessado ​​toda vez que abrir uma nova aba.">

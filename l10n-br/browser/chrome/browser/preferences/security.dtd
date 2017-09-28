@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  security.label                 "Diogelroez">
 
-<!ENTITY  warnOnAddonInstall.label        "Kas keloù din pa glask al lec'hiennoù staliañ askouezhioù">
-<!ENTITY  warnOnAddonInstall.accesskey    "K">
+
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
   https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
@@ -24,10 +22,7 @@
 <!ENTITY  addonExceptions.accesskey     "N">
 
 
-<!ENTITY  formsAndPasswords.label       "Furmskridoù ha gerioù-tremen">
 
-<!ENTITY  rememberLogins1.label          "Derc'hel soñj eus an titouroù kennaskañ evit al lec'hiennoù">
-<!ENTITY  rememberLogins1.accesskey      "D">
 <!ENTITY  passwordExceptions.label      "Nemedennoù…">
 <!ENTITY  passwordExceptions.accesskey  "m">
 

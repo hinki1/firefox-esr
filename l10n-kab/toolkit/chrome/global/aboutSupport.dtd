@@ -66,6 +66,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Isfuyla agetakala">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Ikalan n ugbur web">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Tasarut Google">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Tasarutt n umeẓlu n wadi Mozilla">
 
@@ -104,6 +106,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Tuffart">
 <!ENTITY aboutSupport.a11yActivated "Irmed">
 <!ENTITY aboutSupport.a11yForceDisabled "Sewḥel tuffart">
+<!ENTITY aboutSupport.a11yHandlerUsed "Accessible Handler ittwaseqdec">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Ileqman n temkarḍiyin">
 
@@ -134,3 +137,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Aɣmis n ugemmen">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Timhalin ur nermid ara n uɛessas n uɣelluy">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Tifrat n usellek">
+
+<!ENTITY aboutSupport.mediaTitle "Allalen n teγwalt">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Ibenkan n tuffɣa">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Ibenkan n n unekcum">
+<!ENTITY aboutSupport.mediaDeviceName "Isem">
+<!ENTITY aboutSupport.mediaDeviceGroup "Agraw">
+<!ENTITY aboutSupport.mediaDeviceVendor "Asaǧǧaw">
+<!ENTITY aboutSupport.mediaDeviceState "Addad">
+<!ENTITY aboutSupport.mediaDevicePreferred "imsenyafen">
+<!ENTITY aboutSupport.mediaDeviceFormat "Amasal">
+<!ENTITY aboutSupport.mediaDeviceChannels "Ibuda">
+<!ENTITY aboutSupport.mediaDeviceRate "Afmiḍi">
+<!ENTITY aboutSupport.mediaDeviceLatency "Akud n ugani">

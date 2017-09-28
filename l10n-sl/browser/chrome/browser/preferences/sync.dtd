@@ -16,6 +16,10 @@
 <!ENTITY engine.prefs.accesskey     "N">
 <!ENTITY engine.addons.label        "Dodatke">
 <!ENTITY engine.addons.accesskey    "A">
+<!ENTITY engine.addresses.label     "Naslove">
+<!ENTITY engine.addresses.accesskey "s">
+<!ENTITY engine.creditcards.label   "Kreditne kartice">
+<!ENTITY engine.creditcards.accesskey "K">
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Ime naprave">
@@ -61,7 +65,7 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY signedOut.caption            "Ponesite svoj splet s seboj">
 <!ENTITY signedOut.description        "Sinhronizirajte zaznamke, zgodovino, zavihke, gesla, dodatke in nastavitve vseh vaših naprav.">
-<!ENTITY signedOut.accountBox.title   "Poveži s &syncBrand.fxAccount.label;">
+<!ENTITY signedOut.accountBox.title   "Poveži s &syncBrand.fxAccount.label;om">
 <!ENTITY signedOut.accountBox.create  "Ustvari račun">
 <!ENTITY signedOut.accountBox.create.accesskey  "U">
 <!ENTITY signedOut.accountBox.signin  "Prijava">

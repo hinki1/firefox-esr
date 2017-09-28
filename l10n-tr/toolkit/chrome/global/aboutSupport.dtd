@@ -66,6 +66,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Çok işlemli pencereler">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Web içeriği işlemi">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Google anahtarı">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Mozilla Konum Hizmeti anahtarı">
 
@@ -134,3 +136,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Karar günlüğü">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Çökme koruyucusu tarafından kapatılan özellikler">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Çözümler">
+
+<!ENTITY aboutSupport.mediaTitle "Ortam">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Çıktı cihazları">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Girdi cihazları">
+<!ENTITY aboutSupport.mediaDeviceName "Adı">
+<!ENTITY aboutSupport.mediaDeviceGroup "Grup">
+<!ENTITY aboutSupport.mediaDeviceVendor "Sağlayıcı">
+<!ENTITY aboutSupport.mediaDeviceState "Durumu">
+<!ENTITY aboutSupport.mediaDevicePreferred "Tercih edilen">
+<!ENTITY aboutSupport.mediaDeviceFormat "Biçim">
+<!ENTITY aboutSupport.mediaDeviceChannels "Kanallar">
+<!ENTITY aboutSupport.mediaDeviceRate "Oran">
+<!ENTITY aboutSupport.mediaDeviceLatency "Gecikme">

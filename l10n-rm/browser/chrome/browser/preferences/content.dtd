@@ -2,14 +2,13 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  popups.label                "Fanestras pop-up">
+<!ENTITY  permissions.label           "Autorisaziuns">
 
 <!ENTITY  blockPopups.label           "Bloccar fanestras pop-up">
 <!ENTITY  blockPopups.accesskey       "p">
 
-<!ENTITY  notificationsPolicy.label            "Communicaziuns">
 <!ENTITY  notificationsPolicyLearnMore.label   "Ulteriuras infurmaziuns">
-<!ENTITY  notificationsPolicyDesc3.label       "Tscherna las paginas che ta dastgan trametter communicaziuns">
+<!ENTITY  notificationsPolicyDesc4.label       "Tscherna las paginas che ta dastgan trametter communicaziuns">
 <!ENTITY  notificationsPolicyButton.accesskey  "h">
 <!ENTITY  notificationsPolicyButton.label      "Tscherner…">
 <!ENTITY  notificationsDoNotDisturb.label      "Betg disturbar">
@@ -21,6 +20,10 @@
 
 <!ENTITY  fontsAndColors.label        "Scrittiras &amp; colurs">
 
+<!ENTITY  defaultFont2.label          "Scrittira da standard">
+<!ENTITY  defaultFont2.accesskey      "S">
+<!ENTITY  defaultSize2.label          "Grondezza">
+<!ENTITY  defaultSize2.accesskey      "G">
 
 <!ENTITY  advancedFonts.label         "Extendì…">
 <!ENTITY  advancedFonts.accesskey     "d">
@@ -29,7 +32,7 @@
 <!ENTITY  colors.accesskey            "C">
 
 
-<!ENTITY languages.label              "Linguas">
+<!ENTITY language2.label              "Lingua">
 <!ENTITY chooseLanguage.label         "Tscherna tia lingua preferida per la visualisaziun da websites">
 <!ENTITY chooseButton.label           "Tscherner…">
 <!ENTITY chooseButton.accesskey       "T">
@@ -49,8 +52,8 @@
 <!ENTITY translation.options.attribution.beforeLogo "Translaziuns da">
 <!ENTITY translation.options.attribution.afterLogo "">
 
-<!ENTITY  drmContent.label             "Cuntegn da DRM">
+<!ENTITY  drmContent2.label              "Cuntegn DRM (Digital Rights Management)">
 
-<!ENTITY  playDRMContent.label         "Far ir cuntegn da DRM">
-<!ENTITY  playDRMContent.accesskey     "i">
+<!ENTITY  playDRMContent2.label          "Far ir cuntegn controllà da DRM">
+<!ENTITY  playDRMContent2.accesskey      "F">
 <!ENTITY  playDRMContent.learnMore.label "Ulteriuras infurmaziuns">

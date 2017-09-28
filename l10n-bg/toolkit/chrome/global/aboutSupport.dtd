@@ -66,6 +66,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Многопроцесни прозорци">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Процеси за уеб съдържание">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Google Key">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Mozilla Location Service Key">
 
@@ -104,6 +106,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Достъпност">
 <!ENTITY aboutSupport.a11yActivated "Включено">
 <!ENTITY aboutSupport.a11yForceDisabled "Предотвратяване на достъпност">
+<!ENTITY aboutSupport.a11yHandlerUsed "Използвано устройство за достъпност">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Версии на библиотеки">
 
@@ -134,3 +137,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Журнал на решенията">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Изключени възможности на защитата от сривове">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Заобикаляния">
+
+<!ENTITY aboutSupport.mediaTitle "Медия">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Изходни устройства">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Входни устройства">
+<!ENTITY aboutSupport.mediaDeviceName "Наименование">
+<!ENTITY aboutSupport.mediaDeviceGroup "Група">
+<!ENTITY aboutSupport.mediaDeviceVendor "Производител">
+<!ENTITY aboutSupport.mediaDeviceState "Състояние">
+<!ENTITY aboutSupport.mediaDevicePreferred "Предпочитано">
+<!ENTITY aboutSupport.mediaDeviceFormat "Формат">
+<!ENTITY aboutSupport.mediaDeviceChannels "Канали">
+<!ENTITY aboutSupport.mediaDeviceRate "Честота">
+<!ENTITY aboutSupport.mediaDeviceLatency "Закъснение">

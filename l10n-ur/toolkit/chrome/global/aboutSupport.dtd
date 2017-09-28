@@ -21,9 +21,9 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "ورژن">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.featureName "نام">
-<!ENTITY aboutSupport.featureVersion "ورژن">
-<!ENTITY aboutSupport.featureId "ID">
+
+
+
 
 <!ENTITY aboutSupport.experimentsTitle "تجرباتی فیچر">
 <!ENTITY aboutSupport.experimentName "نام">
@@ -67,6 +67,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 
 
+
 <!ENTITY aboutSupport.appBasicsSafeMode "محفوظ موڈ">
 
 <!ENTITY aboutSupport.showDir.label "ڈائریکٹری کھولیں">
@@ -103,6 +104,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yActivated "عمل میں لائیں">
 <!ENTITY aboutSupport.a11yForceDisabled "رسائی پزیری روکیں">
 
+
 <!ENTITY aboutSupport.libraryVersionsTitle "لائبریری ورژن">
 
 <!ENTITY aboutSupport.installationHistoryTitle "انسٹا لیشن سابقات">
@@ -132,3 +134,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "فیصلہ لاگ">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "حادثے گارڈ معذور خصوصیات">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "متبادل راستے">
+
+
+
+
+
+
+
+
+
+
+
+

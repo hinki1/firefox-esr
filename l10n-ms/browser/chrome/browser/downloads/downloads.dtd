@@ -58,36 +58,36 @@
 <!ENTITY cmd.showMac.accesskey            "F">
 <!ENTITY cmd.retry.label                  "Cuba semula">
 <!ENTITY cmd.goToDownloadPage.label       "Pergi Ke Halaman Muat turun">
-<!ENTITY cmd.goToDownloadPage.accesskey   "G">
+<!ENTITY cmd.goToDownloadPage.accesskey   "P">
 <!ENTITY cmd.copyDownloadLink.label       "Salin Pautan Muat Turun">
-<!ENTITY cmd.copyDownloadLink.accesskey   "L">
-<!ENTITY cmd.removeFromHistory.label      "Alih keluar Daripada Sejarah">
+<!ENTITY cmd.copyDownloadLink.accesskey   "P">
+<!ENTITY cmd.removeFromHistory.label      "Buang Daripada Sejarah">
 <!ENTITY cmd.removeFromHistory.accesskey  "e">
 <!ENTITY cmd.clearList2.label             "Buang Panel Previu">
 <!ENTITY cmd.clearList2.accesskey         "a">
-<!ENTITY cmd.clearDownloads.label         "Padam Muat turun">
-<!ENTITY cmd.clearDownloads.accesskey     "D">
+<!ENTITY cmd.clearDownloads.label         "Buang Muat turun">
+<!ENTITY cmd.clearDownloads.accesskey     "B">
 <!-- LOCALIZATION NOTE (cmd.unblock2.label):
      This command is shown in the context menu when downloads are blocked.
      -->
-<!ENTITY cmd.unblock2.label               "Benarkan Muat turun">
+<!ENTITY cmd.unblock2.label               "Izinkan Muat turun">
 <!ENTITY cmd.unblock2.accesskey           "a">
 <!-- LOCALIZATION NOTE (cmd.removeFile.label):
      This is the tooltip of the action button shown when malware is blocked.
      -->
-<!ENTITY cmd.removeFile.label             "Alih keluar Fail">
+<!ENTITY cmd.removeFile.label             "Buang Fail">
 <!-- LOCALIZATION NOTE (cmd.chooseUnblock.tooltip):
      This is the tooltip of the action button shown when potentially unwanted
      downloads are blocked. This opens a dialog where the user can choose
      whether to unblock or remove the download. Removing is the default option.
      -->
-<!ENTITY cmd.chooseUnblock.label          "Alih keluar Fail atau Izinkan Muat turun">
+<!ENTITY cmd.chooseUnblock.label          "Buang Fail atau Izinkan Muat turun">
 <!-- LOCALIZATION NOTE (cmd.chooseOpen.tooltip):
      This is the tooltip of the action button shown when uncommon downloads are
      blocked.This opens a dialog where the user can choose whether to open the
      file or remove the download. Opening is the default option.
      -->
-<!ENTITY cmd.chooseOpen.label             "Buka atau Alih keluar Fail">
+<!ENTITY cmd.chooseOpen.label             "Buka atau Buang Fail">
 
 <!-- LOCALIZATION NOTE (showMoreInformation.label):
      Displayed when hovering a blocked download, indicates that it's possible to
@@ -134,7 +134,11 @@
 <!ENTITY downloadsHistory.label           "Papar Semua Muat turun">
 <!ENTITY downloadsHistory.accesskey       "S">
 
-<!ENTITY openDownloadsFolder.label       "Buka Folder Muat turun">
+<!-- LOCALIZATION NOTE (openDownloadsFolder.label):
+     This command is not currently available in the user interface, but the
+     string was preserved by bug 1362207 to be used in a future version.
+     -->
+<!ENTITY openDownloadsFolder.label        "Buka Folder Muat turun">
 
 <!ENTITY clearDownloadsButton.label       "Padam Muat turun">
 <!ENTITY clearDownloadsButton.tooltip     "Hapuskan yang telah selesai, batal dan gagalkan muat turun">

@@ -51,8 +51,8 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "л">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Тренутни налог">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "Т">
-<!ENTITY getNextNMsgCmd.label "Добави следећих 500 новинских порука">
-<!ENTITY getNextNMsgCmd.accesskey "х">
+<!ENTITY getNextNMsgCmd2.label "Добави следеће новинске поруке">
+<!ENTITY getNextNMsgCmd2.accesskey "б">
 <!ENTITY sendUnsentCmd.label "Пошаљи непослате поруке">
 <!ENTITY sendUnsentCmd.accesskey "и">
 <!ENTITY subscribeCmd.label "Претплати се…">
@@ -952,3 +952,4 @@
 
 <!-- Mac OS X Dock Icon pop-up menu -->
 <!ENTITY dockOptions.label              "Опције иконица програма…">
+<!ENTITY writeNewMessageDock.label      "Напишите нову поруку">

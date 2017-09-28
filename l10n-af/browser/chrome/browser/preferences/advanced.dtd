@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Algemeen">
 
-<!ENTITY accessibility.label             "Toeganklikheid">
-
 <!ENTITY useCursorNavigation.label       "Gebruik altyd die por-sleutels om binne bladsye te navigeer">
 <!ENTITY useCursorNavigation.accesskey   "p">
 <!ENTITY searchOnStartTyping.label       "Soek vir teks wanneer ek begin tik">
 <!ENTITY searchOnStartTyping.accesskey   "s">
-<!ENTITY blockAutoReload.label           "Waarsku wanneer webwerwe probeer om die bladsy te herlaai of herlei">
-<!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "Wys 'n skermsleutelbord indien nodig">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
@@ -27,25 +23,21 @@
 <!ENTITY checkUserSpelling.accesskey     "t">
 
 <!ENTITY dataChoicesTab.label            "Datakeuses">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
 
-<!ENTITY healthReportDesc.label          "Help om die blaaier se werkverrigting te verstaan en deel data met &vendorShortName; oor die blaaier se gesondheid">
-<!ENTITY enableHealthReport.label        "Aktiveer &brandShortName;-gesondheidsverslag">
-<!ENTITY enableHealthReport.accesskey    "r">
+
 <!ENTITY healthReportLearnMore.label     "Meer inligting">
 
-<!ENTITY telemetryDesc.label             "Deel data oor werkverrigting, gebruik, hardeware en aanpassings van die blaaier met &vendorShortName; om te help om &brandShortName; te verbeter">
-<!ENTITY enableTelemetryData.label       "Deel verdere data (m.a.w. Telemetrie)">
-<!ENTITY enableTelemetryData.accesskey   "T">
-<!ENTITY telemetryLearnMore.label        "Meer inligting">
 
-<!ENTITY crashReporterDesc2.label         "Omvalverslae help &vendorShortName; om probleme op te los en die blaaier meer stabiel en veilig te maak">
-<!ENTITY alwaysSubmitCrashReports.label   "Laat &brandShortName; toe om opgehoopte omvalverslae namens u te stuur">
-<!ENTITY alwaysSubmitCrashReports.accesskey "h">
-<!ENTITY crashReporterLearnMore.label     "Meer inligting">
+
+
+
+<!ENTITY crashReporterLearnMore.label    "Meer inligting">
 
 <!ENTITY networkTab.label                "Netwerk">
 
-<!ENTITY connection.label                "Verbinding">
 
 <!ENTITY connectionDesc.label            "Stel op hoe &brandShortName; aan die internet koppel">
 <!ENTITY connectionSettings.label        "Opstelling…">
@@ -109,7 +101,6 @@
 
 
 
-
 <!ENTITY offlineStorageNotify.label               "Sê wanneer 'n webwerf vra om data vir vanlyn gebruik te stoor">
 <!ENTITY offlineStorageNotify.accesskey           "S">
 <!ENTITY offlineStorageNotifyExceptions.label     "Uitsonderings…">
@@ -129,18 +120,20 @@
 <!ENTITY selectCerts.ask.accesskey       "V">
 <!ENTITY enableOCSP.label                "Bevestig huidige geldigheid van sertifikate deur OCSP-bedieners te vra">
 <!ENTITY enableOCSP.accesskey            "B">
-<!ENTITY viewCerts.label                 "Bekyk sertifikate">
-<!ENTITY viewCerts.accesskey             "s">
-<!ENTITY viewSecurityDevices.label       "Sekuriteitstoestelle">
-<!ENTITY viewSecurityDevices.accesskey   "t">
+
+
+
+
 
 <!ENTITY performance.label               "Werkverrigting">
+<!ENTITY useRecommendedPerformanceSettings2.label "Gebruik aanbevole instellings vir werkverrigting">
 
-
-
+<!ENTITY useRecommendedPerformanceSettings2.accesskey "u">
 <!ENTITY performanceSettingsLearnMore.label "Meer inligting">
 <!ENTITY limitContentProcessOption.label "Perk op inhoudprosesse">
-
+<!ENTITY limitContentProcessOption.description "Meer inhoudprosesse kan werkverrigting verbeter met klomp oortjies, maar sal ook meer geheue gebruik.">
 <!ENTITY limitContentProcessOption.accesskey   "P">
+
+
 <!ENTITY allowHWAccel.label              "Gebruik hardewareversnelling indien beskikbaar">
 <!ENTITY allowHWAccel.accesskey          "r">

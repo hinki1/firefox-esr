@@ -294,6 +294,9 @@
 <!ENTITY custom_tabs_menu_footer "Grym &brandShortName;">
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "URL wedi ei gopïo">
+
+<!ENTITY pref_pwa "Apiau Gwe Blaengar">
+<!ENTITY pref_pwa_summary "Caniatáu i apiau gwe gael eu hychwanegu i\u0027r sgrin cartref">
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "Ffrwd Gweithgaredd">
@@ -358,10 +361,6 @@
 <!ENTITY pref_clear_on_exit_title3 "Clirio data preifat wrth adael">
 <!ENTITY pref_clear_on_exit_summary2 "Bydd &brandShortName; yn clirio eich data yn awtomatig pryd bynnag fyddwch yn dewis \u0022Gadael\u0022 o\u0027r brif ddewislen">
 <!ENTITY pref_clear_on_exit_dialog_title "Dewis pa ddata i\u0027w glirio">
-<!ENTITY pref_plugins "Ategion">
-<!ENTITY pref_plugins_enabled "Galluogwyd">
-<!ENTITY pref_plugins_tap_to_play2 "Cyffwrdd i chwarae">
-<!ENTITY pref_plugins_disabled "Analluogwyd">
 <!ENTITY pref_restore_tabs "Adfer tabiau">
 <!ENTITY pref_restore_always "Adfer bob tro">
 <!ENTITY pref_restore_quit "Peidio eu hadfer ar ôl gadael &brandShortName;">
@@ -545,6 +544,7 @@
 <!ENTITY page_removed "Wedi tynnu\u0027r dudalen">
 
 <!ENTITY bookmark_edit_title "Golygu Nod Tudalen">
+<!ENTITY bookmark_edit_folder_title "Golygu Ffolder">
 <!ENTITY bookmark_edit_name "Enw">
 <!ENTITY bookmark_edit_location "Lleoliad">
 <!ENTITY bookmark_edit_keyword "Allweddair">
@@ -621,6 +621,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Datguddio dyfeisiau penodol">
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+
+<!ENTITY home_pinned_site "Gwefan wedi ei phinio">
+<!ENTITY home_unpinned_site "Gwefan heb ei phinio">
 
 <!ENTITY remote_tabs_panel_moved_title "Lle aeth fy nhabiau?">
 <!ENTITY remote_tabs_panel_moved_desc "Rydym wedi symud eich tabiau o ddyfeisiau eraill i banel ar eich sgrin gartref sy\u0027n hawdd cael ato bob tro fyddwch yn agor tab newydd.">

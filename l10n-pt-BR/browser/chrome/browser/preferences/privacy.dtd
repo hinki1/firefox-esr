@@ -3,8 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  trackingProtectionHeader2.label      "Proteção contra rastreamento">
-<!ENTITY  trackingProtection.description       "Rastreamento é quando empresas coletam informações sobre você para criar um perfil e exibir conteúdo baseado em sua navegação e dados pessoais.">
-<!ENTITY  trackingProtection.radioGroupLabel   "Bloquear empresas de rastreamento conhecidas de exibir conteúdo">
+<!ENTITY  trackingProtection2.description      "O rastreamento é a coleta de seus dados de navegação em vários sites. O rastreamento pode ser usado para criar um perfil e mostrar conteúdo com base na sua navegação e informações pessoais.">
+<!ENTITY  trackingProtection2.radioGroupLabel  "Usar a proteção contra rastreamento para bloquear rastreadores conhecidos">
 <!ENTITY  trackingProtectionAlways.label       "Sempre">
 <!ENTITY  trackingProtectionAlways.accesskey   "y">
 <!ENTITY  trackingProtectionPrivate.label      "Só em janelas privativas">
@@ -15,26 +15,28 @@
 <!ENTITY  trackingProtectionExceptions.label   "Exceções…">
 <!ENTITY  trackingProtectionExceptions.accesskey "x">
 
-<!ENTITY tracking.label                 "Rastreamento">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM5.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to true. This currently happens on the release and beta channel. -->
 <!ENTITY trackingProtectionPBM5.label         "Usar proteção contra rastreamento em janelas privativas">
 <!ENTITY trackingProtectionPBM5.accesskey     "v">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM6.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to false. This currently happens on the nightly channel. -->
+<!ENTITY trackingProtectionPBM6.label         "Usar a proteção contra rastreamento na navegação privativa para bloquear rastreadores conhecidos">
+<!ENTITY trackingProtectionPBM6.accesskey     "v">
 <!ENTITY trackingProtectionPBMLearnMore.label "Saber mais">
-<!ENTITY changeBlockList.label          "Alterar Lista de Bloqueios">
-<!ENTITY changeBlockList.accesskey      "A">
+<!ENTITY changeBlockList2.label               "Alterar Lista de Bloqueios…">
+<!ENTITY changeBlockList2.accesskey           "B">
 
-<!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
-<!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
-<!ENTITY  doNotTrack.pre.label          "Você também pode ">
-<!ENTITY  doNotTrack.settings.label     "gerenciar as configurações Não rastrear">
-<!ENTITY  doNotTrack.post.label         ".">
+<!ENTITY  doNotTrack.description        "Enviar aos sites um sinal de “Não rastrear” informando que você não quer ser rastreado">
+<!ENTITY  doNotTrack.learnMore.label    "Saiba mais">
+<!ENTITY  doNotTrack.default.label      "Somente quando usar a proteção contra rastreamento">
+<!ENTITY  doNotTrack.always.label       "Sempre">
 
 <!ENTITY  history.label                 "Histórico">
+<!ENTITY  permissions.label             "Permissões">
 
-<!ENTITY  locationBar.label             "Barra de endereço">
-
-<!ENTITY  locbar.suggest2.label         "Ao digitar um endereço, sugerir">
-<!ENTITY  locbar.history.label          "Histórico">
-<!ENTITY  locbar.history.accesskey      "H">
+<!ENTITY  addressBar.label              "Barra de Endereços">
+<!ENTITY  addressBar.suggest.label      "Ao usar a barra de endereços, sugerir">
+<!ENTITY  locbar.history2.label         "Histórico de navegação">
+<!ENTITY  locbar.history2.accesskey     "H">
 <!ENTITY  locbar.bookmarks.label        "Favoritos">
 <!ENTITY  locbar.bookmarks.accesskey    "F">
 <!ENTITY  locbar.openpage.label         "Abas abertas">
@@ -44,8 +46,8 @@
 
 <!ENTITY  suggestionSettings2.label     "Alterar preferências das sugestões do mecanismo de pesquisa">
 
-<!ENTITY  acceptCookies.label           "Aceitar cookies dos sites">
-<!ENTITY  acceptCookies.accesskey       "S">
+<!ENTITY  acceptCookies2.label          "Aceitar cookies de sites">
+<!ENTITY  acceptCookies2.accesskey      "A">
 
 <!ENTITY  acceptThirdParty.pre.label      "Aceitar cookies de terceiros:">
 <!ENTITY  acceptThirdParty.pre.accesskey  "f">
@@ -106,7 +108,6 @@
 <!ENTITY  clearOnCloseSettings.label     "Configurar…">
 <!ENTITY  clearOnCloseSettings.accesskey "C">
 
-<!ENTITY  browserContainersHeader.label         "Abas contêineres">
 <!ENTITY  browserContainersLearnMore.label      "Saber mais">
 <!ENTITY  browserContainersEnabled.label        "Habilitar abas contêineres">
 <!ENTITY  browserContainersEnabled.accesskey    "n">

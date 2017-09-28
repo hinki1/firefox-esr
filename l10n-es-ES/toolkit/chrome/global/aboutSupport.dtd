@@ -44,6 +44,7 @@
 <!ENTITY aboutSupport.appBasicsServiceWorkers "Service Workers registrados">
 <!ENTITY aboutSupport.appBasicsProfiles "Perfiles">
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Ventanas multiproceso">
+<!ENTITY aboutSupport.appBasicsProcessCount "Procesos de contenido web">
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Clave de Google">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Clave del servicio de ubicación de Mozilla">
 <!ENTITY aboutSupport.appBasicsSafeMode "Modo seguro">
@@ -67,6 +68,7 @@
 <!ENTITY aboutSupport.a11yTitle "Accesibilidad">
 <!ENTITY aboutSupport.a11yActivated "Activado">
 <!ENTITY aboutSupport.a11yForceDisabled "Impedir accesibilidad">
+<!ENTITY aboutSupport.a11yHandlerUsed "Manejador accesible usado">
 <!ENTITY aboutSupport.libraryVersionsTitle "Versiones de bibliotecas">
 <!ENTITY aboutSupport.installationHistoryTitle "Historial de instalaciones">
 <!ENTITY aboutSupport.updateHistoryTitle "Historial de actualizaciones">
@@ -91,3 +93,15 @@
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Registro de decisiones">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Características desactivadas de Crash Guard">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Alternativas">
+<!ENTITY aboutSupport.mediaTitle "Medios">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Dispositivos de salida">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Dispositivos de entrada">
+<!ENTITY aboutSupport.mediaDeviceName "Nombre">
+<!ENTITY aboutSupport.mediaDeviceGroup "Grupo">
+<!ENTITY aboutSupport.mediaDeviceVendor "Fabricante">
+<!ENTITY aboutSupport.mediaDeviceState "Estado">
+<!ENTITY aboutSupport.mediaDevicePreferred "Preferido">
+<!ENTITY aboutSupport.mediaDeviceFormat "Formato">
+<!ENTITY aboutSupport.mediaDeviceChannels "Canales">
+<!ENTITY aboutSupport.mediaDeviceRate "Tasa">
+<!ENTITY aboutSupport.mediaDeviceLatency "Latencia">

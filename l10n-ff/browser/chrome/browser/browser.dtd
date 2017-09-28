@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Maantore Cinndel">
 <!ENTITY viewBookmarksSidebar2.label        "Hollu Palal Maantore">
 <!ENTITY viewBookmarksToolbar.label         "Hollu Palal Maantore">
+<!ENTITY searchBookmarks.label              "Yiylo Maantore">
 
 <!ENTITY containersMenu.label "Mooftirɗe">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
@@ -332,6 +333,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewCustomizeToolbar.label       "Heertin…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "H">
 
+
+
 <!ENTITY historyMenu.label "Aslol">
 <!ENTITY historyMenu.accesskey "l">
 <!ENTITY historyUndoMenu.label "Tabbe Uddaaɗe Sakket">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Momtu Aslol Sakketol…">
 <!ENTITY appMenuHistory.restoreSession.label "Artir Yillannde Ɓennunde">
 <!ENTITY appMenuHistory.viewSidebar.label "Hollu Aslol Palal Sawndo">
+
 <!ENTITY appMenuHelp.label "&amp;Ballal">
 <!ENTITY appMenuHelp.tooltip "Uddit ballitorgol">
 
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY contentSearchInput.label     "Ɗaɓɓitannde njiilaw">
 <!ENTITY contentSearchSubmit.tooltip  "Naatnu njiilaw">
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+
+<!ENTITY searchInput.placeholder      "Yiylo">
+<!ENTITY searchIcon.tooltip           "Yiylo">
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
@@ -618,8 +627,8 @@ items are mutually exclusive. -->
 <!ENTITY mediaPlaybackRate2.accesskey "u">
 <!ENTITY mediaPlaybackRate050x2.label "Leewɗo (0.5×)">
 <!ENTITY mediaPlaybackRate050x2.accesskey "L">
-<!ENTITY mediaPlaybackRate100x2.label "Potɗo">
-<!ENTITY mediaPlaybackRate100x2.accesskey "P">
+<!ENTITY mediaPlaybackRate100x2.label "Aadoraa">
+<!ENTITY mediaPlaybackRate100x2.accesskey "A">
 <!ENTITY mediaPlaybackRate125x2.label "Jaawɗo (1.25×)">
 <!ENTITY mediaPlaybackRate125x2.accesskey "J">
 <!ENTITY mediaPlaybackRate150x2.label "Ɓurɗo yaawde (1.5×)">
@@ -850,6 +859,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Heɓ Ciŋkooje Goɗɗe">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "G">
+<!ENTITY customizeMode.emptyOverflowList.description "Daas njoɗɗinaa ɗoo ngeɗon ɓaɗoo juuɗe maa, tawa wonaa e palal kuutorɗe...">
+<!ENTITY customizeMode.uidensity "Cukkeendi">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Potɗum">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Potɗum">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "P">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Tiɗɗii">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Tiɗɗii">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "T">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Mem">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Mem">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "M">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Huutoro Mem wonande mod Alluwel">
 
 <!ENTITY getUserMedia.selectCamera.label "Kameraa lollinteeɗo:">
 <!ENTITY getUserMedia.selectCamera.accesskey "K">
@@ -960,7 +990,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY pageActionButton.tooltip "Baɗe hello">
 
-<!ENTITY sendToDevice.label "Neldu to Masiŋel...">
-<!ENTITY sendToDevice.viewTitle "Neldu to Masiŋel">
-<!ENTITY sendToDevice.fxaRequired.label "Ena waɗɗii">
-<!ENTITY sendToDevice.noDevices.label "Alaa masiŋel heɓii">
+
+
+<!ENTITY sendToDevice.syncNotReady.label "Jahdingol masiŋon...">

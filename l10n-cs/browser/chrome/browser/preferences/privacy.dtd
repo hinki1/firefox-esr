@@ -3,8 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  trackingProtectionHeader2.label      "Ochrana proti sledování">
-<!ENTITY  trackingProtection.description       "Internetové společnosti vás mohou sledovat a sbírat data k vytvoření profilu a zobrazování obsahu na základě vašich osobních údajů.">
-<!ENTITY  trackingProtection.radioGroupLabel   "Blokovat zobrazování obsahu od známých sledujících společností">
+<!ENTITY  trackingProtection2.description      "Sledování je shromažďování údajů o vašem prohlížení na různých serverech. Může být použito pro vytvoření profilu a zobrazování obsahu nebo reklam na základě vašich osobních informací.">
+<!ENTITY  trackingProtection2.radioGroupLabel  "Používat ochranu proti sledování známými sledovacími prvky">
 <!ENTITY  trackingProtectionAlways.label       "Vždy">
 <!ENTITY  trackingProtectionAlways.accesskey   "y">
 <!ENTITY  trackingProtectionPrivate.label      "Pouze v anonymních oknech">
@@ -15,26 +15,28 @@
 <!ENTITY  trackingProtectionExceptions.label   "Výjimky…">
 <!ENTITY  trackingProtectionExceptions.accesskey "j">
 
-<!ENTITY tracking.label                 "Sledování">
-<!ENTITY trackingProtectionPBM5.label         "Používat Ochranu proti sledování v Anonymním okně">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM5.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to true. This currently happens on the release and beta channel. -->
+<!ENTITY trackingProtectionPBM5.label         "Používat ochranu proti sledování v anonymním okně">
 <!ENTITY trackingProtectionPBM5.accesskey     "v">
+<!-- LOCALIZATION NOTE (trackingProtectionPBM6.label): This string is displayed if privacy.trackingprotection.ui.enabled is set to false. This currently happens on the nightly channel. -->
+<!ENTITY trackingProtectionPBM6.label         "Používat ochranu proti sledování známými sledovacími prvky při anonymním prohlížení">
+<!ENTITY trackingProtectionPBM6.accesskey     "v">
 <!ENTITY trackingProtectionPBMLearnMore.label "Zjistit více">
-<!ENTITY changeBlockList.label          "Změnit seznam blokací">
-<!ENTITY changeBlockList.accesskey      "c">
+<!ENTITY changeBlockList2.label               "Změnit seznam blokací…">
+<!ENTITY changeBlockList2.accesskey           "c">
 
-<!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
-<!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
-<!ENTITY  doNotTrack.pre.label          "Můžete také ">
-<!ENTITY  doNotTrack.settings.label     "spravovat své nastavení Do Not Track">
-<!ENTITY  doNotTrack.post.label         ".">
+<!ENTITY  doNotTrack.description        "Říci webovým stránkám pomocí signálu Do Not Track, že nechcete být sledováni">
+<!ENTITY  doNotTrack.learnMore.label    "Zjistit více">
+<!ENTITY  doNotTrack.default.label      "Pouze při použití ochrany proti sledování">
+<!ENTITY  doNotTrack.always.label       "Vždy">
 
 <!ENTITY  history.label                 "Historie">
+<!ENTITY  permissions.label             "Oprávnění">
 
-<!ENTITY  locationBar.label             "Adresní řádek">
-
-<!ENTITY  locbar.suggest2.label         "V adresním řádku našeptávat">
-<!ENTITY  locbar.history.label          "Historii">
-<!ENTITY  locbar.history.accesskey      "H">
+<!ENTITY  addressBar.label              "Adresní řádek">
+<!ENTITY  addressBar.suggest.label      "V adresním řádku našeptávat">
+<!ENTITY  locbar.history2.label         "Historii prohlížení">
+<!ENTITY  locbar.history2.accesskey     "H">
 <!ENTITY  locbar.bookmarks.label        "Záložky">
 <!ENTITY  locbar.bookmarks.accesskey    "Z">
 <!ENTITY  locbar.openpage.label         "Otevřené panely">
@@ -44,8 +46,8 @@
 
 <!ENTITY  suggestionSettings2.label     "Změnit předvolby našeptávání vyhledávače">
 
-<!ENTITY  acceptCookies.label           "Povolit serverům nastavovat cookies">
-<!ENTITY  acceptCookies.accesskey       "a">
+<!ENTITY  acceptCookies2.label          "Povolit serverům nastavovat cookies">
+<!ENTITY  acceptCookies2.accesskey      "a">
 
 <!ENTITY  acceptThirdParty.pre.label      "Cookies třetích stran">
 <!ENTITY  acceptThirdParty.pre.accesskey  "t">
@@ -106,7 +108,6 @@
 <!ENTITY  clearOnCloseSettings.label     "Nastavení…">
 <!ENTITY  clearOnCloseSettings.accesskey "t">
 
-<!ENTITY  browserContainersHeader.label         "Kontejnery">
 <!ENTITY  browserContainersLearnMore.label      "Zjistit více">
 <!ENTITY  browserContainersEnabled.label        "Povolit kontejnerové panely">
 <!ENTITY  browserContainersEnabled.accesskey    "n">

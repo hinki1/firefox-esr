@@ -150,8 +150,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      Localizers can use one of them, or both, to better adapt this
      sentence to their language. -->
 <!ENTITY pointerlockWarning.beforeDomain.label "">
-<!ENTITY pointerlockWarning.afterDomain.label "má kontrolu nad vaším kurzorom. Ovládanie kurzora prevezmete stlačením klávesy Esc.">
-<!ENTITY pointerlockWarning.generic.label "Tento dokument má kontrolu nad vaším kurzorom. Ovládanie kurzora prevezmete stlačením klávesy Esc.">
+<!ENTITY pointerlockWarning.afterDomain.label "má kontrolu nad vaším kurzorom. Ovládanie kurzora prevezmete stlačením klávesu Esc.">
+<!ENTITY pointerlockWarning.generic.label "Tento dokument má kontrolu nad vaším kurzorom. Ovládanie kurzora prevezmete stlačením klávesu Esc.">
 
 <!ENTITY closeWindow.label "Zavrieť okno">
 <!ENTITY closeWindow.accesskey "v">
@@ -214,7 +214,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Správa používania zásuvných modulov">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Zmení, či môžete zo servera prijímať upozornenia">
 <!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Uloží údaje do trvalého úložiska">
-<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Prehliadač je ovládaný vzdialene">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Prehliadač je ovládaný na diaľku">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Spravovať zdieľanie webkamery a/alebo mikrofónu so stránkou">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Spravovať zdieľanie mikrofónu so stránkou">
@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Záložky mobilného Firefoxu">
 <!ENTITY viewBookmarksSidebar2.label        "Zobraziť bočný panel Záložky">
 <!ENTITY viewBookmarksToolbar.label         "Zobraziť panel nástrojov Záložky">
+<!ENTITY searchBookmarks.label              "Hľadať v záložkách">
 
 <!ENTITY containersMenu.label "Kontajnery">
 
@@ -331,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "B">
 <!ENTITY viewCustomizeToolbar.label       "Prispôsobiť…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "P">
+<!ENTITY overflowCustomizeToolbar.label       "Upraviť panel nástrojov…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "U">
 
 <!ENTITY historyMenu.label "História">
 <!ENTITY historyMenu.accesskey "H">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Vymazať nedávnu históriu…">
 <!ENTITY appMenuHistory.restoreSession.label "Obnoviť poslednú reláciu">
 <!ENTITY appMenuHistory.viewSidebar.label "Zobraziť bočný panel História">
+<!ENTITY appMenuHistory.recentHistory.label "Nedávna história">
 <!ENTITY appMenuHelp.label "Pomocník">
 <!ENTITY appMenuHelp.tooltip "Otvorí ponuku Pomocník">
 
@@ -390,7 +394,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      in the location bar. These labels are only used in Photon, where you can put
      items into this menu permanently (pinned). -->
 <!ENTITY customizeMenu.addToOverflowMenu.label "Pridať do rozširujúcej ponuky">
-<!ENTITY customizeMenu.addToOverflowMenu.accesskey "P">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "k">
 <!ENTITY customizeMenu.moveToToolbar.label "Presunúť na panel nástrojov">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "u">
 <!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
@@ -401,9 +405,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY customizeMenu.moveToPanel.label "Presunúť do ponuky">
 <!ENTITY customizeMenu.moveToPanel.accesskey "u">
 <!ENTITY customizeMenu.pinToOverflowMenu.label "Pripnúť do rozširujúcej ponuky">
-<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "r">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "P">
 <!ENTITY customizeMenu.unpinFromOverflowMenu.label "Zrušiť pripnutie v rozširujúcej ponuke">
-<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "r">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "u">
 <!ENTITY customizeMenu.removeFromToolbar.label "Odstrániť z panela nástrojov">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "O">
 <!ENTITY customizeMenu.removeFromMenu.label "Odstrániť z ponuky">
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "Výraz vyhľadávania">
 <!ENTITY contentSearchSubmit.tooltip  "Odoslať vyhľadávanie">
+
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+<!ENTITY searchInput.placeholder      "Hľadať">
+<!ENTITY searchIcon.tooltip           "Vyhľadávanie">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -688,7 +697,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Ukončiť prehliadač"> 
 <!ENTITY quitApplicationCmd.accesskey   "k">
 <!ENTITY quitApplicationCmdMac2.label   "Ukončiť &brandShorterName;">
-<!ENTITY quitApplicationCmd.key         "U">
+<!ENTITY quitApplicationCmd.key         "Q">
 
 <!ENTITY closeCmd.label                 "Zavrieť">  
 <!ENTITY closeCmd.key                   "W">  
@@ -772,8 +781,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.moreInfoLinkText2 "Ďalšie informácie">
 
-<!ENTITY identity.permissions "Oprávnenia">
-<!ENTITY identity.permissionsEmpty "Tejto stránke ste neurčili žiadne špeciálne oprávnenia.">
+<!ENTITY identity.permissions "Povolenia">
+<!ENTITY identity.permissionsEmpty "Tejto stránke ste neurčili žiadne špeciálne povolenia.">
 <!ENTITY identity.permissionsReloadHint "Pre vykonanie zmien budete možno musieť stránku obnoviť.">
 
 <!-- Name for the tabs toolbar as spoken by screen readers.
@@ -849,6 +858,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "S">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Získať ďalšie témy">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "Z">
+<!ENTITY customizeMode.emptyOverflowList.description "Sem môžete presunúť položky, ktoré chcete mať poruke, ale nie priamo v paneli nástrojov…">
+<!ENTITY customizeMode.uidensity "Hustota">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Normálna">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Normálna hustota">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "N">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Kompaktná">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Kompaktná hustota">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "K">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Pre dotykové zariadenia">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Hustota pre dotykové zariadenia">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "t">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "V režime tabletu použiť hustotu pre dotykové zariadenia">
 
 <!ENTITY getUserMedia.selectCamera.label "Zdieľať kameru:">
 <!ENTITY getUserMedia.selectCamera.accesskey "k">
@@ -958,8 +988,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2 "Reštartovať a aktualizovať aplikáciu &brandShorterName;">
 
 <!ENTITY pageActionButton.tooltip "Akcie stránky">
+<!ENTITY pageAction.addToUrlbar.label "Pridať do panela s adresou">
+<!ENTITY pageAction.removeFromUrlbar.label "Odstrániť z panela s adresou">
 
-<!ENTITY sendToDevice.label "Odoslať do zariadenia…">
-<!ENTITY sendToDevice.viewTitle "Odoslať do zariadenia">
-<!ENTITY sendToDevice.fxaRequired.label "Požadované">
-<!ENTITY sendToDevice.noDevices.label "K dispozícii nie sú žiadne zariadenia">
+<!ENTITY sendToDevice.label2 "Odoslať do zariadenia">
+<!ENTITY sendToDevice.syncNotReady.label "Synchronizovanie zariadení…">

@@ -4,8 +4,8 @@
 
 <!ENTITY  general.label                 "Powšitkowny">
 
-<!ENTITY  warnOnAddonInstall.label        "Warnować, hdyž sydła pospytuja přidatki instalować">
-<!ENTITY  warnOnAddonInstall.accesskey    "W">
+<!ENTITY  warnOnAddonInstall2.label       "Warnować, hdyž sydła pospytuja přidatki instalować">
+<!ENTITY  warnOnAddonInstall2.accesskey   "W">
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
   https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
@@ -26,8 +26,8 @@
 
 <!ENTITY  logins.label                  "Přizjewjenja">
 
-<!ENTITY  rememberLogins.label          "Přizjewjenja za sydła sej spomjatkować">
-<!ENTITY  rememberLogins.accesskey      "P">
+<!ENTITY  rememberLogins2.label         "Přizjewjenja za sydła sej spomjatkować">
+<!ENTITY  rememberLogins2.accesskey     "P">
 <!ENTITY  passwordExceptions.label      "Wuwzaća…">
 <!ENTITY  passwordExceptions.accesskey  "u">
 

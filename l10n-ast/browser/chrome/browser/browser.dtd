@@ -807,9 +807,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "¿Quies más ferramientes?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Escueyi ente milenta complementos">
 <!ENTITY customizeMode.restoreDefaults "Restaurar predeterminaos">
-<!ENTITY customizeMode.done "Fecho">
 <!ENTITY customizeMode.titlebar "Barra de títulu">
-<!ENTITY customizeMode.toolbars2 "Barres de ferramientes">
 <!ENTITY customizeMode.lwthemes "Temes">
 <!ENTITY customizeMode.lwthemes.myThemes "Los mios temes">
 <!ENTITY customizeMode.lwthemes.recommended "Aconseyaos">

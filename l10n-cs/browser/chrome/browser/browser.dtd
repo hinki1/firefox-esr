@@ -114,7 +114,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY toggleReaderMode.key "R">
 
 <!ENTITY fxaSignIn.label "Přihlášení k &syncBrand.shortName.label;">
-<!ENTITY fxaSignedIn.tooltip "Otevřít předvolby &syncBrand.shortName.label;">
+<!ENTITY fxaSignedIn.tooltip "Otevřít předvolby služby &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "Opětovné připojení k &syncBrand.shortName.label;">
 <!ENTITY fxaUnverified.label "Ověřte svůj účet">
 
@@ -225,15 +225,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.translatedNotificationAnchor.tooltip      "Spravovat překlad stránky">
 <!ENTITY urlbar.emeNotificationAnchor.tooltip             "Správa využívání softwaru DRM">
 
-<!ENTITY urlbar.cameraBlocked.tooltip            "Zakázali jste této stránce přístup k vaší kameře.">
-<!ENTITY urlbar.microphoneBlocked.tooltip        "Zakázali jste této stránce přístup k vašemu mikrofonu.">
-<!ENTITY urlbar.screenBlocked.tooltip            "Zakázali jste této stránce sdílení vaší obrazovky.">
-<!ENTITY urlbar.geolocationBlocked.tooltip       "Zakázali jste této stránce zjišťovat vaši polohu.">
-<!ENTITY urlbar.indexedDBBlocked.tooltip         "Zakázali jste této stránce ukládat data do vašeho počítače.">
-<!ENTITY urlbar.webNotificationsBlocked.tooltip  "Zakázali jste této stránce zobrazovat oznámení.">
+<!ENTITY urlbar.cameraBlocked.tooltip            "Tomuto serveru jste zablokovali přístup k vaší kameře.">
+<!ENTITY urlbar.microphoneBlocked.tooltip        "Tomuto serveru jste zablokovali přístup k vašemu mikrofonu.">
+<!ENTITY urlbar.screenBlocked.tooltip            "Tomuto serveru jste zablokovali sdílení vaší obrazovky.">
+<!ENTITY urlbar.geolocationBlocked.tooltip       "Tomuto serveru jste zablokovali zjišťovat vaši polohu.">
+<!ENTITY urlbar.indexedDBBlocked.tooltip         "Tomuto serveru jste zablokovali ukládání dat do vašeho počítače.">
+<!ENTITY urlbar.webNotificationsBlocked.tooltip  "Tomuto serveru jste zablokovali zobrazovat oznámení.">
 <!ENTITY urlbar.persistentStorageBlocked.tooltip "Této stránce jste zakázali ukládat data natrvalo.">
 
-<!ENTITY urlbar.openHistoryPopup.tooltip                "Zobrazit historii">
+<!ENTITY urlbar.openHistoryPopup.tooltip                "Zobrazí historii">
 
 <!ENTITY searchItem.title             "Hledání">
 
@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Záložky z mobilu">
 <!ENTITY viewBookmarksSidebar2.label        "Zobrazit v postranní liště">
 <!ENTITY viewBookmarksToolbar.label         "Zobrazit lištu záložek">
+<!ENTITY searchBookmarks.label              "Hledat v záložkách">
 
 <!ENTITY containersMenu.label "Kontejnery">
 
@@ -331,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "P">
 <!ENTITY viewCustomizeToolbar.label       "Nastavit lišty…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "V">
+<!ENTITY overflowCustomizeToolbar.label       "Nastavit lišty…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "N">
 
 <!ENTITY historyMenu.label "Historie">
 <!ENTITY historyMenu.accesskey "H">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Vymazat nedávnou historii…">
 <!ENTITY appMenuHistory.restoreSession.label "Obnovit předchozí relaci">
 <!ENTITY appMenuHistory.viewSidebar.label "Zobrazit v postranní liště">
+<!ENTITY appMenuHistory.recentHistory.label "Nedávná historie">
 <!ENTITY appMenuHelp.label "Nápověda">
 <!ENTITY appMenuHelp.tooltip "Otevře nabídku s nápovědou">
 
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "Vyhledávací dotaz">
 <!ENTITY contentSearchSubmit.tooltip  "Potvrdí hledání">
+
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+<!ENTITY searchInput.placeholder      "Hledat">
+<!ENTITY searchIcon.tooltip           "Hledat">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -746,7 +755,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- Strings for connection state warnings. -->
 <!ENTITY identity.activeBlocked "Aplikace &brandShortName; zablokovala nezabezpečené části této stránky.">
 <!ENTITY identity.passiveLoaded "Části této stránky nejsou zabezpečené (například obrázky).">
-<!ENTITY identity.activeLoaded "Zakázali jste ochranu na této stránce.">
+<!ENTITY identity.activeLoaded "Na této stránce jste ochranu zakázali.">
 <!ENTITY identity.weakEncryption "Tento server používá slabé šifrování.">
 
 <!-- Strings for connection state warnings in the subview. -->
@@ -755,11 +764,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.description.weakCipher "Vaše připojení k tomuto serveru používá slabé šifrování a není soukromé.">
 <!ENTITY identity.description.weakCipher2 "Ostatní lidé mohou vidět vaše informace nebo pozměnit chování stránky.">
 <!ENTITY identity.description.activeBlocked "Aplikace &brandShortName; zablokovala nezabezpečené části této stránky.">
-<!ENTITY identity.description.passiveLoaded "Vaše připojení není soukromé a informace, které sdílíte s tímto webem, mohou být viděny ostatními.">
+<!ENTITY identity.description.passiveLoaded "Vaše připojení není soukromé a informace, které sdílíte s tímto serverem, mohou být viděny ostatními.">
 <!ENTITY identity.description.passiveLoaded2 "Tato webová stránka obsahuje obsah, který není zabezpečen (například obrázky).">
 <!ENTITY identity.description.passiveLoaded3 "Ačkoli aplikace &brandShortName; zablokovala nějaký obsah, stránka stále ještě obsahuje nezabezpečený obsah (například obrázky).">
 <!ENTITY identity.description.activeLoaded "Tato webová stránka obsahuje obsah, který není zabezpečen (například skripty), a připojení k tomuto serveru tak není soukromé.">
-<!ENTITY identity.description.activeLoaded2 "Informace, které sdílíte s touto stránkou (jako hesla, zprávy, číslo kreditní karty, atd.), mohou být viděny ostatními.">
+<!ENTITY identity.description.activeLoaded2 "Informace, které sdílíte s tímto serverem (jako hesla, zprávy, číslo kreditní karty, atd.), mohou být viděny ostatními.">
 
 <!ENTITY identity.enableMixedContentBlocking.label "Povolit ochranu">
 <!ENTITY identity.enableMixedContentBlocking.accesskey "P">
@@ -789,7 +798,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.sidebar.noclients.subtitle "Chcete zde vidět vaše panely z ostatních zařízení?">
 <!ENTITY syncedTabs.sidebar.notsignedin.label  "Pro zobrazení seznamu panelů z vašich ostatních zařízení se prosím přihlaste.">
 <!ENTITY syncedTabs.sidebar.notabs.label       "Žádné otevřené panely">
-<!ENTITY syncedTabs.sidebar.openprefs.label    "Otevřít předvolby &syncBrand.shortName.label;">
+<!ENTITY syncedTabs.sidebar.openprefs.label    "Otevřít předvolby služby &syncBrand.shortName.label;">
 <!-- LOCALIZATION NOTE (syncedTabs.sidebar.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "Zapněte synchronizaci panelů pro zobrazení seznamu panelů z vašich ostatních zařízení.">
@@ -849,6 +858,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "S">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Získat více motivů">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "Z">
+<!ENTITY customizeMode.emptyOverflowList.description "Sem můžete přetáhnout položky, které chcete mít na dosah, ale ne přímo na liště…">
+<!ENTITY customizeMode.uidensity "Velikost">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Výchozí">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Výchozí">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "V">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Kompaktní">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Kompaktní">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "K">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Pro dotyk">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Pro dotyk">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "t">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "V režimu tabletu použít velikost pro dotyk">
 
 <!ENTITY getUserMedia.selectCamera.label "Sdílet kameru:">
 <!ENTITY getUserMedia.selectCamera.accesskey "k">
@@ -859,7 +889,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY trackingProtection.title "Ochrana proti sledování">
 <!ENTITY trackingProtection.detectedBlocked3 "&brandShortName; blokuje části stránky, které mohou sledovat vaši aktivitu prohlížení.">
-<!ENTITY trackingProtection.detectedNotBlocked3 "Tato stránka obsahuje prvky, které mohou sledovat vaše prohlížení. Zakázali jste ochranu.">
+<!ENTITY trackingProtection.detectedNotBlocked3 "Tato stránka obsahuje prvky, které mohou sledovat vaše prohlížení. Ochranu jste zakázali.">
 <!ENTITY trackingProtection.notDetected3 "Na této stránce nebyly zjištěny žádné sledovací prvky.">
 <!-- LOCALIZATION NOTE (trackingProtection.unblock.label, trackingProtection.unblock.accesskey):
      The associated button with this label and accesskey is only shown when opening the control
@@ -958,8 +988,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2 "Restartovat a aktualizovat aplikaci &brandShorterName;">
 
 <!ENTITY pageActionButton.tooltip "Akce stránky">
+<!ENTITY pageAction.addToUrlbar.label "Přidat do adresního řádku">
+<!ENTITY pageAction.removeFromUrlbar.label "Odebrat z adresního řádku">
 
-<!ENTITY sendToDevice.label "Odeslat do zařízení…">
-<!ENTITY sendToDevice.viewTitle "Odeslat do zařízení">
-<!ENTITY sendToDevice.fxaRequired.label "Vyžadováno">
-<!ENTITY sendToDevice.noDevices.label "Žádná zařízení nejsou k dispozici">
+<!ENTITY sendToDevice.label2 "Odeslat do zařízení">
+<!ENTITY sendToDevice.syncNotReady.label "Synchronizace zařízení…">

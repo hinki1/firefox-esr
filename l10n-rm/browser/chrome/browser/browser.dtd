@@ -213,6 +213,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Avrir la panela per memorisar pleds-clav">
 <!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Administrar l'utilisaziun da plug-ins">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Definir sche ti vuls retschaiver notificaziuns da la pagina">
+<!ENTITY urlbar.persistentStorageNotificationAnchor.tooltip     "Memorisar datas en la memoria durabla">
+<!ENTITY urlbar.remoteControlNotificationAnchor.tooltip   "Il navigatur vegn controllà a distanza">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Administrar la cundivisiun da la camera/dal microfon cun la pagina">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Administrar la cundivisiun dal microfon cun la pagina">
@@ -229,6 +231,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.geolocationBlocked.tooltip       "Ti has bloccà las infurmaziuns da geolocalisaziun per questa website.">
 <!ENTITY urlbar.indexedDBBlocked.tooltip         "Ti has bloccà la pussaivladad da memorisar datas per questa website.">
 <!ENTITY urlbar.webNotificationsBlocked.tooltip  "Ti has bloccà ils messadis da questa website.">
+<!ENTITY urlbar.persistentStorageBlocked.tooltip "Ti has bloccà la memoria durabla per questa website.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Mussar la cronologia">
 
@@ -245,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Segnapaginas mobils">
 <!ENTITY viewBookmarksSidebar2.label        "Mussar la trav laterala da segnapaginas">
 <!ENTITY viewBookmarksToolbar.label         "Mussar la trav d'utensils da segnapaginas">
+<!ENTITY searchBookmarks.label              "Tschertgar en ils segnapaginas">
 
 <!ENTITY containersMenu.label "Containers">
 
@@ -326,8 +330,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewToolbarsMenu.accesskey     "T"> 
 <!ENTITY viewSidebarMenu.label "Trav laterala">
 <!ENTITY viewSidebarMenu.accesskey "T">
-<!ENTITY viewCustomizeToolbar.label       "Modifitgar…"> 
+<!ENTITY viewCustomizeToolbar.label       "Persunalisar…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "a">
+<!ENTITY overflowCustomizeToolbar.label       "Modifitgar la trav da simbols…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "M">
 
 <!ENTITY historyMenu.label "Cronologia">
 <!ENTITY historyMenu.accesskey "C">
@@ -348,6 +354,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Stizzar la cronologia la pli nova…">
 <!ENTITY appMenuHistory.restoreSession.label "Restaurar l'ultima sesida">
 <!ENTITY appMenuHistory.viewSidebar.label "Vesair la trav laterala da la cronologia">
+<!ENTITY appMenuHistory.recentHistory.label "Cronologia nova">
+<!ENTITY appMenuHelp.label "Agid">
 <!ENTITY appMenuHelp.tooltip "Avrir il menu d'agid">
 
 <!ENTITY appMenuRemoteTabs.label "Tabs sincronisads">
@@ -373,6 +381,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Preferenzas da la sincronisaziun">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "S'annunziar per vesair ina glista dals tabs da tes auters apparats.">
 <!ENTITY appMenuRemoteTabs.signin.label "S'annunziar tar Sync">
+<!ENTITY appMenuRemoteTabs.managedevices.label "Administrar apparats…">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Mussar la trav laterala dals tabs sincronisads">
 
 <!ENTITY customizeMenu.addToToolbar.label "Agiuntar a la trav d'utensils">
@@ -384,6 +393,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      The overflow menu is the menu that appears if you click the chevron (>> button)
      in the location bar. These labels are only used in Photon, where you can put
      items into this menu permanently (pinned). -->
+<!ENTITY customizeMenu.addToOverflowMenu.label "Agiuntar al menu extra">
+<!ENTITY customizeMenu.addToOverflowMenu.accesskey "x">
 <!ENTITY customizeMenu.moveToToolbar.label "Spustar en la trav d'utensils">
 <!ENTITY customizeMenu.moveToToolbar.accesskey "u">
 <!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey, customizeMenu.pinToOverflowMenu.accesskey)
@@ -393,6 +404,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label "Spustar en il menu">
 <!ENTITY customizeMenu.moveToPanel.accesskey "u">
+<!ENTITY customizeMenu.pinToOverflowMenu.label "Fixar en il menu extra">
+<!ENTITY customizeMenu.pinToOverflowMenu.accesskey "F">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.label "Betg pli fixar en il menu extra">
+<!ENTITY customizeMenu.unpinFromOverflowMenu.accesskey "t">
 <!ENTITY customizeMenu.removeFromToolbar.label "Allontanar da la trav d'utensils">
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "l">
 <!ENTITY customizeMenu.removeFromMenu.label "Allontanar dal menu">
@@ -403,6 +418,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (moreMenu.label) This label is used in the new Photon
     app (hamburger) menu. When clicked, it opens a subview that contains
     secondary commands. -->
+<!ENTITY moreMenu.label "Dapli">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Tschertgar u endatar in'adressa">
@@ -420,7 +436,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "g">
 
 <!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hintPrefix): Shown just before the suggestions opt-out hint. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hintPrefix "Tip:">
 <!-- LOCALIZATION NOTE (urlbar.searchSuggestionsNotification.hint): &#x1F50E; is the magnifier icon emoji, please don't change it. -->
+<!ENTITY urlbar.searchSuggestionsNotification.hint "I dat in agid per tschertgar: L'icona &#x1F50E; inditgescha ina proposta da tschertgar.">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin "Midar las opziuns…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsWin.accesskey "M">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix "Midar las preferenzas…">
+<!ENTITY urlbar.searchSuggestionsNotification.changeSettingsUnix.accesskey "M">
 
 <!--
   Comment duplicated from browser-sets.inc:
@@ -451,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "Term da tschertgar">
 <!ENTITY contentSearchSubmit.tooltip  "Trametter la tschertga">
+
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+<!ENTITY searchInput.placeholder      "Tschertgar">
+<!ENTITY searchIcon.tooltip           "Tschertgar">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -534,6 +561,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisLinkCmd.accesskey  "l">
 <!ENTITY bookmarkThisFrameCmd.label      "Agiuntar in segnapagina per il frame">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "A">
+<!ENTITY copyURLCmd.label             "Copiar l'URL">
 <!ENTITY emailPageCmd.label           "Trametter la colliaziun per e-mail…">
 <!ENTITY emailPageCmd.accesskey       "E">
 <!ENTITY savePageCmd.label            "Memorisar la pagina sut…">
@@ -659,6 +687,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoom.accesskey             "Z">
 
 <!ENTITY sidebarCloseButton.tooltip     "Serrar la trav laterala">
+<!ENTITY sidebarMenuClose.label         "Serrar la trav laterala">
 
 <!ENTITY quitApplicationCmdWin2.label       "Terminar">
 <!ENTITY quitApplicationCmdWin2.accesskey   "T">
@@ -668,6 +697,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY quitApplicationCmd.label       "Terminar"> 
 <!ENTITY quitApplicationCmd.accesskey   "T">
 <!ENTITY quitApplicationCmdMac2.label   "Terminar &brandShorterName;">
+<!ENTITY quitApplicationCmd.key         "Q">
 
 <!ENTITY closeCmd.label                 "Serrar">  
 <!ENTITY closeCmd.key                   "W">  
@@ -719,6 +749,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Questa pagina è memorisada sin tes computer.">
 <!ENTITY identity.connectionVerified2 "Ti es connectà a moda segira cun questa pagina che appartegna a:">
 <!ENTITY identity.connectionInternal "Quai è ina pagina segira da &brandShortName;.">
+<!ENTITY identity.extensionPage "Ina extensiun ha chargià questa pagina.">
 <!ENTITY identity.insecureLoginForms2 "Infurmaziuns d'annunzia endatadas sin questa pagina èn eventualmain periclitadas.">
 
 <!-- Strings for connection state warnings. -->
@@ -791,6 +822,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.context.openAllInTabs.label              "Avrir tuts en tabs">
 <!ENTITY syncedTabs.context.openAllInTabs.accesskey          "A">
+<!ENTITY syncedTabs.context.managedevices.label              "Administrar apparats…">
+<!ENTITY syncedTabs.context.managedevices.accesskey          "A">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">
@@ -815,7 +848,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.empty "Vuls dapli utensils?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Tscherna da millis supplements">
 <!ENTITY customizeMode.restoreDefaults "Restaurar il standard">
+<!ENTITY customizeMode.done "Finì">
 <!ENTITY customizeMode.titlebar "Trav dal titel">
+<!ENTITY customizeMode.toolbars2 "Travs d'utensils">
 <!ENTITY customizeMode.lwthemes "Designs">
 <!ENTITY customizeMode.lwthemes.myThemes "Mes designs">
 <!ENTITY customizeMode.lwthemes.recommended "Recumandà">
@@ -823,6 +858,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "A">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Telechargiar designs">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "T">
+<!ENTITY customizeMode.emptyOverflowList.description "Tira e depona qua elements che ti vuls avair per mauns ma betg en tia trav d'utensils…">
+<!ENTITY customizeMode.uidensity "Cumpactadad">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Normal">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Normal">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "N">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Cumpact">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Cumpact">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "C">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Touch">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Touch">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "T">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Utilisar «Touch» per tablets">
 
 <!ENTITY getUserMedia.selectCamera.label "Camera per cundivider:">
 <!ENTITY getUserMedia.selectCamera.accesskey "C">
@@ -905,7 +961,35 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY emeLearnMoreContextMenu.label            "Dapli infurmaziuns davart DRM…">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">
 
+<!ENTITY updateAvailable.message "Actualisescha &brandShorterName; per profitar da las ultimas meglieraziuns da spertadad e sfera privata.">
+<!ENTITY updateAvailable.whatsnew.label "Vesair las novaziuns.">
+<!ENTITY updateAvailable.header.message "Ina nova actualisaziun per &brandShorterName; stat a disposiziun.">
+<!ENTITY updateAvailable.acceptButton.label "Telechargiar l'actualisaziun">
+<!ENTITY updateAvailable.acceptButton.accesskey "T">
+<!ENTITY updateAvailable.cancelButton.label "Betg ussa">
+<!ENTITY updateAvailable.cancelButton.accesskey "B">
+<!ENTITY updateAvailable.panelUI.label "Telechargiar l'actualisaziun da &brandShortName;">
 
+<!ENTITY updateManual.message "Telechargia ina copia frestga da &brandShorterName; e nus ta gidain da l'installar.">
+<!ENTITY updateManual.whatsnew.label "Vesair las novaziuns.">
+<!ENTITY updateManual.header.message "Impussibel dad actualisar &brandShorterName; a la pli nova versiun.">
+<!ENTITY updateManual.acceptButton.label "Telechargiar &brandShortName;">
+<!ENTITY updateManual.acceptButton.accesskey "T">
+<!ENTITY updateManual.cancelButton.label "Betg ussa">
+<!ENTITY updateManual.cancelButton.accesskey "B">
+<!ENTITY updateManual.panelUI.label "Telechargiar ina copia frestga da &brandShorterName;">
 
+<!ENTITY updateRestart.message "Suenter avair reavià &brandShorterName; vegnan ils tabs e las fanestras avertas restauradas.">
+<!ENTITY updateRestart.header.message2 "Reaviar per actualisar &brandShorterName;.">
+<!ENTITY updateRestart.acceptButton.label "Reaviar e restaurar">
+<!ENTITY updateRestart.acceptButton.accesskey "R">
+<!ENTITY updateRestart.cancelButton.label "Betg ussa">
+<!ENTITY updateRestart.cancelButton.accesskey "B">
+<!ENTITY updateRestart.panelUI.label2 "Reaviar per actualisar &brandShorterName;">
 
+<!ENTITY pageActionButton.tooltip "Acziuns da pagina">
+<!ENTITY pageAction.addToUrlbar.label "Agiuntar a la trav d'adressas">
+<!ENTITY pageAction.removeFromUrlbar.label "Allontanar da la trav d'adressas">
 
+<!ENTITY sendToDevice.label2 "Trametter ad in apparat">
+<!ENTITY sendToDevice.syncNotReady.label "Sincronisar apparats…">

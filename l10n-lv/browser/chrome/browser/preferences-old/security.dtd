@@ -4,8 +4,8 @@
 
 <!ENTITY  general.label                 "Vispārīgie">
 
-<!ENTITY  warnOnAddonInstall.label        "Brīdināt mani, ja lapas mēģina instalēt papildinājumus">
-<!ENTITY  warnOnAddonInstall.accesskey    "B">
+<!ENTITY  warnOnAddonInstall2.label       "Brīdināt mani, ja lapas mēģina instalēt papildinājumus">
+<!ENTITY  warnOnAddonInstall2.accesskey   "B">
 
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
@@ -26,8 +26,8 @@
 
 <!ENTITY  logins.label                  "Lietotājvārds">
 
-<!ENTITY  rememberLogins.label          "Atcerēties lapu paroles">
-<!ENTITY  rememberLogins.accesskey      "r">
+<!ENTITY  rememberLogins2.label         "Atcerēties lapu paroles">
+<!ENTITY  rememberLogins2.accesskey     "R">
 <!ENTITY  passwordExceptions.label      "Izņēmumi...">
 <!ENTITY  passwordExceptions.accesskey  "z">
 

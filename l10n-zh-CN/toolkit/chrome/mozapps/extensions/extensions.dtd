@@ -95,7 +95,7 @@
 <!ENTITY cmd.enableTheme.accesskey            "W">
 <!ENTITY cmd.disableTheme.label               "停用主题">
 <!ENTITY cmd.disableTheme.accesskey           "W">
-<!ENTITY cmd.askToActivate.label              "询问是否激活">
+<!ENTITY cmd.askToActivate.label              "需要启用时问我">
 <!ENTITY cmd.askToActivate.tooltip            "每次询问是否使用此附加组件">
 <!ENTITY cmd.alwaysActivate.label             "总是激活">
 <!ENTITY cmd.alwaysActivate.tooltip           "总是使用此附加组件">
@@ -256,7 +256,7 @@
 <!ENTITY pluginDeprecation.learnMore "详细了解。">
 
 <!ENTITY legacyWarning.description "少些东西？&brandShortName; 已不再支持某些扩展。">
-<!ENTITY legacyWarning.showLegacy "显示传统扩展">
-<!ENTITY legacyExtensions.title "传统扩展">
+<!ENTITY legacyWarning.showLegacy "显示旧式扩展">
+<!ENTITY legacyExtensions.title "旧式扩展">
 <!ENTITY legacyExtensions.description "这些扩展不符合现今的 &brandShortName; 标准，因此已被停用。">
 <!ENTITY legacyExtensions.learnMore "了解附加组件的变化">

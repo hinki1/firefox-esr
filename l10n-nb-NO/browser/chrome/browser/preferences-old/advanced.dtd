@@ -28,6 +28,11 @@
 
 <!ENTITY dataChoicesTab.label            "Datainnstillinger">
 
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "Datarapportering er deaktivert for denne byggekonfigurasjonen">
+
 <!ENTITY healthReportDesc.label          "Hjelper deg å forstå nettleserytelsen, og deler data med &vendorShortName; om helsen til nettleseren din">
 <!ENTITY enableHealthReport.label        "Slå på &brandShortName; Helserapport">
 <!ENTITY enableHealthReport.accesskey    "S">
@@ -136,7 +141,7 @@
 <!ENTITY limitContentProcessOption.label "Grense for innholdsprosesser">
 <!ENTITY limitContentProcessOption.description
                                          "Ytterligere innholdsprosesser kan forbedre ytelsen når du bruker flere faner, men vil også bruke mer minne.">
-<!ENTITY limitContentProcessOption.accesskey   "Y">
+<!ENTITY limitContentProcessOption.accesskey   "G">
 <!ENTITY limitContentProcessOption.disabledDescription
                                          "Endring av antall innholdsprosesser kan bare gjøres med multiprosess &brandShortName;.">
 <!ENTITY limitContentProcessOption.disabledDescriptionLink

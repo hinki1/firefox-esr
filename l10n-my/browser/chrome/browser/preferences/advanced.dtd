@@ -136,10 +136,5 @@
 <!ENTITY viewSecurityDevices.accesskey   "D">
 
 <!ENTITY performance.label               "စွမ်းဆောင်ရည်">
-<!ENTITY useRecommendedPerformanceSettings2.accesskey
-                                         "U">
-<!ENTITY performanceSettingsLearnMore.label
-                                         "ပိုမိုလေ့လာရန်">
-<!ENTITY limitContentProcessOption.accesskey   "L">
 <!ENTITY allowHWAccel.label              "ဖြစ်နိုင်လျှင် စက်ကိရိယာဖြင့် အရှိန်မြှင့်တင်ခြင်းကို အသုံးပြုပါ">
 <!ENTITY allowHWAccel.accesskey          "r">

@@ -28,8 +28,13 @@
 
 <!ENTITY dataChoicesTab.label            "בחירות מידע">
 
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "דיווח נתונים מנוטרל עבור תצורת בנייה זו">
+
 <!ENTITY healthReportDesc.label          "עוזר להבין את ביצועי הדפדפן שלך ואת הנתונים שמשותפים עם &vendorShortName;  על בריאות הדפדפן שלך">
-<!ENTITY enableHealthReport.label        "אפשר את דוח הבריאות של &brandShortName; ">
+<!ENTITY enableHealthReport.label        "לאפשר את דוח הבריאות של &brandShortName;">
 <!ENTITY enableHealthReport.accesskey    "ד">
 <!ENTITY healthReportLearnMore.label     "מידע נוסף">
 
@@ -47,7 +52,7 @@
 
 <!ENTITY connection.label                "קישוריות">
 
-<!ENTITY connectionDesc.label            "הגדר כיצד &brandShortName; מתחבר לאינטרנט">
+<!ENTITY connectionDesc.label            "הגדרת אופן החיבור של &brandShortName; לאינטרנט">
 <!ENTITY connectionSettings.label        "הגדרות...">
 <!ENTITY connectionSettings.accesskey    "ה">
 
@@ -137,5 +142,9 @@
 <!ENTITY limitContentProcessOption.description
                                          "תהליכי תוכן נוספים עשויים לשפר את הביצועים בעת שימוש במספר לשוניות, עם זאת יעשה שימוש ביותר זיכרון.">
 <!ENTITY limitContentProcessOption.accesskey   "ה">
+<!ENTITY limitContentProcessOption.disabledDescription
+                                         "שינוי מספר תהליכי תוכן אפשרי רק עם &brandShortName; מרובה תהליכים.">
+<!ENTITY limitContentProcessOption.disabledDescriptionLink
+                                         "כיצד לבדוק אם ריבוי תהליכים מופעל">
 <!ENTITY allowHWAccel.label              "שימוש בהאצת חומרה כשניתן">
 <!ENTITY allowHWAccel.accesskey          "ה">

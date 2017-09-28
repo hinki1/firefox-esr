@@ -26,8 +26,8 @@
 <!ENTITY cmd.back.tooltip                     "Ugrás az előző oldalra">
 <!ENTITY cmd.forward.tooltip                  "Ugrás a következő oldalra">
 
-<!ENTITY showUnsignedExtensions.button.label  "Néhány kiterjesztés nem ellenőrizhető">
-<!ENTITY showAllExtensions.button.label       "Minden kiterjesztés megjelenítése">
+<!ENTITY showUnsignedExtensions.button.label  "Néhány kiegészítő nem ellenőrizhető">
+<!ENTITY showAllExtensions.button.label       "Minden kiegészítő megjelenítése">
 <!ENTITY debugAddons.label                    "Kiegészítők hibakeresése">
 <!ENTITY debugAddons.accesskey                "h">
 <!-- global warnings -->

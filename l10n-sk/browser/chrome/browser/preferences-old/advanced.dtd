@@ -28,6 +28,11 @@
 
 <!ENTITY dataChoicesTab.label            "Odosielanie údajov">
 
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "Odosielanie údajov je v konfigurácii tohto zostavenia zakázané">
+
 <!ENTITY healthReportDesc.label          "Pomáha vám porozumieť výkonnosti vášho prehliadača a zdieľa so spoločnosťou &vendorShortName; údaje o jeho kondícii">
 <!ENTITY enableHealthReport.label        "Povoliť správy o kondícii prehliadača &brandShortName;">
 <!ENTITY enableHealthReport.accesskey    "o">
@@ -133,7 +138,7 @@
                                          "u">
 <!ENTITY performanceSettingsLearnMore.label
                                          "Ďalšie informácie">
-<!ENTITY limitContentProcessOption.label "Limit procesov obsahu">
+<!ENTITY limitContentProcessOption.label "Obmedziť počet procesov obsahu na">
 <!ENTITY limitContentProcessOption.description
                                          "Viac procesov môže zlepšiť výkon pri otvorení viacerých kariet. Spotrebujú však viac pamäte.">
 <!ENTITY limitContentProcessOption.accesskey   "L">

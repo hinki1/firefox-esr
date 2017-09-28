@@ -27,6 +27,9 @@
 <!ENTITY checkUserSpelling.accesskey     "մ">
 
 <!ENTITY dataChoicesTab.label            "Ընտրել տվյալները">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
 
 <!ENTITY healthReportDesc.label          "Օգնում է տեղեկանալ դիտարկիչի արագագործությանը և համօգտագործել տվյալները &vendorShortName;-ի համար">
 <!ENTITY enableHealthReport.label        "Միացնել &brandShortName;-ի Վիճակի Զեկույցը">
@@ -128,11 +131,11 @@
 <!ENTITY useRecommendedPerformanceSettings.label "Օգտ. արտադրողականության հանձնարարելի կարգավորումները">
 <!ENTITY useRecommendedPerformanceSettings.description "Այս կարգավորումները հարմարեցված են ձեր համակարգչի սարքաշարին և օպերացիոն համակարգին:">
 <!ENTITY useRecommendedPerformanceSettings.accesskey "Օ">
-<!ENTITY performanceSettingsLearnMore.label "Իմանալ ավելին">
+
 <!ENTITY limitContentProcessOption.label "Բովանդակության ընթացքի սահմանափակում">
 <!ENTITY limitContentProcessOption.description "Բովանդակության լրացուցիչ ընթացքները կարող են լավարկել արտադրողականությունը, երբ օգտագործվում են բազմակի ներդիրներ, բայց միևնույն ժամանակ՝ դրանք ավելի շատ հիշողություն կխլեն:">
 <!ENTITY limitContentProcessOption.accesskey   "ս">
-<!ENTITY limitContentProcessOption.disabledDescription "Բովանդակության ընթացքների քանակի փոփոխումը հնարավոր է միայն բազմամշակիչ &brandShortName;-ի դեպքում:">
-<!ENTITY limitContentProcessOption.disabledDescriptionLink "Իմանալ, թե ինչպես ստուգել՝ արդյոք բազմամշակիչը միացված է">
+
+
 <!ENTITY allowHWAccel.label              "Հնարավորության դեպքում օգտագործել սարքակազմի արագացումը ">
 <!ENTITY allowHWAccel.accesskey          "ր">

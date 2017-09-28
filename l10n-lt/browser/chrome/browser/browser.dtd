@@ -122,7 +122,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenMinimize.tooltip "Suskleisti">
 <!ENTITY fullScreenRestore.tooltip "Normalioji veiksena">
 <!ENTITY fullScreenClose.tooltip "Užverti">
-<!ENTITY fullScreenAutohide.label "Slėpti įrankių juostas">
+<!ENTITY fullScreenAutohide.label "Slėpti priemonių juostas">
 <!ENTITY fullScreenAutohide.accesskey "S">
 <!ENTITY fullScreenExit.label "Grįžti iš viso ekrano veiksenos">
 <!ENTITY fullScreenExit.accesskey "v">
@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Mobilusis adresynas">
 <!ENTITY viewBookmarksSidebar2.label        "Rodyti adresyną parankinėje">
 <!ENTITY viewBookmarksToolbar.label         "Rodyti adresyno juostą">
+<!ENTITY searchBookmarks.label              "Ieškoti adresyne">
 
 <!ENTITY containersMenu.label "Sudėtinės kortelės">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
@@ -331,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "P">
 <!ENTITY viewCustomizeToolbar.label       "Tvarkyti…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "T">
+<!ENTITY overflowCustomizeToolbar.label       "Tvarkyti priemonių juostą…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "T">
 
 <!ENTITY historyMenu.label "Žurnalas">
 <!ENTITY historyMenu.accesskey "u">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Valyti žurnalą…">
 <!ENTITY appMenuHistory.restoreSession.label "Atkurti paskiausiąjį seansą">
 <!ENTITY appMenuHistory.viewSidebar.label "Rodyti žurnalo parankinę">
+<!ENTITY appMenuHistory.recentHistory.label "Žurnalas">
 <!ENTITY appMenuHelp.label "Žinynas">
 <!ENTITY appMenuHelp.tooltip "Atverti žinyno meniu">
 
@@ -420,7 +424,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.placeholder2          "Įveskite adresą arba paieškos žodžius">
 <!ENTITY urlbar.accesskey             "d">
 <!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
-<!ENTITY urlbar.extension.label       "Plėtinys:">
+<!ENTITY urlbar.extension.label       "Priedas:">
 <!ENTITY urlbar.switchToTab.label     "Pereiti į kortelę:">
 
 <!ENTITY urlbar.searchSuggestionsNotification.question "Ar norėtumėte paieškos metu matyti siūlymus?">
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY contentSearchInput.label     "Paieškos užklausa">
 <!ENTITY contentSearchSubmit.tooltip  "Išsiųsti paiešką">
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+
+<!ENTITY searchInput.placeholder      "Ieškoti">
+<!ENTITY searchIcon.tooltip           "Paieška">
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
@@ -850,6 +859,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Gauti daugiau temų">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "G">
+<!ENTITY customizeMode.emptyOverflowList.description "Nutempkite elementus čia, kad jie būtų pasiekiami, tačiau neužimtų vietos įrankinėje…">
+<!ENTITY customizeMode.uidensity "Tankis">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Normalus">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "&amp;Normalus">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "N">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Kompaktiškas">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Kompaktiškas">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "K">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Lietimui">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Lietimui">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "L">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Naudoti „lietimui“ planšetės veiksenoje">
 
 <!ENTITY getUserMedia.selectCamera.label "Kamera, kurią leisite pasiekti:">
 <!ENTITY getUserMedia.selectCamera.accesskey "K">
@@ -959,8 +989,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2 "Perleiskite, norėdami atnaujinti „&brandShorterName;“">
 
 <!ENTITY pageActionButton.tooltip "Tinklalapio veiksmai">
+<!ENTITY pageAction.addToUrlbar.label "Pridėti į adreso juosta">
+<!ENTITY pageAction.removeFromUrlbar.label "Pašalinti iš adreso juostos">
 
-<!ENTITY sendToDevice.label "Siųsti į įrenginį…">
-<!ENTITY sendToDevice.viewTitle "Siųsti į įrenginį">
-<!ENTITY sendToDevice.fxaRequired.label "Privaloma">
-<!ENTITY sendToDevice.noDevices.label "Įrenginių nėra">
+<!ENTITY sendToDevice.label2 "Siųsti į įrenginį">
+<!ENTITY sendToDevice.syncNotReady.label "Sinchronizuojami įrenginiai…">

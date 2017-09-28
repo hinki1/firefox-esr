@@ -68,6 +68,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Plurprocezaj fenestroj">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Teksaĵaj enhavaj taskoj">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Ŝlosilo de Google">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Ŝlosilo de la servo de pozicio de Mozilla">
 
@@ -106,6 +108,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Alirebleco">
 <!ENTITY aboutSupport.a11yActivated "Aktiva">
 <!ENTITY aboutSupport.a11yForceDisabled "Eviti alireblon">
+<!ENTITY aboutSupport.a11yHandlerUsed "Alirebleca pelilo uzita">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Versioj de bibliotekoj">
 
@@ -136,3 +139,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Registro de decidoj">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Trajtoj malŝaltitaj de la protekto kontraŭ paneoj">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Provizoraj solvoj">
+
+<!ENTITY aboutSupport.mediaTitle "Aŭdvidaĵo">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Eligaj aparatoj">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Enigaj aparatoj">
+<!ENTITY aboutSupport.mediaDeviceName "Nomo">
+<!ENTITY aboutSupport.mediaDeviceGroup "Grupo">
+<!ENTITY aboutSupport.mediaDeviceVendor "Vendisto">
+<!ENTITY aboutSupport.mediaDeviceState "Stato">
+<!ENTITY aboutSupport.mediaDevicePreferred "Preferata">
+<!ENTITY aboutSupport.mediaDeviceFormat "Formo">
+<!ENTITY aboutSupport.mediaDeviceChannels "Kanaloj">
+<!ENTITY aboutSupport.mediaDeviceRate "Frekvenco">
+<!ENTITY aboutSupport.mediaDeviceLatency "Prokrasto">

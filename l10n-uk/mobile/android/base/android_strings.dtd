@@ -295,6 +295,9 @@
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "URL скопійовано">
 
+<!ENTITY pref_pwa "Прогресивні веб-додатки">
+<!ENTITY pref_pwa_summary "Дозволити веб-додаткам додаватися на домашній екран">
+
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Потік активності">
 <!ENTITY pref_activity_stream_summary "Розширена візуальна стрічка історії та оновлений вигляд домівки дозволяють дуже просто знайти саме те, що ви шукаєте в &brandShortName;.">
@@ -545,6 +548,7 @@
 <!ENTITY page_removed "Сторінку прибрано">
 
 <!ENTITY bookmark_edit_title "Редагувати закладку">
+<!ENTITY bookmark_edit_folder_title "Змінити теку">
 <!ENTITY bookmark_edit_name "Назва">
 <!ENTITY bookmark_edit_location "Адреса">
 <!ENTITY bookmark_edit_keyword "Ключове слово">
@@ -621,6 +625,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Показати вибрані пристрої">
+
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+<!ENTITY home_pinned_site "Прикріплений сайт">
+<!ENTITY home_unpinned_site "Відкріплений сайт">
 
 <!ENTITY remote_tabs_panel_moved_title "Куди поділись мої вкладки?">
 <!ENTITY remote_tabs_panel_moved_desc "Ми перемістили ваші вкладки з інших пристроїв у панель домашньої сторінки, до якої ви можете легко отримати доступ щоразу при відкритті нової вкладки.">
@@ -819,12 +828,12 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY promotion_add_to_homescreen "Додати на головний екран">
 
-<!ENTITY helper_first_offline_bookmark_title "Читати автономно">
+<!ENTITY helper_first_offline_bookmark_title "Читайте без Інтернету">
 <!ENTITY helper_first_offline_bookmark_message "Знаходьте елементи списку читання в закладках, навіть в автономному режимі.">
 <!ENTITY helper_first_offline_bookmark_button "Перейти до закладок">
 
-<!ENTITY helper_triple_readerview_open_title "Автономний доступ">
-<!ENTITY helper_triple_readerview_open_message "Закласти елементи режиму читання для автономного доступу.">
+<!ENTITY helper_triple_readerview_open_title "Доступ без Інтернету">
+<!ENTITY helper_triple_readerview_open_message "Додавайте закладки для елементів режиму читання, щоб читати їх без Інтернету.">
 <!ENTITY helper_triple_readerview_open_button "Додати до закладок">
 
 <!ENTITY activity_stream_topsites "Популярні сайти">

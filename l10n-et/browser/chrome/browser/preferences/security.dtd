@@ -3,9 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  security.label                 "Turvalisus">
+<!ENTITY  phishingProtection.label       "Veebivõltsingute vastane kaitse">
 
-<!ENTITY  warnOnAddonInstall.label        "Hoiatus, kui veebilehed üritavad paigaldada lisasid">
-<!ENTITY  warnOnAddonInstall.accesskey    "H">
+<!ENTITY  warnOnAddonInstall2.label       "Hoiatus, kui veebilehed üritavad paigaldada lisasid">
+<!ENTITY  warnOnAddonInstall2.accesskey   "H">
 
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
@@ -26,8 +27,8 @@
 
 <!ENTITY  formsAndPasswords.label       "Vormid ja paroolid">
 
-<!ENTITY  rememberLogins1.label          "Saitide kasutajanimed ja paroolid peetakse meeles">
-<!ENTITY  rememberLogins1.accesskey      "S">
+<!ENTITY  rememberLogins2.label         "Saitide kasutajanimed ja paroolid peetakse meeles">
+<!ENTITY  rememberLogins2.accesskey     "t">
 <!ENTITY  passwordExceptions.label      "Erandid…">
 <!ENTITY  passwordExceptions.accesskey  "r">
 

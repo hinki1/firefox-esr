@@ -4,8 +4,8 @@
 
 <!ENTITY  general.label                 "Üldine">
 
-<!ENTITY  warnOnAddonInstall.label        "Hoiatus, kui veebilehed üritavad paigaldada lisasid">
-<!ENTITY  warnOnAddonInstall.accesskey    "H">
+<!ENTITY  warnOnAddonInstall2.label       "Hoiatus, kui veebilehed üritavad paigaldada lisasid">
+<!ENTITY  warnOnAddonInstall2.accesskey   "H">
 
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
@@ -26,8 +26,8 @@
 
 <!ENTITY  logins.label                  "Kasutajakontod">
 
-<!ENTITY  rememberLogins.label          "Saitide kasutajakontod salvestatakse">
-<!ENTITY  rememberLogins.accesskey      "S">
+<!ENTITY  rememberLogins2.label         "Saitide kasutajakontod salvestatakse">
+<!ENTITY  rememberLogins2.accesskey     "j">
 <!ENTITY  passwordExceptions.label      "Erandid…">
 <!ENTITY  passwordExceptions.accesskey  "r">
 

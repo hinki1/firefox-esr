@@ -21,10 +21,9 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "Handelv">
 <!ENTITY aboutSupport.extensionId "Naoudi">
 
-<!ENTITY aboutSupport.featuresTitle "Keweriusterioù &brandShortName;">
-<!ENTITY aboutSupport.featureName "Anv">
-<!ENTITY aboutSupport.featureVersion "Handelv">
-<!ENTITY aboutSupport.featureId "Naoudi">
+
+
+
 
 <!ENTITY aboutSupport.experimentsTitle "Keweriusterioù arnodel">
 <!ENTITY aboutSupport.experimentName "Anv">
@@ -66,6 +65,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Prenestroù liesargerzh">
 
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Alc'hwez Google">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Alc'hwez Gwazerezh Lec'hiadur Mozilla">
 
@@ -105,6 +105,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yActivated "Gweredekaet">
 <!ENTITY aboutSupport.a11yForceDisabled "Mirout ouzh an haezadusted">
 
+
 <!ENTITY aboutSupport.libraryVersionsTitle "Handelvoù ar mezarc'hioù">
 
 <!ENTITY aboutSupport.installationHistoryTitle "Roll istor staliadur">
@@ -134,3 +135,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Kerzhlevr divizoù">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Keweriusterioù diweredekaet gant ar gwarez e-enep d'ar sac'hadennoù">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Tremen e-biou">
+
+
+
+
+
+
+
+
+
+
+
+

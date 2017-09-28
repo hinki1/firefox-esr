@@ -19,7 +19,7 @@
 <!ENTITY  sans-serif.label                        "Fără serife:">
 <!ENTITY  sans-serif.accesskey                    "n">
 <!ENTITY  monospace.label                         "Monospațiat:">
-<!ENTITY  monospace.accesskey                     "i">
+<!ENTITY  monospace.accesskey                     "M">
 <!-- LOCALIZATION NOTE (font.langGroup.latin) :
      Translate "Latin" as the name of Latin (Roman) script, not as the name of the Latin language. -->
 

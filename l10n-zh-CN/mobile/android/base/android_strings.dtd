@@ -42,7 +42,7 @@
 
 <!-- Localization note: These are used as the titles of different pages on the home screen.
      They are automatically converted to all caps by the Android platform. -->
-<!ENTITY  bookmarks_title "书签">
+<!ENTITY  bookmarks_title "移动书签">
 <!ENTITY  history_title "历史记录">
 
 <!ENTITY  switch_to_tab "切换到标签页">
@@ -65,7 +65,7 @@
 
 <!ENTITY url_bar_default_text2 "搜索或输入网址">
 
-<!ENTITY bookmark "书签">
+<!ENTITY bookmark "添加书签">
 <!ENTITY bookmark_remove "移除书签">
 <!ENTITY bookmark_added "书签已添加">
 <!-- Localization note (bookmark_already_added) : This string is
@@ -116,7 +116,7 @@
      We can't use android plural forms, sadly. See bug #753859. -->
 <!ENTITY num_tabs2 "&formatD; 个标签页">
 <!ENTITY new_tab_opened "已打开新标签页">
-<!ENTITY new_private_tab_opened "已新建隐私浏览标签页">
+<!ENTITY new_private_tab_opened "已新建隐私标签页">
 <!-- Localization note (switch_button_message): This string should be as short
      as possible because it's shown as a label in a toast.  Ideally, this string
      is upper-case, to match Google and Android's convention. -->
@@ -184,7 +184,7 @@
 <!ENTITY pref_category_logins "登录信息">
 <!ENTITY pref_learn_more "详细了解">
 <!ENTITY pref_category_installed_search_engines "已安装的搜索引擎">
-<!ENTITY pref_category_add_search_providers "添加更多搜索提供商">
+<!ENTITY pref_category_add_search_providers "添加更多搜索引擎">
 <!ENTITY pref_category_search_restore_defaults "恢复搜索引擎">
 <!ENTITY pref_search_restore_defaults "恢复默认设置">
 <!ENTITY pref_search_restore_defaults_summary "恢复默认设置">
@@ -193,7 +193,7 @@
      search providers.
      The &formatI; in the string will be replaced by a small image of the icon described, and can be moved to wherever
      it is applicable. -->
-<!ENTITY pref_search_hint2 "提示：您可以长按任何网站的搜索框，然后点击 &formatI; 图标，将网站添加到您的搜索提供商列表。">
+<!ENTITY pref_search_hint2 "提示：您可以长按任何网站的搜索框，然后轻触 &formatI; 图标，将网站添加到您的搜索引擎列表。">
 <!ENTITY pref_category_advanced "高级">
 <!-- Localization note (pref_category_advanced_summary3): “data saver” in this
      context means consuming less data, e.g. by not loading images, not
@@ -205,7 +205,7 @@
 <!ENTITY pref_content_notifications_summary2 "发现已支持网站的新内容">
 <!ENTITY pref_developer_remotedebugging_usb "通过 USB 远程调试">
 <!ENTITY pref_developer_remotedebugging_wifi "通过 Wi-Fi 远程调试">
-<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "Wi-Fi 调试需要您的设备已安装一个二维码扫描应用。">
+<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "您的设备需要安装二维码扫描应用才能使用 Wi-Fi 调试。">
 <!ENTITY pref_remember_signons2 "记住登录信息">
 <!ENTITY pref_manage_logins "管理登录信息">
 
@@ -286,7 +286,7 @@
 <!-- Custom Tabs is an Android API for allowing third-party apps to open URLs in a customized UI.
      Instead of switching to the browser it appears as if the user stays in the third-party app.
      For more see: https://developer.chrome.com/multidevice/android/customtabs -->
-<!ENTITY pref_custom_tabs "自定义标签页">
+<!ENTITY pref_custom_tabs "自定义标签页 (Custom Tabs)">
 <!ENTITY pref_custom_tabs_summary3 "允许应用使用定制版本的 &brandShortName; 打开网站">
 <!-- Localization note (custom_tabs_menu_item_open_in): The variable is replaced by the name of
      default browser from user's preference, such as "Open in Firefox" -->
@@ -295,12 +295,15 @@
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "网址已复制">
 
+<!ENTITY pref_pwa "渐进式 Web 应用">
+<!ENTITY pref_pwa_summary "允许网页应用添加到主屏幕">
+
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "活动流">
 <!ENTITY pref_activity_stream_summary "将您的上网足迹可视化并重新构想首页设计，让您能更方便地在 &brandShortName; 中找到想要的信息。">
 
 <!ENTITY tracking_protection_prompt_title "现在有了跟踪保护功能">
-<!ENTITY tracking_protection_prompt_text "主动拦截跟踪您的元素，不再需要担心。">
+<!ENTITY tracking_protection_prompt_text "主动拦截跟踪您的元素，无需劳心。">
 <!ENTITY tracking_protection_prompt_tip_text "在“隐私”设置中详细了解">
 <!ENTITY tracking_protection_prompt_action_button "明白了！">
 
@@ -311,7 +314,7 @@
 <!ENTITY tab_queue_prompt_tip_text2 "您以后可以在“设置”中更改此行为">
 <!-- Localization note (tab_queue_prompt_permit_drawing_over_apps): This additional text is shown if the
      user needs to enable an Android setting in order to enable tab queues. -->
-<!ENTITY tab_queue_prompt_permit_drawing_over_apps "开启在其他应用上绘制的权限">
+<!ENTITY tab_queue_prompt_permit_drawing_over_apps "授予“在其他应用上绘制”的权限">
 <!ENTITY tab_queue_prompt_positive_action_button "启用">
 <!ENTITY tab_queue_prompt_negative_action_button "暂时不要">
 <!-- Localization note (tab_queue_prompt_settings_button): This button is shown if the user needs to
@@ -360,7 +363,7 @@
 <!ENTITY pref_clear_on_exit_dialog_title "选择要清除的数据">
 <!ENTITY pref_plugins "插件">
 <!ENTITY pref_plugins_enabled "启用">
-<!ENTITY pref_plugins_tap_to_play2 "点击播放">
+<!ENTITY pref_plugins_tap_to_play2 "轻触此处即可播放">
 <!ENTITY pref_plugins_disabled "禁用">
 <!ENTITY pref_restore_tabs "恢复标签页">
 <!ENTITY pref_restore_always "总是恢复">
@@ -450,7 +453,7 @@
      actual notification that an update is available. -->
 <!ENTITY pref_update_autodownload3 "自动更新">
 <!ENTITY pref_update_autodownload_wifi "仅通过 Wi-Fi">
-<!ENTITY pref_update_autodownload_never "总不">
+<!ENTITY pref_update_autodownload_never "永不">
 <!ENTITY pref_update_autodownload_always "总是">
 
 <!-- Localization note (help_menu) : This string is used in the main menu-->
@@ -473,9 +476,9 @@
 <!ENTITY page "页面">
 <!ENTITY tools "工具">
 <!ENTITY new_tab "新建标签页">
-<!ENTITY new_private_tab "新建隐私浏览标签页">
+<!ENTITY new_private_tab "新建隐私标签页">
 <!ENTITY close_all_tabs "关闭所有标签页">
-<!ENTITY close_private_tabs "关闭隐私浏览标签页">
+<!ENTITY close_private_tabs "关闭隐私标签页">
 <!ENTITY tabs_normal "标签页">
 <!ENTITY tabs_private "隐私">
 <!ENTITY set_image_fail "无法设置图像">
@@ -497,7 +500,7 @@
 <!ENTITY media_stop "停止">
 
 <!ENTITY contextmenu_open_new_tab "在新标签页中打开">
-<!ENTITY contextmenu_open_private_tab "在隐私浏览标签页中打开">
+<!ENTITY contextmenu_open_private_tab "在隐私标签页中打开">
 <!ENTITY contextmenu_remove "移除">
 <!ENTITY contextmenu_add_to_launcher "添加到主屏幕">
 <!ENTITY contextmenu_set_as_homepage "设为主页">
@@ -523,7 +526,7 @@
 <!ENTITY doorhanger_login_edit_toggle "显示密码">
 <!ENTITY doorhanger_login_select_message "复制 &formatS; 的密码？">
 <!ENTITY doorhanger_login_select_toast_copy "密码已复制到剪贴板">
-<!ENTITY doorhanger_login_select_action_text "选择其他登录信息">
+<!ENTITY doorhanger_login_select_action_text "选择另一组登录信息">
 <!ENTITY doorhanger_login_select_title "复制密码从">
 
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
@@ -545,6 +548,7 @@
 <!ENTITY page_removed "页面已移除">
 
 <!ENTITY bookmark_edit_title "编辑书签">
+<!ENTITY bookmark_edit_folder_title "编辑文件夹">
 <!ENTITY bookmark_edit_name "名称">
 <!ENTITY bookmark_edit_location "地址">
 <!ENTITY bookmark_edit_keyword "关键词">
@@ -600,7 +604,7 @@
 <!ENTITY home_most_recent_empty "您最近常访问的网站将出现在这里。">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
-<!ENTITY home_most_recent_emptyhint2 "悄悄告诉你：在&formatS1;隐私浏览标签页&formatS2; 中浏览网页不会留下任何痕迹！">
+<!ENTITY home_most_recent_emptyhint2 "悄悄告诉你：在&formatS1;隐私标签页&formatS2; 中浏览网页不会留下任何痕迹！">
 
 <!-- Localization note (home_default_empty): This string is used as the default text when there
      is no data to show in an about:home panel that was created by an add-on. -->
@@ -621,6 +625,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "不再隐藏选中的设备">
+
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+<!ENTITY home_pinned_site "已固定网站">
+<!ENTITY home_unpinned_site "已取消固定网站">
 
 <!ENTITY remote_tabs_panel_moved_title "我的标签页去哪了？">
 <!ENTITY remote_tabs_panel_moved_desc "您其他设备上打开的标签页现在会在首页上的一个面板里显示，方便您在打开新标签页时查看。">
@@ -677,7 +686,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY bookmarkhistory_import_history "正在从 Android 导入历史记录">
 <!ENTITY bookmarkhistory_import_wait "请稍候...">
 
-<!ENTITY suggestions_prompt3 "您是否要开启搜索建议？">
+<!ENTITY suggestions_prompt3 "想要开启搜索建议吗？">
 <!--  Localization note (search_bar_item_desc): When the user clicks the url bar
       and starts typing, a list of icons of search engines appears at the bottom
       of the screen. When a user clicks an icon, the entered text will be searched
@@ -694,21 +703,21 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY searchable_description "书签及历史">
 
  <!-- Updater notifications -->
-<!ENTITY updater_start_title2 "&brandShortName; 有可用更新">
-<!ENTITY updater_start_select2 "点此立即下载">
+<!ENTITY updater_start_title2 "&brandShortName; 有新版本可用">
+<!ENTITY updater_start_select2 "轻触此处下载">
 
 <!ENTITY updater_downloading_title2 "正在下载 &brandShortName;">
 <!ENTITY updater_downloading_title_failed2 "下载失败">
-<!ENTITY updater_downloading_select2 "下载完毕后请触摸以应用更新">
-<!ENTITY updater_downloading_retry2 "点此立即重试">
+<!ENTITY updater_downloading_select2 "轻触此处在下载完成后安装更新">
+<!ENTITY updater_downloading_retry2 "轻触此处重试">
 
-<!ENTITY updater_apply_title3 "应用已下载的 &brandShortName; 更新">
-<!ENTITY updater_apply_select3 "点按开始安装">
+<!ENTITY updater_apply_title3 "新版 &brandShortName; 下载完毕">
+<!ENTITY updater_apply_select3 "轻触此处安装">
 
 <!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
      if the app requires a runtime permission to download updates. Currently, the updater only sees
      remotely advertised updates in the Nightly and Aurora channels. -->
-<!ENTITY updater_permission_text "要下载文件和进行更新，请允许 &brandShortName; 访问存储设备。">
+<!ENTITY updater_permission_text "为了下载文件和进行更新，请允许 &brandShortName; 访问存储空间。">
 <!-- LOCALIZATION NOTE (updater_permission_allow): This action is shown in a snackbar along with updater_permission_text. -->
 <!ENTITY updater_permission_allow "允许">
 
@@ -718,7 +727,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY guest_session_dialog_continue "继续">
 <!ENTITY guest_session_dialog_cancel "取消">
 <!ENTITY new_guest_session_title "&brandShortName; 将重新启动">
-<!ENTITY new_guest_session_text2 "使用此模式的人不会看到您的任何个人数据（如已保存的登录信息、历史记录和书签）。\n\n当您的访客退出后，他们的浏览数据也将被删除，您的会话也将被恢复。">
+<!ENTITY new_guest_session_text2 "使用此模式的人不会看到您的任何个人数据（如已保存的登录信息、历史记录和书签）。\n\n当您的访客退出后，他们的浏览数据将被删除，将还原您的浏览状态。">
 <!ENTITY guest_browsing_notification_title "访客浏览已启用">
 <!ENTITY guest_browsing_notification_text "点按以退出">
 
@@ -783,7 +792,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY restrictable_feature_clear_history "清除历史记录">
 <!ENTITY restrictable_feature_clear_history_description "允许家庭成员删除有关他们访问的网站和页面的信息，">
 <!ENTITY restrictable_feature_advanced_settings "高级设置">
-<!ENTITY restrictable_feature_advanced_settings_description "这包含导入书签、恢复标签页和自动更新。关闭此选项可简化家庭成员使用时所须设定的内容。">
+<!ENTITY restrictable_feature_advanced_settings_description "这包含导入书签、恢复标签页和自动更新。关闭此选项可简化家人使用时须设定的内容。">
 <!ENTITY restrictable_feature_camera_microphone "相机和麦克风">
 <!ENTITY restrictable_feature_camera_microphone_description "允许家庭成员在网站上即时通讯。">
 <!ENTITY restrictable_feature_block_list "拦截列表">
@@ -817,11 +826,11 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY promotion_add_to_homescreen "添加到主屏幕">
 
 <!ENTITY helper_first_offline_bookmark_title "离线阅读">
-<!ENTITY helper_first_offline_bookmark_message "在您的书签中打开您的阅读项目，离线也不怕。">
+<!ENTITY helper_first_offline_bookmark_message "在书签中打开您的阅读项目，没网也不怕。">
 <!ENTITY helper_first_offline_bookmark_button "转至书签">
 
 <!ENTITY helper_triple_readerview_open_title "没网也能读">
-<!ENTITY helper_triple_readerview_open_message "加入书签的阅读视图项目可以离线阅读。">
+<!ENTITY helper_triple_readerview_open_message "为阅读项目添加书签，没网也能读。">
 <!ENTITY helper_triple_readerview_open_button "添加书签">
 
 <!ENTITY activity_stream_topsites "常用网站">
@@ -829,10 +838,10 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!-- LOCALIZATION NOTE (activity_stream_highlight_label_bookmarked): This label is shown in the Activity
 Stream list for highlights sourced from th user's bookmarks. -->
-<!ENTITY activity_stream_highlight_label_bookmarked "书签">
+<!ENTITY activity_stream_highlight_label_bookmarked "已加书签">
 <!-- LOCALIZATION NOTE (activity_stream_highlight_label_visited): This label is shown in the Activity
 Stream list for highlights sourced from th user's bookmarks. -->
-<!ENTITY activity_stream_highlight_label_visited "访问过">
+<!ENTITY activity_stream_highlight_label_visited "曾经访问">
 
 <!-- LOCALIZATION NOTE (activity_stream_dismiss): This label is shown in the Activity Stream context menu,
 and allows hiding a URL/page from highlights or topsites. The page remains in history/bookmarks, but

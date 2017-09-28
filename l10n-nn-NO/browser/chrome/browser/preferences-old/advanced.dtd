@@ -14,7 +14,7 @@
 <!ENTITY searchOnStartTyping.accesskey   "k">
 <!ENTITY blockAutoReload.label           "Åtvar meg når nettsider prøver å omdirigere eller laste sida på nytt">
 <!ENTITY blockAutoReload.accesskey       "Å">
-<!ENTITY useOnScreenKeyboard.label       "Vis eit touch-tastatur når nødvendig">
+<!ENTITY useOnScreenKeyboard.label       "Vis eit tøtsj-tastatur når nødvendig">
 <!ENTITY useOnScreenKeyboard.accesskey   "t">
 
 <!ENTITY browsing.label                  "Nettlesing">
@@ -27,6 +27,11 @@
 <!ENTITY checkUserSpelling.accesskey     "K">
 
 <!ENTITY dataChoicesTab.label            "Datainnstillingar">
+
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "Datarapportering er deaktivert for denne byggekonfigurasjonen">
 
 <!ENTITY healthReportDesc.label          "Hjelper deg å forstå nettlesarytinga, og deler data med &vendorShortName; om helsa til nettlesaren din">
 <!ENTITY enableHealthReport.label        "Slå på &brandShortName; helserapport">

@@ -28,7 +28,7 @@
 
 <!ENTITY  history.label                 "Zgodovina">
 
-<!ENTITY  locationBar.label             "Vrstica z naslovom">
+<!ENTITY  locationBar.label             "Naslovna vrstica">
 
 <!ENTITY  locbar.suggest.label          "Pri uporabi vrstice z naslovom predlagaj:">
 <!ENTITY  locbar.history.label          "Zgodovino">
@@ -43,8 +43,8 @@
 <!ENTITY  suggestionSettings.label      "Spremeni nastavitve predlogov iskanja …">
 <!ENTITY  suggestionSettings.accesskey  "g">
 
-<!ENTITY  acceptCookies.label           "Dovoli stranem, da ustvarijo piškotke.">
-<!ENTITY  acceptCookies.accesskey       "v">
+<!ENTITY  acceptCookies2.label          "Dovoli spletnim stranem, da ustvarijo piškotke">
+<!ENTITY  acceptCookies2.accesskey      "S">
 
 <!ENTITY  acceptThirdParty.pre.label      "Sprejemaj piškotke tretjih strani:">
 <!ENTITY  acceptThirdParty.pre.accesskey  "r">

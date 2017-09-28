@@ -54,6 +54,7 @@
 <!ENTITY aboutSupport.appBasicsServiceWorkers "Zarejestrowane wątki usługowe">
 <!ENTITY aboutSupport.appBasicsProfiles "Profile">
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Okna wieloprocesowe">
+<!ENTITY aboutSupport.appBasicsProcessCount "Procesy treści sieciowych">
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Klucz Google">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Klucz usługi lokalizacji Mozilli">
 <!ENTITY aboutSupport.appBasicsSafeMode "Tryb awaryjny">
@@ -85,6 +86,7 @@
 <!ENTITY aboutSupport.a11yTitle "Ułatwienia dostępu">
 <!ENTITY aboutSupport.a11yActivated "Aktywne">
 <!ENTITY aboutSupport.a11yForceDisabled "Zablokuj ułatwienia dostępu">
+<!ENTITY aboutSupport.a11yHandlerUsed "Aktywna obsługa dostępności">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Wersje bibliotek">
 
@@ -115,3 +117,16 @@
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Decyzje">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Funkcje wyłączone dla ochrony przed awariami">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Obejścia problemów">
+
+<!ENTITY aboutSupport.mediaTitle "Media">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Urządzenia wyjściowe">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Urządzenia wejściowe">
+<!ENTITY aboutSupport.mediaDeviceName "Nazwa">
+<!ENTITY aboutSupport.mediaDeviceGroup "Grupa">
+<!ENTITY aboutSupport.mediaDeviceVendor "Dostawca">
+<!ENTITY aboutSupport.mediaDeviceState "Stan">
+<!ENTITY aboutSupport.mediaDevicePreferred "Preferowane">
+<!ENTITY aboutSupport.mediaDeviceFormat "Format">
+<!ENTITY aboutSupport.mediaDeviceChannels "Kanały">
+<!ENTITY aboutSupport.mediaDeviceRate "Częstotliwość próbkowania">
+<!ENTITY aboutSupport.mediaDeviceLatency "Opóźnienie">

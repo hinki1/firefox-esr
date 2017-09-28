@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY ctrlTabRecentlyUsedOrder.label       "Ctrl+Tab mejaj pa taq ruwi' pa k'ak'a' rokisaxik kicholajem">
+<!ENTITY ctrlTabRecentlyUsedOrder.label       "Ctrl+Tab mejaj pa taq ruwi' pa k'ak'a' kokisaxik kicholajem">
 <!ENTITY ctrlTabRecentlyUsedOrder.accesskey   "T">
 
 <!ENTITY newWindowsAsTabs.label       "Kejaq k'ak'a' taq tzuwäch pa jun k'ak'a' ruwi' pa ruk'exel">

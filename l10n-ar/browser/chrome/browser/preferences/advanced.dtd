@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "عام">
 
-<!ENTITY accessibility.label             "الإتاحة">
-
 <!ENTITY useCursorNavigation.label       "استعمل دائمًا مفاتيح الأسهم للتنقل داخل الصفحات">
 <!ENTITY useCursorNavigation.accesskey   "س">
 <!ENTITY searchOnStartTyping.label       "ابحث عن النص مع بداية الكتابة">
 <!ENTITY searchOnStartTyping.accesskey   "ح">
-<!ENTITY blockAutoReload.label           "حذّرني عندما تحاول مواقع وِب إعادة توجيه أو تحميل الصفحة">
-<!ENTITY blockAutoReload.accesskey       "و">
 <!ENTITY useOnScreenKeyboard.label       "اعرض لوحة مفاتيح باللمس عند الضرورة">
 <!ENTITY useOnScreenKeyboard.accesskey   "م">
 
@@ -27,25 +23,27 @@
 <!ENTITY checkUserSpelling.accesskey     "ك">
 
 <!ENTITY dataChoicesTab.label            "اختيارات البيانات">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
 
-<!ENTITY healthReportDesc.label          "يساعدك في تفحص أداء متصفحك ومشاركة بيانات حالة المتصفح مع &vendorShortName;">
-<!ENTITY enableHealthReport.label        "فعّل تقرير حالة &brandShortName;">
-<!ENTITY enableHealthReport.accesskey    "ت">
+<!ENTITY healthReportingDisabled.label   "الإبلاغ عن البيانات معطّل في إعدادات البناء">
+
+<!ENTITY enableHealthReport1.label       "اسمح أن يُرسل &brandShortName; تلقائيًا بيانات تقنية و بيانات التفاعل إلى موزيلا">
+<!ENTITY enableHealthReport1.accesskey   "س">
 <!ENTITY healthReportLearnMore.label     "اطّلع على المزيد">
 
-<!ENTITY telemetryDesc.label             "شارك بيانات المتصفح فيما يتعلق بالأداء و الاستخدام و العتاد و التخصيصات مع &vendorShortName; لمساعدتنا في جعل &brandShortName; أفضل">
-<!ENTITY enableTelemetryData.label       "شارك بيانات إضافية (تليميتري)">
-<!ENTITY enableTelemetryData.accesskey   "ت">
-<!ENTITY telemetryLearnMore.label        "اطّلع على المزيد">
+<!ENTITY dataCollection.label            "جمع &brandShortName; للبيانات و استخدامها">
+<!ENTITY dataCollectionDesc.label        "نبذل جهدنا لإعطائك الخيار و جمع ما نحتاجه فقط لتحسين &brandShortName;. نطلب الإذن دائمًا قبل استقبال أي معلومات شخصية.">
+<!ENTITY dataCollectionPrivacyNotice.label    "تنويه الخصوصية">
 
-<!ENTITY crashReporterDesc2.label         "بلاغات الانهيار تساعد &vendorShortName; على إصلاح المشاكل و جعل متصفحك أكثر أمانًا و ثباتًا">
-<!ENTITY alwaysSubmitCrashReports.label   "اسمح بأن يُرسل &brandShortName; بلاغات الانهيار المعلقة نيابة عنك">
-<!ENTITY alwaysSubmitCrashReports.accesskey "ن">
-<!ENTITY crashReporterLearnMore.label     "اطّلع على المزيد">
+<!ENTITY alwaysSubmitCrashReports1.label  "اسم أن يرسل &brandShortName; بلاغلات الانهيار إلى موزيلا">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "ن">
+<!ENTITY crashReporterLearnMore.label    "اطّلع على المزيد">
 
 <!ENTITY networkTab.label                "الشبكة">
 
-<!ENTITY connection.label                "الاتصال">
+<!ENTITY networkProxy.label              "وسيط الشبكة">
 
 <!ENTITY connectionDesc.label            "اضبط كيفية اتصال &brandShortName; بالإنترنت">
 <!ENTITY connectionSettings.label        "الإعدادات…">
@@ -92,11 +90,12 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+<!ENTITY updateApplicationDescription.label "أبقِ &brandShortName; للحصول على أحسن أداء و ثبات و أمان.">
 <!ENTITY updateApplication.version.pre   "الإصدارة ">
 <!ENTITY updateApplication.version.post  "​">
 <!ENTITY updateApplication.description   "اسمح ل‍&brandShortName; أن">
-<!ENTITY updateAuto2.label               "ينصّب التحديثات تلقائيًا (مستحسن لزيادة الأمان)">
-<!ENTITY updateAuto2.accesskey           "ح">
+<!ENTITY updateAuto3.label               "نزّل التحديثات تلقائيا (مستحسن)">
+<!ENTITY updateAuto3.accesskey           "ن">
 <!ENTITY updateCheckChoose2.label        "يلتمس التحديثات، و لكن يترك لك خيار تنصيبها من عدمه">
 <!ENTITY updateCheckChoose2.accesskey    "ت">
 <!ENTITY updateManual2.label             "لا يلتمس التحديثات أبدًا (غير مستحسن)">
@@ -110,8 +109,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "حدّث محركات البحث تلقائيًا">
 <!ENTITY enableSearchUpdate2.accesskey   "ك">
-
-<!ENTITY reports.label                   "التقارير">
 
 <!ENTITY offlineStorageNotify.label               "نبّهني عندما يطلب موقع تخزين بيانات للاستخدام دون اتصال">
 <!ENTITY offlineStorageNotify.accesskey           "ه">
@@ -132,10 +129,10 @@
 <!ENTITY selectCerts.ask.accesskey       "س">
 <!ENTITY enableOCSP.label                "استعلم من خواديم مستجيبي OCSP عن الصلاحية الحالية للشهادات">
 <!ENTITY enableOCSP.accesskey            "س">
-<!ENTITY viewCerts.label                 "اعرض الشهادات">
-<!ENTITY viewCerts.accesskey             "ش">
-<!ENTITY viewSecurityDevices.label       "أجهزة الأمن">
-<!ENTITY viewSecurityDevices.accesskey   "ج">
+<!ENTITY viewCerts2.label                "اعرض الشهادات…">
+<!ENTITY viewCerts2.accesskey            "ش">
+<!ENTITY viewSecurityDevices2.label      "أجهزة الأمن…">
+<!ENTITY viewSecurityDevices2.accesskey  "ج">
 
 <!ENTITY performance.label               "الأداء">
 <!ENTITY useRecommendedPerformanceSettings2.label "استعمل إعدادات الأداء المستحسنة">

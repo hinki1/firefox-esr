@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Almennt">
 
-<!ENTITY accessibility.label             "Auðveldað aðgengi">
-
 <!ENTITY useCursorNavigation.label       "Alltaf nota örvalykla til að ferðast á síðum">
 <!ENTITY useCursorNavigation.accesskey   "ö">
 <!ENTITY searchOnStartTyping.label       "Leita í texta þegar byrjað er að slá inn orð">
 <!ENTITY searchOnStartTyping.accesskey   "L">
-<!ENTITY blockAutoReload.label           "Vara við þegar vefsvæði reyna að endurbeina eða endurnýja síðuna">
-<!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "Sýna snertilyklaborð þegar það er nauðsynlegt">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
@@ -27,25 +23,23 @@
 <!ENTITY checkUserSpelling.accesskey     "t">
 
 <!ENTITY dataChoicesTab.label            "Meðhöndlun gagna">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
 
-<!ENTITY healthReportDesc.label          "Hjálpar þér að fá betri yfirsýn yfir afköst vafra og deilir gögnum um afköst vafra með &vendorShortName;">
-<!ENTITY enableHealthReport.label        "Virkja &brandShortName; ástandsskoðun">
-<!ENTITY enableHealthReport.accesskey    "r">
+<!ENTITY healthReportingDisabled.label   "Gagna skýrsla er óvirk í þessari útgáfu">
+
+
 <!ENTITY healthReportLearnMore.label     "Fræðast meira">
 
-<!ENTITY telemetryDesc.label             "Deilir afköstum, notkun, vélbúnaðarupplýsingum og sérsniði vafra með &vendorShortName; svo hægt sé að betrumbæta &brandShortName;">
-<!ENTITY enableTelemetryData.label       "Deila öðrum gögnum (t.d., Fjarmælingum)">
-<!ENTITY enableTelemetryData.accesskey   "F">
-<!ENTITY telemetryLearnMore.label        "Fræðast meira">
 
-<!ENTITY crashReporterDesc2.label         "Hrunskýrslur hjálpa &vendorShortName; að laga vandamál og gera vafrann betri og öruggari">
-<!ENTITY alwaysSubmitCrashReports.label   "Leyfa &brandShortName; að senda hrunskýrslu í bakgrunni í þínu nafni">
-<!ENTITY alwaysSubmitCrashReports.accesskey "h">
-<!ENTITY crashReporterLearnMore.label     "Fræðast meira">
+
+
+
+<!ENTITY crashReporterLearnMore.label    "Fræðast meira">
 
 <!ENTITY networkTab.label                "Netkerfi">
 
-<!ENTITY connection.label                "Tenging">
 
 <!ENTITY connectionDesc.label            "Stilla hvernig &brandShortName; tengist við Internetið">
 <!ENTITY connectionSettings.label        "Stillingar…">
@@ -95,8 +89,8 @@
 <!ENTITY updateApplication.version.pre   "Útgáfa ">
 <!ENTITY updateApplication.version.post  "">
 <!ENTITY updateApplication.description   "Leyfa &brandShortName; að">
-<!ENTITY updateAuto2.label               "Setja sjálfvirkt inn uppfærslur (mælt með: eykur öryggi)">
-<!ENTITY updateAuto2.accesskey           "a">
+
+
 <!ENTITY updateCheckChoose2.label        "Athuga með uppfærslur, en leyfa mér að velja hvenær á að setja þær upp">
 <!ENTITY updateCheckChoose2.accesskey    "t">
 <!ENTITY updateManual2.label             "Aldrei athuga með uppfærslur (ekki mælt með)">
@@ -110,8 +104,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "Uppfæra leitarvélar sjálfvirkt">
 <!ENTITY enableSearchUpdate2.accesskey   "e">
-
-<!ENTITY reports.label                   "Skýrslur">
 
 <!ENTITY offlineStorageNotify.label               "Láta vita þegar vefsvæði biður um að geyma gögn fyrir ónettengda notkun">
 <!ENTITY offlineStorageNotify.accesskey           "t">
@@ -132,10 +124,10 @@
 <!ENTITY selectCerts.ask.accesskey       "S">
 <!ENTITY enableOCSP.label                "Senda fyrirspurn á OCSP þjóna til að staðfesta hvort núverandi skírteini séu gild">
 <!ENTITY enableOCSP.accesskey            "S">
-<!ENTITY viewCerts.label                 "Skoða skilríki">
-<!ENTITY viewCerts.accesskey             "S">
-<!ENTITY viewSecurityDevices.label       "Öryggistæki">
-<!ENTITY viewSecurityDevices.accesskey   "y">
+
+
+
+
 
 <!ENTITY performance.label               "Afköst">
 <!ENTITY useRecommendedPerformanceSettings2.label "Nota afkastastillingar sem er mælt með">

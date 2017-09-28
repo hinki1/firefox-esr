@@ -8,14 +8,14 @@
 <!ENTITY places.library.height "500">
 <!ENTITY organize.label        "ორგანიზება">
 <!ENTITY organize.accesskey    "ო">
-<!ENTITY organize.tooltip      "მოაწესრიგეთ თქვენი სანიშნეები">
+<!ENTITY organize.tooltip      "დაალაგეთ სანიშნეები">
 
 <!ENTITY file.close.label               "დახურვა">
 <!ENTITY file.close.accesskey           "დ">
 <!ENTITY cmd.close.key                  "w">
 <!ENTITY views.label                    "ხედები">
 <!ENTITY views.accesskey                "ხ">
-<!ENTITY views.tooltip                  "შეცვალეთ თქვენი ხედი">
+<!ENTITY views.tooltip                  "შეცვალეთ ხედი">
 <!ENTITY view.columns.label             "სვეტების ჩვენება">
 <!ENTITY view.columns.accesskey         "ს">
 <!ENTITY view.sort.label                "დახარისხდება">
@@ -41,7 +41,7 @@
 <!ENTITY cmd.restoreFromFile.label      "ფაილის არჩევა…">
 <!ENTITY cmd.restoreFromFile.accesskey  "ჩ">
 
-<!ENTITY cmd.deleteDomainData.label     "ამ საიტის დავიწყება">
+<!ENTITY cmd.deleteDomainData.label     "საიტის დავიწყება">
 <!ENTITY cmd.deleteDomainData.accesskey "დ">
 
 <!ENTITY cmd.open.label                  "გახსნა">
@@ -60,17 +60,17 @@
 
 <!ENTITY cmd.sortby_name.label              "დახარისხება სახელით">
 <!ENTITY cmd.sortby_name.accesskey          "დ">
-<!ENTITY cmd.context_sortby_name.accesskey  "r">
+<!ENTITY cmd.context_sortby_name.accesskey  "ხ">
 
 <!ENTITY cmd.new_bookmark.label            "ახალი სანიშნე…">
 <!ENTITY cmd.new_bookmark.accesskey        "ს">
 <!ENTITY cmd.new_folder.label              "ახალი საქაღალდე…">
-<!ENTITY cmd.new_folder.accesskey          "ქ">
-<!ENTITY cmd.context_new_folder.accesskey  "F">
+<!ENTITY cmd.new_folder.accesskey          "ა">
+<!ENTITY cmd.context_new_folder.accesskey  "ქ">
 <!ENTITY cmd.new_separator.label           "გამყოფის შექმნა">
 <!ENTITY cmd.new_separator.accesskey       "გ">
 
-<!ENTITY cmd.reloadLivebookmark.label      "პირდაპირი სანიშნის განახლება">
+<!ENTITY cmd.reloadLivebookmark.label      "პირდაპირი სანიშნის ხელახლა გახსნა">
 <!ENTITY cmd.reloadLivebookmark.accesskey  "ნ">
 
 <!ENTITY cmd.moveBookmarks.label                  "გადატანა…">
@@ -85,8 +85,7 @@
 <!ENTITY col.dateadded.label     "დამატებული">
 <!ENTITY col.lastmodified.label  "ბოლო ცვლილება">
 
-<!ENTITY search.label                              "ძიება:">
-<!ENTITY search.accesskey                          "ძ">
+<!ENTITY search.placeholder  "ძიება">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -102,10 +101,8 @@
 <!ENTITY detailsPane.more.accesskey "ტ">
 <!ENTITY detailsPane.less.label "ნაკლები">
 <!ENTITY detailsPane.less.accesskey "ნ">
-<!ENTITY detailsPane.selectAnItemText.description "შეარჩიეთ ელემენტის საჩვენებლად და პარამეტრების რედაქტირებისთვის">
+<!ENTITY detailsPane.selectAnItemText.description "შეარჩიეთ ელემენტი მისი პარამეტრების სანახავად და ჩასასწორებლად">
 
-<!ENTITY find.label               "ძიება:">
-<!ENTITY find.accesskey           "ძ">
 <!ENTITY view.label               "ხედი">
 <!ENTITY view.accesskey           "ხ">
 <!ENTITY byDate.label             "თარიღით">

@@ -295,6 +295,9 @@
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "URL copiada">
 
+<!ENTITY pref_pwa "Aplicaciones web progresivas">
+<!ENTITY pref_pwa_summary "Permitir que las aplicaciones web sean añadidas a la pantalla de inicio">
+
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 <!ENTITY pref_activity_stream "Activity Stream">
 <!ENTITY pref_activity_stream_summary "Una vista espectacular del historial y una página de inicio reimaginada hacen que sea más fácil que nunca buscar exactamente lo que necesitas en &brandShortName;.">
@@ -545,6 +548,7 @@
 <!ENTITY page_removed "Página removida">
 
 <!ENTITY bookmark_edit_title "Editar marcador">
+<!ENTITY bookmark_edit_folder_title "Editar carpeta">
 <!ENTITY bookmark_edit_name "Nombre">
 <!ENTITY bookmark_edit_location "Ubicación">
 <!ENTITY bookmark_edit_keyword "Palabra clave">
@@ -621,6 +625,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Mostrar dispositivos seleccionados">
+
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+<!ENTITY home_pinned_site "Sitio fijado">
+<!ENTITY home_unpinned_site "Sitio soltado">
 
 <!ENTITY remote_tabs_panel_moved_title "¿Ha donde se fueron mis pestañas?">
 <!ENTITY remote_tabs_panel_moved_desc "Hemos movido tus pestañas de otros dispositivos a un panel en tu página de inicio, el cual permite un acceso más directo cada vez que abras una nueva pestaña.">

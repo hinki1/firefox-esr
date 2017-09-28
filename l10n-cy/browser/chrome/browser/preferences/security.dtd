@@ -3,9 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  security.label                 "Diogelwch">
+<!ENTITY  phishingProtection.label       "Diogelwch rhag Twyll">
 
-<!ENTITY  warnOnAddonInstall.label        "Rhybuddio pan fydd gwefan yn ceisio gosod ychwanegion">
-<!ENTITY  warnOnAddonInstall.accesskey    "y">
+<!ENTITY  warnOnAddonInstall2.label       "Rhybuddio pan fydd gwefan yn ceisio gosod ychwanegion">
+<!ENTITY  warnOnAddonInstall2.accesskey   "y">
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
   https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
@@ -26,8 +27,8 @@
 
 <!ENTITY  formsAndPasswords.label       "Ffurflenni a Chyfrineiriau">
 
-<!ENTITY  rememberLogins1.label          "Cofio mewngofnodion a chyfrineiriau gwefannau">
-<!ENTITY  rememberLogins1.accesskey      "C">
+<!ENTITY  rememberLogins2.label         "Cofio mewngofnodion a chyfrineiriau gwefannau">
+<!ENTITY  rememberLogins2.accesskey     "C">
 <!ENTITY  passwordExceptions.label      "Eithriadau…">
 <!ENTITY  passwordExceptions.accesskey  "i">
 

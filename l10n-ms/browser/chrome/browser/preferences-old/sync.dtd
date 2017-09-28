@@ -16,15 +16,19 @@
 <!ENTITY engine.prefs.accesskey     "a">
 <!ENTITY engine.addons.label        "Add-ons">
 <!ENTITY engine.addons.accesskey    "A">
+<!ENTITY engine.addresses.label     "Alamat">
+<!ENTITY engine.addresses.accesskey "a">
+<!ENTITY engine.creditcards.label   "Kad kredit">
+<!ENTITY engine.creditcards.accesskey "K">
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Nama Peranti">
 <!ENTITY changeSyncDeviceName.label "Tukar Nama Peranti…">
 <!ENTITY changeSyncDeviceName.accesskey "u">
 <!ENTITY cancelChangeSyncDeviceName.label "Batal">
-<!ENTITY cancelChangeSyncDeviceName.accesskey "b">
+<!ENTITY cancelChangeSyncDeviceName.accesskey "t">
 <!ENTITY saveChangeSyncDeviceName.label "Simpan">
-<!ENTITY saveChangeSyncDeviceName.accesskey "s">
+<!ENTITY saveChangeSyncDeviceName.accesskey "m">
 
 <!-- Footer stuff -->
 <!ENTITY prefs.tosLink.label        "Terma dan Syarat Perkhidmatan">
@@ -52,8 +56,8 @@ both, to better adapt this sentence to their language.
 <!ENTITY profilePicture.tooltip      "Tukar gambar profil">
 <!ENTITY verifiedManage.label        "Urus Akaun">
 <!ENTITY verifiedManage.accesskey    "s">
-<!ENTITY disconnect.label            "Terputus…">
-<!ENTITY disconnect.accesskey        "P">
+<!ENTITY disconnect.label            "Memutuskan…">
+<!ENTITY disconnect.accesskey        "M">
 <!ENTITY verify.label                "Sahkan E-mel">
 <!ENTITY verify.accesskey            "S">
 <!ENTITY forget.label                "Lupakan E-mel ini">

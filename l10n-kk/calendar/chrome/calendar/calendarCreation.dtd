@@ -2,15 +2,21 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY wizard.title             "Жаңа күнтізбені жасау" >
+<!ENTITY wizard.label             "Жаңа күнтізбені жасау" >
+<!ENTITY wizard.description       "Күнтізбеңіздің орналасуы" >
 
+<!ENTITY initialpage.description    "Сіздің күнтізбеңіз компьютеріңізде сақтала алады, немесе оған қашықтан қатынау немесе онымен достар және жұмыстастармен бөлісу үшін серверде сақтала алады." >
+<!ENTITY initialpage.computer.label  "Менің компьютерімде">
+<!ENTITY initialpage.network.label  "Желіде">
 
-
-
-
-
+<!ENTITY locationpage.description         "Қашықтағы күнтізбеңізге қатынау үшін керек ақпаратты көрсетіңіз" >
+<!ENTITY locationpage.login.description   "Міндетті емес: пайдаланушы аты және парольді енгізіңіз" >
 <!ENTITY locationpage.username.label      "Пайдаланушы:" >
 <!ENTITY locationpage.password.label      "Пароль:" >
 
+<!ENTITY custompage.shortdescription  "Күнтізбеңізді баптаңыз" >
+<!ENTITY custompage.longdescription   "Сіз бұл күнтізбеге бүркеншік атын беріп, бұл күнтізбеден оқиғаларға түсті бере аласыз." >
 
-
-
+<!ENTITY finishpage.shortdescription  "Күнтізбе жасалды" >
+<!ENTITY finishpage.longdescription   "Күнтізбеңіз жасалды." >

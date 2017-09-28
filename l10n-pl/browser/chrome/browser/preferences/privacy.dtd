@@ -2,10 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY tracking.label "Śledzenie">
 <!ENTITY trackingProtectionHeader2.label "Ochrona przed śledzeniem">
-<!ENTITY trackingProtection.description "Śledzenie to zbieranie przez firmy informacji o Tobie w celu profilowania i wyświetlania treści na podstawie Twojego przeglądania i osobistych danych.">
-<!ENTITY trackingProtection.radioGroupLabel "Blokuj wyświetlanie treści znanych firm stosujących śledzenie:">
+<!ENTITY trackingProtection2.description "Śledzenie to zbieranie informacji o Twoim przeglądaniu na wielu różnych stronach. Śledzenie jest używane do profilowania użytkowników i wyświetlania treści na podstawie Twojego przeglądania i osobistych danych.">
+<!ENTITY trackingProtection2.radioGroupLabel "Chroń przed śledzeniem przez znane elementy śledzące:">
 <!ENTITY trackingProtectionAlways.label "Zawsze">
 <!ENTITY trackingProtectionAlways.accesskey "">
 <!ENTITY trackingProtectionPrivate.label "W oknach prywatnych">
@@ -18,18 +17,21 @@
 
 <!ENTITY trackingProtectionPBM5.label "Ochrona przed śledzeniem w oknach prywatnych.">
 <!ENTITY trackingProtectionPBM5.accesskey "">
+<!ENTITY trackingProtectionPBM6.label "Ochrona przed śledzeniem przez znane elementy śledzące w oknach prywatnych.">
+<!ENTITY trackingProtectionPBM6.accesskey "">
 <!ENTITY trackingProtectionPBMLearnMore.label "Więcej informacji">
-<!ENTITY changeBlockList.label "Zmień listę blokowanych">
-<!ENTITY changeBlockList.accesskey "">
+<!ENTITY changeBlockList2.label "Zmień listę blokowanych…">
+<!ENTITY changeBlockList2.accesskey "">
 
-<!ENTITY doNotTrack.pre.label "Ustawienia informowania witryn o ">
-<!ENTITY doNotTrack.settings.label "preferencjach względem śledzenia">
-<!ENTITY doNotTrack.post.label ".">
+<!ENTITY doNotTrack.description "Informuj witryny o preferencjach względem śledzenia (wysyłanie nagłówka „Do Not Track”):">
+<!ENTITY doNotTrack.learnMore.label "Więcej informacji">
+<!ENTITY doNotTrack.default.label "Tylko podczas używania ochrony przed śledzeniem">
+<!ENTITY doNotTrack.always.label "Zawsze">
 
-<!ENTITY locationBar.label "Pasek adresu">
-<!ENTITY locbar.suggest2.label "Podpowiedzi w pasku adresu opieraj na:">
-<!ENTITY locbar.history.label "historii">
-<!ENTITY locbar.history.accesskey "">
+<!ENTITY addressBar.label "Pasek adresu">
+<!ENTITY addressBar.suggest.label "Podpowiedzi w pasku adresu opieraj na:">
+<!ENTITY locbar.history2.label "historii przeglądania">
+<!ENTITY locbar.history2.accesskey "">
 <!ENTITY locbar.bookmarks.label "zakładkach">
 <!ENTITY locbar.bookmarks.accesskey "">
 <!ENTITY locbar.openpage.label "otwartych kartach">
@@ -47,8 +49,10 @@
 <!ENTITY historyHeader.custom.label "będzie używał ustawień użytkownika">
 <!ENTITY historyHeader.post.label "">
 
-<!ENTITY acceptCookies.label "Akceptowanie ciasteczek">
-<!ENTITY acceptCookies.accesskey "">
+<!ENTITY permissions.label "Uprawnienia">
+
+<!ENTITY acceptCookies2.label "Akceptowanie ciasteczek">
+<!ENTITY acceptCookies2.accesskey "">
 <!ENTITY acceptThirdParty.pre.label "Akceptowanie ciasteczek witryn zewnętrznych podmiotów:">
 <!ENTITY acceptThirdParty.pre.accesskey "">
 <!ENTITY acceptThirdParty.always.label "zawsze">
@@ -85,7 +89,6 @@
 <!ENTITY clearOnCloseSettings.label "Ustawienia…">
 <!ENTITY clearOnCloseSettings.accesskey "">
 
-<!ENTITY browserContainersHeader.label "Kontekst">
 <!ENTITY browserContainersLearnMore.label "Więcej informacji">
 <!ENTITY browserContainersEnabled.label "Karty z kontekstem">
 <!ENTITY browserContainersEnabled.accesskey "">

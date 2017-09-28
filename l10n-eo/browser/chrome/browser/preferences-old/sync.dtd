@@ -16,6 +16,10 @@
 <!ENTITY engine.prefs.accesskey     "p">
 <!ENTITY engine.addons.label        "aldonaĵon">
 <!ENTITY engine.addons.accesskey    "A">
+<!ENTITY engine.addresses.label     "Adresoj">
+<!ENTITY engine.addresses.accesskey "e">
+<!ENTITY engine.creditcards.label   "Kreditkartoj">
+<!ENTITY engine.creditcards.accesskey "K">
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Nomo de aparato">
@@ -67,7 +71,7 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.accountBox.signin  "Komenci seancon">
 <!ENTITY signedOut.accountBox.signin.accesskey  "s">
 
-<!ENTITY signedIn.engines.label       "Speguli en ĉiuj aparatoj">
+<!ENTITY signedIn.engines.label       "Speguli ĉiujn aparatojn">
 
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
      create a single sentence with active links.

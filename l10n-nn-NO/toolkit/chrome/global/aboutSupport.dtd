@@ -66,6 +66,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprosess-vindauge">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Nettinnhaldsprosessar">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Google-nykel">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Mozilla Location Service-nykel">
 
@@ -104,6 +106,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Tilgjenge">
 <!ENTITY aboutSupport.a11yActivated "Aktivert">
 <!ENTITY aboutSupport.a11yForceDisabled "Hindra tilgjenge">
+<!ENTITY aboutSupport.a11yHandlerUsed "Tilgjengeleg handsamar brukt">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Bibliotekversjonar">
 
@@ -134,3 +137,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Avgjerdslogg">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Krasjvern slo av funksjonar">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Løysingar">
+
+<!ENTITY aboutSupport.mediaTitle "Media">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Ut-einingar">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Inn-einingar">
+<!ENTITY aboutSupport.mediaDeviceName "Namn">
+<!ENTITY aboutSupport.mediaDeviceGroup "Gruppe">
+<!ENTITY aboutSupport.mediaDeviceVendor "Leverandør">
+<!ENTITY aboutSupport.mediaDeviceState "Status">
+<!ENTITY aboutSupport.mediaDevicePreferred "Føretrekt">
+<!ENTITY aboutSupport.mediaDeviceFormat "Format">
+<!ENTITY aboutSupport.mediaDeviceChannels "Kanalar">
+<!ENTITY aboutSupport.mediaDeviceRate "Fart">
+<!ENTITY aboutSupport.mediaDeviceLatency "Forseinking">

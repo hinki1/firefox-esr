@@ -4,18 +4,18 @@
 
 <!ENTITY defaultSearchEngine.label             "Alapértelmezett keresőszolgáltatás">
 
-<!ENTITY chooseYourDefaultSearchEngine.label   "Válassza ki az alapértelmezett keresőszolgáltatást. A &brandShortName; ezt használja a címsávban, a keresősávban és a kezdőoldalakon.">
+<!ENTITY chooseYourDefaultSearchEngine2.label   "Válassza ki a címsávban és a keresősávban alapértelmezetten használandó keresőszolgáltatást.">
 
 <!ENTITY provideSearchSuggestions.label        "Keresési javaslatok">
 <!ENTITY provideSearchSuggestions.accesskey    "K">
 
-<!ENTITY showURLBarSuggestions.label           "Keresési javaslatok és a címsáv találatainak megjelenítése">
-<!ENTITY showURLBarSuggestions.accesskey       "K">
+<!ENTITY showURLBarSuggestions2.label           "Keresési javaslatok megjelenítése a címsáv találataiban">
+<!ENTITY showURLBarSuggestions2.accesskey       "c">
 <!ENTITY urlBarSuggestionsPermanentPB.label    "A keresési javaslatok nem jelennek meg a címsáv találatai között, mert a &brandShortName; nem jegyzi meg az előzményeket.">
 
 <!ENTITY oneClickSearchEngines.label           "Egy kattintásos keresőszolgáltatások">
 
-<!ENTITY chooseWhichOneToDisplay.label         "A keresősávban közvetlenül használhat több keresőszolgáltatást is. Válassza ki a megjelenítendőket.">
+<!ENTITY chooseWhichOneToDisplay2.label         "Válassza ki a címsáv alatt és a keresősávban gépeléskor megjelenő alternatív keresőszolgáltatatásokat.">
 
 <!ENTITY engineNameColumn.label                "Keresőszolgáltatás">
 <!ENTITY engineKeywordColumn.label             "Kulcsszó">
@@ -26,4 +26,4 @@
 <!ENTITY removeEngine.label                    "Eltávolítás">
 <!ENTITY removeEngine.accesskey                "E">
 
-<!ENTITY addMoreSearchEngines2.label           "További keresőszolgáltatások felvétele">
+<!ENTITY findMoreSearchEngines.label           "További keresőszolgáltatások felvétele">

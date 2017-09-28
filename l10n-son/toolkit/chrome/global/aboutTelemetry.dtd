@@ -4,25 +4,11 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Mooru-neešiyan bayhayey">
 
-<!ENTITY aboutTelemetry.changeDataChoices "  Barmay">
-
-<!ENTITY aboutTelemetry.uploadEnabled "  Firefox baani bayrandi bayhayey zijandiyan n' ka <span>tunandi</span>.">
-
-<!ENTITY aboutTelemetry.uploadDisabled "  Firefox baani bayrandi bayhayey zijandiyan n' ka <span>kayandi</span>.">
-
-<!ENTITY aboutTelemetry.extendedRecordingEnabled "  Mooru-neešiyan kukante jišiyan n' ka <span>tunandi</span>.">
-
-<!ENTITY aboutTelemetry.extendedRecordingDisabled "  Mooru-neešiyan kukante jišiyan n' ka <span>tunandi</span>.">
-
 <!ENTITY aboutTelemetry.pingDataSource "Ɲooje bayhaya aššil:">
 
 <!ENTITY aboutTelemetry.showCurrentPingData "Sohõda ɲooje bayhaya">
 
 <!ENTITY aboutTelemetry.showArchivedPingData "Ɲooje bayhaya jisante">
-
-<!ENTITY aboutTelemetry.pingDataDisplay "Ɲooje bayhaya cebe:">
-
-<!ENTITY aboutTelemetry.structured "Cinante">
 
 <!ENTITY aboutTelemetry.raw "JSON gani">
 
@@ -34,11 +20,13 @@
 
 <!ENTITY aboutTelemetry.showOlderPing "Ɲooje žeena &gt;&gt;">
 
-<!ENTITY aboutTelemetry.rawPingData "Ɲooje bayhaya ganey…">
-
 <!ENTITY aboutTelemetry.archiveWeekHeader "Jirbiyye">
 
+
 <!ENTITY aboutTelemetry.archivePingHeader "Ɲooje">
+
+
+
 
 <!ENTITY aboutTelemetry.generalDataSection " Yamma bayhayey">
 
@@ -72,12 +60,6 @@
 
 <!ENTITY aboutTelemetry.sessionInfoSection "  Dabariɲaa alhabar">
 
-<!ENTITY aboutTelemetry.addonHistogramsSection "  Titilawey kaŋ tontoney n'i marga">
-
-<!ENTITY aboutTelemetry.toggle "  Naagu ka dunboo kanji">
-
-<!ENTITY aboutTelemetry.emptySection "  (Bayhaya kul mana margandi)">
-
 <!ENTITY aboutTelemetry.fullSqlWarning "  HAWGAY: SQL hasaraw kayyan n' k atunandi. SQL tenjiri timmantey ši hin ka cebande ganda amma i ga sanbandi mooru-neešiyan bande.">
 
 
@@ -85,5 +67,3 @@
 <!ENTITY aboutTelemetry.filterText "  Fay (tenjirey wala /regexp/)">
 
 <!ENTITY aboutTelemetry.payloadChoiceHeader "  Jeeje">
-
-<!ENTITY aboutTelemetry.rawPayload "  Jeeje gani">

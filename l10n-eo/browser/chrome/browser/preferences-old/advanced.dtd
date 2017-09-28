@@ -28,6 +28,11 @@
 
 <!ENTITY dataChoicesTab.label            "Elektado de datumoj">
 
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "La raporto de datumoj estas malŝaltita pro la agordoj de konstruo">
+
 <!ENTITY healthReportDesc.label          "Tiu raporto helpas vin kompreni la efikecon de via retumilo kaj dividas datumojn kun &vendorShortName; pri la sano de via retumilo">
 <!ENTITY enableHealthReport.label        "Aktivigi la sanraporton de &brandShortName;">
 <!ENTITY enableHealthReport.accesskey    "R">
@@ -128,15 +133,15 @@
 <!ENTITY useRecommendedPerformanceSettings.label
                                          "Uzi konsilindajn efikecajn agordojn">
 <!ENTITY useRecommendedPerformanceSettings.description
-                                         "Tiuj ĉi agordoj estas alĝustigitaj al la mastruma sistemo kaj aparataro de via komputilo.">
+                                         "Tiu ĉi agordoj estas alĝustigitaj al la mastruma sistemo kaj aparataro de via komputilo.">
 <!ENTITY useRecommendedPerformanceSettings.accesskey
-                                         "T">
+                                         "k">
 <!ENTITY performanceSettingsLearnMore.label
                                          "Pli da informo">
 <!ENTITY limitContentProcessOption.label "Maksimuma nombro de enhavaj taskoj">
 <!ENTITY limitContentProcessOption.description
                                          "Pli da enhavaj taskoj povas plibonigi efikecon dum uzo de pluraj langetoj, sed ili ankaŭ uzos pli da memoro.">
-<!ENTITY limitContentProcessOption.accesskey   "m">
+<!ENTITY limitContentProcessOption.accesskey   "e">
 <!ENTITY limitContentProcessOption.disabledDescription
                                          "Nur eblas modifi la nombron de enhavaj taskoj en plurproceza &brandShortName;.">
 <!ENTITY limitContentProcessOption.disabledDescriptionLink

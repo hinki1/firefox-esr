@@ -4,18 +4,18 @@
 
 <!ENTITY defaultSearchEngine.label             "Peiriant Chwilio Rhagosodedig">
 
-<!ENTITY chooseYourDefaultSearchEngine.label   "Dewiswch eich peiriant chwilio rhagosodedig. Bydd &brandShortName; yn ei ddefnyddio yn y bar lleoliad, y bar chwilio a'r dudalen cychwyn.">
+<!ENTITY chooseYourDefaultSearchEngine2.label   "Dewis y peiriant chwilio ragosodedig i'w ddefnyddio yn y bar cyfeiriad a'r bar chwilio.">
 
 <!ENTITY provideSearchSuggestions.label        "Darparu awgrymiadau chwilio">
 <!ENTITY provideSearchSuggestions.accesskey    "c">
 
-<!ENTITY showURLBarSuggestions.label           "Dangos awgrymiadau chwilio yng nghanlyniadau'r bar lleoliad">
-<!ENTITY showURLBarSuggestions.accesskey       "D">
+<!ENTITY showURLBarSuggestions2.label           "Dangos awgrymiadau chwilio yng nghanlyniadau'r bar lleoliad">
+<!ENTITY showURLBarSuggestions2.accesskey       "D">
 <!ENTITY urlBarSuggestionsPermanentPB.label    "Ni fydd awgrymiadau chwilio'n cael eu dangos yn y bar lleoliad gan eich bod wedi ffurfweddu &brandShortName; i byth cofio hanes.">
 
 <!ENTITY oneClickSearchEngines.label           "Peiriannau Chwilio Un Clic">
 
-<!ENTITY chooseWhichOneToDisplay.label         "Mae'r bar chwilio'n caniatáu i chi ddefnyddio peiriannau eraill. Dewiswch pa rai i'w dangos.">
+<!ENTITY chooseWhichOneToDisplay2.label         "Dewis peiriant chwilio arall sy'n ymddangos o dan y bar cyfeiriad a'r bar chwilio pan fyddwch yn cychwyn allweddair.">
 
 <!ENTITY engineNameColumn.label                "Peiriannau Chwilio">
 <!ENTITY engineKeywordColumn.label             "Allweddair">
@@ -26,4 +26,4 @@
 <!ENTITY removeEngine.label                    "Tynnu">
 <!ENTITY removeEngine.accesskey                "T">
 
-<!ENTITY addMoreSearchEngines2.label           "Ychwanegu peiriannau chwilio eraill…">
+<!ENTITY findMoreSearchEngines.label           "Ychwanegu peiriannau chwilio eraill">

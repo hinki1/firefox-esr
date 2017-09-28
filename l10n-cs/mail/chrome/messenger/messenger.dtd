@@ -51,8 +51,8 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "V">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Aktuální účet">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "A">
-<!ENTITY getNextNMsgCmd.label "Přijmout dalších 500 diskusních příspěvků">
-<!ENTITY getNextNMsgCmd.accesskey "d">
+<!ENTITY getNextNMsgCmd2.label "Získat další nové zprávy">
+<!ENTITY getNextNMsgCmd2.accesskey "k">
 <!ENTITY sendUnsentCmd.label "Odeslat neodeslané zprávy">
 <!ENTITY sendUnsentCmd.accesskey "d">
 <!ENTITY subscribeCmd.label "Správce odebírání…">
@@ -229,7 +229,7 @@
 <!ENTITY threadsWithUnreadCmd.accesskey "l">
 <!ENTITY watchedThreadsWithUnreadCmd.label "Sledovaná vlákna s nepřečtenými">
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "d">
-<!ENTITY ignoredThreadsCmd.label "Ignorovat vlákna">
+<!ENTITY ignoredThreadsCmd.label "Ignorovaná vlákna">
 <!ENTITY ignoredThreadsCmd.accesskey "I">
 
 <!ENTITY headersMenu.label "Záhlaví">
@@ -952,3 +952,4 @@
 
 <!-- Mac OS X Dock Icon pop-up menu -->
 <!ENTITY dockOptions.label              "Nastavení ikony aplikace…">
+<!ENTITY writeNewMessageDock.label      "Napsat novou zprávu">

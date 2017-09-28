@@ -47,10 +47,10 @@ index d93fc422d54f..2ec752bd3176 100644
          link_buf[ret] = 0;
          link_file = mkoutput(input_file);
 diff --git a/security/nss/lib/freebl/unix_rand.c b/security/nss/lib/freebl/unix_rand.c
-index 20c76ec661ce..f37f9cbf1e34 100644
+index 24381cb26ed0..f5520f08b01d 100644
 --- a/security/nss/lib/freebl/unix_rand.c
 +++ b/security/nss/lib/freebl/unix_rand.c
-@@ -857,6 +857,10 @@ RNG_FileForRNG(const char *fileName)
+@@ -843,6 +843,10 @@ RNG_FileForRNG(const char *fileName)
  #define _POSIX_PTHREAD_SEMANTICS
  #include <dirent.h>
  

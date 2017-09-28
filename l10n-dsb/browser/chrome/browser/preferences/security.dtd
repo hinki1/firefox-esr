@@ -3,9 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  security.label                 "Wěstota">
+<!ENTITY  phishingProtection.label       "Šćit pśeśiwo kšadnjenjeju datow">
 
-<!ENTITY  warnOnAddonInstall.label        "Warnowaś, gaž sedła wopytuju dodanki instalěrowaś">
-<!ENTITY  warnOnAddonInstall.accesskey    "W">
+<!ENTITY  warnOnAddonInstall2.label       "Warnowaś, gaž sedła wopytuju dodanki instalěrowaś">
+<!ENTITY  warnOnAddonInstall2.accesskey   "W">
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
   It is important that wording follows the guidelines outlined on this page:
   https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
@@ -26,8 +27,8 @@
 
 <!ENTITY  formsAndPasswords.label       "Formulary a gronidła">
 
-<!ENTITY  rememberLogins1.label          "Pśizjawjenja a gronidła za sedła se spomnjeś">
-<!ENTITY  rememberLogins1.accesskey      "P">
+<!ENTITY  rememberLogins2.label         "Pśizjawjenja a gronidła za sedła se spomnjeś">
+<!ENTITY  rememberLogins2.accesskey     "P">
 <!ENTITY  passwordExceptions.label      "Wuwześa…">
 <!ENTITY  passwordExceptions.accesskey  "u">
 

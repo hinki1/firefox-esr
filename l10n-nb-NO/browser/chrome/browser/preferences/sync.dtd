@@ -16,6 +16,10 @@
 <!ENTITY engine.prefs.accesskey     "I">
 <!ENTITY engine.addons.label        "Utvidelser">
 <!ENTITY engine.addons.accesskey    "U">
+<!ENTITY engine.addresses.label     "Adresser">
+<!ENTITY engine.addresses.accesskey "e">
+<!ENTITY engine.creditcards.label   "Kredittkort">
+<!ENTITY engine.creditcards.accesskey "K">
 
 <!-- Device Settings -->
 <!ENTITY fxaSyncDeviceName.label       "Enhetsnavn">
@@ -28,7 +32,7 @@
 
 <!-- Footer stuff -->
 <!ENTITY prefs.tosLink.label        "Tjenestevilkår">
-<!ENTITY fxaPrivacyNotice.link.label "Personvern">
+<!ENTITY fxaPrivacyNotice.link.label "Personvernbestemmelser">
 
 <!-- LOCALIZATION NOTE (signedInUnverified.beforename.label,
 signedInUnverified.aftername.label): these two string are used respectively

@@ -15,12 +15,13 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.crashes.allReports "அனைத்து செயலிழப்பு அறிக்கைகள்">
 <!ENTITY aboutSupport.crashes.noConfig "இந்த நிரல் சிதைவு அறிக்கைகளை காண்பிக்க கட்டமைப்பு செய்யப்படவில்லை.">
 
-<!ENTITY aboutSupport.extensionsTitle "கூடுதல் இணைப்புகள்">
+<!ENTITY aboutSupport.extensionsTitle "நீட்சிகள்">
 <!ENTITY aboutSupport.extensionName "பெயர்">
 <!ENTITY aboutSupport.extensionEnabled "செயல்படுத்தப்பட்டது">
 <!ENTITY aboutSupport.extensionVersion "பதிப்பு">
 <!ENTITY aboutSupport.extensionId "ID">
 
+<!ENTITY aboutSupport.featuresTitle "&brandShortName; அம்சங்கள்">
 <!ENTITY aboutSupport.featureName "பெயர்">
 <!ENTITY aboutSupport.featureVersion "பதிப்பு">
 <!ENTITY aboutSupport.featureId "ID">
@@ -51,7 +52,7 @@ This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDi
 Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsProfileDirWinMac "சுயவிவரம் கோப்புறை">
 
-<!ENTITY aboutSupport.appBasicsEnabledPlugins "செயல்படுத்தப்பட்ட கூடுதல் இணைப்புகள்">
+<!ENTITY aboutSupport.appBasicsEnabledPlugins "செயல்படுத்தப்பட்ட செருகிகள்">
 <!ENTITY aboutSupport.appBasicsBuildConfig "உருவாக்க கட்டமைப்பு">
 <!ENTITY aboutSupport.appBasicsUserAgent "பயனர் முகவர்">
 <!ENTITY aboutSupport.appBasicsOS "இயங்கு தளம்">
@@ -65,8 +66,10 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "பன்செயல் சாளரங்கள்">
 
-<!ENTITY aboutSupport.appBasicsKeyGoogle "கூகுள் திறவகோல்ஹ">
+<!ENTITY aboutSupport.appBasicsProcessCount "வலை உள்ளடக்க செயல்பாடுகள்">
 
+<!ENTITY aboutSupport.appBasicsKeyGoogle "கூகுள் திறவகோல்ஹ">
+<!ENTITY aboutSupport.appBasicsKeyMozilla "மொசில்லா புவியிடச்சேவைச் சாவி">
 
 <!ENTITY aboutSupport.appBasicsSafeMode "பாதுகாப்பான முறைமை">
 
@@ -103,6 +106,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "அணுகக்கூடியது">
 <!ENTITY aboutSupport.a11yActivated "செயல்படுத்தப்படுகிறது">
 <!ENTITY aboutSupport.a11yForceDisabled "அணுகல்தன்மையை தடுக்கவும்">
+<!ENTITY aboutSupport.a11yHandlerUsed "அணுகல் கையாளி பாவிக்கப்பட்டது">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "தரவக பதிப்புகள்">
 
@@ -113,14 +117,14 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "அசல் தரவை ஒட்டுப்பலகைக்கு நகலெடு">
 
 <!ENTITY aboutSupport.sandboxTitle "ஸ்சேன்டுபாக்ஸ்">
-
-
-
-
-
-
-
-
+<!ENTITY aboutSupport.sandboxSyscallLogTitle "தவிர்க்கப்பட்ட அமைவக அழைப்புகள்">
+<!ENTITY aboutSupport.sandboxSyscallIndex "#">
+<!ENTITY aboutSupport.sandboxSyscallAge "வினாடிகளுக்கு முன்">
+<!ENTITY aboutSupport.sandboxSyscallPID "PID">
+<!ENTITY aboutSupport.sandboxSyscallTID "TID">
+<!ENTITY aboutSupport.sandboxSyscallProcType "செயல்பாடு வகை">
+<!ENTITY aboutSupport.sandboxSyscallNumber "Syscall">
+<!ENTITY aboutSupport.sandboxSyscallArgs "தருமதிப்புகள்">
 
 <!ENTITY aboutSupport.safeModeTitle "பாதுகாப்பு முறைமையை முயற்சி">
 <!ENTITY aboutSupport.restartInSafeMode.label "நீட்சிகளை நீக்கிவிட்டு மீள் துவக்கு.">
@@ -133,3 +137,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "முடிவுப்பதிவு">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "நொறுக்கல் பாதுகாப்பு முடக்கிய வசதிகள்">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "சுற்றுவேலைகள்">
+
+
+
+
+
+
+
+
+
+
+
+

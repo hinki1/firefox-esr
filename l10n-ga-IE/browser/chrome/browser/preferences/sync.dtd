@@ -16,6 +16,10 @@
 <!ENTITY engine.prefs.accesskey     "S">
 <!ENTITY engine.addons.label        "Breiseáin">
 <!ENTITY engine.addons.accesskey    "B">
+<!ENTITY engine.addresses.label     "Seoltaí">
+<!ENTITY engine.addresses.accesskey "e">
+<!ENTITY engine.creditcards.label   "Cártaí creidmheasa">
+<!ENTITY engine.creditcards.accesskey "C">
 <!-- Device Settings -->
 
 <!ENTITY fxaSyncDeviceName.label       "Ainm an Ghléis">
@@ -50,7 +54,7 @@ both, to better adapt this sentence to their language.
 <!ENTITY signIn.label                "Logáil isteach">
 <!ENTITY signIn.accesskey            "g">
 <!ENTITY profilePicture.tooltip      "Athraigh an pictiúr próifíle">
-<!ENTITY verifiedManage.label        "Bainistigh mo Chuntas">
+<!ENTITY verifiedManage.label        "Bainistigh mo chuntas">
 <!ENTITY verifiedManage.accesskey    "o">
 <!ENTITY disconnect3.label           "Dícheangail...">
 <!ENTITY disconnect3.accesskey       "D">
@@ -75,7 +79,7 @@ both, to better adapt this sentence to their language.
      Android or iOS to sync with your mobile device." -->
 
 
-<!ENTITY mobilePromo3.start            "Íosluchtaigh Firefox ar ">
+<!ENTITY mobilePromo3.start            "Íoslódáil Firefox ar ">
 <!-- LOCALIZATION NOTE (mobilePromo3.androidLink): This is a link title that links to https://www.mozilla.org/firefox/android/ -->
 <!ENTITY mobilePromo3.androidLink      "Android">
 <!-- LOCALIZATION NOTE (mobilePromo3.iOSBefore): This is text displayed between mobilePromo3.androidLink and mobilePromo3.iosLink -->

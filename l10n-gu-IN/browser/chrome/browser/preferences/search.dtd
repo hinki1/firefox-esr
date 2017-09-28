@@ -2,12 +2,22 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY defaultSearchEngine.label             "મૂળભૂત શોધ એંજીન">
+
+
+<!ENTITY provideSearchSuggestions.accesskey    "s">
+
+<!ENTITY showURLBarSuggestions2.accesskey       "I">
 
 
 
+<!ENTITY engineNameColumn.label                "શોધ એન્જિન">
+<!ENTITY engineKeywordColumn.label             "મુખ્ય શબ્દ">
 
+<!ENTITY restoreDefaultSearchEngines.label     "મૂળભૂત શોધ એંજીન તરીકે પુનઃસંગ્રહો">
+<!ENTITY restoreDefaultSearchEngines.accesskey "d">
 
+<!ENTITY removeEngine.label                    "દૂર કરો">
+<!ENTITY removeEngine.accesskey                "r">
 
-
-
-
+<!ENTITY findMoreSearchEngines.label           "વધુ શોધ યંત્ર શોધો">

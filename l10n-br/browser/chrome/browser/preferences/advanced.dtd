@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Hollek">
 
-<!ENTITY accessibility.label             "Haezadusted">
-
 <!ENTITY useCursorNavigation.label       "Atav arverañ ar stokelloù bir da vageal er bajennadoù">
 <!ENTITY useCursorNavigation.accesskey   "A">
 <!ENTITY searchOnStartTyping.label       "Klask an destenn pa grogan da skrivañ">
 <!ENTITY searchOnStartTyping.accesskey   "K">
-<!ENTITY blockAutoReload.label           "Kemenn din pa vez klasket adheñchañ pe adkargañ ar bajennad gant al lec'hiennoù">
-<!ENTITY blockAutoReload.accesskey       "e">
 <!ENTITY useOnScreenKeyboard.label       "Diskouez ur c'hlavier stokañ pa vez ezhomm">
 <!ENTITY useOnScreenKeyboard.accesskey   "c">
 
@@ -27,25 +23,21 @@
 <!ENTITY checkUserSpelling.accesskey     "G">
 
 <!ENTITY dataChoicesTab.label            "Roadennoù">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
 
-<!ENTITY healthReportDesc.label          "Skoazellañ a ra ac'hanoc'h kompren digonusted ho merdeer ha rannañ roadennoù a-fet yec'hed ho merdeer gant &vendorShortName;">
-<!ENTITY enableHealthReport.label        "Gweredekaat danevell yec'hed &brandShortName;">
-<!ENTITY enableHealthReport.accesskey    "y">
-<!ENTITY healthReportLearnMore.label     "Gouzout hiroc'h">
 
-<!ENTITY telemetryDesc.label             "Rannañ a ra roadennoù a-fet digonusted, arver, periant ha personelaat gant &vendorShortName; evit skoazellañ ac'hanomp gwellaat &brandShortName;">
-<!ENTITY enableTelemetryData.label       "Rannañ roadennoù ouzhpenn (d.l.e. Telemetry)">
-<!ENTITY enableTelemetryData.accesskey   "T">
-<!ENTITY telemetryLearnMore.label        "Gouzout hiroc'h">
 
-<!ENTITY crashReporterDesc2.label         "A drugarez d'an danevelloù sac'hadenn eo gouest &vendorShortName; da gempenn kudennoù ha da lakaat da vezañ stabiloc'h ha suroc'h ho merdeer.">
-<!ENTITY alwaysSubmitCrashReports.label   "Aotren &brandShortName; da gas danevelloù sac'hadennoù enrollet evidoc'h">
-<!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "Gouzout hiroc'h">
+
+
+
+
+
+
 
 <!ENTITY networkTab.label                "Rouedad">
 
-<!ENTITY connection.label                "Kennask">
 
 <!ENTITY connectionDesc.label            "Kefluniañ penaos en em gennask &brandShortName; ouzh an Internet">
 <!ENTITY connectionSettings.label        "Arventennoù…">
@@ -61,7 +53,7 @@
 <!ENTITY clearSiteData.accesskey         "S">
 <!ENTITY siteDataSettings.label          "Arventennoù…">
 <!ENTITY siteDataSettings.accesskey      "e">
-<!ENTITY siteDataLearnMoreLink.label     "Gouzout hiroc'h">
+
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
@@ -92,26 +84,22 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
-<!ENTITY updateApplication.version.pre   "Handelv">
-<!ENTITY updateApplication.version.post  "">
-<!ENTITY updateApplication.description   "Aotren &brandShortName; da">
-<!ENTITY updateAuto2.label               "Staliañ an hizivadennoù ent emgefreek (erbedet evit gwellaat an diogelroez)">
-<!ENTITY updateAuto2.accesskey           "h">
-<!ENTITY updateCheckChoose2.label        "Gwiriañ mard ez eus hizivadurioù met leuskel ac'hanon dibab mar bezint staliet">
-<!ENTITY updateCheckChoose2.accesskey    "G">
-<!ENTITY updateManual2.label             "Na wiriañ biken mard ez eus hizivadurioù (n'eo ket erbedet)">
-<!ENTITY updateManual2.accesskey         "N">
 
-<!ENTITY updateHistory2.label            "Diskouez roll istor an hizivaadurioù...">
-<!ENTITY updateHistory2.accesskey        "r">
+<!ENTITY updateApplication.version.post  "">
+
+
+
+
+
+
+
+
+
 
 <!ENTITY useService.label                "Arverañ ur gwazerezh e drekleur evit staliañ an hizivadurioù">
 <!ENTITY useService.accesskey            "v">
 
-<!ENTITY enableSearchUpdate2.label       "Hizivaat al luskerioù enklask ent emgefreek">
-<!ENTITY enableSearchUpdate2.accesskey   "z">
 
-<!ENTITY reports.label                   "Danevelloù">
 
 <!ENTITY offlineStorageNotify.label               "Lavarout din pa vez goulennet gant ul lec'hienn mirout roadennoù evit un arver ezlinenn">
 <!ENTITY offlineStorageNotify.accesskey           "a">
@@ -125,27 +113,26 @@
 <!ENTITY offlineAppRemove.confirm        "Dilemel ar roadennoù ezlinenn">
 
 <!ENTITY certificateTab.label            "Testenioù">
-<!ENTITY certPersonal2.description       "Pa vez goulennet ma zesteni personel gant un dafariad">
+
 <!ENTITY selectCerts.auto                "Diuz unan ent emgefreek">
 <!ENTITY selectCerts.auto.accesskey      "D">
 <!ENTITY selectCerts.ask                 "Goulenn diganin bewech">
 <!ENTITY selectCerts.ask.accesskey       "G">
 <!ENTITY enableOCSP.label                "Goulenn kadarnaat talvoudegezh an testenioù gant an dafariadoù OCSP">
 <!ENTITY enableOCSP.accesskey            "G">
-<!ENTITY viewCerts.label                 "Gwelout an testenioù">
-<!ENTITY viewCerts.accesskey             "a">
-<!ENTITY viewSecurityDevices.label       "Trobarzhelloù diogelroez">
-<!ENTITY viewSecurityDevices.accesskey   "d">
 
-<!ENTITY performance.label               "Digonusted">
-<!ENTITY useRecommendedPerformanceSettings2.label "Arverañ an arventennoù digonusted erbedet">
-<!ENTITY useRecommendedPerformanceSettings2.description "Graet eo an arventennoù-se a-ratozh evit periant ha reizhiad korvoiñ hoc'h urzhiataer.">
-<!ENTITY useRecommendedPerformanceSettings2.accesskey "A">
-<!ENTITY performanceSettingsLearnMore.label "Gouzout hiroc'h">
-<!ENTITY limitContentProcessOption.label "Bevenn endalc'had an araezad">
-<!ENTITY limitContentProcessOption.description "Endalc'had araezad ouzhpenn a c'hall gwellaat an digonusted gent meur a ivinell, met arverañ a raio muioc'h a vemor.">
-<!ENTITY limitContentProcessOption.accesskey   "B">
-<!ENTITY limitContentProcessOption.disabledDescription "Evit kemmañ an niver a araezad endalc'had eo ret ober gant &brandShortName;.">
-<!ENTITY limitContentProcessOption.disabledDescriptionLink "Deskit penaos gwiriekaat statud al lies araezad">
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!ENTITY allowHWAccel.label              "Arverañ herrekadur ar periant pa vez hegerz">
 <!ENTITY allowHWAccel.accesskey          "h">

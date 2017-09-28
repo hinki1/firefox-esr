@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Umum">
 
-<!ENTITY accessibility.label             "Aksesibilitas">
-
 <!ENTITY useCursorNavigation.label       "Selalu gunakan kursor papan ketik untuk navigasi laman">
 <!ENTITY useCursorNavigation.accesskey   "S">
 <!ENTITY searchOnStartTyping.label       "Cari teks saat Anda mulai mengetik">
 <!ENTITY searchOnStartTyping.accesskey   "k">
-<!ENTITY blockAutoReload.label           "Peringatkan saya ketika situs mencoba mengalihkan atau memuat ulang laman">
-<!ENTITY blockAutoReload.accesskey       "c">
 <!ENTITY useOnScreenKeyboard.label       "Tampilkan papan ketik sentuh saat diperlukan">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
@@ -28,24 +24,21 @@
 
 <!ENTITY dataChoicesTab.label            "Pelaporan Data">
 
-<!ENTITY healthReportDesc.label          "Bantu kami memahami kinerja dengan berbagi data kebugaran peramban Anda bersama &vendorShortName;">
-<!ENTITY enableHealthReport.label        "Aktifkan Laporan Kebugaran &brandShortName;">
-<!ENTITY enableHealthReport.accesskey    "K">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "Pelaporan data dinonaktifkan untuk konfigurasi build ini">
+
+<!ENTITY enableHealthReport1.label       "Izinkan &brandShortName; agar secara otomatis mengirim data teknis dan interaksi ke Mozilla">
 <!ENTITY healthReportLearnMore.label     "Pelajari Lebih Lanjut">
 
-<!ENTITY telemetryDesc.label             "Berbagi data kinerja, penggunaan, perangkat keras, dan pengubahsuaian peramban Anda bersama &vendorShortName; untuk membuat &brandShortName; lebih baik">
-<!ENTITY enableTelemetryData.label       "Bagikan data lainnya (mis. Telemetri)">
-<!ENTITY enableTelemetryData.accesskey   "T">
-<!ENTITY telemetryLearnMore.label        "Pelajari Lebih Lanjut">
+<!ENTITY dataCollectionPrivacyNotice.label    "Pemberitahuan Privasi">
 
-<!ENTITY crashReporterDesc2.label         "Laporan kerusakan membantu &vendorShortName; memperbaiki masalah dan membuat peramban Anda lebih stabil dan aman">
-<!ENTITY alwaysSubmitCrashReports.label   "Izinkan &brandShortName; mengirim laporan kerusakan backlogged atas nama Anda">
-<!ENTITY alwaysSubmitCrashReports.accesskey "r">
-<!ENTITY crashReporterLearnMore.label     "Pelajari Lebih Lanjut">
+<!ENTITY crashReporterLearnMore.label    "Pelajari Lebih Lanjut">
 
 <!ENTITY networkTab.label                "Jaringan">
 
-<!ENTITY connection.label                "Sambungan">
+<!ENTITY networkProxy.label              "Proksi Jaringan">
 
 <!ENTITY connectionDesc.label            "Atur cara &brandShortName; tersambung ke Internet">
 <!ENTITY connectionSettings.label        "Setelan…">
@@ -95,8 +88,8 @@
 <!ENTITY updateApplication.version.pre   "Versi ">
 <!ENTITY updateApplication.version.post  "">
 <!ENTITY updateApplication.description   "Izinkan &brandShortName; untuk">
-<!ENTITY updateAuto2.label               "Otomatis pasang pemutakhiran (disarankan untuk keamanan lebih baik)">
-<!ENTITY updateAuto2.accesskey           "O">
+<!ENTITY updateAuto3.label               "Secara otomatis memasang pemutakhiran (disarankan)">
+<!ENTITY updateAuto3.accesskey           "S">
 <!ENTITY updateCheckChoose2.label        "Periksa pemutakhiran, biarkan saya memilih memasangnya atau tidak">
 <!ENTITY updateCheckChoose2.accesskey    "C">
 <!ENTITY updateManual2.label             "Jangan pernah memeriksa pemutakhiran (tidak disarankan)">
@@ -110,8 +103,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "Mutakhirkan mesin pencari secara otomatis">
 <!ENTITY enableSearchUpdate2.accesskey   "m">
-
-<!ENTITY reports.label                   "Laporan">
 
 <!ENTITY offlineStorageNotify.label               "Beritahukan jika situs web meminta untuk menyimpan data untuk penggunaan luring">
 <!ENTITY offlineStorageNotify.accesskey           "l">
@@ -132,10 +123,6 @@
 <!ENTITY selectCerts.ask.accesskey       "T">
 <!ENTITY enableOCSP.label                "Kueri server penjawab OCSP untuk mengonfirmasukan validitas sertifikat">
 <!ENTITY enableOCSP.accesskey            "v">
-<!ENTITY viewCerts.label                 "Tampilkan Sertifikat">
-<!ENTITY viewCerts.accesskey             "S">
-<!ENTITY viewSecurityDevices.label       "Perangkat Keamanan">
-<!ENTITY viewSecurityDevices.accesskey   "K">
 
 <!ENTITY performance.label               "Kinerja">
 <!ENTITY useRecommendedPerformanceSettings2.label

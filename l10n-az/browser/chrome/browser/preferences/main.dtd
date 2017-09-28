@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY startup.label             "Başlanğıç">
+<!ENTITY startup.label             "Başlanğıc">
 
 <!ENTITY startupPage2.label        "&brandShortName; başladığında">
 <!ENTITY startupPage2.accesskey    "s">
@@ -17,7 +17,7 @@
 <!ENTITY useMultiple.label         "Hazırki səhifələri istifadə et">
 <!ENTITY chooseBookmark.label      "Əlfəcin istifadə et…">
 <!ENTITY chooseBookmark.accesskey  "Ə">
-<!ENTITY restoreDefault.label      "Standart vəziyyətə qaytar">
+<!ENTITY restoreDefault.label      "İlkin vəziyyətə qaytar">
 <!ENTITY restoreDefault.accesskey  "S">
 
 <!ENTITY downloads.label     "Endirilənlər">
@@ -33,8 +33,8 @@
 
 <!ENTITY alwaysCheckDefault2.label        "&brandShortName; səyyahının əsas səyyahınız olub olmadığını hər dəfə yoxla">
 <!ENTITY alwaysCheckDefault2.accesskey    "y">
-<!ENTITY setAsMyDefaultBrowser2.label     "Standart et">
-<!ENTITY setAsMyDefaultBrowser2.accesskey "S">
+<!ENTITY setAsMyDefaultBrowser3.label     "Əsas səyyahım et…">
+<!ENTITY setAsMyDefaultBrowser3.accesskey "D">
 <!ENTITY isDefault.label                  "&brandShortName; hazırda əsas səyyahınızdır">
 <!ENTITY isNotDefault.label               "&brandShortName; əsas səyyahınız deyil">
 

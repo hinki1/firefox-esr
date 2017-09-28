@@ -11,13 +11,13 @@
 <!ENTITY organize.tooltip      "จัดระเบียบที่คั่นหน้าของคุณ">
 
 <!ENTITY file.close.label               "ปิด">
-<!ENTITY file.close.accesskey           "ด">
+<!ENTITY file.close.accesskey           "ป">
 <!ENTITY cmd.close.key                  "w">
 <!ENTITY views.label                    "มุมมอง">
 <!ENTITY views.accesskey                "ม">
 <!ENTITY views.tooltip                  "เปลี่ยนมุมมองของคุณ">
 <!ENTITY view.columns.label             "แสดงคอลัมน์">
-<!ENTITY view.columns.accesskey         "ค">
+<!ENTITY view.columns.accesskey         "ส">
 <!ENTITY view.sort.label                "เรียง">
 <!ENTITY view.sort.accesskey            "ร">
 <!ENTITY view.unsorted.label            "ไม่เรียง">
@@ -53,10 +53,10 @@
 <!ENTITY cmd.open_tab.label              "เปิดในแท็บใหม่">
 <!ENTITY cmd.open_tab.accesskey          "ท">
 <!ENTITY cmd.open_all_in_tabs.label      "เปิดทั้งหมดในแท็บ">
-<!ENTITY cmd.open_all_in_tabs.accesskey  "O">
+<!ENTITY cmd.open_all_in_tabs.accesskey  "ป">
 
 <!ENTITY cmd.properties.label      "คุณสมบัติ">
-<!ENTITY cmd.properties.accesskey  "i">
+<!ENTITY cmd.properties.accesskey  "ส">
 
 <!ENTITY cmd.sortby_name.label              "เรียงตามชื่อ">
 <!ENTITY cmd.sortby_name.accesskey          "S">
@@ -71,7 +71,7 @@
 <!ENTITY cmd.new_separator.accesskey       "บ">
 
 <!ENTITY cmd.reloadLivebookmark.label      "โหลดที่คั่นหน้าสดใหม่">
-<!ENTITY cmd.reloadLivebookmark.accesskey  "R">
+<!ENTITY cmd.reloadLivebookmark.accesskey  "ห">
 
 <!ENTITY cmd.moveBookmarks.label                  "ย้าย…">
 <!ENTITY cmd.moveBookmarks.accesskey              "ย">
@@ -85,8 +85,7 @@
 <!ENTITY col.dateadded.label     "เพิ่มเมื่อ">
 <!ENTITY col.lastmodified.label  "เปลี่ยนแปลงล่าสุด">
 
-<!ENTITY search.label                              "ค้นหา:">
-<!ENTITY search.accesskey                          "ค">
+<!ENTITY search.placeholder  "ค้นหา">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -99,22 +98,20 @@
 <!ENTITY forwardButton.tooltip  "เดินหน้า">
 
 <!ENTITY detailsPane.more.label "เพิ่มเติม">
-<!ENTITY detailsPane.more.accesskey "e">
+<!ENTITY detailsPane.more.accesskey "พ">
 <!ENTITY detailsPane.less.label "น้อยลง">
-<!ENTITY detailsPane.less.accesskey "e">
+<!ENTITY detailsPane.less.accesskey "น">
 <!ENTITY detailsPane.selectAnItemText.description "เลือกรายการเพื่อดูและแก้ไขคุณสมบัติ">
 
-<!ENTITY find.label               "ค้นหา:">
-<!ENTITY find.accesskey           "ค">
 <!ENTITY view.label               "มุมมอง">
 <!ENTITY view.accesskey           "ม">
 <!ENTITY byDate.label             "ตามวันที่">
-<!ENTITY byDate.accesskey         "D">
+<!ENTITY byDate.accesskey         "ว">
 <!ENTITY bySite.label             "ตามไซต์">
-<!ENTITY bySite.accesskey         "S">
+<!ENTITY bySite.accesskey         "ม">
 <!ENTITY byMostVisited.label      "ตามที่เยี่ยมชมมากที่สุด">
-<!ENTITY byMostVisited.accesskey  "V">
+<!ENTITY byMostVisited.accesskey  "ท">
 <!ENTITY byLastVisited.label      "ตามที่เยี่ยมชมล่าสุด">
-<!ENTITY byLastVisited.accesskey  "L">
+<!ENTITY byLastVisited.accesskey  "ย">
 <!ENTITY byDayAndSite.label       "ตามวันที่และไซต์">
-<!ENTITY byDayAndSite.accesskey   "t">
+<!ENTITY byDayAndSite.accesskey   "ต">

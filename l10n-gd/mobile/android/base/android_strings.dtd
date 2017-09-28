@@ -294,6 +294,9 @@
 <!ENTITY custom_tabs_menu_footer "Le cumhachd &brandShortName;">
 <!-- Long-click title of CustomTabsActivity will copy URL to clipboard and display this hint -->
 <!ENTITY custom_tabs_hint_url_copy "Lethbhreac dhen URL air a dhèanamh">
+
+<!ENTITY pref_pwa "Aplacaidean-lìn adhartach">
+<!ENTITY pref_pwa_summary "Gabhaidh aplacaidean-lìn a chur ris an sgrìn mhòr">
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "Sruth na gnìomhachd">
@@ -358,10 +361,6 @@
 <!ENTITY pref_clear_on_exit_title3 "Falamhaich an dàta prìobhaideach aig àm fàgail">
 <!ENTITY pref_clear_on_exit_summary2 "Falamhaichidh &brandShortName; an dàta agad gu fèin-obrachail gach turas a thaghas tu “Fàg an-seo” sa phrìomh chlàr-taice">
 <!ENTITY pref_clear_on_exit_dialog_title "Tagh an dàta a thèid fhalamhadh">
-<!ENTITY pref_plugins "Plugain">
-<!ENTITY pref_plugins_enabled "An comas">
-<!ENTITY pref_plugins_tap_to_play2 "Suath ris gus a chluich">
-<!ENTITY pref_plugins_disabled "À comas">
 <!ENTITY pref_restore_tabs "Aisig a h-uile taba">
 <!ENTITY pref_restore_always "Aisig an-còmhnaidh">
 <!ENTITY pref_restore_quit "Na aisig an dèidh dhomh &brandShortName; fhàgail">
@@ -545,6 +544,7 @@
 <!ENTITY page_removed "Air a thoirt air falbh">
 
 <!ENTITY bookmark_edit_title "Deasaich an comharra-lìn">
+<!ENTITY bookmark_edit_folder_title "Deasaich am pasgan">
 <!ENTITY bookmark_edit_name "Ainm">
 <!ENTITY bookmark_edit_location "Ionad">
 <!ENTITY bookmark_edit_keyword "Facal-luirg">
@@ -621,6 +621,11 @@
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Na falaich na h-uidheaman a thagh thu tuilleadh">
+<!-- Localization note (home_pinned_site) : This is a snackbar label displayed after
+    a site is pinned or unpinned. -->
+
+<!ENTITY home_pinned_site "Chaidh an làrach a phrìneachadh">
+<!ENTITY home_unpinned_site "Chaidh an làrach a dhì-phrìneachadh">
 
 <!ENTITY remote_tabs_panel_moved_title "Cà bheil na tabaichean agam?">
 <!ENTITY remote_tabs_panel_moved_desc "Ghluais sinn na tabaichean agad o uidheaman eile gu panail air an duilleag mhòr agad ach am faigh thu greim orra gu luath gach turas a dh’fhosglas tu taba ùr.">

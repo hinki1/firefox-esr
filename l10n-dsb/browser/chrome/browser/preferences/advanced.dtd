@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "Powšykne">
 
-<!ENTITY accessibility.label             "Pśistupnosć">
-
 <!ENTITY useCursorNavigation.label       "Pśecej kursorowe tasty za pógibowanje na bokach wužywaś">
 <!ENTITY useCursorNavigation.accesskey   "k">
 <!ENTITY searchOnStartTyping.label       "Pśi pisanju tekst pytaś">
 <!ENTITY searchOnStartTyping.accesskey   "P">
-<!ENTITY blockAutoReload.label           "Warnowaś, gaž websedła wopytuju bok dalej pósrědniś abo znowego zacytaś">
-<!ENTITY blockAutoReload.accesskey       "W">
 <!ENTITY useOnScreenKeyboard.label       "Dotykańsku tastaturu pokazaś, jolic trěbne">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
@@ -27,25 +23,27 @@
 <!ENTITY checkUserSpelling.accesskey     "P">
 
 <!ENTITY dataChoicesTab.label            "Datowy wuběrk">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
 
-<!ENTITY healthReportDesc.label          "Pomaga wam, wugbaśe wašogo wobglědowaka rozměś a źěli daty z &vendorShortName; wó statusu wašogo wobglědowaka">
-<!ENTITY enableHealthReport.label        "&brandShortName; - statusowu rozpšawu zmóžniś">
-<!ENTITY enableHealthReport.accesskey    "r">
+<!ENTITY healthReportingDisabled.label   "Datowe rozpšawjenje jo znjemóžnjone za toś tu programowu konfiguraciju">
+
+<!ENTITY enableHealthReport1.label       "&brandShortName; zmóžniś, awtomatiski techniske a interakciske daty na Mozilla pósłaś">
+<!ENTITY enableHealthReport1.accesskey   "r">
 <!ENTITY healthReportLearnMore.label     "Dalšne informacije">
 
-<!ENTITY telemetryDesc.label             "Źěli wugbaśe, wužyśe, hardware a pśiměrjenja wašogo wobglědowaka z &vendorShortName;, aby nam pomagała, &brandShortName; pólěpšyś">
-<!ENTITY enableTelemetryData.label       "Pśidatne daty źěliś (na pś. telemetriju)">
-<!ENTITY enableTelemetryData.accesskey   "t">
-<!ENTITY telemetryLearnMore.label        "Dalšne informacije">
+<!ENTITY dataCollection.label            "Gromaźenje a wužywanje datow &brandShortName;">
+<!ENTITY dataCollectionDesc.label        "Comy was z wuběrkami wobstaraś a janož to zběraś, což musymy póbitowaś, aby my &brandShortName; za kuždego pólěpšili. Pšosymy pśecej wó dowólnosć, nježli až wósobinske daty dostanjomy.">
+<!ENTITY dataCollectionPrivacyNotice.label    "Powěźeńka priwatnosći">
 
-<!ENTITY crashReporterDesc2.label         "Wowaleńske rozpšawy pomagaju &vendorShortName;, problemy rozwězaś a waš woglědowak stabilnješy a wěsćejišy cyniś">
-<!ENTITY alwaysSubmitCrashReports.label   "&brandShortName; dowóliś, njewobźěłane wowaleńske rozpšawy we wašom mjenju pósłaś">
-<!ENTITY alwaysSubmitCrashReports.accesskey "b">
-<!ENTITY crashReporterLearnMore.label     "Dalšne informacije">
+<!ENTITY alwaysSubmitCrashReports1.label  "&brandShortName; zmóžniś, wowaleńske rozpšawy na Mozilla pósłaś">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "l">
+<!ENTITY crashReporterLearnMore.label    "Dalšne informacije">
 
 <!ENTITY networkTab.label                "Seś">
 
-<!ENTITY connection.label                "Zwisk">
+<!ENTITY networkProxy.label              "Seśowy proksy">
 
 <!ENTITY connectionDesc.label            "Konfigurěrowaś, kak &brandShortName; ma z internetom zwězaś">
 <!ENTITY connectionSettings.label        "Nastajenja…">
@@ -92,11 +90,12 @@
 # after the version number, and is empty on purpose for English. You can use it
 # if required by your language.
  -->
+<!ENTITY updateApplicationDescription.label "Źaržćo &brandShortName; aktualny, za nejlěpše wugbaśe, stabilnosć a wěstotu.">
 <!ENTITY updateApplication.version.pre   "Wersija ">
 <!ENTITY updateApplication.version.post  "">
 <!ENTITY updateApplication.description   "&amp;brandShortName dowóliś,">
-<!ENTITY updateAuto2.label               "Aktualizacije awtomatiski instalěrowaś (pśiraźijo se: pólěpšona wěstota)">
-<!ENTITY updateAuto2.accesskey           "A">
+<!ENTITY updateAuto3.label               "Aktualizacije awtomatiski instalěrowaś (dopórucone)">
+<!ENTITY updateAuto3.accesskey           "A">
 <!ENTITY updateCheckChoose2.label        "Za aktualizacijami pytaś, ale do togo se pšašaś, lěc maju se instalěrowaś">
 <!ENTITY updateCheckChoose2.accesskey    "Z">
 <!ENTITY updateManual2.label             "Nigda za aktualizacijami njepytaś (njepśiraźijo se)">
@@ -110,8 +109,6 @@
 
 <!ENTITY enableSearchUpdate2.label       "Pytnice awtomatiski aktualizěrowaś">
 <!ENTITY enableSearchUpdate2.accesskey   "k">
-
-<!ENTITY reports.label                   "Rozpšawy">
 
 <!ENTITY offlineStorageNotify.label               "Informěrowaś, gaž websedło co daty za wužywanje offline składowaś">
 <!ENTITY offlineStorageNotify.accesskey           "I">
@@ -132,10 +129,10 @@
 <!ENTITY selectCerts.ask.accesskey       "K">
 <!ENTITY enableOCSP.label                "Pla wótegronowych serwerow OCSP se napšašowaś, aby aktualnu płaśiwosć certifikatow wobkšuśiło">
 <!ENTITY enableOCSP.accesskey            "P">
-<!ENTITY viewCerts.label                 "Certifikaty pokazaś">
-<!ENTITY viewCerts.accesskey             "C">
-<!ENTITY viewSecurityDevices.label       "Wěstotne rědy">
-<!ENTITY viewSecurityDevices.accesskey   "t">
+<!ENTITY viewCerts2.label                "Certifikaty pokazaś…">
+<!ENTITY viewCerts2.accesskey            "C">
+<!ENTITY viewSecurityDevices2.label      "Wěstotne rědy…">
+<!ENTITY viewSecurityDevices2.accesskey  "t">
 
 <!ENTITY performance.label               "Wugbaśe">
 <!ENTITY useRecommendedPerformanceSettings2.label "Dopórucone wugbaśowe nastajenja wužywaś">

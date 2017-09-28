@@ -4,18 +4,18 @@
 
 <!ENTITY defaultSearchEngine.label             "Bilaketa-motor lehenetsia">
 
-<!ENTITY chooseYourDefaultSearchEngine.label   "Aukeratu zure bilaketa-motor lehenetsia. Helbide-barran, bilaketa-barran eta hasiera-orrian erabiltzen du &brandShortName;(e)k.">
+<!ENTITY chooseYourDefaultSearchEngine2.label   "Aukeratu helbide- eta bilaketa-barran erabili beharreko bilaketa-motor lehenetsia.">
 
 <!ENTITY provideSearchSuggestions.label        "Hornitu bilaketa-iradokizunak">
 <!ENTITY provideSearchSuggestions.accesskey    "b">
 
-<!ENTITY showURLBarSuggestions.label           "Erakutsi bilaketa-iradokizunak helbide-barrako emaitzetan">
-<!ENTITY showURLBarSuggestions.accesskey       "h">
+<!ENTITY showURLBarSuggestions2.label           "Erakutsi bilaketa-iradokizunak helbide-barrako emaitzetan">
+<!ENTITY showURLBarSuggestions2.accesskey       "h">
 <!ENTITY urlBarSuggestionsPermanentPB.label    "Bilaketa-iradokizunak ez dira helbide-barran erakutsiko &brandShortName;(e)k historia inoiz ez gogoratzeko konfiguratu duzulako.">
 
 <!ENTITY oneClickSearchEngines.label           "Klik bakarreko bilaketa-motorrak">
 
-<!ENTITY chooseWhichOneToDisplay.label         "Bilaketa-barrarekin zuzenean egin dezakezu bilaketa hainbat motorretan. Aukeratu zein nahi dituzun bistaratu.">
+<!ENTITY chooseWhichOneToDisplay2.label         "Aukeratu gako-hitz bat idazten hastean helbide- eta bilaketa-barren azpian agertzen diren ordezko bilaketa-motorrak.">
 
 <!ENTITY engineNameColumn.label                "Bilaketa-motorra">
 <!ENTITY engineKeywordColumn.label             "Gako-hitza">
@@ -26,4 +26,4 @@
 <!ENTITY removeEngine.label                    "Kendu">
 <!ENTITY removeEngine.accesskey                "K">
 
-<!ENTITY addMoreSearchEngines2.label           "Gehitu bilaketa-motor gehiago">
+<!ENTITY findMoreSearchEngines.label           "Bilatu bilaketa-motor gehiago">

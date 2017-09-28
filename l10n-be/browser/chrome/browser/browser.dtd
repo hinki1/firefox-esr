@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Мабільныя закладкі">
 <!ENTITY viewBookmarksSidebar2.label        "Паказаць бакавую панэль закладак">
 <!ENTITY viewBookmarksToolbar.label         "Паказаць паліцу закладак">
+<!ENTITY searchBookmarks.label              "Шукаць у закладках">
 
 <!ENTITY containersMenu.label "Кантэйнеры">
 
@@ -331,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "п">
 <!ENTITY viewCustomizeToolbar.label       "Уладкаваць…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "л">
+<!ENTITY overflowCustomizeToolbar.label       "Уладкаванне паліцы прылад…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "У">
 
 <!ENTITY historyMenu.label "Гісторыя">
 <!ENTITY historyMenu.accesskey "Г">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Ачысціць нядаўнюю гісторыю…">
 <!ENTITY appMenuHistory.restoreSession.label "Аднавіць папярэдні сеанс">
 <!ENTITY appMenuHistory.viewSidebar.label "Паказаць панэль гісторыі">
+<!ENTITY appMenuHistory.recentHistory.label "Нядаўняя гісторыя">
 <!ENTITY appMenuHelp.label "Даведка">
 <!ENTITY appMenuHelp.tooltip "Адкрыць меню даведкі">
 
@@ -375,7 +379,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.noclients.title "Няма сінхранізаваных картак… пакуль!">
 <!ENTITY appMenuRemoteTabs.noclients.subtitle "Хочаце пабачыць свае карткі з іншых прылад?">
 <!ENTITY appMenuRemoteTabs.openprefs.label "Налады сінхранізацыі">
-<!ENTITY appMenuRemoteTabs.notsignedin.label "Увайдзіце, каб пабачыць спіс картак з сваіх іншых прылад.">
+<!ENTITY appMenuRemoteTabs.notsignedin.label "Увайдзіце, каб пабачыць спіс картак з іншых сваіх прылад.">
 <!ENTITY appMenuRemoteTabs.signin.label "Увайсці ў Sync">
 <!ENTITY appMenuRemoteTabs.managedevices.label "Кіраваць прыладамі...">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Паказаць бакавую панэль сінхранізаваных картак">
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "Пошукавы запыт">
 <!ENTITY contentSearchSubmit.tooltip  "Даслаць запыт">
+
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+<!ENTITY searchInput.placeholder      "Пошук">
+<!ENTITY searchIcon.tooltip           "Пошук">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -692,7 +701,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY closeCmd.label                 "Закрыць">  
 <!ENTITY closeCmd.key                   "W">  
-<!ENTITY closeCmd.accesskey             "З">
+<!ENTITY closeCmd.accesskey             "ч">
 
 <!ENTITY toggleMuteCmd.key              "Ь">
 
@@ -723,7 +732,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY findOnCmd.label     "Знайсці на гэтай старонцы…">
 <!ENTITY findOnCmd.accesskey "З">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Знайсці зноў">
+<!ENTITY findAgainCmd.label  "Шукаць ізноў">
 <!ENTITY findAgainCmd.accesskey "ў">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
@@ -849,6 +858,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "К">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Атрымаць больш тэм">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "А">
+<!ENTITY customizeMode.emptyOverflowList.description "Перацягніце элементы сюды, каб трымаць іх пад рукой, але не на паліцы прылад…">
+<!ENTITY customizeMode.uidensity "Шчыльнасць">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Звычайна">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Звычайна">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "З">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Кампактна">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Кампактна">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "К">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Дотык">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Дотык">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "Д">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Выкарыстоўваць дотык для планшэтнага рэжыму">
 
 <!ENTITY getUserMedia.selectCamera.label "Да якой камеры даць доступ:">
 <!ENTITY getUserMedia.selectCamera.accesskey "З">
@@ -958,8 +988,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2 "Перазапуск для абнаўлення &brandShorterName;">
 
 <!ENTITY pageActionButton.tooltip "Дзеянні старонкі">
+<!ENTITY pageAction.addToUrlbar.label "Дадаць у адрасны радок">
+<!ENTITY pageAction.removeFromUrlbar.label "Выдаліць з адраснага радка">
 
-<!ENTITY sendToDevice.label "Даслаць на прыладу…">
-<!ENTITY sendToDevice.viewTitle "Даслаць на прыладу">
-<!ENTITY sendToDevice.fxaRequired.label "Патрабуецца">
-<!ENTITY sendToDevice.noDevices.label "Няма даступных прылад">
+<!ENTITY sendToDevice.label2 "Даслаць на прыладу">
+<!ENTITY sendToDevice.syncNotReady.label "Сінхранізацыя прылад…">

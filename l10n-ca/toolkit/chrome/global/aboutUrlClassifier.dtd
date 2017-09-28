@@ -8,6 +8,7 @@
 <!ENTITY aboutUrlClassifier.provider                    "Proveïdor">
 <!ENTITY aboutUrlClassifier.providerLastUpdateTime      "Darrera actualització">
 <!ENTITY aboutUrlClassifier.providerNextUpdateTime      "Propera actualització">
+
 <!ENTITY aboutUrlClassifier.providerLastUpdateStatus    "Estat de la darrera actualització">
 <!ENTITY aboutUrlClassifier.providerUpdateBtn           "Actualitza">
 <!ENTITY aboutUrlClassifier.cacheTitle                  "Memòria cau">
@@ -18,7 +19,7 @@
 
 
 <!ENTITY aboutUrlClassifier.cacheEntries                "Entrades en memòria cau">
-<!ENTITY aboutUrlClassifier.cachePrefix                 "Prefix">
+
 
 
 

@@ -15,7 +15,7 @@
 <!ENTITY listEmpty.recentUpdates.label        "آپ نے حالیہ طور پر کوئی ایڈ اون تازہ نہیں کیے">
 <!ENTITY listEmpty.findUpdates.label          "تازہ کاریوں کے لیے چیک کریں">
 <!ENTITY listEmpty.search.label               "کوئی ایسے ایڈ اون نہیں ملے">
-<!ENTITY listEmpty.button.label               "ایڈ اون کے بارے میں مزید سیکھیں">
+<!ENTITY listEmpty.button.label               "ایڈ اون کے بارے میں اور سیکھیں">
 <!ENTITY installAddonFromFile.label           "ایڈ اون مسل سے تنصیب کریں...">
 <!ENTITY installAddonFromFile.accesskey       "ت">
 <!ENTITY toolsMenu.tooltip                    "تمام ایڈ اون کے لیے ٹول">
@@ -254,7 +254,7 @@
 <!ENTITY pluginDeprecation.description "کسی شہ کی کمی ہے؟ &brandShortName;. کی جانب سے کچھ بلگ ان میں تعاون اب نہیں رہا ">
 <!ENTITY pluginDeprecation.learnMore "مزید سیکھیں">
 
-<!ENTITY legacyWarning.showLegacy "روایتی توسیعات دکھائیں">
+
 
 
 

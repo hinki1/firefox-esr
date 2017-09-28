@@ -36,7 +36,7 @@
 
 <!ENTITY cmd.backup.label               "Sikkerheitskopier…">
 <!ENTITY cmd.backup.accesskey           "S">
-<!ENTITY cmd.restore2.label             "Gjenopprett">
+<!ENTITY cmd.restore2.label             "Bygg oppatt">
 <!ENTITY cmd.restore2.accesskey         "G">
 <!ENTITY cmd.restoreFromFile.label      "Vel fil…">
 <!ENTITY cmd.restoreFromFile.accesskey  "V">
@@ -77,7 +77,7 @@
 <!ENTITY cmd.moveBookmarks.accesskey              "F">
 
 <!ENTITY col.name.label          "Namn">
-<!ENTITY col.tags.label          "Merkelapp">
+<!ENTITY col.tags.label          "Etikettar">
 <!ENTITY col.url.label           "Adresse">
 <!ENTITY col.mostrecentvisit.label "Sist besøkt">
 <!ENTITY col.visitcount.label    "Tal på besøk">
@@ -85,8 +85,7 @@
 <!ENTITY col.dateadded.label     "Lagt til">
 <!ENTITY col.lastmodified.label  "Sist endra">
 
-<!ENTITY search.label                              "Søk:">
-<!ENTITY search.accesskey                          "ø">
+<!ENTITY search.placeholder  "Søk">
 
 <!ENTITY cmd.find.key  "f">
 
@@ -104,8 +103,6 @@
 <!ENTITY detailsPane.less.accesskey "e">
 <!ENTITY detailsPane.selectAnItemText.description "Vel elementet du vil vise og redigere">
 
-<!ENTITY find.label               "Søk:">
-<!ENTITY find.accesskey           "S">
 <!ENTITY view.label               "Vis">
 <!ENTITY view.accesskey           "i">
 <!ENTITY byDate.label             "Etter dato">

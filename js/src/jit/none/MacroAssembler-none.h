@@ -210,6 +210,7 @@ class MacroAssemblerNone : public Assembler
     void bindLater(Label*, wasm::TrapDesc) { MOZ_CRASH(); }
     template <typename T> void j(Condition, T) { MOZ_CRASH(); }
     template <typename T> void jump(T) { MOZ_CRASH(); }
+    void writeCodePointer(CodeOffset* label) { MOZ_CRASH(); }
     void haltingAlign(size_t) { MOZ_CRASH(); }
     void nopAlign(size_t) { MOZ_CRASH(); }
     void checkStackAlignment() { MOZ_CRASH(); }
@@ -423,12 +424,6 @@ class MacroAssemblerNone : public Assembler
     // Instrumentation for entering and leaving the profiler.
     void profilerEnterFrame(Register , Register ) { MOZ_CRASH(); }
     void profilerExitFrame() { MOZ_CRASH(); }
-
-    void disableProtection() { MOZ_CRASH(); }
-    void enableProtection() { MOZ_CRASH(); }
-    void setLowerBoundForProtection(size_t) { MOZ_CRASH(); }
-    void unprotectRegion(unsigned char*, size_t) { MOZ_CRASH(); }
-    void reprotectRegion(unsigned char*, size_t) { MOZ_CRASH(); }
 
 #ifdef JS_NUNBOX32
     Address ToPayload(Address) { MOZ_CRASH(); }

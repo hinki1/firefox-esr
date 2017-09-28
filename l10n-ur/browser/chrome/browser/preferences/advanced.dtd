@@ -1,19 +1,15 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!-- Note: each tab panel must contain unique accesskeys -->
 
-
 <!ENTITY generalTab.label                "عمومی">
-
-<!ENTITY accessibility.label             "رسائی پزیری">
 
 <!ENTITY useCursorNavigation.label       "صفحات میں آگے پیچھے جانے کے لیے ہمیشہ کرسر کلیدیں استعمال کریں">
 <!ENTITY useCursorNavigation.accesskey   "ک">
 <!ENTITY searchOnStartTyping.label       "میرے ٹائپ کرنے پر متن کے لیے تلاش شروع کریں">
 <!ENTITY searchOnStartTyping.accesskey   "م">
-<!ENTITY blockAutoReload.label           "جب ویب سائٹیں صفحہ کو دوسری سمت بھیجنے کی یا پھر لوڈ کرنے کی کوشش کریں تو مجھے متنبہ کریں">
-<!ENTITY blockAutoReload.accesskey       "س">
 <!ENTITY useOnScreenKeyboard.label       "ضرورت کے وقت ٹچ کی بورڈ دکھایں">
 <!ENTITY useOnScreenKeyboard.accesskey   "ک">
 
@@ -28,24 +24,19 @@
 
 <!ENTITY dataChoicesTab.label            "کوائف پسند">
 
-<!ENTITY healthReportDesc.label          "آپ کو آپ کے براؤزر کی سرانجام دہی سمجھنے میں مدد کرتا ہے اور &vendorShortName; کے ساتھ آپ کے براؤزر کی تندرستی کے کوائف شیئر کرتا ہے">
-<!ENTITY enableHealthReport.label        "&brandShortName; تندرستی رپورٹ اہل بنائیں">
-<!ENTITY enableHealthReport.accesskey    "ر">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+
+<!ENTITY enableHealthReport1.accesskey   "r">
 <!ENTITY healthReportLearnMore.label     "مزید سیکھیں">
 
-<!ENTITY telemetryDesc.label             "&brandShortName; کو بہتر بنانے میں مدد دینے کے لیے آپ کے براؤزر کے سرانجام دہی، استعمال، ہارڈ ویئر اور تخصیص کاری کوائف &vendorShortName; کو بھیجتا ہے">
-<!ENTITY enableTelemetryData.label       "اضافی کوائف شیئر کریں (یعنی Telemetry)">
-<!ENTITY enableTelemetryData.accesskey   "T">
-<!ENTITY telemetryLearnMore.label        "مزید سیکھیں">
 
-<!ENTITY crashReporterDesc2.label         "تباہ کاری کی رپورٹ &vendorShortName; میں مدد کرتی ھے۔ اور آپ کے براؤزر کو زیادہ مستحکم اور محفوظ بناتی ھے">
-<!ENTITY alwaysSubmitCrashReports.label   "آپ کی طرف سے &brandShortName; کو روکے ہوئے ناکامی کی اطلاع بھیجنے کی اجازت دے۔">
-<!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "مزید سیکھیں">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "c">
+<!ENTITY crashReporterLearnMore.label    "مزید سیکھیں">
 
 <!ENTITY networkTab.label                "نیٹ ورک">
 
-<!ENTITY connection.label                "کنکشن">
 
 <!ENTITY connectionDesc.label            "&brandShortName;  کا انٹرنیٹ سے جڑنے کا طریقہ تشکیل کریں">
 <!ENTITY connectionSettings.label        "سیٹنگیں…">
@@ -54,21 +45,21 @@
 <!ENTITY httpCache.label                 "کیسہ بند ویب مواد">
 
 <!ENTITY offlineStorage2.label           "آف لائن ویب مواد اور ویب کوائف">
-<!--  Site Data section manages sites using Storage API and is under Network -->
 
+<!--  Site Data section manages sites using Storage API and is under Network -->
 <!ENTITY siteData.label                  "سائٹ کے کوائف">
 <!ENTITY clearSiteData.label             "تمام کوائف صاف کریں">
 <!ENTITY clearSiteData.accesskey         "ف">
 <!ENTITY siteDataSettings.label          "سیٹنگیں…">
 <!ENTITY siteDataSettings.accesskey      "ن">
 <!ENTITY siteDataLearnMoreLink.label     "مزید سیکھیں">
+
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
 
   &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
 -->
-
 <!ENTITY limitCacheSizeBefore.label      "کیسہ حد بند کریں">
 <!ENTITY limitCacheSizeBefore.accesskey  "ح">
 <!ENTITY limitCacheSizeAfter.label       "MB جگہ">
@@ -80,11 +71,11 @@
 <!ENTITY overrideSmartCacheSize.accesskey "ز">
 
 <!ENTITY updateTab.label                 "تازہ کاری">
+
 <!-- LOCALIZATION NOTE (updateApplication.label):
   Strings from aboutDialog.dtd are displayed in this section of the preferences.
   Please check for possible accesskey conflicts.
 -->
-
 <!ENTITY updateApplication.label         "&brandShortName; تازہ کاریاں:">
 <!-- LOCALIZATION NOTE (updateApplication.version.*): updateApplication.version.pre
 # is followed by a version number, keep the trailing space or replace it with a
@@ -94,22 +85,16 @@
  -->
 <!ENTITY updateApplication.version.pre   "ورژن">
 <!ENTITY updateApplication.version.post  "">
+<!ENTITY updateAuto3.accesskey           "A">
+<!ENTITY updateCheckChoose2.accesskey    "C">
+<!ENTITY updateManual2.accesskey         "N">
 
-
-
-
-
-
-
-
-
+<!ENTITY updateHistory2.accesskey        "P">
 
 <!ENTITY useService.label                "تازہ کاریاں تنصیب کرنے کے لیے پس منظر سروس استعمال کریں">
 <!ENTITY useService.accesskey            "پ">
 
-
-
-<!ENTITY reports.label                   "رپورٹس">
+<!ENTITY enableSearchUpdate2.accesskey   "e">
 
 <!ENTITY offlineStorageNotify.label               "مجھے بتائیں جب کوئی ویب سائٹ آف لائن استعمال کے لیے کوائف ذخیرہ کرنے کے لیے پوچھے">
 <!ENTITY offlineStorageNotify.accesskey           "ب">
@@ -123,27 +108,20 @@
 <!ENTITY offlineAppRemove.confirm        "آف لائن کوائف ہٹائیں">
 
 <!ENTITY certificateTab.label            "تصدیق نامے">
-<!ENTITY certPersonal2.description       "جب پیش کار آپ کے ذاتی تصدیق نامہ کی درخواست کرے:">
 <!ENTITY selectCerts.auto                "خودبخود ایک منتخب کریں">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "مجھے ہر بار پوچھیں">
 <!ENTITY selectCerts.ask.accesskey       "A">
 <!ENTITY enableOCSP.label                "سوال OCSP ریسپانڈر سرور کی موجودہ سرٹیفکیٹ کی تصدیق کرتی ہے">
 <!ENTITY enableOCSP.accesskey            "س">
-<!ENTITY viewCerts.label                 "تصدیق نامہ دیکھیں">
-<!ENTITY viewCerts.accesskey             "ت">
-<!ENTITY viewSecurityDevices.label       "سلامتی آلات">
-<!ENTITY viewSecurityDevices.accesskey   "آ">
+<!ENTITY viewCerts2.accesskey            "C">
+<!ENTITY viewSecurityDevices2.accesskey  "D">
 
 <!ENTITY performance.label               "کارکردگی">
-
-
-
-<!ENTITY performanceSettingsLearnMore.label "مزید سیکھیں">
-
-
-
-
-
+<!ENTITY useRecommendedPerformanceSettings2.accesskey
+                                         "U">
+<!ENTITY performanceSettingsLearnMore.label
+                                         "مزید سیکھیں">
+<!ENTITY limitContentProcessOption.accesskey   "L">
 <!ENTITY allowHWAccel.label              "جب دستیاب ہو تو ہارڈ ویئر سرعت کاری استعمال کریں">
 <!ENTITY allowHWAccel.accesskey          "ہ">

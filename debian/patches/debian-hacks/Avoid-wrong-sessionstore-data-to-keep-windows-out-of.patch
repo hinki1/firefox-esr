@@ -12,24 +12,24 @@ Closes: #552426, #553453
  1 file changed, 1 insertion(+), 3 deletions(-)
 
 diff --git a/browser/components/sessionstore/SessionStore.jsm b/browser/components/sessionstore/SessionStore.jsm
-index c0cb01163349..a9806d729e77 100644
+index f88e5085bb24..4c2d68afb98d 100644
 --- a/browser/components/sessionstore/SessionStore.jsm
 +++ b/browser/components/sessionstore/SessionStore.jsm
-@@ -3931,7 +3931,7 @@ var SessionStoreInternal = {
- 
-     // only modify those aspects which aren't correct yet
-     if (!isNaN(aLeft) && !isNaN(aTop) && (aLeft != win_("screenX") || aTop != win_("screenY"))) {
--      aWindow.moveTo(aLeft, aTop);
-+      aWindow.moveTo((aLeft < -aWidth) ? 0 : aLeft, (aTop < -aHeight) ? 0 : aTop);
-     }
-     if (aWidth && aHeight && (aWidth != win_("width") || aHeight != win_("height")) && !gResistFingerprintingEnabled) {
-       // Don't resize the window if it's currently maximized and we would
-@@ -3946,8 +3946,6 @@ var SessionStoreInternal = {
-         aWindow.maximize();
-         break;
-       case "minimized":
--        aWindow.minimize();
--        break;
-       case "normal":
-         aWindow.restore();
-         break;
+@@ -4022,7 +4022,7 @@ var SessionStoreInternal = {
+     try {
+       // only modify those aspects which aren't correct yet
+       if (!isNaN(aLeft) && !isNaN(aTop) && (aLeft != win_("screenX") || aTop != win_("screenY"))) {
+-        aWindow.moveTo(aLeft, aTop);
++        aWindow.moveTo((aLeft < -aWidth) ? 0 : aLeft, (aTop < -aHeight) ? 0 : aTop);
+       }
+       if (aWidth && aHeight && (aWidth != win_("width") || aHeight != win_("height")) && !gResistFingerprintingEnabled) {
+         // Don't resize the window if it's currently maximized and we would
+@@ -4037,8 +4037,6 @@ var SessionStoreInternal = {
+           aWindow.maximize();
+           break;
+         case "minimized":
+-          aWindow.minimize();
+-          break;
+         case "normal":
+           aWindow.restore();
+           break;

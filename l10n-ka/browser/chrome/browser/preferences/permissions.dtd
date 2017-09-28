@@ -5,24 +5,24 @@
 <!ENTITY window.title                 "გამონაკლისები">
 <!ENTITY window.width                 "45em">
 
-<!ENTITY treehead.sitename.label      "საიტი">
-<!ENTITY treehead.status.label        "სტატუსი">
-<!ENTITY removepermission.label       "საიტის ამოღება">
-<!ENTITY removepermission.accesskey   "ა">
-<!ENTITY removeallpermissions.label   "ყველა საიტის ამოღება">
-<!ENTITY removeallpermissions.accesskey "ლ">
+<!ENTITY treehead.sitename2.label     "საიტი">
+<!ENTITY treehead.status.label        "მდგომარეობა">
+<!ENTITY removepermission2.label      "საიტის ამოღება">
+<!ENTITY removepermission2.accesskey  "ღ">
+<!ENTITY removeallpermissions2.label  "ყველა საიტის ამოღება">
+<!ENTITY removeallpermissions2.accesskey "ყ">
 <!ENTITY address.label                "საიტის მისამართი:">
 <!ENTITY address.accesskey            "მ">
-<!ENTITY block.label                  "დაბლოკვა">
-<!ENTITY block.accesskey              "B">
+<!ENTITY block.label                  "აკრძალვა">
+<!ENTITY block.accesskey              "შ">
 <!ENTITY session.label                "სეანსზე დაშვება">
-<!ENTITY session.accesskey            "S">
+<!ENTITY session.accesskey            "ს">
 <!ENTITY allow.label                  "დაშვება">
 <!ENTITY allow.accesskey              "დ">
 <!ENTITY windowClose.key              "w">
 
 <!ENTITY button.cancel.label          "გაუქმება">
-<!ENTITY button.cancel.accesskey      "C">
+<!ENTITY button.cancel.accesskey      "გ">
 <!ENTITY button.ok.label              "ცვლილებების შენახვა">
 <!ENTITY button.ok.accesskey          "შ">
 

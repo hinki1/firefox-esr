@@ -3,25 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY aboutTelemetry.pageTitle "Dane telemetrii">
-<!ENTITY aboutTelemetry.changeDataChoices "Zmień">
-<!ENTITY aboutTelemetry.uploadEnabled "Wysyłanie danych o zdrowiu Firefoksa jest <span>włączone</span>.">
-<!ENTITY aboutTelemetry.uploadDisabled "Wysyłanie danych o zdrowiu Firefoksa jest <span>wyłączone</span>.">
-<!ENTITY aboutTelemetry.extendedRecordingEnabled "Rejestrowanie rozszerzonych danych telemetrii jest <span>włączone</span>.">
-<!ENTITY aboutTelemetry.extendedRecordingDisabled "Rejestrowanie rozszerzonych danych telemetrii jest <span>wyłączone</span>.">
 
 <!ENTITY aboutTelemetry.pingDataSource "Źródło danych ping:">
 <!ENTITY aboutTelemetry.showCurrentPingData "Bieżące">
 <!ENTITY aboutTelemetry.showArchivedPingData "Archiwum">
-<!ENTITY aboutTelemetry.pingDataDisplay "Prezentacja danych ping:">
-<!ENTITY aboutTelemetry.structured "Ustrukturyzowane">
 <!ENTITY aboutTelemetry.raw "Nieprzetworzony JSON">
 <!ENTITY aboutTelemetry.showSubsessionData "Dane podsesji">
 <!ENTITY aboutTelemetry.choosePing "Pingi:">
 <!ENTITY aboutTelemetry.showNewerPing "&lt;&lt; Nowsze">
 <!ENTITY aboutTelemetry.showOlderPing "Starsze &gt;&gt;">
-<!ENTITY aboutTelemetry.rawPingData "Nieprzetworzone dane">
 <!ENTITY aboutTelemetry.archiveWeekHeader "Tydzień">
+<!ENTITY aboutTelemetry.archivePingType "Typ">
 <!ENTITY aboutTelemetry.archivePingHeader "Ping">
+
+<!ENTITY aboutTelemetry.optionGroupToday "Dzisiaj">
+<!ENTITY aboutTelemetry.optionGroupYesterday "Wczoraj">
+<!ENTITY aboutTelemetry.optionGroupOlder "Starsze">
 
 <!ENTITY aboutTelemetry.generalDataSection "Ogólne">
 <!ENTITY aboutTelemetry.environmentDataSection "Dane środowiska">
@@ -52,13 +49,6 @@
   Późne zapisy
 ">
 <!ENTITY aboutTelemetry.sessionInfoSection "Informacje o sesji">
-<!ENTITY aboutTelemetry.addonHistogramsSection "
-  Histogramy zebrane przez dodatki
-">
-<!ENTITY aboutTelemetry.toggle "Kliknij, by przełączyć sekcję">
-<!ENTITY aboutTelemetry.emptySection "
-  (Brak zebranych danych)
-">
 
 <!ENTITY aboutTelemetry.fullSqlWarning "
   UWAGA: Debugowanie powolnych poleceń SQL jest włączone. Pełne ciągi SQL mogą być widoczne poniżej, ale nie
@@ -68,4 +58,3 @@
 <!ENTITY aboutTelemetry.hideStackSymbols "Wyświetl nieprzetworzone dane dla stosów">
 <!ENTITY aboutTelemetry.filterText "Filtruj (tekst lub /regexp/)">
 <!ENTITY aboutTelemetry.payloadChoiceHeader "Zawartość">
-<!ENTITY aboutTelemetry.rawPayload "Nieprzetworzona zawartość">

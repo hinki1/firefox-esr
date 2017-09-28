@@ -15,7 +15,7 @@
 
 <!ENTITY  generalTab            "Tuichakue">
 <!ENTITY  generalTab.accesskey  "G">
-
+<!ENTITY  generalTitle          "Teratee:">
 <!ENTITY  generalURL            "Tape:">
 <!ENTITY  generalType           "Peteĩchagua:">
 <!ENTITY  generalMode           "Moha'ãnga reko:">
@@ -73,6 +73,7 @@
 <!ENTITY  securityView.identity.owner    "Mba'ejára:">
 <!ENTITY  securityView.identity.domain   "Ñanduti renda:">
 <!ENTITY  securityView.identity.verifier "Ojehechapyréva:">
+<!ENTITY  securityView.identity.validity "Ndoikovéitama ag̃a:">
 
 <!ENTITY  securityView.privacy.header                   "Ñemigua ha tembiasakue">
 <!ENTITY  securityView.privacy.history                  "Ojehechámapa ko ñanduti renda ymavegua">

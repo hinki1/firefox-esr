@@ -70,6 +70,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Шматпрацэсныя вокны">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Працэсы вэб-кантэнту">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Ключ Google">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Ключ Службы вызначэння месцазнаходжання ад Mozilla">
 
@@ -108,6 +110,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Даступнасць">
 <!ENTITY aboutSupport.a11yActivated "Задзейнічаны">
 <!ENTITY aboutSupport.a11yForceDisabled "Прадухіліць даступнасць">
+<!ENTITY aboutSupport.a11yHandlerUsed "Апрацоўшчык даступнасці. які выкарыстоўваецца">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Версіі бібліятэк">
 
@@ -138,3 +141,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Журнал рашэнняў">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Адключаныя магчымасці абаронцы ад падзенняў">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Абыходныя шляхі">
+
+<!ENTITY aboutSupport.mediaTitle "Медыя">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Прылады вываду">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Прылады ўводу">
+<!ENTITY aboutSupport.mediaDeviceName "Назва">
+<!ENTITY aboutSupport.mediaDeviceGroup "Група">
+<!ENTITY aboutSupport.mediaDeviceVendor "Вытворца">
+<!ENTITY aboutSupport.mediaDeviceState "Стан">
+<!ENTITY aboutSupport.mediaDevicePreferred "Рэкамендавана">
+<!ENTITY aboutSupport.mediaDeviceFormat "Фармат">
+<!ENTITY aboutSupport.mediaDeviceChannels "Каналы">
+<!ENTITY aboutSupport.mediaDeviceRate "Частата">
+<!ENTITY aboutSupport.mediaDeviceLatency "Затрымка">

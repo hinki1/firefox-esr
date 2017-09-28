@@ -2,14 +2,13 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  popups.label                "Iškylantieji langai">
+<!ENTITY  permissions.label           "Leidimai">
 
 <!ENTITY  blockPopups.label           "Neleisti iškylančiųjų langų">
 <!ENTITY  blockPopups.accesskey       "N">
 
-<!ENTITY  notificationsPolicy.label            "Pranešimai">
 <!ENTITY  notificationsPolicyLearnMore.label   "Sužinoti daugiau">
-<!ENTITY  notificationsPolicyDesc3.label       "Pasirinkite, kurioms svetainės leidžiate jums siųsti pranešimus">
+<!ENTITY  notificationsPolicyDesc4.label       "Pasirinkite, kurioms svetainėms leidžiate jums siųsti pranešimus">
 <!ENTITY  notificationsPolicyButton.accesskey  "r">
 <!ENTITY  notificationsPolicyButton.label      "Pasirinkti…">
 <!ENTITY  notificationsDoNotDisturb.label      "Netrukdyti manęs">
@@ -33,7 +32,7 @@
 <!ENTITY  colors.accesskey            "S">
 
 
-<!ENTITY languages.label              "Kalbos">
+<!ENTITY language2.label              "Kalba">
 <!ENTITY chooseLanguage.label         "Pasirinkite kalbą, kuria pageidaujate matyti tinklalapių turinį.">
 <!ENTITY chooseButton.label           "Pasirinkti…">
 <!ENTITY chooseButton.accesskey       "P">
@@ -53,8 +52,8 @@
 <!ENTITY translation.options.attribution.beforeLogo "Vertimą teikia">
 <!ENTITY translation.options.attribution.afterLogo "">
 
-<!ENTITY  drmContent.label             "DRM turinys">
+<!ENTITY  drmContent2.label              "Skaitmeninių teisių valdymo (DRM) turinys">
 
-<!ENTITY  playDRMContent.label         "Atkurti DRM turinį">
-<!ENTITY  playDRMContent.accesskey     "k">
+<!ENTITY  playDRMContent2.label          "Atkurti DRM valdomą turinį">
+<!ENTITY  playDRMContent2.accesskey      "k">
 <!ENTITY  playDRMContent.learnMore.label "Sužinoti daugiau">

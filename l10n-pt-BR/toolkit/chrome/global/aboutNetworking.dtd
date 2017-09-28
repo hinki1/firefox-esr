@@ -46,3 +46,13 @@
 <!ENTITY aboutNetworking.rcwnCacheWonCount     "Cache de ganhou contagem">
 <!ENTITY aboutNetworking.rcwnNetWonCount       "Rede ganhou contagem">
 <!ENTITY aboutNetworking.totalNetworkRequests  "Contagem total de solicitação de rede">
+<!ENTITY aboutNetworking.rcwnOperation         "Operação de cache">
+<!ENTITY aboutNetworking.rcwnPerfOpen          "Abrir">
+<!ENTITY aboutNetworking.rcwnPerfRead          "Ler">
+<!ENTITY aboutNetworking.rcwnPerfWrite         "Escrever">
+<!ENTITY aboutNetworking.rcwnPerfEntryOpen     "Entrada aberta">
+<!ENTITY aboutNetworking.rcwnAvgShort          "Média de operações curtas">
+<!ENTITY aboutNetworking.rcwnAvgLong           "Média de operações longas">
+<!ENTITY aboutNetworking.rcwnStddevLong        "Desvio-padrão de operações longas">
+<!ENTITY aboutNetworking.rcwnCacheSlow         "Contagem de cache slow">
+<!ENTITY aboutNetworking.rcwnCacheNotSlow      "Contagem de cache not slow">

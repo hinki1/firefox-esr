@@ -3,11 +3,12 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE the term "url-classifier" should not be translated. -->
-<!ENTITY aboutUrlClassifier.pageTitle                   "有关 url-classifier（URL分类器）的信息">
+<!ENTITY aboutUrlClassifier.pageTitle                   "有关 url-classifier（URL 分类器）的信息">
 <!ENTITY aboutUrlClassifier.providerTitle               "供应商">
 <!ENTITY aboutUrlClassifier.provider                    "供应商">
 <!ENTITY aboutUrlClassifier.providerLastUpdateTime      "上次更新时间">
 <!ENTITY aboutUrlClassifier.providerNextUpdateTime      "下次更新时间">
+<!ENTITY aboutUrlClassifier.providerBackOffTime         "退避时间">
 <!ENTITY aboutUrlClassifier.providerLastUpdateStatus    "上次更新状态">
 <!ENTITY aboutUrlClassifier.providerUpdateBtn           "更新">
 <!ENTITY aboutUrlClassifier.cacheTitle                  "缓存">

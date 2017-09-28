@@ -6,8 +6,8 @@
 <!ENTITY     hostCol.label                 "Oldal">
 <!ENTITY     statusCol.label               "Állapot">
 <!ENTITY     usageCol.label                "Tárhely">
-<!ENTITY     searchTextboxPlaceHolder             "Keresés weboldalakon">
-<!ENTITY     searchTextboxPlaceHolder.accesskey   "K">
+<!ENTITY     searchTextboxPlaceHolder             "Weboldalak keresése">
+<!ENTITY     searchTextboxPlaceHolder.accesskey   "k">
 <!ENTITY     removeSelected.label          "Kijelölt eltávolítása">
 <!ENTITY     removeSelected.accesskey      "e">
 <!ENTITY     save.label                    "Változások mentése">
@@ -15,5 +15,5 @@
 <!ENTITY     cancel.label                  "Mégse">
 <!ENTITY     cancel.accesskey              "M">
 <!ENTITY     removingDialog.title          "Oldaladatok törlése">
-
+<!ENTITY     removingSelected.description  "Az oldal adatainak eltávolítása a kapcsolódó sütiket és kapcsolat nélküli webes tartalmat is eltávolítja. Emiatt egyes weboldalakra majd újra be kell jelentkezni. Biztosan végrehajtja a módosításokat?">
 <!ENTITY     siteTree.label                "A következő sütik kerülnek eltávolításra:">

@@ -6,14 +6,10 @@
 
 <!ENTITY generalTab.label                "సాధారణం">
 
-<!ENTITY accessibility.label             "అందుబాటు">
-
 <!ENTITY useCursorNavigation.label       "పేజీల మధ్య సంచరణకు ఎల్లప్పుడు కర్సరు కీలను ఉపయోగించండి">
 <!ENTITY useCursorNavigation.accesskey   "c">
 <!ENTITY searchOnStartTyping.label       "మీరు టైపుచేయడం ప్రారంభించినప్పటి నుంచి పాఠ్యము‍ కొరకు శోధించు">
 <!ENTITY searchOnStartTyping.accesskey   "x">
-<!ENTITY blockAutoReload.label           "వెబ్‌సైటులు పేజీని మళ్ళించుటకు లేదా తిరిగి లోడుచేయుటకు ప్రయత్నిస్తున్నప్పుడు నిన్ను హెచ్చరించు">
-<!ENTITY blockAutoReload.accesskey       "b">
 <!ENTITY useOnScreenKeyboard.label       "అవసరమైనప్పుడు స్పర్శా కీ బోర్డు చూపించు">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
@@ -28,24 +24,24 @@
 
 <!ENTITY dataChoicesTab.label            "దత్తాంశం ఎంపికలు">
 
-<!ENTITY healthReportDesc.label          "మీ బ్రౌజర్ పనితనం అర్ధంచేసుకొనుటకు మీకు సహాయంచేయును మరియు మీ బ్రౌజర్ ఆరోగ్యమును గురించి &vendorShortName; తో దత్తాంశం పంచుకొనును.">
-<!ENTITY enableHealthReport.label        "&brandShortName; ఆరోగ్య నివేదిక చేతనంచేయి">
-<!ENTITY enableHealthReport.accesskey    "R">
+<!-- LOCALIZATION NOTE (healthReportingDisabled.label): This message is displayed above
+disabled data sharing options in developer builds or builds with no Telemetry support
+available. -->
+<!ENTITY healthReportingDisabled.label   "ఈ బిల్డ్ కాన్ఫిగరేషన్ కోసం డేటా రిపోర్టింగ్ నిలిపివేయబడింది">
+
+<!ENTITY enableHealthReport1.accesskey   "r">
 <!ENTITY healthReportLearnMore.label     "ఇంకా తెలుసుకోండి">
 
-<!ENTITY telemetryDesc.label             "&brandShortName; ను మెరుగుగా చేయుటలో మాకు దోహదపడుటకు, మీ బ్రౌజర్ పనితనం, వినియోగం, హార్డువేరు మరియు తగురీతిన మలచిన వాటి గురించిన దత్తాంశం &vendorShortName; తో పంచుకొనును">
-<!ENTITY enableTelemetryData.label       "అదనపు డేటాను (అంటే, టెలిమెట్రీ) పంచుకోండి">
-<!ENTITY enableTelemetryData.accesskey   "T">
-<!ENTITY telemetryLearnMore.label        "ఇంకా తెలుసుకోండి">
+<!ENTITY dataCollection.label            "&brandShortName; డేటా సేకరణ మరియు ఉపయోగం">
+<!ENTITY dataCollectionPrivacyNotice.label    "గోప్యతా విధానం">
 
-<!ENTITY crashReporterDesc2.label         "క్రాష్ నివేదికల &vendorShortName; సమస్యలు పరిష్కరించడానికి మరియు మీ బ్రౌజర్ ని మరింత స్థిరంగా మరియు భద్రంగా ఉంచడానికి సహాయపడుతుంది">
-<!ENTITY alwaysSubmitCrashReports.label   "&brandShortName; మీ తరపున క్రాష్ నివేదికలను పంపడానికి అనుమతించండి">
-<!ENTITY alwaysSubmitCrashReports.accesskey "c">
-<!ENTITY crashReporterLearnMore.label     "ఇంకా తెలుసుకోండి">
+<!ENTITY alwaysSubmitCrashReports1.label  "&brandShortName; ను అనుమతించు Mozillaకు క్రాష్ నివేదికలను పంపటానికి">
+<!ENTITY alwaysSubmitCrashReports1.accesskey "c">
+<!ENTITY crashReporterLearnMore.label    "ఇంకా తెలుసుకోండి">
 
 <!ENTITY networkTab.label                "నెట్‌వర్క్">
 
-<!ENTITY connection.label                "అనుసంధానము">
+<!ENTITY networkProxy.label              "నెట్‌వర్క్ ప్రోక్సీ">
 
 <!ENTITY connectionDesc.label            "&brandShortName; ఎలా అంతర్జాలముకు అనుసంధానించబడుతోందో ఆకృతీకరించు">
 <!ENTITY connectionSettings.label        "అమరికలు…">
@@ -95,8 +91,8 @@
 <!ENTITY updateApplication.version.pre   "సంచిక ">
 <!ENTITY updateApplication.version.post  "">
 <!ENTITY updateApplication.description   "వీటికి &brandShortName;ని అనుమతించు">
-<!ENTITY updateAuto2.label               "తాజాకరణలను స్వయంచాలకంగా స్థాపించు (మెరుగైన భద్రత కోసం సిఫారసు చేయబడింది)">
-<!ENTITY updateAuto2.accesskey           "A">
+<!ENTITY updateAuto3.label               "నవీకరణలను స్వయంచాలితంగా స్థాపించు (సిఫార్సు చేయబడినది)">
+<!ENTITY updateAuto3.accesskey           "A">
 <!ENTITY updateCheckChoose2.label        "తాజాకరణల కోసం చూస్తుంది కానీ స్థాపించుకోవాలో వద్దో మిమ్నల్ని ఎంచుకోనిస్తుంది">
 <!ENTITY updateCheckChoose2.accesskey    "C">
 <!ENTITY updateManual2.label             "తాజాకరణల కోసం ఎప్పుడూ చూడవద్దు (సిఫారసు చేయము)">
@@ -111,8 +107,6 @@
 <!ENTITY enableSearchUpdate2.label       "సెర్చింజన్లను స్వయంచాలకంగా తాజాకరించు">
 <!ENTITY enableSearchUpdate2.accesskey   "e">
 
-<!ENTITY reports.label                   "నివేదికలు">
-
 <!ENTITY offlineStorageNotify.label               "వెబ్‌ సైటు ఆఫ్‌లైన్ ఉపయోగం కొరకు డాటాను నిల్వచేయుటకు అడిగినప్పుడు మీకు తెలియజేయును">
 <!ENTITY offlineStorageNotify.accesskey           "T">
 <!ENTITY offlineStorageNotifyExceptions.label     "మినహాయింపులు…">
@@ -125,34 +119,22 @@
 <!ENTITY offlineAppRemove.confirm        "ఆఫ్‌లైన్ డాటాను తీసివేయి">
 
 <!ENTITY certificateTab.label            "ధృవీకరణ పత్రాలు">
-<!ENTITY certPersonal2.description       "సెర్వెర్ మీ వ్యక్తగిత ధృవీకరణపత్రం అభ్యర్ధించినప్పుడు">
 <!ENTITY selectCerts.auto                "స్వయంచాలకంగా ఒక దానిని ఎంపికచేయి">
 <!ENTITY selectCerts.auto.accesskey      "S">
 <!ENTITY selectCerts.ask                 "ప్రతిసారీ మిమ్మల్ని అడుగును">
 <!ENTITY selectCerts.ask.accesskey       "A">
 <!ENTITY enableOCSP.label                "ధృవీకరణపత్రాల ప్రస్తుత ప్రమాణతను నిర్థారించుటకు OCSP రెస్పాండర్ సేవికలను ప్రశ్నిస్తుంది">
 <!ENTITY enableOCSP.accesskey            "Q">
-<!ENTITY viewCerts.label                 "ధృవీకరణ పత్రాలను దర్శించు">
-<!ENTITY viewCerts.accesskey             "C">
-<!ENTITY viewSecurityDevices.label       "రక్షణ పరికరాలు">
-<!ENTITY viewSecurityDevices.accesskey   "D">
+<!ENTITY viewCerts2.label                "ధృవీకరణ పత్రాలను దర్శించు…">
+<!ENTITY viewCerts2.accesskey            "C">
+<!ENTITY viewSecurityDevices2.label      "రక్షణ పరికరాలు…">
+<!ENTITY viewSecurityDevices2.accesskey  "D">
 
 <!ENTITY performance.label               "పనితనం">
-<!ENTITY useRecommendedPerformanceSettings2.label
-                                         "సిఫార్సు చేయబడిన పనితనపు అమరికలను వాడండి">
-<!ENTITY useRecommendedPerformanceSettings2.description
-                                         "ఈ సెట్టింగులు మీ కంప్యూటర్ హార్డ్వేర్ మరియు ఆపరేటింగ్ సిస్టంకు అనుగుణంగా ఉంటాయి.">
 <!ENTITY useRecommendedPerformanceSettings2.accesskey
                                          "U">
 <!ENTITY performanceSettingsLearnMore.label
                                          "ఇంకా తెలుసుకోండి">
-<!ENTITY limitContentProcessOption.label "కంటెంట్ ప్రాసెస్ పరిమితి">
-<!ENTITY limitContentProcessOption.description
-                                         "బహుళ ట్యాబ్లను ఉపయోగిస్తున్నప్పుడు అదనపు కంటెంట్ ప్రాసెస్లు పనితీరును మెరుగుపరుస్తాయి, అయితే మరింత మెమరీని కూడా ఉపయోగిస్తాయి.">
 <!ENTITY limitContentProcessOption.accesskey   "L">
-<!ENTITY limitContentProcessOption.disabledDescription
-                                         "కంటెంట్ ప్రాసెస్ల సంఖ్యను సవరించడం బహుళ ప్రయోజన &brandShortName; తో సాధ్యమవుతుంది.">
-<!ENTITY limitContentProcessOption.disabledDescriptionLink
-                                         "బహుళప్రాసెస్ ప్రారంభించబడిందో లేదో తెలుసుకోండి">
 <!ENTITY allowHWAccel.label              "అందుబాటులో ఉన్నప్పుడు హార్డువేర్ యాక్సెలరేషన్ ఉపయోగించు">
 <!ENTITY allowHWAccel.accesskey          "r">

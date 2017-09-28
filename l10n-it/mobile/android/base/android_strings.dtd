@@ -178,6 +178,8 @@
 <!ENTITY custom_tabs_menu_item_open_in "Apri in &formatS;">
 <!ENTITY custom_tabs_menu_footer "Con tecnologia &brandShortName;">
 <!ENTITY custom_tabs_hint_url_copy "Indirizzo copiato">
+<!ENTITY pref_pwa "Web app progressive">
+<!ENTITY pref_pwa_summary "Consenti di aggiungere web app alla pagina iniziale">
 <!ENTITY pref_activity_stream "Flusso attività">
 <!ENTITY pref_activity_stream_summary "Una visualizzazione della cronologia ricca di informazioni e una pagina iniziale completamente ripensata rendono ancora più semplice trovare tutto ciò che serve in &brandShortName;.">
 <!ENTITY tracking_protection_prompt_title "Ora con protezione antitracciamento">
@@ -210,10 +212,6 @@
 <!ENTITY pref_clear_on_exit_title3 "Elimina dati personali alla chiusura">
 <!ENTITY pref_clear_on_exit_summary2 "I dati personali in &brandShortName; verranno eliminati automaticamente quando si seleziona “Esci” nel menu principale">
 <!ENTITY pref_clear_on_exit_dialog_title "Selezionare i dati da eliminare">
-<!ENTITY pref_plugins "Plugin">
-<!ENTITY pref_plugins_enabled "Attivati">
-<!ENTITY pref_plugins_tap_to_play2 "Tocca per avviare">
-<!ENTITY pref_plugins_disabled "Disattivati">
 <!ENTITY pref_restore_tabs "Ripristina schede">
 <!ENTITY pref_restore_always "Sempre">
 <!ENTITY pref_restore_quit "Non ripristinare dopo aver chiuso &brandShortName;">
@@ -342,6 +340,7 @@
 <!ENTITY pref_compact_tabs_summary2 "Visualizza le schede su due colonne in modalità verticale">
 <!ENTITY page_removed "Pagina rimossa">
 <!ENTITY bookmark_edit_title "Modifica segnalibro">
+<!ENTITY bookmark_edit_folder_title "Modifica cartella">
 <!ENTITY bookmark_edit_name "Nome">
 <!ENTITY bookmark_edit_location "Indirizzo">
 <!ENTITY bookmark_edit_keyword "Parola chiave">
@@ -384,6 +383,8 @@
 <!ENTITY home_remote_tabs_many_hidden_devices "&formatD; dispositivi nascosti">
 <!ENTITY home_remote_tabs_hidden_devices_title "Dispositivi nascosti">
 <!ENTITY home_remote_tabs_unhide_selected_devices "Mostra dispositivi nascosti">
+<!ENTITY home_pinned_site "Aggiunto alla bacheca">
+<!ENTITY home_unpinned_site "Rimosso dalla bacheca">
 <!ENTITY remote_tabs_panel_moved_title "Dove sono finite le schede?">
 <!ENTITY remote_tabs_panel_moved_desc "Le schede provenienti da altri dispositivi sono disponibili in un pannello della pagina principale, facilmente accessibile ogni volta che si apre una nuova scheda.">
 <!ENTITY remote_tabs_panel_moved_link "Apri il nuovo pannello.">

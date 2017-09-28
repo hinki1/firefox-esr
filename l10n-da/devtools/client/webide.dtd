@@ -90,7 +90,6 @@
 <!ENTITY details_location "Adresse">
 <!ENTITY details_manifestURL "App-ID">
 <!ENTITY details_removeProject_button "Fjern projekt">
-<!ENTITY details_showPrepackageLog_button "Vis Pre-package-log">
 
 <!-- New App -->
 <!ENTITY newAppWindowTitle "Ny app">

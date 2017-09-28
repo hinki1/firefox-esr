@@ -66,6 +66,8 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocesowe wokna">
 
+<!ENTITY aboutSupport.appBasicsProcessCount "Webwobsahowe procesy">
+
 <!ENTITY aboutSupport.appBasicsKeyGoogle "Kluč Google">
 <!ENTITY aboutSupport.appBasicsKeyMozilla "Kluč słužby postajenja stejnišća Mozilla">
 
@@ -104,6 +106,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yTitle "Bjezbarjernosć">
 <!ENTITY aboutSupport.a11yActivated "Aktiwizowany">
 <!ENTITY aboutSupport.a11yForceDisabled "Bjezbarjernosći zadźěwać">
+<!ENTITY aboutSupport.a11yHandlerUsed "Přistupny handler wužity">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Bibliotekowe wersije">
 
@@ -134,3 +137,16 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Rozsudowy protokol">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Funkcije, kotrež su so wot spadoweho stražnika znjemóžnili">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Nuzowe rozrisanja">
+
+<!ENTITY aboutSupport.mediaTitle "Medije">
+<!ENTITY aboutSupport.mediaOutputDevicesTitle "Wudawanske graty">
+<!ENTITY aboutSupport.mediaInputDevicesTitle "Zapodawanske graty">
+<!ENTITY aboutSupport.mediaDeviceName "Mjeno">
+<!ENTITY aboutSupport.mediaDeviceGroup "Skupina">
+<!ENTITY aboutSupport.mediaDeviceVendor "Předawar">
+<!ENTITY aboutSupport.mediaDeviceState "Status">
+<!ENTITY aboutSupport.mediaDevicePreferred "Preferowany">
+<!ENTITY aboutSupport.mediaDeviceFormat "Format">
+<!ENTITY aboutSupport.mediaDeviceChannels "Kanale">
+<!ENTITY aboutSupport.mediaDeviceRate "Rata">
+<!ENTITY aboutSupport.mediaDeviceLatency "Latenca">

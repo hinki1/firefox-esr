@@ -248,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.mobile.label "Nodau Tudalen Symudol">
 <!ENTITY viewBookmarksSidebar2.label        "Gweld Bar Offer Nodau Tudalen">
 <!ENTITY viewBookmarksToolbar.label         "Gweld Bar Offer Nodau Tudalen">
+<!ENTITY searchBookmarks.label              "Chwilio'r Nodau Tudalen">
 
 <!ENTITY containersMenu.label "Cynwysyddion">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
@@ -331,6 +332,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewSidebarMenu.accesskey "B">
 <!ENTITY viewCustomizeToolbar.label       "Cyfaddasu…"> 
 <!ENTITY viewCustomizeToolbar.accesskey     "y">
+<!ENTITY overflowCustomizeToolbar.label       "Cyfaddasu'r Bar Offer…">
+<!ENTITY overflowCustomizeToolbar.accesskey   "C">
 
 <!ENTITY historyMenu.label "Hanes">
 <!ENTITY historyMenu.accesskey "H">
@@ -351,6 +354,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Clirio Hanes Diweddar…">
 <!ENTITY appMenuHistory.restoreSession.label "Adfer y Sesiwn Flaenorol">
 <!ENTITY appMenuHistory.viewSidebar.label "Gweld Bar Ochr Hanes">
+<!ENTITY appMenuHistory.recentHistory.label "Hanes Diweddar">
 <!ENTITY appMenuHelp.label "Cymorth">
 <!ENTITY appMenuHelp.tooltip "Agor Dewislen Cymorth">
 
@@ -469,6 +473,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY contentSearchInput.label     "Ymholiad chwilio">
 <!ENTITY contentSearchSubmit.tooltip  "Cyflwyno'r chwilio">
+<!-- LOCALIZATION NOTE (searchInput.placeholder):
+     This string is displayed in the search box when the input field is empty. -->
+
+<!ENTITY searchInput.placeholder      "Chwilio">
+<!ENTITY searchIcon.tooltip           "Chwilio">
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
@@ -850,6 +859,27 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "R">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Estyn Rhagor o Themâu">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "E">
+<!ENTITY customizeMode.emptyOverflowList.description "Llusgwch a gollwng eitemau yma i'w cadw o fewn gafael ond allan o'ch bar offer…">
+<!ENTITY customizeMode.uidensity "Dwysedd">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuNormal.*):
+     “Normal” is displayed in the Customize screen, under the Density menu. -->
+<!ENTITY customizeMode.uidensity.menuNormal.label "Arferol">
+<!ENTITY customizeMode.uidensity.menuNormal.tooltip "Arferol">
+<!ENTITY customizeMode.uidensity.menuNormal.accessKey "A">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuCompact.*):
+     “Compact” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Compact). -->
+<!ENTITY customizeMode.uidensity.menuCompact.label "Cywasgu">
+<!ENTITY customizeMode.uidensity.menuCompact.tooltip "Crynhoi">
+<!ENTITY customizeMode.uidensity.menuCompact.accessKey "C">
+<!-- LOCALIZATION NOTE (customizeMode.uidensity.menuTouch.*):
+     “Touch” is displayed in the Customize screen, under the Density menu.
+     It’s an adjective (Density -> Touch), and it means that control layout is
+     optimized for touch devices. -->
+<!ENTITY customizeMode.uidensity.menuTouch.label "Cyffwrdd">
+<!ENTITY customizeMode.uidensity.menuTouch.tooltip "Cyffwrdd">
+<!ENTITY customizeMode.uidensity.menuTouch.accessKey "C">
+<!ENTITY customizeMode.uidensity.autoTouchMode.checkbox.label "Defnyddiwch Cyffwrdd ar gyfer y Modd Tabled">
 
 <!ENTITY getUserMedia.selectCamera.label "Camera i'w rannu:">
 <!ENTITY getUserMedia.selectCamera.accesskey "C">
@@ -959,8 +989,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY updateRestart.panelUI.label2 "Ailgychwyn i ddiweddaru &brandShorterName;">
 
 <!ENTITY pageActionButton.tooltip "Gweithredoedd tudalen">
+<!ENTITY pageAction.addToUrlbar.label "Ychwanegu i'r Llyfr Cyfeiriadau">
+<!ENTITY pageAction.removeFromUrlbar.label "Tynnu o'r Bar Cyfeiriadau">
 
-<!ENTITY sendToDevice.label "Anfon i'r Ddyfais…">
-<!ENTITY sendToDevice.viewTitle "Anfon i Ddyfais">
-<!ENTITY sendToDevice.fxaRequired.label "Angenrheidiol">
-<!ENTITY sendToDevice.noDevices.label "Dim Dyfeisiau ar Gael">
+<!ENTITY sendToDevice.label2 "Anfon i Ddyfais">
+<!ENTITY sendToDevice.syncNotReady.label "Cydweddu Dyfeisiau…">

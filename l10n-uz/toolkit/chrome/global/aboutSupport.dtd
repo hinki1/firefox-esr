@@ -67,6 +67,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 
 
+
 <!ENTITY aboutSupport.appBasicsSafeMode "Xavfsiz rejim">
 
 <!ENTITY aboutSupport.showDir.label "Direktoriyani ochish">
@@ -102,6 +103,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.a11yActivated "Faollashtirilgan">
 <!ENTITY aboutSupport.a11yForceDisabled "Qulaylikni namoyish qilish">
 
+
 <!ENTITY aboutSupport.libraryVersionsTitle "Kutubxona versiyasi">
 
 <!ENTITY aboutSupport.installationHistoryTitle "O‘rnatish tarixi">
@@ -131,3 +133,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsDecisionLogTitle "Qaror ma’lumoti">
 <!ENTITY aboutSupport.graphicsCrashGuardsTitle "Nosozlik soqchisini o‘chirish xususiyatlari">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Aylanma yo‘llar">
+
+
+
+
+
+
+
+
+
+
+
+
