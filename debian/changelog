@@ -1,3 +1,9 @@
+firefox-esr (52.4.0esr-2) unstable; urgency=medium
+
+  * debian/source/lintian-overrides: Add a lintian override for dotzlib.chm.
+
+ -- Mike Hommey <glandium@debian.org>  Fri, 29 Sep 2017 10:09:41 +0900
+
 firefox-esr (52.4.0esr-1) unstable; urgency=medium
 
   * New upstream release.
