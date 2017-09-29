@@ -1,3 +1,10 @@
+firefox (56.0-2) unstable; urgency=medium
+
+  * debian/browser.mozconfig.in: Pass NSPR directory to bindgen to workaround
+    bz#1341234.
+
+ -- Mike Hommey <glandium@debian.org>  Fri, 29 Sep 2017 13:28:38 +0900
+
 firefox (56.0-1) unstable; urgency=medium
 
   * New upstream release.
