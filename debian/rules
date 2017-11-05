@@ -19,6 +19,8 @@ PYTHON := python -B
 PRODUCT := browser
 include debian/upstream.mk
 
+DIST := stretch
+
 SYSTEM_LIBS = zlib bz2 hunspell ffi libevent
 ifeq (,$(filter wheezy jessie stretch,$(DIST)))
 SYSTEM_LIBS += nspr nss sqlite
