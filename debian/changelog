@@ -1,3 +1,13 @@
+firefox-esr (52.5.0esr-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2017-25, also known as:
+    CVE-2017-7828, CVE-2017-7830, CVE-2017-7826.
+
+  * debian/import-tar.py: Make python 3.6 happy.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 15 Nov 2017 07:19:57 +0900
+
 firefox-esr (52.4.0esr-2) unstable; urgency=medium
 
   * debian/source/lintian-overrides: Add a lintian override for dotzlib.chm.
