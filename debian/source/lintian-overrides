@@ -43,3 +43,8 @@
 # Those are part of the inline documentation from python mock. Python
 # mock is only used for some python tests during e.g. `make check`.
  source: source-is-missing python/mock-1.0.0/html/_static/*
+
+# The file is not shipped, neither is the source code next to it built,
+# but the contents of the chm are entirely generated from the source
+# code.
+ source: source-contains-prebuilt-ms-help-file third_party/rust/libz-sys/src/zlib-1.2.8/contrib/dotzlib/DotZLib.chm

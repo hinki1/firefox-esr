@@ -48,7 +48,7 @@ class GitImportTar(object):
                        "from refs/heads/%s^0\n" % (self.head) +
                        "deleteall\n")
         for prefix, fileset in self.files.items():
-            basedir = os.path.commonprefix(fileset)
+            basedir = os.path.commonprefix(list(fileset.keys()))
             for path, info in fileset.items():
                 (mark, mode) = info
                 if mode != 0o120000:
