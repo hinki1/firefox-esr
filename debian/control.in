@@ -122,16 +122,6 @@ Provides: www-browser,
 Description: @DESCRIPTION@
  @LONGDESC1@
  @LONGDESC2@
-%if TRANSITION
-
-Package: iceweasel
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: @browser@, ${misc:Depends}
-Description: Web browser based on Firefox - Transitional package
- This is a transitional package, it can be safely removed.
-%endif
 
 %if DIST == wheezy || DIST == jessie
 Package: @browser@-dbg
@@ -156,16 +146,6 @@ Description: Debugging symbols for @Browser@
  @LONGDESC2@
  .
  This package contains the debugging symbols for @browser@.
-%if TRANSITION
-
-Package: iceweasel-dbg
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: @browser@-dbg, ${misc:Depends}
-Description: Debugging symbols for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-%endif
 %endif
 
 Package: @browser@-dev
@@ -205,16 +185,6 @@ Description: Development files for the Gecko engine library
  This package also provides the Xulrunner Software Development Kit in the
  same form as the one you may find on mozilla.org in /usr/lib/xulrunner/sdk.
 Homepage: http://wiki.mozilla.org/XUL:Lib_XUL
-%if TRANSITION
-
-Package: iceweasel-dev
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: @browser@-dev, ${misc:Depends}
-Description: Development files for the Gecko engine library - Transitional package
- This is a transitional package, it can be safely removed.
-%endif
 
 Package: @browser@-l10n-all
 Architecture: all
@@ -230,14 +200,4 @@ Description: All language packages for @Browser@ (meta)
  @LONGDESC2@
  .
  This is a metapackage depending on all available localizations of @Browser@.
-%if TRANSITION
-
-Package: iceweasel-l10n-all
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: @browser@-l10n-all, ${misc:Depends}
-Description: All language packages for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-%endif
 %include l10n/browser-l10n.control

@@ -74,14 +74,6 @@ Description: Mozilla Firefox web browser - Extended Support Release (ESR)
  Firefox ESR is a powerful, extensible web browser with support for modern
  web application technologies.
 
-Package: iceweasel
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr, ${misc:Depends}
-Description: Web browser based on Firefox - Transitional package
- This is a transitional package, it can be safely removed.
-
 
 Package: firefox-esr-dev
 Section: libdevel
@@ -111,14 +103,6 @@ Description: Development files for the Gecko engine library
  same form as the one you may find on mozilla.org in /usr/lib/xulrunner/sdk.
 Homepage: http://wiki.mozilla.org/XUL:Lib_XUL
 
-Package: iceweasel-dev
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-dev, ${misc:Depends}
-Description: Development files for the Gecko engine library - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-all
 Architecture: all
 Section: metapackages
@@ -131,14 +115,6 @@ Description: All language packages for Firefox ESR (meta)
  web application technologies.
  .
  This is a metapackage depending on all available localizations of Firefox ESR.
-
-Package: iceweasel-l10n-all
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-all, ${misc:Depends}
-Description: All language packages for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-ach
 Architecture: all
@@ -154,14 +130,6 @@ Description: Acoli language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Acoli.
 
-Package: iceweasel-l10n-ach
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-ach, ${misc:Depends}
-Description: Acoli language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-af
 Architecture: all
 Section: localization
@@ -175,14 +143,6 @@ Description: Afrikaans language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Afrikaans.
-
-Package: iceweasel-l10n-af
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-af, ${misc:Depends}
-Description: Afrikaans language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-an
 Architecture: all
@@ -198,14 +158,6 @@ Description: Aragonese language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Aragonese.
 
-Package: iceweasel-l10n-an
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-an, ${misc:Depends}
-Description: Aragonese language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-ar
 Architecture: all
 Section: localization
@@ -219,14 +171,6 @@ Description: Arabic language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Arabic.
-
-Package: iceweasel-l10n-ar
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-ar, ${misc:Depends}
-Description: Arabic language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-as
 Architecture: all
@@ -242,14 +186,6 @@ Description: Assamese language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Assamese.
 
-Package: iceweasel-l10n-as
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-as, ${misc:Depends}
-Description: Assamese language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-ast
 Architecture: all
 Section: localization
@@ -264,14 +200,6 @@ Description: Asturian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Asturian.
 
-Package: iceweasel-l10n-ast
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-ast, ${misc:Depends}
-Description: Asturian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-az
 Architecture: all
 Section: localization
@@ -285,14 +213,6 @@ Description: Azerbaijani language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Azerbaijani.
-
-Package: iceweasel-l10n-az
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-az, ${misc:Depends}
-Description: Azerbaijani language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-bg
 Architecture: all
@@ -309,14 +229,6 @@ Description: Bulgarian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Bulgarian.
 
-Package: iceweasel-l10n-bg
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-bg, ${misc:Depends}
-Description: Bulgarian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-bn-bd
 Architecture: all
 Section: localization
@@ -330,14 +242,6 @@ Description: Bengali (Bangladesh) language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Bengali (Bangladesh).
-
-Package: iceweasel-l10n-bn-bd
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-bn-bd, ${misc:Depends}
-Description: Bengali (Bangladesh) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-bn-in
 Architecture: all
@@ -353,14 +257,6 @@ Description: Bengali (India) language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Bengali (India).
 
-Package: iceweasel-l10n-bn-in
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-bn-in, ${misc:Depends}
-Description: Bengali (India) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-br
 Architecture: all
 Section: localization
@@ -375,14 +271,6 @@ Description: Breton language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Breton.
 
-Package: iceweasel-l10n-br
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-br, ${misc:Depends}
-Description: Breton language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-bs
 Architecture: all
 Section: localization
@@ -396,14 +284,6 @@ Description: Bosnian language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Bosnian.
-
-Package: iceweasel-l10n-bs
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-bs, ${misc:Depends}
-Description: Bosnian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-ca
 Architecture: all
@@ -420,14 +300,6 @@ Description: Catalan language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Catalan.
 
-Package: iceweasel-l10n-ca
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-ca, ${misc:Depends}
-Description: Catalan language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-cak
 Architecture: all
 Section: localization
@@ -441,14 +313,6 @@ Description: Kaqchikel language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Kaqchikel.
-
-Package: iceweasel-l10n-cak
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-cak, ${misc:Depends}
-Description: Kaqchikel language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-cs
 Architecture: all
@@ -465,14 +329,6 @@ Description: Czech language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Czech.
 
-Package: iceweasel-l10n-cs
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-cs, ${misc:Depends}
-Description: Czech language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-cy
 Architecture: all
 Section: localization
@@ -486,14 +342,6 @@ Description: Welsh language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Welsh.
-
-Package: iceweasel-l10n-cy
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-cy, ${misc:Depends}
-Description: Welsh language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-da
 Architecture: all
@@ -510,14 +358,6 @@ Description: Danish language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Danish.
 
-Package: iceweasel-l10n-da
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-da, ${misc:Depends}
-Description: Danish language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-de
 Architecture: all
 Section: localization
@@ -533,14 +373,6 @@ Description: German language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in German.
 
-Package: iceweasel-l10n-de
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-de, ${misc:Depends}
-Description: German language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-dsb
 Architecture: all
 Section: localization
@@ -554,14 +386,6 @@ Description: Lower Sorbian language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Lower Sorbian.
-
-Package: iceweasel-l10n-dsb
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-dsb, ${misc:Depends}
-Description: Lower Sorbian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-el
 Architecture: all
@@ -578,14 +402,6 @@ Description: Modern Greek language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Modern Greek.
 
-Package: iceweasel-l10n-el
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-el, ${misc:Depends}
-Description: Modern Greek language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-en-gb
 Architecture: all
 Section: localization
@@ -600,14 +416,6 @@ Description: English (United Kingdom) language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in English (United Kingdom).
-
-Package: iceweasel-l10n-en-gb
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-en-gb, ${misc:Depends}
-Description: English (United Kingdom) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-en-za
 Architecture: all
@@ -624,14 +432,6 @@ Description: English (South Africa) language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in English (South Africa).
 
-Package: iceweasel-l10n-en-za
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-en-za, ${misc:Depends}
-Description: English (South Africa) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-eo
 Architecture: all
 Section: localization
@@ -646,14 +446,6 @@ Description: Esperanto language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Esperanto.
-
-Package: iceweasel-l10n-eo
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-eo, ${misc:Depends}
-Description: Esperanto language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-es-ar
 Architecture: all
@@ -670,14 +462,6 @@ Description: Spanish (Argentina) language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Spanish (Argentina).
 
-Package: iceweasel-l10n-es-ar
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-es-ar, ${misc:Depends}
-Description: Spanish (Argentina) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-es-cl
 Architecture: all
 Section: localization
@@ -691,14 +475,6 @@ Description: Spanish (Chile) language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Spanish (Chile).
-
-Package: iceweasel-l10n-es-cl
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-es-cl, ${misc:Depends}
-Description: Spanish (Chile) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-es-es
 Architecture: all
@@ -715,14 +491,6 @@ Description: Spanish (Spain) language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Spanish (Spain).
 
-Package: iceweasel-l10n-es-es
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-es-es, ${misc:Depends}
-Description: Spanish (Spain) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-es-mx
 Architecture: all
 Section: localization
@@ -736,14 +504,6 @@ Description: Spanish (Mexico) language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Spanish (Mexico).
-
-Package: iceweasel-l10n-es-mx
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-es-mx, ${misc:Depends}
-Description: Spanish (Mexico) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-et
 Architecture: all
@@ -760,14 +520,6 @@ Description: Estonian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Estonian.
 
-Package: iceweasel-l10n-et
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-et, ${misc:Depends}
-Description: Estonian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-eu
 Architecture: all
 Section: localization
@@ -781,14 +533,6 @@ Description: Basque language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Basque.
-
-Package: iceweasel-l10n-eu
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-eu, ${misc:Depends}
-Description: Basque language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-fa
 Architecture: all
@@ -804,14 +548,6 @@ Description: Persian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Persian.
 
-Package: iceweasel-l10n-fa
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-fa, ${misc:Depends}
-Description: Persian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-ff
 Architecture: all
 Section: localization
@@ -825,14 +561,6 @@ Description: Fulah language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Fulah.
-
-Package: iceweasel-l10n-ff
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-ff, ${misc:Depends}
-Description: Fulah language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-fi
 Architecture: all
@@ -849,14 +577,6 @@ Description: Finnish language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Finnish.
 
-Package: iceweasel-l10n-fi
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-fi, ${misc:Depends}
-Description: Finnish language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-fr
 Architecture: all
 Section: localization
@@ -872,14 +592,6 @@ Description: French language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in French.
 
-Package: iceweasel-l10n-fr
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-fr, ${misc:Depends}
-Description: French language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-fy-nl
 Architecture: all
 Section: localization
@@ -893,14 +605,6 @@ Description: Western Frisian (Netherlands) language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Western Frisian (Netherlands).
-
-Package: iceweasel-l10n-fy-nl
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-fy-nl, ${misc:Depends}
-Description: Western Frisian (Netherlands) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-ga-ie
 Architecture: all
@@ -916,14 +620,6 @@ Description: Irish (Ireland) language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Irish (Ireland).
 
-Package: iceweasel-l10n-ga-ie
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-ga-ie, ${misc:Depends}
-Description: Irish (Ireland) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-gd
 Architecture: all
 Section: localization
@@ -937,14 +633,6 @@ Description: Scottish Gaelic language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Scottish Gaelic.
-
-Package: iceweasel-l10n-gd
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-gd, ${misc:Depends}
-Description: Scottish Gaelic language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-gl
 Architecture: all
@@ -960,14 +648,6 @@ Description: Galician language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Galician.
 
-Package: iceweasel-l10n-gl
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-gl, ${misc:Depends}
-Description: Galician language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-gn
 Architecture: all
 Section: localization
@@ -982,14 +662,6 @@ Description: Guarani language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Guarani.
 
-Package: iceweasel-l10n-gn
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-gn, ${misc:Depends}
-Description: Guarani language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-gu-in
 Architecture: all
 Section: localization
@@ -1003,14 +675,6 @@ Description: Gujarati (India) language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Gujarati (India).
-
-Package: iceweasel-l10n-gu-in
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-gu-in, ${misc:Depends}
-Description: Gujarati (India) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-he
 Architecture: all
@@ -1027,14 +691,6 @@ Description: Hebrew language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Hebrew.
 
-Package: iceweasel-l10n-he
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-he, ${misc:Depends}
-Description: Hebrew language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-hi-in
 Architecture: all
 Section: localization
@@ -1048,14 +704,6 @@ Description: Hindi (India) language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Hindi (India).
-
-Package: iceweasel-l10n-hi-in
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-hi-in, ${misc:Depends}
-Description: Hindi (India) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-hr
 Architecture: all
@@ -1071,14 +719,6 @@ Description: Croatian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Croatian.
 
-Package: iceweasel-l10n-hr
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-hr, ${misc:Depends}
-Description: Croatian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-hsb
 Architecture: all
 Section: localization
@@ -1092,14 +732,6 @@ Description: Upper Sorbian language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Upper Sorbian.
-
-Package: iceweasel-l10n-hsb
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-hsb, ${misc:Depends}
-Description: Upper Sorbian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-hu
 Architecture: all
@@ -1116,14 +748,6 @@ Description: Hungarian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Hungarian.
 
-Package: iceweasel-l10n-hu
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-hu, ${misc:Depends}
-Description: Hungarian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-hy-am
 Architecture: all
 Section: localization
@@ -1137,14 +761,6 @@ Description: Armenian (Armenia) language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Armenian (Armenia).
-
-Package: iceweasel-l10n-hy-am
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-hy-am, ${misc:Depends}
-Description: Armenian (Armenia) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-id
 Architecture: all
@@ -1160,14 +776,6 @@ Description: Indonesian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Indonesian.
 
-Package: iceweasel-l10n-id
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-id, ${misc:Depends}
-Description: Indonesian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-is
 Architecture: all
 Section: localization
@@ -1181,14 +789,6 @@ Description: Icelandic language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Icelandic.
-
-Package: iceweasel-l10n-is
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-is, ${misc:Depends}
-Description: Icelandic language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-it
 Architecture: all
@@ -1205,14 +805,6 @@ Description: Italian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Italian.
 
-Package: iceweasel-l10n-it
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-it, ${misc:Depends}
-Description: Italian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-ja
 Architecture: all
 Section: localization
@@ -1226,14 +818,6 @@ Description: Japanese language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Japanese.
-
-Package: iceweasel-l10n-ja
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-ja, ${misc:Depends}
-Description: Japanese language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-ka
 Architecture: all
@@ -1249,14 +833,6 @@ Description: Georgian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Georgian.
 
-Package: iceweasel-l10n-ka
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-ka, ${misc:Depends}
-Description: Georgian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-kab
 Architecture: all
 Section: localization
@@ -1270,14 +846,6 @@ Description: Kabyle language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Kabyle.
-
-Package: iceweasel-l10n-kab
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-kab, ${misc:Depends}
-Description: Kabyle language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-kk
 Architecture: all
@@ -1293,14 +861,6 @@ Description: Kazakh language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Kazakh.
 
-Package: iceweasel-l10n-kk
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-kk, ${misc:Depends}
-Description: Kazakh language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-km
 Architecture: all
 Section: localization
@@ -1314,14 +874,6 @@ Description: Central Khmer language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Central Khmer.
-
-Package: iceweasel-l10n-km
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-km, ${misc:Depends}
-Description: Central Khmer language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-kn
 Architecture: all
@@ -1337,14 +889,6 @@ Description: Kannada language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Kannada.
 
-Package: iceweasel-l10n-kn
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-kn, ${misc:Depends}
-Description: Kannada language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-ko
 Architecture: all
 Section: localization
@@ -1359,14 +903,6 @@ Description: Korean language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Korean.
 
-Package: iceweasel-l10n-ko
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-ko, ${misc:Depends}
-Description: Korean language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-lij
 Architecture: all
 Section: localization
@@ -1380,14 +916,6 @@ Description: Ligurian language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Ligurian.
-
-Package: iceweasel-l10n-lij
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-lij, ${misc:Depends}
-Description: Ligurian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-lt
 Architecture: all
@@ -1404,14 +932,6 @@ Description: Lithuanian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Lithuanian.
 
-Package: iceweasel-l10n-lt
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-lt, ${misc:Depends}
-Description: Lithuanian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-lv
 Architecture: all
 Section: localization
@@ -1427,14 +947,6 @@ Description: Latvian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Latvian.
 
-Package: iceweasel-l10n-lv
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-lv, ${misc:Depends}
-Description: Latvian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-mai
 Architecture: all
 Section: localization
@@ -1448,14 +960,6 @@ Description: Maithili language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Maithili.
-
-Package: iceweasel-l10n-mai
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-mai, ${misc:Depends}
-Description: Maithili language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-mk
 Architecture: all
@@ -1471,14 +975,6 @@ Description: Macedonian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Macedonian.
 
-Package: iceweasel-l10n-mk
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-mk, ${misc:Depends}
-Description: Macedonian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-ml
 Architecture: all
 Section: localization
@@ -1492,14 +988,6 @@ Description: Malayalam language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Malayalam.
-
-Package: iceweasel-l10n-ml
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-ml, ${misc:Depends}
-Description: Malayalam language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-mr
 Architecture: all
@@ -1515,14 +1003,6 @@ Description: Marathi language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Marathi.
 
-Package: iceweasel-l10n-mr
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-mr, ${misc:Depends}
-Description: Marathi language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-ms
 Architecture: all
 Section: localization
@@ -1536,14 +1016,6 @@ Description: Malay language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Malay.
-
-Package: iceweasel-l10n-ms
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-ms, ${misc:Depends}
-Description: Malay language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-nb-no
 Architecture: all
@@ -1560,14 +1032,6 @@ Description: Norwegian Bokmål (Norway) language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Norwegian Bokmål (Norway).
 
-Package: iceweasel-l10n-nb-no
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-nb-no, ${misc:Depends}
-Description: Norwegian Bokmål (Norway) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-nl
 Architecture: all
 Section: localization
@@ -1582,14 +1046,6 @@ Description: Dutch language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Dutch.
-
-Package: iceweasel-l10n-nl
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-nl, ${misc:Depends}
-Description: Dutch language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-nn-no
 Architecture: all
@@ -1606,14 +1062,6 @@ Description: Norwegian Nynorsk (Norway) language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Norwegian Nynorsk (Norway).
 
-Package: iceweasel-l10n-nn-no
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-nn-no, ${misc:Depends}
-Description: Norwegian Nynorsk (Norway) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-or
 Architecture: all
 Section: localization
@@ -1628,14 +1076,6 @@ Description: Oriya language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Oriya.
 
-Package: iceweasel-l10n-or
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-or, ${misc:Depends}
-Description: Oriya language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-pa-in
 Architecture: all
 Section: localization
@@ -1649,14 +1089,6 @@ Description: Panjabi (India) language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Panjabi (India).
-
-Package: iceweasel-l10n-pa-in
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-pa-in, ${misc:Depends}
-Description: Panjabi (India) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-pl
 Architecture: all
@@ -1673,14 +1105,6 @@ Description: Polish language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Polish.
 
-Package: iceweasel-l10n-pl
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-pl, ${misc:Depends}
-Description: Polish language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-pt-br
 Architecture: all
 Section: localization
@@ -1695,14 +1119,6 @@ Description: Portuguese (Brazil) language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Portuguese (Brazil).
-
-Package: iceweasel-l10n-pt-br
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-pt-br, ${misc:Depends}
-Description: Portuguese (Brazil) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-pt-pt
 Architecture: all
@@ -1719,14 +1135,6 @@ Description: Portuguese (Portugal) language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Portuguese (Portugal).
 
-Package: iceweasel-l10n-pt-pt
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-pt-pt, ${misc:Depends}
-Description: Portuguese (Portugal) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-rm
 Architecture: all
 Section: localization
@@ -1741,14 +1149,6 @@ Description: Romansh language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Romansh.
 
-Package: iceweasel-l10n-rm
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-rm, ${misc:Depends}
-Description: Romansh language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-ro
 Architecture: all
 Section: localization
@@ -1762,14 +1162,6 @@ Description: Romanian language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Romanian.
-
-Package: iceweasel-l10n-ro
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-ro, ${misc:Depends}
-Description: Romanian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-ru
 Architecture: all
@@ -1786,14 +1178,6 @@ Description: Russian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Russian.
 
-Package: iceweasel-l10n-ru
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-ru, ${misc:Depends}
-Description: Russian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-si
 Architecture: all
 Section: localization
@@ -1807,14 +1191,6 @@ Description: Sinhala language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Sinhala.
-
-Package: iceweasel-l10n-si
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-si, ${misc:Depends}
-Description: Sinhala language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-sk
 Architecture: all
@@ -1831,14 +1207,6 @@ Description: Slovak language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Slovak.
 
-Package: iceweasel-l10n-sk
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-sk, ${misc:Depends}
-Description: Slovak language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-sl
 Architecture: all
 Section: localization
@@ -1854,14 +1222,6 @@ Description: Slovenian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Slovenian.
 
-Package: iceweasel-l10n-sl
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-sl, ${misc:Depends}
-Description: Slovenian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-son
 Architecture: all
 Section: localization
@@ -1875,14 +1235,6 @@ Description: Songhai languages language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Songhai languages.
-
-Package: iceweasel-l10n-son
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-son, ${misc:Depends}
-Description: Songhai languages language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-sq
 Architecture: all
@@ -1898,14 +1250,6 @@ Description: Albanian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Albanian.
 
-Package: iceweasel-l10n-sq
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-sq, ${misc:Depends}
-Description: Albanian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-sr
 Architecture: all
 Section: localization
@@ -1919,14 +1263,6 @@ Description: Serbian language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Serbian.
-
-Package: iceweasel-l10n-sr
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-sr, ${misc:Depends}
-Description: Serbian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-sv-se
 Architecture: all
@@ -1943,14 +1279,6 @@ Description: Swedish (Sweden) language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Swedish (Sweden).
 
-Package: iceweasel-l10n-sv-se
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-sv-se, ${misc:Depends}
-Description: Swedish (Sweden) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-ta
 Architecture: all
 Section: localization
@@ -1964,14 +1292,6 @@ Description: Tamil language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Tamil.
-
-Package: iceweasel-l10n-ta
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-ta, ${misc:Depends}
-Description: Tamil language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-te
 Architecture: all
@@ -1987,14 +1307,6 @@ Description: Telugu language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Telugu.
 
-Package: iceweasel-l10n-te
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-te, ${misc:Depends}
-Description: Telugu language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-th
 Architecture: all
 Section: localization
@@ -2009,14 +1321,6 @@ Description: Thai language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Thai.
 
-Package: iceweasel-l10n-th
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-th, ${misc:Depends}
-Description: Thai language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-tr
 Architecture: all
 Section: localization
@@ -2030,14 +1334,6 @@ Description: Turkish language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Turkish.
-
-Package: iceweasel-l10n-tr
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-tr, ${misc:Depends}
-Description: Turkish language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-uk
 Architecture: all
@@ -2054,14 +1350,6 @@ Description: Ukrainian language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Ukrainian.
 
-Package: iceweasel-l10n-uk
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-uk, ${misc:Depends}
-Description: Ukrainian language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-uz
 Architecture: all
 Section: localization
@@ -2075,14 +1363,6 @@ Description: Uzbek language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Uzbek.
-
-Package: iceweasel-l10n-uz
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-uz, ${misc:Depends}
-Description: Uzbek language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-vi
 Architecture: all
@@ -2098,14 +1378,6 @@ Description: Vietnamese language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Vietnamese.
 
-Package: iceweasel-l10n-vi
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-vi, ${misc:Depends}
-Description: Vietnamese language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-xh
 Architecture: all
 Section: localization
@@ -2119,14 +1391,6 @@ Description: Xhosa language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Xhosa.
-
-Package: iceweasel-l10n-xh
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-xh, ${misc:Depends}
-Description: Xhosa language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
 
 Package: firefox-esr-l10n-zh-cn
 Architecture: all
@@ -2142,14 +1406,6 @@ Description: Chinese (China) language package for Firefox ESR
  .
  This package contains the localization of Firefox ESR in Chinese (China).
 
-Package: iceweasel-l10n-zh-cn
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-zh-cn, ${misc:Depends}
-Description: Chinese (China) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
-
 Package: firefox-esr-l10n-zh-tw
 Architecture: all
 Section: localization
@@ -2163,11 +1419,3 @@ Description: Chinese (Taiwan) language package for Firefox ESR
  web application technologies.
  .
  This package contains the localization of Firefox ESR in Chinese (Taiwan).
-
-Package: iceweasel-l10n-zh-tw
-Architecture: all
-Priority: extra
-Section: oldlibs
-Depends: firefox-esr-l10n-zh-tw, ${misc:Depends}
-Description: Chinese (Taiwan) language package for Iceweasel - Transitional package
- This is a transitional package, it can be safely removed.
