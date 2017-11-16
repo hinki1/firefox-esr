@@ -161,19 +161,13 @@ PREPROCESSED_FILES += $(call preprocessed_filename,$(1))
 endef
 $(foreach f,$(IN_FILES),$(eval $(call preprocess, $(f))))
 
-GENERATED_FILES += $(PREPROCESSED_FILES) debian/l10n/$(PRODUCT)-l10n.control
-debian/control: debian/rules debian/changelog debian/l10n/$(PRODUCT)-l10n.control
-
-$(call lazy,L10N_PACKAGES,$$(foreach lang,$$(L10N_LANGS),$($(PRODUCT))-l10n-$$(call lc,$$(lang))))
-$(call lazy,L10N_PACKAGES_DEPS,$$(shell echo $$(L10N_PACKAGES) | sed 's/ /, /g'))
-
-debian/l10n/$(PRODUCT)-l10n.control: %: %.in
-	$(PYTHON) debian/l10n/gen $(L10N_LANGS) > $@
+GENERATED_FILES += $(PREPROCESSED_FILES)
+debian/control: debian/rules debian/changelog
 
 DICT_DIR := /usr/share/hunspell
 
 $(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) MOZ_APP_REMOTINGNAME $(SYSTEM_LIBS_VARS) SHORT_SOURCE_CHANNEL GTK3 DIST TRANSITION MOZ_FFVPX ICU_DATA_FILE CRASH_REPORTER RUST BUILD_RUST DEB_BUILD_ARCH
-debian/control: VARS += L10N_PACKAGES_DEPS PRODUCT
+debian/control: VARS += PRODUCT
 $(PREPROCESSED_FILES):
 	$(PYTHON) python/mozbuild/mozbuild/preprocessor.py --marker % -Fsubstitution $(foreach var,$(VARS),-D$(var)="$($(var))" )$< > $@
 
@@ -233,28 +227,9 @@ stamps/build-$(PRODUCT):: stamps/configure-check-$(PRODUCT)
 		LD_LIBS=-Wl,--no-gc-sections \
 		_LEAKTEST_FILES=leaktest.py
 
-L10N_BUILD_STAMPS = $(foreach lang,$(L10N_LANGS),stamps/build-l10n-$(lang))
-stamps/build-l10n:: $(L10N_BUILD_STAMPS)
-
-stamps/configure-l10n:: stamps/prepare-configure
-	$(if $(wildcard build-l10n),,mkdir build-l10n)
-	$(if $(wildcard l10n),,mkdir -p l10n)
-	cd build-l10n && \
-	MOZCONFIG=$(CURDIR)/debian/$($(PRODUCT)).mozconfig \
-	$(CONFIGURE_ENV) \
-	../configure --target=$(DEB_HOST_GNU_TYPE) --host=$(DEB_BUILD_GNU_TYPE) --prefix=/usr $(CONFIGURE_FLAGS) \
-		--with-l10n-base=$(CURDIR)/l10n \
-		$(BRANDING_CONFIGURE_FLAG)
-	$(MAKE) -C build-l10n config/host CURRENT_TIER=compile
-
-$(L10N_BUILD_STAMPS):: stamps/build-l10n-%: stamps/configure-l10n
-	$(if $(wildcard l10n/$*),,ln -sf ../l10n-$* l10n/$*)
-	cd $(CURDIR)/build-l10n && PYTHONIOENCODING=utf-8 $(CURDIR)/mach compare-locales --merge-dir $(CURDIR)/build-l10n/l10n-$* $*
-	$(MAKE) -C build-l10n/$(PRODUCT)/locales langpack-$* MOZ_CHROME_FILE_FORMAT=flat MOZ_LANGPACK_EID=langpack-$*@$($(PRODUCT)).mozilla.org PKG_LANGPACK_BASENAME='$$(MOZ_LANGPACK_EID)' PKG_LANGPACK_PATH=xpi/ LOCALE_MERGEDIR=$(CURDIR)/build-l10n/l10n-$*
-
 override_dh_auto_build override_dh_auto_build-arch: stamps/build-$(PRODUCT)
 
-override_dh_auto_build-indep: stamps/build-l10n
+override_dh_auto_build-indep:
 
 ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
 # Disable tests on stable-security
@@ -340,12 +315,6 @@ MPL-2.0: b2g/LICENSE
 override_dh_installdocs: MPL-1.1 MPL-2.0
 	dh_installdocs -A $^
 
-L10N_DH_INSTALL_STAMPS = $(foreach lang,$(L10N_LANGS),stamps/dh_install-l10n-$(lang))
-stamps/dh_install-l10n:: $(L10N_DH_INSTALL_STAMPS)
-
-$(L10N_DH_INSTALL_STAMPS):: stamps/dh_install-l10n-%: stamps/build-l10n-%
-	dh_install -p$($(PRODUCT))-l10n-$(call lc,$*) build-l10n/dist/xpi/langpack-$*@$($(PRODUCT)).mozilla.org.xpi $(LIB_DIR)/browser/extensions/
-
 branding_icon = $(or $(wildcard $(BRANDING)/$(1)),$(wildcard build-$(PRODUCT)/$(BRANDING)/$(1)))
 
 stamps/dh_install:: debian/noinstall
@@ -380,7 +349,7 @@ override_dh_shlibdeps:
 
 install binary binary-arch binary-indep: $(filter-out %.pc,$(GENERATED_FILES))
 
-binary binary-indep: stamps/dh_install-l10n
+binary binary-indep:
 
 binary binary-arch binary-indep build build-arch build-indep clean install:
 	dh $@
@@ -389,7 +358,7 @@ binary binary-arch binary-indep build build-arch build-indep clean install:
 
 .NOTPARALLEL:
 
-$(eval ALL_STAMPS := $(shell awk -F:: '$$1 ~ /^stamps\// && !/%/ { print $$1 }' debian/rules) stamps/dummy $(L10N_BUILD_STAMPS) $(L10N_DH_INSTALL_STAMPS))
+$(eval ALL_STAMPS := $(shell awk -F:: '$$1 ~ /^stamps\// && !/%/ { print $$1 }' debian/rules) stamps/dummy)
 $(ALL_STAMPS)::
 	@mkdir -p stamps
 	$(if $(wildcard $@),,touch $@)
