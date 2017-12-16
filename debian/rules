@@ -244,7 +244,7 @@ override_dh_auto_clean::
 ifeq ($(SOURCE_TYPE),nightly)
 	rm -f configure js/src/configure
 endif
-	rm -rf stamps l10n
+	rm -rf stamps
 	debian/rules debian/control TESTDIR=
 
 ifeq ($(DEB_BUILD_ARCH_ENDIAN),big)
