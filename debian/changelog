@@ -1,3 +1,10 @@
+firefox-esr (52.5.0esr-1~deb9u1.2) stretch; urgency=medium
+
+  * Non-maintainer upload.
+  * l10n entfernt
+
+ -- Matthias Hinkfoth <matthias.hinkfoth@gmx.de>  Sat, 16 Dec 2017 21:37:30 +0100
+
 firefox-esr (52.5.0esr-1~deb9u1.1) stretch; urgency=medium
 
   * Non-maintainer upload.
