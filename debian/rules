@@ -239,7 +239,7 @@ endif
 endif
 
 override_dh_auto_clean::
-	rm -f MPL
+	rm -f MPL-1.1
 	rm -f $(filter-out debian/control,$(GENERATED_FILES))
 ifeq ($(SOURCE_TYPE),nightly)
 	rm -f configure js/src/configure
@@ -309,10 +309,7 @@ endif
 MPL-1.1: gfx/cairo/cairo/COPYING-MPL-1.1
 	cp -f $< $@
 
-MPL-2.0: b2g/LICENSE
-	cp -f $< $@
-
-override_dh_installdocs: MPL-1.1 MPL-2.0
+override_dh_installdocs: MPL-1.1
 	dh_installdocs -A $^
 
 branding_icon = $(or $(wildcard $(BRANDING)/$(1)),$(wildcard build-$(PRODUCT)/$(BRANDING)/$(1)))
