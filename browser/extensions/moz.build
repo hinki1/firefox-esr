@@ -14,5 +14,4 @@ DIRS += [
 if 'a' in CONFIG['GRE_MILESTONE']:
     DIRS += [
         'flyweb',
-        'formautofill',
     ]
