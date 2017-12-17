@@ -8,9 +8,3 @@ DIRS += [
     'e10srollout',
     'pocket',
 ]
-
-# Only include the following system add-ons if building Aurora or Nightly
-if 'a' in CONFIG['GRE_MILESTONE']:
-    DIRS += [
-        'flyweb',
-    ]
