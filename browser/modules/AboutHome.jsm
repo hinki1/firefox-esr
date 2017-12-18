@@ -17,6 +17,8 @@ XPCOMUtils.defineLazyModuleGetter(this, "AppConstants",
   "resource://gre/modules/AppConstants.jsm");
 XPCOMUtils.defineLazyModuleGetter(this, "AutoMigrate",
   "resource:///modules/AutoMigrate.jsm");
+XPCOMUtils.defineLazyModuleGetter(this, "fxAccounts",
+  "resource://gre/modules/FxAccounts.jsm");
 XPCOMUtils.defineLazyModuleGetter(this, "PrivateBrowsingUtils",
   "resource://gre/modules/PrivateBrowsingUtils.jsm");
 XPCOMUtils.defineLazyModuleGetter(this, "Promise",
@@ -42,7 +44,35 @@ this.AboutHomeUtils = {
    * always show it.
    */
   get showKnowYourRights() {
-    return false;
+    // Look for an unconditional override pref. If set, do what it says.
+    // (true --> never show, false --> always show)
+    try {
+      return !Services.prefs.getBoolPref("browser.rights.override");
+    } catch (e) { }
+    // Ditto, for the legacy EULA pref.
+    try {
+      return !Services.prefs.getBoolPref("browser.EULA.override");
+    } catch (e) { }
+
+    if (!AppConstants.MOZILLA_OFFICIAL) {
+      // Non-official builds shouldn't show the notification.
+      return false;
+    }
+
+    // Look to see if the user has seen the current version or not.
+    var currentVersion = Services.prefs.getIntPref("browser.rights.version");
+    try {
+      return !Services.prefs.getBoolPref("browser.rights." + currentVersion + ".shown");
+    } catch (e) { }
+
+    // Legacy: If the user accepted a EULA, we won't annoy them with the
+    // equivalent about:rights page until the version changes.
+    try {
+      return !Services.prefs.getBoolPref("browser.EULA." + currentVersion + ".accepted");
+    } catch (e) { }
+
+    // We haven't shown the notification before, so do so now.
+    return true;
   }
 };
 
@@ -68,6 +98,7 @@ var AboutHome = {
     "AboutHome:Bookmarks",
     "AboutHome:History",
     "AboutHome:Addons",
+    "AboutHome:Sync",
     "AboutHome:Settings",
     "AboutHome:RequestUpdate",
     "AboutHome:MaybeShowAutoMigrationUndoNotification",
@@ -107,6 +138,10 @@ var AboutHome = {
 
       case "AboutHome:Addons":
         window.BrowserOpenAddonsMgr();
+        break;
+
+      case "AboutHome:Sync":
+        window.openPreferences("paneSync", { urlParams: { entrypoint: "abouthome" } });
         break;
 
       case "AboutHome:Settings":
