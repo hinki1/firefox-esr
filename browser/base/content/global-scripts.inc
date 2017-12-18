@@ -26,7 +26,6 @@
 <script type="application/javascript" src="chrome://browser/content/browser-safebrowsing.js"/>
 <script type="application/javascript" src="chrome://browser/content/browser-sidebar.js"/>
 <script type="application/javascript" src="chrome://browser/content/browser-social.js"/>
-<script type="application/javascript" src="chrome://browser/content/browser-syncui.js"/>
 <script type="application/javascript" src="chrome://browser/content/browser-tabsintitlebar.js"/>
 <script type="application/javascript" src="chrome://browser/content/browser-thumbnails.js"/>
 <script type="application/javascript" src="chrome://browser/content/browser-trackingprotection.js"/>
@@ -34,5 +33,3 @@
 #ifdef MOZ_DATA_REPORTING
 <script type="application/javascript" src="chrome://browser/content/browser-data-submission-info-bar.js"/>
 #endif
-
-<script type="application/javascript" src="chrome://browser/content/browser-fxaccounts.js"/>
