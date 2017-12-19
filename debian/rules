@@ -178,6 +178,8 @@ $(PREPROCESSED_FILES):
 override_dh_auto_configure:
 
 stamps/prepare-configure:: stamps/dummy
+# work around
+	@cp /usr/share/misc/config.guess /usr/share/misc/config.sub $(CURDIR)/build/autoconf/
 	$(MAKE) -f client.mk configure-files
 
 stamps/configure-check-$(PRODUCT):: stamps/configure-$(PRODUCT)
