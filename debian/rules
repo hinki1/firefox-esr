@@ -177,11 +177,6 @@ $(PREPROCESSED_FILES):
 override_dh_auto_configure:
 
 stamps/prepare-configure:: stamps/dummy
-	for dir in $(AUTOCONF_DIRS); do \
-		for file in config.guess config.sub; do \
-			sed -i '2!b;/^#/ i\exec "/usr/share/misc/'$$file'" "$$@"' $$dir/$$file; \
-		done; \
-	done
 	$(MAKE) -f client.mk configure-files
 
 stamps/configure-check-$(PRODUCT):: stamps/configure-$(PRODUCT)
