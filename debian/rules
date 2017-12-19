@@ -103,6 +103,7 @@ LDFLAGS += -Wl,--no-keep-memory
 # Also add execution time and memory usage stats in the logs
 LDFLAGS += -Wl,--stats
 
+#TODO: check usage
 AUTOCONF_DIRS := build/autoconf
 
 ifneq (,$(filter noopt,$(DEB_BUILD_OPTIONS)))
@@ -242,12 +243,6 @@ endif
 
 	dh_auto_clean --builddirectory=build-$(PRODUCT)
 	find . -name "*.pyc" -o -name "*.pyo" | xargs --no-run-if-empty rm -f
-
-	for dir in $(AUTOCONF_DIRS); do \
-		for file in config.guess config.sub; do \
-			sed -i '2!b;/^exec "/ d' $$dir/$$file; \
-		done; \
-	done
 
 override_dh_auto_install: stamps/install-$(PRODUCT)
 
