@@ -34,3 +34,5 @@
 /firefox-esr.postrm
 /firefox-esr.preinst
 /firefox-esr.prerm
+
+/locales/fr_FR.UTF-8/
