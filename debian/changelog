@@ -1,3 +1,11 @@
+firefox-esr (52.5.0esr-1~deb9u1.8) stretch; urgency=medium
+
+  * Non-maintainer upload.
+  * removed cloudsync again
+  * removed windows build code
+
+ -- Matthias Hinkfoth <matthias.hinkfoth@gmx.de>  Wed, 20 Dec 2017 15:05:35 +0100
+
 firefox-esr (52.5.0esr-1~deb9u1.7) stretch; urgency=medium
 
   * Non-maintainer upload.
