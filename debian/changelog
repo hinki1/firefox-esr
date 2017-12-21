@@ -1,3 +1,10 @@
+firefox-esr (52.5.0esr-1~deb9u1.9) stretch; urgency=medium
+
+  * Non-maintainer upload.
+  * syncedtabs entfernt
+
+ -- Matthias Hinkfoth <matthias.hinkfoth@gmx.de>  Thu, 21 Dec 2017 22:54:17 +0100
+
 firefox-esr (52.5.0esr-1~deb9u1.8) stretch; urgency=medium
 
   * Non-maintainer upload.
