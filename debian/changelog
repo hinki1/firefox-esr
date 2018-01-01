@@ -1,66 +1,9 @@
-firefox-esr (52.5.0esr-1~deb9u1.9) stretch; urgency=medium
+firefox-esr (52.5.2esr-1~deb9u1) stretch-security; urgency=medium
 
-  * Non-maintainer upload.
-  * syncedtabs entfernt
+  * New upstream release.
+  * Fixes for mfsa2017-28, also known as CVE-2017-7843.
 
- -- Matthias Hinkfoth <matthias.hinkfoth@gmx.de>  Thu, 21 Dec 2017 22:54:17 +0100
-
-firefox-esr (52.5.0esr-1~deb9u1.8) stretch; urgency=medium
-
-  * Non-maintainer upload.
-  * removed cloudsync again
-  * removed windows build code
-
- -- Matthias Hinkfoth <matthias.hinkfoth@gmx.de>  Wed, 20 Dec 2017 15:05:35 +0100
-
-firefox-esr (52.5.0esr-1~deb9u1.7) stretch; urgency=medium
-
-  * Non-maintainer upload.
-  * some configure removals
-
- -- Matthias Hinkfoth <matthias.hinkfoth@gmx.de>  Tue, 19 Dec 2017 11:55:21 +0100
-
-firefox-esr (52.5.0esr-1~deb9u1.6) stretch; urgency=medium
-
-  * Non-maintainer upload.
-  * fix removals
-
- -- Matthias Hinkfoth <matthias.hinkfoth@gmx.de>  Mon, 18 Dec 2017 10:20:14 +0100
-
-firefox-esr (52.5.0esr-1~deb9u1.5) stretch; urgency=medium
-
-  * Non-maintainer upload.
-  * removed some extensions
-
- -- Matthias Hinkfoth <matthias.hinkfoth@gmx.de>  Sun, 17 Dec 2017 21:31:34 +0100
-
-firefox-esr (52.5.0esr-1~deb9u1.4) stretch; urgency=medium
-
-  * Non-maintainer upload.
-  * enable build tests
-
- -- Matthias Hinkfoth <matthias.hinkfoth@gmx.de>  Sun, 17 Dec 2017 16:47:30 +0100
-
-firefox-esr (52.5.0esr-1~deb9u1.3) stretch; urgency=medium
-
-  * Non-maintainer upload.
-  * remove b2g
-
- -- Matthias Hinkfoth <matthias.hinkfoth@gmx.de>  Sat, 16 Dec 2017 23:38:09 +0100
-
-firefox-esr (52.5.0esr-1~deb9u1.2) stretch; urgency=medium
-
-  * Non-maintainer upload.
-  * l10n entfernt
-
- -- Matthias Hinkfoth <matthias.hinkfoth@gmx.de>  Sat, 16 Dec 2017 21:37:30 +0100
-
-firefox-esr (52.5.0esr-1~deb9u1.1) stretch; urgency=medium
-
-  * Non-maintainer upload.
-  * my patches
-
- -- Matthias Hinkfoth <matthias.hinkfoth@gmx.de>  Thu, 16 Nov 2017 19:43:35 +0100
+ -- Mike Hommey <glandium@debian.org>  Fri, 08 Dec 2017 20:41:27 +0900
 
 firefox-esr (52.5.0esr-1~deb9u1) stretch-security; urgency=medium
 
