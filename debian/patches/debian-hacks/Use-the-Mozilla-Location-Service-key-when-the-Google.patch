@@ -7,7 +7,7 @@ Subject: Use the Mozilla Location Service key when the Google Key is not there
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/browser/app/profile/firefox.js b/browser/app/profile/firefox.js
-index 026283bbe9e1..6184523b02a6 100644
+index 82f8e45a5b82..1e93c1b79c94 100644
 --- a/browser/app/profile/firefox.js
 +++ b/browser/app/profile/firefox.js
 @@ -1249,7 +1249,7 @@ pref("plain_text.wrap_long_lines", true);
