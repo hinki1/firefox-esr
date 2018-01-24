@@ -122,3 +122,11 @@ lextab.py
 
 # tup database
 /.tup
+
+# von hinki
+/MPL-1.1
+/MPL-2.0
+/build-browser/
+/build-l10n/
+/l10n/
+/stamps/

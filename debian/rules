@@ -19,6 +19,8 @@ PYTHON := python -B
 PRODUCT := browser
 include debian/upstream.mk
 
+DIST := stretch
+
 SYSTEM_LIBS = zlib bz2 hunspell ffi libevent
 ifeq (,$(filter wheezy jessie stretch,$(DIST)))
 SYSTEM_LIBS += nspr nss sqlite
@@ -101,6 +103,7 @@ LDFLAGS += -Wl,--no-keep-memory
 # Also add execution time and memory usage stats in the logs
 LDFLAGS += -Wl,--stats
 
+#TODO: check usage
 AUTOCONF_DIRS := build/autoconf
 
 ifneq (,$(filter noopt,$(DEB_BUILD_OPTIONS)))
@@ -159,33 +162,15 @@ PREPROCESSED_FILES += $(call preprocessed_filename,$(1))
 endef
 $(foreach f,$(IN_FILES),$(eval $(call preprocess, $(f))))
 
-GENERATED_FILES += $(PREPROCESSED_FILES) debian/l10n/$(PRODUCT)-l10n.control
-debian/control: debian/rules debian/changelog debian/l10n/$(PRODUCT)-l10n.control
-
-$(call lazy,L10N_PACKAGES,$$(foreach lang,$$(L10N_LANGS),$($(PRODUCT))-l10n-$$(call lc,$$(lang))))
-$(call lazy,L10N_PACKAGES_DEPS,$$(shell echo $$(L10N_PACKAGES) | sed 's/ /, /g'))
-
-debian/l10n/$(PRODUCT)-l10n.control: %: %.in
-	$(PYTHON) debian/l10n/gen $(L10N_LANGS) > $@
+GENERATED_FILES += $(PREPROCESSED_FILES)
+debian/control: debian/rules debian/changelog
 
 DICT_DIR := /usr/share/hunspell
 
 $(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) MOZ_APP_REMOTINGNAME $(SYSTEM_LIBS_VARS) SHORT_SOURCE_CHANNEL GTK3 DIST TRANSITION MOZ_FFVPX ICU_DATA_FILE CRASH_REPORTER RUST BUILD_RUST DEB_BUILD_ARCH
-debian/control: VARS += L10N_PACKAGES_DEPS PRODUCT
+debian/control: VARS += PRODUCT
 $(PREPROCESSED_FILES):
 	$(PYTHON) python/mozbuild/mozbuild/preprocessor.py --marker % -Fsubstitution $(foreach var,$(VARS),-D$(var)="$($(var))" )$< > $@
-
-ifdef TRANSITION
-MAINTSCRIPTS := $(addprefix debian/,$(addsuffix .maintscript,$(shell awk -F/ '$$1 != "searchplugins" { next } $$2 == "locale" && $$3 != "en-US" { p="iceweasel-l10n-" $$3 } $$2 == "common" || ($$2 "/" $$3 == "locale/en-US") { p="iceweasel" } !done[p] { print p; done[p] = 1 }' debian/removed_conffiles)))
-
-GENERATED_FILES += $(MAINTSCRIPTS)
-
-debian/iceweasel.maintscript: debian/removed_conffiles
-	(grep -v searchplugins/locale $<; grep searchplugins/locale/en-US $<) | awk '{print "rm_conffile /etc/iceweasel/" $$0, "45.0esr-2~", "iceweasel"}' > $@
-
-debian/iceweasel-l10n-%.maintscript: debian/removed_conffiles
-	grep -i searchplugins/locale/$* $< | awk '{print "rm_conffile /etc/iceweasel/" $$0, "45.0esr-2~", "iceweasel-l10n-$*"}' > $@
-endif
 
 %/package-manifest:
 	$(MAKE) -C $*
@@ -193,14 +178,9 @@ endif
 override_dh_auto_configure:
 
 stamps/prepare-configure:: stamps/dummy
-	for dir in $(AUTOCONF_DIRS); do \
-		for file in config.guess config.sub; do \
-			sed -i '2!b;/^#/ i\exec "/usr/share/misc/'$$file'" "$$@"' $$dir/$$file; \
-		done; \
-	done
-ifeq ($(SOURCE_TYPE),nightly)
+# work around
+	@cp /usr/share/misc/config.guess /usr/share/misc/config.sub $(CURDIR)/build/autoconf/
 	$(MAKE) -f client.mk configure-files
-endif
 
 stamps/configure-check-$(PRODUCT):: stamps/configure-$(PRODUCT)
 # Ensure --{with,enable}-system options properly set expected variables
@@ -243,43 +223,20 @@ stamps/build-$(PRODUCT):: stamps/configure-check-$(PRODUCT)
 		LD_LIBS=-Wl,--no-gc-sections \
 		_LEAKTEST_FILES=leaktest.py
 
-L10N_BUILD_STAMPS = $(foreach lang,$(L10N_LANGS),stamps/build-l10n-$(lang))
-stamps/build-l10n:: $(L10N_BUILD_STAMPS)
-
-stamps/configure-l10n:: stamps/prepare-configure
-	$(if $(wildcard build-l10n),,mkdir build-l10n)
-	$(if $(wildcard l10n),,mkdir -p l10n)
-	cd build-l10n && \
-	MOZCONFIG=$(CURDIR)/debian/$($(PRODUCT)).mozconfig \
-	$(CONFIGURE_ENV) \
-	../configure --target=$(DEB_HOST_GNU_TYPE) --host=$(DEB_BUILD_GNU_TYPE) --prefix=/usr $(CONFIGURE_FLAGS) \
-		--with-l10n-base=$(CURDIR)/l10n \
-		$(BRANDING_CONFIGURE_FLAG)
-	$(MAKE) -C build-l10n config/host CURRENT_TIER=compile
-
-$(L10N_BUILD_STAMPS):: stamps/build-l10n-%: stamps/configure-l10n
-	$(if $(wildcard l10n/$*),,ln -sf ../l10n-$* l10n/$*)
-	cd $(CURDIR)/build-l10n && PYTHONIOENCODING=utf-8 $(CURDIR)/mach compare-locales --merge-dir $(CURDIR)/build-l10n/l10n-$* $*
-	$(MAKE) -C build-l10n/$(PRODUCT)/locales langpack-$* MOZ_CHROME_FILE_FORMAT=flat MOZ_LANGPACK_EID=langpack-$*@$($(PRODUCT)).mozilla.org PKG_LANGPACK_BASENAME='$$(MOZ_LANGPACK_EID)' PKG_LANGPACK_PATH=xpi/ LOCALE_MERGEDIR=$(CURDIR)/build-l10n/l10n-$*
-
 override_dh_auto_build override_dh_auto_build-arch: stamps/build-$(PRODUCT)
 
-override_dh_auto_build-indep: stamps/build-l10n
+override_dh_auto_build-indep:
 
 ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
-# Disable tests on stable-security
-ifeq (,$(findstring ~deb,$(DEBIAN_RELEASE)))
 include debian/test.mk
-endif
 endif
 
 override_dh_auto_clean::
-	rm -f MPL
+	rm -f MPL-1.1
 	rm -f $(filter-out debian/control,$(GENERATED_FILES))
-ifeq ($(SOURCE_TYPE),nightly)
 	rm -f configure js/src/configure
-endif
-	rm -rf stamps l10n
+	rm -rf stamps
+# recreate debian/control
 	debian/rules debian/control TESTDIR=
 
 ifeq ($(DEB_BUILD_ARCH_ENDIAN),big)
@@ -288,12 +245,6 @@ endif
 
 	dh_auto_clean --builddirectory=build-$(PRODUCT)
 	find . -name "*.pyc" -o -name "*.pyo" | xargs --no-run-if-empty rm -f
-
-	for dir in $(AUTOCONF_DIRS); do \
-		for file in config.guess config.sub; do \
-			sed -i '2!b;/^exec "/ d' $$dir/$$file; \
-		done; \
-	done
 
 override_dh_auto_install: stamps/install-$(PRODUCT)
 
@@ -344,17 +295,8 @@ endif
 MPL-1.1: gfx/cairo/cairo/COPYING-MPL-1.1
 	cp -f $< $@
 
-MPL-2.0: b2g/LICENSE
-	cp -f $< $@
-
-override_dh_installdocs: MPL-1.1 MPL-2.0
+override_dh_installdocs: MPL-1.1
 	dh_installdocs -A $^
-
-L10N_DH_INSTALL_STAMPS = $(foreach lang,$(L10N_LANGS),stamps/dh_install-l10n-$(lang))
-stamps/dh_install-l10n:: $(L10N_DH_INSTALL_STAMPS)
-
-$(L10N_DH_INSTALL_STAMPS):: stamps/dh_install-l10n-%: stamps/build-l10n-%
-	dh_install -p$($(PRODUCT))-l10n-$(call lc,$*) build-l10n/dist/xpi/langpack-$*@$($(PRODUCT)).mozilla.org.xpi $(LIB_DIR)/browser/extensions/
 
 branding_icon = $(or $(wildcard $(BRANDING)/$(1)),$(wildcard build-$(PRODUCT)/$(BRANDING)/$(1)))
 
@@ -388,15 +330,9 @@ endif
 override_dh_shlibdeps:
 	dh_shlibdeps -a -l$(CURDIR)/debian/tmp$(LIB_DIR)
 
-ifdef TRANSITION
-override_dh_gencontrol:
-	dh_gencontrol$(foreach pkg,$(subst $($(PRODUCT)),iceweasel,$(L10N_PACKAGES)) iceweasel-l10n-all, -p$(pkg)) -- -v1:$(DEBIAN_VERSION)
-	dh_gencontrol$(foreach pkg,$(subst $($(PRODUCT)),iceweasel,$(L10N_PACKAGES)) iceweasel-l10n-all, -N$(pkg))
-endif
-
 install binary binary-arch binary-indep: $(filter-out %.pc,$(GENERATED_FILES))
 
-binary binary-indep: stamps/dh_install-l10n
+binary binary-indep:
 
 binary binary-arch binary-indep build build-arch build-indep clean install:
 	dh $@
@@ -405,7 +341,7 @@ binary binary-arch binary-indep build build-arch build-indep clean install:
 
 .NOTPARALLEL:
 
-$(eval ALL_STAMPS := $(shell awk -F:: '$$1 ~ /^stamps\// && !/%/ { print $$1 }' debian/rules) stamps/dummy $(L10N_BUILD_STAMPS) $(L10N_DH_INSTALL_STAMPS))
+$(eval ALL_STAMPS := $(shell awk -F:: '$$1 ~ /^stamps\// && !/%/ { print $$1 }' debian/rules) stamps/dummy)
 $(ALL_STAMPS)::
 	@mkdir -p stamps
 	$(if $(wildcard $@),,touch $@)
