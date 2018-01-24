@@ -1,3 +1,10 @@
+firefox-esr (52.6.0esr-1~deb9u1.1) stretch; urgency=medium
+
+  * Non-maintainer upload.
+  * meine patches
+
+ -- Matthias Hinkfoth <hinki@abwesend.de>  Wed, 24 Jan 2018 23:00:42 +0100
+
 firefox-esr (52.6.0esr-1~deb9u1) stretch-security; urgency=medium
 
   * New upstream release.
