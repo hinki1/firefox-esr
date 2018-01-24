@@ -1,3 +1,11 @@
+firefox-esr (52.6.0esr-2) unstable; urgency=medium
+
+  * intl/icu/source/i18n/digitlst.cpp: Apply part of
+    http://bugs.icu-project.org/trac/changeset/40603 to fix FTBFS with glibc
+    2.26 on big endian platforms.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 24 Jan 2018 17:48:36 +0900
+
 firefox-esr (52.6.0esr-1) unstable; urgency=medium
 
   * New upstream release.
