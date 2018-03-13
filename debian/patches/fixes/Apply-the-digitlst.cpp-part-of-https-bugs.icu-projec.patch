@@ -1,0 +1,35 @@
+From: Mike Hommey <mh@glandium.org>
+Date: Wed, 24 Jan 2018 17:45:54 +0900
+Subject: Apply the digitlst.cpp part of
+ https://bugs.icu-project.org/trac/changeset/40603/
+
+---
+ intl/icu/source/i18n/digitlst.cpp | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+diff --git a/intl/icu/source/i18n/digitlst.cpp b/intl/icu/source/i18n/digitlst.cpp
+index ab5b5571ab69..6940f199d735 100644
+--- a/intl/icu/source/i18n/digitlst.cpp
++++ b/intl/icu/source/i18n/digitlst.cpp
+@@ -53,6 +53,7 @@
+ #if !defined(U_USE_STRTOD_L)
+ # if U_PLATFORM_USES_ONLY_WIN32_API
+ #   define U_USE_STRTOD_L 1
++#   define U_HAVE_XLOCALE_H 0
+ # elif defined(U_HAVE_STRTOD_L)
+ #   define U_USE_STRTOD_L U_HAVE_STRTOD_L
+ # else
+@@ -61,10 +62,10 @@
+ #endif
+ 
+ #if U_USE_STRTOD_L
+-# if U_PLATFORM_USES_ONLY_WIN32_API || U_PLATFORM == U_PF_CYGWIN
+-#   include <locale.h>
+-# else
++# if U_HAVE_XLOCALE_H
+ #   include <xlocale.h>
++# else
++#   include <locale.h>
+ # endif
+ #endif
+ 

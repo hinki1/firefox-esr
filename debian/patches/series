@@ -1,4 +1,5 @@
 fixes/Allow-.js-preference-files-to-set-locked-prefs-with-.patch
+fixes/Apply-the-digitlst.cpp-part-of-https-bugs.icu-projec.patch
 porting/Add-xptcall-support-for-SH4-processors.patch
 porting/NSS-Fix-FTBFS-on-Hurd-because-of-MAXPATHLEN.patch
 porting/NSS-GNU-kFreeBSD-support.patch
