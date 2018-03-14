@@ -1,3 +1,10 @@
+firefox-esr (52.7.1esr-1) unstable; urgency=medium
+
+  * New upstream release.
+    - Fixes search engines in Italian locale.
+
+ -- Mike Hommey <glandium@debian.org>  Thu, 15 Mar 2018 08:29:27 +0900
+
 firefox-esr (52.7.0esr-1) unstable; urgency=medium
 
   * New upstream release.
