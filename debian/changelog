@@ -1,3 +1,10 @@
+firefox-esr (52.7.2esr-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2018-08, also known as CVE-2018-5146, CVE-2018-5147.
+
+ -- Mike Hommey <glandium@debian.org>  Sat, 17 Mar 2018 07:26:52 +0900
+
 firefox-esr (52.7.1esr-1) unstable; urgency=medium
 
   * New upstream release.
