@@ -4,11 +4,7 @@
 
 # finds the location of the browser and puts it in the variable $(browser_path)
 
-ifneq (,$(filter WINNT,$(OS_ARCH)))
-program = $(MOZ_APP_NAME)$(BIN_SUFFIX)
-else
 program = $(MOZ_APP_NAME)-bin$(BIN_SUFFIX)
-endif
 
 TARGET_DIST = $(TARGET_DEPTH)/dist
 
