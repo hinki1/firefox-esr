@@ -1,11 +1,11 @@
-firefox-esr (52.7.0esr-1~deb9u1.1) stretch; urgency=medium
+firefox-esr (52.7.2esr-1~deb9u1) stretch-security; urgency=medium
 
-  * Non-maintainer upload.
-  * meine patches
+  * New upstream release.
+  * Fixes for mfsa2018-08, also known as CVE-2018-5146, CVE-2018-5147.
 
- -- Matthias Hinkfoth <hinki@abwesend.de>  Fri, 16 Mar 2018 21:43:04 +0100
+ -- Mike Hommey <glandium@debian.org>  Sat, 17 Mar 2018 07:26:52 +0900
 
-firefox-esr (52.7.0esr-1~deb9u1) stretch-security; urgency=medium
+firefox-esr (52.7.1esr-1~deb9u1) stretch-security; urgency=medium
 
   * New upstream release.
   * Fixes for mfsa2018-07, also known as
@@ -16,7 +16,7 @@ firefox-esr (52.7.0esr-1~deb9u1) stretch-security; urgency=medium
     http://bugs.icu-project.org/trac/changeset/40603 to fix FTBFS with glibc
     2.26 on big endian platforms.
 
- -- Mike Hommey <glandium@debian.org>  Wed, 14 Mar 2018 07:11:34 +0900
+ -- Mike Hommey <glandium@debian.org>  Thu, 15 Mar 2018 08:29:27 +0900
 
 firefox-esr (52.6.0esr-1~deb9u1) stretch-security; urgency=medium
 
