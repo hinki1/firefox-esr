@@ -1,3 +1,10 @@
+firefox-esr (52.7.3esr-1~deb9u1) stretch-security; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2018-10, also known as CVE-2018-5148.
+
+ -- Mike Hommey <glandium@debian.org>  Tue, 27 Mar 2018 08:03:45 +0900
+
 firefox-esr (52.7.2esr-1~deb9u1) stretch-security; urgency=medium
 
   * New upstream release.
