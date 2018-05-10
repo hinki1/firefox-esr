@@ -1,7 +1,7 @@
 Source: firefox-esr
 Section: web
 Priority: optional
-Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
+Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
 Uploaders: Mike Hommey <glandium@debian.org>
 Build-Depends: autotools-dev,
 %if DIST == wheezy || DIST == jessie
@@ -86,8 +86,8 @@ Build-Conflicts: graphicsmagick-imagemagick-compat,
                  libhildonmime-dev,
                  libosso-dev
 Standards-Version: 3.9.8.0
-Vcs-Git: https://anonscm.debian.org/git/pkg-mozilla/iceweasel.git -b @SHORT_SOURCE_CHANNEL@/master
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-mozilla/iceweasel.git?h=@SHORT_SOURCE_CHANNEL@/master
+Vcs-Git: https://salsa.debian.org/mozilla-team/firefox.git -b @SHORT_SOURCE_CHANNEL@/master
+Vcs-Browser: https://salsa.debian.org/mozilla-team/firefox/commits/@SHORT_SOURCE_CHANNEL@/master
 
 Package: @browser@
 Architecture: any
