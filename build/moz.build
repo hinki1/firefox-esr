@@ -10,10 +10,7 @@ with Files('**'):
 # This cannot be named "build" because of bug 922191.
 SPHINX_TREES['buildsystem'] = 'docs'
 
-if CONFIG['OS_ARCH'] == 'WINNT':
-    DIRS += ['win32']
-else:
-    DIRS += ['unix']
+DIRS += ['unix']
 
 if CONFIG['MOZ_WIDGET_TOOLKIT'] == 'android':
     DIRS += ['annotationProcessors']

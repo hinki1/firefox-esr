@@ -69,30 +69,6 @@ SH := /bin/sh
 PERL ?= perl
 PYTHON ?= $(shell which python2.7 > /dev/null 2>&1 && echo python2.7 || echo python)
 
-CONFIG_GUESS_SCRIPT := $(wildcard $(TOPSRCDIR)/build/autoconf/config.guess)
-ifdef CONFIG_GUESS_SCRIPT
-  CONFIG_GUESS := $(shell $(CONFIG_GUESS_SCRIPT))
-endif
-
-
-####################################
-# Sanity checks
-
-# Windows checks.
-ifneq (,$(findstring mingw,$(CONFIG_GUESS)))
-
-# check for CRLF line endings
-ifneq (0,$(shell $(PERL) -e 'binmode(STDIN); while (<STDIN>) { if (/\r/) { print "1"; exit } } print "0"' < $(TOPSRCDIR)/client.mk))
-$(error This source tree appears to have Windows-style line endings. To \
-convert it to Unix-style line endings, check \
-"https://developer.mozilla.org/en-US/docs/Developer_Guide/Mozilla_build_FAQ\#Win32-specific_questions" \
-for a workaround of this issue.)
-endif
-
-# Set this for baseconfig.mk
-HOST_OS_ARCH=WINNT
-endif
-
 ####################################
 # Load mozconfig Options
 
