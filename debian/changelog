@@ -1,9 +1,19 @@
-firefox-esr (52.8.0esr-1~deb9u1.1) stretch; urgency=medium
+firefox-esr (52.8.1esr-1~deb9u1.1) stretch; urgency=medium
 
   * Non-maintainer upload.
   * meine patches
 
  -- Matthias Hinkfoth <hinki@abwesend.de>  Sun, 13 May 2018 21:40:49 +0200
+
+firefox-esr (52.8.1esr-1~deb9u1) stretch-security; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2018-14, also known as CVE-2018-6126.
+
+  * debian/control*: Update Maintainer and Vcs fields, moving off alioth.
+    Closes: #899509
+
+ -- Mike Hommey <glandium@debian.org>  Fri, 08 Jun 2018 16:38:21 +0900
 
 firefox-esr (52.8.0esr-1~deb9u1) stretch-security; urgency=medium
 
