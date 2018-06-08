@@ -1,0 +1,24 @@
+From: Mike Hommey <mh+mozilla@glandium.org>
+Date: Sat, 19 May 2018 11:23:18 +0900
+Subject: Bug 1462859 - Add --disable-layoutex when running ICU configure.
+ r?build
+
+In some recent ICU update, --enable-layoutex changed from defaulting to
+the "same-as-layout" to "yes", so --disable-layout doesn't imply
+--disable-layoutex anymore, but we removed the layoutex files.
+---
+ intl/icu_sources_data.py | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/intl/icu_sources_data.py b/intl/icu_sources_data.py
+index 98c0ccbf6531..f0023960833e 100644
+--- a/intl/icu_sources_data.py
++++ b/intl/icu_sources_data.py
+@@ -123,6 +123,7 @@ def update_data_file(topsrcdir):
+              '--disable-extras',
+              '--disable-icuio',
+              '--disable-layout',
++             '--disable-layoutex',
+              '--disable-tests',
+              '--disable-samples',
+              '--disable-strict'],
