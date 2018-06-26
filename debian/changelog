@@ -1,3 +1,16 @@
+firefox-esr (52.9.0esr-1~deb9u1) stretch-security; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2018-17, also known as:
+    CVE-2018-12359, CVE-2018-12360, CVE-2018-12362, CVE-2018-5156,
+    CVE-2018-12363, CVE-2018-12364, CVE-2018-12365, CVE-2018-12366,
+    CVE-2018-12368, CVE-2018-5188.
+
+  * intl/icu_sources_data.py: Add --disable-layoutex when running ICU
+    configure. bz#1462859.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 27 Jun 2018 07:33:25 +0900
+
 firefox-esr (52.8.1esr-1~deb9u1) stretch-security; urgency=medium
 
   * New upstream release.
