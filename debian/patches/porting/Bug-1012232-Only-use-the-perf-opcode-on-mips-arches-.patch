@@ -4,7 +4,7 @@ Subject: Bug 1012232 - Only use the perf opcode on mips arches that support
  it.
 
 ---
- media/libyuv/source/row_mips.cc | 38 ++++++++++++++++++++++++++++++++++++++
+ media/libyuv/source/row_mips.cc | 38 +++++++++++++++++++++++++++++++++
  1 file changed, 38 insertions(+)
 
 diff --git a/media/libyuv/source/row_mips.cc b/media/libyuv/source/row_mips.cc

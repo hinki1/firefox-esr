@@ -3,9 +3,9 @@ Date: Thu, 9 Mar 2017 07:17:01 +0900
 Subject: Build against system libjsoncpp
 
 ---
- config/system-headers                              |  1 +
- .../crashreporter/jsoncpp/src/lib_json/moz.build   | 27 +---------------------
- toolkit/crashreporter/minidump-analyzer/moz.build  |  2 +-
+ config/system-headers                         |  1 +
+ .../jsoncpp/src/lib_json/moz.build            | 27 +------------------
+ .../crashreporter/minidump-analyzer/moz.build |  2 +-
  3 files changed, 3 insertions(+), 27 deletions(-)
 
 diff --git a/config/system-headers b/config/system-headers
