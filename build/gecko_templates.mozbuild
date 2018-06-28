@@ -25,19 +25,8 @@ def GeckoBinary(linkage='dependent', msvcrt='dynamic', mozglue=None):
     'program' (mozglue linked to an executable program), or 'library' (mozglue
     linked to a shared library).
     '''
-    if msvcrt == 'dynamic' or CONFIG['OS_ARCH'] != 'WINNT' or CONFIG['MOZ_ASAN']:
+    if CONFIG['OS_ARCH'] != 'WINNT' or CONFIG['MOZ_ASAN']:
         xpcomglue = 'xpcomglue'
-    elif msvcrt == 'static':
-        USE_STATIC_LIBS = True
-        xpcomglue = 'xpcomglue_staticruntime'
-        if not CONFIG['GNU_CC']:
-            mozglue = None
-            if linkage == 'dependent':
-                USE_LIBS += [
-                    'mozalloc_staticruntime',
-                ]
-    else:
-        error('msvcrt must be "dynamic" or "static"')
 
     if linkage == 'dependent':
         USE_LIBS += [
